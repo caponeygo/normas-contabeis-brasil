@@ -79,9 +79,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 
 | O que mudar | Onde |
 |---|---|
-| Normas, temas, áreas | `scripts/gerar_indice.py` |
-| Resumos | `scripts/resumos.py` |
-| Pastas por setor | `scripts/dados_setores/<setor>.py` |
+| Normas, resumos, situação, temas, áreas, setores, fontes externas | planilhas em `dados/` (ver [`dados/README.md`](../dados/README.md)) |
 | Páginas escritas à mão em `areas/` | `scripts/conteudo/*.md` |
 | Glossário e lançamentos | `GLOSSARIO.md`, `lancamentos/` (edição direta) |
 | Instruções para IA | só este `AGENTS.md` (as cópias `CLAUDE.md` e `.github/copilot-instructions.md` são geradas) |
@@ -99,6 +97,7 @@ python scripts/verificar_links.py --baixar
 python scripts/verificar_itens.py
 python scripts/monitorar_cfc.py
 python scripts/testar_busca.py
+python scripts/verificar_links_internos.py
 ```
 
 > Os resumos foram escritos a partir do conteúdo das normas e conferidos automaticamente contra os PDFs oficiais
