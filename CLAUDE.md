@@ -28,12 +28,19 @@ adoção inicial → ITG 10; perda por impairment → NBC TG 01 (R4).
 | `AREAS.md` | Normas agrupadas por área + tabela de busca por tema |
 | `README.md` | Índice por série |
 | `graphify-out/graph.json` | Grafo de conhecimento (norma ↔ tema ↔ área ↔ CPC/IFRS) |
-| `graphify-out/graph.html` | Visualização interativa do grafo |
+| `graphify-out/graph.html` | Mapa interativo: um círculo com uma bolinha por norma, agrupadas por área e coloridas por série; busca por tema/sinônimo |
 | `graphify-out/GRAPH_REPORT.md` | Relatório do grafo (comunidades, nós centrais) |
 
 Com o [graphify](https://github.com/safishamsi/graphify) instalado: `graphify query "imobilizado"`.
 
 ## Atualizar
 
-Edite os dados em `scripts/gerar_indice.py` e rode `python scripts/gerar_indice.py`. Isso regenera
-README.md, AREAS.md, normas.json e a extração do grafo. Depois, reconstrua o grafo com `/graphify`.
+Edite os dados em `scripts/gerar_indice.py` e rode, da raiz do projeto:
+
+```bash
+python graphify-out/rebuild_graph.py
+```
+
+Ele regenera README.md, AREAS.md e normas.json, refaz `graphify-out/graph.json` e gera o
+`graph.html` (layout em `graphify-out/build_html.py`, visual em `graphify-out/template.html`).
+Use o Python que tem o graphify instalado (`uv tool install graphifyy`).
