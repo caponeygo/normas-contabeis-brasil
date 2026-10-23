@@ -31,6 +31,36 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 `CPC 26 (R1)` é o pronunciamento do CPC. O CFC o torna obrigatório para os contadores como `NBC TG 26 (R5)`.
 `(Rn)` indica a revisão. As interpretações `ICPC` correspondem às `ITG`, e as orientações `OCPC` correspondem aos `CTG`.
 
+## Encontrar por assunto
+
+Veja **[AREAS.md](AREAS.md)** (normas agrupadas por área e tabela de busca por tema), o grafo interativo **[graphify-out/graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)** e os dados em **[normas.json](normas.json)**. Instruções para agentes de IA: **[AGENTS.md](AGENTS.md)**.
+
+| Área | Nº de normas |
+|---|---|
+| Apresentação e Divulgação | 43 |
+| Asseguração | 12 |
+| Ativos | 25 |
+| Auditoria Independente | 43 |
+| Auditoria Interna | 1 |
+| Fundamentos | 13 |
+| Instrumentos Financeiros | 11 |
+| Mensuração | 5 |
+| Moeda e Câmbio | 7 |
+| Participações Societárias | 20 |
+| Passivos | 15 |
+| Patrimônio Líquido | 7 |
+| Pequenas e Médias Empresas | 5 |
+| Perícia Contábil | 4 |
+| Receitas | 6 |
+| Revisão | 6 |
+| Serviços Correlatos | 7 |
+| Setor Público | 39 |
+| Setores Específicos | 26 |
+| Sustentabilidade | 8 |
+| Tributos | 4 |
+| Ética e Exercício Profissional | 12 |
+| Normas Internacionais | 45 |
+
 ## NBC TG – Normas técnicas gerais
 
 | NBC TG | Título | CPC | IFRS/IAS | Texto |

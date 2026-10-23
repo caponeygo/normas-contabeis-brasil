@@ -1,0 +1,3873 @@
+{
+ "descricao": "Índice das normas contábeis e de auditoria brasileiras (CFC/CPC) e internacionais (IFRS/IAS), por área e tema.",
+ "atualizado_em": "2026-10-23",
+ "temas": [
+  {
+   "tema": "Imobilizado",
+   "area": "Ativos",
+   "sinonimos": "ativo fixo, depreciação, vida útil, PP&E, máquinas, edificações, IAS 16"
+  },
+  {
+   "tema": "Intangível",
+   "area": "Ativos",
+   "sinonimos": "ágio, goodwill, software, marcas, patentes, amortização, IAS 38"
+  },
+  {
+   "tema": "Estoques",
+   "area": "Ativos",
+   "sinonimos": "inventário, custo de produção, CMV, IAS 2"
+  },
+  {
+   "tema": "Propriedade para investimento",
+   "area": "Ativos",
+   "sinonimos": "imóveis para renda, IAS 40"
+  },
+  {
+   "tema": "Ativo biológico",
+   "area": "Ativos",
+   "sinonimos": "agronegócio, rebanho, safra, IAS 41"
+  },
+  {
+   "tema": "Redução ao valor recuperável (impairment)",
+   "area": "Ativos",
+   "sinonimos": "impairment, teste de recuperabilidade, IAS 36"
+  },
+  {
+   "tema": "Arrendamentos",
+   "area": "Ativos",
+   "sinonimos": "leasing, aluguel, direito de uso, IFRS 16"
+  },
+  {
+   "tema": "Ativo mantido para venda",
+   "area": "Ativos",
+   "sinonimos": "operação descontinuada, IFRS 5"
+  },
+  {
+   "tema": "Instrumentos financeiros",
+   "area": "Instrumentos Financeiros",
+   "sinonimos": "derivativos, hedge, perda esperada, PCLD, aplicações, IFRS 9"
+  },
+  {
+   "tema": "Valor justo e mensuração",
+   "area": "Mensuração",
+   "sinonimos": "fair value, IFRS 13"
+  },
+  {
+   "tema": "Ajuste a valor presente",
+   "area": "Mensuração",
+   "sinonimos": "AVP, desconto"
+  },
+  {
+   "tema": "Receita",
+   "area": "Receitas",
+   "sinonimos": "faturamento, contrato com cliente, obrigação de desempenho, IFRS 15"
+  },
+  {
+   "tema": "Subvenção governamental",
+   "area": "Receitas",
+   "sinonimos": "incentivo fiscal, subsídio, IAS 20"
+  },
+  {
+   "tema": "Provisões e contingências",
+   "area": "Passivos",
+   "sinonimos": "processos judiciais, passivo contingente, IAS 37"
+  },
+  {
+   "tema": "Benefícios a empregados",
+   "area": "Passivos",
+   "sinonimos": "plano de pensão, previdência, IAS 19"
+  },
+  {
+   "tema": "Custos de empréstimos",
+   "area": "Passivos",
+   "sinonimos": "juros capitalizados, IAS 23"
+  },
+  {
+   "tema": "Tributos sobre o lucro",
+   "area": "Tributos",
+   "sinonimos": "IR, CSLL, imposto diferido, IAS 12"
+  },
+  {
+   "tema": "Patrimônio, dividendos e ações",
+   "area": "Patrimônio Líquido",
+   "sinonimos": "stock options, lucro por ação, JCP"
+  },
+  {
+   "tema": "Câmbio e inflação",
+   "area": "Moeda e Câmbio",
+   "sinonimos": "conversão, moeda funcional, IAS 21, IAS 29"
+  },
+  {
+   "tema": "Consolidação e participações",
+   "area": "Participações Societárias",
+   "sinonimos": "MEP, controladas, coligadas, joint venture, fusão e aquisição, IFRS 3, IFRS 10"
+  },
+  {
+   "tema": "Demonstrações contábeis e divulgação",
+   "area": "Apresentação e Divulgação",
+   "sinonimos": "balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18"
+  },
+  {
+   "tema": "Políticas contábeis e erros",
+   "area": "Apresentação e Divulgação",
+   "sinonimos": "mudança de estimativa, retificação de erro, IAS 8"
+  },
+  {
+   "tema": "Estrutura conceitual",
+   "area": "Fundamentos",
+   "sinonimos": "princípios, framework, características qualitativas"
+  },
+  {
+   "tema": "Adoção inicial",
+   "area": "Fundamentos",
+   "sinonimos": "first-time adoption, Lei 11.638, IFRS 1"
+  },
+  {
+   "tema": "Escrituração contábil",
+   "area": "Fundamentos",
+   "sinonimos": "livros, SPED, ECD, plano de contas"
+  },
+  {
+   "tema": "Seguros",
+   "area": "Setores Específicos",
+   "sinonimos": "seguradoras, IFRS 17, SUSEP"
+  },
+  {
+   "tema": "Concessões e infraestrutura",
+   "area": "Setores Específicos",
+   "sinonimos": "concessão pública, energia, rodovias, aeroportos"
+  },
+  {
+   "tema": "Incorporação imobiliária",
+   "area": "Setores Específicos",
+   "sinonimos": "construtoras, incorporadoras"
+  },
+  {
+   "tema": "Mineração e meio ambiente",
+   "area": "Setores Específicos",
+   "sinonimos": "mineração, descomissionamento, IFRS 6"
+  },
+  {
+   "tema": "Entidades específicas",
+   "area": "Setores Específicos",
+   "sinonimos": "terceiro setor, ONG, cooperativas, clubes, fundos de pensão"
+  },
+  {
+   "tema": "Sustentabilidade e clima",
+   "area": "Sustentabilidade",
+   "sinonimos": "ESG, ISSB, IFRS S1, IFRS S2, créditos de carbono"
+  },
+  {
+   "tema": "Custos no setor público",
+   "area": "Setor Público",
+   "sinonimos": "custos governamentais"
+  },
+  {
+   "tema": "Fraude",
+   "area": "Auditoria Independente",
+   "sinonimos": "erro, distorção intencional, ISA 240"
+  },
+  {
+   "tema": "Riscos, materialidade e planejamento",
+   "area": "Auditoria Independente",
+   "sinonimos": "avaliação de risco, materialidade, planejamento de auditoria"
+  },
+  {
+   "tema": "Evidência de auditoria",
+   "area": "Auditoria Independente",
+   "sinonimos": "procedimentos de auditoria, circularização, amostragem"
+  },
+  {
+   "tema": "Relatório do auditor",
+   "area": "Auditoria Independente",
+   "sinonimos": "parecer, opinião modificada, PAA, ressalva"
+  },
+  {
+   "tema": "Qualidade e independência",
+   "area": "Ética e Exercício Profissional",
+   "sinonimos": "ética profissional, EPC, CNAI, revisão pelos pares"
+  },
+  {
+   "tema": "Perícia contábil",
+   "area": "Perícia Contábil",
+   "sinonimos": "laudo pericial, perito judicial, apuração de haveres"
+  },
+  {
+   "tema": "Uso do trabalho de terceiros",
+   "area": "Auditoria Independente",
+   "sinonimos": "especialistas, auditoria interna, organização prestadora de serviços"
+  },
+  {
+   "tema": "Procedimentos previamente acordados e compilação",
+   "area": "Serviços Correlatos",
+   "sinonimos": "PPA, compilação, ISRS 4400, ISRS 4410"
+  },
+  {
+   "tema": "Laudo de avaliação",
+   "area": "Fundamentos",
+   "sinonimos": "avaliação patrimonial por contador"
+  }
+ ],
+ "normas": [
+  {
+   "codigo": "NBC TG Estrutura Conceitual",
+   "titulo": "Estrutura Conceitual para Relatório Financeiro",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTGEC&arquivo=NBCTGEC.doc",
+   "cpc": "CPC 00 (R2)",
+   "internacional": null,
+   "temas": [
+    "Estrutura conceitual",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Fundamentos",
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TG 01 (R4)",
+   "titulo": "Redução ao Valor Recuperável de Ativos",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc",
+   "cpc": "CPC 01 (R1)",
+   "internacional": "IAS 36",
+   "temas": [
+    "Redução ao valor recuperável (impairment)"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 02 (R3)",
+   "titulo": "Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc",
+   "cpc": "CPC 02 (R2)",
+   "internacional": "IAS 21",
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "NBC TG 03 (R3)",
+   "titulo": "Demonstração dos Fluxos de Caixa",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG03(R3)&arquivo=NBCTG03(R3).doc",
+   "cpc": "CPC 03 (R2)",
+   "internacional": "IAS 7",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 04 (R4)",
+   "titulo": "Ativo Intangível",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc",
+   "cpc": "CPC 04 (R1)",
+   "internacional": "IAS 38",
+   "temas": [
+    "Intangível"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 05 (R3)",
+   "titulo": "Divulgação sobre Partes Relacionadas",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG05(R3)",
+   "cpc": "CPC 05 (R1)",
+   "internacional": "IAS 24",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 06 (R3)",
+   "titulo": "Arrendamentos",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc",
+   "cpc": "CPC 06 (R2)",
+   "internacional": "IFRS 16",
+   "temas": [
+    "Arrendamentos"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 07 (R2)",
+   "titulo": "Subvenção e Assistência Governamentais",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc",
+   "cpc": "CPC 07 (R1)",
+   "internacional": "IAS 20",
+   "temas": [
+    "Subvenção governamental"
+   ],
+   "areas": [
+    "Receitas"
+   ]
+  },
+  {
+   "codigo": "NBC TG 09 (R1)",
+   "titulo": "Demonstração do Valor Adicionado (DVA)",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBTG09(R1)&arquivo=NBCTG09(R1).doc",
+   "cpc": "CPC 09 (R1)",
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 10 (R3)",
+   "titulo": "Pagamento Baseado em Ações",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG10(R3)&arquivo=NBCTG10(R3).doc",
+   "cpc": "CPC 10 (R1)",
+   "internacional": "IFRS 2",
+   "temas": [
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "NBC TG 12 (R1)",
+   "titulo": "Ajuste a Valor Presente",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1)",
+   "cpc": "CPC 12 (R1)",
+   "internacional": null,
+   "temas": [
+    "Ajuste a valor presente"
+   ],
+   "areas": [
+    "Mensuração"
+   ]
+  },
+  {
+   "codigo": "NBC TG 15 (R4)",
+   "titulo": "Combinação de Negócios",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG15(R4)&arquivo=NBCTG15(R4).doc",
+   "cpc": "CPC 15 (R1)",
+   "internacional": "IFRS 3",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TG 16 (R2)",
+   "titulo": "Estoques",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc",
+   "cpc": "CPC 16 (R1)",
+   "internacional": "IAS 2",
+   "temas": [
+    "Estoques"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 18 (R4)",
+   "titulo": "Investimento em Coligada e em Empreendimento Controlado em Conjunto",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG18(R4)&arquivo=NBCTG18(R4).doc",
+   "cpc": "CPC 18 (R2)",
+   "internacional": "IAS 28",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TG 19 (R2)",
+   "titulo": "Negócios em Conjunto",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG19(R2)",
+   "cpc": "CPC 19 (R2)",
+   "internacional": "IFRS 11",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TG 20 (R2)",
+   "titulo": "Custos de Empréstimos",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG20(R2)&arquivo=NBCTG20(R2).doc",
+   "cpc": "CPC 20 (R1)",
+   "internacional": "IAS 23",
+   "temas": [
+    "Custos de empréstimos"
+   ],
+   "areas": [
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 21 (R4)",
+   "titulo": "Demonstração Intermediária",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG21(R4)&arquivo=NBCTG21(R4).doc",
+   "cpc": "CPC 21 (R1)",
+   "internacional": "IAS 34",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 22 (R2)",
+   "titulo": "Informações por Segmento",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG22(R2)",
+   "cpc": "CPC 22",
+   "internacional": "IFRS 8",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 23 (R2)",
+   "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG23(R2)&arquivo=NBCTG23(R2).doc",
+   "cpc": "CPC 23",
+   "internacional": "IAS 8",
+   "temas": [
+    "Políticas contábeis e erros"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 24 (R2)",
+   "titulo": "Evento Subsequente",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG24(R2)&arquivo=NBCTG24(R2).doc",
+   "cpc": "CPC 24",
+   "internacional": "IAS 10",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 25 (R2)",
+   "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc",
+   "cpc": "CPC 25",
+   "internacional": "IAS 37",
+   "temas": [
+    "Provisões e contingências"
+   ],
+   "areas": [
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 26 (R5)",
+   "titulo": "Apresentação das Demonstrações Contábeis",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc",
+   "cpc": "CPC 26 (R1)",
+   "internacional": "IAS 1",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 27 (R4)",
+   "titulo": "Ativo Imobilizado",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc",
+   "cpc": "CPC 27",
+   "internacional": "IAS 16",
+   "temas": [
+    "Imobilizado"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 28 (R4)",
+   "titulo": "Propriedade para Investimento",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG28(R4)&arquivo=NBCTG28(R4).doc",
+   "cpc": "CPC 28",
+   "internacional": "IAS 40",
+   "temas": [
+    "Propriedade para investimento"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 29 (R2)",
+   "titulo": "Ativo Biológico e Produto Agrícola",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2)",
+   "cpc": "CPC 29",
+   "internacional": "IAS 41",
+   "temas": [
+    "Ativo biológico"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 31 (R4)",
+   "titulo": "Ativo Não Circulante Mantido para Venda e Operação Descontinuada",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG31(R4)&arquivo=NBCTG31(R4).doc",
+   "cpc": "CPC 31",
+   "internacional": "IFRS 5",
+   "temas": [
+    "Ativo mantido para venda"
+   ],
+   "areas": [
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 32 (R4)",
+   "titulo": "Tributos sobre o Lucro",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc",
+   "cpc": "CPC 32",
+   "internacional": "IAS 12",
+   "temas": [
+    "Tributos sobre o lucro"
+   ],
+   "areas": [
+    "Tributos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 33 (R2)",
+   "titulo": "Benefícios a Empregados",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG33(R2)",
+   "cpc": "CPC 33 (R1)",
+   "internacional": "IAS 19",
+   "temas": [
+    "Benefícios a empregados"
+   ],
+   "areas": [
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 35 (R2)",
+   "titulo": "Demonstrações Separadas",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG35(R2)",
+   "cpc": "CPC 35 (R2)",
+   "internacional": "IAS 27",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TG 36 (R3)",
+   "titulo": "Demonstrações Consolidadas",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG36(R3)",
+   "cpc": "CPC 36 (R3)",
+   "internacional": "IFRS 10",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TG 37 (R5)",
+   "titulo": "Adoção Inicial das Normas Internacionais de Contabilidade",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG37(R5)&arquivo=NBCTG37(R5).doc",
+   "cpc": "CPC 37 (R1)",
+   "internacional": "IFRS 1",
+   "temas": [
+    "Adoção inicial"
+   ],
+   "areas": [
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 39 (R5)",
+   "titulo": "Instrumentos Financeiros: Apresentação",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG39(R5)&arquivo=NBCTG39(R5).doc",
+   "cpc": "CPC 39",
+   "internacional": "IAS 32",
+   "temas": [
+    "Instrumentos financeiros",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Instrumentos Financeiros",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 40 (R3)",
+   "titulo": "Instrumentos Financeiros: Evidenciação",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc",
+   "cpc": "CPC 40 (R1)",
+   "internacional": "IFRS 7",
+   "temas": [
+    "Instrumentos financeiros",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Instrumentos Financeiros",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 41 (R2)",
+   "titulo": "Resultado por Ação",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG41(R2)",
+   "cpc": "CPC 41",
+   "internacional": "IAS 33",
+   "temas": [
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "NBC TG 42",
+   "titulo": "Contabilidade em Economia Hiperinflacionária",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCTG42&arquivo=NBCTG42.doc",
+   "cpc": "CPC 42",
+   "internacional": "IAS 29",
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "NBC TG 43",
+   "titulo": "Adoção Inicial das NBC Ts Convergidas em 2009",
+   "serie": "NBC TG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001315",
+   "cpc": "CPC 43 (R1)",
+   "internacional": null,
+   "temas": [
+    "Adoção inicial"
+   ],
+   "areas": [
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 44",
+   "titulo": "Demonstrações Combinadas",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTG44",
+   "cpc": "CPC 44",
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TG 45 (R3)",
+   "titulo": "Divulgação de Participações em Outras Entidades",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG45(R3)&arquivo=NBCTG45(R3).doc",
+   "cpc": "CPC 45",
+   "internacional": "IFRS 12",
+   "temas": [
+    "Consolidação e participações",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Participações Societárias",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 46 (R2)",
+   "titulo": "Mensuração do Valor Justo",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG46(R2)&arquivo=NBCTG46(R2).doc",
+   "cpc": "CPC 46",
+   "internacional": "IFRS 13",
+   "temas": [
+    "Valor justo e mensuração"
+   ],
+   "areas": [
+    "Mensuração"
+   ]
+  },
+  {
+   "codigo": "NBC TG 47",
+   "titulo": "Receita de Contrato com Cliente",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc",
+   "cpc": "CPC 47",
+   "internacional": "IFRS 15",
+   "temas": [
+    "Receita"
+   ],
+   "areas": [
+    "Receitas"
+   ]
+  },
+  {
+   "codigo": "NBC TG 48",
+   "titulo": "Instrumentos Financeiros",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc",
+   "cpc": "CPC 48",
+   "internacional": "IFRS 9",
+   "temas": [
+    "Instrumentos financeiros"
+   ],
+   "areas": [
+    "Instrumentos Financeiros"
+   ]
+  },
+  {
+   "codigo": "NBC TG 49",
+   "titulo": "Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCTG49&arquivo=NBCTG49.doc",
+   "cpc": "CPC 49",
+   "internacional": "IAS 26",
+   "temas": [
+    "Benefícios a empregados",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Passivos",
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TG 50",
+   "titulo": "Contratos de Seguro",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG50&arquivo=NBCTG50.doc",
+   "cpc": "CPC 50",
+   "internacional": "IFRS 17",
+   "temas": [
+    "Seguros"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 51",
+   "titulo": "Apresentação e Divulgação nas Demonstrações Contábeis",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx",
+   "cpc": "CPC 51",
+   "internacional": "IFRS 18",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TG 900",
+   "titulo": "Entidades em Liquidação",
+   "serie": "NBC TG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG900&arquivo=NBCTG900..doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 01 (R1)",
+   "titulo": "Contratos de Concessão",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG01(R1)&arquivo=ITG01(R1).doc",
+   "cpc": "ICPC 01 (R1)",
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 07 (R1)",
+   "titulo": "Distribuição de Lucros in Natura",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG07(R1)",
+   "cpc": "ICPC 07",
+   "internacional": null,
+   "temas": [
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "ITG 08",
+   "titulo": "Contabilização da Proposta de Pagamento de Dividendos",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001398",
+   "cpc": "ICPC 08 (R1)",
+   "internacional": null,
+   "temas": [
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "ITG 09 (R2)",
+   "titulo": "Demonstrações Individuais, Separadas, Consolidadas e Método de Equivalência Patrimonial",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/ITG09(R2)&arquivo=ITG09(R2).doc",
+   "cpc": "ICPC 09 (R3)",
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "ITG 10",
+   "titulo": "Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001263",
+   "cpc": "ICPC 10",
+   "internacional": null,
+   "temas": [
+    "Imobilizado",
+    "Propriedade para investimento",
+    "Adoção inicial"
+   ],
+   "areas": [
+    "Ativos",
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "ITG 12",
+   "titulo": "Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265",
+   "cpc": "ICPC 12",
+   "internacional": null,
+   "temas": [
+    "Mineração e meio ambiente"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 13 (R2)",
+   "titulo": "Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG13(R2)&arquivo=ITG13(R2).doc",
+   "cpc": "ICPC 13",
+   "internacional": null,
+   "temas": [
+    "Mineração e meio ambiente"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 15",
+   "titulo": "Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289",
+   "cpc": "ICPC 15",
+   "internacional": null,
+   "temas": [
+    "Mineração e meio ambiente"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 16 (R2)",
+   "titulo": "Extinção de Passivos Financeiros com Instrumentos Patrimoniais",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG16(R2)&arquivo=ITG16(R2).doc",
+   "cpc": "ICPC 16",
+   "internacional": null,
+   "temas": [
+    "Instrumentos financeiros",
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Instrumentos Financeiros",
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "ITG 17",
+   "titulo": "Contratos de Concessão: Evidenciação",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001375",
+   "cpc": "ICPC 17",
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Apresentação e Divulgação",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 18",
+   "titulo": "Custos de Remoção de Estéril de Mina de Superfície – Fase de Produção",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG18",
+   "cpc": "ICPC 18",
+   "internacional": null,
+   "temas": [
+    "Mineração e meio ambiente"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 19",
+   "titulo": "Tributos",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG19",
+   "cpc": "ICPC 19",
+   "internacional": null,
+   "temas": [
+    "Tributos sobre o lucro"
+   ],
+   "areas": [
+    "Tributos"
+   ]
+  },
+  {
+   "codigo": "ITG 20",
+   "titulo": "Limite de Ativo de Benefício Definido, Requisitos de Custeio Mínimo e sua Interação",
+   "serie": "ITG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG20",
+   "cpc": "ICPC 20",
+   "internacional": null,
+   "temas": [
+    "Benefícios a empregados"
+   ],
+   "areas": [
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "ITG 21",
+   "titulo": "Transação em Moeda Estrangeira e Adiantamento",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG21&arquivo=ITG21.doc",
+   "cpc": "ICPC 21",
+   "internacional": null,
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "ITG 22",
+   "titulo": "Incerteza sobre Tratamento de Tributos sobre o Lucro",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG22&arquivo=ITG22.doc",
+   "cpc": "ICPC 22",
+   "internacional": null,
+   "temas": [
+    "Tributos sobre o lucro"
+   ],
+   "areas": [
+    "Tributos"
+   ]
+  },
+  {
+   "codigo": "ITG 23",
+   "titulo": "Aplicação da Abordagem de Atualização Monetária Prevista na NBC TG 42",
+   "serie": "ITG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG23&arquivo=ITG23.doc",
+   "cpc": "ICPC 23",
+   "internacional": null,
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "CTG 01",
+   "titulo": "Entidades de Incorporação Imobiliária",
+   "serie": "CTG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001154",
+   "cpc": "OCPC 01",
+   "internacional": null,
+   "temas": [
+    "Incorporação imobiliária"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "CTG 04",
+   "titulo": "Aplicação da ITG 02 – Contrato de Construção do Setor Imobiliário",
+   "serie": "CTG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001317",
+   "cpc": "OCPC 04",
+   "internacional": null,
+   "temas": [
+    "Incorporação imobiliária"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "CTG 05",
+   "titulo": "Contratos de Concessão",
+   "serie": "CTG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001318",
+   "cpc": "OCPC 05",
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "CTG 06",
+   "titulo": "Apresentação de Informações Financeiras Pro Forma",
+   "serie": "CTG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/CTG06",
+   "cpc": "OCPC 06",
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "CTG 07 (R1)",
+   "titulo": "Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral",
+   "serie": "CTG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTG07&arquivo=CTG07(R1).doc",
+   "cpc": "OCPC 07",
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Apresentação e Divulgação",
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "CTG 08",
+   "titulo": "Reconhecimento de Determinados Ativos e Passivos – Distribuidoras de Energia Elétrica",
+   "serie": "CTG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/CTG08",
+   "cpc": "OCPC 08",
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "CTG 09",
+   "titulo": "Correlação à Estrutura Conceitual Básica do Relato Integrado",
+   "serie": "CTG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTG09&arquivo=CTG09.doc",
+   "cpc": "OCPC 09",
+   "internacional": null,
+   "temas": [
+    "Estrutura conceitual",
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Fundamentos",
+    "Sustentabilidade"
+   ]
+  },
+  {
+   "codigo": "CTG 10",
+   "titulo": "Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO",
+   "serie": "CTG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc",
+   "cpc": "OCPC 10",
+   "internacional": null,
+   "temas": [
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Sustentabilidade"
+   ]
+  },
+  {
+   "codigo": "OTG 2003 (R1)",
+   "titulo": "Orientações sobre a Aplicação da ITG 2003 (R1) – Entidade Desportiva",
+   "serie": "OTG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/OTG2003(R1)&arquivo=OTG2003(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "NBC TA Estrutura Conceitual",
+   "titulo": "Estrutura Conceitual para Trabalhos de Asseguração",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTAESTRUTURACONCEITUAL",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Estrutura conceitual"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 200 (R1)",
+   "titulo": "Objetivos Gerais do Auditor Independente e a Condução da Auditoria em Conformidade com Normas de Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA200(R1)",
+   "cpc": null,
+   "internacional": "ISA 200",
+   "temas": [],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 210 (R1)",
+   "titulo": "Concordância com os Termos do Trabalho de Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA210(R1)",
+   "cpc": null,
+   "internacional": "ISA 210",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 220 (R3)",
+   "titulo": "Gestão de Qualidade da Auditoria de Demonstrações Contábeis",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA220(R3)&arquivo=NBCTA220%20(R3).doc",
+   "cpc": null,
+   "internacional": "ISA 220",
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 230 (R1)",
+   "titulo": "Documentação de Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA230(R1)",
+   "cpc": null,
+   "internacional": "ISA 230",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 240 (R2)",
+   "titulo": "Responsabilidade do Auditor em Relação a Fraude",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA240(R2)&arquivo=NBCTA240(R2).docx",
+   "cpc": null,
+   "internacional": "ISA 240",
+   "temas": [
+    "Fraude"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 250",
+   "titulo": "Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis",
+   "serie": "NBC TA",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA250",
+   "cpc": null,
+   "internacional": "ISA 250",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 260 (R2)",
+   "titulo": "Comunicação com os Responsáveis pela Governança",
+   "serie": "NBC TA",
+   "url": "https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf",
+   "cpc": null,
+   "internacional": "ISA 260",
+   "temas": [
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 265",
+   "titulo": "Comunicação de Deficiências de Controle Interno",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001210",
+   "cpc": null,
+   "internacional": "ISA 265",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 300 (R1)",
+   "titulo": "Planejamento da Auditoria de Demonstrações Contábeis",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA300(R1)",
+   "cpc": null,
+   "internacional": "ISA 300",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 315 (R2)",
+   "titulo": "Identificação e Avaliação dos Riscos de Distorção Relevante",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA315(R2)&arquivo=NBCTA315(R2).doc",
+   "cpc": null,
+   "internacional": "ISA 315",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 320 (R1)",
+   "titulo": "Materialidade no Planejamento e na Execução da Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA320(R1)",
+   "cpc": null,
+   "internacional": "ISA 320",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 330 (R1)",
+   "titulo": "Resposta do Auditor aos Riscos Avaliados",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA330(R1)",
+   "cpc": null,
+   "internacional": "ISA 330",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 402",
+   "titulo": "Considerações de Auditoria para Entidade que Utiliza Organização Prestadora de Serviços",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001215",
+   "cpc": null,
+   "internacional": "ISA 402",
+   "temas": [
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 450 (R1)",
+   "titulo": "Avaliação das Distorções Identificadas durante a Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA450(R1)",
+   "cpc": null,
+   "internacional": "ISA 450",
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 500 (R1)",
+   "titulo": "Evidência de Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA500(R1)",
+   "cpc": null,
+   "internacional": "ISA 500",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 501",
+   "titulo": "Evidência de Auditoria – Considerações Específicas para Itens Selecionados",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218",
+   "cpc": null,
+   "internacional": "ISA 501",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 505",
+   "titulo": "Confirmações Externas",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001219",
+   "cpc": null,
+   "internacional": "ISA 505",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 510 (R1)",
+   "titulo": "Trabalhos Iniciais – Saldos Iniciais",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA510(R1)",
+   "cpc": null,
+   "internacional": "ISA 510",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 520",
+   "titulo": "Procedimentos Analíticos",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001221",
+   "cpc": null,
+   "internacional": "ISA 520",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 530",
+   "titulo": "Amostragem em Auditoria",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001222",
+   "cpc": null,
+   "internacional": "ISA 530",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 540 (R2)",
+   "titulo": "Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc",
+   "cpc": null,
+   "internacional": "ISA 540",
+   "temas": [
+    "Valor justo e mensuração",
+    "Demonstrações contábeis e divulgação",
+    "Políticas contábeis e erros",
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 550",
+   "titulo": "Partes Relacionadas",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001224",
+   "cpc": null,
+   "internacional": "ISA 550",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 560 (R1)",
+   "titulo": "Eventos Subsequentes",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA560(R1)",
+   "cpc": null,
+   "internacional": "ISA 560",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 570 (R1)",
+   "titulo": "Continuidade Operacional",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA570(R1)&arquivo=NBCTA570(R1).docx",
+   "cpc": null,
+   "internacional": "ISA 570",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 580 (R1)",
+   "titulo": "Representações Formais",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA580(R1)",
+   "cpc": null,
+   "internacional": "ISA 580",
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 600 (R2)",
+   "titulo": "Auditorias de Demonstrações Contábeis de Grupos, Incluindo o Trabalho dos Auditores dos Componentes",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTA600(R2)&arquivo=NBC%20TA%20600%20(R2).doc",
+   "cpc": null,
+   "internacional": "ISA 600",
+   "temas": [
+    "Consolidação e participações",
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 610",
+   "titulo": "Utilização do Trabalho de Auditoria Interna",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTA610",
+   "cpc": null,
+   "internacional": "ISA 610",
+   "temas": [
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 620",
+   "titulo": "Utilização do Trabalho de Especialistas",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001230",
+   "cpc": null,
+   "internacional": "ISA 620",
+   "temas": [
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 700",
+   "titulo": "Formação da Opinião e Emissão do Relatório do Auditor Independente",
+   "serie": "NBC TA",
+   "url": "https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf",
+   "cpc": null,
+   "internacional": "ISA 700",
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 701",
+   "titulo": "Comunicação dos Principais Assuntos de Auditoria (PAA)",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA701",
+   "cpc": null,
+   "internacional": "ISA 701",
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 705",
+   "titulo": "Modificações na Opinião do Auditor Independente",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA705",
+   "cpc": null,
+   "internacional": "ISA 705",
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 706",
+   "titulo": "Parágrafos de Ênfase e Parágrafos de Outros Assuntos",
+   "serie": "NBC TA",
+   "url": "https://cfc.org.br/wp-content/uploads/2026/06/NBC-TA-706.pdf",
+   "cpc": null,
+   "internacional": "ISA 706",
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 710 (R1)",
+   "titulo": "Informações Comparativas – Valores Correspondentes e Demonstrações Contábeis Comparativas",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA710(R1)",
+   "cpc": null,
+   "internacional": "ISA 710",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 720",
+   "titulo": "Responsabilidade do Auditor em Relação a Outras Informações",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA720",
+   "cpc": null,
+   "internacional": "ISA 720",
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 800",
+   "titulo": "Auditorias de Demonstrações Elaboradas de Acordo com Estruturas Conceituais para Propósitos Especiais",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA800&arquivo=NBCTA800.doc",
+   "cpc": null,
+   "internacional": "ISA 800",
+   "temas": [],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 805",
+   "titulo": "Auditoria de Quadros Isolados e de Elementos, Contas ou Itens Específicos das Demonstrações Contábeis",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc",
+   "cpc": null,
+   "internacional": "ISA 805",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TA 810",
+   "titulo": "Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas",
+   "serie": "NBC TA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA810&arquivo=NBCTA810.doc",
+   "cpc": null,
+   "internacional": "ISA 810",
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TG 1000 (R1)",
+   "titulo": "Contabilidade para Pequenas e Médias Empresas (CPC PME)",
+   "serie": "PME",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Pequenas e Médias Empresas",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 1001",
+   "titulo": "Contabilidade para Pequenas Empresas",
+   "serie": "PME",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1001&arquivo=NBCTG1001.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Pequenas e Médias Empresas",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "NBC TG 1002",
+   "titulo": "Contabilidade para Microentidades",
+   "serie": "PME",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Pequenas e Médias Empresas",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 1000",
+   "titulo": "Modelo Contábil para Microentidade e Pequena Empresa",
+   "serie": "PME",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG1000&arquivo=ITG%201000.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Escrituração contábil",
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Pequenas e Médias Empresas",
+    "Fundamentos",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "CTG 1000",
+   "titulo": "Adoção Plena da NBC TG 1000",
+   "serie": "PME",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/CTG1000",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Adoção inicial"
+   ],
+   "areas": [
+    "Pequenas e Médias Empresas",
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "ITG 2000 (R1)",
+   "titulo": "Escrituração Contábil",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG2000(R1)&arquivo=ITG2000(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Escrituração contábil"
+   ],
+   "areas": [
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "ITG 2001",
+   "titulo": "Entidade Fechada de Previdência Complementar",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG2001&arquivo=ITG%202001.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Benefícios a empregados",
+    "Entidades específicas",
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Passivos",
+    "Setores Específicos",
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "ITG 2002 (R1)",
+   "titulo": "Entidade sem Finalidade de Lucros",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/ITG2002(R1)&arquivo=ITG2002(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 2003 (R2)",
+   "titulo": "Entidade Desportiva",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/ITG2003(R2)&arquivo=ITG2003_R2.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "ITG 2004",
+   "titulo": "Entidade Cooperativa",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG2004&arquivo=ITG2004.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "CTG 2000",
+   "titulo": "Ajustes das Novas Práticas Contábeis da Lei 11.638/07 e MP 449/08",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001159&arquivo=Res_1159.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Adoção inicial"
+   ],
+   "areas": [
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "CTG 2001 (R3)",
+   "titulo": "Formalidades da Escrituração Contábil em Forma Digital para o SPED",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/CTG2001(R3)",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Escrituração contábil"
+   ],
+   "areas": [
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "CTG 2002",
+   "titulo": "Laudo de Avaliação Emitido por Contador",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/CTG2002&arquivo=CTG2002.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Laudo de avaliação"
+   ],
+   "areas": [
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "NBC T 15",
+   "titulo": "Informações de Natureza Social e Ambiental",
+   "serie": "Específicas",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2004/001003&arquivo=Res_1003.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Mineração e meio ambiente",
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Setores Específicos",
+    "Sustentabilidade"
+   ]
+  },
+  {
+   "codigo": "NBC TSP Estrutura Conceitual (R1)",
+   "titulo": "Estrutura Conceitual para Informação Contábil de Propósito Geral pelas Entidades do Setor Público",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSPEC(R1)&arquivo=NBCTSP_Estrutura(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Estrutura conceitual"
+   ],
+   "areas": [
+    "Setor Público",
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 01",
+   "titulo": "Receita de Transação sem Contraprestação",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Receita"
+   ],
+   "areas": [
+    "Setor Público",
+    "Receitas"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 02",
+   "titulo": "Receita de Transação com Contraprestação",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Receita"
+   ],
+   "areas": [
+    "Setor Público",
+    "Receitas"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 03 (R1)",
+   "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP03(R1)&arquivo=NBCTSP03(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Provisões e contingências"
+   ],
+   "areas": [
+    "Setor Público",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 04 (R1)",
+   "titulo": "Estoques",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP04(R1)&arquivo=NBCTSP04(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Estoques"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 05 (R1)",
+   "titulo": "Contratos de Concessão de Serviços Públicos: Concedente",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Setor Público",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 06 (R1)",
+   "titulo": "Propriedade para Investimento",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP06(R1)&arquivo=NBCTSP06(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Propriedade para investimento"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 08 (R1)",
+   "titulo": "Ativo Intangível",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP08(R1)&arquivo=NBCTSP08(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Intangível"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 09 (R1)",
+   "titulo": "Redução ao Valor Recuperável de Ativo Não Gerador de Caixa",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP09(R1)&arquivo=NBCTSP09(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Redução ao valor recuperável (impairment)"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 10 (R1)",
+   "titulo": "Redução ao Valor Recuperável de Ativo Gerador de Caixa",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP10(R1)&arquivo=NBCTSP10(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Redução ao valor recuperável (impairment)"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 11 (R1)",
+   "titulo": "Apresentação das Demonstrações Contábeis",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP11(R1)&arquivo=NBCTSP11(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 12 (R1)",
+   "titulo": "Demonstração dos Fluxos de Caixa",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP12(R1)&arquivo=NBCTSP12(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 13 (R1)",
+   "titulo": "Apresentação de Informação Orçamentária nas Demonstrações Contábeis",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP13(R1)&arquivo=NBCTSP13(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 14 (R1)",
+   "titulo": "Custos de Empréstimos",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP14(R1)&arquivo=NBCTSP14(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Custos de empréstimos"
+   ],
+   "areas": [
+    "Setor Público",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 15 (R1)",
+   "titulo": "Benefícios a Empregados",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP15(R1)&arquivo=NBCTSP15(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Benefícios a empregados"
+   ],
+   "areas": [
+    "Setor Público",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 16 (R1)",
+   "titulo": "Demonstrações Contábeis Separadas",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP16(R1)&arquivo=NBCTSP16(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Setor Público",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 17 (R1)",
+   "titulo": "Demonstrações Contábeis Consolidadas",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP17(R1)&arquivo=NBCTSP17(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Setor Público",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 18 (R1)",
+   "titulo": "Investimento em Coligada e em Empreendimento Controlado em Conjunto",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP18(R1)&arquivo=NBCTSP18(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Setor Público",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 19 (R1)",
+   "titulo": "Acordos em Conjunto",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP19(R1)&arquivo=NBCTSP19(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Setor Público",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 20 (R1)",
+   "titulo": "Divulgação de Participações em Outras Entidades",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP20(R1)&arquivo=NBCTSP20(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Participações Societárias",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 21 (R1)",
+   "titulo": "Combinações no Setor Público",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP21(R1)&arquivo=NBCTSP21(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Setor Público",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 22 (R1)",
+   "titulo": "Divulgação sobre Partes Relacionadas",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP22(R1)&arquivo=NBCTSP22(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 23 (R1)",
+   "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP23(R1)&arquivo=NBCTSP23(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Políticas contábeis e erros"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 24 (R1)",
+   "titulo": "Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP24(R1)&arquivo=NBCTSP24(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 25 (R1)",
+   "titulo": "Evento Subsequente",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP25(R1)&arquivo=NBCTSP25(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 26 (R1)",
+   "titulo": "Ativo Biológico e Produto Agrícola",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP26(R1)&arquivo=NBCTSP26(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Ativo biológico"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 27 (R1)",
+   "titulo": "Informações por Segmento",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP27(R1)&arquivo=NBCTSP27(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 28 (R1)",
+   "titulo": "Divulgação de Informação Financeira do Setor Governo Geral",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP28(R1)&arquivo=NBCTSP28(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 29 (R1)",
+   "titulo": "Benefícios Sociais",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP29(R1)&arquivo=NBCTSP29(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Benefícios a empregados"
+   ],
+   "areas": [
+    "Setor Público",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 30 (R1)",
+   "titulo": "Instrumentos Financeiros: Apresentação",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP30(R1)&arquivo=NBCTSP30(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Instrumentos financeiros",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Instrumentos Financeiros",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 31 (R1)",
+   "titulo": "Instrumentos Financeiros: Reconhecimento e Mensuração",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Instrumentos financeiros",
+    "Valor justo e mensuração"
+   ],
+   "areas": [
+    "Setor Público",
+    "Instrumentos Financeiros",
+    "Mensuração"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 32 (R1)",
+   "titulo": "Instrumentos Financeiros: Contabilidade de Hedge (Aplicação Residual)",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP32(R1)&arquivo=NBCTSP32(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Instrumentos financeiros"
+   ],
+   "areas": [
+    "Setor Público",
+    "Instrumentos Financeiros"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 33 (R1)",
+   "titulo": "Instrumentos Financeiros: Divulgações",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP33(R1)&arquivo=NBCTSP33(R1).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Instrumentos financeiros",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Instrumentos Financeiros",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 34",
+   "titulo": "Custos no Setor Público",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSP34&arquivo=NBCTSP34.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Custos no setor público"
+   ],
+   "areas": [
+    "Setor Público"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 35",
+   "titulo": "Arrendamentos",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP35&arquivo=NBCTSP35.docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Arrendamentos"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 37",
+   "titulo": "Ativo Imobilizado",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP37&arquivo=NBC_TSP_37.docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Imobilizado"
+   ],
+   "areas": [
+    "Setor Público",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "NBC TSP 38",
+   "titulo": "Mensuração",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Valor justo e mensuração"
+   ],
+   "areas": [
+    "Setor Público",
+    "Mensuração"
+   ]
+  },
+  {
+   "codigo": "CTSP 01",
+   "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Provisões e contingências"
+   ],
+   "areas": [
+    "Setor Público",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "CTSP 02",
+   "titulo": "Notas Explicativas",
+   "serie": "NBC TSP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Setor Público",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TDS 01",
+   "titulo": "Requisitos Gerais para Divulgação de Informações Financeiras Relacionadas à Sustentabilidade (IFRS S1)",
+   "serie": "NBC TDS",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS01&arquivo=NBCTDS_01.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Sustentabilidade",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TDS 02",
+   "titulo": "Divulgações Relacionadas ao Clima (IFRS S2)",
+   "serie": "NBC TDS",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Sustentabilidade",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "NBC TAS 5000",
+   "titulo": "Asseguração de Relatórios de Sustentabilidade (ISSA 5000)",
+   "serie": "NBC TDS",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Sustentabilidade e clima",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Sustentabilidade",
+    "Auditoria Independente"
+   ]
+  },
+  {
+   "codigo": "NBC TR 2400",
+   "titulo": "Trabalhos de Revisão de Demonstrações Contábeis",
+   "serie": "NBC TR",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTR2400",
+   "cpc": null,
+   "internacional": null,
+   "temas": [],
+   "areas": [
+    "Revisão"
+   ]
+  },
+  {
+   "codigo": "NBC TR 2410",
+   "titulo": "Revisão de Informações Intermediárias Executada pelo Auditor da Entidade",
+   "serie": "NBC TR",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001274",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Revisão"
+   ]
+  },
+  {
+   "codigo": "CTR 01",
+   "titulo": "Relatório de Revisão das Informações Trimestrais (ITR)",
+   "serie": "NBC TR",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001345",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Revisão"
+   ]
+  },
+  {
+   "codigo": "CTR 02",
+   "titulo": "Relatório de Revisão das ITR e IFT de Instituições Autorizadas pelo Banco Central",
+   "serie": "NBC TR",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001353",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Revisão"
+   ]
+  },
+  {
+   "codigo": "CTR 03",
+   "titulo": "Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária",
+   "serie": "NBC TR",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCCTR03&arquivo=NBCCTR03.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Incorporação imobiliária",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Revisão"
+   ]
+  },
+  {
+   "codigo": "CTR 04",
+   "titulo": "Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária",
+   "serie": "NBC TR",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/CTR04&arquivo=CTR04.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Incorporação imobiliária",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Revisão"
+   ]
+  },
+  {
+   "codigo": "NBC TO 3000",
+   "titulo": "Trabalhos de Asseguração Diferente de Auditoria e Revisão",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTO3000",
+   "cpc": null,
+   "internacional": null,
+   "temas": [],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "NBC TO 3402",
+   "titulo": "Relatórios de Asseguração sobre Controles em Organização Prestadora de Serviços",
+   "serie": "NBC TO",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001354&arquivo=Res_1354.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Relatório do auditor",
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "NBC TO 3410",
+   "titulo": "Trabalhos de Asseguração sobre Declarações de Gases de Efeito Estufa",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTO%203410&arquivo=NBC%20TO%203410.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "NBC TO 3420 (R1)",
+   "titulo": "Asseguração sobre a Compilação de Informações Financeiras Pro Forma Incluídas em Prospecto",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTO3420(R1)",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 01",
+   "titulo": "Relatório de Asseguração sobre Sustentabilidade e Responsabilidade Social",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001407",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Sustentabilidade e clima",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 02",
+   "titulo": "Asseguração Razoável sobre Informações Financeiras Pro Forma (Instrução CVM 565)",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/CTO02",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 03",
+   "titulo": "Relatórios sobre Serviços de Depósito Centralizado, Custódia, Escrituração e Emissão de Certificados",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/CTO03&arquivo=CTO03.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Escrituração contábil",
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 04 (R1)",
+   "titulo": "Orientação aos Auditores (alteração da CTO 04)",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTO04(R1)&arquivo=CTO04%20(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 05 (R2)",
+   "titulo": "Asseguração Razoável sobre o Relatório de Dados Anuais (RDA)",
+   "serie": "NBC TO",
+   "url": "https://cfc.org.br/wp-content/uploads/2023/09/CTO-05-R2.final_.docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 06",
+   "titulo": "Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária",
+   "serie": "NBC TO",
+   "url": "https://cfc.org.br/wp-content/uploads/2021/05/CTO_06.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 07",
+   "titulo": "Asseguração Limitada sobre Informações Não Financeiras do Relato Integrado",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2007&arquivo=CTO%2007%20.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "CTO 08",
+   "titulo": "Asseguração Razoável na Relicitação de Contratos de Parceria Rodoviária",
+   "serie": "NBC TO",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2008&arquivo=CTO08.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura"
+   ],
+   "areas": [
+    "Asseguração"
+   ]
+  },
+  {
+   "codigo": "NBC TSC 4400",
+   "titulo": "Trabalhos de Procedimentos Previamente Acordados sobre Informações Contábeis (ISRS 4400)",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSC4400&arquivo=NBC-TSC_4400.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "NBC TSC 4410",
+   "titulo": "Trabalhos de Compilação de Demonstrações Contábeis (ISRS 4410)",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTSC4410",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "CTSC 02",
+   "titulo": "Procedimentos Previamente Acordados – Despacho ANEEL 514/12",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001400",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Concessões e infraestrutura",
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "CTSC 03",
+   "titulo": "Procedimentos Previamente Acordados – Termo de Verificação para Substituição da ECD",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/CTSC03&arquivo=CTSC03.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "CTSC 04",
+   "titulo": "Procedimentos Previamente Acordados – Questionário de Riscos Susep",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/CTSC04&arquivo=CTSC04.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Seguros",
+    "Riscos, materialidade e planejamento",
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "CTSC 05",
+   "titulo": "Procedimentos Previamente Acordados – Art. 242 da Circular Susep 517",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC05&arquivo=NBCCTSC05.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Seguros",
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "CTSC 06",
+   "titulo": "Procedimentos Previamente Acordados – Circular Susep 574",
+   "serie": "NBC TSC",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC06&arquivo=NBCCTSC06.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Seguros",
+    "Procedimentos previamente acordados e compilação"
+   ],
+   "areas": [
+    "Serviços Correlatos"
+   ]
+  },
+  {
+   "codigo": "NBC TI 01",
+   "titulo": "Da Auditoria Interna (Res. CFC 986/03)",
+   "serie": "NBC TI",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2003/000986",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Uso do trabalho de terceiros"
+   ],
+   "areas": [
+    "Auditoria Interna"
+   ]
+  },
+  {
+   "codigo": "NBC TP 01 (R2)",
+   "titulo": "Perícia Contábil",
+   "serie": "NBC TP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTP01(R2)&arquivo=NBCTP01(R2).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Perícia contábil"
+   ],
+   "areas": [
+    "Perícia Contábil"
+   ]
+  },
+  {
+   "codigo": "ITP 01",
+   "titulo": "Apuração de Haveres",
+   "serie": "NBC TP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/ITP01&arquivo=ITP_01_Apuracao%20de%20Haveres.docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Perícia contábil"
+   ],
+   "areas": [
+    "Perícia Contábil"
+   ]
+  },
+  {
+   "codigo": "NBC PG 01",
+   "titulo": "Código de Ética Profissional do Contador",
+   "serie": "NBC PG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG01&arquivo=NBCPG01.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PG 12 (R5)",
+   "titulo": "Educação Profissional Continuada",
+   "serie": "NBC PG",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPG12(R5)&arquivo=NBCPG12(R5).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PG 100 (R1)",
+   "titulo": "Cumprimento do Código, Princípios Fundamentais e Estrutura Conceitual",
+   "serie": "NBC PG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG100(R1)&arquivo=NBCPG100(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Estrutura conceitual",
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PG 200 (R1)",
+   "titulo": "Contadores que Prestam Serviços (Contadores Internos)",
+   "serie": "NBC PG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG200(R1)&arquivo=NBCPG200(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PG 300 (R1)",
+   "titulo": "Contadores que Prestam Serviços (Contadores Externos)",
+   "serie": "NBC PG",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG300(R1)&arquivo=NBCPG300(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PA 01",
+   "titulo": "Gestão de Qualidade para Firmas de Auditores Independentes",
+   "serie": "NBC PA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA01&arquivo=NBCPA01.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PA 02",
+   "titulo": "Revisão de Qualidade do Trabalho",
+   "serie": "NBC PA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA02&arquivo=NBCPA02.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PA 11",
+   "titulo": "Revisão Externa de Qualidade pelos Pares",
+   "serie": "NBC PA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCPA11&arquivo=NBCPA11.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PA 13 (R4)",
+   "titulo": "Exame de Qualificação Técnica",
+   "serie": "NBC PA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPA13(R4)&arquivo=NBCPA13(R4).docx",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PA 400",
+   "titulo": "Independência para Trabalho de Auditoria e Revisão",
+   "serie": "NBC PA",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPA400&arquivo=NBCPA400_Rev28.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PO 900",
+   "titulo": "Independência para Trabalho de Asseguração Diferente de Auditoria e Revisão",
+   "serie": "NBC PA",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPO900&arquivo=NBCPO900.doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "Res. CFC 1.495/15",
+   "titulo": "Cadastro Nacional de Auditores Independentes (CNAI)",
+   "serie": "NBC PA",
+   "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/001495",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Ética e Exercício Profissional"
+   ]
+  },
+  {
+   "codigo": "NBC PP 01 (R2)",
+   "titulo": "Perito Contábil",
+   "serie": "NBC PP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP01(R2)&arquivo=NBCPP01(R2).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Perícia contábil"
+   ],
+   "areas": [
+    "Perícia Contábil"
+   ]
+  },
+  {
+   "codigo": "NBC PP 02 (R1)",
+   "titulo": "Exame de Qualificação Técnica para Perito Contábil",
+   "serie": "NBC PP",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP02(R1)&arquivo=NBCPP02(R1).doc",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Qualidade e independência",
+    "Perícia contábil"
+   ],
+   "areas": [
+    "Perícia Contábil"
+   ]
+  },
+  {
+   "codigo": "IFRS 1",
+   "titulo": "Adoção Inicial das IFRS",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 37",
+   "internacional": "NBC TG 37",
+   "temas": [
+    "Adoção inicial"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Fundamentos"
+   ]
+  },
+  {
+   "codigo": "IFRS 2",
+   "titulo": "Pagamento Baseado em Ações",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 10",
+   "internacional": "NBC TG 10",
+   "temas": [
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "IFRS 3",
+   "titulo": "Combinação de Negócios",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 15",
+   "internacional": "NBC TG 15",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "IFRS 5",
+   "titulo": "Ativo Não Circulante Mantido para Venda e Operação Descontinuada",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 31",
+   "internacional": "NBC TG 31",
+   "temas": [
+    "Ativo mantido para venda"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IFRS 6",
+   "titulo": "Exploração e Avaliação de Recursos Minerais",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Mineração e meio ambiente"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "IFRS 7",
+   "titulo": "Instrumentos Financeiros: Evidenciação",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 40",
+   "internacional": "NBC TG 40",
+   "temas": [
+    "Instrumentos financeiros",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Instrumentos Financeiros",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IFRS 8",
+   "titulo": "Segmentos Operacionais",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 22",
+   "internacional": "NBC TG 22",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IFRS 9",
+   "titulo": "Instrumentos Financeiros",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 48",
+   "internacional": "NBC TG 48",
+   "temas": [
+    "Instrumentos financeiros"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Instrumentos Financeiros"
+   ]
+  },
+  {
+   "codigo": "IFRS 10",
+   "titulo": "Demonstrações Consolidadas",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 36",
+   "internacional": "NBC TG 36",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "IFRS 11",
+   "titulo": "Negócios em Conjunto",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 19",
+   "internacional": "NBC TG 19",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "IFRS 12",
+   "titulo": "Divulgação de Participações em Outras Entidades",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 45",
+   "internacional": "NBC TG 45",
+   "temas": [
+    "Consolidação e participações",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Participações Societárias",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IFRS 13",
+   "titulo": "Mensuração do Valor Justo",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 46",
+   "internacional": "NBC TG 46",
+   "temas": [
+    "Valor justo e mensuração"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Mensuração"
+   ]
+  },
+  {
+   "codigo": "IFRS 14",
+   "titulo": "Contas Regulatórias Diferidas",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": null,
+   "internacional": null,
+   "temas": [],
+   "areas": [
+    "Normas Internacionais"
+   ]
+  },
+  {
+   "codigo": "IFRS 15",
+   "titulo": "Receita de Contrato com Cliente",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 47",
+   "internacional": "NBC TG 47",
+   "temas": [
+    "Receita"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Receitas"
+   ]
+  },
+  {
+   "codigo": "IFRS 16",
+   "titulo": "Arrendamentos",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 06",
+   "internacional": "NBC TG 06",
+   "temas": [
+    "Arrendamentos"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IFRS 17",
+   "titulo": "Contratos de Seguro",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 50",
+   "internacional": "NBC TG 50",
+   "temas": [
+    "Seguros"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "IFRS 18",
+   "titulo": "Apresentação e Divulgação nas Demonstrações Financeiras",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 51",
+   "internacional": "NBC TG 51",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IFRS 19",
+   "titulo": "Controladas sem Responsabilidade Pública: Divulgações",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": null,
+   "internacional": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 1",
+   "titulo": "Apresentação das Demonstrações Contábeis (substituída pela IFRS 18 a partir de 2027)",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 26",
+   "internacional": "NBC TG 26",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 2",
+   "titulo": "Estoques",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 16",
+   "internacional": "NBC TG 16",
+   "temas": [
+    "Estoques"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IAS 7",
+   "titulo": "Demonstração dos Fluxos de Caixa",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 03",
+   "internacional": "NBC TG 03",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 8",
+   "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 23",
+   "internacional": "NBC TG 23",
+   "temas": [
+    "Políticas contábeis e erros"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 10",
+   "titulo": "Evento Subsequente",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 24",
+   "internacional": "NBC TG 24",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 12",
+   "titulo": "Tributos sobre o Lucro",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 32",
+   "internacional": "NBC TG 32",
+   "temas": [
+    "Tributos sobre o lucro"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Tributos"
+   ]
+  },
+  {
+   "codigo": "IAS 16",
+   "titulo": "Ativo Imobilizado",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 27",
+   "internacional": "NBC TG 27",
+   "temas": [
+    "Imobilizado"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IAS 19",
+   "titulo": "Benefícios a Empregados",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 33",
+   "internacional": "NBC TG 33",
+   "temas": [
+    "Benefícios a empregados"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "IAS 20",
+   "titulo": "Subvenção e Assistência Governamentais",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 07",
+   "internacional": "NBC TG 07",
+   "temas": [
+    "Subvenção governamental"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Receitas"
+   ]
+  },
+  {
+   "codigo": "IAS 21",
+   "titulo": "Efeitos das Mudanças nas Taxas de Câmbio",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 02",
+   "internacional": "NBC TG 02",
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "IAS 23",
+   "titulo": "Custos de Empréstimos",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 20",
+   "internacional": "NBC TG 20",
+   "temas": [
+    "Custos de empréstimos"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "IAS 24",
+   "titulo": "Divulgação sobre Partes Relacionadas",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 05",
+   "internacional": "NBC TG 05",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 26",
+   "titulo": "Planos de Benefícios de Aposentadoria",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 49",
+   "internacional": "NBC TG 49",
+   "temas": [
+    "Benefícios a empregados"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "IAS 27",
+   "titulo": "Demonstrações Separadas",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 35",
+   "internacional": "NBC TG 35",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "IAS 28",
+   "titulo": "Investimento em Coligada e Empreendimento Controlado em Conjunto",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 18",
+   "internacional": "NBC TG 18",
+   "temas": [
+    "Consolidação e participações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Participações Societárias"
+   ]
+  },
+  {
+   "codigo": "IAS 29",
+   "titulo": "Contabilidade em Economia Hiperinflacionária",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 42",
+   "internacional": "NBC TG 42",
+   "temas": [
+    "Câmbio e inflação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Moeda e Câmbio"
+   ]
+  },
+  {
+   "codigo": "IAS 32",
+   "titulo": "Instrumentos Financeiros: Apresentação",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 39",
+   "internacional": "NBC TG 39",
+   "temas": [
+    "Instrumentos financeiros",
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Instrumentos Financeiros",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 33",
+   "titulo": "Resultado por Ação",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 41",
+   "internacional": "NBC TG 41",
+   "temas": [
+    "Patrimônio, dividendos e ações"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Patrimônio Líquido"
+   ]
+  },
+  {
+   "codigo": "IAS 34",
+   "titulo": "Demonstração Intermediária",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 21",
+   "internacional": "NBC TG 21",
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação"
+   ]
+  },
+  {
+   "codigo": "IAS 36",
+   "titulo": "Redução ao Valor Recuperável de Ativos",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 01",
+   "internacional": "NBC TG 01",
+   "temas": [
+    "Redução ao valor recuperável (impairment)"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IAS 37",
+   "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 25",
+   "internacional": "NBC TG 25",
+   "temas": [
+    "Provisões e contingências"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Passivos"
+   ]
+  },
+  {
+   "codigo": "IAS 38",
+   "titulo": "Ativo Intangível",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 04",
+   "internacional": "NBC TG 04",
+   "temas": [
+    "Intangível"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IAS 40",
+   "titulo": "Propriedade para Investimento",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 28",
+   "internacional": "NBC TG 28",
+   "temas": [
+    "Propriedade para investimento"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IAS 41",
+   "titulo": "Agricultura (Ativo Biológico e Produto Agrícola)",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC 29",
+   "internacional": "NBC TG 29",
+   "temas": [
+    "Ativo biológico"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Ativos"
+   ]
+  },
+  {
+   "codigo": "IFRS for SMEs",
+   "titulo": "IFRS para Pequenas e Médias Empresas",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CPC PME",
+   "internacional": "NBC TG 1000",
+   "temas": [
+    "Entidades específicas"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Setores Específicos"
+   ]
+  },
+  {
+   "codigo": "IFRS S1",
+   "titulo": "Requisitos Gerais de Divulgação de Sustentabilidade",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CBPS 01",
+   "internacional": "NBC TDS 01",
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação",
+    "Sustentabilidade"
+   ]
+  },
+  {
+   "codigo": "IFRS S2",
+   "titulo": "Divulgações Relacionadas ao Clima",
+   "serie": "IFRS/IAS",
+   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+   "cpc": "CBPS 02",
+   "internacional": "NBC TDS 02",
+   "temas": [
+    "Demonstrações contábeis e divulgação",
+    "Sustentabilidade e clima"
+   ],
+   "areas": [
+    "Normas Internacionais",
+    "Apresentação e Divulgação",
+    "Sustentabilidade"
+   ]
+  }
+ ]
+}
