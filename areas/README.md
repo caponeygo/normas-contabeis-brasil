@@ -30,6 +30,12 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 | **Ética e Exercício Profissional** | código de ética, independência, educação continuada, CNAI, qualidade de firmas | 12 | [etica-e-exercicio-profissional.md](etica-e-exercicio-profissional.md) |
 | **Normas Internacionais** | IFRS, IAS, IFRS for SMEs, IFRS S1/S2 e correlação com CPC | 45 | [normas-internacionais.md](normas-internacionais.md) |
 
+## Por setor
+
+| Setor | Use para | Pasta |
+|---|---|---|
+| **Indústria** | custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, meio ambiente, auditoria de estoques | [Industrial/README.md](../Industrial/README.md) |
+
 ## Busca por tema
 
 | Tema | Também chamado de | Área | Normas |

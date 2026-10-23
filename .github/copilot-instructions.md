@@ -6,6 +6,10 @@ resumo do que trata, as demonstrações que afeta e o link oficial.
 
 ## Como responder a um pedido
 
+0. **Empresa industrial (fábrica, produção, custo industrial)?** Comece por
+   [`Industrial/README.md`](Industrial/README.md): os trechos das normas que importam para a indústria,
+   por etapa do ciclo (estoques e custo de produção, máquinas, vendas e garantia, tributos e incentivos,
+   P&D, commodities e câmbio, DRE, meio ambiente, auditoria), com os itens de cada norma e perguntas frequentes.
 1. **Ache a área.** Abra [`areas/README.md`](areas/README.md) e escolha a área pela coluna "Use para".
    Cada área tem seu arquivo em `areas/` (ex.: `areas/ativos.md`, `areas/auditoria-independente.md`).
 2. **Se o usuário falou só o assunto** ("depreciação", "leasing", "PCLD", "parecer com ressalva"),
@@ -36,6 +40,7 @@ resumo do que trata, as demonstrações que afeta e o link oficial.
 - "O que muda com a IFRS 18?" → **Apresentação e Divulgação**, tema DRE → NBC TG 51 ≡ CPC 51.
 - "Prefeitura, como registrar uma escola?" → **Setor Público** → NBC TSP 37.
 - "Quando o auditor emite opinião com ressalva?" → **Auditoria Independente** → NBC TA 705.
+- "A ociosidade da fábrica entra no custo?" → **Industrial/01-estoques-e-custo-de-producao.md** → NBC TG 16, item 13 (não: vai para despesa).
 
 ## Arquivos
 
@@ -43,21 +48,23 @@ resumo do que trata, as demonstrações que afeta e o link oficial.
 |---|---|
 | [`areas/README.md`](areas/README.md) | **Comece aqui.** Áreas, busca por tema (com sinônimos) e por demonstração |
 | `areas/<area>.md` | Normas de uma área: resumo, o que afeta, CPC/IFRS equivalente e link |
-| [`normas.json`](normas.json) | Os mesmos dados em JSON: `codigo`, `titulo`, `serie`, `areas`, `temas`, `resumo`, `afeta`, `cpc`, `internacional`, `url` |
+| [`Industrial/`](Industrial/README.md) | Trechos das normas para a indústria, por etapa do ciclo da fábrica, com itens, checklists e perguntas frequentes |
+| [`normas.json`](normas.json) | Os mesmos dados em JSON: `codigo`, `titulo`, `serie`, `areas`, `temas`, `resumo`, `afeta`, `cpc`, `internacional`, `url` e `industria` (trechos para a indústria: tópico, itens, ponto) |
 | [`README.md`](README.md) | Índice por série (NBC TG, ITG, NBC TA, NBC TSP…) |
 | `graphify-out/graph.json` | Grafo: norma ↔ tema ↔ área ↔ demonstração ↔ CPC/IFRS (`graphify query "imobilizado"`) |
 | `graphify-out/graph.html` | Mapa interativo para pessoas |
 
 ## Atualizar (para quem mantém o repositório)
 
-Os dados ficam em `scripts/gerar_indice.py` (normas, temas, áreas) e `scripts/resumos.py` (resumos).
+Os dados ficam em `scripts/gerar_indice.py` (normas, temas, áreas), `scripts/resumos.py` (resumos)
+e `scripts/industrial.py` (pasta `Industrial/`).
 Depois de editar, rode da raiz:
 
 ```bash
 python graphify-out/rebuild_graph.py
 ```
 
-Isso regenera `areas/`, `README.md`, `normas.json`, as cópias deste arquivo (`CLAUDE.md` e
+Isso regenera `areas/`, `Industrial/`, `README.md`, `normas.json`, as cópias deste arquivo (`CLAUDE.md` e
 `.github/copilot-instructions.md`), o grafo e o `graph.html`. Edite só o `AGENTS.md`: as cópias são geradas.
 
 > Os resumos foram escritos a partir do conteúdo conhecido das normas, não copiados do texto oficial.

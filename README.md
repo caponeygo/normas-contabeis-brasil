@@ -35,6 +35,8 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 
 Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
 
+**Empresa industrial?** Os trechos das normas para a indústria (custo de produção, estoques, máquinas, vendas, incentivos, meio ambiente) estão em **[Industrial/](Industrial/README.md)**.
+
 | Área | Use para | Normas |
 |---|---|---|
 | [Apresentação e Divulgação](areas/apresentacao-e-divulgacao.md) | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 47 |

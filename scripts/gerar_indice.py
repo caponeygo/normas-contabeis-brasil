@@ -505,6 +505,10 @@ for r in REC:
 SINONIMOS = {nome: sin for nome, _, _, sin in TEMAS}
 AREA_DO_TEMA = {nome: area for nome, area, _, _ in TEMAS}
 
+# ---------- pasta Industrial/ (trechos das normas para a indústria) ----------
+import industrial
+TOPICOS_IND = industrial.gerar(ROOT, REC, sem_rev)
+
 (ROOT / "normas.json").write_text(json.dumps({
     "descricao": "Índice das normas contábeis e de auditoria brasileiras (CFC/CPC) e internacionais (IFRS/IAS), por área e tema.",
     "atualizado_em": "2026-10-23",
@@ -583,6 +587,9 @@ idx = ["# Índice por área\n",
        "## Áreas\n\n| Área | Use para | Normas | Arquivo |\n|---|---|---|---|"]
 for a in ordem:
     idx.append(f"| **{a}** | {QUANDO.get(a, '')} | {len(por_area[a])} | [{slug(a)}.md]({slug(a)}.md) |")
+idx.append("\n## Por setor\n\n| Setor | Use para | Pasta |\n|---|---|---|\n"
+           "| **Indústria** | custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, meio ambiente, auditoria de estoques "
+           "| [Industrial/README.md](../Industrial/README.md) |")
 idx.append("\n## Busca por tema\n\n| Tema | Também chamado de | Área | Normas |\n|---|---|---|---|")
 for nome, area, _, sin in TEMAS:
     cods = [r["codigo"] for r in REC if nome in r["temas"]]
@@ -600,6 +607,8 @@ out.insert(i, "## Encontrar por área\n\n"
            "Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. "
            "Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. "
            "Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.\n\n"
+           "**Empresa industrial?** Os trechos das normas para a indústria (custo de produção, estoques, máquinas, vendas, incentivos, meio ambiente) "
+           "estão em **[Industrial/](Industrial/README.md)**.\n\n"
            "| Área | Use para | Normas |\n|---|---|---|\n" +
            "\n".join(f"| [{a}](areas/{slug(a)}.md) | {QUANDO.get(a, '')} | {len(por_area[a])} |" for a in ordem) + "\n")
 (ROOT / "README.md").write_text("\n".join(out), encoding="utf-8")
@@ -646,6 +655,13 @@ for r in REC:
         for sig, nome in DEMOS:
             if re.search(rf"\b{sig}\b", r["afeta"]):
                 edge(n, node(nid("demo", sig), f"Demonstração: {sig} ({nome})", "demonstracao"), "afeta")
+setor = node("setor_industria", "Setor: Indústria (fábrica, produção, custo industrial)", "setor")
+for arq, titulo in TOPICOS_IND:
+    t = node(nid("industria", titulo), f"Indústria: {titulo}", "topico_industrial")
+    edge(t, setor, "parte_do_setor")
+for r in REC:
+    for tp in {x["topico"] for x in r["industria"]}:
+        edge(code_id(r["codigo"]), nid("industria", tp), "aplica_na_industria")
 (ROOT / "graphify-out").mkdir(exist_ok=True)
 (ROOT / "graphify-out" / ".graphify_extract.json").write_text(json.dumps(
     {"nodes": nodes, "edges": edges, "hyperedges": [], "input_tokens": 0, "output_tokens": 0}, ensure_ascii=False), encoding="utf-8")
