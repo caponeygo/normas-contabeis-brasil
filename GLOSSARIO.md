@@ -128,7 +128,7 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 
 Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
 
-- [COSIF – Plano Contábil das Instituições do Sistema Financeiro Nacional](https://www3.bcb.gov.br/aplica/cosif)
+- [COSIF – Padrão Contábil das Instituições Reguladas pelo Banco Central do Brasil](https://www3.bcb.gov.br/aplica/cosif)
 - [Res. CMN 4.966/2021 – Instrumentos financeiros nas instituições do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966)
 - [SUSEP – Superintendência de Seguros Privados](https://www.gov.br/susep/pt-br)
 - [IFRS S1 – Requisitos Gerais de Divulgação de Sustentabilidade](https://www.ifrs.org/issued-standards/list-of-standards/)

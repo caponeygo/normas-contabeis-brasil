@@ -43,7 +43,7 @@ Trechos das normas que importam para cada tipo de empresa, com itens, checklist 
 | **Agronegócio** | rebanho, lavouras, florestas, cana, café, ativo biológico a valor justo, colheita, terras, plantas portadoras, arrendamento e parceria rural, crédito rural subsidiado, hedge de commodities, CPR, CBIO | [Agronegocio/README.md](../Agronegocio/README.md) |
 | **Construção e Incorporação** | incorporação imobiliária, venda na planta, POC, permuta de terreno, juros na obra, distratos, empreiteiras, contratos de construção, medição de obra, aditivos e pleitos, contrato oneroso, garantia de obra | [Construcao/README.md](../Construcao/README.md) |
 | **Terceiro Setor** | associações, fundações, ONGs, OSCIPs, entidades beneficentes, doações, subvenções e convênios, gratuidades, trabalho voluntário, superávit, patrimônio social, cooperativas, partidos políticos | [TerceiroSetor/README.md](../TerceiroSetor/README.md) |
-| **Financeiro** | bancos, cooperativas de crédito, fintechs, seguradoras, previdência complementar, Banco Central (COSIF, Res. CMN 4.966), SUSEP, CVM, perda esperada, instrumentos financeiros, contratos de seguro | [Financeiro/README.md](../Financeiro/README.md) |
+| **Financeiro** | bancos, cooperativas de crédito, fintechs, seguradoras, previdência complementar, Banco Central (COSIF, Res. CMN 4.966, Res. BCB 352), ativo problemático, estágios de perda esperada, renegociação, SUSEP, CVM | [Financeiro/README.md](../Financeiro/README.md) |
 
 ## Apoio
 
@@ -128,8 +128,9 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 
 - [NBC TG 1000 (R1) – Contabilidade para Pequenas e Médias Empresas (CPC PME)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc)
 - [NBC TASP – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601)
-- [COSIF – Plano Contábil das Instituições do Sistema Financeiro Nacional](https://www3.bcb.gov.br/aplica/cosif)
+- [COSIF – Padrão Contábil das Instituições Reguladas pelo Banco Central do Brasil](https://www3.bcb.gov.br/aplica/cosif)
 - [Res. CMN 4.966/2021 – Instrumentos financeiros nas instituições do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966)
+- [Res. BCB 352/2023 – Procedimentos complementares à Res. CMN 4.966](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=352)
 - [SUSEP – Superintendência de Seguros Privados](https://www.gov.br/susep/pt-br)
 - [OT CFC 01/2026 – Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf)
 - [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)

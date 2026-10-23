@@ -7,18 +7,17 @@ Gerado por `scripts/verificar_itens.py` a partir dos PDFs oficiais do CFC (não 
 | Situação | Quantidade |
 |---|---|
 | item ok | 191 |
-| ok (revisado manualmente) | 16 |
+| ok (revisado manualmente) | 15 |
 | sem PDF | 2 |
 
 | Situação | Norma | Itens | Aderência | Tópico | Itens não encontrados |
 |---|---|---|---|---|---|
 | ok (revisado manualmente) | NBC TG 47 | 47 | 0% | Serviços: Escritórios, tributos e pequenas empresas |  |
 | ok (revisado manualmente) | NBC TG 48 | 4.1 | 12% | Financeiro: Instrumentos financeiros nas empresas em geral |  |
+| ok (revisado manualmente) | NBC TG 48 | 4.1 | 17% | Financeiro: Classificação e mensuração (Res. CMN 4.966) |  |
 | ok (revisado manualmente) | NBC TG 25 (R2) | 33–35 | 20% | Varejo: Tributos no varejo |  |
 | ok (revisado manualmente) | NBC TG 48 | cap. 6 | 21% | Agronegócio: Crédito rural, hedge e CPR |  |
 | ok (revisado manualmente) | NBC TG 06 (R3) | 38 | 22% | Varejo: Lojas, aluguéis e impairment |  |
-| ok (revisado manualmente) | NBC TG 48 | 5.5 | 22% | Financeiro: Bancos e instituições do Banco Central |  |
-| ok (revisado manualmente) | NBC TG 48 | 4.1 | 22% | Financeiro: Bancos e instituições do Banco Central |  |
 | ok (revisado manualmente) | NBC TG 29 (R2) | 2 | 23% | Agronegócio: Terras, plantas portadoras e arrendamentos |  |
 | ok (revisado manualmente) | NBC TG 01 (R4) | 9, 12 | 25% | Indústria: Máquinas, fábrica e imobilizado |  |
 | ok (revisado manualmente) | NBC TG 02 (R3) | 28 | 25% | Indústria: Commodities, câmbio e hedge |  |

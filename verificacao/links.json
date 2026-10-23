@@ -3454,14 +3454,14 @@
  },
  {
   "codigo": "Res. BCB 352/2023",
-  "titulo": "Procedimentos contábeis complementares à Res. CMN 4.966 (perda esperada, divulgações)",
+  "titulo": "Procedimentos contábeis complementares à Res. CMN 4.966 (perda esperada, níveis mínimos de provisão, divulgação)",
   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=352",
   "http": 200,
   "situacao": "ok"
  },
  {
   "codigo": "COSIF",
-  "titulo": "Plano Contábil das Instituições do Sistema Financeiro Nacional",
+  "titulo": "Padrão Contábil das Instituições Reguladas pelo Banco Central do Brasil (Cosif)",
   "url": "https://www3.bcb.gov.br/aplica/cosif",
   "http": 200,
   "situacao": "ok"

@@ -1687,7 +1687,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/03-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "—",
      "ponto": "Separar passivo de patrimônio (ações resgatáveis, conversíveis) e regras de compensação."
     }
@@ -1741,7 +1741,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/03-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "31–42",
      "ponto": "Divulgar riscos de crédito, liquidez e mercado, com análise de sensibilidade."
     }
@@ -2250,24 +2250,16 @@
     {
      "setor": "Financeiro",
      "pasta": "Financeiro",
-     "topico": "Bancos e instituições do Banco Central",
-     "arquivo": "Financeiro/01-bancos-e-instituicoes-do-bc.md",
-     "itens": "5.5",
-     "ponto": "Referência IFRS 9 (perda esperada em 3 estágios) para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro."
-    },
-    {
-     "setor": "Financeiro",
-     "pasta": "Financeiro",
-     "topico": "Bancos e instituições do Banco Central",
-     "arquivo": "Financeiro/01-bancos-e-instituicoes-do-bc.md",
+     "topico": "Classificação e mensuração (Res. CMN 4.966)",
+     "arquivo": "Financeiro/01-classificacao-e-mensuracao.md",
      "itens": "4.1",
-     "ponto": "Classificação de ativos financeiros pelo modelo de negócios e pelos fluxos de caixa contratuais (teste de SPPI)."
+     "ponto": "Referência IFRS 9 para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro."
     },
     {
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/03-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "4.1",
      "ponto": "Classificar aplicações e recebíveis pelo modelo de negócios e pelos fluxos de caixa contratuais."
     },
@@ -2275,7 +2267,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/03-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "5.5.15",
      "ponto": "Clientes e ativos contratuais: abordagem simplificada de perda esperada pela vida inteira."
     },
@@ -2283,7 +2275,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/03-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "3.2.3–3.2.6",
      "ponto": "Venda ou cessão de recebíveis só baixa o ativo se transferir substancialmente riscos e benefícios."
     }
@@ -2311,7 +2303,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Seguradoras e previdência complementar",
-     "arquivo": "Financeiro/02-seguradoras-e-previdencia.md",
+     "arquivo": "Financeiro/05-seguradoras-e-previdencia.md",
      "itens": "—",
      "ponto": "Demonstrações dos próprios planos de benefícios de aposentadoria."
     }
@@ -2339,7 +2331,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Seguradoras e previdência complementar",
-     "arquivo": "Financeiro/02-seguradoras-e-previdencia.md",
+     "arquivo": "Financeiro/05-seguradoras-e-previdencia.md",
      "itens": "—",
      "ponto": "Contratos de seguro (IFRS 17): fluxos de caixa de cumprimento + margem contratual de serviço; obrigatório para companhias abertas desde 2023."
     }
@@ -4016,7 +4008,7 @@
      "setor": "Financeiro",
      "pasta": "Financeiro",
      "topico": "Seguradoras e previdência complementar",
-     "arquivo": "Financeiro/02-seguradoras-e-previdencia.md",
+     "arquivo": "Financeiro/05-seguradoras-e-previdencia.md",
      "itens": "—",
      "ponto": "Entidades fechadas de previdência complementar (fundos de pensão): demonstrações específicas por plano e gestão previdencial, assistencial e administrativa."
     }

@@ -11,6 +11,7 @@ Lançamentos (débito e crédito) para as situações mais comuns, com a norma q
 | [pessoal-e-provisoes.md](pessoal-e-provisoes.md) | férias, PLR, processo trabalhista |
 | [instrumentos-financeiros-e-cambio.md](instrumentos-financeiros-e-cambio.md) | perda esperada de clientes, antecipação de recebíveis, variação cambial de fornecedor |
 | [agro.md](agro.md) | valorização de rebanho, colheita |
+| [bancos.md](bancos.md) | instituições financeiras: provisão por estágios, ativo problemático, baixa a prejuízo, renegociação (Res. CMN 4.966) |
 
 > Exemplos didáticos, não substituem a análise do caso concreto. As normas citadas estão em [areas/](../areas/README.md) e nas pastas por setor.
 
@@ -22,4 +23,5 @@ Lançamentos (débito e crédito) para as situações mais comuns, com a norma q
 Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
 
 - [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [Res. CMN 4.966/2021 – Instrumentos financeiros nas instituições do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966)
 <!-- fontes:fim -->

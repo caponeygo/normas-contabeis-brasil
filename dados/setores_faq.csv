@@ -59,8 +59,13 @@ terceiro_setor;Trabalho voluntário é contabilizado?;Sim, pelo valor justo do s
 terceiro_setor;Como se chama o lucro de uma ONG?;Superávit (ou déficit), incorporado ao patrimônio social.;ITG 2002;15, 23
 terceiro_setor;Quota de cooperado que saiu continua no PL?;"Não; vai para capital a restituir no passivo.";ITG 2004;19
 terceiro_setor;Partido político segue qual norma?;NBC TPE 01, obrigatória a partir das eleições de 2026.;OT CFC 02/2026;—
-financeiro;Banco usa a NBC TG 48 nas demonstrações individuais?;Não diretamente: segue o COSIF e a Res. CMN 4.966 (com conceitos da IFRS 9).;Res. CMN 4.966/2021;—
-financeiro;Desde quando vale a Res. CMN 4.966?;1/1/2025.;Res. CMN 4.966/2021;—
+financeiro;Banco usa a NBC TG 48 nas demonstrações individuais?;Não diretamente: segue o COSIF e a Res. CMN 4.966 (com conceitos da IFRS 9).;Res. CMN 4.966/2021;art. 1º
+financeiro;Desde quando vale a Res. CMN 4.966?;"1/1/2025; a parte de contabilidade de hedge, só em 1/1/2027.";Res. CMN 4.966/2021;art. 81
+financeiro;Quando um crédito vira ativo problemático?;Atraso acima de 90 dias ou indício de que não será pago (ex.: reestruturação, recuperação judicial).;Res. CMN 4.966/2021;art. 3º
+financeiro;Banco pode reconhecer juros de crédito problemático?;Só quando recebidos.;Res. CMN 4.966/2021;arts. 17–18
+financeiro;Quais são os estágios da perda esperada?;"1: 12 meses; 2: vida inteira (aumento significativo de risco); 3: ativo problemático.";Res. CMN 4.966/2021;arts. 37 e 47
+financeiro;Ainda existe provisão por níveis AA a H?;"Não; a Res. 2.682 foi revogada. Há níveis mínimos por carteira e atraso na Res. BCB 352.";Res. CMN 4.966/2021;art. 80
+financeiro;Quanto tempo controlar crédito baixado a prejuízo?;No mínimo 5 anos.;Res. CMN 4.966/2021;art. 49
 financeiro;Seguradora aberta aplica IFRS 17?;Sim, CPC 50/NBC TG 50 desde 2023 (Res. CVM 42/2021).;Res. CVM 42/2021;—
 financeiro;Fintech sem autorização do BC segue o quê?;As NBC TG (instrumentos financeiros pela NBC TG 48).;NBC TG 48;4.1
 financeiro;Fundo de pensão segue qual norma?;ITG 2001 (EFPC) e regras da PREVIC.;ITG 2001;—

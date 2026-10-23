@@ -17,8 +17,8 @@
  {"pergunta": "ONG: doação recebida e trabalho voluntário", "arquivos": ["TerceiroSetor/01-receitas-doacoes-e-subvencoes.md", "TerceiroSetor/README.md"], "normas": ["ITG 2002"]},
  {"pergunta": "Cooperativa: quotas-partes do cooperado que saiu", "arquivos": ["TerceiroSetor/03-cooperativas.md", "TerceiroSetor/README.md"], "normas": ["ITG 2004"]},
  {"pergunta": "Prestação de contas de partido político nas eleições", "arquivos": ["TerceiroSetor/04-partidos-e-eleicoes.md", "areas/contabilidade-eleitoral.md", "TerceiroSetor/README.md"], "normas": ["NBC TPE 01"]},
- {"pergunta": "Banco: perda esperada pela Resolução CMN 4.966", "arquivos": ["Financeiro/01-bancos-e-instituicoes-do-bc.md", "Financeiro/README.md"], "normas": ["4.966"]},
- {"pergunta": "Seguradora aplica IFRS 17 ou regra da SUSEP?", "arquivos": ["Financeiro/02-seguradoras-e-previdencia.md", "Financeiro/README.md"], "normas": ["NBC TG 50"]},
+ {"pergunta": "Banco: perda esperada pela Resolução CMN 4.966", "arquivos": ["Financeiro/02-perda-esperada-e-ativo-problematico.md", "Financeiro/README.md"], "normas": ["4.966"]},
+ {"pergunta": "Seguradora aplica IFRS 17 ou regra da SUSEP?", "arquivos": ["Financeiro/05-seguradoras-e-previdencia.md", "Financeiro/README.md"], "normas": ["NBC TG 50"]},
  {"pergunta": "O que muda com a IFRS 18 na DRE?", "arquivos": ["areas/apresentacao-e-divulgacao.md", "Industrial/07-dre-e-apresentacao.md", "areas/normas-internacionais.md"], "normas": ["NBC TG 51"]},
  {"pergunta": "IBS e CBS em 2026: devo reconhecer o passivo no período de teste?", "arquivos": ["areas/reforma-tributaria.md", "lancamentos/tributos-e-subvencoes.md"], "normas": ["OT CFC 01/2026"]},
  {"pergunta": "Lançamento contábil do split payment", "arquivos": ["lancamentos/tributos-e-subvencoes.md", "areas/reforma-tributaria.md"], "normas": ["split payment"]},
@@ -38,5 +38,8 @@
  {"pergunta": "Incentivo fiscal de ICMS crédito presumido e reserva de incentivos fiscais", "arquivos": ["Industrial/04-tributos-e-incentivos.md", "lancamentos/tributos-e-subvencoes.md"], "normas": ["NBC TG 07"]},
  {"pergunta": "Variação cambial de fornecedor estrangeiro na importação", "arquivos": ["Industrial/06-commodities-cambio-e-hedge.md", "lancamentos/instrumentos-financeiros-e-cambio.md"], "normas": ["NBC TG 02"]},
  {"pergunta": "Auditor acompanha o inventário físico dos estoques", "arquivos": ["Industrial/10-auditoria-na-industria.md", "Varejo/01-mercadorias-e-cmv.md", "areas/auditoria-independente.md"], "normas": ["NBC TA 501"]},
- {"pergunta": "Consolidação de controladas e equivalência patrimonial", "arquivos": ["areas/participacoes-societarias.md", "GLOSSARIO.md"], "normas": ["NBC TG 36"]}
+ {"pergunta": "Consolidação de controladas e equivalência patrimonial", "arquivos": ["areas/participacoes-societarias.md", "GLOSSARIO.md"], "normas": ["NBC TG 36"]},
+ {"pergunta": "Quando um crédito de banco vira ativo problemático e para de reconhecer juros?", "arquivos": ["Financeiro/02-perda-esperada-e-ativo-problematico.md", "Financeiro/README.md", "lancamentos/bancos.md"], "normas": ["4.966"]},
+ {"pergunta": "Banco: renegociação ou reestruturação de operação de crédito", "arquivos": ["Financeiro/03-renegociacao-reestruturacao-e-baixa.md", "lancamentos/bancos.md"], "normas": ["4.966"]},
+ {"pergunta": "Lançamento de baixa a prejuízo em banco", "arquivos": ["lancamentos/bancos.md", "Financeiro/02-perda-esperada-e-ativo-problematico.md"], "normas": ["4.966"]}
 ]
