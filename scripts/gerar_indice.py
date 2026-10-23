@@ -453,12 +453,12 @@ TEMAS = [
  ("Concessões e infraestrutura", "Setores Específicos", r"concess|aeroportu|rodoviári|aneel|energia elétrica", "concessão pública, energia, rodovias, aeroportos"),
  ("Incorporação imobiliária", "Setores Específicos", r"imobiliári", "construtoras, incorporadoras"),
  ("Mineração e meio ambiente", "Setores Específicos", r"minera|estéril|desativação|ambiental|eletroeletrônic|recursos minerais", "mineração, descomissionamento, IFRS 6"),
- ("Entidades específicas", "Setores Específicos", r"sem finalidade|cooperativa|desportiv|previdência complementar|liquidação|microentidade|pequena", "terceiro setor, ONG, cooperativas, clubes, fundos de pensão"),
+ ("Entidades específicas", "Setores Específicos", r"sem finalidade|cooperativa|desportiv|previdência complementar|liquidação", "terceiro setor, ONG, cooperativas, clubes, fundos de pensão"),
  ("Sustentabilidade e clima", "Sustentabilidade", r"sustentabilidade|clima|carbono|gases de efeito|relato integrado|social e ambiental|responsabilidade social", "ESG, ISSB, IFRS S1, IFRS S2, créditos de carbono"),
  ("Custos no setor público", "Setor Público", r"custos no setor", "custos governamentais"),
  ("Fraude", "Auditoria Independente", r"fraude", "erro, distorção intencional, ISA 240"),
  ("Riscos, materialidade e planejamento", "Auditoria Independente", r"risco|materialidade|planejamento|distorç|controle interno|termos do trabalho|leis e regulamentos", "avaliação de risco, materialidade, planejamento de auditoria"),
- ("Evidência de auditoria", "Auditoria Independente", r"evidência|confirmaç|amostragem|analític|saldos iniciais|representações|documentação|estimativas contábeis|continuidade", "procedimentos de auditoria, circularização, amostragem"),
+ ("Evidência de auditoria", "Auditoria Independente", r"\bevidência|confirmaç|amostragem|analític|saldos iniciais|representações|documentação|estimativas contábeis|continuidade", "procedimentos de auditoria, circularização, amostragem"),
  ("Relatório do auditor", "Auditoria Independente", r"relatório|opinião|ênfase|principais assuntos|outras informações", "parecer, opinião modificada, PAA, ressalva"),
  ("Qualidade e independência", "Ética e Exercício Profissional", r"qualidade|independência|ética|código|educação profissional|qualificação técnica|cadastro|contadores que", "ética profissional, EPC, CNAI, revisão pelos pares"),
  ("Perícia contábil", "Perícia Contábil", r"períci|perito|haveres", "laudo pericial, perito judicial, apuração de haveres"),
@@ -467,13 +467,33 @@ TEMAS = [
  ("Laudo de avaliação", "Fundamentos", r"laudo de avaliação", "avaliação patrimonial por contador"),
 ]
 
+# temas que o título não revela (ex.: IFRS 18 "Apresentação e Divulgação" muda na prática a DRE)
+TEMAS += [
+ ("Demonstração do resultado (DRE)", "Apresentação e Divulgação", None, "DRE, lucro, resultado operacional, EBITDA, MPM, IFRS 18, lucro por ação"),
+ ("Fluxo de caixa (DFC)", "Apresentação e Divulgação", None, "DFC, método direto, método indireto, caixa e equivalentes, IAS 7"),
+ ("Valor adicionado (DVA)", "Apresentação e Divulgação", None, "DVA, riqueza gerada, distribuição do valor adicionado"),
+ ("Pequenas e médias empresas", "Pequenas e Médias Empresas", r"pequena|microentidade|\bpme\b|smes", "PME, ME, EPP, pequena empresa, microentidade, IFRS for SMEs, CPC PME"),
+]
+TEMA_COD = {
+ "Demonstração do resultado (DRE)": ["NBC TG 51", "IFRS 18", "NBC TG 26", "IAS 1", "NBC TG 41", "IAS 33", "NBC TG 31", "IFRS 5"],
+ "Fluxo de caixa (DFC)": ["NBC TG 03", "IAS 7", "NBC TSP 12"],
+ "Valor adicionado (DVA)": ["NBC TG 09"],
+}
+# temas de auditoria/profissão só valem para normas dessas séries (evita "Relatório Financeiro" virar relatório do auditor)
+TEMAS_AUDITORIA = {"Fraude", "Riscos, materialidade e planejamento", "Evidência de auditoria", "Relatório do auditor",
+                   "Qualidade e independência", "Uso do trabalho de terceiros", "Procedimentos previamente acordados e compilação"}
+SERIES_CONTABEIS = {"NBC TG", "ITG", "CTG", "OTG", "Específicas", "PME", "NBC TSP", "IFRS/IAS"}
+
 def norm(s):
     return unicodedata.normalize("NFC", s.lower())
 
 CONTABIL_FALLBACK = "Contabilidade Geral"
 for r in REC:
     t = norm(r["titulo"])
-    r["temas"] = [nome for nome, _, rx, _ in TEMAS if re.search(rx, t)]
+    cod = re.sub(r"\s*\(R\d+\)", "", r["codigo"]).strip()
+    r["temas"] = [nome for nome, _, rx, _ in TEMAS
+                  if (rx and re.search(rx, t) or cod in TEMA_COD.get(nome, []))
+                  and not (nome in TEMAS_AUDITORIA and (r["serie"] in SERIES_CONTABEIS or r["serie"].startswith("CTSP")))]
     areas = []
     if r["serie"] in AREA_SERIE:
         areas.append(AREA_SERIE[r["serie"]])
@@ -492,7 +512,7 @@ AREA_DO_TEMA = {nome: area for nome, area, _, _ in TEMAS}
     "normas": REC,
 }, ensure_ascii=False, indent=1), encoding="utf-8")
 
-# ---------- seção "Por área" e AREAS.md ----------
+# ---------- pasta areas/ (um arquivo por área) ----------
 from collections import defaultdict
 por_area = defaultdict(list)
 for r in REC:
@@ -500,38 +520,95 @@ for r in REC:
         por_area[a].append(r)
 ordem = sorted(por_area, key=lambda a: (a == "Normas Internacionais", a))
 
-areas_md = ["# Normas por área e tema\n",
-            "Gerado por `scripts/gerar_indice.py` a partir de `normas.json`. Use para achar a norma pelo assunto ",
-            "(ex.: *imobilizado* → NBC TG 27 / CPC 27 / IAS 16).\n"]
-areas_md.append("## Busca rápida por tema\n\n| Tema | Área | Sinônimos | Normas |\n|---|---|---|---|")
-for nome, area, _, sin in TEMAS:
-    cods = [r["codigo"] for r in REC if nome in r["temas"]]
-    if cods:
-        areas_md.append(f"| **{nome}** | {area} | {sin} | {', '.join(cods)} |")
 DEMOS = [("BP", "Balanço patrimonial"), ("DRE", "Demonstração do resultado"), ("DRA", "Resultado abrangente / ORA"),
          ("DMPL", "Mutações do patrimônio líquido"), ("DFC", "Fluxos de caixa"), ("DVA", "Valor adicionado"),
          ("NE", "Notas explicativas"), ("DVP", "Variações patrimoniais (setor público)")]
-areas_md.append("\n## Busca por demonstração afetada\n\nQuais normas mudam cada demonstração "
-                "(só normas contábeis brasileiras; \"Todas\" = norma de estrutura que afeta o conjunto).\n\n"
-                "| Demonstração | Normas |\n|---|---|")
+
+# quando usar cada área (vai no topo do arquivo da área e no índice)
+QUANDO = {
+ "Ativos": "imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda",
+ "Passivos": "provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos",
+ "Receitas": "reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais",
+ "Tributos": "IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos",
+ "Patrimônio Líquido": "dividendos, JCP, ações, stock options, lucro por ação",
+ "Instrumentos Financeiros": "aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada",
+ "Mensuração": "valor justo, ajuste a valor presente",
+ "Moeda e Câmbio": "variação cambial, moeda funcional, conversão, hiperinflação",
+ "Participações Societárias": "consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio",
+ "Apresentação e Divulgação": "balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos",
+ "Fundamentos": "estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação",
+ "Setores Específicos": "seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes",
+ "Pequenas e Médias Empresas": "PME, pequena empresa, microentidade, NBC TG 1000",
+ "Setor Público": "governo, prefeituras, autarquias, NBC TSP, IPSAS",
+ "Sustentabilidade": "ESG, clima, IFRS S1/S2, carbono, relato integrado",
+ "Auditoria Independente": "auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência",
+ "Revisão": "revisão de ITR e demonstrações (segurança limitada)",
+ "Asseguração": "asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios",
+ "Serviços Correlatos": "procedimentos previamente acordados, compilação",
+ "Auditoria Interna": "auditor interno",
+ "Perícia Contábil": "perícia judicial, laudo pericial, apuração de haveres",
+ "Ética e Exercício Profissional": "código de ética, independência, educação continuada, CNAI, qualidade de firmas",
+ "Normas Internacionais": "IFRS, IAS, IFRS for SMEs, IFRS S1/S2 e correlação com CPC",
+}
+
+def slug(s):
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+import shutil
+pasta = ROOT / "areas"
+shutil.rmtree(pasta, ignore_errors=True); pasta.mkdir()
+(ROOT / "AREAS.md").unlink(missing_ok=True)
+
+def linha(r):
+    refs = " · ".join(x for x in (r["cpc"], r["internacional"]) if x) or "—"
+    return f"| **{r['codigo']}** – {r['titulo']} | {r['resumo']} | {r['afeta']} | {refs} | [abrir]({r['url']}) |"
+
+for a in ordem:
+    temas_a = [(n, s) for n, ar, _, s in TEMAS if ar == a and any(n in r["temas"] for r in por_area[a])]
+    md = [f"# Área: {a}\n",
+          f"**Use esta área para:** {QUANDO.get(a, a)}.\n",
+          f"{len(por_area[a])} normas. Índice de todas as áreas: [areas/README.md](README.md).\n"]
+    if temas_a:
+        md.append("## Temas desta área\n\n| Tema | Também chamado de | Normas |\n|---|---|---|")
+        for n, sin in temas_a:
+            md.append(f"| {n} | {sin} | {', '.join(r['codigo'] for r in por_area[a] if n in r['temas'])} |")
+    md.append("\n## Normas\n\n| Norma | O que trata | Afeta | CPC / Internacional | Texto |\n|---|---|---|---|---|")
+    md += [linha(r) for r in por_area[a]]
+    (pasta / f"{slug(a)}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+
+idx = ["# Índice por área\n",
+       "Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link oficial. "
+       "Comece pela tabela abaixo; se souber só o assunto, use a busca por tema.\n",
+       "## Áreas\n\n| Área | Use para | Normas | Arquivo |\n|---|---|---|---|"]
+for a in ordem:
+    idx.append(f"| **{a}** | {QUANDO.get(a, '')} | {len(por_area[a])} | [{slug(a)}.md]({slug(a)}.md) |")
+idx.append("\n## Busca por tema\n\n| Tema | Também chamado de | Área | Normas |\n|---|---|---|---|")
+for nome, area, _, sin in TEMAS:
+    cods = [r["codigo"] for r in REC if nome in r["temas"]]
+    if cods:
+        idx.append(f"| **{nome}** | {sin} | [{area}]({slug(area)}.md) | {', '.join(cods)} |")
+idx.append("\n## Busca por demonstração afetada\n\nNormas contábeis brasileiras que mudam cada demonstração.\n\n"
+           "| Demonstração | Normas |\n|---|---|")
 for sig, nome in DEMOS:
     cods = [r["codigo"] for r in REC if r["serie"] != "IFRS/IAS" and re.search(rf"\b{sig}\b", r["afeta"])]
-    areas_md.append(f"| **{sig}** – {nome} | {', '.join(cods)} |")
-for a in ordem:
-    areas_md.append(f"\n## {a}\n\n| Norma | O que trata | Afeta | CPC / Internacional | Texto |\n|---|---|---|---|---|")
-    for r in por_area[a]:
-        refs = " · ".join(x for x in (r["cpc"], r["internacional"]) if x) or "—"
-        areas_md.append(f"| **{r['codigo']}** – {r['titulo']} | {r['resumo']} | {r['afeta']} | {refs} | [abrir]({r['url']}) |")
-(ROOT / "AREAS.md").write_text("\n".join(areas_md) + "\n", encoding="utf-8")
+    idx.append(f"| **{sig}** – {nome} | {', '.join(cods)} |")
+(pasta / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
 
 i = out.index(next(x for x in out if x.startswith("## NBC TG – Normas técnicas gerais")))
-out.insert(i, "## Encontrar por assunto\n\n"
-           "Veja **[AREAS.md](AREAS.md)** (normas agrupadas por área e tabela de busca por tema), "
-           "o grafo interativo **[graphify-out/graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)** "
-           "e os dados em **[normas.json](normas.json)**. Instruções para agentes de IA: **[AGENTS.md](AGENTS.md)**.\n\n"
-           "| Área | Nº de normas |\n|---|---|\n" +
-           "\n".join(f"| {a} | {len(por_area[a])} |" for a in ordem) + "\n")
+out.insert(i, "## Encontrar por área\n\n"
+           "Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. "
+           "Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. "
+           "Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.\n\n"
+           "| Área | Use para | Normas |\n|---|---|---|\n" +
+           "\n".join(f"| [{a}](areas/{slug(a)}.md) | {QUANDO.get(a, '')} | {len(por_area[a])} |" for a in ordem) + "\n")
 (ROOT / "README.md").write_text("\n".join(out), encoding="utf-8")
+
+# instruções para IA: mesmo texto para Copilot, Claude e outros agentes
+ag = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+(ROOT / "CLAUDE.md").write_text(ag, encoding="utf-8")
+(ROOT / ".github").mkdir(exist_ok=True)
+(ROOT / ".github" / "copilot-instructions.md").write_text(ag, encoding="utf-8")
 
 # ---------- extração para o graphify (determinística, sem LLM) ----------
 SRC = "normas.json"

@@ -31,35 +31,35 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 `CPC 26 (R1)` é o pronunciamento do CPC. O CFC o torna obrigatório para os contadores como `NBC TG 26 (R5)`.
 `(Rn)` indica a revisão. As interpretações `ICPC` correspondem às `ITG`, e as orientações `OCPC` correspondem aos `CTG`.
 
-## Encontrar por assunto
+## Encontrar por área
 
-Veja **[AREAS.md](AREAS.md)** (normas agrupadas por área e tabela de busca por tema), o grafo interativo **[graphify-out/graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)** e os dados em **[normas.json](normas.json)**. Instruções para agentes de IA: **[AGENTS.md](AGENTS.md)**.
+Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
 
-| Área | Nº de normas |
-|---|---|
-| Apresentação e Divulgação | 43 |
-| Asseguração | 12 |
-| Ativos | 25 |
-| Auditoria Independente | 43 |
-| Auditoria Interna | 1 |
-| Fundamentos | 13 |
-| Instrumentos Financeiros | 11 |
-| Mensuração | 5 |
-| Moeda e Câmbio | 7 |
-| Participações Societárias | 20 |
-| Passivos | 15 |
-| Patrimônio Líquido | 7 |
-| Pequenas e Médias Empresas | 5 |
-| Perícia Contábil | 4 |
-| Receitas | 6 |
-| Revisão | 6 |
-| Serviços Correlatos | 7 |
-| Setor Público | 39 |
-| Setores Específicos | 26 |
-| Sustentabilidade | 8 |
-| Tributos | 4 |
-| Ética e Exercício Profissional | 12 |
-| Normas Internacionais | 45 |
+| Área | Use para | Normas |
+|---|---|---|
+| [Apresentação e Divulgação](areas/apresentacao-e-divulgacao.md) | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 47 |
+| [Asseguração](areas/asseguracao.md) | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 12 |
+| [Ativos](areas/ativos.md) | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 25 |
+| [Auditoria Independente](areas/auditoria-independente.md) | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 39 |
+| [Auditoria Interna](areas/auditoria-interna.md) | auditor interno | 1 |
+| [Fundamentos](areas/fundamentos.md) | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 |
+| [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 11 |
+| [Mensuração](areas/mensuracao.md) | valor justo, ajuste a valor presente | 5 |
+| [Moeda e Câmbio](areas/moeda-e-cambio.md) | variação cambial, moeda funcional, conversão, hiperinflação | 7 |
+| [Participações Societárias](areas/participacoes-societarias.md) | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio | 20 |
+| [Passivos](areas/passivos.md) | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 15 |
+| [Patrimônio Líquido](areas/patrimonio-liquido.md) | dividendos, JCP, ações, stock options, lucro por ação | 7 |
+| [Pequenas e Médias Empresas](areas/pequenas-e-medias-empresas.md) | PME, pequena empresa, microentidade, NBC TG 1000 | 6 |
+| [Perícia Contábil](areas/pericia-contabil.md) | perícia judicial, laudo pericial, apuração de haveres | 4 |
+| [Receitas](areas/receitas.md) | reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais | 6 |
+| [Revisão](areas/revisao.md) | revisão de ITR e demonstrações (segurança limitada) | 6 |
+| [Serviços Correlatos](areas/servicos-correlatos.md) | procedimentos previamente acordados, compilação | 7 |
+| [Setor Público](areas/setor-publico.md) | governo, prefeituras, autarquias, NBC TSP, IPSAS | 39 |
+| [Setores Específicos](areas/setores-especificos.md) | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 21 |
+| [Sustentabilidade](areas/sustentabilidade.md) | ESG, clima, IFRS S1/S2, carbono, relato integrado | 8 |
+| [Tributos](areas/tributos.md) | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos | 4 |
+| [Ética e Exercício Profissional](areas/etica-e-exercicio-profissional.md) | código de ética, independência, educação continuada, CNAI, qualidade de firmas | 12 |
+| [Normas Internacionais](areas/normas-internacionais.md) | IFRS, IAS, IFRS for SMEs, IFRS S1/S2 e correlação com CPC | 45 |
 
 ## NBC TG – Normas técnicas gerais
 

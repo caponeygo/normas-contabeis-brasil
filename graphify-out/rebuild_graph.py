@@ -12,7 +12,21 @@ if __name__ == '__main__':
     G = build_from_json(ext, root='.', directed=False)
     assert G.number_of_nodes() > 0, 'extração vazia'
     com = cluster(G)
+    # nome de cada grupo = área (ou tema) mais presente nele
+    labels = {}
+    for cid, nos in com.items():
+        areas = [G.nodes[n]['label'].replace('Área: ', '') for n in nos if n.startswith('area_')]
+        temas = [G.nodes[n]['label'].split(' (')[0] for n in nos if n.startswith('tema_')]
+        labels[cid] = ' / '.join((areas or temas or [G.nodes[nos[0]]['label']])[:2])
     # --force: o grafo pode ter mudado de tamanho (normas novas/removidas)
-    to_json(G, com, 'graphify-out/graph.json', force=True)
+    to_json(G, com, 'graphify-out/graph.json', force=True, community_labels=labels)
+    from graphify.cluster import score_all
+    from graphify.analyze import god_nodes, surprising_connections, suggest_questions
+    from graphify.report import generate
+    from graphify.detect import detect
+    rep = generate(G, com, score_all(G, com), labels, god_nodes(G), surprising_connections(G, com),
+                   detect(Path('.')), {'input': 0, 'output': 0}, '.',
+                   suggested_questions=suggest_questions(G, com, labels))
+    Path('graphify-out/GRAPH_REPORT.md').write_text(rep, encoding='utf-8')
     print(f'{G.number_of_nodes()} nós, {G.number_of_edges()} arestas')
     subprocess.run([sys.executable, 'graphify-out/build_html.py'], check=True)

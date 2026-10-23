@@ -206,6 +206,26 @@
    "tema": "Laudo de avaliação",
    "area": "Fundamentos",
    "sinonimos": "avaliação patrimonial por contador"
+  },
+  {
+   "tema": "Demonstração do resultado (DRE)",
+   "area": "Apresentação e Divulgação",
+   "sinonimos": "DRE, lucro, resultado operacional, EBITDA, MPM, IFRS 18, lucro por ação"
+  },
+  {
+   "tema": "Fluxo de caixa (DFC)",
+   "area": "Apresentação e Divulgação",
+   "sinonimos": "DFC, método direto, método indireto, caixa e equivalentes, IAS 7"
+  },
+  {
+   "tema": "Valor adicionado (DVA)",
+   "area": "Apresentação e Divulgação",
+   "sinonimos": "DVA, riqueza gerada, distribuição do valor adicionado"
+  },
+  {
+   "tema": "Pequenas e médias empresas",
+   "area": "Pequenas e Médias Empresas",
+   "sinonimos": "PME, ME, EPP, pequena empresa, microentidade, IFRS for SMEs, CPC PME"
   }
  ],
  "normas": [
@@ -219,12 +239,10 @@
    "resumo": "Base de tudo: objetivo do relatório financeiro, características qualitativas (relevância, representação fidedigna), definições de ativo, passivo, PL, receita e despesa, critérios de reconhecimento, desreconhecimento e bases de mensuração. Não é norma de procedimento: orienta o normatizador e preenche lacunas.",
    "afeta": "Todas (conceitos)",
    "temas": [
-    "Estrutura conceitual",
-    "Relatório do auditor"
+    "Estrutura conceitual"
    ],
    "areas": [
-    "Fundamentos",
-    "Auditoria Independente"
+    "Fundamentos"
    ]
   },
   {
@@ -269,7 +287,8 @@
    "resumo": "Regras da DFC: classifica fluxos em operacionais, de investimento e de financiamento, método direto ou indireto, conceito de caixa e equivalentes e divulgação de transações sem caixa.",
    "afeta": "DFC",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Fluxo de caixa (DFC)"
    ],
    "areas": [
     "Apresentação e Divulgação"
@@ -349,7 +368,8 @@
    "resumo": "Norma brasileira sem equivalente IFRS: modelo e conteúdo da DVA (riqueza gerada e sua distribuição entre pessoal, governo, financiadores e acionistas). Obrigatória para companhias abertas.",
    "afeta": "DVA",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Valor adicionado (DVA)"
    ],
    "areas": [
     "Apresentação e Divulgação"
@@ -557,7 +577,8 @@
    "resumo": "Apresentação das demonstrações (IAS 1): conjunto completo (BP, DRE, DRA, DMPL, DFC, notas), continuidade, regime de competência, circulante x não circulante, materialidade e itens mínimos. Será substituída pela NBC TG 51 (IFRS 18) a partir de 2027.",
    "afeta": "Todas (estrutura)",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
     "Apresentação e Divulgação"
@@ -621,10 +642,12 @@
    "resumo": "Ativo não circulante mantido para venda: separa no balanço pelo menor entre valor contábil e valor justo menos despesa de venda, para de depreciar; operação descontinuada aparece em linha própria na DRE.",
    "afeta": "BP, DRE (operação descontinuada), NE",
    "temas": [
-    "Ativo mantido para venda"
+    "Ativo mantido para venda",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
-    "Ativos"
+    "Ativos",
+    "Apresentação e Divulgação"
    ]
   },
   {
@@ -753,10 +776,12 @@
    "resumo": "Lucro por ação básico e diluído: cálculo, ações potenciais e apresentação na DRE. Obrigatória para companhias abertas.",
    "afeta": "DRE, NE",
    "temas": [
-    "Patrimônio, dividendos e ações"
+    "Patrimônio, dividendos e ações",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
-    "Patrimônio Líquido"
+    "Patrimônio Líquido",
+    "Apresentação e Divulgação"
    ]
   },
   {
@@ -883,12 +908,10 @@
    "resumo": "Demonstrações dos próprios planos de aposentadoria (fundos de pensão): ativos líquidos disponíveis para benefícios e valor atuarial dos benefícios prometidos. Não é a contabilidade do patrocinador (essa é a NBC TG 33).",
    "afeta": "Demonstrações do plano",
    "temas": [
-    "Benefícios a empregados",
-    "Relatório do auditor"
+    "Benefícios a empregados"
    ],
    "areas": [
-    "Passivos",
-    "Auditoria Independente"
+    "Passivos"
    ]
   },
   {
@@ -917,7 +940,8 @@
    "resumo": "IFRS 18, vigente a partir de 1/1/2027, substitui a NBC TG 26 (IAS 1). A mudança é na DRE: receitas e despesas passam a ser classificadas em categorias (operacional, investimento, financiamento, tributos sobre o lucro, descontinuadas), com subtotais obrigatórios de 'resultado operacional' e 'resultado antes de financiamento e tributos'. Também exige divulgar em nota as medidas de desempenho definidas pela administração (MPMs, como EBITDA ajustado) e reforça regras de agregação/desagregação. Na DFC, o ponto de partida do método indireto vira o resultado operacional e juros/dividendos ganham classificação fixa. O balanço praticamente não muda.",
    "afeta": "DRE (principal), NE (MPMs), DFC (ajustes menores)",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
     "Apresentação e Divulgação"
@@ -1276,12 +1300,10 @@
    "resumo": "Orientação sobre evidenciação: notas explicativas relevantes e específicas, sem repetir texto de norma, e aplicação da materialidade às divulgações.",
    "afeta": "NE",
    "temas": [
-    "Demonstrações contábeis e divulgação",
-    "Relatório do auditor"
+    "Demonstrações contábeis e divulgação"
    ],
    "areas": [
-    "Apresentação e Divulgação",
-    "Auditoria Independente"
+    "Apresentação e Divulgação"
    ]
   },
   {
@@ -1969,11 +1991,10 @@
    "resumo": "Norma completa simplificada (IFRS for SMEs / CPC PME) para empresas sem obrigação pública de prestar contas: menos opções, menos divulgação e simplificações (ex.: ágio amortizado, sem custo de empréstimo capitalizado).",
    "afeta": "Todas (PME)",
    "temas": [
-    "Entidades específicas"
+    "Pequenas e médias empresas"
    ],
    "areas": [
-    "Pequenas e Médias Empresas",
-    "Setores Específicos"
+    "Pequenas e Médias Empresas"
    ]
   },
   {
@@ -1986,11 +2007,10 @@
    "resumo": "Contabilidade simplificada para pequenas empresas (receita até R$ 78 milhões), em vigor desde 2023: demonstrações e divulgações reduzidas.",
    "afeta": "Todas (pequena empresa)",
    "temas": [
-    "Entidades específicas"
+    "Pequenas e médias empresas"
    ],
    "areas": [
-    "Pequenas e Médias Empresas",
-    "Setores Específicos"
+    "Pequenas e Médias Empresas"
    ]
   },
   {
@@ -2003,11 +2023,10 @@
    "resumo": "Contabilidade para microentidades (receita até R$ 4,8 milhões): conjunto mínimo de demonstrações (BP, DRE e notas) e regras simples.",
    "afeta": "BP, DRE, NE",
    "temas": [
-    "Entidades específicas"
+    "Pequenas e médias empresas"
    ],
    "areas": [
-    "Pequenas e Médias Empresas",
-    "Setores Específicos"
+    "Pequenas e Médias Empresas"
    ]
   },
   {
@@ -2021,12 +2040,11 @@
    "afeta": "BP, DRE, NE",
    "temas": [
     "Escrituração contábil",
-    "Entidades específicas"
+    "Pequenas e médias empresas"
    ],
    "areas": [
     "Pequenas e Médias Empresas",
-    "Fundamentos",
-    "Setores Específicos"
+    "Fundamentos"
    ]
   },
   {
@@ -2073,13 +2091,11 @@
    "afeta": "Demonstrações do fundo",
    "temas": [
     "Benefícios a empregados",
-    "Entidades específicas",
-    "Evidência de auditoria"
+    "Entidades específicas"
    ],
    "areas": [
     "Passivos",
-    "Setores Específicos",
-    "Auditoria Independente"
+    "Setores Específicos"
    ]
   },
   {
@@ -2393,7 +2409,8 @@
    "resumo": "DFC no setor público.",
    "afeta": "DFC",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Fluxo de caixa (DFC)"
    ],
    "areas": [
     "Setor Público",
@@ -3660,11 +3677,13 @@
    "resumo": "Ativo não circulante mantido para venda: separa no balanço pelo menor entre valor contábil e valor justo menos despesa de venda, para de depreciar; operação descontinuada aparece em linha própria na DRE.",
    "afeta": "BP, DRE (operação descontinuada), NE",
    "temas": [
-    "Ativo mantido para venda"
+    "Ativo mantido para venda",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
     "Normas Internacionais",
-    "Ativos"
+    "Ativos",
+    "Apresentação e Divulgação"
    ]
   },
   {
@@ -3882,7 +3901,8 @@
    "resumo": "IFRS 18, vigente a partir de 1/1/2027, substitui a NBC TG 26 (IAS 1). A mudança é na DRE: receitas e despesas passam a ser classificadas em categorias (operacional, investimento, financiamento, tributos sobre o lucro, descontinuadas), com subtotais obrigatórios de 'resultado operacional' e 'resultado antes de financiamento e tributos'. Também exige divulgar em nota as medidas de desempenho definidas pela administração (MPMs, como EBITDA ajustado) e reforça regras de agregação/desagregação. Na DFC, o ponto de partida do método indireto vira o resultado operacional e juros/dividendos ganham classificação fixa. O balanço praticamente não muda.",
    "afeta": "DRE (principal), NE (MPMs), DFC (ajustes menores)",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
     "Normas Internacionais",
@@ -3916,7 +3936,8 @@
    "resumo": "Apresentação das demonstrações (estrutura e conteúdo mínimo). Substituída pela IFRS 18 para exercícios a partir de 1/1/2027; no Brasil, NBC TG 26 / CPC 26.",
    "afeta": "Todas (estrutura)",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
     "Normas Internacionais",
@@ -3950,7 +3971,8 @@
    "resumo": "Regras da DFC: classifica fluxos em operacionais, de investimento e de financiamento, método direto ou indireto, conceito de caixa e equivalentes e divulgação de transações sem caixa.",
    "afeta": "DFC",
    "temas": [
-    "Demonstrações contábeis e divulgação"
+    "Demonstrações contábeis e divulgação",
+    "Fluxo de caixa (DFC)"
    ],
    "areas": [
     "Normas Internacionais",
@@ -4207,11 +4229,13 @@
    "resumo": "Lucro por ação básico e diluído: cálculo, ações potenciais e apresentação na DRE. Obrigatória para companhias abertas.",
    "afeta": "DRE, NE",
    "temas": [
-    "Patrimônio, dividendos e ações"
+    "Patrimônio, dividendos e ações",
+    "Demonstração do resultado (DRE)"
    ],
    "areas": [
     "Normas Internacionais",
-    "Patrimônio Líquido"
+    "Patrimônio Líquido",
+    "Apresentação e Divulgação"
    ]
   },
   {
@@ -4326,11 +4350,11 @@
    "resumo": "Versão simplificada das IFRS para pequenas e médias empresas; no Brasil, NBC TG 1000 / CPC PME.",
    "afeta": "Todas (PME)",
    "temas": [
-    "Entidades específicas"
+    "Pequenas e médias empresas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Setores Específicos"
+    "Pequenas e Médias Empresas"
    ]
   },
   {

@@ -1,52 +1,64 @@
-# Instruções para agentes de IA
+# Instruções para agentes de IA (GitHub Copilot, Claude, ChatGPT etc.)
 
-Este repositório é um índice das normas contábeis e de auditoria do Brasil (CFC/CPC) e das
-internacionais (IFRS/IAS/ISA). O texto das normas não está aqui: cada norma tem um link oficial.
+Este repositório é um **índice das normas contábeis e de auditoria do Brasil** (CFC e CPC) e das
+internacionais (IFRS, IAS, ISA). O texto integral das normas não está aqui: cada norma tem um
+resumo do que trata, as demonstrações que afeta e o link oficial.
 
-## Como achar a norma certa para um pedido
+## Como responder a um pedido
 
-1. **Identifique o tema** do pedido (ex.: "como depreciar uma máquina?" → tema *Imobilizado*).
-2. **Procure o tema** em `normas.json` → `temas[]` (campos `tema`, `area`, `sinonimos`).
-   Os sinônimos cobrem termos do dia a dia: ativo fixo, leasing, impairment, PCLD, ESG etc.
-3. **Liste as normas** em `normas.json` → `normas[]` cujo campo `temas` contém o tema.
-   Cada norma tem `codigo`, `titulo`, `serie`, `areas`, `cpc`, `internacional`, `url`,
-   **`resumo`** (o que ela realmente trata, em linguagem direta) e **`afeta`** (BP, DRE, DRA, DMPL,
-   DFC, DVA, NE ou o tipo de trabalho). Leia o `resumo` para confirmar que a norma serve ao pedido:
-   o título engana (ex.: IFRS 18 / NBC TG 51 "Apresentação e Divulgação" muda na prática a DRE).
-   Pergunta do tipo "o que muda a DRE?" → filtre por `afeta` (ou veja a tabela em AREAS.md).
-4. **Escolha pela entidade:**
-   - empresa em geral → NBC TG / CPC (correlação IFRS/IAS no campo `internacional`)
-   - pequena e média empresa → NBC TG 1000 (área *Pequenas e Médias Empresas*)
-   - órgão público → NBC TSP (área *Setor Público*)
-   - auditoria → NBC TA (mesma numeração das ISA)
-5. **Abra o `url`** para ler o texto vigente antes de responder, e cite o código da norma.
+1. **Ache a área.** Abra [`areas/README.md`](areas/README.md) e escolha a área pela coluna "Use para".
+   Cada área tem seu arquivo em `areas/` (ex.: `areas/ativos.md`, `areas/auditoria-independente.md`).
+2. **Se o usuário falou só o assunto** ("depreciação", "leasing", "PCLD", "parecer com ressalva"),
+   use a tabela **Busca por tema** em `areas/README.md`. A coluna "Também chamado de" tem os sinônimos.
+3. **Se a pergunta é sobre uma demonstração** ("o que muda a DRE?", "o que afeta a DFC?"),
+   use a tabela **Busca por demonstração afetada** em `areas/README.md`.
+4. **Leia o resumo da norma** no arquivo da área antes de indicar. O título engana: a IFRS 18 /
+   NBC TG 51 se chama "Apresentação e Divulgação", mas na prática muda a **DRE**.
+5. **Escolha a série pelo tipo de entidade:**
 
-Exemplo: "imobilizado" → NBC TG 27 (R4) ≡ CPC 27 ≡ IAS 16; setor público → NBC TSP 37;
-adoção inicial → ITG 10; perda por impairment → NBC TG 01 (R4).
+   | Entidade ou trabalho | Série | Área |
+   |---|---|---|
+   | Empresa em geral (S.A., Ltda. grande) | NBC TG ≡ CPC ≡ IFRS/IAS | conforme o assunto |
+   | Pequena e média empresa | NBC TG 1000, 1001, 1002 | Pequenas e Médias Empresas |
+   | Órgão público | NBC TSP | Setor Público |
+   | Auditoria das demonstrações | NBC TA ≡ ISA (mesma numeração) | Auditoria Independente |
+   | Revisão de ITR | NBC TR | Revisão |
+   | Perícia judicial | NBC TP, NBC PP | Perícia Contábil |
+   | Ética e exercício profissional | NBC PG, NBC PA | Ética e Exercício Profissional |
+   | ESG e clima | NBC TDS ≡ IFRS S1/S2 | Sustentabilidade |
+
+6. **Responda** citando o código (ex.: "NBC TG 27 (R4) / CPC 27 / IAS 16") e o link oficial (`url`).
+   Os resumos são orientação: para detalhes, confira o texto oficial.
+
+### Exemplos
+- "Como depreciar uma máquina?" → área **Ativos**, tema Imobilizado → NBC TG 27 (R4) ≡ CPC 27 ≡ IAS 16.
+- "Aluguel de loja entra no balanço?" → **Ativos**, tema Arrendamentos → NBC TG 06 (R3) ≡ CPC 06 ≡ IFRS 16.
+- "O que muda com a IFRS 18?" → **Apresentação e Divulgação**, tema DRE → NBC TG 51 ≡ CPC 51.
+- "Prefeitura, como registrar uma escola?" → **Setor Público** → NBC TSP 37.
+- "Quando o auditor emite opinião com ressalva?" → **Auditoria Independente** → NBC TA 705.
 
 ## Arquivos
 
 | Arquivo | Uso |
 |---|---|
-| `normas.json` | Dados estruturados (fonte para busca) |
-| `AREAS.md` | Normas por área com resumo e demonstrações afetadas; busca por tema e por demonstração |
-| `README.md` | Índice por série |
-| `graphify-out/graph.json` | Grafo de conhecimento (norma ↔ tema ↔ área ↔ CPC/IFRS) |
-| `graphify-out/graph.html` | Mapa interativo: um círculo com uma bolinha por norma, agrupadas por área e coloridas por série; busca por tema/sinônimo |
-| `graphify-out/GRAPH_REPORT.md` | Relatório do grafo (comunidades, nós centrais) |
+| [`areas/README.md`](areas/README.md) | **Comece aqui.** Áreas, busca por tema (com sinônimos) e por demonstração |
+| `areas/<area>.md` | Normas de uma área: resumo, o que afeta, CPC/IFRS equivalente e link |
+| [`normas.json`](normas.json) | Os mesmos dados em JSON: `codigo`, `titulo`, `serie`, `areas`, `temas`, `resumo`, `afeta`, `cpc`, `internacional`, `url` |
+| [`README.md`](README.md) | Índice por série (NBC TG, ITG, NBC TA, NBC TSP…) |
+| `graphify-out/graph.json` | Grafo: norma ↔ tema ↔ área ↔ demonstração ↔ CPC/IFRS (`graphify query "imobilizado"`) |
+| `graphify-out/graph.html` | Mapa interativo para pessoas |
 
-Com o [graphify](https://github.com/safishamsi/graphify) instalado: `graphify query "imobilizado"`.
+## Atualizar (para quem mantém o repositório)
 
-## Atualizar
-
-Edite os dados em `scripts/gerar_indice.py` (resumos em `scripts/resumos.py`) e rode, da raiz do projeto:
+Os dados ficam em `scripts/gerar_indice.py` (normas, temas, áreas) e `scripts/resumos.py` (resumos).
+Depois de editar, rode da raiz:
 
 ```bash
 python graphify-out/rebuild_graph.py
 ```
 
-Ele regenera README.md, AREAS.md e normas.json, refaz `graphify-out/graph.json` e gera o
-`graph.html` (layout em `graphify-out/build_html.py`, visual em `graphify-out/template.html`).
-Use o Python que tem o graphify instalado (`uv tool install graphifyy`).
+Isso regenera `areas/`, `README.md`, `normas.json`, as cópias deste arquivo (`CLAUDE.md` e
+`.github/copilot-instructions.md`), o grafo e o `graph.html`. Edite só o `AGENTS.md`: as cópias são geradas.
 
-> Os resumos foram escritos a partir do conteúdo conhecido das normas, não copiados do texto oficial. Confira sempre o `url` antes de citar.
+> Os resumos foram escritos a partir do conteúdo conhecido das normas, não copiados do texto oficial.
+> Confira sempre o link oficial antes de citar.

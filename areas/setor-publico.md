@@ -1,0 +1,55 @@
+# Área: Setor Público
+
+**Use esta área para:** governo, prefeituras, autarquias, NBC TSP, IPSAS.
+
+39 normas. Índice de todas as áreas: [areas/README.md](README.md).
+
+## Temas desta área
+
+| Tema | Também chamado de | Normas |
+|---|---|---|
+| Custos no setor público | custos governamentais | NBC TSP 34 |
+
+## Normas
+
+| Norma | O que trata | Afeta | CPC / Internacional | Texto |
+|---|---|---|---|---|
+| **NBC TSP Estrutura Conceitual (R1)** – Estrutura Conceitual para Informação Contábil de Propósito Geral pelas Entidades do Setor Público | Base conceitual do setor público: usuários, prestação de contas (accountability), elementos (ativo, passivo, receita, despesa) e mensuração no governo. | Todas (conceitos) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSPEC(R1)&arquivo=NBCTSP_Estrutura(R1).docx) |
+| **NBC TSP 01** – Receita de Transação sem Contraprestação | Receita sem contraprestação: tributos e transferências; reconhece pelo fato gerador ou pela transferência, com passivo se houver condição. | DVP, BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc) |
+| **NBC TSP 02** – Receita de Transação com Contraprestação | Receita com contraprestação (venda de bens e serviços pelo ente público). | DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc) |
+| **NBC TSP 03 (R1)** – Provisões, Passivos Contingentes e Ativos Contingentes | Provisões, passivos e ativos contingentes no setor público. | BP, DVP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP03(R1)&arquivo=NBCTSP03(R1).docx) |
+| **NBC TSP 04 (R1)** – Estoques | Estoques no setor público, inclusive itens distribuídos gratuitamente. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP04(R1)&arquivo=NBCTSP04(R1).docx) |
+| **NBC TSP 05 (R1)** – Contratos de Concessão de Serviços Públicos: Concedente | Concessões do lado do governo (concedente): reconhece a infraestrutura da concessão e o passivo correspondente. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx) |
+| **NBC TSP 06 (R1)** – Propriedade para Investimento | Propriedade para investimento no setor público. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP06(R1)&arquivo=NBCTSP06(R1).docx) |
+| **NBC TSP 08 (R1)** – Ativo Intangível | Ativo intangível no setor público (software, direitos), excluindo poderes concedidos por lei. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP08(R1)&arquivo=NBCTSP08(R1).docx) |
+| **NBC TSP 09 (R1)** – Redução ao Valor Recuperável de Ativo Não Gerador de Caixa | Impairment de ativo não gerador de caixa (escola, hospital): pelo potencial de serviço que se perde. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP09(R1)&arquivo=NBCTSP09(R1).docx) |
+| **NBC TSP 10 (R1)** – Redução ao Valor Recuperável de Ativo Gerador de Caixa | Impairment de ativo gerador de caixa no setor público. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP10(R1)&arquivo=NBCTSP10(R1).docx) |
+| **NBC TSP 11 (R1)** – Apresentação das Demonstrações Contábeis | Apresentação das demonstrações do setor público (BP, DVP, DMPL, DFC, notas). | Todas (estrutura) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP11(R1)&arquivo=NBCTSP11(R1).docx) |
+| **NBC TSP 12 (R1)** – Demonstração dos Fluxos de Caixa | DFC no setor público. | DFC | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP12(R1)&arquivo=NBCTSP12(R1).docx) |
+| **NBC TSP 13 (R1)** – Apresentação de Informação Orçamentária nas Demonstrações Contábeis | Comparação do orçamento previsto com o executado nas demonstrações. | Balanço Orçamentário, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP13(R1)&arquivo=NBCTSP13(R1).docx) |
+| **NBC TSP 14 (R1)** – Custos de Empréstimos | Custos de empréstimos no setor público (despesa ou capitalização). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP14(R1)&arquivo=NBCTSP14(R1).docx) |
+| **NBC TSP 15 (R1)** – Benefícios a Empregados | Benefícios a empregados no setor público, inclusive previdência de servidores (RPPS). | BP, DVP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP15(R1)&arquivo=NBCTSP15(R1).docx) |
+| **NBC TSP 16 (R1)** – Demonstrações Contábeis Separadas | Demonstrações separadas do ente controlador. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP16(R1)&arquivo=NBCTSP16(R1).docx) |
+| **NBC TSP 17 (R1)** – Demonstrações Contábeis Consolidadas | Consolidação no setor público (ente e entidades controladas). | Todas (consolidadas) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP17(R1)&arquivo=NBCTSP17(R1).docx) |
+| **NBC TSP 18 (R1)** – Investimento em Coligada e em Empreendimento Controlado em Conjunto | Equivalência patrimonial no setor público (coligadas e empreendimentos em conjunto). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP18(R1)&arquivo=NBCTSP18(R1).docx) |
+| **NBC TSP 19 (R1)** – Acordos em Conjunto | Acordos em conjunto no setor público. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP19(R1)&arquivo=NBCTSP19(R1).docx) |
+| **NBC TSP 20 (R1)** – Divulgação de Participações em Outras Entidades | Divulgação de participações em outras entidades no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP20(R1)&arquivo=NBCTSP20(R1).docx) |
+| **NBC TSP 21 (R1)** – Combinações no Setor Público | Combinações no setor público (fusões e aquisições de entes e entidades). | BP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP21(R1)&arquivo=NBCTSP21(R1).docx) |
+| **NBC TSP 22 (R1)** – Divulgação sobre Partes Relacionadas | Divulgação de partes relacionadas no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP22(R1)&arquivo=NBCTSP22(R1).docx) |
+| **NBC TSP 23 (R1)** – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | Políticas, estimativas e erros no setor público. | Todas, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP23(R1)&arquivo=NBCTSP23(R1).docx) |
+| **NBC TSP 24 (R1)** – Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | Câmbio e conversão no setor público. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP24(R1)&arquivo=NBCTSP24(R1).docx) |
+| **NBC TSP 25 (R1)** – Evento Subsequente | Eventos subsequentes no setor público. | NE, BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP25(R1)&arquivo=NBCTSP25(R1).docx) |
+| **NBC TSP 26 (R1)** – Ativo Biológico e Produto Agrícola | Ativo biológico e produto agrícola no setor público. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP26(R1)&arquivo=NBCTSP26(R1).docx) |
+| **NBC TSP 27 (R1)** – Informações por Segmento | Informação por segmento no setor público (por função, programa). | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP27(R1)&arquivo=NBCTSP27(R1).docx) |
+| **NBC TSP 28 (R1)** – Divulgação de Informação Financeira do Setor Governo Geral | Divulgação de informação do setor governo geral (estatísticas fiscais). | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP28(R1)&arquivo=NBCTSP28(R1).docx) |
+| **NBC TSP 29 (R1)** – Benefícios Sociais | Benefícios sociais (bolsas, auxílios): quando reconhecer a obrigação com o beneficiário. | BP, DVP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP29(R1)&arquivo=NBCTSP29(R1).docx) |
+| **NBC TSP 30 (R1)** – Instrumentos Financeiros: Apresentação | Instrumentos financeiros – apresentação no setor público. | BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP30(R1)&arquivo=NBCTSP30(R1).docx) |
+| **NBC TSP 31 (R1)** – Instrumentos Financeiros: Reconhecimento e Mensuração | Instrumentos financeiros – reconhecimento e mensuração no setor público (inclui perdas esperadas). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx) |
+| **NBC TSP 32 (R1)** – Instrumentos Financeiros: Contabilidade de Hedge (Aplicação Residual) | Contabilidade de hedge no setor público (aplicação residual da norma antiga). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP32(R1)&arquivo=NBCTSP32(R1).docx) |
+| **NBC TSP 33 (R1)** – Instrumentos Financeiros: Divulgações | Instrumentos financeiros – divulgações no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP33(R1)&arquivo=NBCTSP33(R1).docx) |
+| **NBC TSP 34** – Custos no Setor Público | Norma brasileira: sistema de custos no setor público (apuração de custo de serviços e programas). | Informação de custos | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSP34&arquivo=NBCTSP34.doc) |
+| **NBC TSP 35** – Arrendamentos | Arrendamentos no setor público (direito de uso). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP35&arquivo=NBCTSP35.docx) |
+| **NBC TSP 37** – Ativo Imobilizado | Ativo imobilizado no setor público, inclusive bens de infraestrutura e patrimônio cultural. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP37&arquivo=NBC_TSP_37.docx) |
+| **NBC TSP 38** – Mensuração | Mensuração no setor público: bases (custo histórico, valor corrente operacional, valor justo). | BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx) |
+| **CTSP 01** – Provisões, Passivos Contingentes e Ativos Contingentes | Orientação prática sobre provisões e contingências nos entes públicos. | BP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc) |
+| **CTSP 02** – Notas Explicativas | Orientação sobre notas explicativas no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc) |
