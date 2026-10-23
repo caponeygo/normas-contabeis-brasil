@@ -255,7 +255,9 @@ out.insert(i, "## Encontrar por área\n\n"
 ag = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
 (ROOT / "CLAUDE.md").write_text(ag, encoding="utf-8")
 (ROOT / ".github").mkdir(exist_ok=True)
-(ROOT / ".github" / "copilot-instructions.md").write_text(ag, encoding="utf-8")
+# a cópia fica em .github/: links relativos ganham "../" para continuarem válidos
+ag_github = re.sub(r"\]\((?!https?:|#|\.\./)([^)]+)\)", r"](../\1)", ag)
+(ROOT / ".github" / "copilot-instructions.md").write_text(ag_github, encoding="utf-8")
 
 # ---------- extração para o graphify (determinística, sem LLM) ----------
 SRC = "normas.json"

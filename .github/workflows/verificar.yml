@@ -43,6 +43,11 @@ jobs:
         continue-on-error: true
         run: python scripts/monitorar_cfc.py
 
+      - name: Links internos entre os arquivos
+        id: internos
+        continue-on-error: true
+        run: python scripts/verificar_links_internos.py
+
       - name: Testar se a busca acha o arquivo certo
         id: busca
         continue-on-error: true
@@ -61,7 +66,7 @@ jobs:
           path: verificacao/*.md
 
       - name: Abrir issue se houver algo a conferir
-        if: steps.links.outcome == 'failure' || steps.monitor.outcome == 'failure' || steps.itens.outcome == 'failure' || steps.busca.outcome == 'failure'
+        if: steps.links.outcome == 'failure' || steps.monitor.outcome == 'failure' || steps.itens.outcome == 'failure' || steps.busca.outcome == 'failure' || steps.internos.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
