@@ -9,7 +9,11 @@ internacionais (IFRS/IAS/ISA). O texto das normas não está aqui: cada norma te
 2. **Procure o tema** em `normas.json` → `temas[]` (campos `tema`, `area`, `sinonimos`).
    Os sinônimos cobrem termos do dia a dia: ativo fixo, leasing, impairment, PCLD, ESG etc.
 3. **Liste as normas** em `normas.json` → `normas[]` cujo campo `temas` contém o tema.
-   Cada norma tem `codigo`, `titulo`, `serie`, `areas`, `cpc`, `internacional` e `url`.
+   Cada norma tem `codigo`, `titulo`, `serie`, `areas`, `cpc`, `internacional`, `url`,
+   **`resumo`** (o que ela realmente trata, em linguagem direta) e **`afeta`** (BP, DRE, DRA, DMPL,
+   DFC, DVA, NE ou o tipo de trabalho). Leia o `resumo` para confirmar que a norma serve ao pedido:
+   o título engana (ex.: IFRS 18 / NBC TG 51 "Apresentação e Divulgação" muda na prática a DRE).
+   Pergunta do tipo "o que muda a DRE?" → filtre por `afeta` (ou veja a tabela em AREAS.md).
 4. **Escolha pela entidade:**
    - empresa em geral → NBC TG / CPC (correlação IFRS/IAS no campo `internacional`)
    - pequena e média empresa → NBC TG 1000 (área *Pequenas e Médias Empresas*)
@@ -25,7 +29,7 @@ adoção inicial → ITG 10; perda por impairment → NBC TG 01 (R4).
 | Arquivo | Uso |
 |---|---|
 | `normas.json` | Dados estruturados (fonte para busca) |
-| `AREAS.md` | Normas agrupadas por área + tabela de busca por tema |
+| `AREAS.md` | Normas por área com resumo e demonstrações afetadas; busca por tema e por demonstração |
 | `README.md` | Índice por série |
 | `graphify-out/graph.json` | Grafo de conhecimento (norma ↔ tema ↔ área ↔ CPC/IFRS) |
 | `graphify-out/graph.html` | Mapa interativo: um círculo com uma bolinha por norma, agrupadas por área e coloridas por série; busca por tema/sinônimo |
@@ -35,7 +39,7 @@ Com o [graphify](https://github.com/safishamsi/graphify) instalado: `graphify qu
 
 ## Atualizar
 
-Edite os dados em `scripts/gerar_indice.py` e rode, da raiz do projeto:
+Edite os dados em `scripts/gerar_indice.py` (resumos em `scripts/resumos.py`) e rode, da raiz do projeto:
 
 ```bash
 python graphify-out/rebuild_graph.py
@@ -44,3 +48,5 @@ python graphify-out/rebuild_graph.py
 Ele regenera README.md, AREAS.md e normas.json, refaz `graphify-out/graph.json` e gera o
 `graph.html` (layout em `graphify-out/build_html.py`, visual em `graphify-out/template.html`).
 Use o Python que tem o graphify instalado (`uv tool install graphifyy`).
+
+> Os resumos foram escritos a partir do conteúdo conhecido das normas, não copiados do texto oficial. Confira sempre o `url` antes de citar.

@@ -53,7 +53,7 @@ for n in NORMAS:
     refs = ' · '.join(x for x in (n['cpc'], n['internacional']) if x)
     temas = '; '.join(f"{t} ({TEMAS[t]['sinonimos']})" for t in n['temas'])
     e = ent('n:' + chave(n['codigo']), n['codigo'], cat, 'norma',
-            path=' · '.join(x for x in (n['titulo'], refs, temas and 'Temas: ' + temas) if x),
+            path=' · '.join(x for x in (n['titulo'], refs) if x) + f"<br><br>{n['resumo']}<br><br>Afeta: {n['afeta']}" + (f'<br>Temas: {temas}' if temas else ''),
             url=n['url'], grupo='a:' + g)
     ents['a:' + g]['fn'].append(n['codigo'])
 

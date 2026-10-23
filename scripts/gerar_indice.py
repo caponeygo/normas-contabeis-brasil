@@ -399,6 +399,19 @@ for l in IFRS.strip().splitlines():
     c, t, cpc, tgx = l.split("|")
     add(c, t, "IFRS/IAS", "https://www.ifrs.org/issued-standards/list-of-standards/", None if cpc == "—" else cpc, tgx if tgx != "—" else None)
 
+# ---------- o que cada norma trata e afeta (scripts/resumos.py) ----------
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from resumos import R as RESUMOS
+def sem_rev(c):
+    return re.sub(r"\s*\(R\d+\)", "", c).strip()
+faltando = []
+for r in REC:
+    txt = RESUMOS.get(sem_rev(r["codigo"])) or (r["internacional"] and RESUMOS.get(sem_rev(r["internacional"])))
+    if not txt:
+        faltando.append(r["codigo"]); txt = "|"
+    r["resumo"], r["afeta"] = txt.split("|", 1)
+assert not faltando, f"sem resumo: {faltando}"
+
 # ---------- áreas por série ----------
 AREA_SERIE = {
     "NBC TA": "Auditoria Independente", "NBC TR": "Revisão", "NBC TO": "Asseguração",
@@ -495,10 +508,20 @@ for nome, area, _, sin in TEMAS:
     cods = [r["codigo"] for r in REC if nome in r["temas"]]
     if cods:
         areas_md.append(f"| **{nome}** | {area} | {sin} | {', '.join(cods)} |")
+DEMOS = [("BP", "Balanço patrimonial"), ("DRE", "Demonstração do resultado"), ("DRA", "Resultado abrangente / ORA"),
+         ("DMPL", "Mutações do patrimônio líquido"), ("DFC", "Fluxos de caixa"), ("DVA", "Valor adicionado"),
+         ("NE", "Notas explicativas"), ("DVP", "Variações patrimoniais (setor público)")]
+areas_md.append("\n## Busca por demonstração afetada\n\nQuais normas mudam cada demonstração "
+                "(só normas contábeis brasileiras; \"Todas\" = norma de estrutura que afeta o conjunto).\n\n"
+                "| Demonstração | Normas |\n|---|---|")
+for sig, nome in DEMOS:
+    cods = [r["codigo"] for r in REC if r["serie"] != "IFRS/IAS" and re.search(rf"\b{sig}\b", r["afeta"])]
+    areas_md.append(f"| **{sig}** – {nome} | {', '.join(cods)} |")
 for a in ordem:
-    areas_md.append(f"\n## {a}\n\n| Norma | Título | CPC | Internacional | Texto |\n|---|---|---|---|---|")
+    areas_md.append(f"\n## {a}\n\n| Norma | O que trata | Afeta | CPC / Internacional | Texto |\n|---|---|---|---|---|")
     for r in por_area[a]:
-        areas_md.append(f"| {r['codigo']} | {r['titulo']} | {r['cpc'] or '—'} | {r['internacional'] or '—'} | [abrir]({r['url']}) |")
+        refs = " · ".join(x for x in (r["cpc"], r["internacional"]) if x) or "—"
+        areas_md.append(f"| **{r['codigo']}** – {r['titulo']} | {r['resumo']} | {r['afeta']} | {refs} | [abrir]({r['url']}) |")
 (ROOT / "AREAS.md").write_text("\n".join(areas_md) + "\n", encoding="utf-8")
 
 i = out.index(next(x for x in out if x.startswith("## NBC TG – Normas técnicas gerais")))
@@ -542,6 +565,10 @@ for r in REC:
     for ref in (r["cpc"], r["internacional"]):
         if ref:
             edge(n, node(code_id(ref), ref, "norma"), "equivale_a")
+    if r["serie"] != "IFRS/IAS":
+        for sig, nome in DEMOS:
+            if re.search(rf"\b{sig}\b", r["afeta"]):
+                edge(n, node(nid("demo", sig), f"Demonstração: {sig} ({nome})", "demonstracao"), "afeta")
 (ROOT / "graphify-out").mkdir(exist_ok=True)
 (ROOT / "graphify-out" / ".graphify_extract.json").write_text(json.dumps(
     {"nodes": nodes, "edges": edges, "hyperedges": [], "input_tokens": 0, "output_tokens": 0}, ensure_ascii=False), encoding="utf-8")
