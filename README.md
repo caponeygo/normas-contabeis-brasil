@@ -443,8 +443,8 @@ Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <htt
 
 As **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). Textos das ISA: <https://www.iaasb.org/>.
 
-## Contribuir
-Encontrou link quebrado, norma nova ou revisão? Veja o [CONTRIBUTING.md](CONTRIBUTING.md): abra uma *issue* ou edite as planilhas em [dados/](dados/README.md).
+## Manutenção
+Repositório mantido exclusivamente pelo autor; não são aceitas contribuições externas (issues desativadas e pull requests e comentários restritos ao autor).
 Última conferência do índice: 2026-10-23.
 
 ## Licença

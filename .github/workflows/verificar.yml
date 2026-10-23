@@ -1,7 +1,7 @@
 # Verificação automática do índice:
 #  - toda segunda: links oficiais (CFC e CPC) + monitor de normas novas/revisadas no CFC
 #  - na primeira segunda do mês (ou manual): também baixa os PDFs e confere itens e resumos
-# Se algo precisar de atenção, abre (ou comenta) uma issue com o rótulo "verificacao".
+# Se algo precisar de atenção, o workflow falha (o GitHub avisa o dono por e-mail) e anexa os relatórios.
 name: Verificar normas
 
 on:
@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   verificar:
@@ -65,25 +64,8 @@ jobs:
           name: relatorios-verificacao
           path: verificacao/*.md
 
-      - name: Abrir issue se houver algo a conferir
+      - name: Falhar se houver algo a conferir (o GitHub avisa o dono por e-mail)
         if: steps.links.outcome == 'failure' || steps.monitor.outcome == 'failure' || steps.itens.outcome == 'failure' || steps.busca.outcome == 'failure' || steps.internos.outcome == 'failure'
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
-          {
-            echo "Resultado da verificação automática ($(date -u +%Y-%m-%d))."
-            echo
-            [ "${{ steps.links.outcome }}" = "failure" ] && cat verificacao/LINKS.md
-            [ "${{ steps.monitor.outcome }}" = "failure" ] && cat verificacao/MONITOR.md
-            [ "${{ steps.itens.outcome }}" = "failure" ] && cat verificacao/CONTEUDO.md
-            [ "${{ steps.busca.outcome }}" = "failure" ] && cat verificacao/BUSCA.md
-            echo
-            echo "Depois de corrigir em scripts/, rode \`python graphify-out/rebuild_graph.py\`."
-          } > corpo.md
-          gh label create verificacao --color FBCA04 --description "Verificação automática das normas" --force
-          n=$(gh issue list --label verificacao --state open --json number -q '.[0].number')
-          if [ -n "$n" ]; then
-            gh issue comment "$n" --body-file corpo.md
-          else
-            gh issue create --title "Verificação automática: normas para conferir" --label verificacao --body-file corpo.md
-          fi
+          echo "::error::Verificação encontrou pontos a conferir. Veja os relatórios no artefato 'relatorios-verificacao'."
+          exit 1
