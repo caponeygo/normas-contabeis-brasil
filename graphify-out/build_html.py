@@ -36,7 +36,7 @@ import sys, unicodedata
 sys.path.insert(0, 'scripts')
 from dados import ler
 SETORES = [s['nome'] for s in ler('setores.csv')]
-REPO = 'https://github.com/ygordesouzagaspar-eng/normas-contabeis-brasil/blob/main/'
+REPO = 'https://github.com/caponeygo/normas-contabeis-brasil/blob/main/'
 
 def slug(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()

@@ -242,7 +242,7 @@ for extra in (Path(__file__).resolve().parent / "conteudo").glob("*.md"):
 i = out.index(next(x for x in out if x.startswith("## NBC TG – Normas técnicas gerais")))
 out.insert(i, "## Encontrar por área\n\n"
            "Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. "
-           "Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. "
+           "Mapa interativo: **[graph.html](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. "
            "Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.\n\n"
            "**Por setor:** " + " · ".join(f"[{nome}]({pst}/README.md)" for nome, pst, _, _ in SETORES_GER) + ". "
            "**Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · "

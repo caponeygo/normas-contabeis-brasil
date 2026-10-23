@@ -33,7 +33,7 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 
 ## Encontrar por área
 
-Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
+Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
 
 **Por setor:** [Indústria](Industrial/README.md) · [Varejo](Varejo/README.md) · [Serviços](Servicos/README.md) · [Agronegócio](Agronegocio/README.md) · [Construção e Incorporação](Construcao/README.md) · [Terceiro Setor](TerceiroSetor/README.md) · [Financeiro](Financeiro/README.md). **Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · [Reforma tributária](areas/reforma-tributaria.md).
 
