@@ -54,7 +54,7 @@ for n in NORMAS:
     temas = '; '.join(f"{t} ({TEMAS[t]['sinonimos']})" for t in n['temas'])
     e = ent('n:' + chave(n['codigo']), n['codigo'], cat, 'norma',
             path=' · '.join(x for x in (n['titulo'], refs) if x) + f"<br><br>{n['resumo']}<br><br>Afeta: {n['afeta']}" + (f'<br>Temas: {temas}' if temas else '')
-                 + (('<br><br><b>Indústria:</b> ' + ' · '.join(sorted({x['topico'] for x in n.get('industria', [])}))) if n.get('industria') else ''),
+                 + (('<br><br><b>Setores:</b> ' + ' · '.join(sorted({x['setor'] + ': ' + x['topico'] for x in n.get('setores', [])}))) if n.get('setores') else ''),
             url=n['url'], grupo='a:' + g)
     ents['a:' + g]['fn'].append(n['codigo'])
 

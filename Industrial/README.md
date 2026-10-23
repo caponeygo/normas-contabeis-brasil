@@ -1,10 +1,10 @@
-# Normas para a indústria
+# Indústria: normas que importam
 
 Trechos das normas contábeis e de auditoria que importam para empresas industriais, organizados pelo ciclo da fábrica: compra de insumos → produção → estoque → venda → pós-venda. Cada arquivo traz, por norma, os itens relevantes e o que eles dizem na prática, mais um checklist.
 
-> Resumo orientativo dos trechos das normas aplicáveis à indústria; não substitui o texto oficial. Os números de item seguem o CPC (mesma numeração da IAS/IFRS). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
 
-## Por etapa do ciclo industrial
+## Tópicos
 
 | Tópico | Use para | Normas |
 |---|---|---|

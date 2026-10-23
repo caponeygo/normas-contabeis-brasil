@@ -1,5 +1,5 @@
 # Confere o conteúdo do índice contra o texto oficial das normas (PDFs do CFC).
-# 1) Cada trecho citado nas pastas de setor (campo "industria" etc.): o item existe? o texto do item
+# 1) Cada trecho citado nas pastas de setor (campo "setores"): o item existe? o texto do item
 #    trata do assunto descrito? (sobreposição de palavras-chave)
 # 2) Cada resumo: as palavras-chave do resumo aparecem no texto da norma?
 # Pré-requisitos: python scripts/verificar_links.py --baixar  (baixa os PDFs para .cache/normas/)
@@ -22,6 +22,16 @@ REVISADOS = {
  ("NBC TG 06 (R3)", "9–11, B9–B31"): "2026-10-23",
  ("NBC TG 27 (R4)", "20A"): "2026-10-23",
  ("ITG 21", "—"): "2026-10-23",
+ ("NBC TG 06 (R3)", "38"): "2026-10-23",
+ ("NBC TG 06 (R3)", "5–8"): "2026-10-23",
+ ("NBC TG 25 (R2)", "33–35"): "2026-10-23",
+ ("NBC TG 29 (R2)", "26–29"): "2026-10-23",
+ ("NBC TG 29 (R2)", "2"): "2026-10-23",
+ ("NBC TG 47", "47"): "2026-10-23",
+ ("NBC TG 48", "cap. 6"): "2026-10-23",      # títulos de seção: o PDF só traz o cabeçalho
+ ("NBC TG 48", "5.5"): "2026-10-23",
+ ("NBC TG 48", "4.1"): "2026-10-23",
+ ("NBC TA 620", "—"): "2026-10-23",
 }
 ITEM_RX = r"(?m)^\s*{}\.?\s+\S"
 QUALQUER_ITEM = re.compile(r"(?m)^\s*(?:[A-Z]{1,2})?\d+[A-Z]?(?:\.\d+)*\.?\s+[A-ZÀ-Ý(“\"]")
@@ -53,6 +63,10 @@ def expandir(spec):
         if m:
             ids.append(("cap", m.group(1))); continue
         parte = re.sub(r"\(.*?\)", "", parte)
+        m = re.match(r"((?:\d+\.)+)(\d+)\s*[–-]\s*\1(\d+)$", parte)      # 3.2.3–3.2.6
+        if m:
+            ids += [f"{m.group(1)}{n}" for n in range(int(m.group(2)), int(m.group(3)) + 1)]
+            continue
         m = re.match(r"([A-Z]{0,2})(\d+)([A-Z]?)\s*[–-]\s*([A-Z]{0,2})(\d+)([A-Z]?)$", parte)
         if m:
             pre, a, _, _, b, suf = m.groups()
@@ -100,7 +114,7 @@ def main():
             sc = round(len(k & kt) / len(k), 2) if k else 1.0
             linhas_res.append((sc, r["codigo"]))
         # trechos de setor
-        for p in r.get("industria", []):
+        for p in r.get("setores", []):
             ids = expandir(p["itens"])
             if not txt:
                 cont["sem PDF"] += 1; sem_pdf.append(r["codigo"]); continue
@@ -108,7 +122,7 @@ def main():
                 k = chaves(p["ponto"]); sc = round(len(k & chaves(txt)) / len(k), 2) if k else 1.0
                 sit = situacao(r["codigo"], p["itens"], "item ok" if sc >= 0.5 else "conferir")
                 cont[sit] += 1
-                linhas_it.append((sit, r["codigo"], p["itens"], sc, p["topico"], ""))
+                linhas_it.append((sit, r["codigo"], p["itens"], sc, p["setor"] + ": " + p["topico"], ""))
                 continue
             faltam = [i if isinstance(i, str) else f"cap. {i[1]}" for i in ids if not trecho_item(txt, i)]
             corpo = " ".join(t for t in (trecho_item(txt, i) for i in ids) if t)
@@ -116,7 +130,7 @@ def main():
             sc = round(len(k & chaves(corpo)) / len(k), 2) if k and corpo else 0.0
             sit = situacao(r["codigo"], p["itens"], "item não encontrado" if faltam else ("item ok" if sc >= 0.3 else "conferir"))
             cont[sit] += 1
-            linhas_it.append((sit, r["codigo"], p["itens"], sc, p["topico"], ", ".join(faltam)))
+            linhas_it.append((sit, r["codigo"], p["itens"], sc, p["setor"] + ": " + p["topico"], ", ".join(faltam)))
             if detalhe and sit != "item ok":
                 print(f"\n### {r['codigo']} itens {p['itens']} ({sit}, {sc}) faltam={faltam}\nPONTO: {p['ponto']}\nTEXTO: {corpo[:900]}")
 

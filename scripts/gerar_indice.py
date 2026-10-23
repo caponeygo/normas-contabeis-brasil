@@ -233,6 +233,16 @@ Res. CFC 1.495/15|Cadastro Nacional de Auditores Independentes (CNAI)|1/2015/001
 NBC PP 01 (R2)|Perito Contábil|2/2025/NBCPP01(R2)&arquivo=NBCPP01(R2).doc
 NBC PP 02 (R1)|Exame de Qualificação Técnica para Perito Contábil|2/2025/NBCPP02(R1)&arquivo=NBCPP02(R1).doc
 """),
+("NBC TASP – Auditoria do setor público", "As NBC TA aplicadas à auditoria de informação contábil histórica no setor público (obrigatórias desde 1/1/2026).\n\n", """
+NBC TASP|Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020)|1/2020/001601
+"""),
+("NBC TPE – Contabilidade eleitoral", "", """
+NBC TPE 01|A Contabilidade Aplicada a Partidos e Eleições|1/2024/NBCTPE01&arquivo=NBCTPE01.doc
+"""),
+("Orientações Técnicas do CFC", "Não vinculantes: apoiam o julgamento profissional sem alterar as NBC.\n\n", """
+OT CFC 01/2026|Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)|U/https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf
+OT CFC 02/2026|Obrigatoriedade da NBC TPE 01 nos Processos Eleitorais a partir de 2026|U/https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf
+"""),
 ]
 
 IFRS = """
@@ -281,6 +291,21 @@ IAS 41|Agricultura (Ativo Biológico e Produto Agrícola)|CPC 29|NBC TG 29
 IFRS for SMEs|IFRS para Pequenas e Médias Empresas|CPC PME|NBC TG 1000
 IFRS S1|Requisitos Gerais de Divulgação de Sustentabilidade|CBPS 01|NBC TDS 01
 IFRS S2|Divulgações Relacionadas ao Clima|CBPS 02|NBC TDS 02
+IFRIC 1|Mudanças em Passivos por Desativação, Restauração e Similares|ICPC 12|ITG 12
+IFRIC 2|Cotas de Cooperados em Entidades Cooperativas|ICPC 14|—
+IFRIC 5|Direitos a Participações em Fundos de Desativação e Restauração Ambiental|ICPC 13|ITG 13
+IFRIC 6|Passivos de Participação em Mercado Específico – Resíduos Eletroeletrônicos|ICPC 15|ITG 15
+IFRIC 7|Abordagem de Atualização Monetária em Economia Hiperinflacionária|ICPC 23|ITG 23
+IFRIC 12|Contratos de Concessão de Serviços|ICPC 01|ITG 01
+IFRIC 14|Limite de Ativo de Benefício Definido e Custeio Mínimo|ICPC 20|ITG 20
+IFRIC 16|Hedge de Investimento Líquido em Operação no Exterior|—|—
+IFRIC 17|Distribuição de Ativos Não Monetários aos Sócios|ICPC 07|ITG 07
+IFRIC 19|Extinção de Passivos Financeiros com Instrumentos Patrimoniais|ICPC 16|ITG 16
+IFRIC 20|Custos de Remoção de Estéril em Mina de Superfície|ICPC 18|ITG 18
+IFRIC 21|Tributos (Levies)|ICPC 19|ITG 19
+IFRIC 22|Transação em Moeda Estrangeira e Adiantamento|ICPC 21|ITG 21
+IFRIC 23|Incerteza sobre Tratamento de Tributos sobre o Lucro|ICPC 22|ITG 22
+SIC 29|Contratos de Concessão de Serviços: Divulgação|ICPC 17|ITG 17
 """
 
 def url(p):
@@ -400,7 +425,7 @@ for l in ta.splitlines():
     c, t, p = l.split("|")
     num = c.split()[0]
     add("NBC TA " + c, t, "NBC TA", url(p), None, f"ISA {num}" if num.isdigit() else None)
-SERIE_DE = {"NBC TG – Pequenas": "PME", "Normas específicas": "Específicas"}
+SERIE_DE = {"NBC TG – Pequenas": "PME", "Normas específicas": "Específicas", "Orientações Técnicas": "OT CFC"}
 for title, _, data in SERIES:
     for l in data.strip().splitlines():
         c, t, p = l.split("|")
@@ -443,6 +468,7 @@ AREA_SERIE = {
     "NBC PP": "Perícia Contábil", "NBC PG": "Ética e Exercício Profissional",
     "NBC PA": "Ética e Exercício Profissional", "NBC TSP": "Setor Público",
     "NBC TDS": "Sustentabilidade", "PME": "Pequenas e Médias Empresas", "IFRS/IAS": "Normas Internacionais",
+    "NBC TASP": "Setor Público", "NBC TPE": "Contabilidade Eleitoral",
 }
 
 # ---------- temas (palavra de busca -> regex no título + sinônimos) ----------
@@ -464,8 +490,9 @@ TEMAS = [
  ("Provisões e contingências", "Passivos", r"provis|conting", "processos judiciais, passivo contingente, IAS 37"),
  ("Benefícios a empregados", "Passivos", r"empregados|aposentadoria|benefício definido|previdência|benefícios sociais", "plano de pensão, previdência, IAS 19"),
  ("Custos de empréstimos", "Passivos", r"custos de empréstimos", "juros capitalizados, IAS 23"),
- ("Tributos sobre o lucro", "Tributos", r"tribut", "IR, CSLL, imposto diferido, IAS 12"),
- ("Patrimônio, dividendos e ações", "Patrimônio Líquido", r"dividend|lucros in natura|resultado por ação|baseado em ações|instrumentos patrimoniais", "stock options, lucro por ação, JCP"),
+ ("Tributos sobre o lucro", "Tributos", r"sobre o lucro", "IR, CSLL, imposto diferido, IAS 12"),
+ ("Outros tributos e taxas", "Tributos", r"^tributos( \(levies\))?$", "ICMS, IPI, PIS, COFINS, ISS, IPTU, taxas, contribuições, levies, IFRIC 21"),
+ ("Patrimônio, dividendos e ações", "Patrimônio Líquido", r"dividend|lucros in natura|resultado por ação|baseado em ações|instrumentos patrimoniais|aos sócios|cotas de cooperados", "stock options, lucro por ação, JCP"),
  ("Câmbio e inflação", "Moeda e Câmbio", r"câmbio|moeda estrangeira|hiperinflac|atualização monetária", "conversão, moeda funcional, IAS 21, IAS 29"),
  ("Consolidação e participações", "Participações Societárias", r"consolidad|coligada|em conjunto|combinaç|separadas|participações em outras|equivalência|combinadas|grupos", "MEP, controladas, coligadas, joint venture, fusão e aquisição, IFRS 3, IFRS 10"),
  ("Demonstrações contábeis e divulgação", "Apresentação e Divulgação", r"apresentação|divulgaç|fluxos de caixa|valor adicionado|intermediári|segmento|partes relacionadas|subsequente|notas explicativas|evidenciação|orçamentária|pro forma|comparativas|condensadas|quadros isolados", "balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18"),
@@ -496,6 +523,8 @@ TEMAS += [
  ("Demonstração do resultado (DRE)", "Apresentação e Divulgação", None, "DRE, lucro, resultado operacional, EBITDA, MPM, IFRS 18, lucro por ação"),
  ("Fluxo de caixa (DFC)", "Apresentação e Divulgação", None, "DFC, método direto, método indireto, caixa e equivalentes, IAS 7"),
  ("Valor adicionado (DVA)", "Apresentação e Divulgação", None, "DVA, riqueza gerada, distribuição do valor adicionado"),
+ ("Reforma tributária (IBS e CBS)", "Tributos", r"\bibs\b|\bcbs\b|reforma tribut", "IBS, CBS, Imposto Seletivo, split payment, EC 132/2023, LC 214/2025, tributos sobre consumo, período de teste 2026"),
+ ("Contabilidade eleitoral", "Contabilidade Eleitoral", r"eleit|partido", "partidos políticos, campanhas, candidatos, prestação de contas eleitoral, TSE"),
  ("Pequenas e médias empresas", "Pequenas e Médias Empresas", r"pequena|microentidade|\bpme\b|smes", "PME, ME, EPP, pequena empresa, microentidade, IFRS for SMEs, CPC PME"),
 ]
 TEMA_COD = {
@@ -530,8 +559,8 @@ SINONIMOS = {nome: sin for nome, _, _, sin in TEMAS}
 AREA_DO_TEMA = {nome: area for nome, area, _, _ in TEMAS}
 
 # ---------- pasta Industrial/ (trechos das normas para a indústria) ----------
-import industrial
-TOPICOS_IND = industrial.gerar(ROOT, REC, sem_rev)
+import gerar_setores
+SETORES_GER = gerar_setores.gerar_todos(ROOT, REC, sem_rev)   # [(nome, pasta, use_para, [(arq, titulo)])]
 
 (ROOT / "normas.json").write_text(json.dumps({
     "descricao": "Índice das normas contábeis e de auditoria brasileiras (CFC/CPC) e internacionais (IFRS/IAS), por área e tema.",
@@ -557,7 +586,7 @@ QUANDO = {
  "Ativos": "imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda",
  "Passivos": "provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos",
  "Receitas": "reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais",
- "Tributos": "IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos",
+ "Tributos": "IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS)",
  "Patrimônio Líquido": "dividendos, JCP, ações, stock options, lucro por ação",
  "Instrumentos Financeiros": "aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada",
  "Mensuração": "valor justo, ajuste a valor presente",
@@ -567,7 +596,7 @@ QUANDO = {
  "Fundamentos": "estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação",
  "Setores Específicos": "seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes",
  "Pequenas e Médias Empresas": "PME, pequena empresa, microentidade, NBC TG 1000",
- "Setor Público": "governo, prefeituras, autarquias, NBC TSP, IPSAS",
+ "Setor Público": "governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP)",
  "Sustentabilidade": "ESG, clima, IFRS S1/S2, carbono, relato integrado",
  "Auditoria Independente": "auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência",
  "Revisão": "revisão de ITR e demonstrações (segurança limitada)",
@@ -576,7 +605,8 @@ QUANDO = {
  "Auditoria Interna": "auditor interno",
  "Perícia Contábil": "perícia judicial, laudo pericial, apuração de haveres",
  "Ética e Exercício Profissional": "código de ética, independência, educação continuada, CNAI, qualidade de firmas",
- "Normas Internacionais": "IFRS, IAS, IFRS for SMEs, IFRS S1/S2 e correlação com CPC",
+ "Normas Internacionais": "IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC",
+ "Contabilidade Eleitoral": "partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral",
 }
 
 def slug(s):
@@ -611,9 +641,14 @@ idx = ["# Índice por área\n",
        "## Áreas\n\n| Área | Use para | Normas | Arquivo |\n|---|---|---|---|"]
 for a in ordem:
     idx.append(f"| **{a}** | {QUANDO.get(a, '')} | {len(por_area[a])} | [{slug(a)}.md]({slug(a)}.md) |")
-idx.append("\n## Por setor\n\n| Setor | Use para | Pasta |\n|---|---|---|\n"
-           "| **Indústria** | custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, meio ambiente, auditoria de estoques "
-           "| [Industrial/README.md](../Industrial/README.md) |")
+idx.append("\n## Por setor\n\nTrechos das normas que importam para cada tipo de empresa, com itens, checklist e perguntas frequentes.\n\n"
+           "| Setor | Use para | Pasta |\n|---|---|---|")
+for nome, pst, usar, _ in SETORES_GER:
+    idx.append(f"| **{nome}** | {usar} | [{pst}/README.md](../{pst}/README.md) |")
+idx.append("\n## Apoio\n\n| Arquivo | Use para |\n|---|---|\n"
+           "| [GLOSSARIO.md](../GLOSSARIO.md) | significado de siglas (CPV, CIF, VRL, MEP, ORA, PCLD, UGC, MPM…) |\n"
+           "| [lancamentos/README.md](../lancamentos/README.md) | exemplos de lançamentos contábeis (débito e crédito) por tema |\n"
+           "| [reforma-tributaria.md](reforma-tributaria.md) | IBS, CBS e a OT CFC 01/2026 |")
 idx.append("\n## Busca por tema\n\n| Tema | Também chamado de | Área | Normas |\n|---|---|---|---|")
 for nome, area, _, sin in TEMAS:
     cods = [r["codigo"] for r in REC if nome in r["temas"]]
@@ -625,14 +660,18 @@ for sig, nome in DEMOS:
     cods = [r["codigo"] for r in REC if r["serie"] != "IFRS/IAS" and re.search(rf"\b{sig}\b", r["afeta"])]
     idx.append(f"| **{sig}** – {nome} | {', '.join(cods)} |")
 (pasta / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
+# páginas escritas à mão (scripts/conteudo/*.md) entram na pasta areas/
+for extra in (Path(__file__).resolve().parent / "conteudo").glob("*.md"):
+    (pasta / extra.name).write_text(extra.read_text(encoding="utf-8"), encoding="utf-8")
 
 i = out.index(next(x for x in out if x.startswith("## NBC TG – Normas técnicas gerais")))
 out.insert(i, "## Encontrar por área\n\n"
            "Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. "
            "Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. "
            "Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.\n\n"
-           "**Empresa industrial?** Os trechos das normas para a indústria (custo de produção, estoques, máquinas, vendas, incentivos, meio ambiente) "
-           "estão em **[Industrial/](Industrial/README.md)**.\n\n"
+           "**Por setor:** " + " · ".join(f"[{nome}]({pst}/README.md)" for nome, pst, _, _ in SETORES_GER) + ". "
+           "**Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · "
+           "[Reforma tributária](areas/reforma-tributaria.md).\n\n"
            "| Área | Use para | Normas |\n|---|---|---|\n" +
            "\n".join(f"| [{a}](areas/{slug(a)}.md) | {QUANDO.get(a, '')} | {len(por_area[a])} |" for a in ordem) + "\n")
 (ROOT / "README.md").write_text("\n".join(out), encoding="utf-8")
@@ -679,13 +718,13 @@ for r in REC:
         for sig, nome in DEMOS:
             if re.search(rf"\b{sig}\b", r["afeta"]):
                 edge(n, node(nid("demo", sig), f"Demonstração: {sig} ({nome})", "demonstracao"), "afeta")
-setor = node("setor_industria", "Setor: Indústria (fábrica, produção, custo industrial)", "setor")
-for arq, titulo in TOPICOS_IND:
-    t = node(nid("industria", titulo), f"Indústria: {titulo}", "topico_industrial")
-    edge(t, setor, "parte_do_setor")
+for nome, pst, usar, tops in SETORES_GER:
+    setor = node(nid("setor", nome), f"Setor: {nome} ({usar})", "setor")
+    for arq, titulo in tops:
+        edge(node(nid("topico_" + pst, titulo), f"{nome}: {titulo}", "topico_setor"), setor, "parte_do_setor")
 for r in REC:
-    for tp in {x["topico"] for x in r["industria"]}:
-        edge(code_id(r["codigo"]), nid("industria", tp), "aplica_na_industria")
+    for x in {(x["pasta"], x["topico"]) for x in r["setores"]}:
+        edge(code_id(r["codigo"]), nid("topico_" + x[0], x[1]), "aplica_no_setor")
 (ROOT / "graphify-out").mkdir(exist_ok=True)
 (ROOT / "graphify-out" / ".graphify_extract.json").write_text(json.dumps(
     {"nodes": nodes, "edges": edges, "hyperedges": [], "input_tokens": 0, "output_tokens": 0}, ensure_ascii=False), encoding="utf-8")

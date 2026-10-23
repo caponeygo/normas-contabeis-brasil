@@ -1,8 +1,8 @@
 # Área: Setor Público
 
-**Use esta área para:** governo, prefeituras, autarquias, NBC TSP, IPSAS.
+**Use esta área para:** governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP).
 
-39 normas. Índice de todas as áreas: [areas/README.md](README.md).
+40 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -53,3 +53,4 @@
 | **NBC TSP 38** – Mensuração | Mensuração no setor público: bases (custo histórico, valor corrente operacional, valor justo). | BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx) |
 | **CTSP 01** – Provisões, Passivos Contingentes e Ativos Contingentes | Orientação prática sobre provisões e contingências nos entes públicos. | BP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc) |
 | **CTSP 02** – Notas Explicativas | Orientação sobre notas explicativas no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc) |
+| **NBC TASP** – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020) | Não é uma norma com texto próprio: a Res. CFC 1.601/2020 manda aplicar as NBC TA (inclusive a estrutura conceitual) à auditoria de informação contábil histórica no setor público, no que couber, em linha com as ISSAI/INTOSAI. Substituiu as antigas NBC TAG. Obrigatória desde 1/1/2026 (Res. CFC 1.753/2024). | Auditoria no setor público | — | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601) |

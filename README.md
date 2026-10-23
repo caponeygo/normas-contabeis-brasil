@@ -35,33 +35,34 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 
 Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
 
-**Empresa industrial?** Os trechos das normas para a indústria (custo de produção, estoques, máquinas, vendas, incentivos, meio ambiente) estão em **[Industrial/](Industrial/README.md)**.
+**Por setor:** [Indústria](Industrial/README.md) · [Comércio e Varejo](Comercio/README.md) · [Serviços](Servicos/README.md) · [Agronegócio](Agronegocio/README.md) · [Construção e Incorporação](Construcao/README.md) · [Terceiro Setor](TerceiroSetor/README.md) · [Financeiro](Financeiro/README.md). **Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · [Reforma tributária](areas/reforma-tributaria.md).
 
 | Área | Use para | Normas |
 |---|---|---|
-| [Apresentação e Divulgação](areas/apresentacao-e-divulgacao.md) | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 47 |
+| [Apresentação e Divulgação](areas/apresentacao-e-divulgacao.md) | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 48 |
 | [Asseguração](areas/asseguracao.md) | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 12 |
 | [Ativos](areas/ativos.md) | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 25 |
 | [Auditoria Independente](areas/auditoria-independente.md) | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 39 |
 | [Auditoria Interna](areas/auditoria-interna.md) | auditor interno | 1 |
+| [Contabilidade Eleitoral](areas/contabilidade-eleitoral.md) | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral | 2 |
 | [Fundamentos](areas/fundamentos.md) | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 |
-| [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 11 |
+| [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 13 |
 | [Mensuração](areas/mensuracao.md) | valor justo, ajuste a valor presente | 5 |
-| [Moeda e Câmbio](areas/moeda-e-cambio.md) | variação cambial, moeda funcional, conversão, hiperinflação | 7 |
+| [Moeda e Câmbio](areas/moeda-e-cambio.md) | variação cambial, moeda funcional, conversão, hiperinflação | 9 |
 | [Participações Societárias](areas/participacoes-societarias.md) | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio | 20 |
-| [Passivos](areas/passivos.md) | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 15 |
-| [Patrimônio Líquido](areas/patrimonio-liquido.md) | dividendos, JCP, ações, stock options, lucro por ação | 7 |
+| [Passivos](areas/passivos.md) | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 16 |
+| [Patrimônio Líquido](areas/patrimonio-liquido.md) | dividendos, JCP, ações, stock options, lucro por ação | 10 |
 | [Pequenas e Médias Empresas](areas/pequenas-e-medias-empresas.md) | PME, pequena empresa, microentidade, NBC TG 1000 | 6 |
 | [Perícia Contábil](areas/pericia-contabil.md) | perícia judicial, laudo pericial, apuração de haveres | 4 |
 | [Receitas](areas/receitas.md) | reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais | 6 |
 | [Revisão](areas/revisao.md) | revisão de ITR e demonstrações (segurança limitada) | 6 |
 | [Serviços Correlatos](areas/servicos-correlatos.md) | procedimentos previamente acordados, compilação | 7 |
-| [Setor Público](areas/setor-publico.md) | governo, prefeituras, autarquias, NBC TSP, IPSAS | 39 |
-| [Setores Específicos](areas/setores-especificos.md) | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 21 |
+| [Setor Público](areas/setor-publico.md) | governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP) | 40 |
+| [Setores Específicos](areas/setores-especificos.md) | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 28 |
 | [Sustentabilidade](areas/sustentabilidade.md) | ESG, clima, IFRS S1/S2, carbono, relato integrado | 8 |
-| [Tributos](areas/tributos.md) | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos | 4 |
+| [Tributos](areas/tributos.md) | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS) | 7 |
 | [Ética e Exercício Profissional](areas/etica-e-exercicio-profissional.md) | código de ética, independência, educação continuada, CNAI, qualidade de firmas | 12 |
-| [Normas Internacionais](areas/normas-internacionais.md) | IFRS, IAS, IFRS for SMEs, IFRS S1/S2 e correlação com CPC | 45 |
+| [Normas Internacionais](areas/normas-internacionais.md) | IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC | 60 |
 
 ## NBC TG – Normas técnicas gerais
 
@@ -350,6 +351,29 @@ Correlatas às IFRS S1 e S2 (ISSB) e aos CBPS 01 e 02.
 | NBC PP 01 (R2) | Perito Contábil | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP01(R2)&arquivo=NBCPP01(R2).doc) |
 | NBC PP 02 (R1) | Exame de Qualificação Técnica para Perito Contábil | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP02(R1)&arquivo=NBCPP02(R1).doc) |
 
+## NBC TASP – Auditoria do setor público
+
+As NBC TA aplicadas à auditoria de informação contábil histórica no setor público (obrigatórias desde 1/1/2026).
+
+| Norma | Título | Texto |
+|---|---|---|
+| NBC TASP | Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601) |
+
+## NBC TPE – Contabilidade eleitoral
+
+| Norma | Título | Texto |
+|---|---|---|
+| NBC TPE 01 | A Contabilidade Aplicada a Partidos e Eleições | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTPE01&arquivo=NBCTPE01.doc) |
+
+## Orientações Técnicas do CFC
+
+Não vinculantes: apoiam o julgamento profissional sem alterar as NBC.
+
+| Norma | Título | Texto |
+|---|---|---|
+| OT CFC 01/2026 | Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária) | [abrir](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf) |
+| OT CFC 02/2026 | Obrigatoriedade da NBC TPE 01 nos Processos Eleitorais a partir de 2026 | [abrir](https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf) |
+
 ## Normas internacionais – IFRS e IAS (IASB)
 
 Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <https://www.ifrs.org/issued-standards/list-of-standards/>. A coluna CPC / NBC TG indica a norma brasileira convergida.
@@ -401,6 +425,21 @@ Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <htt
 | IFRS for SMEs | IFRS para Pequenas e Médias Empresas | [CPC PME](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=79) | NBC TG 1000 |
 | IFRS S1 | Requisitos Gerais de Divulgação de Sustentabilidade | CBPS 01 | NBC TDS 01 |
 | IFRS S2 | Divulgações Relacionadas ao Clima | CBPS 02 | NBC TDS 02 |
+| IFRIC 1 | Mudanças em Passivos por Desativação, Restauração e Similares | [ICPC 12](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21) | ITG 12 |
+| IFRIC 2 | Cotas de Cooperados em Entidades Cooperativas | [ICPC 14](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23) | — |
+| IFRIC 5 | Direitos a Participações em Fundos de Desativação e Restauração Ambiental | [ICPC 13](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22) | ITG 13 |
+| IFRIC 6 | Passivos de Participação em Mercado Específico – Resíduos Eletroeletrônicos | [ICPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24) | ITG 15 |
+| IFRIC 7 | Abordagem de Atualização Monetária em Economia Hiperinflacionária | [ICPC 23](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=115) | ITG 23 |
+| IFRIC 12 | Contratos de Concessão de Serviços | [ICPC 01](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10) | ITG 01 |
+| IFRIC 14 | Limite de Ativo de Benefício Definido e Custeio Mínimo | [ICPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98) | ITG 20 |
+| IFRIC 16 | Hedge de Investimento Líquido em Operação no Exterior | — | — |
+| IFRIC 17 | Distribuição de Ativos Não Monetários aos Sócios | [ICPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16) | ITG 07 |
+| IFRIC 19 | Extinção de Passivos Financeiros com Instrumentos Patrimoniais | [ICPC 16](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25) | ITG 16 |
+| IFRIC 20 | Custos de Remoção de Estéril em Mina de Superfície | [ICPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84) | ITG 18 |
+| IFRIC 21 | Tributos (Levies) | [ICPC 19](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97) | ITG 19 |
+| IFRIC 22 | Transação em Moeda Estrangeira e Adiantamento | [ICPC 21](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108) | ITG 21 |
+| IFRIC 23 | Incerteza sobre Tratamento de Tributos sobre o Lucro | [ICPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114) | ITG 22 |
+| SIC 29 | Contratos de Concessão de Serviços: Divulgação | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) | ITG 17 |
 
 As **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). Textos das ISA: <https://www.iaasb.org/standards-pronouncements>.
 

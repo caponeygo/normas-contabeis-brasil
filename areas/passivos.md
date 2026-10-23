@@ -2,14 +2,14 @@
 
 **Use esta área para:** provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos.
 
-15 normas. Índice de todas as áreas: [areas/README.md](README.md).
+16 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
 | Tema | Também chamado de | Normas |
 |---|---|---|
 | Provisões e contingências | processos judiciais, passivo contingente, IAS 37 | NBC TG 25 (R2), NBC TSP 03 (R1), CTSP 01, IAS 37 |
-| Benefícios a empregados | plano de pensão, previdência, IAS 19 | NBC TG 33 (R2), NBC TG 49, ITG 20, ITG 2001, NBC TSP 15 (R1), NBC TSP 29 (R1), IAS 19, IAS 26 |
+| Benefícios a empregados | plano de pensão, previdência, IAS 19 | NBC TG 33 (R2), NBC TG 49, ITG 20, ITG 2001, NBC TSP 15 (R1), NBC TSP 29 (R1), IAS 19, IAS 26, IFRIC 14 |
 | Custos de empréstimos | juros capitalizados, IAS 23 | NBC TG 20 (R2), NBC TSP 14 (R1), IAS 23 |
 
 ## Normas
@@ -31,3 +31,4 @@
 | **IAS 23** – Custos de Empréstimos | Juros de empréstimos para construir ou produzir ativo qualificável (que leva tempo para ficar pronto) são capitalizados no custo do ativo, não lançados na despesa. | BP (ativo), DRE (menos despesa financeira) | [CPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51) · NBC TG 20 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 26** – Planos de Benefícios de Aposentadoria | Demonstrações dos próprios planos de aposentadoria (fundos de pensão): ativos líquidos disponíveis para benefícios e valor atuarial dos benefícios prometidos. Não é a contabilidade do patrocinador (essa é a NBC TG 33). | Demonstrações do plano | [CPC 49](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111) · NBC TG 49 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 37** – Provisões, Passivos Contingentes e Ativos Contingentes | Provisões (processos, garantias, reestruturação, desmontagem): reconhece quando a saída de recursos é provável e mensurável; contingência possível só em nota; ativo contingente só quando praticamente certo. | BP (passivo), DRE, NE | [CPC 25](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56) · NBC TG 25 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 14** – Limite de Ativo de Benefício Definido e Custeio Mínimo | Planos de benefício definido: limita o ativo de plano superavitário ao benefício econômico disponível e trata exigências de contribuição mínima. | BP, DRA | [ICPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98) · ITG 20 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |

@@ -4,12 +4,12 @@
 
 Quando e quanto reconhecer de receita na venda de produtos, e como tratar as obrigações que continuam depois da venda.
 
-> Resumo orientativo dos trechos das normas aplicáveis à indústria; não substitui o texto oficial. Os números de item seguem o CPC (mesma numeração da IAS/IFRS). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
 
 
 ### NBC TG 47 – Receita de Contrato com Cliente ([CPC 47](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105) · IFRS 15) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
 
-| Item | O que diz para a indústria |
+| Item | O que diz para o setor |
 |---|---|
 | 31–38 | Receita quando o CONTROLE do produto passa ao cliente. Os Incoterms ajudam: em FOB o controle passa na origem; em CIF/entrega no destino normalmente só na entrega. Frete e seguro prestados depois da transferência do controle podem ser uma obrigação separada. |
 | 35 | Produção sob encomenda (bens de capital, moldes, equipamentos específicos) sem uso alternativo e com direito a receber pelo que já foi feito: receita ao longo da produção, pelo avanço. |
@@ -22,13 +22,13 @@ Quando e quanto reconhecer de receita na venda de produtos, e como tratar as obr
 
 ### NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes ([CPC 25](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56) · IAS 37) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
 
-| Item | O que diz para a indústria |
+| Item | O que diz para o setor |
 |---|---|
 | 14, 24, 39 | Provisão de garantia: reconhecida na venda quando houver histórico de reparos, estimada para o conjunto de produtos (valor esperado pelo histórico de defeitos). |
 
 ### ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos ([ICPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24)) · [texto oficial](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
 
-| Item | O que diz para a indústria |
+| Item | O que diz para o setor |
 |---|---|
 | — | Fabricantes de eletroeletrônicos: obrigação de custear o descarte (logística reversa) conforme a participação no mercado no período de mensuração. |
 
@@ -40,4 +40,4 @@ Quando e quanto reconhecer de receita na venda de produtos, e como tratar as obr
 - [ ] Separar garantia estendida e serviços de instalação/assistência vendidos juntos.
 - [ ] Tratar devoluções esperadas e remessas em consignação.
 
-[← Índice da indústria](README.md) · [Todas as áreas](../areas/README.md)
+[← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)

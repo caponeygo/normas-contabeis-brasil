@@ -13,8 +13,9 @@ BASE = "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/"
 PAGINAS = ["normas-completas", "normas-simplificadas-para-pmes", "normas-especificas", "nbc-tsp-do-setor-publico",
            "nbc-ta-de-auditoria-independente", "nbc-tr-de-revisao", "nbc-to-de-asseguracao",
            "nbc-tsc-de-servico-correlato", "nbc-ti-de-auditoria-interna", "nbc-tp-de-pericia",
-           "nbc-tds-de-sustentabilidade", "nbc-pg-geral", "nbc-pa-do-auditor-independente", "nbc-pp-do-perito-contabil"]
-CODIGO = re.compile(r"\b(?:NBC (?:TG|TA|TSP|TR|TO|TSC|TI|TP|TDS|TAS|PG|PA|PP|PO)|ITG|CTG|OTG|CTSP|CTR|CTO|CTSC|ITP)"
+           "nbc-tds-de-sustentabilidade", "nbc-pg-geral", "nbc-pa-do-auditor-independente", "nbc-pp-do-perito-contabil",
+           "https://cfc.org.br/tecnica/perguntas-frequentes/normas-brasileiras-de-contabilidade/nbc-tpe-de-contabilidade-eleitoral/"]
+CODIGO = re.compile(r"\b(?:NBC (?:TG|TA|TSP|TR|TO|TSC|TI|TP|TDS|TAS|PG|PA|PP|PO|TPE)|ITG|CTG|OTG|CTSP|CTR|CTO|CTSC|ITP)"
                     r" ?(?:Estrutura Conceitual|\d+)(?: ?\(R\d+\))?")
 # códigos que aparecem nas páginas só como citação dentro do título de outra norma,
 # ou com erro de digitação do próprio site ("NBC TO 34 10" = NBC TO 3410)
@@ -35,7 +36,7 @@ def main():
         nosso[base] = rev
     achados, falhas = {}, []
     for p in PAGINAS:
-        st, _, corpo = baixar(BASE + p + "/")
+        st, _, corpo = baixar(p if p.startswith("http") else BASE + p + "/")
         if st != 200:
             falhas.append(p); continue
         t, _ = texto(corpo)

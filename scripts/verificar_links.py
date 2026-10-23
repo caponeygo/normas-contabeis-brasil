@@ -52,6 +52,8 @@ def checar(r):
         return res
     if "detalhes_sre.aspx" not in url:
         res["situacao"] = "ok" if corpo else "quebrado"
+        if url.lower().endswith(".pdf") and corpo[:4] == b"%PDF":
+            res["pdf"] = url                          # PDF direto (ex.: Orientações Técnicas do CFC)
         return res
     t, bruto = texto(corpo)
     if "Número da resolução" not in t and "Numero da resolucao" not in sem_acento(t):
@@ -100,6 +102,13 @@ def main():
             vistos.add(r["url"]); alvos.append(r)
         if r.get("url_cpc") and r["url_cpc"] not in vistos:     # página oficial do CPC equivalente
             vistos.add(r["url_cpc"]); alvos.append({"codigo": r["cpc"], "titulo": r["titulo"], "url": r["url_cpc"]})
+    # regras de fora do CFC citadas nas pastas de setor (BCB, CVM, SUSEP, leis)
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import importlib, gerar_setores
+    for s in gerar_setores.SETORES:
+        for cod, (tit, url, _) in getattr(importlib.import_module("dados_setores." + s), "EXTERNAS", {}).items():
+            if url not in vistos:
+                vistos.add(url); alvos.append({"codigo": cod, "titulo": tit, "url": url})
     with ThreadPoolExecutor(4) as ex:                 # 4 conexões: educado com o servidor do CFC
         res = list(ex.map(checar, alvos))
     if "--baixar" in sys.argv:

@@ -2,17 +2,17 @@
 
 **Use esta área para:** seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes.
 
-21 normas. Índice de todas as áreas: [areas/README.md](README.md).
+28 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
 | Tema | Também chamado de | Normas |
 |---|---|---|
 | Seguros | seguradoras, IFRS 17, SUSEP | NBC TG 50, IFRS 17 |
-| Concessões e infraestrutura | concessão pública, energia, rodovias, aeroportos | ITG 01 (R1), ITG 17, CTG 05, CTG 08, NBC TSP 05 (R1) |
+| Concessões e infraestrutura | concessão pública, energia, rodovias, aeroportos | ITG 01 (R1), ITG 17, CTG 05, CTG 08, NBC TSP 05 (R1), IFRIC 12, SIC 29 |
 | Incorporação imobiliária | construtoras, incorporadoras | CTG 01, CTG 04 |
-| Mineração e meio ambiente | mineração, descomissionamento, IFRS 6 | ITG 12, ITG 13 (R2), ITG 15, ITG 18, NBC T 15, IFRS 6 |
-| Entidades específicas | terceiro setor, ONG, cooperativas, clubes, fundos de pensão | NBC TG 900, OTG 2003 (R1), ITG 2001, ITG 2002 (R1), ITG 2003 (R2), ITG 2004 |
+| Mineração e meio ambiente | mineração, descomissionamento, IFRS 6 | ITG 12, ITG 13 (R2), ITG 15, ITG 18, NBC T 15, IFRS 6, IFRIC 1, IFRIC 5, IFRIC 6, IFRIC 20 |
+| Entidades específicas | terceiro setor, ONG, cooperativas, clubes, fundos de pensão | NBC TG 900, OTG 2003 (R1), ITG 2001, ITG 2002 (R1), ITG 2003 (R2), ITG 2004, IFRIC 2 |
 
 ## Normas
 
@@ -39,3 +39,10 @@
 | **NBC TSP 05 (R1)** – Contratos de Concessão de Serviços Públicos: Concedente | Concessões do lado do governo (concedente): reconhece a infraestrutura da concessão e o passivo correspondente. | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx) |
 | **IFRS 6** – Exploração e Avaliação de Recursos Minerais | Exploração e avaliação de recursos minerais (petróleo, minérios): permite manter políticas anteriores para gastos de exploração, com teste de impairment específico. Sem CPC equivalente. | BP, DRE | — | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRS 17** – Contratos de Seguro | Contratos de seguro (IFRS 17): mensura por fluxos de caixa de cumprimento + margem contratual de serviço, abordagens geral, PAA e VFA; muda a forma de apresentar receita e resultado de seguros. | BP, DRE, NE | [CPC 50](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127) · NBC TG 50 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 1** – Mudanças em Passivos por Desativação, Restauração e Similares | Mudanças na estimativa de obrigação de desmontagem/restauração (ex.: mina, plataforma): ajusta o custo do ativo e a provisão, e não o resultado diretamente. | BP, DRE (depreciação futura) | [ICPC 12](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21) · ITG 12 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 2** – Cotas de Cooperados em Entidades Cooperativas | Cotas de cooperados: são patrimônio líquido só se a cooperativa puder recusar incondicionalmente o resgate ou se a lei/estatuto proibir o resgate; caso contrário, são passivo. No Brasil: ICPC 14 (sem ITG correspondente na lista do CFC). | BP | [ICPC 14](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23) | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 5** – Direitos a Participações em Fundos de Desativação e Restauração Ambiental | Participação em fundos de desativação e restauração ambiental: registra o direito sobre o fundo separado da provisão de desativação, sem compensar um com o outro. | BP | [ICPC 13](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22) · ITG 13 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 6** – Passivos de Participação em Mercado Específico – Resíduos Eletroeletrônicos | Lixo eletrônico (resíduos de equipamentos eletroeletrônicos): quando nasce a obrigação de custear a destinação, pela participação no mercado no período de mensuração. | BP (passivo), DRE | [ICPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24) · ITG 15 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 12** – Contratos de Concessão de Serviços | Contratos de concessão (rodovias, energia, saneamento) do lado do concessionário: a infraestrutura não é imobilizado; vira ativo financeiro (direito incondicional a caixa) ou intangível (direito de cobrar usuários), com receita de construção. | BP, DRE, NE | [ICPC 01](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10) · ITG 01 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **IFRIC 20** – Custos de Remoção de Estéril em Mina de Superfície | Mineração a céu aberto: custo de remoção de estéril na fase de produção vira ativo quando melhora o acesso ao minério, depreciado conforme a extração. | BP, DRE | [ICPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84) · ITG 18 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **SIC 29** – Contratos de Concessão de Serviços: Divulgação | Divulgações exigidas sobre contratos de concessão de serviço (prazo, direitos, obrigações, mudanças), tanto do concessionário quanto do concedente. | NE | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) · ITG 17 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |

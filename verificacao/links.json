@@ -1564,7 +1564,9 @@
   "titulo": "Comunicação com os Responsáveis pela Governança",
   "url": "https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf",
   "http": 200,
-  "situacao": "ok"
+  "situacao": "ok",
+  "pdf": "https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf",
+  "arquivo": ".cache/normas/NBC_TA_260_R2.pdf"
  },
  {
   "codigo": "NBC TA 265",
@@ -1865,7 +1867,9 @@
   "titulo": "Formação da Opinião e Emissão do Relatório do Auditor Independente",
   "url": "https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf",
   "http": 200,
-  "situacao": "ok"
+  "situacao": "ok",
+  "pdf": "https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf",
+  "arquivo": ".cache/normas/NBC_TA_700.pdf"
  },
  {
   "codigo": "NBC TA 701",
@@ -1900,7 +1904,9 @@
   "titulo": "Parágrafos de Ênfase e Parágrafos de Outros Assuntos",
   "url": "https://cfc.org.br/wp-content/uploads/2026/06/NBC-TA-706.pdf",
   "http": 200,
-  "situacao": "ok"
+  "situacao": "ok",
+  "pdf": "https://cfc.org.br/wp-content/uploads/2026/06/NBC-TA-706.pdf",
+  "arquivo": ".cache/normas/NBC_TA_706.pdf"
  },
  {
   "codigo": "NBC TA 710 (R1)",
@@ -3338,6 +3344,52 @@
   "arquivo": ".cache/normas/NBC_PP_02_R1.pdf"
  },
  {
+  "codigo": "NBC TASP",
+  "titulo": "Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020)",
+  "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601",
+  "http": 200,
+  "descricao": "Altera o inciso IX do Art. 4º da Res CFC n.º 1.328/2011",
+  "em_vigor": "SIM",
+  "revogada": "NAO",
+  "pdf": "https://www1.cfc.org.br/sisweb/SRE/docs/RES_1601.pdf",
+  "doc": "https://www1.cfc.org.br/sisweb/SRE/docs/RES_1601.doc",
+  "titulo_confere": 1.0,
+  "situacao": "ok",
+  "arquivo": ".cache/normas/NBC_TASP.pdf"
+ },
+ {
+  "codigo": "NBC TPE 01",
+  "titulo": "A Contabilidade Aplicada a Partidos e Eleições",
+  "url": "https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTPE01&arquivo=NBCTPE01.doc",
+  "http": 200,
+  "descricao": "Dispõe sobre a contabilidade aplicada a partidos e eleições.",
+  "em_vigor": "SIM",
+  "revogada": "NAO",
+  "pdf": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTPE01.pdf",
+  "doc": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTPE01.doc",
+  "titulo_confere": 1.0,
+  "situacao": "ok",
+  "arquivo": ".cache/normas/NBC_TPE_01.pdf"
+ },
+ {
+  "codigo": "OT CFC 01/2026",
+  "titulo": "Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)",
+  "url": "https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf",
+  "http": 200,
+  "situacao": "ok",
+  "pdf": "https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf",
+  "arquivo": ".cache/normas/OT_CFC_01_2026.pdf"
+ },
+ {
+  "codigo": "OT CFC 02/2026",
+  "titulo": "Obrigatoriedade da NBC TPE 01 nos Processos Eleitorais a partir de 2026",
+  "url": "https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf",
+  "http": 200,
+  "situacao": "ok",
+  "pdf": "https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf",
+  "arquivo": ".cache/normas/OT_CFC_02_2026.pdf"
+ },
+ {
   "codigo": "IFRS 1",
   "titulo": "Adoção Inicial das IFRS",
   "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
@@ -3355,6 +3407,76 @@
   "codigo": "CPC PME",
   "titulo": "IFRS para Pequenas e Médias Empresas",
   "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=79",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "ICPC 14",
+  "titulo": "Cotas de Cooperados em Entidades Cooperativas",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Ofício-Circular CVM/SNC/SEP 02/2018",
+  "titulo": "Receita de incorporação imobiliária pela NBC TG 47 (POC)",
+  "url": "https://conteudo.cvm.gov.br/legislacao/oficios-circulares/snc-sep/oc-snc-sep-0218.html",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Lei 10.931/2004",
+  "titulo": "Patrimônio de afetação e RET na incorporação imobiliária",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Código Civil, art. 618",
+  "titulo": "Garantia de solidez e segurança da obra (5 anos)",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "LC 187/2021",
+  "titulo": "Certificação de entidades beneficentes (CEBAS) e imunidade de contribuições",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp187.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Res. CMN 4.966/2021",
+  "titulo": "Instrumentos financeiros nas instituições autorizadas pelo Banco Central (conceitos da IFRS 9)",
+  "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Res. BCB 352/2023",
+  "titulo": "Procedimentos contábeis complementares à Res. CMN 4.966 (perda esperada, divulgações)",
+  "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=352",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "COSIF",
+  "titulo": "Plano Contábil das Instituições do Sistema Financeiro Nacional",
+  "url": "https://www3.bcb.gov.br/aplica/cosif",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Res. CVM 42/2021",
+  "titulo": "Aprova o CPC 50 – Contratos de Seguro para companhias abertas",
+  "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol042.html",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "SUSEP",
+  "titulo": "Normas contábeis e de provisões técnicas das supervisionadas",
+  "url": "https://www.gov.br/susep/pt-br",
   "http": 200,
   "situacao": "ok"
  }

@@ -2,13 +2,13 @@
 
 **Use esta área para:** balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos.
 
-47 normas. Índice de todas as áreas: [areas/README.md](README.md).
+48 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
 | Tema | Também chamado de | Normas |
 |---|---|---|
-| Demonstrações contábeis e divulgação | balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18 | NBC TG 03 (R3), NBC TG 05 (R3), NBC TG 09 (R1), NBC TG 21 (R4), NBC TG 22 (R2), NBC TG 24 (R2), NBC TG 26 (R5), NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 45 (R3), NBC TG 51, ITG 17, CTG 06, CTG 07 (R1), NBC TSP 11 (R1), NBC TSP 12 (R1), NBC TSP 13 (R1), NBC TSP 20 (R1), NBC TSP 22 (R1), NBC TSP 25 (R1), NBC TSP 27 (R1), NBC TSP 28 (R1), NBC TSP 30 (R1), NBC TSP 33 (R1), CTSP 02, NBC TDS 01, NBC TDS 02, IFRS 7, IFRS 8, IFRS 12, IFRS 18, IFRS 19, IAS 1, IAS 7, IAS 10, IAS 24, IAS 32, IAS 34, IFRS S1, IFRS S2 |
+| Demonstrações contábeis e divulgação | balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18 | NBC TG 03 (R3), NBC TG 05 (R3), NBC TG 09 (R1), NBC TG 21 (R4), NBC TG 22 (R2), NBC TG 24 (R2), NBC TG 26 (R5), NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 45 (R3), NBC TG 51, ITG 17, CTG 06, CTG 07 (R1), NBC TSP 11 (R1), NBC TSP 12 (R1), NBC TSP 13 (R1), NBC TSP 20 (R1), NBC TSP 22 (R1), NBC TSP 25 (R1), NBC TSP 27 (R1), NBC TSP 28 (R1), NBC TSP 30 (R1), NBC TSP 33 (R1), CTSP 02, NBC TDS 01, NBC TDS 02, IFRS 7, IFRS 8, IFRS 12, IFRS 18, IFRS 19, IAS 1, IAS 7, IAS 10, IAS 24, IAS 32, IAS 34, IFRS S1, IFRS S2, SIC 29 |
 | Políticas contábeis e erros | mudança de estimativa, retificação de erro, IAS 8 | NBC TG 23 (R2), NBC TSP 23 (R1), IAS 8 |
 | Demonstração do resultado (DRE) | DRE, lucro, resultado operacional, EBITDA, MPM, IFRS 18, lucro por ação | NBC TG 26 (R5), NBC TG 31 (R4), NBC TG 41 (R2), NBC TG 51, IFRS 5, IFRS 18, IAS 1, IAS 33 |
 | Fluxo de caixa (DFC) | DFC, método direto, método indireto, caixa e equivalentes, IAS 7 | NBC TG 03 (R3), NBC TSP 12 (R1), IAS 7 |
@@ -65,3 +65,4 @@
 | **IAS 34** – Demonstração Intermediária | Demonstrações intermediárias (ITR, semestrais): conteúdo mínimo, notas condensadas, períodos comparativos e mesmas políticas contábeis do anual. | Todas (versão condensada) | [CPC 21](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=52) · NBC TG 21 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRS S1** – Requisitos Gerais de Divulgação de Sustentabilidade | Requisitos gerais de divulgação de sustentabilidade do ISSB; no Brasil, NBC TDS 01 / CBPS 01. | Relatório de sustentabilidade | CBPS 01 · NBC TDS 01 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRS S2** – Divulgações Relacionadas ao Clima | Divulgações relacionadas ao clima do ISSB; no Brasil, NBC TDS 02 / CBPS 02. | Relatório de sustentabilidade | CBPS 02 · NBC TDS 02 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **SIC 29** – Contratos de Concessão de Serviços: Divulgação | Divulgações exigidas sobre contratos de concessão de serviço (prazo, direitos, obrigações, mudanças), tanto do concessionário quanto do concedente. | NE | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) · ITG 17 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |

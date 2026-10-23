@@ -1,13 +1,13 @@
-# Partes das normas que importam para a INDÚSTRIA, organizadas pelo ciclo da fábrica.
-# Gera a pasta Industrial/ e anota cada norma em normas.json (campo "industria").
-# Os itens seguem a numeração do CPC, que acompanha a IAS/IFRS correspondente.
-# Textos redigidos como orientação (não são cópia das normas): confira o texto oficial.
-import re, shutil, unicodedata
+# Setor: Indústria. Partes das normas que importam para a indústria, pelo ciclo da fábrica.
+# Formato: ver scripts/gerar_setores.py.
+NOME = "Indústria"
+PASTA = "Industrial"
+USE_PARA = ("custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, "
+            "meio ambiente, auditoria de estoques")
+INTRO = ("Trechos das normas contábeis e de auditoria que importam para empresas industriais, organizados pelo "
+         "ciclo da fábrica: compra de insumos → produção → estoque → venda → pós-venda. Cada arquivo traz, por norma, "
+         "os itens relevantes e o que eles dizem na prática, mais um checklist.")
 
-AVISO = ("> Resumo orientativo dos trechos das normas aplicáveis à indústria; não substitui o texto oficial. "
-         "Os números de item seguem o CPC (mesma numeração da IAS/IFRS). Confira sempre pelo link oficial.")
-
-# (arquivo, título, use para, introdução, [(norma, itens, o que diz para a indústria)], [checklist])
 TOPICOS = [
 ("01-estoques-e-custo-de-producao", "Estoques e custo de produção",
  "custo do produto fabricado, matéria-prima, produtos em elaboração e acabados, CIF, rateio, ociosidade, custo-padrão, PEPS/médio, obsolescência, inventário",
@@ -219,65 +219,3 @@ FAQ = [
  ("Gasto com protótipo vira ativo?", "Só na fase de desenvolvimento e se cumprir os 6 critérios.", "NBC TG 04", "57"),
  ("Preciso provisionar área contaminada?", "Sim, se a obrigação já existe (legal ou não formalizada) e for provável o desembolso.", "NBC TG 25", "14, 19"),
 ]
-
-
-def slug(s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-
-
-def gerar(root, REC, sem_rev):
-    por_cod = {sem_rev(r["codigo"]): r for r in REC}
-    falta = sorted({c for t in TOPICOS for c, _, _ in t[4] if c not in por_cod} |
-                   {c for _, _, c, _ in FAQ if c not in por_cod})
-    assert not falta, f"normas do tópico industrial não encontradas: {falta}"
-    for r in REC:
-        r["industria"] = []
-
-    pasta = root / "Industrial"
-    shutil.rmtree(pasta, ignore_errors=True)
-    pasta.mkdir()
-
-    def cab(r):
-        cpc = f"[{r['cpc']}]({r['url_cpc']})" if r.get("url_cpc") else r["cpc"]
-        refs = " · ".join(x for x in (cpc, r["internacional"]) if x)
-        return f"### {r['codigo']} – {r['titulo']}" + (f" ({refs})" if refs else "") + f" · [texto oficial]({r['url']})"
-
-    for arq, titulo, usar, intro, pontos, check in TOPICOS:
-        md = [f"# Indústria: {titulo}\n", f"**Use para:** {usar}.\n", intro + "\n", AVISO + "\n"]
-        ordem = []
-        for c, _, _ in pontos:
-            if c not in ordem:
-                ordem.append(c)
-        for c in ordem:
-            r = por_cod[c]
-            md.append("\n" + cab(r) + "\n\n| Item | O que diz para a indústria |\n|---|---|")
-            for c2, itens, txt in pontos:
-                if c2 == c:
-                    md.append(f"| {itens} | {txt} |")
-                    r["industria"].append({"topico": titulo, "arquivo": f"Industrial/{arq}.md", "itens": itens, "ponto": txt})
-        md.append("\n## Checklist na prática\n")
-        md += [f"- [ ] {x}" for x in check]
-        md.append("\n[← Índice da indústria](README.md) · [Todas as áreas](../areas/README.md)")
-        (pasta / f"{arq}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
-
-    idx = ["# Normas para a indústria\n",
-           "Trechos das normas contábeis e de auditoria que importam para empresas industriais, "
-           "organizados pelo ciclo da fábrica: compra de insumos → produção → estoque → venda → pós-venda. "
-           "Cada arquivo traz, por norma, os itens relevantes e o que eles dizem na prática, mais um checklist.\n",
-           AVISO + "\n",
-           "## Por etapa do ciclo industrial\n\n| Tópico | Use para | Normas |\n|---|---|---|"]
-    for arq, titulo, usar, _, pontos, _ in TOPICOS:
-        cods = []
-        for c, _, _ in pontos:
-            if por_cod[c]["codigo"] not in cods:
-                cods.append(por_cod[c]["codigo"])
-        idx.append(f"| [{titulo}]({arq}.md) | {usar} | {', '.join(cods)} |")
-    idx.append("\n## Perguntas frequentes\n\n| Pergunta | Resposta curta | Norma (item) |\n|---|---|---|")
-    for p, resp, c, it in FAQ:
-        r = por_cod[c]
-        rotulo = "itens" if re.search(r"[–,]| e ", it) else "item"
-        idx.append(f"| {p} | {resp} | [{r['codigo']}]({r['url']}) ({rotulo} {it}) |")
-    idx.append("\n[Todas as áreas](../areas/README.md) · [Índice geral](../README.md)")
-    (pasta / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
-    return [(arq, titulo) for arq, titulo, *_ in TOPICOS]
