@@ -1,0 +1,110 @@
+﻿setor;arquivo;titulo;use_para;intro;checklist
+industrial;01-estoques-e-custo-de-producao;Estoques e custo de produção;custo do produto fabricado, matéria-prima, produtos em elaboração e acabados, CIF, rateio, ociosidade, custo-padrão, PEPS/médio, obsolescência, inventário;O coração da contabilidade industrial. O CPC 16 exige custeio por absorção: o produto carrega materiais, mão de obra direta e custos indiretos de fabricação (CIF) fixos e variáveis. Custeio variável serve para gestão, não para as demonstrações.;"Custeio por absorção nas demonstrações (custeio variável só para gestão).
+Capacidade normal definida e documentada; ociosidade calculada e lançada como despesa.
+Créditos de ICMS, IPI, PIS e COFINS fora do custo.
+Frete na compra = custo; frete na venda = despesa de venda; armazenagem de produto acabado = despesa.
+Variações do custo-padrão apropriadas entre estoque e CPV no fechamento.
+Teste de VRL e provisão para obsolescência (itens parados, vencidos, sem giro).
+Inventário físico periódico e conciliação com o razão."
+industrial;02-maquinas-e-fabrica;Máquinas, fábrica e imobilizado;máquinas, linha de produção, construção de fábrica, componentização, manutenção, paradas programadas, peças de reposição, depreciação por unidades produzidas, impairment, leasing de equipamentos;Na indústria, o imobilizado costuma ser o maior ativo. As decisões que mais mexem no resultado: o que capitalizar, como componentizar, o método e a vida útil da depreciação e quando testar impairment.;"Política de capitalização (valor mínimo, o que é peça de estoque x imobilizado).
+Inventário físico e plaqueta do imobilizado; laudo de vida útil (econômica) revisado todo ano.
+Componentização das máquinas relevantes e das grandes paradas programadas.
+Juros capitalizados em obras e instalações em andamento.
+Teste de impairment por planta ou linha quando houver ociosidade ou queda de margem.
+Diferença entre depreciação societária e fiscal controlada para o IR diferido (ver tópico 04).
+Contratos de aluguel de equipamentos e de fornecimento revisados para arrendamento embutido."
+industrial;03-vendas-e-pos-venda;Vendas, garantia e pós-venda;faturamento, momento da receita, Incoterms (FOB/CIF), bonificações, rebates, devoluções, consignação, bill-and-hold, produtos sob encomenda, garantia de produto, assistência técnica;Quando e quanto reconhecer de receita na venda de produtos, e como tratar as obrigações que continuam depois da venda.;"Momento da receita conforme Incoterm e entrega efetiva; corte (cut-off) de notas emitidas e não entregues.
+Bonificações e rebates provisionados como redução da receita, não como despesa de venda.
+Provisão de garantia baseada em histórico de defeitos por linha de produto.
+Separar garantia estendida e serviços de instalação/assistência vendidos juntos.
+Tratar devoluções esperadas e remessas em consignação."
+industrial;04-tributos-e-incentivos;Tributos e incentivos fiscais;ICMS, IPI, PIS/COFINS, créditos tributários, crédito presumido, incentivos de ICMS, subvenção para investimento, financiamento subsidiado (BNDES, FINEP), IR diferido, teses tributárias;Indústrias concentram créditos de tributos, incentivos estaduais e diferenças entre a contabilidade e o fisco. A regra contábil é separar o que é custo, o que é tributo a recuperar e o que é subvenção.;"Conciliação mensal dos créditos de ICMS, IPI, PIS e COFINS (e futuramente IBS/CBS da reforma tributária).
+Mapear cada incentivo estadual: natureza, contrapartidas, registro no resultado e destinação à reserva.
+Controle das diferenças temporárias para o IR diferido.
+Avaliar teses tributárias: ITG 22 para IR/CS, NBC TG 25 para os demais tributos."
+industrial;05-pesquisa-e-desenvolvimento;Pesquisa e desenvolvimento de produtos;P&D, novos produtos, protótipos, engenharia de produto, moldes e ferramentas, patentes, software industrial;Quando o gasto com novos produtos ou processos pode virar ativo intangível e quando é despesa.;"Separar projetos em fase de pesquisa e de desenvolvimento, com documentação dos 6 critérios.
+Apropriar horas de engenharia por projeto.
+Incentivos fiscais de P&D (ex.: Lei do Bem) são tema fiscal; contabilmente seguem a NBC TG 07 quando forem subvenção."
+industrial;06-commodities-cambio-e-hedge;Commodities, câmbio e hedge;importação de insumos e máquinas, variação cambial, adiantamento a fornecedor estrangeiro, aço, cobre, alumínio, energia, derivativos, hedge de fluxo de caixa, contratos de compra para uso próprio;Indústrias expostas a insumos cotados em dólar ou em bolsa precisam separar a variação cambial do custo e decidir se aplicam contabilidade de hedge.;"Taxa de câmbio correta na entrada de importações; variação posterior no financeiro.
+Classificar contratos de commodity: uso próprio x derivativo.
+Se usar hedge accounting, documentar relação, objetivo e teste de eficácia antes de contratar.
+Notas com análise de sensibilidade a câmbio e commodities."
+industrial;07-dre-e-apresentacao;DRE, CPV e apresentação;DRE industrial, CPV, custo por função x natureza, margem bruta, ociosidade na DRE, IFRS 18 (2027), DVA, notas de estoques, segmentos por linha de produto;Como a indústria apresenta custos e despesas e o que muda com a IFRS 18 a partir de 2027.;"DRE por função com CPV; nota de despesas por natureza.
+Preparar a transição para a NBC TG 51 em 2027 (categorias, subtotais e MPMs); a NBC TG 51 exige conciliar a DRE do ano comparativo (Apêndice C).
+Nota de estoques por classe e de CPV."
+industrial;08-meio-ambiente-e-clima;Meio ambiente, resíduos e clima;passivo ambiental, área contaminada, licença ambiental, desmontagem de planta, resíduos, logística reversa, emissões, créditos de carbono, CBIO, IFRS S2, escopo 1, 2 e 3;Obrigações ambientais da operação industrial e as novas divulgações de clima.;"Levantamento de passivos ambientais por planta (licenças, TACs, áreas contaminadas).
+Provisão de desmontagem e restauração para plantas com obrigação contratual ou legal.
+Inventário de emissões (GHG Protocol) se for companhia aberta ou exigido por clientes.
+Acompanhar o mercado regulado de carbono (SBCE, Lei 15.042/2024) para grandes emissores."
+industrial;09-setores-industriais;Particularidades por tipo de indústria;agroindústria, frigorífico, usina, papel e celulose, mineração, siderurgia, química, farmacêutica, eletroeletrônicos, bens de capital sob encomenda, incorporação de equipamentos;Normas que só aparecem em alguns segmentos industriais.;Identificar quais normas setoriais se aplicam à planta antes de fechar o balanço.
+industrial;10-auditoria-na-industria;Auditoria na indústria;inventário físico, contagem de estoques, estoque em poder de terceiros, industrialização por encomenda, provisão de obsolescência, custo de produção, laudos de máquinas;Onde o auditor independente mais concentra trabalho numa indústria.;"Programar a contagem física com o auditor e preparar instruções de inventário.
+Documentar a capacidade normal, os rateios e as variações de custo-padrão.
+Base de cálculo da obsolescência e da provisão de garantia pronta para revisão."
+comercio;01-mercadorias-e-cmv;Mercadorias, CMV e perdas;custo da mercadoria, frete, bonificação de fornecedor, ICMS-ST, PEPS/médio, método de varejo, obsolescência, quebras e furtos, inventário;No comércio o estoque é o maior ativo circulante. A regra é a mesma da indústria, sem a parte de produção: custo de compra líquido de descontos e de tributos recuperáveis, avaliado pelo menor entre custo e valor realizável.;"Bonificações e verbas de fornecedor tratadas como redução do custo (não como receita).
+ICMS-ST e outros tributos sem crédito incluídos no custo; os recuperáveis em tributos a recuperar.
+Provisão para perdas e obsolescência (coleção passada, vencidos).
+Inventário rotativo documentado e conciliado com o razão."
+comercio;02-vendas-e-receita;Vendas, marketplace e fidelidade;momento da venda, receita líquida, devoluções e trocas, marketplace (principal x agente), programas de pontos, vale-presente, garantia estendida, venda a prazo;As regras de receita da NBC TG 47 que mais aparecem no varejo: quem é o vendedor de fato, o que fazer com pontos e vales não usados, e quanto reconhecer quando o cliente pode devolver.;"Revisar contratos de marketplace: principal ou agente por categoria de produto.
+Provisão para devoluções baseada em histórico por canal (loja física, site).
+Receita diferida de pontos e vales-presente, com estimativa de breakage documentada.
+Separar juros de vendas parceladas sem juros aparentes."
+comercio;03-cartoes-e-recebiveis;Cartões, recebíveis e antecipação;contas a receber de cartão, taxa de desconto (MDR), antecipação de recebíveis, FIDC, perda esperada, PCLD;O varejo vende muito a prazo no cartão e costuma antecipar os recebíveis. A questão contábil é se a antecipação baixa o recebível ou é um empréstimo.;"Taxa de administração do cartão (MDR) como despesa de vendas ou redução de receita, conforme política documentada.
+Analisar contratos de antecipação e de cessão a FIDC para decidir baixa x empréstimo.
+Matriz de perdas esperadas atualizada com histórico de inadimplência e chargeback."
+comercio;04-lojas-e-arrendamentos;Lojas, aluguéis e impairment;aluguel de loja, shopping, aluguel percentual sobre vendas, luvas, benfeitorias em imóvel de terceiros, impairment de loja, fechamento de loja;"Quase todo varejista aluga seus pontos. Com a NBC TG 06 o aluguel fixo vira ativo de direito de uso e passivo; cada loja costuma ser testada para impairment separadamente.";"Inventário de contratos de aluguel (prazo, renovações, índices de correção, aluguel percentual).
+Teste de impairment por loja com plano de negócios.
+Política de depreciação de benfeitorias alinhada ao prazo dos contratos."
+comercio;05-tributos-no-varejo;Tributos no varejo;ICMS, ICMS-ST, PIS/COFINS monofásico, créditos, receita bruta x líquida, reforma tributária no varejo;Tributos sobre vendas e compras afetam custo, receita líquida e tributos a recuperar.;"Conciliar créditos de ICMS/PIS/COFINS e saldos de ICMS-ST a ressarcir.
+Mapear itens com tributação monofásica e substituição tributária.
+Preparar o ERP para IBS/CBS (ver areas/reforma-tributaria.md)."
+servicos;01-receita-de-servicos;Receita de serviços e contratos;contratos com clientes, obrigações de desempenho, receita ao longo do tempo, medição do progresso, pacotes de serviços, aditivos, multas e bônus;Em serviços a receita costuma ser reconhecida ao longo do tempo. O ponto é identificar o que foi prometido e como medir o avanço.;"Mapear obrigações de desempenho dos contratos padrão.
+Definir o método de medição do progresso por tipo de serviço.
+Provisionar multas por SLA como redução de receita."
+servicos;02-saas-software-e-licencas;SaaS, software e licenças;assinaturas SaaS, licenças de software, implantação, custo de comissão de vendas, desenvolvimento de software, custos de nuvem;Empresas de tecnologia: quando a assinatura vira receita, o que fazer com a comissão do vendedor e quando o software desenvolvido internamente vira ativo.;"Classificar cada produto: acesso (SaaS) x uso (licença).
+Ativar comissões de venda incrementais e definir prazo de amortização.
+Controle de horas por projeto de software com marco do início da fase de desenvolvimento.
+Custos de configuração de software de terceiros em nuvem: em regra despesa, salvo se gerarem ativo controlado pela empresa."
+servicos;03-pessoal-e-beneficios;Pessoal, férias, PLR e stock options;folha, férias, 13º salário, encargos, PLR, bônus, plano de saúde, previdência privada, stock options, phantom shares;Em serviços a folha é o principal custo. A NBC TG 33 manda provisionar no mês em que o empregado presta o serviço.;"Provisão mensal de férias e 13º com encargos.
+Provisão de PLR conforme acordo coletivo e metas do período.
+Planilha de stock options/phantom shares com valor justo e período de aquisição."
+servicos;04-escritorios-tributos-e-pequenas;Escritórios, tributos e pequenas empresas;aluguel de escritório e equipamentos, ISS, PIS/COFINS, Simples Nacional, microempresa, pequena empresa, NBC TG 1001/1002;Muitos prestadores de serviço são pequenos e podem usar as normas simplificadas.;"Enquadrar a empresa na norma certa pelo faturamento (NBC TG 1002, 1001, 1000 ou completas).
+Escrituração completa mesmo no Simples Nacional.
+Levantar contratos de aluguel de escritório e equipamentos."
+agronegocio;01-ativo-biologico-e-colheita;Ativo biológico e produto colhido;gado, aves, lavouras em formação, florestas para corte, valor justo menos despesa de venda, ganho na valorização, colheita, produto agrícola em estoque;A NBC TG 29 é a norma central do agro: animais e plantas vivos ficam a valor justo e a valorização vai para o resultado, até a colheita. Depois da colheita, o produto vira estoque (NBC TG 16).;"Laudo ou modelo de valor justo por classe de ativo biológico (rebanho por categoria, lavoura por estágio).
+Separar despesas de venda (frete, comissões) na mensuração.
+Registrar a colheita: baixa do ativo biológico e entrada no estoque pelo valor justo."
+agronegocio;02-terras-plantas-portadoras-e-arrendamentos;Terras, plantas portadoras e arrendamentos;terra nua, benfeitorias, máquinas agrícolas, cana-de-açúcar (soqueira), café, laranja, arrendamento rural, parceria agrícola;"Terra, máquinas e plantas que só servem para produzir frutos ficam no imobilizado; terras de terceiros podem gerar arrendamento.";"Separar terra nua de benfeitorias e de plantas portadoras.
+Revisar contratos de arrendamento e parceria rural.
+Vida útil das plantas portadoras (ex.: número de cortes da cana) documentada."
+agronegocio;03-credito-rural-hedge-e-cpr;Crédito rural, hedge e CPR;Plano Safra, crédito rural com juros subsidiados, subvenção, contratos de venda futura, hedge de soja, milho e boi, CPR, barter;O agro se financia com crédito subsidiado e protege preço com contratos futuros e derivativos.;"Calcular subvenção nos financiamentos rurais com taxa abaixo do mercado.
+Classificar CPRs e contratos a termo: entrega física (uso próprio) x derivativo.
+Documentar relações de hedge antes de contratar."
+agronegocio;04-usinas-carbono-e-auditoria;Usinas, CBIO e auditoria no agro;usina de açúcar e etanol, CBIO, créditos de carbono, contagem de rebanho, valor justo de ativos biológicos, especialistas agronômicos;Particularidades de usinas e pontos que o auditor mais examina no agro.;"Inventário de rebanho e estoques de grãos no fechamento.
+Documentar premissas do valor justo (preços de mercado, produtividade).
+Controle de CBIOs emitidos e vendidos."
+construcao;01-incorporacao-imobiliaria;Incorporação imobiliária;unidades vendidas na planta, receita ao longo da obra (POC), custo do imóvel, estoque de imóveis, juros capitalizados, permuta de terreno, estande e apartamento decorado, distratos;A incorporadora vende unidades antes de construí-las. No Brasil, as companhias abertas reconhecem a receita das unidades vendidas ao longo da obra (POC), com base na NBC TG 47 e na orientação da CVM.;"Orçamento de custo por empreendimento atualizado e aprovado (base do POC).
+Separar custo de terreno do avanço físico/financeiro da obra.
+Controle de juros capitalizados por empreendimento.
+Provisão para distratos baseada em histórico."
+construcao;02-contratos-de-construcao;Construtoras e empreiteiras;obras para terceiros, contrato de empreitada, medição, aditivos, pleitos (claims), multas, retenções contratuais, contrato oneroso;Construtoras que executam obras sob contrato reconhecem receita ao longo da execução e precisam provisionar contratos com prejuízo.;"Reavaliar a margem estimada de cada contrato a cada fechamento.
+Registrar aditivos só após aprovação; pleitos com critério conservador.
+Provisão para contratos onerosos."
+construcao;03-garantias-imobilizado-e-tributos;Garantias, equipamentos e tributos;garantia de obra de 5 anos, provisões, equipamentos de construção, gruas e formas, leasing de máquinas, patrimônio de afetação, RET;Obrigações que continuam depois da entrega e particularidades de equipamentos e tributação do setor.;"Provisão de garantia de obra por empreendimento entregue.
+Controle contábil separado por empreendimento com patrimônio de afetação."
+terceiro_setor;01-receitas-doacoes-e-subvencoes;Doações, subvenções, convênios e gratuidades;doações, contribuições, subvenções públicas, convênios e termos de parceria, recursos com restrição, gratuidades, imunidade e isenção, trabalho voluntário;A ITG 2002 adapta as normas às entidades sem fins lucrativos. O ponto central é o regime de competência para doações e subvenções e a evidenciação das gratuidades.;"Controle por projeto/convênio: recursos recebidos, aplicados e a aplicar (passivo).
+Segregar receitas e despesas com e sem gratuidade por atividade.
+Mensurar e registrar o trabalho voluntário.
+Não registrar imunidade como receita; divulgar a renúncia fiscal em nota."
+terceiro_setor;02-demonstracoes-e-patrimonio-social;Demonstrações, superávit e patrimônio social;patrimônio social, superávit ou déficit, recursos com restrição, demonstração do resultado do período, DFC, notas explicativas;As demonstrações seguem a estrutura comum com outra nomenclatura e mais divulgação sobre recursos e gratuidades.;"Nomenclatura do terceiro setor nas demonstrações.
+Conciliação de recursos com restrição.
+Notas com subvenções, convênios e gratuidades por atividade."
+terceiro_setor;03-cooperativas;Cooperativas;ato cooperativo e não cooperativo, ingressos e dispêndios, sobras e perdas, quotas-partes, capital a restituir, reservas obrigatórias;Cooperativas seguem a ITG 2004, com resultado segregado entre atos com cooperados e com terceiros.;"Segregar ato cooperativo e não cooperativo no plano de contas.
+Transferir para o passivo as quotas de cooperados que saíram."
+terceiro_setor;04-partidos-e-eleicoes;Partidos políticos e eleições;partidos políticos, campanhas eleitorais, candidatos, fundo partidário, FEFC, prestação de contas à Justiça Eleitoral;Desde as eleições de 2026, a contabilidade de partidos e campanhas segue obrigatoriamente a NBC TPE 01.;Aplicar a NBC TPE 01 na prestação de contas de campanha de 2026.
+financeiro;01-bancos-e-instituicoes-do-bc;Bancos e instituições do Banco Central;COSIF, Res. CMN 4.966, modelo de negócios, custo amortizado, valor justo, perda esperada em estágios, ativo problemático, renegociação, hedge;Desde 2025 as instituições do Banco Central aplicam a Res. CMN 4.966, que traz para o COSIF os conceitos da IFRS 9 (NBC TG 48), com regras próprias de perda esperada.;"Mapear diferenças entre as demonstrações COSIF (Res. CMN 4.966) e as consolidadas em IFRS.
+Documentar modelos de negócios e testes de fluxos de caixa por carteira.
+Modelo de perda esperada com estágios e pisos regulatórios."
+financeiro;02-seguradoras-e-previdencia;Seguradoras e previdência complementar;contratos de seguro, IFRS 17, CPC 50, provisões técnicas, SUSEP, fundos de pensão, EFPC, planos de benefícios;Seguros têm duas camadas: as regras da SUSEP nas demonstrações individuais e a NBC TG 50 (IFRS 17) nas companhias abertas.;"Conciliar resultados SUSEP x NBC TG 50 nas seguradoras abertas.
+Fundos de pensão: demonstrações por plano conforme ITG 2001."
+financeiro;03-instrumentos-financeiros-fora-do-sistema-financeiro;Instrumentos financeiros nas empresas em geral;aplicações financeiras, empréstimos, debêntures, perda esperada de clientes, antecipação de recebíveis, FIDC, derivativos, fintechs não reguladas pelo BC;Empresas que não são instituições do Banco Central (inclusive muitas fintechs) seguem a NBC TG 48.;"Política de perda esperada para clientes (matriz por faixa de atraso).
+Análise de baixa x empréstimo em cessões de recebíveis e FIDC."

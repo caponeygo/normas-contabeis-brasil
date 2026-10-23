@@ -1,0 +1,66 @@
+﻿setor;pergunta;resposta;norma;itens
+industrial;A ociosidade da fábrica entra no custo do produto?;"Não. CIF fixos são rateados pela capacidade normal; o que sobra é despesa do período.";NBC TG 16;13
+industrial;Frete de compra de matéria-prima é custo?;Sim, entra no custo do estoque. Frete na venda é despesa de venda.;NBC TG 16;11 e 16
+industrial;ICMS e IPI entram no custo do estoque?;Só a parte não recuperável. Créditos ficam em tributos a recuperar.;NBC TG 16;11
+industrial;Posso usar custeio variável no balanço?;"Não. As demonstrações exigem absorção; custeio variável é só gerencial.";NBC TG 16;12–13
+industrial;Custo-padrão é aceito?;Sim, se ficar próximo do real e os padrões forem revistos.;NBC TG 16;21
+industrial;Posso usar UEPS?;Não. Só PEPS ou custo médio ponderado.;NBC TG 16;25
+industrial;Peça de reposição é estoque ou imobilizado?;"Imobilizado se usada por mais de um período (sobressalente estratégico); senão, almoxarifado.";NBC TG 27;8
+industrial;Grande parada de manutenção vai para despesa?;Pode ser capitalizada como componente e depreciada até a próxima parada.;NBC TG 27;14
+industrial;Depreciação da máquina de produção é despesa?;Não diretamente: é custo de produção (CIF) e passa pelo estoque.;NBC TG 27;49
+industrial;Posso usar a taxa de depreciação da Receita?;"Só se refletir a vida útil econômica; a diferença com o fiscal gera IR diferido.";NBC TG 27;50–51
+industrial;Juros do financiamento da fábrica nova?;Capitalizados durante a construção.;NBC TG 20;8
+industrial;Quando reconhecer a receita de exportação FOB?;Quando o controle passa ao cliente, em geral no embarque.;NBC TG 47;38
+industrial;Bonificação e rebate a cliente são despesa de venda?;"Não; reduzem a receita (contraprestação variável).";NBC TG 47;50–59
+industrial;Garantia do produto é provisão ou receita diferida?;"Garantia legal/padrão = provisão; garantia estendida vendida = receita diferida.";NBC TG 47;B28–B33
+industrial;Incentivo de ICMS (crédito presumido) vai para onde?;Resultado como subvenção, com possível destinação à reserva de incentivos fiscais.;NBC TG 07;12
+industrial;Variação cambial da importação de insumo entra no custo?;"Não; vai para o resultado financeiro.";NBC TG 02;28
+industrial;Gasto com protótipo vira ativo?;Só na fase de desenvolvimento e se cumprir os 6 critérios.;NBC TG 04;57
+industrial;Preciso provisionar área contaminada?;Sim, se a obrigação já existe (legal ou não formalizada) e for provável o desembolso.;NBC TG 25;14, 19
+comercio;Bonificação recebida do fornecedor é receita?;"Não; reduz o custo da mercadoria.";NBC TG 16;11
+comercio;ICMS-ST pago na compra entra no custo?;Sim, quando não há direito a crédito.;NBC TG 16;11
+comercio;Furto e quebra de estoque vão para onde?;Despesa do período em que ocorrem.;NBC TG 16;34
+comercio;Posso usar o método de varejo?;Sim, se o resultado se aproximar do custo.;NBC TG 16;21
+comercio;No marketplace, a receita é o valor total da venda?;"Só se a empresa for principal; se for agente, só a comissão.";NBC TG 47;B34–B38
+comercio;Pontos de fidelidade viram receita quando?;"Quando usados ou expirados; até lá, receita diferida.";NBC TG 47;B39–B43
+comercio;Vale-presente não usado vira receita?;Sim, a parte que se espera nunca ser usada, proporcionalmente ao uso.;NBC TG 47;B44–B47
+comercio;Antecipação de recebíveis de cartão baixa o recebível?;Só se transferir substancialmente riscos e benefícios.;NBC TG 48;3.2.6
+comercio;Aluguel sobre % das vendas entra no passivo de arrendamento?;"Não; é despesa do período.";NBC TG 06;38
+comercio;Cada loja é testada para impairment separadamente?;Em geral sim: cada loja costuma ser uma UGC.;NBC TG 01;66–73
+servicos;Contrato mensal de suporte: receita quando?;Ao longo do tempo, à medida que o serviço é prestado.;NBC TG 47;35
+servicos;Projeto de consultoria por horas: posso reconhecer pelo faturável?;Sim, se o direito a receber corresponder ao serviço prestado até a data.;NBC TG 47;B16
+servicos;Assinatura SaaS é receita na venda?;"Não; é direito de acesso, receita ao longo da assinatura.";NBC TG 47;B52–B63
+servicos;Taxa de implantação vira receita na hora?;"Só se transferir um serviço distinto; senão, ao longo do contrato.";NBC TG 47;B48–B51
+servicos;Comissão do vendedor pode virar ativo?;"Sim, se incremental e recuperável; pode ir para despesa se amortizaria em até 1 ano.";NBC TG 47;91–94
+servicos;Software próprio vira intangível?;Só na fase de desenvolvimento e cumprindo os 6 critérios.;NBC TG 04;57
+servicos;Preciso provisionar férias todo mês?;Sim, conforme o empregado adquire o direito, com encargos.;NBC TG 33;13–15
+servicos;PLR é provisionada quando?;Quando houver obrigação presente e valor estimável.;NBC TG 33;19–24
+servicos;ISS é receita?;"Não; deduz a receita bruta.";NBC TG 47;47
+servicos;Empresa do Simples precisa de contabilidade?;Sim, escrituração regular conforme ITG 2000.;ITG 2000;—
+agronegocio;Gado em engorda fica a custo ou valor justo?;Valor justo menos despesa de venda, com a variação no resultado.;NBC TG 29;12
+agronegocio;Pé de café é ativo biológico?;"Não; é planta portadora, vai para o imobilizado. O café que cresce nele é ativo biológico.";NBC TG 29;2
+agronegocio;Eucalipto para madeira é planta portadora?;"Não; árvore cultivada para ser colhida como produto segue a NBC TG 29.";NBC TG 29;5A
+agronegocio;Grão colhido entra no estoque por quanto?;Valor justo menos despesa de venda na colheita.;NBC TG 16;20
+agronegocio;E se não der para medir o valor justo?;Custo menos depreciação e perdas, até ser mensurável.;NBC TG 29;30–33
+agronegocio;Terra se deprecia?;Em geral não.;NBC TG 27;58
+agronegocio;Juros do Plano Safra abaixo do mercado têm efeito contábil?;Sim: a diferença para o valor justo é subvenção.;NBC TG 07;10A
+agronegocio;Venda futura da safra é derivativo?;Não, se for para entrega física da própria produção (uso próprio).;NBC TG 48;2.4
+construcao;Incorporadora reconhece receita na venda ou na entrega das chaves?;No Brasil, em geral ao longo da obra (POC), se atendido o item 35(c).;NBC TG 47;35
+construcao;Como medir o avanço da obra?;Em geral custo incorrido sobre custo orçado, sem o terreno.;NBC TG 47;39–45
+construcao;Juros do financiamento da obra entram no estoque?;Sim, enquanto a obra está em andamento.;CTG 01;6–8
+construcao;Terreno recebido em permuta entra por quanto?;Pelo valor justo, com adiantamento de clientes no passivo.;CTG 01;21–22
+construcao;Contrato de obra com prejuízo previsto?;Provisionar a perda total assim que identificada (contrato oneroso).;NBC TG 25;66–69
+construcao;Pleito contra o cliente vira receita quando?;Quando for altamente provável que não haverá reversão.;NBC TG 47;50–59
+construcao;Preciso provisionar garantia de obra?;Sim, pelo histórico de reparos das obras entregues.;NBC TG 25;14, 24, 39
+terceiro_setor;Doação recebida vai direto para o patrimônio?;"Em regra vai para o resultado (regime de competência); doação patrimonial do instituidor vai para o patrimônio social.";ITG 2002;9, 18
+terceiro_setor;Recurso de convênio ainda não aplicado é receita?;"Não; fica no passivo até cumprir os requisitos.";ITG 2002;11–12
+terceiro_setor;Imunidade tributária vira receita?;"Não; não é subvenção. Divulgar a renúncia fiscal.";ITG 2002;9B
+terceiro_setor;Trabalho voluntário é contabilizado?;Sim, pelo valor justo do serviço.;ITG 2002;19
+terceiro_setor;Como se chama o lucro de uma ONG?;Superávit (ou déficit), incorporado ao patrimônio social.;ITG 2002;15, 23
+terceiro_setor;Quota de cooperado que saiu continua no PL?;"Não; vai para capital a restituir no passivo.";ITG 2004;19
+terceiro_setor;Partido político segue qual norma?;NBC TPE 01, obrigatória a partir das eleições de 2026.;OT CFC 02/2026;—
+financeiro;Banco usa a NBC TG 48 nas demonstrações individuais?;Não diretamente: segue o COSIF e a Res. CMN 4.966 (com conceitos da IFRS 9).;Res. CMN 4.966/2021;—
+financeiro;Desde quando vale a Res. CMN 4.966?;1/1/2025.;Res. CMN 4.966/2021;—
+financeiro;Seguradora aberta aplica IFRS 17?;Sim, CPC 50/NBC TG 50 desde 2023 (Res. CVM 42/2021).;Res. CVM 42/2021;—
+financeiro;Fintech sem autorização do BC segue o quê?;As NBC TG (instrumentos financeiros pela NBC TG 48).;NBC TG 48;4.1
+financeiro;Fundo de pensão segue qual norma?;ITG 2001 (EFPC) e regras da PREVIC.;ITG 2001;—

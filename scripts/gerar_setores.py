@@ -1,21 +1,43 @@
-# Gera uma pasta por setor (Industrial/, Comercio/, Servicos/...) com os trechos das normas que importam
+# Gera uma pasta por setor (Industrial/, Varejo/, Servicos/...) com os trechos das normas que importam
 # para aquele tipo de empresa, e anota cada norma em normas.json (campo "setores").
-# Os dados de cada setor ficam em scripts/dados_setores/<setor>.py com:
-#   NOME, PASTA, USE_PARA, INTRO, TOPICOS, FAQ e, opcional, EXTERNAS (regras de fora do CFC: BCB, CVM, SUSEP, leis).
-# Os itens seguem a numeração do CPC/NBC (a mesma da IAS/IFRS). scripts/verificar_itens.py confere cada item no PDF oficial.
-import importlib, re, shutil
+# Dados nas planilhas de dados/: setores.csv (setores), setores_topicos.csv (um arquivo .md por tópico),
+# setores_pontos.csv (norma, itens e o que dizem), setores_faq.csv e setores_externas.csv (regras de fora do CFC:
+# BCB, CVM, SUSEP, leis). Os itens seguem a numeração do CPC/NBC; scripts/verificar_itens.py confere cada um no PDF oficial.
+import re, shutil
+from types import SimpleNamespace
 
-SETORES = ["industrial", "comercio", "servicos", "agronegocio", "construcao", "terceiro_setor", "financeiro"]
+from dados import ler
+
 AVISO = ("> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. "
          "Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente "
          "contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.")
+
+
+def carregar():
+    """Monta, para cada setor de dados/setores.csv, a estrutura usada por gerar_setor()."""
+    topicos, pontos, faq, ext = (ler(f) for f in ("setores_topicos.csv", "setores_pontos.csv",
+                                                   "setores_faq.csv", "setores_externas.csv"))
+    setores = []
+    for s in ler("setores.csv"):
+        sid = s["setor"]
+        tops = [(t["arquivo"], t["titulo"], t["use_para"], t["intro"],
+                 [(p["norma"], p["itens"], p["ponto"]) for p in pontos if p["setor"] == sid and p["arquivo"] == t["arquivo"]],
+                 [c.strip() for c in t["checklist"].splitlines() if c.strip()])
+                for t in topicos if t["setor"] == sid]
+        sem_topico = {p["arquivo"] for p in pontos if p["setor"] == sid} - {t[0] for t in tops}
+        assert not sem_topico, f"setores_pontos.csv: arquivo sem tópico em setores_topicos.csv ({sid}): {sem_topico}"
+        setores.append(SimpleNamespace(
+            NOME=s["nome"], PASTA=s["pasta"], USE_PARA=s["use_para"], INTRO=s["intro"], TOPICOS=tops,
+            FAQ=[(f["pergunta"], f["resposta"], f["norma"], f["itens"]) for f in faq if f["setor"] == sid],
+            EXTERNAS={e["codigo"]: (e["titulo"], e["url"], e["nota"]) for e in ext if e["setor"] == sid}))
+    return setores
 
 
 def gerar_todos(root, REC, sem_rev):
     por_cod = {sem_rev(r["codigo"]): r for r in REC}
     for r in REC:
         r["setores"] = []
-    return [gerar_setor(root, por_cod, importlib.import_module("dados_setores." + s)) for s in SETORES]
+    return [gerar_setor(root, por_cod, m) for m in carregar()]
 
 
 def gerar_setor(root, por_cod, m):

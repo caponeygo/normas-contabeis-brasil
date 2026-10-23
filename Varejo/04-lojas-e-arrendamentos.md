@@ -1,4 +1,4 @@
-# Comércio e Varejo: Lojas, aluguéis e impairment
+# Varejo: Lojas, aluguéis e impairment
 
 **Use para:** aluguel de loja, shopping, aluguel percentual sobre vendas, luvas, benfeitorias em imóvel de terceiros, impairment de loja, fechamento de loja.
 
@@ -40,4 +40,4 @@ Quase todo varejista aluga seus pontos. Com a NBC TG 06 o aluguel fixo vira ativ
 - [ ] Teste de impairment por loja com plano de negócios.
 - [ ] Política de depreciação de benfeitorias alinhada ao prazo dos contratos.
 
-[← Comércio e Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+[← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)

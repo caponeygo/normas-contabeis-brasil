@@ -1,4 +1,4 @@
-# Comércio e Varejo: Mercadorias, CMV e perdas
+# Varejo: Mercadorias, CMV e perdas
 
 **Use para:** custo da mercadoria, frete, bonificação de fornecedor, ICMS-ST, PEPS/médio, método de varejo, obsolescência, quebras e furtos, inventário.
 
@@ -33,4 +33,4 @@ No comércio o estoque é o maior ativo circulante. A regra é a mesma da indús
 - [ ] Provisão para perdas e obsolescência (coleção passada, vencidos).
 - [ ] Inventário rotativo documentado e conciliado com o razão.
 
-[← Comércio e Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+[← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)

@@ -89,7 +89,7 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 |---|---|---|
 | IRPJ / CSLL | Imposto de renda e contribuição social sobre o lucro | NBC TG 32 |
 | IR diferido | Tributo sobre diferenças temporárias e prejuízos fiscais | NBC TG 32 |
-| ICMS / ICMS-ST | Imposto estadual sobre circulação de mercadorias / substituição tributária | NBC TG 16 item 11; [Comércio](Comercio/README.md) |
+| ICMS / ICMS-ST | Imposto estadual sobre circulação de mercadorias / substituição tributária | NBC TG 16 item 11; [Comércio](Varejo/README.md) |
 | IPI, PIS, COFINS, ISS | Tributos sobre produção, faturamento e serviços (em extinção com a reforma) | NBC TG 16; NBC TG 47 item 47 |
 | IBS / CBS / IS | Imposto e contribuição sobre bens e serviços / Imposto Seletivo (reforma tributária) | [areas/reforma-tributaria.md](areas/reforma-tributaria.md) |
 | Split payment | Recolhimento automático do IBS/CBS pelo banco na liquidação do pagamento | OT CFC 01/2026, item 22 |
@@ -121,4 +121,4 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 | CPR | Cédula de produto rural | [Agronegócio](Agronegocio/README.md) |
 | CBIO | Crédito de descarbonização (RenovaBio) | CTG 10 |
 | FIDC | Fundo de investimento em direitos creditórios | NBC TG 48, itens 3.2.3–3.2.6 |
-| MDR | Taxa de desconto cobrada pelas credenciadoras de cartão | [Comércio](Comercio/README.md) |
+| MDR | Taxa de desconto cobrada pelas credenciadoras de cartão | [Comércio](Varejo/README.md) |

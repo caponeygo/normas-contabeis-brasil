@@ -1,4 +1,4 @@
-# Comércio e Varejo: normas que importam
+# Varejo: normas que importam
 
 Trechos das normas que importam para atacado, varejo, e-commerce e distribuidores: da compra da mercadoria até a venda no caixa ou no site, passando por loja alugada, cartões e tributos.
 

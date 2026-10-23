@@ -298,10 +298,10 @@
      "ponto": "A unidade geradora de caixa costuma ser a planta ou a linha de produção que gera entradas de caixa independentes; o teste é feito no nível da UGC."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "66–73",
      "ponto": "Cada loja que gera entradas de caixa independentes costuma ser uma unidade geradora de caixa: testar impairment da loja (direito de uso + benfeitorias) quando houver indício, como prejuízo recorrente."
     }
@@ -501,34 +501,34 @@
      "ponto": "Isenções: contratos de até 12 meses e ativos de baixo valor podem ficar como despesa de aluguel."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "22–24",
      "ponto": "Aluguel de loja: ativo de direito de uso e passivo de arrendamento. O direito de uso inclui pagamentos feitos antes do início (ex.: luvas/res sperata pagas ao locador), custos diretos iniciais e estimativa de restaurar o imóvel."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "27–28",
      "ponto": "Entram no passivo os pagamentos fixos e os variáveis que dependem de índice ou taxa (ex.: aluguel corrigido pelo IGP-M ou IPCA)."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "38",
      "ponto": "Aluguel percentual sobre o faturamento da loja não entra no passivo: é despesa no período em que a venda acontece."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "5–8",
      "ponto": "Contratos de até 12 meses e ativos de baixo valor podem ficar como despesa de aluguel."
     },
@@ -718,10 +718,10 @@
      "ponto": "Compras e vendas a prazo relevantes: ajuste a valor presente; o juro embutido sai do custo do insumo e da receita e vai para o resultado financeiro."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "—",
      "ponto": "Vendas e compras a prazo relevantes: ajuste a valor presente; os juros vão para o resultado financeiro."
     }
@@ -877,74 +877,74 @@
      "ponto": "Ociosidade (item 13) e perdas anormais são despesas do período: apresentar de forma que a margem bruta não fique distorcida e divulgar quando relevantes."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "9",
      "ponto": "Mercadoria fica pelo menor valor entre custo e valor realizável líquido (VRL)."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "11",
      "ponto": "Custo de compra = preço + tributos não recuperáveis (ex.: ICMS-ST quando não há crédito) + frete, seguro e manuseio até o depósito. Descontos comerciais, abatimentos e bonificações recebidas de fornecedores reduzem o custo."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "16",
      "ponto": "Armazenagem de mercadoria pronta, despesas administrativas e de venda (frete na entrega ao cliente, comissões) não entram no custo."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "21",
      "ponto": "Método de varejo (preço de venda menos margem) é aceito por conveniência se o resultado se aproximar do custo; a margem usada deve considerar remarcações."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "25",
      "ponto": "Fórmulas aceitas: PEPS ou custo médio ponderado; UEPS não."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "28–33",
      "ponto": "Coleção passada, itens parados, avariados ou com preço de venda em queda: reduzir ao VRL, em geral item a item ou por grupo semelhante."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "34",
      "ponto": "Na venda, o custo vira CMV. Perdas de estoque (quebras, furtos, vencimentos) e ajustes ao VRL são despesa do período em que ocorrem."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "36",
      "ponto": "Divulgar política de custo, saldos, CMV, ajustes ao VRL e reversões."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Comercio/05-tributos-no-varejo.md",
+     "arquivo": "Varejo/05-tributos-no-varejo.md",
      "itens": "11",
      "ponto": "Tributos sem direito a crédito (ICMS-ST pago na compra, PIS/COFINS monofásico) compõem o custo da mercadoria; os recuperáveis não."
     },
@@ -1168,18 +1168,18 @@
      "ponto": "Provisão ambiental quando há obrigação presente por evento passado, legal ou não formalizada (ex.: recuperar área já contaminada, multas). Gastos futuros para continuar operando (ex.: instalar filtros) não são provisão: a empresa pode evitá-los mudando a operação."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "66–69",
      "ponto": "Loja fechada com contrato ainda em vigor: avaliar contrato oneroso (custos inevitáveis maiores que os benefícios), além do impairment do direito de uso."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Comercio/05-tributos-no-varejo.md",
+     "arquivo": "Varejo/05-tributos-no-varejo.md",
      "itens": "33–35",
      "ponto": "Créditos tributários discutidos na Justiça (ex.: teses de PIS/COFINS) só viram ativo quando praticamente certos."
     },
@@ -1361,10 +1361,10 @@
      "ponto": "A estimativa de desmontagem da planta e de restauração do local entra no custo do ativo, em contrapartida à provisão."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Comercio/04-lojas-e-arrendamentos.md",
+     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
      "itens": "—",
      "ponto": "Benfeitorias em imóvel alugado são imobilizado, depreciadas pela vida útil limitada ao prazo esperado do contrato."
     },
@@ -1722,10 +1722,10 @@
      "ponto": "Divulgar riscos de mercado (câmbio, commodities), análise de sensibilidade, liquidez e os hedges contratados."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Comercio/03-cartoes-e-recebiveis.md",
+     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
      "itens": "31–42",
      "ponto": "Divulgar risco de crédito, de liquidez e as operações de antecipação."
     },
@@ -1956,66 +1956,66 @@
      "ponto": "Bens de capital sob encomenda (máquinas especiais, estruturas): receita ao longo do tempo quando não há uso alternativo e existe direito de receber pelo que foi executado."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "47",
      "ponto": "A receita exclui valores cobrados em nome de terceiros (ex.: tributos sobre a venda). A DRE brasileira parte da receita bruta e deduz os tributos sobre vendas para chegar à receita líquida."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "B34–B38",
      "ponto": "Marketplace e intermediação: se a empresa não controla a mercadoria antes de ela chegar ao cliente, é agente e reconhece como receita só a comissão (receita líquida), não o valor total da venda."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "B20–B27",
      "ponto": "Direito de devolução ou troca: reconhecer receita só pelo que se espera não voltar; passivo de reembolso e ativo pelo direito de recuperar a mercadoria."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "B39–B43",
      "ponto": "Programa de pontos e cashback que dá direito material ao cliente: parte do preço vai para receita diferida e só vira receita quando os pontos são usados ou expiram."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "B44–B47",
      "ponto": "Vale-presente e créditos pré-pagos: passivo no recebimento; a parte que se espera nunca ser usada (breakage) vira receita na proporção do uso dos demais, se não houver obrigação de repassar a terceiros."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "B28–B33",
      "ponto": "Garantia estendida vendida no caixa é serviço separado; se a loja apenas intermedeia a garantia de uma seguradora, avaliar se é agente (receita = comissão)."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Comercio/02-vendas-e-receita.md",
+     "arquivo": "Varejo/02-vendas-e-receita.md",
      "itens": "60–65",
      "ponto": "Venda parcelada com juros embutidos: separar o componente financeiro; avaliar junto com o AVP da NBC TG 12 (no Brasil não existe a dispensa de até 1 ano do item 63 da IFRS 15)."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Comercio/05-tributos-no-varejo.md",
+     "arquivo": "Varejo/05-tributos-no-varejo.md",
      "itens": "47",
      "ponto": "Tributos cobrados do cliente em nome do fisco não são receita: deduções da receita bruta na DRE."
     },
@@ -2208,26 +2208,26 @@
      "ponto": "Hedge de fluxo de caixa de compras futuras de insumo ou de câmbio: a parte eficaz do derivativo fica no ORA e depois entra no custo do estoque comprado; a parte ineficaz vai para o resultado. Exige documentação formal na contratação."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Comercio/03-cartoes-e-recebiveis.md",
+     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
      "itens": "5.1.3",
      "ponto": "Contas a receber de clientes sem componente de financiamento significativo são reconhecidas pelo preço da transação."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Comercio/03-cartoes-e-recebiveis.md",
+     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
      "itens": "5.5.15",
      "ponto": "Perda de crédito esperada pela abordagem simplificada (vida inteira) para contas a receber de clientes; matriz de provisão por faixa de atraso é aceita."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Comercio/03-cartoes-e-recebiveis.md",
+     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
      "itens": "3.2.3–3.2.6",
      "ponto": "Antecipação de recebíveis (banco, adquirente, FIDC): só baixa o recebível se transferir substancialmente todos os riscos e benefícios; se a loja continua com o risco de inadimplência ou chargeback, mantém o recebível e registra um passivo (empréstimo)."
     },
@@ -3368,10 +3368,10 @@
      "ponto": "Estoque em poder de terceiros (armazém geral, industrialização por encomenda, consignação): confirmação com o terceiro ou inspeção."
     },
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Comercio/01-mercadorias-e-cmv.md",
+     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
      "itens": "4–7",
      "ponto": "Auditor acompanha a contagem física das lojas e centros de distribuição relevantes, inclusive quando o inventário é rotativo ou em outra data."
     },
@@ -5992,10 +5992,10 @@
    ],
    "setores": [
     {
-     "setor": "Comércio e Varejo",
-     "pasta": "Comercio",
+     "setor": "Varejo",
+     "pasta": "Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Comercio/05-tributos-no-varejo.md",
+     "arquivo": "Varejo/05-tributos-no-varejo.md",
      "itens": "12",
      "ponto": "Reforma tributária: créditos de IBS e CBS recuperáveis também ficam fora do custo da mercadoria."
     }

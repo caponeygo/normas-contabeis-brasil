@@ -1,4 +1,4 @@
-# Comércio e Varejo: Tributos no varejo
+# Varejo: Tributos no varejo
 
 **Use para:** ICMS, ICMS-ST, PIS/COFINS monofásico, créditos, receita bruta x líquida, reforma tributária no varejo.
 
@@ -37,4 +37,4 @@ Tributos sobre vendas e compras afetam custo, receita líquida e tributos a recu
 - [ ] Mapear itens com tributação monofásica e substituição tributária.
 - [ ] Preparar o ERP para IBS/CBS (ver areas/reforma-tributaria.md).
 
-[← Comércio e Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+[← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)

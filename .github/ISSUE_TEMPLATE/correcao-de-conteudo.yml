@@ -1,0 +1,12 @@
+name: Correção de conteúdo
+description: Resumo, item, lançamento ou explicação errada.
+labels: ["conteudo"]
+body:
+  - type: input
+    id: onde
+    attributes: {label: Arquivo, placeholder: "ex.: Industrial/02-maquinas-e-fabrica.md"}
+    validations: {required: true}
+  - type: textarea
+    id: erro
+    attributes: {label: O que está errado e como deveria ser, description: "Cite a norma e o item que embasam a correção."}
+    validations: {required: true}

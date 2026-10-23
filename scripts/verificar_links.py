@@ -104,11 +104,10 @@ def main():
             vistos.add(r["url_cpc"]); alvos.append({"codigo": r["cpc"], "titulo": r["titulo"], "url": r["url_cpc"]})
     # regras de fora do CFC citadas nas pastas de setor (BCB, CVM, SUSEP, leis)
     sys.path.insert(0, str(ROOT / "scripts"))
-    import importlib, gerar_setores
-    for s in gerar_setores.SETORES:
-        for cod, (tit, url, _) in getattr(importlib.import_module("dados_setores." + s), "EXTERNAS", {}).items():
-            if url not in vistos:
-                vistos.add(url); alvos.append({"codigo": cod, "titulo": tit, "url": url})
+    from dados import ler
+    for e in ler("setores_externas.csv"):
+        if e["url"] not in vistos:
+            vistos.add(e["url"]); alvos.append({"codigo": e["codigo"], "titulo": e["titulo"], "url": e["url"]})
     with ThreadPoolExecutor(4) as ex:                 # 4 conexões: educado com o servidor do CFC
         res = list(ex.map(checar, alvos))
     if "--baixar" in sys.argv:

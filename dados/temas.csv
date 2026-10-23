@@ -1,0 +1,49 @@
+﻿tema;area;regex;sinonimos;normas_extras;so_auditoria
+Imobilizado;Ativos;imobilizad;ativo fixo, depreciação, vida útil, PP&E, máquinas, edificações, IAS 16;;
+Intangível;Ativos;intang;ágio, goodwill, software, marcas, patentes, amortização, IAS 38;;
+Estoques;Ativos;estoque;inventário, custo de produção, CMV, IAS 2;;
+Propriedade para investimento;Ativos;propriedade para investimento;imóveis para renda, IAS 40;;
+Ativo biológico;Ativos;biológic|agricultura;agronegócio, rebanho, safra, IAS 41;;
+Redução ao valor recuperável (impairment);Ativos;valor recuperável;impairment, teste de recuperabilidade, IAS 36;;
+Arrendamentos;Ativos;arrendament;leasing, aluguel, direito de uso, IFRS 16;;
+Ativo mantido para venda;Ativos;mantido para venda|descontinuad;operação descontinuada, IFRS 5;;
+Instrumentos financeiros;Instrumentos Financeiros;instrumentos? financeir|passivos financeiros|hedge;derivativos, hedge, perda esperada, PCLD, aplicações, IFRS 9;;
+Valor justo e mensuração;Mensuração;valor justo|mensuração;fair value, IFRS 13;;
+Ajuste a valor presente;Mensuração;valor presente;AVP, desconto;;
+Receita;Receitas;receita;faturamento, contrato com cliente, obrigação de desempenho, IFRS 15;;
+Subvenção governamental;Receitas;subvenç;incentivo fiscal, subsídio, IAS 20;;
+Provisões e contingências;Passivos;provis|conting;processos judiciais, passivo contingente, IAS 37;;
+Benefícios a empregados;Passivos;empregados|aposentadoria|benefício definido|previdência|benefícios sociais;plano de pensão, previdência, IAS 19;;
+Custos de empréstimos;Passivos;custos de empréstimos;juros capitalizados, IAS 23;;
+Tributos sobre o lucro;Tributos;sobre o lucro;IR, CSLL, imposto diferido, IAS 12;;
+Outros tributos e taxas;Tributos;^tributos( \(levies\))?$;ICMS, IPI, PIS, COFINS, ISS, IPTU, taxas, contribuições, levies, IFRIC 21;;
+Patrimônio, dividendos e ações;Patrimônio Líquido;dividend|lucros in natura|resultado por ação|baseado em ações|instrumentos patrimoniais|aos sócios|cotas de cooperados;stock options, lucro por ação, JCP;;
+Câmbio e inflação;Moeda e Câmbio;câmbio|moeda estrangeira|hiperinflac|atualização monetária;conversão, moeda funcional, IAS 21, IAS 29;;
+Consolidação e participações;Participações Societárias;consolidad|coligada|em conjunto|combinaç|separadas|participações em outras|equivalência|combinadas|grupos;MEP, controladas, coligadas, joint venture, fusão e aquisição, IFRS 3, IFRS 10;;
+Demonstrações contábeis e divulgação;Apresentação e Divulgação;apresentação|divulgaç|fluxos de caixa|valor adicionado|intermediári|segmento|partes relacionadas|subsequente|notas explicativas|evidenciação|orçamentária|pro forma|comparativas|condensadas|quadros isolados;balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18;;
+Políticas contábeis e erros;Apresentação e Divulgação;políticas contábeis|estimativa|retificação;mudança de estimativa, retificação de erro, IAS 8;;
+Estrutura conceitual;Fundamentos;estrutura conceitual;princípios, framework, características qualitativas;;
+Adoção inicial;Fundamentos;adoção inicial|adoção plena|aplicação inicial|novas práticas|convergidas;first-time adoption, Lei 11.638, IFRS 1;;
+Escrituração contábil;Fundamentos;escrituração|sped|plano de contas|modelo contábil;livros, SPED, ECD, plano de contas;;
+Seguros;Setores Específicos;seguro|susep;seguradoras, IFRS 17, SUSEP;;
+Concessões e infraestrutura;Setores Específicos;concess|aeroportu|rodoviári|aneel|energia elétrica;concessão pública, energia, rodovias, aeroportos;;
+Incorporação imobiliária;Setores Específicos;imobiliári;construtoras, incorporadoras;;
+Mineração e meio ambiente;Setores Específicos;minera|estéril|desativação|ambiental|eletroeletrônic|recursos minerais;mineração, descomissionamento, IFRS 6;;
+Entidades específicas;Setores Específicos;sem finalidade|cooperativa|desportiv|previdência complementar|liquidação;terceiro setor, ONG, cooperativas, clubes, fundos de pensão;;
+Sustentabilidade e clima;Sustentabilidade;sustentabilidade|clima|carbono|gases de efeito|relato integrado|social e ambiental|responsabilidade social;ESG, ISSB, IFRS S1, IFRS S2, créditos de carbono;;
+Custos no setor público;Setor Público;custos no setor;custos governamentais;;
+Fraude;Auditoria Independente;fraude;erro, distorção intencional, ISA 240;;sim
+Riscos, materialidade e planejamento;Auditoria Independente;risco|materialidade|planejamento|distorç|controle interno|termos do trabalho|leis e regulamentos;avaliação de risco, materialidade, planejamento de auditoria;;sim
+Evidência de auditoria;Auditoria Independente;\bevidência|confirmaç|amostragem|analític|saldos iniciais|representações|documentação|estimativas contábeis|continuidade;procedimentos de auditoria, circularização, amostragem;;sim
+Relatório do auditor;Auditoria Independente;relatório|opinião|ênfase|principais assuntos|outras informações;parecer, opinião modificada, PAA, ressalva;;sim
+Qualidade e independência;Ética e Exercício Profissional;qualidade|independência|ética|código|educação profissional|qualificação técnica|cadastro|contadores que;ética profissional, EPC, CNAI, revisão pelos pares;;sim
+Perícia contábil;Perícia Contábil;períci|perito|haveres;laudo pericial, perito judicial, apuração de haveres;;
+Uso do trabalho de terceiros;Auditoria Independente;especialistas|auditoria interna|prestadora de serviços|governança|auditores dos componentes;especialistas, auditoria interna, organização prestadora de serviços;;sim
+Procedimentos previamente acordados e compilação;Serviços Correlatos;previamente acordados|compilação;PPA, compilação, ISRS 4400, ISRS 4410;;sim
+Laudo de avaliação;Fundamentos;laudo de avaliação;avaliação patrimonial por contador;;
+Demonstração do resultado (DRE);Apresentação e Divulgação;;DRE, lucro, resultado operacional, EBITDA, MPM, IFRS 18, lucro por ação;NBC TG 51, IFRS 18, NBC TG 26, IAS 1, NBC TG 41, IAS 33, NBC TG 31, IFRS 5;
+Fluxo de caixa (DFC);Apresentação e Divulgação;;DFC, método direto, método indireto, caixa e equivalentes, IAS 7;NBC TG 03, IAS 7, NBC TSP 12;
+Valor adicionado (DVA);Apresentação e Divulgação;;DVA, riqueza gerada, distribuição do valor adicionado;NBC TG 09;
+Reforma tributária (IBS e CBS);Tributos;\bibs\b|\bcbs\b|reforma tribut;IBS, CBS, Imposto Seletivo, split payment, EC 132/2023, LC 214/2025, tributos sobre consumo, período de teste 2026;;
+Contabilidade eleitoral;Contabilidade Eleitoral;eleit|partido;partidos políticos, campanhas, candidatos, prestação de contas eleitoral, TSE;;
+Pequenas e médias empresas;Pequenas e Médias Empresas;pequena|microentidade|\bpme\b|smes;PME, ME, EPP, pequena empresa, microentidade, IFRS for SMEs, CPC PME;;

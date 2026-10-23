@@ -1,0 +1,25 @@
+﻿area;use_para;series
+Ativos;imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda;
+Passivos;provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos;
+Receitas;reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais;
+Tributos;IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS);
+Patrimônio Líquido;dividendos, JCP, ações, stock options, lucro por ação;
+Instrumentos Financeiros;aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada;
+Mensuração;valor justo, ajuste a valor presente;
+Moeda e Câmbio;variação cambial, moeda funcional, conversão, hiperinflação;
+Participações Societárias;consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio;
+Apresentação e Divulgação;balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos;
+Fundamentos;estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação;
+Setores Específicos;seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes;
+Pequenas e Médias Empresas;PME, pequena empresa, microentidade, NBC TG 1000;PME
+Setor Público;governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP);NBC TSP, NBC TASP
+Sustentabilidade;ESG, clima, IFRS S1/S2, carbono, relato integrado;NBC TDS
+Auditoria Independente;auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência;NBC TA
+Revisão;revisão de ITR e demonstrações (segurança limitada);NBC TR
+Asseguração;asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios;NBC TO
+Serviços Correlatos;procedimentos previamente acordados, compilação;NBC TSC
+Auditoria Interna;auditor interno;NBC TI
+Perícia Contábil;perícia judicial, laudo pericial, apuração de haveres;NBC TP, NBC PP
+Ética e Exercício Profissional;código de ética, independência, educação continuada, CNAI, qualidade de firmas;NBC PG, NBC PA
+Normas Internacionais;IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC;IFRS/IAS
+Contabilidade Eleitoral;partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral;NBC TPE

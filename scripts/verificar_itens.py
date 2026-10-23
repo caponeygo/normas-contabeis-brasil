@@ -14,25 +14,10 @@ pode devem deve ficam fica para como partir norma normas item itens exemplo exem
 qualquer cada todos todas seguinte seguintes desta deste dessa desse essas esses nesta neste onde ainda
 apenas parte partes forma modo caso casos ponto pontos inclusive conforme vigor""".split())
 # trechos com pouca sobreposição de palavras que foram lidos no texto oficial e estão corretos
-# (o vocabulário da indústria difere do da norma). (norma, itens) -> data da revisão
-REVISADOS = {
- ("NBC TG 01 (R4)", "9, 12"): "2026-10-23",
- ("NBC TG 02 (R3)", "21–23"): "2026-10-23",
- ("NBC TG 02 (R3)", "28"): "2026-10-23",
- ("NBC TG 06 (R3)", "9–11, B9–B31"): "2026-10-23",
- ("NBC TG 27 (R4)", "20A"): "2026-10-23",
- ("ITG 21", "—"): "2026-10-23",
- ("NBC TG 06 (R3)", "38"): "2026-10-23",
- ("NBC TG 06 (R3)", "5–8"): "2026-10-23",
- ("NBC TG 25 (R2)", "33–35"): "2026-10-23",
- ("NBC TG 29 (R2)", "26–29"): "2026-10-23",
- ("NBC TG 29 (R2)", "2"): "2026-10-23",
- ("NBC TG 47", "47"): "2026-10-23",
- ("NBC TG 48", "cap. 6"): "2026-10-23",      # títulos de seção: o PDF só traz o cabeçalho
- ("NBC TG 48", "5.5"): "2026-10-23",
- ("NBC TG 48", "4.1"): "2026-10-23",
- ("NBC TA 620", "—"): "2026-10-23",
-}
+# (dados/revisao_manual.csv: norma, itens, data da revisão)
+sys.path.insert(0, str(ROOT / "scripts"))
+from dados import ler  # noqa: E402
+REVISADOS = {(x["norma"], x["itens"]): x["data"] for x in ler("revisao_manual.csv")}
 ITEM_RX = r"(?m)^\s*{}\.?\s+\S"
 QUALQUER_ITEM = re.compile(r"(?m)^\s*(?:[A-Z]{1,2})?\d+[A-Z]?(?:\.\d+)*\.?\s+[A-ZÀ-Ý(“\"]")
 

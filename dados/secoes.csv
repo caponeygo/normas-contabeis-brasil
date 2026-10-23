@@ -1,0 +1,20 @@
+﻿secao;titulo;formato;serie;intro
+tg;NBC TG – Normas técnicas gerais;tg;NBC TG;
+itg;ITG / CTG / OTG – Interpretações e comunicados;itg;(prefixo do código);
+ta;NBC TA – Auditoria independente;ta;NBC TA;Normas convergidas com as ISA (IAASB/IFAC).
+pme;NBC TG – Pequenas e médias empresas e microentidades;simples;PME;
+especificas;Normas específicas (ITG 2000 e outras);simples;Específicas;
+tsp;NBC TSP – Setor público;simples;NBC TSP;Convergidas com as IPSAS (IPSASB).
+tds;NBC TDS – Sustentabilidade;simples;NBC TDS;Correlatas às IFRS S1 e S2 (ISSB) e aos CBPS 01 e 02.
+tr;NBC TR – Revisão;simples;NBC TR;
+to;NBC TO – Asseguração;simples;NBC TO;
+tsc;NBC TSC – Serviços correlatos;simples;NBC TSC;
+ti;NBC TI – Auditoria interna;simples;NBC TI;
+tp;NBC TP – Perícia;simples;NBC TP;
+pg;NBC PG – Profissionais gerais (ética);simples;NBC PG;
+pa;NBC PA – Auditor independente;simples;NBC PA;
+pp;NBC PP – Perito contábil;simples;NBC PP;
+tasp;NBC TASP – Auditoria do setor público;simples;NBC TASP;As NBC TA aplicadas à auditoria de informação contábil histórica no setor público (obrigatórias desde 1/1/2026).
+tpe;NBC TPE – Contabilidade eleitoral;simples;NBC TPE;
+ot-cfc;Orientações Técnicas do CFC;simples;OT CFC;Não vinculantes: apoiam o julgamento profissional sem alterar as NBC.
+ifrs;Normas internacionais – IFRS e IAS (IASB);ifrs;IFRS/IAS;Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <https://www.ifrs.org/issued-standards/list-of-standards/>. A coluna CPC / NBC TG indica a norma brasileira convergida.

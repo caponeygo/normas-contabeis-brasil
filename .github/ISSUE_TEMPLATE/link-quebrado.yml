@@ -1,0 +1,14 @@
+name: Link quebrado
+description: Um link oficial não abre ou leva à norma errada.
+labels: ["link"]
+body:
+  - type: input
+    id: norma
+    attributes: {label: Norma, placeholder: "ex.: NBC TG 27 (R4)"}
+    validations: {required: true}
+  - type: input
+    id: onde
+    attributes: {label: Onde está o link, placeholder: "ex.: areas/ativos.md ou Varejo/01-mercadorias-e-cmv.md"}
+  - type: input
+    id: correto
+    attributes: {label: Link correto (se souber)}

@@ -32,11 +32,31 @@ CAT_AREA = {
 def chave(c):                       # "NBC TG 27 (R4)" e "NBC TG 27" são a mesma norma
     return re.sub(r'\s*\(R\d+\)', '', c).strip()
 
+import sys, unicodedata
+sys.path.insert(0, 'scripts')
+from dados import ler
+SETORES = [s['nome'] for s in ler('setores.csv')]
+REPO = 'https://github.com/ygordesouzagaspar-eng/normas-contabeis-brasil/blob/main/'
+
+def slug(s):
+    s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
+    return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
+
+def arquivo_da_area(g):          # link da bolinha de área para o arquivo .md da área
+    if g.startswith('Auditoria · ') or g == 'ISA (IAASB)':
+        return REPO + 'areas/auditoria-independente.md'
+    if g == 'CPC (pronunciamentos)':
+        return REPO + 'README.md'
+    return REPO + f'areas/{slug(g)}.md'
+
 ents = {}
-def ent(eid, label, cat, kind, path='', url=None, grupo=None):
+def ent(eid, label, cat, kind, path='', url=None, grupo=None, setores=()):
     if eid not in ents:
         ents[eid] = {'id': eid, 'label': label, 'cat': cat, 'kind': kind, 'path': path, 'url': url,
-                     'grupo': grupo or eid, 'fn': []}
+                     'grupo': grupo or eid, 'fn': [], 'set': set()}
+        if kind == 'área':
+            ents[eid]['url'] = arquivo_da_area(label)
+    ents[eid]['set'] |= set(setores)
     return ents[eid]
 
 # --- áreas e normas: cada norma entra no grupo da sua área principal ---
@@ -55,18 +75,20 @@ for n in NORMAS:
     e = ent('n:' + chave(n['codigo']), n['codigo'], cat, 'norma',
             path=' · '.join(x for x in (n['titulo'], refs) if x) + f"<br><br>{n['resumo']}<br><br>Afeta: {n['afeta']}" + (f'<br>Temas: {temas}' if temas else '')
                  + (('<br><br><b>Setores:</b> ' + ' · '.join(sorted({x['setor'] + ': ' + x['topico'] for x in n.get('setores', [])}))) if n.get('setores') else ''),
-            url=n['url'], grupo='a:' + g)
+            url=n['url'], grupo='a:' + g, setores=(x['setor'] for x in n.get('setores', [])))
     ents['a:' + g]['fn'].append(n['codigo'])
 
 # --- CPC e ISA citados como equivalentes viram bolinhas próprias ---
 for n in NORMAS:
     for ref, cat, grp in ((n['cpc'], 'cpc', 'CPC (pronunciamentos)'), (n['internacional'], 'isa', 'ISA (IAASB)')):
-        if not ref or ('n:' + chave(ref)) in ents:
+        if not ref or (cat == 'isa' and not ref.startswith('ISA')):
             continue
-        if cat == 'isa' and not ref.startswith('ISA'):
+        if ('n:' + chave(ref)) in ents:                     # equivalente já criado: herda os setores
+            ents['n:' + chave(ref)]['set'] |= {x['setor'] for x in n.get('setores', [])}
             continue
         ent('a:' + grp, grp, cat, 'área')
-        ent('n:' + chave(ref), ref, cat, 'norma', path=f"Equivalente a {n['codigo']} · " + ents['n:' + chave(n['codigo'])]['path'], grupo='a:' + grp)
+        ent('n:' + chave(ref), ref, cat, 'norma', path=f"Equivalente a {n['codigo']} · " + ents['n:' + chave(n['codigo'])]['path'],
+            grupo='a:' + grp, setores=(x['setor'] for x in n.get('setores', [])))
         ents['a:' + grp]['fn'].append(ref)
 
 # --- ligações ---
@@ -133,7 +155,8 @@ for e in sorted(ents.values(), key=lambda e: pos[e['id']]):
         'id': e['id'], 'label': e['label'], 'cat': e['cat'], 'path': e['path'], 'url': e['url'], 'kind': e['kind'],
         'fn': e['fn'], 'grau': gr, 'ang': round(-math.pi / 2 + 2 * math.pi * pos[e['id']] / total, 5),
         'r': round((6 + math.sqrt(gr) * 0.9) if area else (2.8 + math.sqrt(grau.get(e['id'], 0)) * 0.85), 2),
-        'rot': int(area),
+        'rot': int(area), 'grupo': e['grupo'], 'set': sorted(e['set']),
+        'rotulo': 'Abrir o arquivo da área' if area else '',
     })
 # a área "contém" suas normas: liga cada norma ao seu grupo (curva curta, junto ao anel)
 for e in ents.values():
@@ -143,6 +166,7 @@ dados = {
     'R': R, 'T': round(total, 2), 'ents': saida,
     'edges': [{'a': a, 'b': b, 'w': w, 'c': c} for (a, b), (w, c) in pesos.items()],
     'cats': [{'key': k, 'name': n, 'color': c} for k, n, c in CATS],
+    'setores': SETORES,
 }
 html = Path('graphify-out/template.html').read_text(encoding='utf-8').replace('__DATA__', json.dumps(dados, ensure_ascii=False))
 Path('graphify-out/graph.html').write_text(html, encoding='utf-8')

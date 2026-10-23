@@ -1,0 +1,47 @@
+# Regenera o índice quando as planilhas (dados/) ou os geradores mudam:
+# README.md, areas/, pastas por setor, normas.json, grafo, mapa HTML e as cópias das instruções para IA.
+# O commit é feito pelo github-actions[bot]; commits feitos com o GITHUB_TOKEN não disparam outros workflows (sem loop).
+name: Gerar índice
+
+on:
+  push:
+    branches: [main]
+    paths: ["dados/**", "scripts/**", "AGENTS.md", "graphify-out/build_html.py", "graphify-out/template.html", "graphify-out/rebuild_graph.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-indice
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar graphify (versão fixa)
+        run: pip install --quiet graphifyy==0.9.64
+
+      - name: Gerar índice, áreas, setores, grafo e mapa
+        run: python graphify-out/rebuild_graph.py
+
+      - name: Testar a busca
+        run: python scripts/testar_busca.py
+
+      - name: Salvar os arquivos gerados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "Regenera o índice a partir de dados/ (automático)"
+            git push
+          fi

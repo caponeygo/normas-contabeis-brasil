@@ -12,7 +12,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
    | Setor | Pasta |
    |---|---|
    | Indústria (custo de produção, estoques, máquinas, incentivos de ICMS) | [`Industrial/`](Industrial/README.md) |
-   | Comércio e varejo (mercadorias, marketplace, fidelidade, cartões, lojas) | [`Comercio/`](Comercio/README.md) |
+   | Varejo (mercadorias, marketplace, fidelidade, cartões, lojas) | [`Varejo/`](Varejo/README.md) |
    | Serviços (contratos, SaaS, comissões, folha, pequenas empresas) | [`Servicos/`](Servicos/README.md) |
    | Agronegócio (ativo biológico, colheita, plantas portadoras, crédito rural) | [`Agronegocio/`](Agronegocio/README.md) |
    | Construção e incorporação (POC, permuta, obras, garantia) | [`Construcao/`](Construcao/README.md) |
@@ -52,7 +52,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 ### Exemplos
 - "Como depreciar uma máquina?" → [`Industrial/02-maquinas-e-fabrica.md`](Industrial/02-maquinas-e-fabrica.md) → NBC TG 27 (R4) ≡ CPC 27 ≡ IAS 16.
 - "A ociosidade da fábrica entra no custo?" → [`Industrial/01-estoques-e-custo-de-producao.md`](Industrial/01-estoques-e-custo-de-producao.md) → NBC TG 16, item 13 (não: vai para despesa).
-- "No marketplace a receita é o valor total?" → [`Comercio/02-vendas-e-receita.md`](Comercio/02-vendas-e-receita.md) → NBC TG 47, itens B34–B38.
+- "No marketplace a receita é o valor total?" → [`Varejo/02-vendas-e-receita.md`](Varejo/02-vendas-e-receita.md) → NBC TG 47, itens B34–B38.
 - "O que muda com a IFRS 18?" → **Apresentação e Divulgação** → NBC TG 51 ≡ CPC 51 (vigente a partir de 2027).
 - "IBS e CBS em 2026?" → [`areas/reforma-tributaria.md`](areas/reforma-tributaria.md) → OT CFC 01/2026, itens 25–29.
 - "Prefeitura, como registrar uma escola?" → **Setor Público** → NBC TSP 37.
@@ -64,7 +64,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 |---|---|
 | [`areas/README.md`](areas/README.md) | **Comece aqui.** Áreas, setores, busca por tema (com sinônimos) e por demonstração |
 | `areas/<area>.md` | Normas de uma área: resumo, o que afeta, CPC/IFRS equivalente e link |
-| Pastas por setor (`Industrial/`, `Comercio/`…) | Trechos das normas por setor, com itens conferidos no texto oficial |
+| Pastas por setor (`Industrial/`, `Varejo/`…) | Trechos das normas por setor, com itens conferidos no texto oficial |
 | [`GLOSSARIO.md`](GLOSSARIO.md) | Siglas e termos (CPV, CIF, VRL, MEP, ORA, PCLD, UGC, MPM, IBS/CBS…) |
 | [`lancamentos/`](lancamentos/README.md) | Exemplos de lançamentos contábeis por tema |
 | [`normas.json`](normas.json) | Dados em JSON: `codigo`, `titulo`, `serie`, `situacao`, `areas`, `temas`, `resumo`, `afeta`, `cpc`, `url_cpc`, `internacional`, `url` e `setores` (trechos por setor: setor, tópico, itens, ponto) |

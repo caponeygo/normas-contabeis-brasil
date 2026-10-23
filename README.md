@@ -35,7 +35,7 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 
 Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://ygordesouzagaspar-eng.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
 
-**Por setor:** [Indústria](Industrial/README.md) · [Comércio e Varejo](Comercio/README.md) · [Serviços](Servicos/README.md) · [Agronegócio](Agronegocio/README.md) · [Construção e Incorporação](Construcao/README.md) · [Terceiro Setor](TerceiroSetor/README.md) · [Financeiro](Financeiro/README.md). **Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · [Reforma tributária](areas/reforma-tributaria.md).
+**Por setor:** [Indústria](Industrial/README.md) · [Varejo](Varejo/README.md) · [Serviços](Servicos/README.md) · [Agronegócio](Agronegocio/README.md) · [Construção e Incorporação](Construcao/README.md) · [Terceiro Setor](TerceiroSetor/README.md) · [Financeiro](Financeiro/README.md). **Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · [Reforma tributária](areas/reforma-tributaria.md).
 
 | Área | Use para | Normas |
 |---|---|---|
@@ -444,7 +444,7 @@ Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <htt
 As **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). Textos das ISA: <https://www.iaasb.org/standards-pronouncements>.
 
 ## Contribuir
-Encontrou link quebrado, norma nova ou revisão? Abra uma *issue* ou um *pull request*.
+Encontrou link quebrado, norma nova ou revisão? Veja o [CONTRIBUTING.md](CONTRIBUTING.md): abra uma *issue* ou edite as planilhas em [dados/](dados/README.md).
 Última conferência do índice: 2026-10-23.
 
 ## Licença

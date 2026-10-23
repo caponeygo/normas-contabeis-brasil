@@ -11,6 +11,7 @@
   #side { width:310px; background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; flex:none; }
   #side h1 { font-size:16px; margin:0; padding:16px 16px 4px; }
   .sub { color:var(--dim); font-size:12px; padding:0 16px 10px; line-height:1.45; }
+  #setor { margin:0 16px 10px; padding:8px 10px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); font:inherit; font-size:13px; }
   #search { margin:0 16px 10px; padding:9px 12px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); }
   #legenda { padding:0 12px 6px; }
   .cat { display:flex; align-items:center; gap:10px; padding:7px 8px; border-radius:8px; cursor:pointer; font-size:13px; }
@@ -46,7 +47,7 @@
   .node.on text { fill:#fff; font-weight:700; }
   .node.off { opacity:.07; }
   #dica { position:absolute; left:14px; bottom:12px; color:var(--dim); font-size:11px; pointer-events:none; }
-  @media (max-width:760px){ body{flex-direction:column} #side{width:100%;max-height:46vh;overflow:auto} }
+  @media (max-width:760px){ body{flex-direction:column} #side{width:100%;max-height:46vh;overflow:auto} .sub{display:none} #info{min-height:0} }
 </style>
 </head>
 <body>
@@ -54,6 +55,7 @@
   <h1>Normas Contábeis · Mapa por área</h1>
   <div class="sub">Cada bolinha é uma norma (as maiores, com contorno, são as áreas), todas num círculo só, agrupadas por área. As cores separam as séries: NBC TG/CPC, setor público, auditoria, IFRS etc. Passe o mouse para ver as ligações, clique para fixar, arraste uma bolinha para puxá-la pelo círculo e use a roda do mouse para o zoom: quanto mais perto, mais nomes aparecem.</div>
   <input id="search" placeholder="Buscar norma, tema ou sinônimo (ex.: imobilizado, leasing, ISA 700)...">
+  <select id="setor" aria-label="Filtrar por setor"><option value="">Todos os setores</option></select>
   <div id="legenda"></div>
   <label class="opt"><input type="checkbox" id="comuns"> Mostrar ligações por tema (normas que tratam do mesmo assunto)</label>
   <button id="reset">Mostrar tudo</button>
@@ -61,7 +63,7 @@
 </div>
 <div id="stage">
   <svg id="svg"></svg>
-  <div id="dica">roda do mouse: zoom · arrastar o fundo: mover</div>
+  <div id="dica">roda do mouse ou pinça com dois dedos: zoom · arrastar o fundo: mover</div>
 </div>
 <script>
 const D = __DATA__;
@@ -151,7 +153,10 @@ function adaptar() {
 }
 
 // ---------- destaque ----------
-let fixo = null, sobre = null, catOculta = new Set(), busca = '';
+let fixo = null, sobre = null, catOculta = new Set(), busca = '', setor = '';
+// área fica visível no filtro de setor se alguma norma dela pertence ao setor
+const grupoTem = new Set();
+D.ents.forEach(e => (e.set || []).forEach(s => grupoTem.add(e.grupo + '|' + s)));
 const info = document.getElementById('info');
 
 function aplicar() {
@@ -159,7 +164,8 @@ function aplicar() {
   const vz = foco !== null ? viz[foco] : null;
   nodeEls.forEach((el, i) => {
     const e = D.ents[i];
-    const off = catOculta.has(e.cat) || (busca && !e.label.toLowerCase().includes(busca) && !(e.path || '').toLowerCase().includes(busca));
+    const foraSetor = setor && (e.kind === 'área' ? !grupoTem.has(e.id + '|' + setor) : !(e.set || []).includes(setor));
+    const off = catOculta.has(e.cat) || foraSetor || (busca && !e.label.toLowerCase().includes(busca) && !(e.path || '').toLowerCase().includes(busca));
     el.classList.toggle('off', !!off);
     el.classList.toggle('on', foco === i);
     el.classList.toggle('vz', foco !== null && foco !== i && vz.has(i));
@@ -181,7 +187,7 @@ function mostrar(i) {
   const lista = lig.slice(0, 16).map(x => x.label).join(', ') + (lig.length > 16 ? ` … +${lig.length - 16}` : '');
   info.innerHTML = `<b>${e.label}</b><span class="tag" style="background:${cor[e.cat]}">${e.kind || nomeCat[e.cat]}</span>`
     + (e.path ? `<br>${e.path}` : '')
-    + (e.url ? `<br><a href="${e.url}" target="_blank" rel="noopener" style="color:#a855f7">Abrir texto oficial ↗</a>` : '')
+    + (e.url ? `<br><a href="${e.url}" target="_blank" rel="noopener" style="color:#a855f7">${e.rotulo || 'Abrir texto oficial'} ↗</a>` : '')
     + `<br>${lig.length} ${lig.length === 1 ? 'ligação' : 'ligações'}: <span class="fn">${lista || '—'}</span>`
     + (e.fn.length ? `<br><br>Normas (${e.fn.length}): <span class="fn">${e.fn.join(', ')}</span>` : '')
     + (fixo === i ? '<br><br>(fixado — clique no fundo para soltar)' : '');
@@ -199,9 +205,12 @@ D.cats.forEach(c => {
   leg.appendChild(el);
 });
 document.getElementById('search').oninput = e => { busca = e.target.value.trim().toLowerCase(); aplicar(); };
+const selSetor = document.getElementById('setor');
+(D.setores || []).forEach(s => { const o = document.createElement('option'); o.value = o.textContent = s; selSetor.appendChild(o); });
+selSetor.onchange = e => { setor = e.target.value; aplicar(); };
 document.getElementById('comuns').onchange = e => { document.body.classList.toggle('comuns', e.target.checked); aplicar(); };
 document.getElementById('reset').onclick = () => {
-  fixo = null; sobre = null; busca = ''; catOculta.clear(); document.getElementById('search').value = '';
+  fixo = null; sobre = null; busca = ''; setor = ''; catOculta.clear(); document.getElementById('search').value = ''; selSetor.value = '';
   document.querySelectorAll('.cat').forEach(x => x.classList.remove('off'));
   const vb = svg.viewBox.baseVal; vb.x = vb.y = -MEIO; vb.width = vb.height = 2 * MEIO;
   adaptar(); aplicar();
@@ -236,7 +245,11 @@ nodeEls.forEach(el => {
   const soltar = () => {
     if (!drag || drag.i !== el._i) return;
     const d = drag; drag = null;
-    if (!d.moveu) { fixo = fixo === d.i ? null : d.i; aplicar(); return; }
+    if (!d.moveu) {
+      fixo = fixo === d.i ? null : d.i; aplicar();
+      if (fixo !== null && innerWidth < 760) info.scrollIntoView({ block: 'nearest', behavior: 'smooth' });   // celular: mostra o painel
+      return;
+    }
     const de = ang.slice(), t0 = performance.now();
     const passo = t => {                                                    // volta ao lugar com suavidade
       const k = Math.min(1, (t - t0) / 520), e = 1 - Math.pow(1 - k, 3);
@@ -250,7 +263,26 @@ nodeEls.forEach(el => {
   el.addEventListener('pointercancel', soltar);
 });
 
+// pinça com dois dedos (celular): acompanha os toques na fase de captura, antes das bolinhas
+const toques = new Map();
+let pinca = 0;
+const distancia = () => { const [a, b] = [...toques.values()]; return Math.hypot(a.x - b.x, a.y - b.y); };
+const meio = () => { const [a, b] = [...toques.values()]; return { clientX: (a.x + b.x) / 2, clientY: (a.y + b.y) / 2 }; };
 svg.addEventListener('pointerdown', ev => {
+  toques.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
+  if (toques.size === 2) { pinca = distancia(); pan = null; drag = null; }
+}, true);
+svg.addEventListener('pointermove', ev => {
+  if (!toques.has(ev.pointerId)) return;
+  toques.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
+  if (toques.size === 2 && pinca) { const d = distancia(); if (d > 0) { zoomEm(meio(), pinca / d); pinca = d; } }
+}, true);
+const fimToque = ev => { toques.delete(ev.pointerId); if (toques.size < 2) pinca = 0; };
+svg.addEventListener('pointerup', fimToque, true);
+svg.addEventListener('pointercancel', fimToque, true);
+
+svg.addEventListener('pointerdown', ev => {
+  if (toques.size > 1) return;
   pan = { x: ev.clientX, y: ev.clientY, moveu: false };
   svg.setPointerCapture(ev.pointerId);
   svg.classList.add('pan');
@@ -268,16 +300,15 @@ svg.addEventListener('pointerup', () => {
   if (pan && !pan.moveu) { fixo = null; aplicar(); }
   pan = null; svg.classList.remove('pan');
 });
-svg.addEventListener('wheel', ev => {
-  ev.preventDefault();
+function zoomEm(ev, f) {          // f > 1 afasta, f < 1 aproxima, mantendo o ponto sob o cursor/dedos
   const vb = svg.viewBox.baseVal;
-  const f = ev.deltaY > 0 ? 1.14 : 1 / 1.14;
   const nw = Math.max(160, Math.min(2 * MEIO * 1.5, vb.width * f)), nk = nw / vb.width;
   const p = ponto(ev);
   vb.x = p.x - (p.x - vb.x) * nk; vb.y = p.y - (p.y - vb.y) * nk;
   vb.width = nw; vb.height = nw;
   adaptar();
-}, { passive: false });
+}
+svg.addEventListener('wheel', ev => { ev.preventDefault(); zoomEm(ev, ev.deltaY > 0 ? 1.14 : 1 / 1.14); }, { passive: false });
 window.addEventListener('resize', adaptar);
 
 atualizarTudo(); adaptar(); aplicar();

@@ -1,4 +1,4 @@
-# Comércio e Varejo: Vendas, marketplace e fidelidade
+# Varejo: Vendas, marketplace e fidelidade
 
 **Use para:** momento da venda, receita líquida, devoluções e trocas, marketplace (principal x agente), programas de pontos, vale-presente, garantia estendida, venda a prazo.
 
@@ -32,4 +32,4 @@ As regras de receita da NBC TG 47 que mais aparecem no varejo: quem é o vendedo
 - [ ] Receita diferida de pontos e vales-presente, com estimativa de breakage documentada.
 - [ ] Separar juros de vendas parceladas sem juros aparentes.
 
-[← Comércio e Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+[← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)

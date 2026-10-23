@@ -1,4 +1,4 @@
-# Comércio e Varejo: Cartões, recebíveis e antecipação
+# Varejo: Cartões, recebíveis e antecipação
 
 **Use para:** contas a receber de cartão, taxa de desconto (MDR), antecipação de recebíveis, FIDC, perda esperada, PCLD.
 
@@ -27,4 +27,4 @@ O varejo vende muito a prazo no cartão e costuma antecipar os recebíveis. A qu
 - [ ] Analisar contratos de antecipação e de cessão a FIDC para decidir baixa x empréstimo.
 - [ ] Matriz de perdas esperadas atualizada com histórico de inadimplência e chargeback.
 
-[← Comércio e Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+[← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
