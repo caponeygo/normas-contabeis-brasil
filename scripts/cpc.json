@@ -1,0 +1,530 @@
+[
+ {
+  "codigo": "CPC 00",
+  "titulo": "Estrutura Conceitual para Relatório Financeiro",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=80",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 01",
+  "titulo": "Redução ao Valor Recuperável de Ativos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=2",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 02",
+  "titulo": "Efeitos das mudanças nas taxas de câmbio e conversão de demonstrações contábeis",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 03",
+  "titulo": "Demonstração dos Fluxos de Caixa",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=34",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 04",
+  "titulo": "Ativo Intangível",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 05",
+  "titulo": "Divulgação sobre Partes Relacionadas",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 06",
+  "titulo": "Arrendamentos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 07",
+  "titulo": "Subvenção e Assistência Governamentais",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 08",
+  "titulo": "Custos de Transação e Prêmios na Emissão de Títulos e Valores Mobiliários (REVOGADO)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=39",
+  "revogado": true
+ },
+ {
+  "codigo": "CPC 09",
+  "titulo": "Demonstração do Valor Adicionado (DVA)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=40",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 10",
+  "titulo": "Pagamento Baseado em Ações",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=41",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 11",
+  "titulo": "Contratos de Seguro",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=42",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 12",
+  "titulo": "Ajuste a Valor Presente",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 13",
+  "titulo": "Adoção Inicial da Lei nº. 11.638/07 e da Medida Provisória nº. 449/08 (REVOGADO)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=44",
+  "revogado": true
+ },
+ {
+  "codigo": "CPC 14",
+  "titulo": "Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação (Fase I) - Transformado em OCPC 03",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=45",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 15",
+  "titulo": "Combinação de Negócios",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=46",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 16",
+  "titulo": "Estoques",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 17",
+  "titulo": "Contratos de Construção (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=48",
+  "revogado": true
+ },
+ {
+  "codigo": "CPC 18",
+  "titulo": "Investimento em Coligada e em Empreendimento Controlado em Conjunto",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 19",
+  "titulo": "Negócios em Conjunto",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=50",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 20",
+  "titulo": "Custos de Empréstimos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 21",
+  "titulo": "Demonstração Intermediária",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=52",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 22",
+  "titulo": "Informações por Segmento",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 23",
+  "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=54",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 24",
+  "titulo": "Evento Subsequente",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=55",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 25",
+  "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 26",
+  "titulo": "Apresentação das Demonstrações Contábeis",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 27",
+  "titulo": "Ativo Imobilizado",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 28",
+  "titulo": "Propriedade para Investimento",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=59",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 29",
+  "titulo": "Ativo Biológico e Produto Agrícola",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 30",
+  "titulo": "Receitas (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=61",
+  "revogado": true
+ },
+ {
+  "codigo": "CPC 31",
+  "titulo": "Ativo Não Circulante Mantido para Venda e Operação Descontinuada",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=62",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 32",
+  "titulo": "Tributos sobre o Lucro",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 33",
+  "titulo": "Benefícios a Empregados",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=64",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 34",
+  "titulo": "Exploração e Avaliação de Recursos Minerais (Não editado)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=65",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 35",
+  "titulo": "Demonstrações Separadas",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 36",
+  "titulo": "Demonstrações Consolidadas",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 37",
+  "titulo": "Adoção Inicial das Normas Internacionais de Contabilidade",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=68",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 38",
+  "titulo": "Instrumentos Financeiros: Reconhecimento e Mensuração (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=69",
+  "revogado": true
+ },
+ {
+  "codigo": "CPC 39",
+  "titulo": "Instrumentos Financeiros: Apresentação",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=70",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 40",
+  "titulo": "Instrumentos Financeiros: Evidenciação",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 41",
+  "titulo": "Resultado por Ação",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=72",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 42",
+  "titulo": "Contabilidade em Economia Hiperinflacionária",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=73",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 43",
+  "titulo": "Adoção Inicial dos Pronunciamentos Técnicos CPCs 15 a 41",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=74",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 44",
+  "titulo": "Demonstrações Combinadas",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=76",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 45",
+  "titulo": "Divulgação de Participações em outras Entidades",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 46",
+  "titulo": "Mensuração do Valor Justo",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 47",
+  "titulo": "Receita de Contrato com Cliente",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 48",
+  "titulo": "Instrumentos Financeiros",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 49",
+  "titulo": "Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 50",
+  "titulo": "Contratos de Seguro",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 51",
+  "titulo": "Apresentação e Divulgação nas Demonstrações Contábeis",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC 52",
+  "titulo": "Divulgações Para Controladas Sem Obrigações De Prestação Pública De Contas",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=164",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC LIQUIDAÇÃO",
+  "titulo": "Entidades em Liquidação",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=125",
+  "revogado": false
+ },
+ {
+  "codigo": "CPC PME",
+  "titulo": "Contabilidade para Pequenas e Médias Empresas com Glossário de Termos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=79",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 01",
+  "titulo": "Contratos de Concessão",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 02",
+  "titulo": "Contrato de Construção do Setor Imobiliário (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=11",
+  "revogado": true
+ },
+ {
+  "codigo": "ICPC 03",
+  "titulo": "Aspectos Complementares das Operações de Arrendamento Mercantil (revogada a partir de 1º/01/2019)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=12",
+  "revogado": true
+ },
+ {
+  "codigo": "ICPC 04",
+  "titulo": "Alcance do Pronunciamento Técnico CPC 10 - Pagamento Baseado em Ações (revogada a partir de dezembro de 2010)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=13",
+  "revogado": true
+ },
+ {
+  "codigo": "ICPC 05",
+  "titulo": "Pronunciamento Técnico CPC 10 - Pagamento Baseado em Ações - Transações de Ações do Grupo e em Tesouraria (revogada a partir de dezembro de 2010)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=14",
+  "revogado": true
+ },
+ {
+  "codigo": "ICPC 06",
+  "titulo": "Hedge de Investimento Líquido em Operação no Exterior (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=15",
+  "revogado": true
+ },
+ {
+  "codigo": "ICPC 07",
+  "titulo": "Distribuição de Lucros in Natura",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 08",
+  "titulo": "Contabilização da Proposta de Pagamento de Dividendos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=17",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 09",
+  "titulo": "Demonstrações Contábeis Individuais, Demonstrações Separadas, Demonstrações Consolidadas e Aplicação do Método da Equivalência Patrimonial.",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=18",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 10",
+  "titulo": "Interpretação sobre a Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento dos Pronunciamentos Técnicos CPCs 27, 28, 37 e 43",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=19",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 11",
+  "titulo": "Recebimento em Transferência de Ativos de Clientes (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=20",
+  "revogado": true
+ },
+ {
+  "codigo": "ICPC 12",
+  "titulo": "Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 13",
+  "titulo": "Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 14",
+  "titulo": "Cotas de Cooperados em Entidades Cooperativas e Instrumentos Similares",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 15",
+  "titulo": "Passivo Decorrente de Participação em um Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 16",
+  "titulo": "Extinção de Passivos Financeiros com Instrumentos Patrimoniais",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 17",
+  "titulo": "Contratos de Concessão: Evidenciação",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 18",
+  "titulo": "Custos de Remoção de Estéril (Stripping) de Mina de Superfície na Fase de Produção",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 19",
+  "titulo": "Tributos",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 20",
+  "titulo": "Limite de Ativo de Benefício Definido, Requisitos de Custeio (Funding) Mínimo e sua Interação",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 21",
+  "titulo": "Transação em Moeda Estrangeira e Adiantamento",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 22",
+  "titulo": "Incerteza sobre Tratamento de Tributos sobre o Lucro",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114",
+  "revogado": false
+ },
+ {
+  "codigo": "ICPC 23",
+  "titulo": "Aplicação da Abordagem de Atualização Monetária Prevista no CPC 42",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=115",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 01",
+  "titulo": "Entidades de Incorporação Imobiliária",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=28",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 02",
+  "titulo": "Esclarecimentos sobre as Demonstrações Contábeis de 2008 (REVOGADO)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=29",
+  "revogado": true
+ },
+ {
+  "codigo": "OCPC 03",
+  "titulo": "Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação (CPC 14 R1) (revogado a partir de 1º/01/2018)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=30",
+  "revogado": true
+ },
+ {
+  "codigo": "OCPC 04",
+  "titulo": "Aplicação da Interpretação Técnica ICPC 02 às Entidades de Incorporação Imobiliária Brasileiras",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=31",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 05",
+  "titulo": "Contratos de Concessão",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=32",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 06",
+  "titulo": "Apresentação de Informações Financeiras Pro Forma",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=33",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 07",
+  "titulo": "Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=95",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 08",
+  "titulo": "Reconhecimento de Determinados Ativos e Passivos nos Relatórios Contábil-Financeiros de Propósito Geral das Distribuidoras de Energia Elétrica emitidos de acordo com as Normas Brasileiras e Internacionais de Contabilidade",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=99",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 09",
+  "titulo": "Relato Integrado",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=122",
+  "revogado": false
+ },
+ {
+  "codigo": "OCPC 10",
+  "titulo": "Créditos de Carbono (tCO2e), Permissões de emissão (allowances) e Crédito de Descarbonização (CBIO)",
+  "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=161",
+  "revogado": false
+ }
+]

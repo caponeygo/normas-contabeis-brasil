@@ -238,6 +238,8 @@
    "internacional": null,
    "resumo": "Base de tudo: objetivo do relatório financeiro, características qualitativas (relevância, representação fidedigna), definições de ativo, passivo, PL, receita e despesa, critérios de reconhecimento, desreconhecimento e bases de mensuração. Não é norma de procedimento: orienta o normatizador e preenche lacunas.",
    "afeta": "Todas (conceitos)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=80",
+   "situacao": "vigente",
    "temas": [
     "Estrutura conceitual"
    ],
@@ -255,6 +257,8 @@
    "internacional": "IAS 36",
    "resumo": "Teste de impairment: o ativo não pode ficar no balanço acima do valor recuperável (maior entre valor justo menos despesa de venda e valor em uso). Define UGC, indicadores de perda, teste anual obrigatório de ágio e intangível de vida indefinida, e reversão (proibida para ágio).",
    "afeta": "BP (reduz ativo), DRE (perda), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=2",
+   "situacao": "vigente",
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -285,6 +289,8 @@
    "internacional": "IAS 21",
    "resumo": "Moeda funcional e conversão: registra transações em moeda estrangeira à taxa da data, atualiza itens monetários no fechamento (variação cambial no resultado) e converte demonstrações de investidas no exterior para a moeda de apresentação (diferença vai para ORA).",
    "afeta": "BP, DRE (variação cambial), DRA/ORA, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9",
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -296,7 +302,7 @@
      "topico": "Commodities, câmbio e hedge",
      "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "21–23",
-     "ponto": "Insumo ou máquina importada entra pela taxa de câmbio da data da transação (normalmente o desembaraço/transferência do controle)."
+     "ponto": "Insumo ou máquina importada entra pela taxa de câmbio à vista da data da transação (quando a compra se qualifica para reconhecimento, normalmente na transferência do controle). Por praticidade, aceita-se taxa média semanal ou mensal, salvo se o câmbio oscilar muito (item 22)."
     },
     {
      "topico": "Commodities, câmbio e hedge",
@@ -315,6 +321,8 @@
    "internacional": "IAS 7",
    "resumo": "Regras da DFC: classifica fluxos em operacionais, de investimento e de financiamento, método direto ou indireto, conceito de caixa e equivalentes e divulgação de transações sem caixa.",
    "afeta": "DFC",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=34",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Fluxo de caixa (DFC)"
@@ -333,6 +341,8 @@
    "internacional": "IAS 38",
    "resumo": "Ativo intangível (software, marcas, licenças, desenvolvimento): critérios para reconhecer (pesquisa é sempre despesa; desenvolvimento só com requisitos), custo inicial, amortização pela vida útil, vida indefinida sem amortização e com teste anual. Ágio de combinação fica na NBC TG 15.",
    "afeta": "BP, DRE (amortização), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35",
+   "situacao": "vigente",
    "temas": [
     "Intangível"
    ],
@@ -387,6 +397,8 @@
    "internacional": "IAS 24",
    "resumo": "Não mexe em números: exige divulgar quem são as partes relacionadas (controladoras, controladas, pessoal-chave), as transações e saldos com elas e a remuneração da administração.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -404,6 +416,8 @@
    "internacional": "IFRS 16",
    "resumo": "Arrendamentos (IFRS 16): o arrendatário reconhece quase todo contrato no balanço como ativo de direito de uso e passivo de arrendamento (exceções: curto prazo e baixo valor). Na DRE, o aluguel vira depreciação + juros; na DFC, o pagamento vai para financiamento. Arrendador mantém classificação financeiro/operacional.",
    "afeta": "BP, DRE, DFC, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37",
+   "situacao": "vigente",
    "temas": [
     "Arrendamentos"
    ],
@@ -414,7 +428,7 @@
     {
      "topico": "Máquinas, fábrica e imobilizado",
      "arquivo": "Industrial/02-maquinas-e-fabrica.md",
-     "itens": "9–11",
+     "itens": "9–11, B9–B31",
      "ponto": "Verificar arrendamento embutido em contratos de fornecimento ou serviço com ativo dedicado (ex.: tanque, gerador ou equipamento exclusivo instalado pelo fornecedor). Empilhadeiras, galpões e máquinas alugadas viram direito de uso + passivo."
     },
     {
@@ -434,6 +448,8 @@
    "internacional": "IAS 20",
    "resumo": "Subvenção governamental (incentivos fiscais, subsídios): reconhecida no resultado ao longo do período em que os custos compensados são incorridos, apresentada como receita ou redução de despesa. No Brasil, interage com a reserva de incentivos fiscais (Lei 6.404 art. 195-A).",
    "afeta": "DRE, DMPL (reserva), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38",
+   "situacao": "vigente",
    "temas": [
     "Subvenção governamental"
    ],
@@ -465,11 +481,13 @@
    "codigo": "NBC TG 09 (R1)",
    "titulo": "Demonstração do Valor Adicionado (DVA)",
    "serie": "NBC TG",
-   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBTG09(R1)&arquivo=NBCTG09(R1).doc",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc",
    "cpc": "CPC 09 (R1)",
    "internacional": null,
    "resumo": "Norma brasileira sem equivalente IFRS: modelo e conteúdo da DVA (riqueza gerada e sua distribuição entre pessoal, governo, financiadores e acionistas). Obrigatória para companhias abertas.",
    "afeta": "DVA",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=40",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Valor adicionado (DVA)"
@@ -495,6 +513,8 @@
    "internacional": "IFRS 2",
    "resumo": "Pagamento baseado em ações (stock options, ações restritas): mensura pelo valor justo na data da outorga e reconhece a despesa ao longo do período de aquisição do direito; liquidação em ações vai para PL, em caixa vai para passivo.",
    "afeta": "DRE (despesa), BP/DMPL, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=41",
+   "situacao": "vigente",
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -512,6 +532,8 @@
    "internacional": null,
    "resumo": "Norma brasileira: ajuste a valor presente de ativos e passivos de longo prazo (e de curto prazo relevantes), com a taxa que reflete o valor do dinheiro no tempo e os riscos; a reversão do desconto vai para receita/despesa financeira.",
    "afeta": "BP, DRE (financeiro)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43",
+   "situacao": "vigente",
    "temas": [
     "Ajuste a valor presente"
    ],
@@ -536,6 +558,8 @@
    "internacional": "IFRS 3",
    "resumo": "Combinação de negócios (aquisição de controle): método de aquisição, ativos e passivos do adquirido a valor justo, apuração do ágio (goodwill) ou da compra vantajosa, participação de não controladores e contraprestação contingente.",
    "afeta": "BP (ágio, mais-valias), DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=46",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -553,6 +577,8 @@
    "internacional": "IAS 2",
    "resumo": "Estoques: mensurados pelo menor entre custo e valor realizável líquido; o que entra no custo (compra, conversão, gastos gerais fixos pela capacidade normal), métodos permitidos (PEPS, custo médio; UEPS proibido) e baixa para CMV.",
    "afeta": "BP, DRE (CMV), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47",
+   "situacao": "vigente",
    "temas": [
     "Estoques"
    ],
@@ -570,7 +596,7 @@
      "topico": "Estoques e custo de produção",
      "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "10–11",
-     "ponto": "Custo de aquisição de insumos: preço + frete, seguro e manuseio na compra + impostos NÃO recuperáveis, menos descontos e abatimentos. ICMS, IPI, PIS/COFINS com direito a crédito ficam fora do custo (vão para tributos a recuperar)."
+     "ponto": "Custo de aquisição de insumos: preço + impostos de importação e outros tributos, exceto os recuperáveis perante o fisco + frete, seguro e manuseio na compra, menos descontos e abatimentos. ICMS, IPI, PIS/COFINS com direito a crédito ficam fora do custo (vão para tributos a recuperar)."
     },
     {
      "topico": "Estoques e custo de produção",
@@ -655,6 +681,8 @@
    "internacional": "IAS 28",
    "resumo": "Coligadas e empreendimentos controlados em conjunto: aplica o método de equivalência patrimonial (MEP), incluindo ágio, eliminação de lucros não realizados e perda por impairment do investimento.",
    "afeta": "BP (investimento), DRE (equivalência), DRA",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -672,6 +700,8 @@
    "internacional": "IFRS 11",
    "resumo": "Negócios em conjunto: classifica em operação em conjunto (registra sua parte de ativos, passivos, receitas e despesas) ou empreendimento controlado em conjunto/joint venture (equivalência patrimonial).",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=50",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -689,6 +719,8 @@
    "internacional": "IAS 23",
    "resumo": "Juros de empréstimos para construir ou produzir ativo qualificável (que leva tempo para ficar pronto) são capitalizados no custo do ativo, não lançados na despesa.",
    "afeta": "BP (ativo), DRE (menos despesa financeira)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51",
+   "situacao": "vigente",
    "temas": [
     "Custos de empréstimos"
    ],
@@ -719,6 +751,8 @@
    "internacional": "IAS 34",
    "resumo": "Demonstrações intermediárias (ITR, semestrais): conteúdo mínimo, notas condensadas, períodos comparativos e mesmas políticas contábeis do anual.",
    "afeta": "Todas (versão condensada)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=52",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -736,6 +770,8 @@
    "internacional": "IFRS 8",
    "resumo": "Informação por segmento operacional (como a administração gere o negócio): receitas, resultado e ativos por segmento e conciliação com o total. Só para companhias abertas.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -760,6 +796,8 @@
    "internacional": "IAS 8",
    "resumo": "Políticas contábeis, mudança de estimativa e retificação de erro: mudança de política e erro são retrospectivos (reapresenta comparativos); mudança de estimativa é prospectiva. Também define a hierarquia para escolher políticas.",
    "afeta": "DMPL (ajuste de exercícios anteriores), todas (reapresentação), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=54",
+   "situacao": "vigente",
    "temas": [
     "Políticas contábeis e erros"
    ],
@@ -777,6 +815,8 @@
    "internacional": "IAS 10",
    "resumo": "Eventos após a data do balanço: os que dão evidência de condição já existente ajustam as demonstrações; os que não ajustam são só divulgados. Dividendos declarados depois do fechamento não são passivo.",
    "afeta": "BP, DRE (se ajustável), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=55",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -794,6 +834,8 @@
    "internacional": "IAS 37",
    "resumo": "Provisões (processos, garantias, reestruturação, desmontagem): reconhece quando a saída de recursos é provável e mensurável; contingência possível só em nota; ativo contingente só quando praticamente certo.",
    "afeta": "BP (passivo), DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56",
+   "situacao": "vigente",
    "temas": [
     "Provisões e contingências"
    ],
@@ -828,8 +870,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc",
    "cpc": "CPC 26 (R1)",
    "internacional": "IAS 1",
-   "resumo": "Apresentação das demonstrações (IAS 1): conjunto completo (BP, DRE, DRA, DMPL, DFC, notas), continuidade, regime de competência, circulante x não circulante, materialidade e itens mínimos. Será substituída pela NBC TG 51 (IFRS 18) a partir de 2027.",
+   "resumo": "⚠ Revogada pela NBC TG 51 (aprovada em 13/11/2025, DOU 25/02/2026), que se aplica aos exercícios iniciados a partir de 1/1/2027. Use a NBC TG 26 só para exercícios anteriores. Apresentação das demonstrações (IAS 1): conjunto completo (BP, DRE, DRA, DMPL, DFC, notas), continuidade, regime de competência, circulante x não circulante, materialidade e itens mínimos. Substituída pela NBC TG 51 (IFRS 18) para exercícios iniciados a partir de 1/1/2027.",
    "afeta": "Todas (estrutura)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57",
+   "situacao": "Revogada pela NBC TG 51 (aprovada em 13/11/2025, DOU 25/02/2026), que se aplica aos exercícios iniciados a partir de 1/1/2027. Use a NBC TG 26 só para exercícios anteriores.",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -842,7 +886,7 @@
      "topico": "DRE, CPV e apresentação",
      "arquivo": "Industrial/07-dre-e-apresentacao.md",
      "itens": "99–105",
-     "ponto": "Despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota por natureza, no mínimo depreciação, amortização e benefícios a empregados."
+     "ponto": "Exercícios até 2026 (a NBC TG 26 foi revogada pela NBC TG 51 a partir de 2027): despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota a natureza, incluindo depreciação, amortização e benefícios a empregados (item 104)."
     }
    ]
   },
@@ -855,6 +899,8 @@
    "internacional": "IAS 16",
    "resumo": "Ativo imobilizado: o que entra no custo (inclusive desmontagem), depreciação pela vida útil e valor residual revisados anualmente, componentização, gastos subsequentes e baixa. Reavaliação existe na norma, mas é vedada no Brasil pela Lei 11.638.",
    "afeta": "BP, DRE (depreciação, ganho/perda na baixa), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58",
+   "situacao": "vigente",
    "temas": [
     "Imobilizado"
    ],
@@ -890,7 +936,7 @@
      "topico": "Máquinas, fábrica e imobilizado",
      "arquivo": "Industrial/02-maquinas-e-fabrica.md",
      "itens": "20A",
-     "ponto": "Produtos fabricados durante os testes, antes de a máquina ficar pronta para uso: a receita da venda e o custo deles vão para o resultado, sem reduzir o custo da máquina (alteração de 2020 da IAS 16)."
+     "ponto": "Produtos fabricados durante os testes, antes de a máquina ficar pronta para uso: a receita da venda e o custo deles vão para o resultado, sem reduzir o custo da máquina; o custo desses itens é medido pela NBC TG 16 (incluído pela Revisão NBC 12)."
     },
     {
      "topico": "Máquinas, fábrica e imobilizado",
@@ -951,6 +997,8 @@
    "internacional": "IAS 40",
    "resumo": "Propriedade para investimento (imóvel para renda ou valorização): escolha entre custo e valor justo; no valor justo, a variação vai para o resultado. Imóvel de uso próprio segue a NBC TG 27.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=59",
+   "situacao": "vigente",
    "temas": [
     "Propriedade para investimento"
    ],
@@ -968,6 +1016,8 @@
    "internacional": "IAS 41",
    "resumo": "Ativo biológico (gado, lavoura, florestas) e produto agrícola no ponto da colheita a valor justo menos despesa de venda, com variação no resultado. Planta portadora (ex.: pé de café) segue o imobilizado.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60",
+   "situacao": "vigente",
    "temas": [
     "Ativo biológico"
    ],
@@ -992,6 +1042,8 @@
    "internacional": "IFRS 5",
    "resumo": "Ativo não circulante mantido para venda: separa no balanço pelo menor entre valor contábil e valor justo menos despesa de venda, para de depreciar; operação descontinuada aparece em linha própria na DRE.",
    "afeta": "BP, DRE (operação descontinuada), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=62",
+   "situacao": "vigente",
    "temas": [
     "Ativo mantido para venda",
     "Demonstração do resultado (DRE)"
@@ -1011,6 +1063,8 @@
    "internacional": "IAS 12",
    "resumo": "Tributos sobre o lucro (IRPJ e CSLL): imposto corrente e diferido sobre diferenças temporárias e prejuízo fiscal, reconhecimento do ativo fiscal diferido só se houver lucro tributável futuro provável.",
    "afeta": "BP (diferidos), DRE (despesa de IR/CS), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63",
+   "situacao": "vigente",
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -1041,6 +1095,8 @@
    "internacional": "IAS 19",
    "resumo": "Benefícios a empregados: curto prazo (salários, férias), pós-emprego (planos de benefício definido com cálculo atuarial; remensurações no ORA), outros de longo prazo e rescisão.",
    "afeta": "BP (passivo atuarial), DRE, DRA/ORA, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=64",
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -1058,6 +1114,8 @@
    "internacional": "IAS 27",
    "resumo": "Demonstrações separadas (da controladora como entidade isolada): como contabilizar investimentos em controladas, coligadas e joint ventures (custo, valor justo ou equivalência).",
    "afeta": "BP, DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -1075,6 +1133,8 @@
    "internacional": "IFRS 10",
    "resumo": "Consolidação: define controle (poder, exposição a retornos variáveis e capacidade de usar o poder) e como consolidar: soma linha a linha, elimina saldos e transações intragrupo, destaca não controladores.",
    "afeta": "Todas (consolidadas)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -1092,6 +1152,8 @@
    "internacional": "IFRS 1",
    "resumo": "Primeira adoção das IFRS: balanço de abertura na data de transição, aplicação retrospectiva com isenções e exceções e conciliações do padrão anterior para o novo.",
    "afeta": "Todas (transição), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=68",
+   "situacao": "vigente",
    "temas": [
     "Adoção inicial"
    ],
@@ -1109,6 +1171,8 @@
    "internacional": "IAS 32",
    "resumo": "Instrumentos financeiros – apresentação: classifica como passivo ou patrimônio (ações preferenciais resgatáveis, conversíveis), ações em tesouraria e compensação de ativo e passivo financeiro.",
    "afeta": "BP, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=70",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -1128,6 +1192,8 @@
    "internacional": "IFRS 7",
    "resumo": "Instrumentos financeiros – evidenciação: divulgação de categorias, valor justo, riscos de crédito, liquidez e mercado, análise de sensibilidade e hedge.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -1154,6 +1220,8 @@
    "internacional": "IAS 33",
    "resumo": "Lucro por ação básico e diluído: cálculo, ações potenciais e apresentação na DRE. Obrigatória para companhias abertas.",
    "afeta": "DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=72",
+   "situacao": "vigente",
    "temas": [
     "Patrimônio, dividendos e ações",
     "Demonstração do resultado (DRE)"
@@ -1173,6 +1241,8 @@
    "internacional": "IAS 29",
    "resumo": "Economia hiperinflacionária: reapresenta as demonstrações na unidade de medida corrente quando a inflação acumulada em 3 anos se aproxima de 100% (ex.: investidas na Argentina).",
    "afeta": "Todas (reexpressão)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=73",
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -1190,6 +1260,8 @@
    "internacional": null,
    "resumo": "Norma de transição brasileira de 2009/2010: adoção inicial dos CPCs nas demonstrações individuais junto com as consolidadas.",
    "afeta": "Todas (transição)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=74",
+   "situacao": "vigente",
    "temas": [
     "Adoção inicial"
    ],
@@ -1207,6 +1279,8 @@
    "internacional": null,
    "resumo": "Norma brasileira: demonstrações combinadas de entidades sob controle comum sem consolidação societária (ex.: para IPO ou financiamento).",
    "afeta": "Todas (combinadas)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=76",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -1224,6 +1298,8 @@
    "internacional": "IFRS 12",
    "resumo": "Divulgação sobre controladas, coligadas, negócios em conjunto e entidades estruturadas não consolidadas: julgamentos de controle, riscos e informações resumidas.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações",
     "Demonstrações contábeis e divulgação"
@@ -1243,6 +1319,8 @@
    "internacional": "IFRS 13",
    "resumo": "Valor justo: define como mensurar (preço de saída entre participantes do mercado), hierarquia de níveis 1, 2 e 3 e divulgações. Não diz quando usar valor justo, só como.",
    "afeta": "BP, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78",
+   "situacao": "vigente",
    "temas": [
     "Valor justo e mensuração"
    ],
@@ -1260,6 +1338,8 @@
    "internacional": "IFRS 15",
    "resumo": "Receita de contrato com cliente (IFRS 15): modelo de 5 passos (contrato, obrigações de desempenho, preço, alocação, reconhecimento em um momento ou ao longo do tempo), contraprestação variável, custos de contrato e principal x agente.",
    "afeta": "DRE (receita), BP (ativo/passivo de contrato), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105",
+   "situacao": "vigente",
    "temas": [
     "Receita"
    ],
@@ -1289,7 +1369,7 @@
      "topico": "Vendas, garantia e pós-venda",
      "arquivo": "Industrial/03-vendas-e-pos-venda.md",
      "itens": "60–65",
-     "ponto": "Venda a prazo longo com juros embutidos: separar o componente financeiro (dispensado quando o prazo é de até 1 ano)."
+     "ponto": "Venda a prazo com juros embutidos: separar o componente de financiamento significativo. Atenção: no Brasil o item 63 (dispensa para prazos de até 1 ano, existente na IFRS 15) foi eliminado; avaliar junto com o AVP da NBC TG 12."
     },
     {
      "topico": "Vendas, garantia e pós-venda",
@@ -1332,6 +1412,8 @@
    "internacional": "IFRS 9",
    "resumo": "Instrumentos financeiros (IFRS 9): classificação e mensuração (custo amortizado, VJORA, VJR), perda de crédito esperada (PCLD em 3 estágios), contabilidade de hedge e desreconhecimento.",
    "afeta": "BP, DRE, DRA, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -1362,6 +1444,8 @@
    "internacional": "IAS 26",
    "resumo": "Demonstrações dos próprios planos de aposentadoria (fundos de pensão): ativos líquidos disponíveis para benefícios e valor atuarial dos benefícios prometidos. Não é a contabilidade do patrocinador (essa é a NBC TG 33).",
    "afeta": "Demonstrações do plano",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111",
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -1379,6 +1463,8 @@
    "internacional": "IFRS 17",
    "resumo": "Contratos de seguro (IFRS 17): mensura por fluxos de caixa de cumprimento + margem contratual de serviço, abordagens geral, PAA e VFA; muda a forma de apresentar receita e resultado de seguros.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127",
+   "situacao": "vigente",
    "temas": [
     "Seguros"
    ],
@@ -1396,6 +1482,8 @@
    "internacional": "IFRS 18",
    "resumo": "IFRS 18, vigente a partir de 1/1/2027, substitui a NBC TG 26 (IAS 1). A mudança é na DRE: receitas e despesas passam a ser classificadas em categorias (operacional, investimento, financiamento, tributos sobre o lucro, descontinuadas), com subtotais obrigatórios de 'resultado operacional' e 'resultado antes de financiamento e tributos'. Também exige divulgar em nota as medidas de desempenho definidas pela administração (MPMs, como EBITDA ajustado) e reforça regras de agregação/desagregação. Na DFC, o ponto de partida do método indireto vira o resultado operacional e juros/dividendos ganham classificação fixa. O balanço praticamente não muda.",
    "afeta": "DRE (principal), NE (MPMs), DFC (ajustes menores)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -1407,8 +1495,20 @@
     {
      "topico": "DRE, CPV e apresentação",
      "arquivo": "Industrial/07-dre-e-apresentacao.md",
-     "itens": "—",
-     "ponto": "IFRS 18 (a partir de 1/1/2027): o CPV fica na categoria operacional e a DRE passa a ter o subtotal 'resultado operacional'. Quem apresenta por função deve divulgar em nota, por natureza, depreciação, amortização, benefícios a empregados, perdas por impairment e reduções de estoque. EBITDA e margens ajustadas usados na comunicação viram MPMs com conciliação em nota."
+     "itens": "69–74",
+     "ponto": "A partir de 1/1/2027 (IFRS 18): o CPV fica na categoria operacional e a DRE passa a ter os subtotais obrigatórios 'resultado operacional' e 'resultado antes de financiamentos e tributos sobre o lucro'."
+    },
+    {
+     "topico": "DRE, CPV e apresentação",
+     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "itens": "78–83",
+     "ponto": "Despesas operacionais agregadas por natureza ou por função (o custo das vendas é rubrica funcional que junta matéria-prima, pessoal, depreciação e amortização). Quem apresenta por função passa a divulgar em nota valores por natureza de despesas específicas."
+    },
+    {
+     "topico": "DRE, CPV e apresentação",
+     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "itens": "117–125",
+     "ponto": "Indicadores ajustados usados em comunicados ao mercado (EBITDA ajustado, margem ou lucro ajustado) são medidas de desempenho definidas pela administração (MPMs), com conciliação e explicação em nota. Não são MPM o lucro bruto e o resultado operacional antes de depreciação, amortização e impairment, o 'EBITDA' simples (item 118)."
     }
    ]
   },
@@ -1417,10 +1517,12 @@
    "titulo": "Entidades em Liquidação",
    "serie": "NBC TG",
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG900&arquivo=NBCTG900..doc",
-   "cpc": null,
+   "cpc": "CPC Liquidação",
    "internacional": null,
    "resumo": "Entidades em liquidação (sem continuidade): abandona a base de continuidade e mensura ativos pelo valor de realização e passivos pelo valor de liquidação.",
    "afeta": "Todas (base de liquidação)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=125",
+   "situacao": "vigente",
    "temas": [
     "Entidades específicas"
    ],
@@ -1438,6 +1540,8 @@
    "internacional": null,
    "resumo": "Contratos de concessão (rodovias, energia, saneamento) do lado do concessionário: a infraestrutura não é imobilizado; vira ativo financeiro (direito incondicional a caixa) ou intangível (direito de cobrar usuários), com receita de construção.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10",
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -1455,6 +1559,8 @@
    "internacional": null,
    "resumo": "Distribuição de dividendos em ativos que não são caixa (ex.: imóveis, ações de controlada): passivo pelo valor justo dos ativos a distribuir.",
    "afeta": "BP, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16",
+   "situacao": "vigente",
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -1472,6 +1578,8 @@
    "internacional": null,
    "resumo": "Dividendo mínimo obrigatório é passivo no fechamento; o que excede só vira passivo quando aprovado (até lá fica em conta de PL 'dividendo adicional proposto').",
    "afeta": "BP, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=17",
+   "situacao": "vigente",
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -1489,6 +1597,8 @@
    "internacional": null,
    "resumo": "Interpretação brasileira: como ficam as demonstrações individuais, separadas e consolidadas e a aplicação da equivalência patrimonial, inclusive lucros não realizados entre controladora e controlada.",
    "afeta": "BP, DRE, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=18",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -1506,6 +1616,8 @@
    "internacional": null,
    "resumo": "Aplicação inicial (2010) ao imobilizado e propriedade para investimento: permitiu o custo atribuído (deemed cost) a valor justo na adoção e exigiu revisar vida útil e valor residual.",
    "afeta": "BP, DMPL (ajuste de avaliação patrimonial)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=19",
+   "situacao": "vigente",
    "temas": [
     "Imobilizado",
     "Propriedade para investimento",
@@ -1526,6 +1638,8 @@
    "internacional": null,
    "resumo": "Mudanças na estimativa de obrigação de desmontagem/restauração (ex.: mina, plataforma): ajusta o custo do ativo e a provisão, e não o resultado diretamente.",
    "afeta": "BP, DRE (depreciação futura)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21",
+   "situacao": "vigente",
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -1556,6 +1670,8 @@
    "internacional": null,
    "resumo": "Participação em fundos de desativação e restauração ambiental: registra o direito sobre o fundo separado da provisão de desativação, sem compensar um com o outro.",
    "afeta": "BP",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22",
+   "situacao": "vigente",
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -1580,6 +1696,8 @@
    "internacional": null,
    "resumo": "Lixo eletrônico (resíduos de equipamentos eletroeletrônicos): quando nasce a obrigação de custear a destinação, pela participação no mercado no período de mensuração.",
    "afeta": "BP (passivo), DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24",
+   "situacao": "vigente",
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -1616,6 +1734,8 @@
    "internacional": null,
    "resumo": "Quando a empresa quita dívida entregando ações (conversão de dívida em capital): a diferença entre o valor contábil da dívida e o valor justo das ações vai para o resultado.",
    "afeta": "BP, DRE, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Patrimônio, dividendos e ações"
@@ -1635,6 +1755,8 @@
    "internacional": null,
    "resumo": "Divulgações exigidas sobre contratos de concessão de serviço (prazo, direitos, obrigações, mudanças), tanto do concessionário quanto do concedente.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Concessões e infraestrutura"
@@ -1654,6 +1776,8 @@
    "internacional": null,
    "resumo": "Mineração a céu aberto: custo de remoção de estéril na fase de produção vira ativo quando melhora o acesso ao minério, depreciado conforme a extração.",
    "afeta": "BP, DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84",
+   "situacao": "vigente",
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -1678,6 +1802,8 @@
    "internacional": null,
    "resumo": "Tributos (taxas, contribuições, exceto IR): o passivo nasce no evento que obriga ao pagamento conforme a lei, não antes (ex.: taxas anuais, IPTU).",
    "afeta": "BP (passivo), DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97",
+   "situacao": "vigente",
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -1695,6 +1821,8 @@
    "internacional": null,
    "resumo": "Planos de benefício definido: limita o ativo de plano superavitário ao benefício econômico disponível e trata exigências de contribuição mínima.",
    "afeta": "BP, DRA",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98",
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -1712,6 +1840,8 @@
    "internacional": null,
    "resumo": "Adiantamento em moeda estrangeira: a taxa de câmbio da transação é a do pagamento/recebimento antecipado, e não a da entrega posterior.",
    "afeta": "BP, DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108",
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -1736,6 +1866,8 @@
    "internacional": null,
    "resumo": "Incerteza sobre tratamento de IR/CS (teses fiscais): registra o efeito da posição incerta se for provável que o fisco não a aceite.",
    "afeta": "BP, DRE (IR/CS), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114",
+   "situacao": "vigente",
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -1760,6 +1892,8 @@
    "internacional": null,
    "resumo": "Primeiro período em economia hiperinflacionária: como aplicar a reexpressão da NBC TG 42 como se a economia sempre tivesse sido hiperinflacionária.",
    "afeta": "Todas (reexpressão)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=115",
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -1777,6 +1911,8 @@
    "internacional": null,
    "resumo": "Orientação para incorporadoras imobiliárias: reconhecimento de receita de unidades vendidas na planta, custos e apresentação.",
    "afeta": "DRE, BP, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=28",
+   "situacao": "vigente",
    "temas": [
     "Incorporação imobiliária"
    ],
@@ -1794,6 +1930,8 @@
    "internacional": null,
    "resumo": "Aplicação, no setor imobiliário brasileiro, das regras de contratos de construção e de receita ao longo da obra (percentage of completion, POC).",
    "afeta": "DRE, BP",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=31",
+   "situacao": "vigente",
    "temas": [
     "Incorporação imobiliária"
    ],
@@ -1811,6 +1949,8 @@
    "internacional": null,
    "resumo": "Orientação prática sobre contratos de concessão no Brasil: aplicação da ITG 01 e da ITG 17 a casos típicos (energia, rodovias, saneamento).",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=32",
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -1828,6 +1968,8 @@
    "internacional": null,
    "resumo": "Como montar e divulgar informação financeira pro forma (efeito de aquisição ou reorganização como se tivesse ocorrido antes).",
    "afeta": "Informação pro forma",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=33",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -1840,11 +1982,13 @@
    "codigo": "CTG 07 (R1)",
    "titulo": "Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral",
    "serie": "CTG",
-   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTG07&arquivo=CTG07(R1).doc",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTG07R1",
    "cpc": "OCPC 07",
    "internacional": null,
    "resumo": "Orientação sobre evidenciação: notas explicativas relevantes e específicas, sem repetir texto de norma, e aplicação da materialidade às divulgações.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=95",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -1862,6 +2006,8 @@
    "internacional": null,
    "resumo": "Distribuidoras de energia: reconhecimento de ativos e passivos regulatórios (parcela A, CVA) nas demonstrações societárias.",
    "afeta": "BP, DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=99",
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -1879,6 +2025,8 @@
    "internacional": null,
    "resumo": "Correlação entre as NBCs e a estrutura do Relato Integrado (capitais financeiro, manufaturado, humano, natural etc.).",
    "afeta": "Relato Integrado",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=122",
+   "situacao": "vigente",
    "temas": [
     "Estrutura conceitual",
     "Sustentabilidade e clima"
@@ -1898,6 +2046,8 @@
    "internacional": null,
    "resumo": "Créditos de carbono, permissões de emissão e CBIO: classificação (estoque, intangível ou instrumento financeiro conforme o uso), mensuração e passivo de obrigação de emissão.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=161",
+   "situacao": "vigente",
    "temas": [
     "Sustentabilidade e clima"
    ],
@@ -1922,6 +2072,8 @@
    "internacional": null,
    "resumo": "Orientação para clubes e entidades desportivas: registro de atletas (direitos federativos como intangível), receitas de bilheteria, patrocínio e direitos de TV.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Entidades específicas"
    ],
@@ -1939,6 +2091,8 @@
    "internacional": null,
    "resumo": "Define o que é trabalho de asseguração (razoável x limitada), seus elementos (partes, objeto, critérios, evidência, relatório) e diferencia auditoria, revisão e outros trabalhos.",
    "afeta": "Trabalhos de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Estrutura conceitual"
    ],
@@ -1956,6 +2110,8 @@
    "internacional": "ISA 200",
    "resumo": "Norma-mãe da auditoria: objetivo do auditor (segurança razoável de que não há distorção relevante), ceticismo e julgamento profissional, risco de auditoria e obrigação de cumprir todas as NBC TA.",
    "afeta": "Trabalho do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [],
    "areas": [
     "Auditoria Independente"
@@ -1971,6 +2127,8 @@
    "internacional": "ISA 210",
    "resumo": "Antes de aceitar o trabalho: verificar pré-condições (estrutura de relatório aceitável, responsabilidades da administração) e formalizar a carta de contratação.",
    "afeta": "Contratação",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -1988,6 +2146,8 @@
    "internacional": "ISA 220",
    "resumo": "Gestão de qualidade no nível do trabalho: responsabilidade do sócio, equipe, independência, direção, supervisão e revisão, consultas.",
    "afeta": "Trabalho do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -2003,8 +2163,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA230(R1)",
    "cpc": null,
    "internacional": "ISA 230",
-   "resumo": "Documentação de auditoria (papéis de trabalho): o que registrar, prazo de montagem do arquivo final (60 dias) e guarda.",
+   "resumo": "Documentação de auditoria (papéis de trabalho): o que registrar, prazo de montagem do arquivo final (geralmente até 60 dias após o relatório) e guarda.",
    "afeta": "Papéis de trabalho",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2022,6 +2184,8 @@
    "internacional": "ISA 240",
    "resumo": "Fraude na auditoria: avaliação dos riscos de fraude (presunção de risco na receita, burla de controles pela administração), respostas e comunicação.",
    "afeta": "Trabalho do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Fraude"
    ],
@@ -2039,6 +2203,8 @@
    "internacional": "ISA 250",
    "resumo": "Leis e regulamentos: o que o auditor verifica sobre cumprimento de leis com efeito direto nas demonstrações e como agir diante de não conformidade.",
    "afeta": "Trabalho do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2056,6 +2222,8 @@
    "internacional": "ISA 260",
    "resumo": "Comunicação com a governança (conselho, comitê de auditoria): escopo, época, achados significativos e independência.",
    "afeta": "Comunicação",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -2073,6 +2241,8 @@
    "internacional": "ISA 265",
    "resumo": "Comunicar à administração e à governança as deficiências significativas de controle interno encontradas.",
    "afeta": "Carta de controle interno",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2090,6 +2260,8 @@
    "internacional": "ISA 300",
    "resumo": "Planejamento: estratégia global e plano de auditoria (natureza, época e extensão dos procedimentos).",
    "afeta": "Planejamento",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2107,6 +2279,8 @@
    "internacional": "ISA 315",
    "resumo": "Entender a entidade, seu ambiente e o controle interno (inclusive TI) para identificar e avaliar riscos de distorção relevante nas afirmações.",
    "afeta": "Avaliação de riscos",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2131,6 +2305,8 @@
    "internacional": "ISA 320",
    "resumo": "Materialidade: definir a materialidade global, a de execução e o limite para distorções triviais, e revisá-las durante o trabalho.",
    "afeta": "Planejamento",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2148,6 +2324,8 @@
    "internacional": "ISA 330",
    "resumo": "Respostas aos riscos avaliados: testes de controle e procedimentos substantivos proporcionais ao risco.",
    "afeta": "Execução",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2165,6 +2343,8 @@
    "internacional": "ISA 402",
    "resumo": "Quando a entidade terceiriza processos (folha, TI): como obter evidência sobre os controles da prestadora (relatórios tipo 1 e 2).",
    "afeta": "Execução",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -2182,6 +2362,8 @@
    "internacional": "ISA 450",
    "resumo": "Acumular as distorções encontradas, comunicar à administração e avaliar se são relevantes, individualmente ou em conjunto.",
    "afeta": "Conclusão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -2199,6 +2381,8 @@
    "internacional": "ISA 500",
    "resumo": "O que é evidência apropriada e suficiente: fontes, confiabilidade e procedimentos (inspeção, observação, confirmação, recálculo etc.).",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2216,6 +2400,8 @@
    "internacional": "ISA 501",
    "resumo": "Evidência para itens específicos: contagem de estoque (observação do inventário), litígios (carta de advogados) e informações por segmento.",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2246,6 +2432,8 @@
    "internacional": "ISA 505",
    "resumo": "Confirmações externas (circularização de bancos, clientes, fornecedores): controle do processo, respostas e não respostas.",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2270,6 +2458,8 @@
    "internacional": "ISA 510",
    "resumo": "Primeira auditoria de um cliente: evidência sobre os saldos iniciais e a consistência das políticas.",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2287,6 +2477,8 @@
    "internacional": "ISA 520",
    "resumo": "Procedimentos analíticos substantivos e na revisão final (comparar expectativas com valores registrados).",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2311,6 +2503,8 @@
    "internacional": "ISA 530",
    "resumo": "Amostragem em auditoria: desenho da amostra, seleção, avaliação de desvios e projeção de distorções.",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2328,6 +2522,8 @@
    "internacional": "ISA 540",
    "resumo": "Auditoria de estimativas contábeis (PCLD, provisões, valor justo, impairment): risco inerente, métodos, premissas, dados e viés da administração.",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Valor justo e mensuração",
     "Demonstrações contábeis e divulgação",
@@ -2355,6 +2551,8 @@
    "internacional": "ISA 550",
    "resumo": "Partes relacionadas: identificar relações e transações e avaliar riscos de transações fora das condições normais.",
    "afeta": "Evidência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -2372,6 +2570,8 @@
    "internacional": "ISA 560",
    "resumo": "Eventos subsequentes: o que fazer com fatos até a data do relatório e após a emissão (fatos descobertos depois).",
    "afeta": "Conclusão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -2389,6 +2589,8 @@
    "internacional": "ISA 570",
    "resumo": "Continuidade operacional: avaliar a premissa de continuidade usada pela administração e reportar incerteza relevante no relatório.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2406,6 +2608,8 @@
    "internacional": "ISA 580",
    "resumo": "Carta de representação da administração: representações formais obrigatórias e sua confiabilidade.",
    "afeta": "Conclusão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Evidência de auditoria"
    ],
@@ -2423,6 +2627,8 @@
    "internacional": "ISA 600",
    "resumo": "Auditoria de grupos: responsabilidades do auditor do grupo, envolvimento com auditores de componentes e materialidade de grupo.",
    "afeta": "Trabalho do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações",
     "Uso do trabalho de terceiros"
@@ -2441,6 +2647,8 @@
    "internacional": "ISA 610",
    "resumo": "Quando e como usar o trabalho da auditoria interna (ou assistência direta) e os limites desse uso.",
    "afeta": "Execução",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -2458,6 +2666,8 @@
    "internacional": "ISA 620",
    "resumo": "Usar especialista do auditor (atuário, avaliador, TI): competência, objetividade e avaliação do trabalho dele.",
    "afeta": "Execução",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -2482,6 +2692,8 @@
    "internacional": "ISA 700",
    "resumo": "O relatório do auditor com opinião sem modificação: estrutura obrigatória (opinião, base, PAA, responsabilidades) e forma de expressar a opinião.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -2499,6 +2711,8 @@
    "internacional": "ISA 701",
    "resumo": "Principais assuntos de auditoria (PAA/KAM): o que mais exigiu atenção, por que e como foi tratado. Obrigatório para companhias abertas.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -2516,6 +2730,8 @@
    "internacional": "ISA 705",
    "resumo": "Opinião modificada: com ressalva, adversa ou abstenção, conforme natureza e disseminação do problema.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -2533,6 +2749,8 @@
    "internacional": "ISA 706",
    "resumo": "Parágrafo de ênfase (chama atenção para algo já divulgado) e de outros assuntos (algo não divulgado, mas relevante para o leitor).",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -2550,6 +2768,8 @@
    "internacional": "ISA 710",
    "resumo": "Informações comparativas: valores correspondentes x demonstrações comparativas e o que dizer sobre o período anterior.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -2567,6 +2787,8 @@
    "internacional": "ISA 720",
    "resumo": "Outras informações (relatório da administração, release): ler e comparar com as demonstrações e reportar inconsistência relevante.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -2584,6 +2806,8 @@
    "internacional": "ISA 800",
    "resumo": "Auditoria de demonstrações com estrutura de propósito especial (base regulatória, de caixa, contratual) e alerta sobre uso restrito.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [],
    "areas": [
     "Auditoria Independente"
@@ -2599,6 +2823,8 @@
    "internacional": "ISA 805",
    "resumo": "Auditoria de uma única demonstração ou de conta/item específico (ex.: só o BP, só o saldo de receitas para royalties).",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -2616,6 +2842,8 @@
    "internacional": "ISA 810",
    "resumo": "Relatório sobre demonstrações condensadas derivadas de demonstrações auditadas.",
    "afeta": "Relatório do auditor",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Relatório do auditor"
@@ -2634,6 +2862,8 @@
    "internacional": null,
    "resumo": "Norma completa simplificada (IFRS for SMEs / CPC PME) para empresas sem obrigação pública de prestar contas: menos opções, menos divulgação e simplificações (ex.: ágio amortizado, sem custo de empréstimo capitalizado).",
    "afeta": "Todas (PME)",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -2649,8 +2879,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1001&arquivo=NBCTG1001.doc",
    "cpc": null,
    "internacional": null,
-   "resumo": "Contabilidade simplificada para pequenas empresas (receita até R$ 78 milhões), em vigor desde 2023: demonstrações e divulgações reduzidas.",
+   "resumo": "Contabilidade simplificada para pequenas empresas (receita bruta acima de R$ 4,8 milhões e até R$ 78 milhões por ano), em vigor desde 2023: demonstrações e divulgações reduzidas.",
    "afeta": "Todas (pequena empresa)",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -2668,6 +2900,8 @@
    "internacional": null,
    "resumo": "Contabilidade para microentidades (receita até R$ 4,8 milhões): conjunto mínimo de demonstrações (BP, DRE e notas) e regras simples.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -2685,6 +2919,8 @@
    "internacional": null,
    "resumo": "Modelo contábil de micro e pequena empresa (anterior às NBC TG 1001/1002): demonstrações obrigatórias e modelo de plano de contas.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Escrituração contábil",
     "Pequenas e médias empresas"
@@ -2704,6 +2940,8 @@
    "internacional": null,
    "resumo": "Orientação para quem optar por adotar a NBC TG 1000 de forma plena e pela primeira vez.",
    "afeta": "Transição PME",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Adoção inicial"
    ],
@@ -2722,6 +2960,8 @@
    "internacional": null,
    "resumo": "Escrituração contábil: livros Diário e Razão, formalidades, documentação de suporte, retificação de lançamentos e guarda. Vale para todas as entidades.",
    "afeta": "Escrituração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Escrituração contábil"
    ],
@@ -2739,6 +2979,8 @@
    "internacional": null,
    "resumo": "Entidades fechadas de previdência complementar (fundos de pensão): demonstrações específicas (DMPS, DAL, DPT etc.) e gestão previdencial, assistencial e administrativa.",
    "afeta": "Demonstrações do fundo",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados",
     "Entidades específicas"
@@ -2758,6 +3000,8 @@
    "internacional": null,
    "resumo": "Entidades sem fins lucrativos (associações, fundações, ONGs): superávit/déficit, gratuidades, trabalho voluntário a valor justo e restrições sobre recursos.",
    "afeta": "BP, DRE (DSD), NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Entidades específicas"
    ],
@@ -2775,6 +3019,8 @@
    "internacional": null,
    "resumo": "Entidades desportivas (clubes, SAF): direitos sobre atletas, formação de base, receitas de transmissão e premiações.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Entidades específicas"
    ],
@@ -2792,6 +3038,8 @@
    "internacional": null,
    "resumo": "Cooperativas: atos cooperativos x não cooperativos, sobras e perdas, fundos obrigatórios (FATES, reserva legal) e capital como PL.",
    "afeta": "BP, DSP, DMPL",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Entidades específicas"
    ],
@@ -2809,6 +3057,8 @@
    "internacional": null,
    "resumo": "Orientação da transição de 2008 (Lei 11.638 e MP 449): ajustes de práticas na primeira aplicação.",
    "afeta": "Transição",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Adoção inicial"
    ],
@@ -2826,6 +3076,8 @@
    "internacional": null,
    "resumo": "Formalidades da escrituração digital no SPED (ECD): assinatura, livros digitais e substituição.",
    "afeta": "Escrituração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Escrituração contábil"
    ],
@@ -2843,6 +3095,8 @@
    "internacional": null,
    "resumo": "Laudo de avaliação emitido por contador (ex.: incorporação, cisão, aumento de capital com bens): conteúdo e responsabilidades.",
    "afeta": "Laudo",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Laudo de avaliação"
    ],
@@ -2860,6 +3114,8 @@
    "internacional": null,
    "resumo": "Demonstração de informações de natureza social e ambiental (geração e distribuição de riqueza, recursos humanos, meio ambiente). Antiga e de uso voluntário.",
    "afeta": "Relatório social",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Mineração e meio ambiente",
     "Sustentabilidade e clima"
@@ -2879,6 +3135,8 @@
    "internacional": null,
    "resumo": "Base conceitual do setor público: usuários, prestação de contas (accountability), elementos (ativo, passivo, receita, despesa) e mensuração no governo.",
    "afeta": "Todas (conceitos)",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Estrutura conceitual"
    ],
@@ -2897,6 +3155,8 @@
    "internacional": null,
    "resumo": "Receita sem contraprestação: tributos e transferências; reconhece pelo fato gerador ou pela transferência, com passivo se houver condição.",
    "afeta": "DVP, BP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Receita"
    ],
@@ -2915,6 +3175,8 @@
    "internacional": null,
    "resumo": "Receita com contraprestação (venda de bens e serviços pelo ente público).",
    "afeta": "DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Receita"
    ],
@@ -2933,6 +3195,8 @@
    "internacional": null,
    "resumo": "Provisões, passivos e ativos contingentes no setor público.",
    "afeta": "BP, DVP, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Provisões e contingências"
    ],
@@ -2951,6 +3215,8 @@
    "internacional": null,
    "resumo": "Estoques no setor público, inclusive itens distribuídos gratuitamente.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Estoques"
    ],
@@ -2969,6 +3235,8 @@
    "internacional": null,
    "resumo": "Concessões do lado do governo (concedente): reconhece a infraestrutura da concessão e o passivo correspondente.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -2987,6 +3255,8 @@
    "internacional": null,
    "resumo": "Propriedade para investimento no setor público.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Propriedade para investimento"
    ],
@@ -3005,6 +3275,8 @@
    "internacional": null,
    "resumo": "Ativo intangível no setor público (software, direitos), excluindo poderes concedidos por lei.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Intangível"
    ],
@@ -3023,6 +3295,8 @@
    "internacional": null,
    "resumo": "Impairment de ativo não gerador de caixa (escola, hospital): pelo potencial de serviço que se perde.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -3041,6 +3315,8 @@
    "internacional": null,
    "resumo": "Impairment de ativo gerador de caixa no setor público.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -3059,6 +3335,8 @@
    "internacional": null,
    "resumo": "Apresentação das demonstrações do setor público (BP, DVP, DMPL, DFC, notas).",
    "afeta": "Todas (estrutura)",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3077,6 +3355,8 @@
    "internacional": null,
    "resumo": "DFC no setor público.",
    "afeta": "DFC",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Fluxo de caixa (DFC)"
@@ -3096,6 +3376,8 @@
    "internacional": null,
    "resumo": "Comparação do orçamento previsto com o executado nas demonstrações.",
    "afeta": "Balanço Orçamentário, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3114,6 +3396,8 @@
    "internacional": null,
    "resumo": "Custos de empréstimos no setor público (despesa ou capitalização).",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Custos de empréstimos"
    ],
@@ -3132,6 +3416,8 @@
    "internacional": null,
    "resumo": "Benefícios a empregados no setor público, inclusive previdência de servidores (RPPS).",
    "afeta": "BP, DVP, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -3150,6 +3436,8 @@
    "internacional": null,
    "resumo": "Demonstrações separadas do ente controlador.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -3168,6 +3456,8 @@
    "internacional": null,
    "resumo": "Consolidação no setor público (ente e entidades controladas).",
    "afeta": "Todas (consolidadas)",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -3186,6 +3476,8 @@
    "internacional": null,
    "resumo": "Equivalência patrimonial no setor público (coligadas e empreendimentos em conjunto).",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -3204,6 +3496,8 @@
    "internacional": null,
    "resumo": "Acordos em conjunto no setor público.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -3222,6 +3516,8 @@
    "internacional": null,
    "resumo": "Divulgação de participações em outras entidades no setor público.",
    "afeta": "NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações",
     "Demonstrações contábeis e divulgação"
@@ -3242,6 +3538,8 @@
    "internacional": null,
    "resumo": "Combinações no setor público (fusões e aquisições de entes e entidades).",
    "afeta": "BP, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -3260,6 +3558,8 @@
    "internacional": null,
    "resumo": "Divulgação de partes relacionadas no setor público.",
    "afeta": "NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3278,6 +3578,8 @@
    "internacional": null,
    "resumo": "Políticas, estimativas e erros no setor público.",
    "afeta": "Todas, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Políticas contábeis e erros"
    ],
@@ -3296,6 +3598,8 @@
    "internacional": null,
    "resumo": "Câmbio e conversão no setor público.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -3314,6 +3618,8 @@
    "internacional": null,
    "resumo": "Eventos subsequentes no setor público.",
    "afeta": "NE, BP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3332,6 +3638,8 @@
    "internacional": null,
    "resumo": "Ativo biológico e produto agrícola no setor público.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Ativo biológico"
    ],
@@ -3350,6 +3658,8 @@
    "internacional": null,
    "resumo": "Informação por segmento no setor público (por função, programa).",
    "afeta": "NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3368,6 +3678,8 @@
    "internacional": null,
    "resumo": "Divulgação de informação do setor governo geral (estatísticas fiscais).",
    "afeta": "NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3386,6 +3698,8 @@
    "internacional": null,
    "resumo": "Benefícios sociais (bolsas, auxílios): quando reconhecer a obrigação com o beneficiário.",
    "afeta": "BP, DVP, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -3404,6 +3718,8 @@
    "internacional": null,
    "resumo": "Instrumentos financeiros – apresentação no setor público.",
    "afeta": "BP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -3424,6 +3740,8 @@
    "internacional": null,
    "resumo": "Instrumentos financeiros – reconhecimento e mensuração no setor público (inclui perdas esperadas).",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Valor justo e mensuração"
@@ -3444,6 +3762,8 @@
    "internacional": null,
    "resumo": "Contabilidade de hedge no setor público (aplicação residual da norma antiga).",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -3462,6 +3782,8 @@
    "internacional": null,
    "resumo": "Instrumentos financeiros – divulgações no setor público.",
    "afeta": "NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -3482,6 +3804,8 @@
    "internacional": null,
    "resumo": "Norma brasileira: sistema de custos no setor público (apuração de custo de serviços e programas).",
    "afeta": "Informação de custos",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Custos no setor público"
    ],
@@ -3499,6 +3823,8 @@
    "internacional": null,
    "resumo": "Arrendamentos no setor público (direito de uso).",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Arrendamentos"
    ],
@@ -3517,6 +3843,8 @@
    "internacional": null,
    "resumo": "Ativo imobilizado no setor público, inclusive bens de infraestrutura e patrimônio cultural.",
    "afeta": "BP, DVP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Imobilizado"
    ],
@@ -3535,6 +3863,8 @@
    "internacional": null,
    "resumo": "Mensuração no setor público: bases (custo histórico, valor corrente operacional, valor justo).",
    "afeta": "BP",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Valor justo e mensuração"
    ],
@@ -3553,6 +3883,8 @@
    "internacional": null,
    "resumo": "Orientação prática sobre provisões e contingências nos entes públicos.",
    "afeta": "BP, NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Provisões e contingências"
    ],
@@ -3571,6 +3903,8 @@
    "internacional": null,
    "resumo": "Orientação sobre notas explicativas no setor público.",
    "afeta": "NE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3589,6 +3923,8 @@
    "internacional": null,
    "resumo": "IFRS S1: divulgação de riscos e oportunidades de sustentabilidade que afetam fluxo de caixa, financiamento e custo de capital (governança, estratégia, gestão de riscos, métricas). Obrigatória para companhias abertas a partir de 2026 (CVM 193).",
    "afeta": "Relatório de sustentabilidade",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -3608,6 +3944,8 @@
    "internacional": null,
    "resumo": "IFRS S2: divulgações climáticas, incluindo emissões de gases de efeito estufa (escopos 1, 2 e 3), riscos físicos e de transição e análise de cenários.",
    "afeta": "Relatório de sustentabilidade",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -3634,6 +3972,8 @@
    "internacional": null,
    "resumo": "ISSA 5000: asseguração (limitada ou razoável) de relatórios de sustentabilidade, por auditor ou outro profissional.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Sustentabilidade e clima",
     "Relatório do auditor"
@@ -3653,6 +3993,8 @@
    "internacional": null,
    "resumo": "Revisão (segurança limitada) de demonstrações contábeis por auditor que não é o auditor da entidade: indagações e procedimentos analíticos.",
    "afeta": "Relatório de revisão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [],
    "areas": [
     "Revisão"
@@ -3668,6 +4010,8 @@
    "internacional": null,
    "resumo": "Revisão das informações intermediárias (ITR) pelo auditor da própria entidade.",
    "afeta": "Relatório de revisão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3677,14 +4021,16 @@
    "industria": []
   },
   {
-   "codigo": "CTR 01",
-   "titulo": "Relatório de Revisão das Informações Trimestrais (ITR)",
+   "codigo": "CTR 01 (R1)",
+   "titulo": "Relatório de Revisão sobre as Informações Trimestrais (ITR)",
    "serie": "NBC TR",
-   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001345",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/CTR01(R1)",
    "cpc": null,
    "internacional": null,
-   "resumo": "Modelo de relatório de revisão das ITR para companhias abertas.",
+   "resumo": "Modelo de relatório de revisão das ITR para companhias abertas (nova redação de 2019).",
    "afeta": "Relatório de revisão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -3702,6 +4048,8 @@
    "internacional": null,
    "resumo": "Relatório de revisão das ITR/IFT de instituições do Banco Central.",
    "afeta": "Relatório de revisão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -3717,8 +4065,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCCTR03&arquivo=NBCCTR03.doc",
    "cpc": null,
    "internacional": null,
-   "resumo": "Relatório de revisão das ITR de incorporadoras imobiliárias.",
+   "resumo": "⚠ Revogada pela CTR 04 (2019). Relatório de revisão das ITR de incorporadoras imobiliárias.",
    "afeta": "Relatório de revisão",
+   "url_cpc": null,
+   "situacao": "Revogada pela CTR 04 (2019).",
    "temas": [
     "Incorporação imobiliária",
     "Relatório do auditor"
@@ -3732,11 +4082,13 @@
    "codigo": "CTR 04",
    "titulo": "Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária",
    "serie": "NBC TR",
-   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/CTR04&arquivo=CTR04.doc",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCCTR04",
    "cpc": null,
    "internacional": null,
    "resumo": "Relatório de revisão das ITR de incorporadoras imobiliárias (versão atualizada).",
    "afeta": "Relatório de revisão",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Incorporação imobiliária",
     "Relatório do auditor"
@@ -3755,6 +4107,8 @@
    "internacional": null,
    "resumo": "Norma geral para asseguração de informações não financeiras ou que não são demonstrações históricas (ex.: indicadores, controles, conformidade).",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [],
    "areas": [
     "Asseguração"
@@ -3770,6 +4124,8 @@
    "internacional": null,
    "resumo": "Relatório SOC 1 / ISAE 3402: asseguração sobre controles de uma organização prestadora de serviços (tipo 1 e tipo 2).",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor",
     "Uso do trabalho de terceiros"
@@ -3786,8 +4142,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTO%203410&arquivo=NBC%20TO%203410.doc",
    "cpc": null,
    "internacional": null,
-   "resumo": "Asseguração de inventário de gases de efeito estufa.",
+   "resumo": "⚠ Revogada pela NBC TAS 5000 (DOU 18/12/2025). Asseguração de inventário de gases de efeito estufa.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "Revogada pela NBC TAS 5000 (DOU 18/12/2025).",
    "temas": [
     "Sustentabilidade e clima"
    ],
@@ -3805,6 +4163,8 @@
    "internacional": null,
    "resumo": "Asseguração sobre a compilação de informação financeira pro forma em prospecto.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Procedimentos previamente acordados e compilação"
@@ -3821,8 +4181,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001407",
    "cpc": null,
    "internacional": null,
-   "resumo": "Relatório de asseguração sobre relatórios de sustentabilidade e responsabilidade social.",
+   "resumo": "⚠ Revogada pela CTO 07 (2022). Relatório de asseguração sobre relatórios de sustentabilidade e responsabilidade social.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "Revogada pela CTO 07 (2022).",
    "temas": [
     "Sustentabilidade e clima",
     "Relatório do auditor"
@@ -3841,6 +4203,8 @@
    "internacional": null,
    "resumo": "Asseguração razoável de informação pro forma para a Instrução CVM 565 (fusões e incorporações).",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3858,6 +4222,8 @@
    "internacional": null,
    "resumo": "Relatórios do auditor para depositária central, custódia, escrituração e emissão de certificados de valores mobiliários.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Escrituração contábil",
     "Relatório do auditor"
@@ -3876,6 +4242,8 @@
    "internacional": null,
    "resumo": "Orientação aos auditores sobre trabalhos de asseguração específicos (alteração da CTO 04).",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [],
    "areas": [
     "Asseguração"
@@ -3891,6 +4259,8 @@
    "internacional": null,
    "resumo": "Asseguração razoável do Relatório de Dados Anuais (RDA) exigido por regulador.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Relatório do auditor"
    ],
@@ -3903,11 +4273,13 @@
    "codigo": "CTO 06",
    "titulo": "Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária",
    "serie": "NBC TO",
-   "url": "https://cfc.org.br/wp-content/uploads/2021/05/CTO_06.doc",
+   "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/CTO06",
    "cpc": null,
    "internacional": null,
    "resumo": "Asseguração na relicitação de concessões aeroportuárias (cálculo de indenização).",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -3925,6 +4297,8 @@
    "internacional": null,
    "resumo": "Asseguração limitada de informações não financeiras do Relato Integrado.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Sustentabilidade e clima"
    ],
@@ -3942,6 +4316,8 @@
    "internacional": null,
    "resumo": "Asseguração na relicitação de concessões rodoviárias.",
    "afeta": "Relatório de asseguração",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -3959,6 +4335,8 @@
    "internacional": null,
    "resumo": "Procedimentos previamente acordados: o contador executa os testes combinados e relata os achados, sem opinião nem asseguração.",
    "afeta": "Relatório de constatações",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Procedimentos previamente acordados e compilação"
    ],
@@ -3976,6 +4354,8 @@
    "internacional": null,
    "resumo": "Compilação: o contador ajuda a montar as demonstrações a partir dos dados da administração, sem asseguração.",
    "afeta": "Relatório de compilação",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Procedimentos previamente acordados e compilação"
    ],
@@ -3993,6 +4373,8 @@
    "internacional": null,
    "resumo": "Modelo de relatório de procedimentos acordados para o Despacho ANEEL 514/12.",
    "afeta": "Relatório de constatações",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Concessões e infraestrutura",
     "Procedimentos previamente acordados e compilação"
@@ -4011,6 +4393,8 @@
    "internacional": null,
    "resumo": "Procedimentos acordados para o termo de verificação de substituição da ECD.",
    "afeta": "Relatório de constatações",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Procedimentos previamente acordados e compilação"
    ],
@@ -4028,6 +4412,8 @@
    "internacional": null,
    "resumo": "Procedimentos acordados para o questionário de riscos da Susep.",
    "afeta": "Relatório de constatações",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Seguros",
     "Riscos, materialidade e planejamento",
@@ -4047,6 +4433,8 @@
    "internacional": null,
    "resumo": "Procedimentos acordados para o art. 242 da Circular Susep 517.",
    "afeta": "Relatório de constatações",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Seguros",
     "Procedimentos previamente acordados e compilação"
@@ -4065,6 +4453,8 @@
    "internacional": null,
    "resumo": "Procedimentos acordados para a Circular Susep 574.",
    "afeta": "Relatório de constatações",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Seguros",
     "Procedimentos previamente acordados e compilação"
@@ -4083,6 +4473,8 @@
    "internacional": null,
    "resumo": "Auditoria interna: objetivos, planejamento, papéis de trabalho, amostragem, riscos e relatório do auditor interno. Norma antiga (2003), ainda vigente.",
    "afeta": "Trabalho do auditor interno",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -4100,6 +4492,8 @@
    "internacional": null,
    "resumo": "Perícia contábil judicial e extrajudicial: planejamento, execução, laudo pericial e parecer técnico do assistente.",
    "afeta": "Laudo pericial",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Perícia contábil"
    ],
@@ -4117,6 +4511,8 @@
    "internacional": null,
    "resumo": "Apuração de haveres (valor a pagar ao sócio que sai da sociedade): critérios, data-base e balanço de determinação.",
    "afeta": "Laudo pericial",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Perícia contábil"
    ],
@@ -4134,6 +4530,8 @@
    "internacional": null,
    "resumo": "Código de Ética Profissional do Contador: deveres, vedações, sigilo, honorários, publicidade e penalidades.",
    "afeta": "Conduta profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4149,8 +4547,10 @@
    "url": "https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPG12(R5)&arquivo=NBCPG12(R5).docx",
    "cpc": null,
    "internacional": null,
-   "resumo": "Educação profissional continuada: pontuação anual mínima obrigatória para auditores, peritos e responsáveis técnicos.",
+   "resumo": "Educação profissional continuada: mínimo de 40 pontos por ano-calendário para auditores, peritos e responsáveis técnicos por empresas de maior porte.",
    "afeta": "Exercício profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4168,6 +4568,8 @@
    "internacional": null,
    "resumo": "Princípios fundamentais de ética (integridade, objetividade, competência, sigilo, comportamento profissional) e a estrutura de ameaças e salvaguardas.",
    "afeta": "Conduta profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Estrutura conceitual",
     "Qualidade e independência"
@@ -4186,6 +4588,8 @@
    "internacional": null,
    "resumo": "Ética para contadores empregados ou internos (que atuam dentro da empresa): conflitos, pressão e incentivos.",
    "afeta": "Conduta profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4203,6 +4607,8 @@
    "internacional": null,
    "resumo": "Ética para contadores que prestam serviços a clientes (externos): aceitação de clientes, honorários, conflitos de interesse.",
    "afeta": "Conduta profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4220,6 +4626,8 @@
    "internacional": null,
    "resumo": "Sistema de gestão de qualidade da firma de auditoria (ISQM 1): riscos de qualidade, respostas e monitoramento.",
    "afeta": "Firma de auditoria",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4237,6 +4645,8 @@
    "internacional": null,
    "resumo": "Revisão de qualidade do trabalho (EQR) por revisor independente da equipe (ISQM 2).",
    "afeta": "Firma de auditoria",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4254,6 +4664,8 @@
    "internacional": null,
    "resumo": "Revisão externa de qualidade pelos pares, obrigatória para auditores com registro na CVM.",
    "afeta": "Firma de auditoria",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4271,6 +4683,8 @@
    "internacional": null,
    "resumo": "Exame de qualificação técnica para registro no CNAI (auditor independente).",
    "afeta": "Exercício profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4288,6 +4702,8 @@
    "internacional": null,
    "resumo": "Independência em auditoria e revisão: serviços proibidos, rodízio, honorários, relações financeiras e familiares.",
    "afeta": "Independência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4305,6 +4721,8 @@
    "internacional": null,
    "resumo": "Independência em trabalhos de asseguração que não são auditoria nem revisão.",
    "afeta": "Independência",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4322,6 +4740,8 @@
    "internacional": null,
    "resumo": "Cadastro Nacional de Auditores Independentes (CNAI): registro e manutenção.",
    "afeta": "Exercício profissional",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência"
    ],
@@ -4339,6 +4759,8 @@
    "internacional": null,
    "resumo": "Deveres do perito contábil: habilitação, impedimento e suspeição, honorários, responsabilidade e cadastro (CNPC).",
    "afeta": "Exercício da perícia",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Perícia contábil"
    ],
@@ -4356,6 +4778,8 @@
    "internacional": null,
    "resumo": "Exame de qualificação técnica para ingresso no Cadastro Nacional de Peritos Contábeis.",
    "afeta": "Exercício da perícia",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Qualidade e independência",
     "Perícia contábil"
@@ -4374,6 +4798,8 @@
    "internacional": "NBC TG 37",
    "resumo": "Primeira adoção das IFRS: balanço de abertura na data de transição, aplicação retrospectiva com isenções e exceções e conciliações do padrão anterior para o novo.",
    "afeta": "Todas (transição), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=68",
+   "situacao": "vigente",
    "temas": [
     "Adoção inicial"
    ],
@@ -4392,6 +4818,8 @@
    "internacional": "NBC TG 10",
    "resumo": "Pagamento baseado em ações (stock options, ações restritas): mensura pelo valor justo na data da outorga e reconhece a despesa ao longo do período de aquisição do direito; liquidação em ações vai para PL, em caixa vai para passivo.",
    "afeta": "DRE (despesa), BP/DMPL, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=41",
+   "situacao": "vigente",
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -4410,6 +4838,8 @@
    "internacional": "NBC TG 15",
    "resumo": "Combinação de negócios (aquisição de controle): método de aquisição, ativos e passivos do adquirido a valor justo, apuração do ágio (goodwill) ou da compra vantajosa, participação de não controladores e contraprestação contingente.",
    "afeta": "BP (ágio, mais-valias), DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=46",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -4428,6 +4858,8 @@
    "internacional": "NBC TG 31",
    "resumo": "Ativo não circulante mantido para venda: separa no balanço pelo menor entre valor contábil e valor justo menos despesa de venda, para de depreciar; operação descontinuada aparece em linha própria na DRE.",
    "afeta": "BP, DRE (operação descontinuada), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=62",
+   "situacao": "vigente",
    "temas": [
     "Ativo mantido para venda",
     "Demonstração do resultado (DRE)"
@@ -4448,6 +4880,8 @@
    "internacional": null,
    "resumo": "Exploração e avaliação de recursos minerais (petróleo, minérios): permite manter políticas anteriores para gastos de exploração, com teste de impairment específico. Sem CPC equivalente.",
    "afeta": "BP, DRE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -4473,6 +4907,8 @@
    "internacional": "NBC TG 40",
    "resumo": "Instrumentos financeiros – evidenciação: divulgação de categorias, valor justo, riscos de crédito, liquidez e mercado, análise de sensibilidade e hedge.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -4493,6 +4929,8 @@
    "internacional": "NBC TG 22",
    "resumo": "Informação por segmento operacional (como a administração gere o negócio): receitas, resultado e ativos por segmento e conciliação com o total. Só para companhias abertas.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4511,6 +4949,8 @@
    "internacional": "NBC TG 48",
    "resumo": "Instrumentos financeiros (IFRS 9): classificação e mensuração (custo amortizado, VJORA, VJR), perda de crédito esperada (PCLD em 3 estágios), contabilidade de hedge e desreconhecimento.",
    "afeta": "BP, DRE, DRA, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -4529,6 +4969,8 @@
    "internacional": "NBC TG 36",
    "resumo": "Consolidação: define controle (poder, exposição a retornos variáveis e capacidade de usar o poder) e como consolidar: soma linha a linha, elimina saldos e transações intragrupo, destaca não controladores.",
    "afeta": "Todas (consolidadas)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -4547,6 +4989,8 @@
    "internacional": "NBC TG 19",
    "resumo": "Negócios em conjunto: classifica em operação em conjunto (registra sua parte de ativos, passivos, receitas e despesas) ou empreendimento controlado em conjunto/joint venture (equivalência patrimonial).",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=50",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -4565,6 +5009,8 @@
    "internacional": "NBC TG 45",
    "resumo": "Divulgação sobre controladas, coligadas, negócios em conjunto e entidades estruturadas não consolidadas: julgamentos de controle, riscos e informações resumidas.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações",
     "Demonstrações contábeis e divulgação"
@@ -4585,6 +5031,8 @@
    "internacional": "NBC TG 46",
    "resumo": "Valor justo: define como mensurar (preço de saída entre participantes do mercado), hierarquia de níveis 1, 2 e 3 e divulgações. Não diz quando usar valor justo, só como.",
    "afeta": "BP, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78",
+   "situacao": "vigente",
    "temas": [
     "Valor justo e mensuração"
    ],
@@ -4603,6 +5051,8 @@
    "internacional": null,
    "resumo": "Contas regulatórias diferidas para quem adota IFRS pela primeira vez (norma provisória). Sem CPC equivalente.",
    "afeta": "BP, DRE",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [],
    "areas": [
     "Normas Internacionais"
@@ -4618,6 +5068,8 @@
    "internacional": "NBC TG 47",
    "resumo": "Receita de contrato com cliente (IFRS 15): modelo de 5 passos (contrato, obrigações de desempenho, preço, alocação, reconhecimento em um momento ou ao longo do tempo), contraprestação variável, custos de contrato e principal x agente.",
    "afeta": "DRE (receita), BP (ativo/passivo de contrato), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105",
+   "situacao": "vigente",
    "temas": [
     "Receita"
    ],
@@ -4636,6 +5088,8 @@
    "internacional": "NBC TG 06",
    "resumo": "Arrendamentos (IFRS 16): o arrendatário reconhece quase todo contrato no balanço como ativo de direito de uso e passivo de arrendamento (exceções: curto prazo e baixo valor). Na DRE, o aluguel vira depreciação + juros; na DFC, o pagamento vai para financiamento. Arrendador mantém classificação financeiro/operacional.",
    "afeta": "BP, DRE, DFC, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37",
+   "situacao": "vigente",
    "temas": [
     "Arrendamentos"
    ],
@@ -4654,6 +5108,8 @@
    "internacional": "NBC TG 50",
    "resumo": "Contratos de seguro (IFRS 17): mensura por fluxos de caixa de cumprimento + margem contratual de serviço, abordagens geral, PAA e VFA; muda a forma de apresentar receita e resultado de seguros.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127",
+   "situacao": "vigente",
    "temas": [
     "Seguros"
    ],
@@ -4672,6 +5128,8 @@
    "internacional": "NBC TG 51",
    "resumo": "IFRS 18, vigente a partir de 1/1/2027, substitui a NBC TG 26 (IAS 1). A mudança é na DRE: receitas e despesas passam a ser classificadas em categorias (operacional, investimento, financiamento, tributos sobre o lucro, descontinuadas), com subtotais obrigatórios de 'resultado operacional' e 'resultado antes de financiamento e tributos'. Também exige divulgar em nota as medidas de desempenho definidas pela administração (MPMs, como EBITDA ajustado) e reforça regras de agregação/desagregação. Na DFC, o ponto de partida do método indireto vira o resultado operacional e juros/dividendos ganham classificação fixa. O balanço praticamente não muda.",
    "afeta": "DRE (principal), NE (MPMs), DFC (ajustes menores)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -4687,10 +5145,12 @@
    "titulo": "Controladas sem Responsabilidade Pública: Divulgações",
    "serie": "IFRS/IAS",
    "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
-   "cpc": null,
+   "cpc": "CPC 52",
    "internacional": null,
-   "resumo": "Controladas sem responsabilidade pública podem aplicar as IFRS com divulgações reduzidas (vigência 2027). Sem CPC equivalente até esta data.",
+   "resumo": "Controladas sem obrigação de prestação pública de contas podem aplicar as IFRS com divulgações reduzidas (vigência 2027). No Brasil: CPC 52; em 23/10/2026 o CFC ainda não listava NBC TG correspondente.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=164",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4709,6 +5169,8 @@
    "internacional": "NBC TG 26",
    "resumo": "Apresentação das demonstrações (estrutura e conteúdo mínimo). Substituída pela IFRS 18 para exercícios a partir de 1/1/2027; no Brasil, NBC TG 26 / CPC 26.",
    "afeta": "Todas (estrutura)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -4728,6 +5190,8 @@
    "internacional": "NBC TG 16",
    "resumo": "Estoques: mensurados pelo menor entre custo e valor realizável líquido; o que entra no custo (compra, conversão, gastos gerais fixos pela capacidade normal), métodos permitidos (PEPS, custo médio; UEPS proibido) e baixa para CMV.",
    "afeta": "BP, DRE (CMV), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47",
+   "situacao": "vigente",
    "temas": [
     "Estoques"
    ],
@@ -4746,6 +5210,8 @@
    "internacional": "NBC TG 03",
    "resumo": "Regras da DFC: classifica fluxos em operacionais, de investimento e de financiamento, método direto ou indireto, conceito de caixa e equivalentes e divulgação de transações sem caixa.",
    "afeta": "DFC",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=34",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Fluxo de caixa (DFC)"
@@ -4765,6 +5231,8 @@
    "internacional": "NBC TG 23",
    "resumo": "Políticas contábeis, mudança de estimativa e retificação de erro: mudança de política e erro são retrospectivos (reapresenta comparativos); mudança de estimativa é prospectiva. Também define a hierarquia para escolher políticas.",
    "afeta": "DMPL (ajuste de exercícios anteriores), todas (reapresentação), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=54",
+   "situacao": "vigente",
    "temas": [
     "Políticas contábeis e erros"
    ],
@@ -4783,6 +5251,8 @@
    "internacional": "NBC TG 24",
    "resumo": "Eventos após a data do balanço: os que dão evidência de condição já existente ajustam as demonstrações; os que não ajustam são só divulgados. Dividendos declarados depois do fechamento não são passivo.",
    "afeta": "BP, DRE (se ajustável), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=55",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4801,6 +5271,8 @@
    "internacional": "NBC TG 32",
    "resumo": "Tributos sobre o lucro (IRPJ e CSLL): imposto corrente e diferido sobre diferenças temporárias e prejuízo fiscal, reconhecimento do ativo fiscal diferido só se houver lucro tributável futuro provável.",
    "afeta": "BP (diferidos), DRE (despesa de IR/CS), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63",
+   "situacao": "vigente",
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -4819,6 +5291,8 @@
    "internacional": "NBC TG 27",
    "resumo": "Ativo imobilizado: o que entra no custo (inclusive desmontagem), depreciação pela vida útil e valor residual revisados anualmente, componentização, gastos subsequentes e baixa. Reavaliação existe na norma, mas é vedada no Brasil pela Lei 11.638.",
    "afeta": "BP, DRE (depreciação, ganho/perda na baixa), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58",
+   "situacao": "vigente",
    "temas": [
     "Imobilizado"
    ],
@@ -4837,6 +5311,8 @@
    "internacional": "NBC TG 33",
    "resumo": "Benefícios a empregados: curto prazo (salários, férias), pós-emprego (planos de benefício definido com cálculo atuarial; remensurações no ORA), outros de longo prazo e rescisão.",
    "afeta": "BP (passivo atuarial), DRE, DRA/ORA, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=64",
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -4855,6 +5331,8 @@
    "internacional": "NBC TG 07",
    "resumo": "Subvenção governamental (incentivos fiscais, subsídios): reconhecida no resultado ao longo do período em que os custos compensados são incorridos, apresentada como receita ou redução de despesa. No Brasil, interage com a reserva de incentivos fiscais (Lei 6.404 art. 195-A).",
    "afeta": "DRE, DMPL (reserva), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38",
+   "situacao": "vigente",
    "temas": [
     "Subvenção governamental"
    ],
@@ -4873,6 +5351,8 @@
    "internacional": "NBC TG 02",
    "resumo": "Moeda funcional e conversão: registra transações em moeda estrangeira à taxa da data, atualiza itens monetários no fechamento (variação cambial no resultado) e converte demonstrações de investidas no exterior para a moeda de apresentação (diferença vai para ORA).",
    "afeta": "BP, DRE (variação cambial), DRA/ORA, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9",
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -4891,6 +5371,8 @@
    "internacional": "NBC TG 20",
    "resumo": "Juros de empréstimos para construir ou produzir ativo qualificável (que leva tempo para ficar pronto) são capitalizados no custo do ativo, não lançados na despesa.",
    "afeta": "BP (ativo), DRE (menos despesa financeira)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51",
+   "situacao": "vigente",
    "temas": [
     "Custos de empréstimos"
    ],
@@ -4909,6 +5391,8 @@
    "internacional": "NBC TG 05",
    "resumo": "Não mexe em números: exige divulgar quem são as partes relacionadas (controladoras, controladas, pessoal-chave), as transações e saldos com elas e a remuneração da administração.",
    "afeta": "NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4927,6 +5411,8 @@
    "internacional": "NBC TG 49",
    "resumo": "Demonstrações dos próprios planos de aposentadoria (fundos de pensão): ativos líquidos disponíveis para benefícios e valor atuarial dos benefícios prometidos. Não é a contabilidade do patrocinador (essa é a NBC TG 33).",
    "afeta": "Demonstrações do plano",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111",
+   "situacao": "vigente",
    "temas": [
     "Benefícios a empregados"
    ],
@@ -4945,6 +5431,8 @@
    "internacional": "NBC TG 35",
    "resumo": "Demonstrações separadas (da controladora como entidade isolada): como contabilizar investimentos em controladas, coligadas e joint ventures (custo, valor justo ou equivalência).",
    "afeta": "BP, DRE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -4963,6 +5451,8 @@
    "internacional": "NBC TG 18",
    "resumo": "Coligadas e empreendimentos controlados em conjunto: aplica o método de equivalência patrimonial (MEP), incluindo ágio, eliminação de lucros não realizados e perda por impairment do investimento.",
    "afeta": "BP (investimento), DRE (equivalência), DRA",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49",
+   "situacao": "vigente",
    "temas": [
     "Consolidação e participações"
    ],
@@ -4981,6 +5471,8 @@
    "internacional": "NBC TG 42",
    "resumo": "Economia hiperinflacionária: reapresenta as demonstrações na unidade de medida corrente quando a inflação acumulada em 3 anos se aproxima de 100% (ex.: investidas na Argentina).",
    "afeta": "Todas (reexpressão)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=73",
+   "situacao": "vigente",
    "temas": [
     "Câmbio e inflação"
    ],
@@ -4999,6 +5491,8 @@
    "internacional": "NBC TG 39",
    "resumo": "Instrumentos financeiros – apresentação: classifica como passivo ou patrimônio (ações preferenciais resgatáveis, conversíveis), ações em tesouraria e compensação de ativo e passivo financeiro.",
    "afeta": "BP, DMPL",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=70",
+   "situacao": "vigente",
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -5019,6 +5513,8 @@
    "internacional": "NBC TG 41",
    "resumo": "Lucro por ação básico e diluído: cálculo, ações potenciais e apresentação na DRE. Obrigatória para companhias abertas.",
    "afeta": "DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=72",
+   "situacao": "vigente",
    "temas": [
     "Patrimônio, dividendos e ações",
     "Demonstração do resultado (DRE)"
@@ -5039,6 +5535,8 @@
    "internacional": "NBC TG 21",
    "resumo": "Demonstrações intermediárias (ITR, semestrais): conteúdo mínimo, notas condensadas, períodos comparativos e mesmas políticas contábeis do anual.",
    "afeta": "Todas (versão condensada)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=52",
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5057,6 +5555,8 @@
    "internacional": "NBC TG 01",
    "resumo": "Teste de impairment: o ativo não pode ficar no balanço acima do valor recuperável (maior entre valor justo menos despesa de venda e valor em uso). Define UGC, indicadores de perda, teste anual obrigatório de ágio e intangível de vida indefinida, e reversão (proibida para ágio).",
    "afeta": "BP (reduz ativo), DRE (perda), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=2",
+   "situacao": "vigente",
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -5075,6 +5575,8 @@
    "internacional": "NBC TG 25",
    "resumo": "Provisões (processos, garantias, reestruturação, desmontagem): reconhece quando a saída de recursos é provável e mensurável; contingência possível só em nota; ativo contingente só quando praticamente certo.",
    "afeta": "BP (passivo), DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56",
+   "situacao": "vigente",
    "temas": [
     "Provisões e contingências"
    ],
@@ -5093,6 +5595,8 @@
    "internacional": "NBC TG 04",
    "resumo": "Ativo intangível (software, marcas, licenças, desenvolvimento): critérios para reconhecer (pesquisa é sempre despesa; desenvolvimento só com requisitos), custo inicial, amortização pela vida útil, vida indefinida sem amortização e com teste anual. Ágio de combinação fica na NBC TG 15.",
    "afeta": "BP, DRE (amortização), NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35",
+   "situacao": "vigente",
    "temas": [
     "Intangível"
    ],
@@ -5111,6 +5615,8 @@
    "internacional": "NBC TG 28",
    "resumo": "Propriedade para investimento (imóvel para renda ou valorização): escolha entre custo e valor justo; no valor justo, a variação vai para o resultado. Imóvel de uso próprio segue a NBC TG 27.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=59",
+   "situacao": "vigente",
    "temas": [
     "Propriedade para investimento"
    ],
@@ -5129,6 +5635,8 @@
    "internacional": "NBC TG 29",
    "resumo": "Ativo biológico (gado, lavoura, florestas) e produto agrícola no ponto da colheita a valor justo menos despesa de venda, com variação no resultado. Planta portadora (ex.: pé de café) segue o imobilizado.",
    "afeta": "BP, DRE, NE",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60",
+   "situacao": "vigente",
    "temas": [
     "Ativo biológico"
    ],
@@ -5147,6 +5655,8 @@
    "internacional": "NBC TG 1000",
    "resumo": "Versão simplificada das IFRS para pequenas e médias empresas; no Brasil, NBC TG 1000 / CPC PME.",
    "afeta": "Todas (PME)",
+   "url_cpc": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=79",
+   "situacao": "vigente",
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -5165,6 +5675,8 @@
    "internacional": "NBC TDS 01",
    "resumo": "Requisitos gerais de divulgação de sustentabilidade do ISSB; no Brasil, NBC TDS 01 / CBPS 01.",
    "afeta": "Relatório de sustentabilidade",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -5185,6 +5697,8 @@
    "internacional": "NBC TDS 02",
    "resumo": "Divulgações relacionadas ao clima do ISSB; no Brasil, NBC TDS 02 / CBPS 02.",
    "afeta": "Relatório de sustentabilidade",
+   "url_cpc": null,
+   "situacao": "vigente",
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"

@@ -7,7 +7,7 @@ Quando o gasto com novos produtos ou processos pode virar ativo intangível e qu
 > Resumo orientativo dos trechos das normas aplicáveis à indústria; não substitui o texto oficial. Os números de item seguem o CPC (mesma numeração da IAS/IFRS). Confira sempre pelo link oficial.
 
 
-### NBC TG 04 (R4) – Ativo Intangível (CPC 04 (R1) · IAS 38) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
+### NBC TG 04 (R4) – Ativo Intangível ([CPC 04 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35) · IAS 38) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
 
 | Item | O que diz para a indústria |
 |---|---|
@@ -17,7 +17,7 @@ Quando o gasto com novos produtos ou processos pode virar ativo intangível e qu
 | 71 | O que já foi lançado como despesa não volta a ser ativo depois. |
 | 97–106 | Desenvolvimento capitalizado é amortizado pela vida útil do produto ou processo, a partir de quando estiver disponível para uso. |
 
-### NBC TG 27 (R4) – Ativo Imobilizado (CPC 27 · IAS 16) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+### NBC TG 27 (R4) – Ativo Imobilizado ([CPC 27](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58) · IAS 16) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
 
 | Item | O que diz para a indústria |
 |---|---|

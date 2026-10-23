@@ -28,7 +28,7 @@ R = {
 "NBC TG 23": "Políticas contábeis, mudança de estimativa e retificação de erro: mudança de política e erro são retrospectivos (reapresenta comparativos); mudança de estimativa é prospectiva. Também define a hierarquia para escolher políticas.|DMPL (ajuste de exercícios anteriores), todas (reapresentação), NE",
 "NBC TG 24": "Eventos após a data do balanço: os que dão evidência de condição já existente ajustam as demonstrações; os que não ajustam são só divulgados. Dividendos declarados depois do fechamento não são passivo.|BP, DRE (se ajustável), NE",
 "NBC TG 25": "Provisões (processos, garantias, reestruturação, desmontagem): reconhece quando a saída de recursos é provável e mensurável; contingência possível só em nota; ativo contingente só quando praticamente certo.|BP (passivo), DRE, NE",
-"NBC TG 26": "Apresentação das demonstrações (IAS 1): conjunto completo (BP, DRE, DRA, DMPL, DFC, notas), continuidade, regime de competência, circulante x não circulante, materialidade e itens mínimos. Será substituída pela NBC TG 51 (IFRS 18) a partir de 2027.|Todas (estrutura)",
+"NBC TG 26": "Apresentação das demonstrações (IAS 1): conjunto completo (BP, DRE, DRA, DMPL, DFC, notas), continuidade, regime de competência, circulante x não circulante, materialidade e itens mínimos. Substituída pela NBC TG 51 (IFRS 18) para exercícios iniciados a partir de 1/1/2027.|Todas (estrutura)",
 "NBC TG 27": "Ativo imobilizado: o que entra no custo (inclusive desmontagem), depreciação pela vida útil e valor residual revisados anualmente, componentização, gastos subsequentes e baixa. Reavaliação existe na norma, mas é vedada no Brasil pela Lei 11.638.|BP, DRE (depreciação, ganho/perda na baixa), NE",
 "NBC TG 28": "Propriedade para investimento (imóvel para renda ou valorização): escolha entre custo e valor justo; no valor justo, a variação vai para o resultado. Imóvel de uso próprio segue a NBC TG 27.|BP, DRE, NE",
 "NBC TG 29": "Ativo biológico (gado, lavoura, florestas) e produto agrícola no ponto da colheita a valor justo menos despesa de venda, com variação no resultado. Planta portadora (ex.: pé de café) segue o imobilizado.|BP, DRE, NE",
@@ -83,7 +83,7 @@ R = {
 "NBC TA 200": "Norma-mãe da auditoria: objetivo do auditor (segurança razoável de que não há distorção relevante), ceticismo e julgamento profissional, risco de auditoria e obrigação de cumprir todas as NBC TA.|Trabalho do auditor",
 "NBC TA 210": "Antes de aceitar o trabalho: verificar pré-condições (estrutura de relatório aceitável, responsabilidades da administração) e formalizar a carta de contratação.|Contratação",
 "NBC TA 220": "Gestão de qualidade no nível do trabalho: responsabilidade do sócio, equipe, independência, direção, supervisão e revisão, consultas.|Trabalho do auditor",
-"NBC TA 230": "Documentação de auditoria (papéis de trabalho): o que registrar, prazo de montagem do arquivo final (60 dias) e guarda.|Papéis de trabalho",
+"NBC TA 230": "Documentação de auditoria (papéis de trabalho): o que registrar, prazo de montagem do arquivo final (geralmente até 60 dias após o relatório) e guarda.|Papéis de trabalho",
 "NBC TA 240": "Fraude na auditoria: avaliação dos riscos de fraude (presunção de risco na receita, burla de controles pela administração), respostas e comunicação.|Trabalho do auditor",
 "NBC TA 250": "Leis e regulamentos: o que o auditor verifica sobre cumprimento de leis com efeito direto nas demonstrações e como agir diante de não conformidade.|Trabalho do auditor",
 "NBC TA 260": "Comunicação com a governança (conselho, comitê de auditoria): escopo, época, achados significativos e independência.|Comunicação",
@@ -119,7 +119,7 @@ R = {
 "NBC TA 810": "Relatório sobre demonstrações condensadas derivadas de demonstrações auditadas.|Relatório do auditor",
 # ---------------- PME e específicas ----------------
 "NBC TG 1000": "Norma completa simplificada (IFRS for SMEs / CPC PME) para empresas sem obrigação pública de prestar contas: menos opções, menos divulgação e simplificações (ex.: ágio amortizado, sem custo de empréstimo capitalizado).|Todas (PME)",
-"NBC TG 1001": "Contabilidade simplificada para pequenas empresas (receita até R$ 78 milhões), em vigor desde 2023: demonstrações e divulgações reduzidas.|Todas (pequena empresa)",
+"NBC TG 1001": "Contabilidade simplificada para pequenas empresas (receita bruta acima de R$ 4,8 milhões e até R$ 78 milhões por ano), em vigor desde 2023: demonstrações e divulgações reduzidas.|Todas (pequena empresa)",
 "NBC TG 1002": "Contabilidade para microentidades (receita até R$ 4,8 milhões): conjunto mínimo de demonstrações (BP, DRE e notas) e regras simples.|BP, DRE, NE",
 "ITG 1000": "Modelo contábil de micro e pequena empresa (anterior às NBC TG 1001/1002): demonstrações obrigatórias e modelo de plano de contas.|BP, DRE, NE",
 "CTG 1000": "Orientação para quem optar por adotar a NBC TG 1000 de forma plena e pela primeira vez.|Transição PME",
@@ -179,7 +179,7 @@ R = {
 # ---------------- Revisão, asseguração, correlatos ----------------
 "NBC TR 2400": "Revisão (segurança limitada) de demonstrações contábeis por auditor que não é o auditor da entidade: indagações e procedimentos analíticos.|Relatório de revisão",
 "NBC TR 2410": "Revisão das informações intermediárias (ITR) pelo auditor da própria entidade.|Relatório de revisão",
-"CTR 01": "Modelo de relatório de revisão das ITR para companhias abertas.|Relatório de revisão",
+"CTR 01": "Modelo de relatório de revisão das ITR para companhias abertas (nova redação de 2019).|Relatório de revisão",
 "CTR 02": "Relatório de revisão das ITR/IFT de instituições do Banco Central.|Relatório de revisão",
 "CTR 03": "Relatório de revisão das ITR de incorporadoras imobiliárias.|Relatório de revisão",
 "CTR 04": "Relatório de revisão das ITR de incorporadoras imobiliárias (versão atualizada).|Relatório de revisão",
@@ -210,7 +210,7 @@ R = {
 "NBC PP 02": "Exame de qualificação técnica para ingresso no Cadastro Nacional de Peritos Contábeis.|Exercício da perícia",
 # ---------------- Ética e profissão ----------------
 "NBC PG 01": "Código de Ética Profissional do Contador: deveres, vedações, sigilo, honorários, publicidade e penalidades.|Conduta profissional",
-"NBC PG 12": "Educação profissional continuada: pontuação anual mínima obrigatória para auditores, peritos e responsáveis técnicos.|Exercício profissional",
+"NBC PG 12": "Educação profissional continuada: mínimo de 40 pontos por ano-calendário para auditores, peritos e responsáveis técnicos por empresas de maior porte.|Exercício profissional",
 "NBC PG 100": "Princípios fundamentais de ética (integridade, objetividade, competência, sigilo, comportamento profissional) e a estrutura de ameaças e salvaguardas.|Conduta profissional",
 "NBC PG 200": "Ética para contadores empregados ou internos (que atuam dentro da empresa): conflitos, pressão e incentivos.|Conduta profissional",
 "NBC PG 300": "Ética para contadores que prestam serviços a clientes (externos): aceitação de clientes, honorários, conflitos de interesse.|Conduta profissional",
@@ -224,7 +224,7 @@ R = {
 # ---------------- IFRS sem NBC TG equivalente ----------------
 "IFRS 6": "Exploração e avaliação de recursos minerais (petróleo, minérios): permite manter políticas anteriores para gastos de exploração, com teste de impairment específico. Sem CPC equivalente.|BP, DRE",
 "IFRS 14": "Contas regulatórias diferidas para quem adota IFRS pela primeira vez (norma provisória). Sem CPC equivalente.|BP, DRE",
-"IFRS 19": "Controladas sem responsabilidade pública podem aplicar as IFRS com divulgações reduzidas (vigência 2027). Sem CPC equivalente até esta data.|NE",
+"IFRS 19": "Controladas sem obrigação de prestação pública de contas podem aplicar as IFRS com divulgações reduzidas (vigência 2027). No Brasil: CPC 52; em 23/10/2026 o CFC ainda não listava NBC TG correspondente.|NE",
 "IFRS for SMEs": "Versão simplificada das IFRS para pequenas e médias empresas; no Brasil, NBC TG 1000 / CPC PME.|Todas (PME)",
 "IFRS S1": "Requisitos gerais de divulgação de sustentabilidade do ISSB; no Brasil, NBC TDS 01 / CBPS 01.|Relatório de sustentabilidade",
 "IFRS S2": "Divulgações relacionadas ao clima do ISSB; no Brasil, NBC TDS 02 / CBPS 02.|Relatório de sustentabilidade",

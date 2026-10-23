@@ -14,7 +14,7 @@ TOPICOS = [
  "O coração da contabilidade industrial. O CPC 16 exige custeio por absorção: o produto carrega materiais, mão de obra direta e custos indiretos de fabricação (CIF) fixos e variáveis. Custeio variável serve para gestão, não para as demonstrações.",
  [
   ("NBC TG 16", "9", "Estoque fica pelo menor valor entre custo e valor realizável líquido (VRL)."),
-  ("NBC TG 16", "10–11", "Custo de aquisição de insumos: preço + frete, seguro e manuseio na compra + impostos NÃO recuperáveis, menos descontos e abatimentos. ICMS, IPI, PIS/COFINS com direito a crédito ficam fora do custo (vão para tributos a recuperar)."),
+  ("NBC TG 16", "10–11", "Custo de aquisição de insumos: preço + impostos de importação e outros tributos, exceto os recuperáveis perante o fisco + frete, seguro e manuseio na compra, menos descontos e abatimentos. ICMS, IPI, PIS/COFINS com direito a crédito ficam fora do custo (vão para tributos a recuperar)."),
   ("NBC TG 16", "12", "Custo de transformação = mão de obra direta + rateio sistemático dos CIF fixos (depreciação e manutenção da fábrica, gestão da fábrica) e variáveis (materiais indiretos, energia de produção)."),
   ("NBC TG 16", "13", "CIF fixos são alocados pela capacidade NORMAL de produção. Quando a fábrica produz abaixo do normal, a parcela não alocada (ociosidade) vai direto para despesa do período, sem inflar o estoque. Com produção anormalmente alta, o custo fixo por unidade diminui."),
   ("NBC TG 16", "14", "Produtos conjuntos: rateio do custo comum por base racional e consistente (ex.: valor de venda relativo). Subprodutos irrelevantes podem ser medidos pelo VRL e abatidos do custo do produto principal."),
@@ -43,7 +43,7 @@ TOPICOS = [
   ("NBC TG 27", "7–8", "Peças de reposição, sobressalentes e equipamentos de manutenção são imobilizado quando usados por mais de um período (ex.: peças estratégicas de uma linha); caso contrário, ficam em estoque (almoxarifado)."),
   ("NBC TG 27", "12–14", "Manutenção do dia a dia vai para o resultado (ou para o CIF). Grandes paradas, revisões gerais e inspeções relevantes podem ser capitalizadas como componente, baixando o valor da parada anterior."),
   ("NBC TG 27", "16–17", "Custo da máquina: preço + impostos não recuperáveis + frete, instalação, montagem, preparação do local, testes de funcionamento e honorários técnicos + estimativa de desmontagem e restauração do local."),
-  ("NBC TG 27", "20A", "Produtos fabricados durante os testes, antes de a máquina ficar pronta para uso: a receita da venda e o custo deles vão para o resultado, sem reduzir o custo da máquina (alteração de 2020 da IAS 16)."),
+  ("NBC TG 27", "20A", "Produtos fabricados durante os testes, antes de a máquina ficar pronta para uso: a receita da venda e o custo deles vão para o resultado, sem reduzir o custo da máquina; o custo desses itens é medido pela NBC TG 16 (incluído pela Revisão NBC 12)."),
   ("NBC TG 27", "22", "Máquina ou fábrica construída pela própria empresa segue a mesma lógica; desperdícios anormais na construção não entram no custo."),
   ("NBC TG 27", "43–47", "Componentização: partes com custo relevante e vida útil diferente (ex.: forno e seu revestimento refratário, motor de uma prensa) são depreciadas separadamente."),
   ("NBC TG 27", "50–51", "Vida útil e valor residual revistos pelo menos uma vez ao ano; a mudança é estimativa (efeito prospectivo, NBC TG 23). Vida útil econômica, não a taxa fiscal."),
@@ -53,7 +53,7 @@ TOPICOS = [
   ("NBC TG 20", "14, 17–22", "Com dívida geral, usar a taxa média ponderada; capitalizar só durante a construção ativa, suspender em paralisações longas e parar quando o ativo estiver pronto."),
   ("NBC TG 01", "9, 12", "Indícios de impairment comuns na indústria: ociosidade relevante, obsolescência tecnológica, dano físico, queda de demanda ou de margem, plano de fechar ou reestruturar uma planta."),
   ("NBC TG 01", "66–73", "A unidade geradora de caixa costuma ser a planta ou a linha de produção que gera entradas de caixa independentes; o teste é feito no nível da UGC."),
-  ("NBC TG 06", "9–11", "Verificar arrendamento embutido em contratos de fornecimento ou serviço com ativo dedicado (ex.: tanque, gerador ou equipamento exclusivo instalado pelo fornecedor). Empilhadeiras, galpões e máquinas alugadas viram direito de uso + passivo."),
+  ("NBC TG 06", "9–11, B9–B31", "Verificar arrendamento embutido em contratos de fornecimento ou serviço com ativo dedicado (ex.: tanque, gerador ou equipamento exclusivo instalado pelo fornecedor). Empilhadeiras, galpões e máquinas alugadas viram direito de uso + passivo."),
   ("NBC TG 06", "5–8", "Isenções: contratos de até 12 meses e ativos de baixo valor podem ficar como despesa de aluguel."),
   ("ITG 12", "—", "Se mudar a estimativa da provisão de desmontagem ou restauração do local da fábrica, o ajuste vai para o custo do ativo e afeta a depreciação futura, não o resultado de uma vez."),
  ],
@@ -72,7 +72,7 @@ TOPICOS = [
   ("NBC TG 47", "31–38", "Receita quando o CONTROLE do produto passa ao cliente. Os Incoterms ajudam: em FOB o controle passa na origem; em CIF/entrega no destino normalmente só na entrega. Frete e seguro prestados depois da transferência do controle podem ser uma obrigação separada."),
   ("NBC TG 47", "35", "Produção sob encomenda (bens de capital, moldes, equipamentos específicos) sem uso alternativo e com direito a receber pelo que já foi feito: receita ao longo da produção, pelo avanço."),
   ("NBC TG 47", "50–59", "Descontos, bonificações, rebates por volume, verbas comerciais e multas contratuais são contraprestação variável: reduzem a receita pela melhor estimativa, sem risco de reversão relevante."),
-  ("NBC TG 47", "60–65", "Venda a prazo longo com juros embutidos: separar o componente financeiro (dispensado quando o prazo é de até 1 ano)."),
+  ("NBC TG 47", "60–65", "Venda a prazo com juros embutidos: separar o componente de financiamento significativo. Atenção: no Brasil o item 63 (dispensa para prazos de até 1 ano, existente na IFRS 15) foi eliminado; avaliar junto com o AVP da NBC TG 12."),
   ("NBC TG 47", "B20–B27", "Direito de devolução: receita só pelo que se espera não voltar, com passivo de reembolso e ativo pelo produto a recuperar."),
   ("NBC TG 47", "B28–B33", "Garantia que só assegura que o produto funciona conforme especificado → provisão (NBC TG 25). Garantia estendida vendida à parte ou serviço adicional → obrigação de desempenho separada, com receita diferida."),
   ("NBC TG 47", "B77–B78", "Remessa em consignação: sem receita enquanto o consignatário não vender ou não obtiver o controle."),
@@ -124,7 +124,7 @@ TOPICOS = [
  "importação de insumos e máquinas, variação cambial, adiantamento a fornecedor estrangeiro, aço, cobre, alumínio, energia, derivativos, hedge de fluxo de caixa, contratos de compra para uso próprio",
  "Indústrias expostas a insumos cotados em dólar ou em bolsa precisam separar a variação cambial do custo e decidir se aplicam contabilidade de hedge.",
  [
-  ("NBC TG 02", "21–23", "Insumo ou máquina importada entra pela taxa de câmbio da data da transação (normalmente o desembaraço/transferência do controle)."),
+  ("NBC TG 02", "21–23", "Insumo ou máquina importada entra pela taxa de câmbio à vista da data da transação (quando a compra se qualifica para reconhecimento, normalmente na transferência do controle). Por praticidade, aceita-se taxa média semanal ou mensal, salvo se o câmbio oscilar muito (item 22)."),
   ("NBC TG 02", "28", "A variação cambial do fornecedor estrangeiro a pagar depois da compra vai para o resultado financeiro; não altera o custo do estoque nem da máquina."),
   ("ITG 21", "—", "Adiantamento a fornecedor estrangeiro: o item comprado fica pela taxa do dia do adiantamento (não é atualizado depois)."),
   ("NBC TG 48", "2.4", "Contratos de compra de commodity para uso na própria produção (own use), liquidados com entrega física, ficam fora do tratamento de derivativo."),
@@ -140,14 +140,16 @@ TOPICOS = [
  "DRE industrial, CPV, custo por função x natureza, margem bruta, ociosidade na DRE, IFRS 18 (2027), DVA, notas de estoques, segmentos por linha de produto",
  "Como a indústria apresenta custos e despesas e o que muda com a IFRS 18 a partir de 2027.",
  [
-  ("NBC TG 26", "99–105", "Despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota por natureza, no mínimo depreciação, amortização e benefícios a empregados."),
-  ("NBC TG 51", "—", "IFRS 18 (a partir de 1/1/2027): o CPV fica na categoria operacional e a DRE passa a ter o subtotal 'resultado operacional'. Quem apresenta por função deve divulgar em nota, por natureza, depreciação, amortização, benefícios a empregados, perdas por impairment e reduções de estoque. EBITDA e margens ajustadas usados na comunicação viram MPMs com conciliação em nota."),
+  ("NBC TG 26", "99–105", "Exercícios até 2026 (a NBC TG 26 foi revogada pela NBC TG 51 a partir de 2027): despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota a natureza, incluindo depreciação, amortização e benefícios a empregados (item 104)."),
+  ("NBC TG 51", "69–74", "A partir de 1/1/2027 (IFRS 18): o CPV fica na categoria operacional e a DRE passa a ter os subtotais obrigatórios 'resultado operacional' e 'resultado antes de financiamentos e tributos sobre o lucro'."),
+  ("NBC TG 51", "78–83", "Despesas operacionais agregadas por natureza ou por função (o custo das vendas é rubrica funcional que junta matéria-prima, pessoal, depreciação e amortização). Quem apresenta por função passa a divulgar em nota valores por natureza de despesas específicas."),
+  ("NBC TG 51", "117–125", "Indicadores ajustados usados em comunicados ao mercado (EBITDA ajustado, margem ou lucro ajustado) são medidas de desempenho definidas pela administração (MPMs), com conciliação e explicação em nota. Não são MPM o lucro bruto e o resultado operacional antes de depreciação, amortização e impairment, o 'EBITDA' simples (item 118)."),
   ("NBC TG 16", "34, 36", "Ociosidade (item 13) e perdas anormais são despesas do período: apresentar de forma que a margem bruta não fique distorcida e divulgar quando relevantes."),
   ("NBC TG 09", "—", "DVA: insumos adquiridos de terceiros (matéria-prima, energia, serviços), retenções (depreciação) e distribuição do valor adicionado (pessoal, impostos, juros, acionistas)."),
   ("NBC TG 22", "—", "Companhias abertas: segmentos costumam ser linhas de produto ou plantas, conforme a gestão interna."),
  ],
  ["DRE por função com CPV; nota de despesas por natureza.",
-  "Preparar a transição para a NBC TG 51 em 2027 (categorias, subtotais e MPMs).",
+  "Preparar a transição para a NBC TG 51 em 2027 (categorias, subtotais e MPMs); a NBC TG 51 exige conciliar a DRE do ano comparativo (Apêndice C).",
   "Nota de estoques por classe e de CPV."]),
 
 ("08-meio-ambiente-e-clima", "Meio ambiente, resíduos e clima",
@@ -237,7 +239,8 @@ def gerar(root, REC, sem_rev):
     pasta.mkdir()
 
     def cab(r):
-        refs = " · ".join(x for x in (r["cpc"], r["internacional"]) if x)
+        cpc = f"[{r['cpc']}]({r['url_cpc']})" if r.get("url_cpc") else r["cpc"]
+        refs = " · ".join(x for x in (cpc, r["internacional"]) if x)
         return f"### {r['codigo']} – {r['titulo']}" + (f" ({refs})" if refs else "") + f" · [texto oficial]({r['url']})"
 
     for arq, titulo, usar, intro, pontos, check in TOPICOS:

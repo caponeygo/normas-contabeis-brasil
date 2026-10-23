@@ -7,31 +7,33 @@ Como a indústria apresenta custos e despesas e o que muda com a IFRS 18 a parti
 > Resumo orientativo dos trechos das normas aplicáveis à indústria; não substitui o texto oficial. Os números de item seguem o CPC (mesma numeração da IAS/IFRS). Confira sempre pelo link oficial.
 
 
-### NBC TG 26 (R5) – Apresentação das Demonstrações Contábeis (CPC 26 (R1) · IAS 1) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc)
+### NBC TG 26 (R5) – Apresentação das Demonstrações Contábeis ([CPC 26 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57) · IAS 1) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc)
 
 | Item | O que diz para a indústria |
 |---|---|
-| 99–105 | Despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota por natureza, no mínimo depreciação, amortização e benefícios a empregados. |
+| 99–105 | Exercícios até 2026 (a NBC TG 26 foi revogada pela NBC TG 51 a partir de 2027): despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota a natureza, incluindo depreciação, amortização e benefícios a empregados (item 104). |
 
-### NBC TG 51 – Apresentação e Divulgação nas Demonstrações Contábeis (CPC 51 · IFRS 18) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx)
+### NBC TG 51 – Apresentação e Divulgação nas Demonstrações Contábeis ([CPC 51](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162) · IFRS 18) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx)
 
 | Item | O que diz para a indústria |
 |---|---|
-| — | IFRS 18 (a partir de 1/1/2027): o CPV fica na categoria operacional e a DRE passa a ter o subtotal 'resultado operacional'. Quem apresenta por função deve divulgar em nota, por natureza, depreciação, amortização, benefícios a empregados, perdas por impairment e reduções de estoque. EBITDA e margens ajustadas usados na comunicação viram MPMs com conciliação em nota. |
+| 69–74 | A partir de 1/1/2027 (IFRS 18): o CPV fica na categoria operacional e a DRE passa a ter os subtotais obrigatórios 'resultado operacional' e 'resultado antes de financiamentos e tributos sobre o lucro'. |
+| 78–83 | Despesas operacionais agregadas por natureza ou por função (o custo das vendas é rubrica funcional que junta matéria-prima, pessoal, depreciação e amortização). Quem apresenta por função passa a divulgar em nota valores por natureza de despesas específicas. |
+| 117–125 | Indicadores ajustados usados em comunicados ao mercado (EBITDA ajustado, margem ou lucro ajustado) são medidas de desempenho definidas pela administração (MPMs), com conciliação e explicação em nota. Não são MPM o lucro bruto e o resultado operacional antes de depreciação, amortização e impairment, o 'EBITDA' simples (item 118). |
 
-### NBC TG 16 (R2) – Estoques (CPC 16 (R1) · IAS 2) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+### NBC TG 16 (R2) – Estoques ([CPC 16 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47) · IAS 2) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
 
 | Item | O que diz para a indústria |
 |---|---|
 | 34, 36 | Ociosidade (item 13) e perdas anormais são despesas do período: apresentar de forma que a margem bruta não fique distorcida e divulgar quando relevantes. |
 
-### NBC TG 09 (R1) – Demonstração do Valor Adicionado (DVA) (CPC 09 (R1)) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBTG09(R1)&arquivo=NBCTG09(R1).doc)
+### NBC TG 09 (R1) – Demonstração do Valor Adicionado (DVA) ([CPC 09 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=40)) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc)
 
 | Item | O que diz para a indústria |
 |---|---|
 | — | DVA: insumos adquiridos de terceiros (matéria-prima, energia, serviços), retenções (depreciação) e distribuição do valor adicionado (pessoal, impostos, juros, acionistas). |
 
-### NBC TG 22 (R2) – Informações por Segmento (CPC 22 · IFRS 8) · [texto oficial](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG22(R2))
+### NBC TG 22 (R2) – Informações por Segmento ([CPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53) · IFRS 8) · [texto oficial](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG22(R2))
 
 | Item | O que diz para a indústria |
 |---|---|
@@ -40,7 +42,7 @@ Como a indústria apresenta custos e despesas e o que muda com a IFRS 18 a parti
 ## Checklist na prática
 
 - [ ] DRE por função com CPV; nota de despesas por natureza.
-- [ ] Preparar a transição para a NBC TG 51 em 2027 (categorias, subtotais e MPMs).
+- [ ] Preparar a transição para a NBC TG 51 em 2027 (categorias, subtotais e MPMs); a NBC TG 51 exige conciliar a DRE do ano comparativo (Apêndice C).
 - [ ] Nota de estoques por classe e de CPV.
 
 [← Índice da indústria](README.md) · [Todas as áreas](../areas/README.md)

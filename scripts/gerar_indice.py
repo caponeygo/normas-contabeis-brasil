@@ -9,7 +9,7 @@ tg="""ESTRUTURA CONCEITUAL|Estrutura Conceitual para Relatório Financeiro|CPC 0
 05 (R3)|Divulgação sobre Partes Relacionadas|CPC 05 (R1)|IAS 24|1/2014/NBCTG05(R3)
 06 (R3)|Arrendamentos|CPC 06 (R2)|IFRS 16|2/2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc
 07 (R2)|Subvenção e Assistência Governamentais|CPC 07 (R1)|IAS 20|2/2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc
-09 (R1)|Demonstração do Valor Adicionado (DVA)|CPC 09 (R1)|—|2/2024/NBTG09(R1)&arquivo=NBCTG09(R1).doc
+09 (R1)|Demonstração do Valor Adicionado (DVA)|CPC 09 (R1)|—|2/2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc
 10 (R3)|Pagamento Baseado em Ações|CPC 10 (R1)|IFRS 2|2/2017/NBCTG10(R3)&arquivo=NBCTG10(R3).doc
 12 (R1)|Ajuste a Valor Presente|CPC 12 (R1)|—|2/2023/NBCTG12(R1)
 15 (R4)|Combinação de Negócios|CPC 15 (R1)|IFRS 3|2/2017/NBCTG15(R4)&arquivo=NBCTG15(R4).doc
@@ -45,7 +45,7 @@ tg="""ESTRUTURA CONCEITUAL|Estrutura Conceitual para Relatório Financeiro|CPC 0
 49|Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria|CPC 49|IAS 26|2/2018/NBCTG49&arquivo=NBCTG49.doc
 50|Contratos de Seguro|CPC 50|IFRS 17|2/2021/NBCTG50&arquivo=NBCTG50.doc
 51|Apresentação e Divulgação nas Demonstrações Contábeis|CPC 51|IFRS 18|2/2025/NBCTG51&arquivo=NBCTG51.docx
-900|Entidades em Liquidação|—|—|2/2021/NBCTG900&arquivo=NBCTG900..doc"""
+900|Entidades em Liquidação|CPC Liquidação|—|2/2021/NBCTG900&arquivo=NBCTG900..doc"""
 itg="""ITG 01 (R1)|Contratos de Concessão|ICPC 01 (R1)|2/2017/ITG01(R1)&arquivo=ITG01(R1).doc
 ITG 07 (R1)|Distribuição de Lucros in Natura|ICPC 07|1/2013/ITG07(R1)
 ITG 08|Contabilização da Proposta de Pagamento de Dividendos|ICPC 08 (R1)|1/2012/001398
@@ -66,7 +66,7 @@ CTG 01|Entidades de Incorporação Imobiliária|OCPC 01|1/2009/001154
 CTG 04|Aplicação da ITG 02 – Contrato de Construção do Setor Imobiliário|OCPC 04|1/2010/001317
 CTG 05|Contratos de Concessão|OCPC 05|1/2010/001318
 CTG 06|Apresentação de Informações Financeiras Pro Forma|OCPC 06|2/2013/CTG06
-CTG 07 (R1)|Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral|OCPC 07|2/2023/CTG07&arquivo=CTG07(R1).doc
+CTG 07 (R1)|Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral|OCPC 07|2/2023/CTG07R1
 CTG 08|Reconhecimento de Determinados Ativos e Passivos – Distribuidoras de Energia Elétrica|OCPC 08|1/2014/CTG08
 CTG 09|Correlação à Estrutura Conceitual Básica do Relato Integrado|OCPC 09|2/2020/CTG09&arquivo=CTG09.doc
 CTG 10|Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO|OCPC 10|2/2024/CTG10&arquivo=CTG10.doc
@@ -178,10 +178,10 @@ NBC TAS 5000|Asseguração de Relatórios de Sustentabilidade (ISSA 5000)|2/2025
 ("NBC TR – Revisão", "", """
 NBC TR 2400|Trabalhos de Revisão de Demonstrações Contábeis|2/2013/NBCTR2400
 NBC TR 2410|Revisão de Informações Intermediárias Executada pelo Auditor da Entidade|2/2010/001274
-CTR 01|Relatório de Revisão das Informações Trimestrais (ITR)|2/2011/001345
+CTR 01 (R1)|Relatório de Revisão sobre as Informações Trimestrais (ITR)|2/2019/CTR01(R1)
 CTR 02|Relatório de Revisão das ITR e IFT de Instituições Autorizadas pelo Banco Central|2/2011/001353
 CTR 03|Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária|2/2018/NBCCTR03&arquivo=NBCCTR03.doc
-CTR 04|Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária|2/2019/CTR04&arquivo=CTR04.doc
+CTR 04|Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária|2/2019/NBCCTR04
 """),
 ("NBC TO – Asseguração", "", """
 NBC TO 3000|Trabalhos de Asseguração Diferente de Auditoria e Revisão|2/2015/NBCTO3000
@@ -193,7 +193,7 @@ CTO 02|Asseguração Razoável sobre Informações Financeiras Pro Forma (Instru
 CTO 03|Relatórios sobre Serviços de Depósito Centralizado, Custódia, Escrituração e Emissão de Certificados|2/2016/CTO03&arquivo=CTO03.doc
 CTO 04 (R1)|Orientação aos Auditores (alteração da CTO 04)|2/2020/CTO04(R1)&arquivo=CTO04%20(R1).doc
 CTO 05 (R2)|Asseguração Razoável sobre o Relatório de Dados Anuais (RDA)|U/https://cfc.org.br/wp-content/uploads/2023/09/CTO-05-R2.final_.docx
-CTO 06|Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária|U/https://cfc.org.br/wp-content/uploads/2021/05/CTO_06.doc
+CTO 06|Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária|2/2021/CTO06
 CTO 07|Asseguração Limitada sobre Informações Não Financeiras do Relato Integrado|2/2022%20CTO%2007&arquivo=CTO%2007%20.doc
 CTO 08|Asseguração Razoável na Relicitação de Contratos de Parceria Rodoviária|2/2022%20CTO%2008&arquivo=CTO08.doc
 """),
@@ -253,7 +253,7 @@ IFRS 15|Receita de Contrato com Cliente|CPC 47|NBC TG 47
 IFRS 16|Arrendamentos|CPC 06|NBC TG 06
 IFRS 17|Contratos de Seguro|CPC 50|NBC TG 50
 IFRS 18|Apresentação e Divulgação nas Demonstrações Financeiras|CPC 51|NBC TG 51
-IFRS 19|Controladas sem Responsabilidade Pública: Divulgações|—|—
+IFRS 19|Controladas sem Responsabilidade Pública: Divulgações|CPC 52|—
 IAS 1|Apresentação das Demonstrações Contábeis (substituída pela IFRS 18 a partir de 2027)|CPC 26|NBC TG 26
 IAS 2|Estoques|CPC 16|NBC TG 16
 IAS 7|Demonstração dos Fluxos de Caixa|CPC 03|NBC TG 03
@@ -290,6 +290,17 @@ def url(p):
         n, rest = p.split("/", 1)
         u = (B1 if n == "2" else B0) + rest
     return u.replace(' ', '%20')
+
+# links oficiais do CPC (scripts/cpc.json, gerado por scripts/atualizar_cpc.py)
+import json as _json, re as _re
+from pathlib import Path as _P
+def _ncpc(c):
+    return _re.sub(r"\s*\(R\d+\)", "", c or "").replace(" ", "").upper()
+_cpcj = _P(__file__).resolve().parent / "cpc.json"
+CPC_URL = {_ncpc(x["codigo"]): x["url"] for x in _json.loads(_cpcj.read_text(encoding="utf-8"))} if _cpcj.exists() else {}
+def link_cpc(c):
+    u = CPC_URL.get(_ncpc(c))
+    return f"[{c}]({u})" if u else (c or "—")
 
 def link(p):
     return f"[abrir]({url(p)})"
@@ -333,11 +344,11 @@ out.append("## NBC TG – Normas técnicas gerais\n\n| NBC TG | Título | CPC | 
 for l in tg.splitlines():
     c, t, cpc, i, p = l.split("|")
     code = "NBC TG Estrutura Conceitual" if c == "ESTRUTURA CONCEITUAL" else "NBC TG " + c
-    out.append(f"| {code} | {t} | {cpc} | {i} | {link(p)} |")
+    out.append(f"| {code} | {t} | {link_cpc(cpc) if cpc != '—' else cpc} | {i} | {link(p)} |")
 out.append("\n## ITG / CTG / OTG – Interpretações e comunicados\n\n| Norma | Título | CPC equivalente | Texto |\n|---|---|---|---|")
 for l in itg.splitlines():
     c, t, cpc, p = l.split("|")
-    out.append(f"| {c} | {t} | {cpc} | {link(p)} |")
+    out.append(f"| {c} | {t} | {link_cpc(cpc) if cpc != '—' else cpc} | {link(p)} |")
 out.append("\n## NBC TA – Auditoria independente\n\nNormas convergidas com as ISA (IAASB/IFAC).\n\n| NBC TA | Título | Texto |\n|---|---|---|")
 for l in ta.splitlines():
     c, t, p = l.split("|")
@@ -355,7 +366,7 @@ out.append("\n## Normas internacionais – IFRS e IAS (IASB)\n\n"
            "| Norma | Título | CPC | NBC TG |\n|---|---|---|---|")
 for l in IFRS.strip().splitlines():
     c, t, cpc, tgx = l.split("|")
-    out.append(f"| {c} | {t} | {cpc} | {tgx} |")
+    out.append(f"| {c} | {t} | {link_cpc(cpc) if cpc != '—' else cpc} | {tgx} |")
 out.append("\nAs **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). "
            "Textos das ISA: <https://www.iaasb.org/standards-pronouncements>.")
 
@@ -410,7 +421,20 @@ for r in REC:
     if not txt:
         faltando.append(r["codigo"]); txt = "|"
     r["resumo"], r["afeta"] = txt.split("|", 1)
+    r["url_cpc"] = CPC_URL.get(_ncpc(r["cpc"])) if r["cpc"] else None
 assert not faltando, f"sem resumo: {faltando}"
+
+# ---------- situação: normas que o CFC revogou (conferido em scripts/verificar_links.py) ----------
+REVOGADAS = {
+ "NBC TG 26": "Revogada pela NBC TG 51 (aprovada em 13/11/2025, DOU 25/02/2026), que se aplica aos exercícios iniciados a partir de 1/1/2027. Use a NBC TG 26 só para exercícios anteriores.",
+ "CTR 03": "Revogada pela CTR 04 (2019).",
+ "NBC TO 3410": "Revogada pela NBC TAS 5000 (DOU 18/12/2025).",
+ "CTO 01": "Revogada pela CTO 07 (2022).",
+}
+for r in REC:
+    r["situacao"] = REVOGADAS.get(sem_rev(r["codigo"]), "vigente")
+    if r["situacao"] != "vigente":
+        r["resumo"] = "⚠ " + r["situacao"] + " " + r["resumo"]
 
 # ---------- áreas por série ----------
 AREA_SERIE = {
@@ -565,7 +589,7 @@ shutil.rmtree(pasta, ignore_errors=True); pasta.mkdir()
 (ROOT / "AREAS.md").unlink(missing_ok=True)
 
 def linha(r):
-    refs = " · ".join(x for x in (r["cpc"], r["internacional"]) if x) or "—"
+    refs = " · ".join(x for x in ((link_cpc(r["cpc"]) if r["cpc"] else None), r["internacional"]) if x) or "—"
     return f"| **{r['codigo']}** – {r['titulo']} | {r['resumo']} | {r['afeta']} | {refs} | [abrir]({r['url']}) |"
 
 for a in ordem:

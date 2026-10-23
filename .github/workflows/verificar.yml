@@ -1,0 +1,78 @@
+# Verificação automática do índice:
+#  - toda segunda: links oficiais (CFC e CPC) + monitor de normas novas/revisadas no CFC
+#  - na primeira segunda do mês (ou manual): também baixa os PDFs e confere itens e resumos
+# Se algo precisar de atenção, abre (ou comenta) uma issue com o rótulo "verificacao".
+name: Verificar normas
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"        # segunda, 06:00 de Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["normas.json", "scripts/**"]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Decidir se confere o conteúdo (mensal)
+        id: plano
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date +%d)" -le 7 -a "${{ github.event_name }}" = "schedule" ]; then
+            echo "conteudo=sim" >> "$GITHUB_OUTPUT"
+            sudo apt-get install -y -qq poppler-utils
+          fi
+
+      - name: Verificar links oficiais
+        id: links
+        continue-on-error: true
+        run: python scripts/verificar_links.py ${{ steps.plano.outputs.conteudo == 'sim' && '--baixar' || '' }}
+
+      - name: Monitorar normas novas no CFC
+        id: monitor
+        continue-on-error: true
+        run: python scripts/monitorar_cfc.py
+
+      - name: Conferir itens e resumos contra o texto oficial
+        id: itens
+        if: steps.plano.outputs.conteudo == 'sim'
+        continue-on-error: true
+        run: python scripts/verificar_itens.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: relatorios-verificacao
+          path: verificacao/*.md
+
+      - name: Abrir issue se houver algo a conferir
+        if: steps.links.outcome == 'failure' || steps.monitor.outcome == 'failure' || steps.itens.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Resultado da verificação automática ($(date -u +%Y-%m-%d))."
+            echo
+            [ "${{ steps.links.outcome }}" = "failure" ] && cat verificacao/LINKS.md
+            [ "${{ steps.monitor.outcome }}" = "failure" ] && cat verificacao/MONITOR.md
+            [ "${{ steps.itens.outcome }}" = "failure" ] && cat verificacao/CONTEUDO.md
+            echo
+            echo "Depois de corrigir em scripts/, rode \`python graphify-out/rebuild_graph.py\`."
+          } > corpo.md
+          gh label create verificacao --color FBCA04 --description "Verificação automática das normas" --force
+          n=$(gh issue list --label verificacao --state open --json number -q '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file corpo.md
+          else
+            gh issue create --title "Verificação automática: normas para conferir" --label verificacao --body-file corpo.md
+          fi
