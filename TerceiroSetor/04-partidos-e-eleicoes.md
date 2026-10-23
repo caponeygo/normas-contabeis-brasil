@@ -24,3 +24,12 @@ Desde as eleições de 2026, a contabilidade de partidos e campanhas segue obrig
 - [ ] Aplicar a NBC TPE 01 na prestação de contas de campanha de 2026.
 
 [← Terceiro Setor: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TPE 01 – A Contabilidade Aplicada a Partidos e Eleições](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTPE01&arquivo=NBCTPE01.doc)
+- [OT CFC 02/2026 – Obrigatoriedade da NBC TPE 01 nos Processos Eleitorais a partir de 2026](https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf)
+<!-- fontes:fim -->

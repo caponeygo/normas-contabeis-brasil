@@ -45,3 +45,18 @@ A SUSEP tem regime contábil próprio para as demonstrações individuais das su
 - [ ] Fundos de pensão: demonstrações por plano conforme ITG 2001.
 
 [← Financeiro: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [IFRS 17 – Contratos de Seguro](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [CPC 50 – Contratos de Seguro](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127)
+- [SUSEP – Superintendência de Seguros Privados](https://www.gov.br/susep/pt-br)
+- [NBC TG 50 – Contratos de Seguro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG50&arquivo=NBCTG50.doc)
+- [Res. CVM 42/2021 – Aprova o CPC 50 – Contratos de Seguro](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol042.html)
+- [ITG 2001 – Entidade Fechada de Previdência Complementar](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG2001&arquivo=ITG%202001.doc)
+- [NBC TG 49 – Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCTG49&arquivo=NBCTG49.doc)
+- [CPC 49 – Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111)
+<!-- fontes:fim -->

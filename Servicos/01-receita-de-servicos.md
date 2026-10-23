@@ -26,3 +26,13 @@ Em serviços a receita costuma ser reconhecida ao longo do tempo. O ponto é ide
 - [ ] Provisionar multas por SLA como redução de receita.
 
 [← Serviços: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
+- [IFRS 15 – Receita de Contrato com Cliente](https://www.ifrs.org/issued-standards/list-of-standards/)
+<!-- fontes:fim -->

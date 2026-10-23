@@ -57,3 +57,50 @@
 | **NBC TA 805** – Auditoria de Quadros Isolados e de Elementos, Contas ou Itens Específicos das Demonstrações Contábeis | Auditoria de uma única demonstração ou de conta/item específico (ex.: só o BP, só o saldo de receitas para royalties). | Relatório do auditor | ISA 805 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc) |
 | **NBC TA 810** – Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas | Relatório sobre demonstrações condensadas derivadas de demonstrações auditadas. | Relatório do auditor | ISA 810 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA810&arquivo=NBCTA810.doc) |
 | **NBC TAS 5000** – Asseguração de Relatórios de Sustentabilidade (ISSA 5000) | ISSA 5000: asseguração (limitada ou razoável) de relatórios de sustentabilidade, por auditor ou outro profissional. | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [ISA (IAASB) – Normas internacionais de auditoria e asseguração](https://www.iaasb.org/)
+- [NBC TA 240 (R2) – Responsabilidade do Auditor em Relação a Fraude](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA240(R2)&arquivo=NBCTA240(R2).docx)
+- [NBC TA 210 (R1) – Concordância com os Termos do Trabalho de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA210(R1))
+- [NBC TA 250 – Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA250)
+- [NBC TA 265 – Comunicação de Deficiências de Controle Interno](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001210)
+- [NBC TA 300 (R1) – Planejamento da Auditoria de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA300(R1))
+- [NBC TA 315 (R2) – Identificação e Avaliação dos Riscos de Distorção Relevante](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA315(R2)&arquivo=NBCTA315(R2).doc)
+- [NBC TA 320 (R1) – Materialidade no Planejamento e na Execução da Auditoria](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA320(R1))
+- [NBC TA 330 (R1) – Resposta do Auditor aos Riscos Avaliados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA330(R1))
+- [NBC TA 450 (R1) – Avaliação das Distorções Identificadas durante a Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA450(R1))
+- [NBC TA 230 (R1) – Documentação de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA230(R1))
+- [NBC TA 500 (R1) – Evidência de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA500(R1))
+- [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
+- [NBC TA 505 – Confirmações Externas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001219)
+- [NBC TA 510 (R1) – Trabalhos Iniciais – Saldos Iniciais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA510(R1))
+- [NBC TA 520 – Procedimentos Analíticos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001221)
+- [NBC TA 530 – Amostragem em Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001222)
+- [NBC TA 540 (R2) – Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc)
+- [NBC TA 570 (R1) – Continuidade Operacional](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA570(R1)&arquivo=NBCTA570(R1).docx)
+- [NBC TA 580 (R1) – Representações Formais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA580(R1))
+- [NBC TA 700 – Formação da Opinião e Emissão do Relatório do Auditor Independente](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf)
+- [NBC TA 701 – Comunicação dos Principais Assuntos de Auditoria (PAA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA701)
+- [NBC TA 705 – Modificações na Opinião do Auditor Independente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA705)
+- [NBC TA 706 – Parágrafos de Ênfase e Parágrafos de Outros Assuntos](https://cfc.org.br/wp-content/uploads/2026/06/NBC-TA-706.pdf)
+- [NBC TA 720 – Responsabilidade do Auditor em Relação a Outras Informações](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA720)
+- [NBC TA 810 – Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA810&arquivo=NBCTA810.doc)
+- [NBC TAS 5000 – Asseguração de Relatórios de Sustentabilidade (ISSA 5000)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx)
+- [NBC TA 260 (R2) – Comunicação com os Responsáveis pela Governança](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf)
+- [NBC TA 402 – Considerações de Auditoria para Entidade que Utiliza Organização Prestadora de Serviços](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001215)
+- [NBC TA 600 (R2) – Auditorias de Demonstrações Contábeis de Grupos, Incluindo o Trabalho dos Auditores dos Componentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTA600(R2)&arquivo=NBC%20TA%20600%20(R2).doc)
+- [NBC TA 610 – Utilização do Trabalho de Auditoria Interna](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTA610)
+- [NBC TA 620 – Utilização do Trabalho de Especialistas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001230)
+- [NBC TA Estrutura Conceitual – Estrutura Conceitual para Trabalhos de Asseguração](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTAESTRUTURACONCEITUAL)
+- [NBC TA 200 (R1) – Objetivos Gerais do Auditor Independente e a Condução da Auditoria em Conformidade com Normas de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA200(R1))
+- [NBC TA 220 (R3) – Gestão de Qualidade da Auditoria de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA220(R3)&arquivo=NBCTA220%20(R3).doc)
+- [NBC TA 550 – Partes Relacionadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001224)
+- [NBC TA 560 (R1) – Eventos Subsequentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA560(R1))
+- [NBC TA 710 (R1) – Informações Comparativas – Valores Correspondentes e Demonstrações Contábeis Comparativas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA710(R1))
+- [NBC TA 800 – Auditorias de Demonstrações Elaboradas de Acordo com Estruturas Conceituais para Propósitos Especiais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA800&arquivo=NBCTA800.doc)
+- [NBC TA 805 – Auditoria de Quadros Isolados e de Elementos, Contas ou Itens Específicos das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc)
+<!-- fontes:fim -->

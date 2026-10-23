@@ -41,3 +41,18 @@ Quando e quanto reconhecer de receita na venda de produtos, e como tratar as obr
 - [ ] Tratar devoluções esperadas e remessas em consignação.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
+- [IFRS 15 – Receita de Contrato com Cliente](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 12 (R1) – Ajuste a Valor Presente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56)
+- [ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
+- [ICPC 15 – Passivo Decorrente de Participação em um Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24)
+<!-- fontes:fim -->

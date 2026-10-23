@@ -45,3 +45,18 @@ Muitos prestadores de serviço são pequenos e podem usar as normas simplificada
 - [ ] Levantar contratos de aluguel de escritório e equipamentos.
 
 [← Serviços: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 1001 – Contabilidade para Pequenas Empresas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1001&arquivo=NBCTG1001.doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [CPC 06 – Arrendamentos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
+- [IFRS 15 – Receita de Contrato com Cliente](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 1002 – Contabilidade para Microentidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)
+- [ITG 2000 (R1) – Escrituração Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG2000(R1)&arquivo=ITG2000(R1).doc)
+<!-- fontes:fim -->

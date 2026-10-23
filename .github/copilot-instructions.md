@@ -46,7 +46,9 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
    | ESG e clima | NBC TDS ≡ IFRS S1/S2 | Sustentabilidade |
    | Partidos e campanhas eleitorais | NBC TPE 01 | Contabilidade Eleitoral |
 
-7. **Responda** citando o código (ex.: "NBC TG 27 (R4) / CPC 27 / IAS 16"), o item quando houver e o link oficial.
+7. **Cite as fontes.** Todo arquivo termina com uma seção **Fontes** com o link oficial de cada norma ou lei citada.
+   Use esses links na resposta.
+8. **Responda** citando o código (ex.: "NBC TG 27 (R4) / CPC 27 / IAS 16"), o item quando houver e o link oficial.
    Os resumos são orientação: para detalhes, confira o texto oficial.
 
 ### Exemplos

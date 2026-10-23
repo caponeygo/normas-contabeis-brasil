@@ -62,7 +62,7 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 - CVM: <https://www.gov.br/cvm>
 
 - IFRS Foundation (IFRS, IAS, IFRS S): <https://www.ifrs.org/issued-standards/list-of-standards/>
-- IAASB (ISA): <https://www.iaasb.org/standards-pronouncements>
+- IAASB (ISA): <https://www.iaasb.org/>
 
 ## Como ler a numeração
 `CPC 26 (R1)` é o pronunciamento do CPC. O CFC o torna obrigatório para os contadores como `NBC TG 26 (R5)`.
@@ -89,7 +89,7 @@ for i, s in enumerate(SECOES):
     out.append(("" if i == 0 else "\n") + f"## {s['titulo']}\n\n" + (s["intro"] + "\n\n" if s["intro"] else "") + cab)
     out += [linha_norma(n) for n in NORMAS if n["secao"] == s["secao"]]
 out.append("\nAs **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). "
-           "Textos das ISA: <https://www.iaasb.org/standards-pronouncements>.")
+           "Textos das ISA: <https://www.iaasb.org/>.")
 out.append("""
 ## Contribuir
 Encontrou link quebrado, norma nova ou revisão? Veja o [CONTRIBUTING.md](CONTRIBUTING.md): abra uma *issue* ou edite as planilhas em [dados/](dados/README.md).

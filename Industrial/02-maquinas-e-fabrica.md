@@ -59,3 +59,23 @@ Na indústria, o imobilizado costuma ser o maior ativo. As decisões que mais me
 - [ ] Contratos de aluguel de equipamentos e de fornecimento revisados para arrendamento embutido.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [CPC 27 – Ativo Imobilizado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58)
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [NBC TG 23 (R2) – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG23(R2)&arquivo=NBCTG23(R2).doc)
+- [NBC TG 20 (R2) – Custos de Empréstimos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG20(R2)&arquivo=NBCTG20(R2).doc)
+- [CPC 20 – Custos de Empréstimos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51)
+- [NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)
+- [CPC 01 – Redução ao Valor Recuperável de Ativos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=2)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [CPC 06 – Arrendamentos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37)
+- [IFRS 16 – Arrendamentos](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [ITG 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265)
+- [ICPC 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21)
+<!-- fontes:fim -->

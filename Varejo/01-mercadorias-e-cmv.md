@@ -34,3 +34,15 @@ No comércio o estoque é o maior ativo circulante. A regra é a mesma da indús
 - [ ] Inventário rotativo documentado e conciliado com o razão.
 
 [← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [CPC 16 – Estoques](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47)
+- [IAS 2 – Estoques](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
+- [ISA (IAASB) – Normas internacionais de auditoria e asseguração](https://www.iaasb.org/)
+<!-- fontes:fim -->

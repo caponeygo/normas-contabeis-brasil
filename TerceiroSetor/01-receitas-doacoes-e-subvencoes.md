@@ -37,3 +37,15 @@ A ITG 2002 adapta as normas às entidades sem fins lucrativos. O ponto central �
 - [ ] Não registrar imunidade como receita; divulgar a renúncia fiscal em nota.
 
 [← Terceiro Setor: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [ITG 2002 (R1) – Entidade sem Finalidade de Lucros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/ITG2002(R1)&arquivo=ITG2002(R1).doc)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [CPC 07 – Subvenção e Assistência Governamentais](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38)
+- [IAS 20 – Subvenção e Assistência Governamentais](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [LC 187/2021 – Certificação de entidades beneficentes (CEBAS)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp187.htm)
+<!-- fontes:fim -->

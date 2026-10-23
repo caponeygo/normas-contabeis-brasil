@@ -46,3 +46,13 @@ Compra de insumo importado de US$ 10.000 à taxa de R$ 5,00 (R$ 50.000). No fech
 Por quê: o estoque fica pela taxa da data da compra (NBC TG 02, itens 21–23); a variação posterior da dívida vai para o resultado financeiro, sem mudar o custo do estoque (item 28).
 
 [← Lançamentos](README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [NBC TG 02 (R3) – Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc)
+- [Res. CMN 4.966/2021 – Instrumentos financeiros nas instituições do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966)
+<!-- fontes:fim -->

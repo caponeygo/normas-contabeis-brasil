@@ -39,3 +39,19 @@ O agro se financia com crédito subsidiado e protege preço com contratos futuro
 - [ ] Documentar relações de hedge antes de contratar.
 
 [← Agronegócio: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [CPC 07 – Subvenção e Assistência Governamentais](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38)
+- [NBC TG 29 (R2) – Ativo Biológico e Produto Agrícola](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))
+- [CPC 29 – Ativo Biológico e Produto Agrícola](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60)
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [CPC 48 – Instrumentos Financeiros](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106)
+- [NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
+- [CPC 40 – Instrumentos Financeiros: Evidenciação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71)
+- [IFRS 7 – Instrumentos Financeiros: Evidenciação](https://www.ifrs.org/issued-standards/list-of-standards/)
+<!-- fontes:fim -->

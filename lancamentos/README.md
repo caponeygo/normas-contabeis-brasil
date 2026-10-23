@@ -15,3 +15,11 @@ Lançamentos (débito e crédito) para as situações mais comuns, com a norma q
 > Exemplos didáticos, não substituem a análise do caso concreto. As normas citadas estão em [areas/](../areas/README.md) e nas pastas por setor.
 
 [Índice geral](../README.md) · [Glossário](../GLOSSARIO.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+<!-- fontes:fim -->

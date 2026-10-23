@@ -30,3 +30,13 @@ As demonstrações seguem a estrutura comum com outra nomenclatura e mais divulg
 - [ ] Notas com subvenções, convênios e gratuidades por atividade.
 
 [← Terceiro Setor: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [ITG 2002 (R1) – Entidade sem Finalidade de Lucros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/ITG2002(R1)&arquivo=ITG2002(R1).doc)
+- [NBC TG 1000 (R1) – Contabilidade para Pequenas e Médias Empresas (CPC PME)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc)
+- [CPC PME – Contabilidade para Pequenas e Médias Empresas com Glossário de Termos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=79)
+<!-- fontes:fim -->

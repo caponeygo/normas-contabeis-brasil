@@ -26,3 +26,18 @@ Trechos das normas que importam para entidades sem finalidade de lucros (associa
 | Partido político segue qual norma? | NBC TPE 01, obrigatória a partir das eleições de 2026. | [OT CFC 02/2026](https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf) |
 
 [Todas as áreas](../areas/README.md) · [Índice geral](../README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [ITG 2002 (R1) – Entidade sem Finalidade de Lucros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/ITG2002(R1)&arquivo=ITG2002(R1).doc)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [LC 187/2021 – Certificação de entidades beneficentes (CEBAS)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp187.htm)
+- [NBC TG 1000 (R1) – Contabilidade para Pequenas e Médias Empresas (CPC PME)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc)
+- [ITG 2004 – Entidade Cooperativa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG2004&arquivo=ITG2004.doc)
+- [IFRIC 2 – Cotas de Cooperados em Entidades Cooperativas](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TPE 01 – A Contabilidade Aplicada a Partidos e Eleições](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTPE01&arquivo=NBCTPE01.doc)
+- [OT CFC 02/2026 – Obrigatoriedade da NBC TPE 01 nos Processos Eleitorais a partir de 2026](https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf)
+<!-- fontes:fim -->

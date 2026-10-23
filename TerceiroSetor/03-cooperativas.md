@@ -27,3 +27,13 @@ Cooperativas seguem a ITG 2004, com resultado segregado entre atos com cooperado
 - [ ] Transferir para o passivo as quotas de cooperados que saíram.
 
 [← Terceiro Setor: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [ITG 2004 – Entidade Cooperativa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG2004&arquivo=ITG2004.doc)
+- [IFRIC 2 – Cotas de Cooperados em Entidades Cooperativas](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [ICPC 14 – Cotas de Cooperados em Entidades Cooperativas e Instrumentos Similares](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23)
+<!-- fontes:fim -->

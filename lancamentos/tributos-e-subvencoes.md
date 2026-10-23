@@ -62,3 +62,16 @@ Na compra (comprador com direito a crédito):
 Por quê: IBS e CBS não integram a receita (OT CFC 01/2026, itens 5 e 16.2); o split payment baixa o passivo e o recebível na liquidação (item 22); créditos recuperáveis ficam fora do custo (item 12; NBC TG 16, item 11). Em 2026 (período de teste) a entidade pode reconhecer ou não o passivo, divulgando a escolha (itens 25–29).
 
 [← Lançamentos](README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 32 (R4) – Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [OT CFC 01/2026 – Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf)
+- [Lei 6.404/1976 – Lei das Sociedades por Ações](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)
+- [Lei 14.789/2023 – Crédito fiscal de subvenção para investimento](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14789.htm)
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+<!-- fontes:fim -->

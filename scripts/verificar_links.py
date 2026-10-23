@@ -105,7 +105,7 @@ def main():
     # regras de fora do CFC citadas nas pastas de setor (BCB, CVM, SUSEP, leis)
     sys.path.insert(0, str(ROOT / "scripts"))
     from dados import ler
-    for e in ler("setores_externas.csv"):
+    for e in ler("setores_externas.csv") + ler("fontes_externas.csv"):
         if e["url"] not in vistos:
             vistos.add(e["url"]); alvos.append({"codigo": e["codigo"], "titulo": e["titulo"], "url": e["url"]})
     with ThreadPoolExecutor(4) as ex:                 # 4 conexões: educado com o servidor do CFC

@@ -29,3 +29,19 @@ Trechos das normas que importam para prestadores de serviço: consultorias, escr
 | Empresa do Simples precisa de contabilidade? | Sim, escrituração regular conforme ITG 2000. | [ITG 2000 (R1)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG2000(R1)&arquivo=ITG2000(R1).doc) |
 
 [Todas as áreas](../areas/README.md) · [Índice geral](../README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [NBC TG 33 (R2) – Benefícios a Empregados](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG33(R2))
+- [NBC TG 04 (R4) – Ativo Intangível](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
+- [NBC TG 10 (R3) – Pagamento Baseado em Ações](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG10(R3)&arquivo=NBCTG10(R3).doc)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [NBC TG 1001 – Contabilidade para Pequenas Empresas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1001&arquivo=NBCTG1001.doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [NBC TG 1002 – Contabilidade para Microentidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)
+- [ITG 2000 (R1) – Escrituração Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG2000(R1)&arquivo=ITG2000(R1).doc)
+<!-- fontes:fim -->

@@ -43,3 +43,19 @@ Obrigações que continuam depois da entrega e particularidades de equipamentos 
 - [ ] Controle contábil separado por empreendimento com patrimônio de afetação.
 
 [← Construção e Incorporação: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56)
+- [Código Civil – Lei 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [CPC 27 – Ativo Imobilizado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [CPC 06 – Arrendamentos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37)
+- [IFRS 16 – Arrendamentos](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [Lei 10.931/2004 – Patrimônio de afetação e RET na incorporação imobiliária](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm)
+<!-- fontes:fim -->

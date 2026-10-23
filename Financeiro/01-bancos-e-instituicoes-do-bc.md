@@ -41,3 +41,16 @@ Em vigor desde 1/1/2025. Substituiu, entre outras, a Res. CMN 2.682/1999 (provis
 - [ ] Modelo de perda esperada com estágios e pisos regulatórios.
 
 [← Financeiro: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [COSIF – Plano Contábil das Instituições do Sistema Financeiro Nacional](https://www3.bcb.gov.br/aplica/cosif)
+- [Res. CMN 4.966/2021 – Instrumentos financeiros nas instituições do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966)
+- [IFRS 9 – Instrumentos Financeiros](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [Res. BCB 352/2023 – Procedimentos complementares à Res. CMN 4.966](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=352)
+- [CPC 48 – Instrumentos Financeiros](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106)
+<!-- fontes:fim -->

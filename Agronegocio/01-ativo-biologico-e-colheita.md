@@ -32,3 +32,16 @@ A NBC TG 29 é a norma central do agro: animais e plantas vivos ficam a valor ju
 - [ ] Registrar a colheita: baixa do ativo biológico e entrada no estoque pelo valor justo.
 
 [← Agronegócio: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 29 (R2) – Ativo Biológico e Produto Agrícola](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [CPC 29 – Ativo Biológico e Produto Agrícola](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [CPC 16 – Estoques](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47)
+- [IAS 2 – Estoques](https://www.ifrs.org/issued-standards/list-of-standards/)
+<!-- fontes:fim -->

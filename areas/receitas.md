@@ -21,3 +21,18 @@
 | **NBC TSP 02** – Receita de Transação com Contraprestação | Receita com contraprestação (venda de bens e serviços pelo ente público). | DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc) |
 | **IFRS 15** – Receita de Contrato com Cliente | Receita de contrato com cliente (IFRS 15): modelo de 5 passos (contrato, obrigações de desempenho, preço, alocação, reconhecimento em um momento ou ao longo do tempo), contraprestação variável, custos de contrato e principal x agente. | DRE (receita), BP (ativo/passivo de contrato), NE | [CPC 47](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105) · NBC TG 47 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 20** – Subvenção e Assistência Governamentais | Subvenção governamental (incentivos fiscais, subsídios): reconhecida no resultado ao longo do período em que os custos compensados são incorridos, apresentada como receita ou redução de despesa. No Brasil, interage com a reserva de incentivos fiscais (Lei 6.404 art. 195-A). | DRE, DMPL (reserva), NE | [CPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38) · NBC TG 07 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [IFRS 15 – Receita de Contrato com Cliente](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [NBC TSP 01 – Receita de Transação sem Contraprestação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc)
+- [NBC TSP 02 – Receita de Transação com Contraprestação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [Lei 6.404/1976 – Lei das Sociedades por Ações](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)
+- [CPC 07 – Subvenção e Assistência Governamentais](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38)
+- [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
+<!-- fontes:fim -->

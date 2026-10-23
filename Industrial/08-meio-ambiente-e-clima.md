@@ -57,3 +57,25 @@ Obrigações ambientais da operação industrial e as novas divulgações de cli
 - [ ] Acompanhar o mercado regulado de carbono (SBCE, Lei 15.042/2024) para grandes emissores.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [CPC 27 – Ativo Imobilizado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58)
+- [IAS 16 – Ativo Imobilizado](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [ITG 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265)
+- [ICPC 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21)
+- [ITG 13 (R2) – Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG13(R2)&arquivo=ITG13(R2).doc)
+- [ICPC 13 – Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22)
+- [ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
+- [ICPC 15 – Passivo Decorrente de Participação em um Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24)
+- [CTG 10 – Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc)
+- [OCPC 10 – Créditos de Carbono (tCO2e), Permissões de emissão (allowances) e Crédito de Descarbonização (CBIO)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=161)
+- [NBC TDS 02 – Divulgações Relacionadas ao Clima (IFRS S2)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc)
+- [Lei 15.042/2024 – Sistema Brasileiro de Comércio de Emissões (SBCE)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15042.htm)
+<!-- fontes:fim -->

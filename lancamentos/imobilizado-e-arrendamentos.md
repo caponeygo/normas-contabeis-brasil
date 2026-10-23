@@ -63,3 +63,13 @@ Linha de produção com valor contábil de R$ 800.000 e valor recuperável de R$
 Por quê: o ativo não pode ficar acima do valor recuperável (NBC TG 01). A depreciação futura passa a ser calculada sobre o novo valor.
 
 [← Lançamentos](README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)
+<!-- fontes:fim -->

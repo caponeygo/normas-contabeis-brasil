@@ -30,3 +30,21 @@ Trechos das normas que importam para atacado, varejo, e-commerce e distribuidore
 | Cada loja é testada para impairment separadamente? | Em geral sim: cada loja costuma ser uma UGC. | [NBC TG 01 (R4)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc) (itens 66–73) |
 
 [Todas as áreas](../areas/README.md) · [Índice geral](../README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [NBC TG 12 (R1) – Ajuste a Valor Presente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [OT CFC 01/2026 – Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf)
+<!-- fontes:fim -->

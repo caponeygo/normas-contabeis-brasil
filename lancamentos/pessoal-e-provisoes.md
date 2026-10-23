@@ -38,3 +38,12 @@ Advogados avaliam a perda como provável, estimada em R$ 50.000.
 Por quê: obrigação presente, saída de recursos provável e estimativa confiável (NBC TG 25, item 14). Perda possível: só nota explicativa; remota: nada.
 
 [← Lançamentos](README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 33 (R2) – Benefícios a Empregados](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG33(R2))
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+<!-- fontes:fim -->

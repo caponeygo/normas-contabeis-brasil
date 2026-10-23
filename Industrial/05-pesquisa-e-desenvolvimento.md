@@ -30,3 +30,16 @@ Quando o gasto com novos produtos ou processos pode virar ativo intangível e qu
 - [ ] Incentivos fiscais de P&D (ex.: Lei do Bem) são tema fiscal; contabilmente seguem a NBC TG 07 quando forem subvenção.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 04 (R4) – Ativo Intangível](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
+- [CPC 04 – Ativo Intangível](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [CPC 27 – Ativo Imobilizado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58)
+- [IAS 16 – Ativo Imobilizado](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+<!-- fontes:fim -->

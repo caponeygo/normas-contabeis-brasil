@@ -38,3 +38,16 @@ Particularidades de usinas e pontos que o auditor mais examina no agro.
 - [ ] Controle de CBIOs emitidos e vendidos.
 
 [← Agronegócio: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [CTG 10 – Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc)
+- [OCPC 10 – Créditos de Carbono (tCO2e), Permissões de emissão (allowances) e Crédito de Descarbonização (CBIO)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=161)
+- [NBC TA 540 (R2) – Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc)
+- [ISA (IAASB) – Normas internacionais de auditoria e asseguração](https://www.iaasb.org/)
+- [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
+- [NBC TA 620 – Utilização do Trabalho de Especialistas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001230)
+<!-- fontes:fim -->

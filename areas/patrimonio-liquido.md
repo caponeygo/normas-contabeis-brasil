@@ -24,3 +24,22 @@
 | **IFRIC 2** – Cotas de Cooperados em Entidades Cooperativas | Cotas de cooperados: são patrimônio líquido só se a cooperativa puder recusar incondicionalmente o resgate ou se a lei/estatuto proibir o resgate; caso contrário, são passivo. No Brasil: ICPC 14 (sem ITG correspondente na lista do CFC). | BP | [ICPC 14](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23) | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRIC 17** – Distribuição de Ativos Não Monetários aos Sócios | Distribuição de dividendos em ativos que não são caixa (ex.: imóveis, ações de controlada): passivo pelo valor justo dos ativos a distribuir. | BP, DMPL | [ICPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16) · ITG 07 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRIC 19** – Extinção de Passivos Financeiros com Instrumentos Patrimoniais | Quando a empresa quita dívida entregando ações (conversão de dívida em capital): a diferença entre o valor contábil da dívida e o valor justo das ações vai para o resultado. | BP, DRE, DMPL | [ICPC 16](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25) · ITG 16 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 10 (R3) – Pagamento Baseado em Ações](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG10(R3)&arquivo=NBCTG10(R3).doc)
+- [NBC TG 41 (R2) – Resultado por Ação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG41(R2))
+- [ITG 07 (R1) – Distribuição de Lucros in Natura](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG07(R1))
+- [ITG 08 – Contabilização da Proposta de Pagamento de Dividendos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001398)
+- [ITG 16 (R2) – Extinção de Passivos Financeiros com Instrumentos Patrimoniais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG16(R2)&arquivo=ITG16(R2).doc)
+- [IFRS 2 – Pagamento Baseado em Ações](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [CPC 10 – Pagamento Baseado em Ações](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=41)
+- [CPC 41 – Resultado por Ação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=72)
+- [ICPC 07 – Distribuição de Lucros in Natura](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16)
+- [ICPC 08 – Contabilização da Proposta de Pagamento de Dividendos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=17)
+- [ICPC 16 – Extinção de Passivos Financeiros com Instrumentos Patrimoniais](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25)
+- [ICPC 14 – Cotas de Cooperados em Entidades Cooperativas e Instrumentos Similares](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23)
+<!-- fontes:fim -->

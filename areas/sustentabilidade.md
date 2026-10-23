@@ -22,3 +22,21 @@
 | **NBC TAS 5000** – Asseguração de Relatórios de Sustentabilidade (ISSA 5000) | ISSA 5000: asseguração (limitada ou razoável) de relatórios de sustentabilidade, por auditor ou outro profissional. | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx) |
 | **IFRS S1** – Requisitos Gerais de Divulgação de Sustentabilidade | Requisitos gerais de divulgação de sustentabilidade do ISSB; no Brasil, NBC TDS 01 / CBPS 01. | Relatório de sustentabilidade | CBPS 01 · NBC TDS 01 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRS S2** – Divulgações Relacionadas ao Clima | Divulgações relacionadas ao clima do ISSB; no Brasil, NBC TDS 02 / CBPS 02. | Relatório de sustentabilidade | CBPS 02 · NBC TDS 02 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [IFRS S1 – Requisitos Gerais de Divulgação de Sustentabilidade](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [CTG 09 – Correlação à Estrutura Conceitual Básica do Relato Integrado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTG09&arquivo=CTG09.doc)
+- [CTG 10 – Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc)
+- [NBC T 15 – Informações de Natureza Social e Ambiental](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2004/001003&arquivo=Res_1003.doc)
+- [NBC TDS 01 – Requisitos Gerais para Divulgação de Informações Financeiras Relacionadas à Sustentabilidade (IFRS S1)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS01&arquivo=NBCTDS_01.doc)
+- [NBC TDS 02 – Divulgações Relacionadas ao Clima (IFRS S2)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc)
+- [NBC TAS 5000 – Asseguração de Relatórios de Sustentabilidade (ISSA 5000)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx)
+- [OCPC 09 – Relato Integrado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=122)
+- [OCPC 10 – Créditos de Carbono (tCO2e), Permissões de emissão (allowances) e Crédito de Descarbonização (CBIO)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=161)
+- [Res. CVM 193/2023 – Relatório de sustentabilidade com base no ISSB](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol193.html)
+- [ISA (IAASB) – Normas internacionais de auditoria e asseguração](https://www.iaasb.org/)
+<!-- fontes:fim -->

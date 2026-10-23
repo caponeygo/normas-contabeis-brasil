@@ -8,6 +8,7 @@ from graphify.export import to_json
 
 if __name__ == '__main__':
     subprocess.run([sys.executable, 'scripts/gerar_indice.py'], check=True)
+    subprocess.run([sys.executable, 'scripts/adicionar_fontes.py'], check=True)
     ext = json.loads(Path('graphify-out/.graphify_extract.json').read_text(encoding='utf-8'))
     G = build_from_json(ext, root='.', directed=False)
     assert G.number_of_nodes() > 0, 'extração vazia'

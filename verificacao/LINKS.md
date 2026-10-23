@@ -4,7 +4,7 @@ Gerado por `scripts/verificar_links.py`. Cada página do CFC é aberta e conferi
 
 | Situação | Quantidade |
 |---|---|
-| ok | 288 |
+| ok | 299 |
 | revogada (já marcada no índice) | 4 |
 
 ## Para conferir

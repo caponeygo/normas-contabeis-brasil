@@ -122,3 +122,55 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 | CBIO | Crédito de descarbonização (RenovaBio) | CTG 10 |
 | FIDC | Fundo de investimento em direitos creditórios | NBC TG 48, itens 3.2.3–3.2.6 |
 | MDR | Taxa de desconto cobrada pelas credenciadoras de cartão | [Comércio](Varejo/README.md) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [COSIF – Plano Contábil das Instituições do Sistema Financeiro Nacional](https://www3.bcb.gov.br/aplica/cosif)
+- [Res. CMN 4.966/2021 – Instrumentos financeiros nas instituições do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4966)
+- [SUSEP – Superintendência de Seguros Privados](https://www.gov.br/susep/pt-br)
+- [IFRS S1 – Requisitos Gerais de Divulgação de Sustentabilidade](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TDS 01 – Requisitos Gerais para Divulgação de Informações Financeiras Relacionadas à Sustentabilidade (IFRS S1)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS01&arquivo=NBCTDS_01.doc)
+- [NBC TASP – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601)
+- [NBC TG 26 (R5) – Apresentação das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc)
+- [NBC TG 51 – Apresentação e Divulgação nas Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx)
+- [NBC TG 03 (R3) – Demonstração dos Fluxos de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG03(R3)&arquivo=NBCTG03(R3).doc)
+- [NBC TG 09 (R1) – Demonstração do Valor Adicionado (DVA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc)
+- [NBC TSP 11 (R1) – Apresentação das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP11(R1)&arquivo=NBCTSP11(R1).docx)
+- [NBC TG 21 (R4) – Demonstração Intermediária](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG21(R4)&arquivo=NBCTG21(R4).doc)
+- [NBC TR 2410 – Revisão de Informações Intermediárias Executada pelo Auditor da Entidade](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001274)
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [ITG 10 – Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001263)
+- [NBC TG 29 (R2) – Ativo Biológico e Produto Agrícola](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))
+- [NBC TG 20 (R2) – Custos de Empréstimos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG20(R2)&arquivo=NBCTG20(R2).doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [NBC TG 12 (R1) – Ajuste a Valor Presente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [NBC TG 18 (R4) – Investimento em Coligada e em Empreendimento Controlado em Conjunto](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG18(R4)&arquivo=NBCTG18(R4).doc)
+- [NBC TG 15 (R4) – Combinação de Negócios](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG15(R4)&arquivo=NBCTG15(R4).doc)
+- [ITG 08 – Contabilização da Proposta de Pagamento de Dividendos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001398)
+- [NBC TG 32 (R4) – Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)
+- [OT CFC 01/2026 – Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf)
+- [CTG 2001 (R3) – Formalidades da Escrituração Contábil em Forma Digital para o SPED](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/CTG2001(R3))
+- [NBC TA 701 – Comunicação dos Principais Assuntos de Auditoria (PAA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA701)
+- [NBC TA 705 – Modificações na Opinião do Auditor Independente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA705)
+- [NBC TA 706 – Parágrafos de Ênfase e Parágrafos de Outros Assuntos](https://cfc.org.br/wp-content/uploads/2026/06/NBC-TA-706.pdf)
+- [NBC PA 13 (R4) – Exame de Qualificação Técnica](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPA13(R4)&arquivo=NBCPA13(R4).docx)
+- [NBC PP 01 (R2) – Perito Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP01(R2)&arquivo=NBCPP01(R2).doc)
+- [NBC PG 12 (R5) – Educação Profissional Continuada](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPG12(R5)&arquivo=NBCPG12(R5).docx)
+- [NBC PA 01 – Gestão de Qualidade para Firmas de Auditores Independentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA01&arquivo=NBCPA01.doc)
+- [NBC TO 3402 – Relatórios de Asseguração sobre Controles em Organização Prestadora de Serviços](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001354&arquivo=Res_1354.doc)
+- [NBC TG 1000 (R1) – Contabilidade para Pequenas e Médias Empresas (CPC PME)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc)
+- [NBC TG 1001 – Contabilidade para Pequenas Empresas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1001&arquivo=NBCTG1001.doc)
+- [NBC TG 1002 – Contabilidade para Microentidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)
+- [ITG 2001 – Entidade Fechada de Previdência Complementar](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG2001&arquivo=ITG%202001.doc)
+- [LC 187/2021 – Certificação de entidades beneficentes (CEBAS)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp187.htm)
+- [Lei 10.931/2004 – Patrimônio de afetação e RET na incorporação imobiliária](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm)
+- [CTG 10 – Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc)
+<!-- fontes:fim -->

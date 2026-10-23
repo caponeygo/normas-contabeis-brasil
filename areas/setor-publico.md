@@ -54,3 +54,50 @@
 | **CTSP 01** – Provisões, Passivos Contingentes e Ativos Contingentes | Orientação prática sobre provisões e contingências nos entes públicos. | BP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc) |
 | **CTSP 02** – Notas Explicativas | Orientação sobre notas explicativas no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc) |
 | **NBC TASP** – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020) | Não é uma norma com texto próprio: a Res. CFC 1.601/2020 manda aplicar as NBC TA (inclusive a estrutura conceitual) à auditoria de informação contábil histórica no setor público, no que couber, em linha com as ISSAI/INTOSAI. Substituiu as antigas NBC TAG. Obrigatória desde 1/1/2026 (Res. CFC 1.753/2024). | Auditoria no setor público | — | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TASP – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601)
+- [NBC TSP 34 – Custos no Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSP34&arquivo=NBCTSP34.doc)
+- [NBC TSP Estrutura Conceitual (R1) – Estrutura Conceitual para Informação Contábil de Propósito Geral pelas Entidades do Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSPEC(R1)&arquivo=NBCTSP_Estrutura(R1).docx)
+- [NBC TSP 01 – Receita de Transação sem Contraprestação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc)
+- [NBC TSP 02 – Receita de Transação com Contraprestação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc)
+- [NBC TSP 03 (R1) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP03(R1)&arquivo=NBCTSP03(R1).docx)
+- [NBC TSP 04 (R1) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP04(R1)&arquivo=NBCTSP04(R1).docx)
+- [NBC TSP 05 (R1) – Contratos de Concessão de Serviços Públicos: Concedente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx)
+- [NBC TSP 06 (R1) – Propriedade para Investimento](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP06(R1)&arquivo=NBCTSP06(R1).docx)
+- [NBC TSP 08 (R1) – Ativo Intangível](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP08(R1)&arquivo=NBCTSP08(R1).docx)
+- [NBC TSP 09 (R1) – Redução ao Valor Recuperável de Ativo Não Gerador de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP09(R1)&arquivo=NBCTSP09(R1).docx)
+- [NBC TSP 10 (R1) – Redução ao Valor Recuperável de Ativo Gerador de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP10(R1)&arquivo=NBCTSP10(R1).docx)
+- [NBC TSP 11 (R1) – Apresentação das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP11(R1)&arquivo=NBCTSP11(R1).docx)
+- [NBC TSP 12 (R1) – Demonstração dos Fluxos de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP12(R1)&arquivo=NBCTSP12(R1).docx)
+- [NBC TSP 13 (R1) – Apresentação de Informação Orçamentária nas Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP13(R1)&arquivo=NBCTSP13(R1).docx)
+- [NBC TSP 14 (R1) – Custos de Empréstimos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP14(R1)&arquivo=NBCTSP14(R1).docx)
+- [NBC TSP 15 (R1) – Benefícios a Empregados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP15(R1)&arquivo=NBCTSP15(R1).docx)
+- [NBC TSP 16 (R1) – Demonstrações Contábeis Separadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP16(R1)&arquivo=NBCTSP16(R1).docx)
+- [NBC TSP 17 (R1) – Demonstrações Contábeis Consolidadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP17(R1)&arquivo=NBCTSP17(R1).docx)
+- [NBC TSP 18 (R1) – Investimento em Coligada e em Empreendimento Controlado em Conjunto](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP18(R1)&arquivo=NBCTSP18(R1).docx)
+- [NBC TSP 19 (R1) – Acordos em Conjunto](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP19(R1)&arquivo=NBCTSP19(R1).docx)
+- [NBC TSP 20 (R1) – Divulgação de Participações em Outras Entidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP20(R1)&arquivo=NBCTSP20(R1).docx)
+- [NBC TSP 21 (R1) – Combinações no Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP21(R1)&arquivo=NBCTSP21(R1).docx)
+- [NBC TSP 22 (R1) – Divulgação sobre Partes Relacionadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP22(R1)&arquivo=NBCTSP22(R1).docx)
+- [NBC TSP 23 (R1) – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP23(R1)&arquivo=NBCTSP23(R1).docx)
+- [NBC TSP 24 (R1) – Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP24(R1)&arquivo=NBCTSP24(R1).docx)
+- [NBC TSP 25 (R1) – Evento Subsequente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP25(R1)&arquivo=NBCTSP25(R1).docx)
+- [NBC TSP 26 (R1) – Ativo Biológico e Produto Agrícola](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP26(R1)&arquivo=NBCTSP26(R1).docx)
+- [NBC TSP 27 (R1) – Informações por Segmento](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP27(R1)&arquivo=NBCTSP27(R1).docx)
+- [NBC TSP 28 (R1) – Divulgação de Informação Financeira do Setor Governo Geral](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP28(R1)&arquivo=NBCTSP28(R1).docx)
+- [NBC TSP 29 (R1) – Benefícios Sociais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP29(R1)&arquivo=NBCTSP29(R1).docx)
+- [NBC TSP 30 (R1) – Instrumentos Financeiros: Apresentação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP30(R1)&arquivo=NBCTSP30(R1).docx)
+- [NBC TSP 31 (R1) – Instrumentos Financeiros: Reconhecimento e Mensuração](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx)
+- [NBC TSP 32 (R1) – Instrumentos Financeiros: Contabilidade de Hedge (Aplicação Residual)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP32(R1)&arquivo=NBCTSP32(R1).docx)
+- [NBC TSP 33 (R1) – Instrumentos Financeiros: Divulgações](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP33(R1)&arquivo=NBCTSP33(R1).docx)
+- [NBC TSP 35 – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP35&arquivo=NBCTSP35.docx)
+- [NBC TSP 37 – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP37&arquivo=NBC_TSP_37.docx)
+- [NBC TSP 38 – Mensuração](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx)
+- [CTSP 01 – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc)
+- [CTSP 02 – Notas Explicativas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc)
+<!-- fontes:fim -->

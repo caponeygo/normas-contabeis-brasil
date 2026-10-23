@@ -48,3 +48,22 @@ Normas que só aparecem em alguns segmentos industriais.
 - [ ] Identificar quais normas setoriais se aplicam à planta antes de fechar o balanço.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 29 (R2) – Ativo Biológico e Produto Agrícola](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))
+- [CPC 29 – Ativo Biológico e Produto Agrícola](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60)
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [ITG 18 – Custos de Remoção de Estéril de Mina de Superfície – Fase de Produção](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG18)
+- [ICPC 18 – Custos de Remoção de Estéril (Stripping) de Mina de Superfície na Fase de Produção](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84)
+- [IFRS 6 – Exploração e Avaliação de Recursos Minerais](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
+- [NBC TG 04 (R4) – Ativo Intangível](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
+- [CPC 04 – Ativo Intangível](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35)
+- [ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
+- [ICPC 15 – Passivo Decorrente de Participação em um Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24)
+<!-- fontes:fim -->

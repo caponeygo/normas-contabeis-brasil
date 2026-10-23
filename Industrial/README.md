@@ -43,3 +43,44 @@ Trechos das normas contábeis e de auditoria que importam para empresas industri
 | Preciso provisionar área contaminada? | Sim, se a obrigação já existe (legal ou não formalizada) e for provável o desembolso. | [NBC TG 25 (R2)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc) (itens 14, 19) |
 
 [Todas as áreas](../areas/README.md) · [Índice geral](../README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [NBC TG 12 (R1) – Ajuste a Valor Presente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))
+- [NBC TG 20 (R2) – Custos de Empréstimos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG20(R2)&arquivo=NBCTG20(R2).doc)
+- [NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [ITG 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [NBC TG 32 (R4) – Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)
+- [ITG 22 – Incerteza sobre Tratamento de Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG22&arquivo=ITG22.doc)
+- [NBC TG 04 (R4) – Ativo Intangível](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
+- [NBC TG 02 (R3) – Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc)
+- [ITG 21 – Transação em Moeda Estrangeira e Adiantamento](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG21&arquivo=ITG21.doc)
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
+- [NBC TG 26 (R5) – Apresentação das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc)
+- [NBC TG 51 – Apresentação e Divulgação nas Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx)
+- [NBC TG 09 (R1) – Demonstração do Valor Adicionado (DVA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc)
+- [NBC TG 22 (R2) – Informações por Segmento](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG22(R2))
+- [ITG 13 (R2) – Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG13(R2)&arquivo=ITG13(R2).doc)
+- [CTG 10 – Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc)
+- [NBC TDS 02 – Divulgações Relacionadas ao Clima (IFRS S2)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc)
+- [NBC TG 29 (R2) – Ativo Biológico e Produto Agrícola](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))
+- [ITG 18 – Custos de Remoção de Estéril de Mina de Superfície – Fase de Produção](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG18)
+- [IFRS 6 – Exploração e Avaliação de Recursos Minerais](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
+- [NBC TA 315 (R2) – Identificação e Avaliação dos Riscos de Distorção Relevante](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA315(R2)&arquivo=NBCTA315(R2).doc)
+- [NBC TA 540 (R2) – Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc)
+- [NBC TA 505 – Confirmações Externas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001219)
+- [NBC TA 520 – Procedimentos Analíticos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001221)
+- [NBC TA 620 – Utilização do Trabalho de Especialistas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001230)
+<!-- fontes:fim -->

@@ -28,3 +28,15 @@ O varejo vende muito a prazo no cartão e costuma antecipar os recebíveis. A qu
 - [ ] Matriz de perdas esperadas atualizada com histórico de inadimplência e chargeback.
 
 [← Varejo: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [CPC 48 – Instrumentos Financeiros](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106)
+- [NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
+- [CPC 40 – Instrumentos Financeiros: Evidenciação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71)
+- [IFRS 7 – Instrumentos Financeiros: Evidenciação](https://www.ifrs.org/issued-standards/list-of-standards/)
+<!-- fontes:fim -->

@@ -54,3 +54,25 @@ Indústrias concentram créditos de tributos, incentivos estaduais e diferenças
 - [ ] Avaliar teses tributárias: ITG 22 para IR/CS, NBC TG 25 para os demais tributos.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [CPC 16 – Estoques](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47)
+- [IAS 2 – Estoques](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [CPC 27 – Ativo Imobilizado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [CPC 07 – Subvenção e Assistência Governamentais](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38)
+- [Lei 6.404/1976 – Lei das Sociedades por Ações](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)
+- [Lei 14.789/2023 – Crédito fiscal de subvenção para investimento](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14789.htm)
+- [NBC TG 32 (R4) – Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)
+- [CPC 32 – Tributos sobre o Lucro](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63)
+- [ITG 22 – Incerteza sobre Tratamento de Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG22&arquivo=ITG22.doc)
+- [ICPC 22 – Incerteza sobre Tratamento de Tributos sobre o Lucro](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56)
+<!-- fontes:fim -->

@@ -48,3 +48,22 @@ Como a indústria apresenta custos e despesas e o que muda com a IFRS 18 a parti
 - [ ] Nota de estoques por classe e de CPV.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 26 (R5) – Apresentação das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc)
+- [CPC 26 – Apresentação das Demonstrações Contábeis](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57)
+- [NBC TG 51 – Apresentação e Divulgação nas Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx)
+- [Lei 6.404/1976 – Lei das Sociedades por Ações](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)
+- [CPC 51 – Apresentação e Divulgação nas Demonstrações Contábeis](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162)
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [CPC 16 – Estoques](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47)
+- [NBC TG 09 (R1) – Demonstração do Valor Adicionado (DVA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc)
+- [CPC 09 – Demonstração do Valor Adicionado (DVA)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=40)
+- [NBC TG 22 (R2) – Informações por Segmento](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG22(R2))
+- [CPC 22 – Informações por Segmento](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53)
+- [IFRS 8 – Segmentos Operacionais](https://www.ifrs.org/issued-standards/list-of-standards/)
+<!-- fontes:fim -->

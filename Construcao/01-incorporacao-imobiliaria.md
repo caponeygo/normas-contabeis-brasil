@@ -45,3 +45,19 @@ Orientação da CVM às companhias abertas incorporadoras sobre a aplicação do
 - [ ] Provisão para distratos baseada em histórico.
 
 [← Construção e Incorporação: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [CTG 01 – Entidades de Incorporação Imobiliária](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001154)
+- [OCPC 01 – Entidades de Incorporação Imobiliária](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=28)
+- [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
+- [IFRS 15 – Receita de Contrato com Cliente](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [Lei 13.786/2018 – Distratos na incorporação imobiliária](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13786.htm)
+- [Ofício-Circular CVM/SNC/SEP 02/2018 – Receita de incorporação imobiliária pela NBC TG 47](https://conteudo.cvm.gov.br/legislacao/oficios-circulares/snc-sep/oc-snc-sep-0218.html)
+- [CTG 04 – Aplicação da ITG 02 – Contrato de Construção do Setor Imobiliário](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001317)
+- [OCPC 04 – Aplicação da Interpretação Técnica ICPC 02 às Entidades de Incorporação Imobiliária Brasileiras](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=31)
+<!-- fontes:fim -->

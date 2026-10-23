@@ -41,3 +41,19 @@ Indústrias expostas a insumos cotados em dólar ou em bolsa precisam separar a 
 - [ ] Notas com análise de sensibilidade a câmbio e commodities.
 
 [← Indústria: índice](README.md) · [Todas as áreas](../areas/README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC TG 02 (R3) – Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc)
+- [CPC 02 – Efeitos das mudanças nas taxas de câmbio e conversão de demonstrações contábeis](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9)
+- [ITG 21 – Transação em Moeda Estrangeira e Adiantamento](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG21&arquivo=ITG21.doc)
+- [ICPC 21 – Transação em Moeda Estrangeira e Adiantamento](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108)
+- [NBC TG 48 – Instrumentos Financeiros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
+- [CPC 48 – Instrumentos Financeiros](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106)
+- [NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
+- [CPC 40 – Instrumentos Financeiros: Evidenciação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71)
+- [IFRS 7 – Instrumentos Financeiros: Evidenciação](https://www.ifrs.org/issued-standards/list-of-standards/)
+<!-- fontes:fim -->

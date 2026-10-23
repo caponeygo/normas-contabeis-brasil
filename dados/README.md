@@ -28,6 +28,7 @@ Uma célula pode ter várias linhas (ex.: `checklist`): no Excel use **Alt+Enter
 | `setores_pontos.csv` | trecho de norma num tópico | `setor`, `arquivo` (do tópico), `norma` (código sem a revisão, ex.: `NBC TG 16`), `itens` (ex.: `10–11`, `B28–B33`, `—`), `ponto` (o que diz para o setor) |
 | `setores_faq.csv` | pergunta frequente | `setor`, `pergunta`, `resposta`, `norma`, `itens` |
 | `setores_externas.csv` | regra de fora do CFC citada num setor | `setor`, `codigo` (ex.: `Res. CMN 4.966/2021`), `titulo`, `url`, `nota` |
+| `fontes_externas.csv` | lei ou regra de fora do CFC/CPC citada nos textos | `codigo`, `padrao` (como aparece no texto, em regex), `titulo`, `url`: vira link na seção **Fontes** de cada página |
 | `revisao_manual.csv` | trecho conferido à mão | `norma`, `itens`, `data`: trechos que a checagem automática marcou para conferir e que foram lidos no texto oficial e estão corretos |
 
 ## Regras que o gerador confere

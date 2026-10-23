@@ -25,3 +25,19 @@ Trechos das normas que importam para incorporadoras (que vendem unidades na plan
 | Preciso provisionar garantia de obra? | Sim, pelo histórico de reparos das obras entregues. | [NBC TG 25 (R2)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc) (itens 14, 24, 39) |
 
 [Todas as áreas](../areas/README.md) · [Índice geral](../README.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [CTG 01 – Entidades de Incorporação Imobiliária](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001154)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [Ofício-Circular CVM/SNC/SEP 02/2018 – Receita de incorporação imobiliária pela NBC TG 47](https://conteudo.cvm.gov.br/legislacao/oficios-circulares/snc-sep/oc-snc-sep-0218.html)
+- [CTG 04 – Aplicação da ITG 02 – Contrato de Construção do Setor Imobiliário](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001317)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [Código Civil – Lei 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [NBC TG 06 (R3) – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)
+- [Lei 10.931/2004 – Patrimônio de afetação e RET na incorporação imobiliária](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm)
+<!-- fontes:fim -->

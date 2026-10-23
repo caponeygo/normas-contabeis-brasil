@@ -3479,5 +3479,82 @@
   "url": "https://www.gov.br/susep/pt-br",
   "http": 200,
   "situacao": "ok"
+ },
+ {
+  "codigo": "Lei 6.404/1976",
+  "titulo": "Lei das Sociedades por Ações",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Lei 11.638/2007",
+  "titulo": "Altera a Lei 6.404 (convergência às normas internacionais)",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11638.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Lei 13.786/2018",
+  "titulo": "Distratos na incorporação imobiliária",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13786.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Lei 14.789/2023",
+  "titulo": "Crédito fiscal de subvenção para investimento",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14789.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Lei 15.042/2024",
+  "titulo": "Sistema Brasileiro de Comércio de Emissões (SBCE)",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15042.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "EC 132/2023",
+  "titulo": "Emenda Constitucional da reforma tributária",
+  "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "LC 214/2025",
+  "titulo": "Institui IBS, CBS e Imposto Seletivo",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "LC 227/2026",
+  "titulo": "Altera a LC 214/2025",
+  "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Decreto 12.955/2026",
+  "titulo": "Regulamenta a CBS",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "Res. CVM 193/2023",
+  "titulo": "Relatório de sustentabilidade com base no ISSB",
+  "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol193.html",
+  "http": 200,
+  "situacao": "ok"
+ },
+ {
+  "codigo": "ISA (IAASB)",
+  "titulo": "Normas internacionais de auditoria e asseguração",
+  "url": "https://www.iaasb.org/",
+  "http": 200,
+  "situacao": "ok"
  }
 ]

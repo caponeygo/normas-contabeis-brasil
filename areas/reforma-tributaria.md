@@ -41,3 +41,22 @@ A reforma tributária do consumo (EC 132/2023, LC 214/2025, alterada pela LC 227
 - Sistemas e plano de contas: contas separadas para IBS, CBS, créditos a apropriar e split payment.
 
 [← Índice das áreas](README.md) · [Tributos](tributos.md)
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [EC 132/2023 – Emenda Constitucional da reforma tributária](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm)
+- [LC 214/2025 – Institui IBS, CBS e Imposto Seletivo](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)
+- [LC 227/2026 – Altera a LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm)
+- [Decreto 12.955/2026 – Regulamenta a CBS](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm)
+- [OT CFC 01/2026 – Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf)
+- [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
+- [NBC TG 16 (R2) – Estoques](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)
+- [NBC TG 25 (R2) – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)
+- [NBC TG 07 (R2) – Subvenção e Assistência Governamentais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)
+- [NBC TG 32 (R4) – Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)
+<!-- fontes:fim -->

@@ -25,7 +25,7 @@ e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilid
 - CVM: <https://www.gov.br/cvm>
 
 - IFRS Foundation (IFRS, IAS, IFRS S): <https://www.ifrs.org/issued-standards/list-of-standards/>
-- IAASB (ISA): <https://www.iaasb.org/standards-pronouncements>
+- IAASB (ISA): <https://www.iaasb.org/>
 
 ## Como ler a numeração
 `CPC 26 (R1)` é o pronunciamento do CPC. O CFC o torna obrigatório para os contadores como `NBC TG 26 (R5)`.
@@ -441,7 +441,7 @@ Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <htt
 | IFRIC 23 | Incerteza sobre Tratamento de Tributos sobre o Lucro | [ICPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114) | ITG 22 |
 | SIC 29 | Contratos de Concessão de Serviços: Divulgação | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) | ITG 17 |
 
-As **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). Textos das ISA: <https://www.iaasb.org/standards-pronouncements>.
+As **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). Textos das ISA: <https://www.iaasb.org/>.
 
 ## Contribuir
 Encontrou link quebrado, norma nova ou revisão? Veja o [CONTRIBUTING.md](CONTRIBUTING.md): abra uma *issue* ou edite as planilhas em [dados/](dados/README.md).

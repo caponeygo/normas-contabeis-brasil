@@ -20,3 +20,17 @@
 | **NBC TSP 31 (R1)** – Instrumentos Financeiros: Reconhecimento e Mensuração | Instrumentos financeiros – reconhecimento e mensuração no setor público (inclui perdas esperadas). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx) |
 | **NBC TSP 38** – Mensuração | Mensuração no setor público: bases (custo histórico, valor corrente operacional, valor justo). | BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx) |
 | **IFRS 13** – Mensuração do Valor Justo | Valor justo: define como mensurar (preço de saída entre participantes do mercado), hierarquia de níveis 1, 2 e 3 e divulgações. Não diz quando usar valor justo, só como. | BP, NE | [CPC 46](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78) · NBC TG 46 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [IFRS 13 – Mensuração do Valor Justo](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 46 (R2) – Mensuração do Valor Justo](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG46(R2)&arquivo=NBCTG46(R2).doc)
+- [NBC TSP 31 (R1) – Instrumentos Financeiros: Reconhecimento e Mensuração](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx)
+- [NBC TSP 38 – Mensuração](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx)
+- [NBC TG 12 (R1) – Ajuste a Valor Presente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))
+- [CPC 12 – Ajuste a Valor Presente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43)
+- [CPC 46 – Mensuração do Valor Justo](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78)
+<!-- fontes:fim -->

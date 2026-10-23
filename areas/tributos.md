@@ -23,3 +23,20 @@
 | **IAS 12** – Tributos sobre o Lucro | Tributos sobre o lucro (IRPJ e CSLL): imposto corrente e diferido sobre diferenças temporárias e prejuízo fiscal, reconhecimento do ativo fiscal diferido só se houver lucro tributável futuro provável. | BP (diferidos), DRE (despesa de IR/CS), NE | [CPC 32](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63) · NBC TG 32 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRIC 21** – Tributos (Levies) | Tributos (taxas, contribuições, exceto IR): o passivo nasce no evento que obriga ao pagamento conforme a lei, não antes (ex.: taxas anuais, IPTU). | BP (passivo), DRE | [ICPC 19](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97) · ITG 19 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRIC 23** – Incerteza sobre Tratamento de Tributos sobre o Lucro | Incerteza sobre tratamento de IR/CS (teses fiscais): registra o efeito da posição incerta se for provável que o fisco não a aceite. | BP, DRE (IR/CS), NE | [ICPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114) · ITG 22 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [IAS 12 – Tributos sobre o Lucro](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 32 (R4) – Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)
+- [ITG 22 – Incerteza sobre Tratamento de Tributos sobre o Lucro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG22&arquivo=ITG22.doc)
+- [ITG 19 – Tributos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG19)
+- [EC 132/2023 – Emenda Constitucional da reforma tributária](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm)
+- [LC 214/2025 – Institui IBS, CBS e Imposto Seletivo](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)
+- [OT CFC 01/2026 – Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária)](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf)
+- [CPC 32 – Tributos sobre o Lucro](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63)
+- [ICPC 19 – Tributos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97)
+- [ICPC 22 – Incerteza sobre Tratamento de Tributos sobre o Lucro](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114)
+<!-- fontes:fim -->

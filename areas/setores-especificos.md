@@ -46,3 +46,43 @@
 | **IFRIC 12** – Contratos de Concessão de Serviços | Contratos de concessão (rodovias, energia, saneamento) do lado do concessionário: a infraestrutura não é imobilizado; vira ativo financeiro (direito incondicional a caixa) ou intangível (direito de cobrar usuários), com receita de construção. | BP, DRE, NE | [ICPC 01](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10) · ITG 01 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRIC 20** – Custos de Remoção de Estéril em Mina de Superfície | Mineração a céu aberto: custo de remoção de estéril na fase de produção vira ativo quando melhora o acesso ao minério, depreciado conforme a extração. | BP, DRE | [ICPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84) · ITG 18 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **SIC 29** – Contratos de Concessão de Serviços: Divulgação | Divulgações exigidas sobre contratos de concessão de serviço (prazo, direitos, obrigações, mudanças), tanto do concessionário quanto do concedente. | NE | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) · ITG 17 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [SUSEP – Superintendência de Seguros Privados](https://www.gov.br/susep/pt-br)
+- [NBC TG 50 – Contratos de Seguro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG50&arquivo=NBCTG50.doc)
+- [ITG 01 (R1) – Contratos de Concessão](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG01(R1)&arquivo=ITG01(R1).doc)
+- [ITG 17 – Contratos de Concessão: Evidenciação](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001375)
+- [CTG 05 – Contratos de Concessão](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001318)
+- [CTG 08 – Reconhecimento de Determinados Ativos e Passivos – Distribuidoras de Energia Elétrica](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/CTG08)
+- [NBC TSP 05 (R1) – Contratos de Concessão de Serviços Públicos: Concedente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx)
+- [CTG 01 – Entidades de Incorporação Imobiliária](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001154)
+- [CTG 04 – Aplicação da ITG 02 – Contrato de Construção do Setor Imobiliário](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001317)
+- [IFRS 6 – Exploração e Avaliação de Recursos Minerais](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [ITG 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265)
+- [ITG 13 (R2) – Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG13(R2)&arquivo=ITG13(R2).doc)
+- [ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
+- [ITG 18 – Custos de Remoção de Estéril de Mina de Superfície – Fase de Produção](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG18)
+- [NBC T 15 – Informações de Natureza Social e Ambiental](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2004/001003&arquivo=Res_1003.doc)
+- [NBC TG 900 – Entidades em Liquidação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG900&arquivo=NBCTG900..doc)
+- [OTG 2003 (R1) – Orientações sobre a Aplicação da ITG 2003 (R1) – Entidade Desportiva](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/OTG2003(R1)&arquivo=OTG2003(R1).doc)
+- [ITG 2001 – Entidade Fechada de Previdência Complementar](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG2001&arquivo=ITG%202001.doc)
+- [ITG 2002 (R1) – Entidade sem Finalidade de Lucros](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/ITG2002(R1)&arquivo=ITG2002(R1).doc)
+- [ITG 2003 (R2) – Entidade Desportiva](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/ITG2003(R2)&arquivo=ITG2003_R2.doc)
+- [ITG 2004 – Entidade Cooperativa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG2004&arquivo=ITG2004.doc)
+- [CPC 50 – Contratos de Seguro](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127)
+- [ICPC 01 – Contratos de Concessão](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10)
+- [ICPC 12 – Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21)
+- [ICPC 13 – Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22)
+- [ICPC 15 – Passivo Decorrente de Participação em um Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24)
+- [ICPC 17 – Contratos de Concessão: Evidenciação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26)
+- [ICPC 18 – Custos de Remoção de Estéril (Stripping) de Mina de Superfície na Fase de Produção](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84)
+- [OCPC 01 – Entidades de Incorporação Imobiliária](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=28)
+- [OCPC 04 – Aplicação da Interpretação Técnica ICPC 02 às Entidades de Incorporação Imobiliária Brasileiras](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=31)
+- [OCPC 05 – Contratos de Concessão](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=32)
+- [OCPC 08 – Reconhecimento de Determinados Ativos e Passivos nos Relatórios Contábil-Financeiros de Propósito Geral das Distribuidoras de Energia Elétrica emitidos de acordo com as Normas Brasileiras e Internacionais de Contabilidade](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=99)
+- [ICPC 14 – Cotas de Cooperados em Entidades Cooperativas e Instrumentos Similares](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23)
+<!-- fontes:fim -->

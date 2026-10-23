@@ -34,3 +34,33 @@
 | **IFRS 12** – Divulgação de Participações em Outras Entidades | Divulgação sobre controladas, coligadas, negócios em conjunto e entidades estruturadas não consolidadas: julgamentos de controle, riscos e informações resumidas. | NE | [CPC 45](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75) · NBC TG 45 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 27** – Demonstrações Separadas | Demonstrações separadas (da controladora como entidade isolada): como contabilizar investimentos em controladas, coligadas e joint ventures (custo, valor justo ou equivalência). | BP, DRE | [CPC 35](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66) · NBC TG 35 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 28** – Investimento em Coligada e Empreendimento Controlado em Conjunto | Coligadas e empreendimentos controlados em conjunto: aplica o método de equivalência patrimonial (MEP), incluindo ágio, eliminação de lucros não realizados e perda por impairment do investimento. | BP (investimento), DRE (equivalência), DRA | [CPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49) · NBC TG 18 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [IFRS 3 – Combinação de Negócios](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [NBC TG 15 (R4) – Combinação de Negócios](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG15(R4)&arquivo=NBCTG15(R4).doc)
+- [NBC TG 18 (R4) – Investimento em Coligada e em Empreendimento Controlado em Conjunto](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG18(R4)&arquivo=NBCTG18(R4).doc)
+- [NBC TG 19 (R2) – Negócios em Conjunto](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG19(R2))
+- [NBC TG 35 (R2) – Demonstrações Separadas](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG35(R2))
+- [NBC TG 36 (R3) – Demonstrações Consolidadas](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG36(R3))
+- [NBC TG 44 – Demonstrações Combinadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTG44)
+- [NBC TG 45 (R3) – Divulgação de Participações em Outras Entidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG45(R3)&arquivo=NBCTG45(R3).doc)
+- [ITG 09 (R2) – Demonstrações Individuais, Separadas, Consolidadas e Método de Equivalência Patrimonial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/ITG09(R2)&arquivo=ITG09(R2).doc)
+- [NBC TSP 16 (R1) – Demonstrações Contábeis Separadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP16(R1)&arquivo=NBCTSP16(R1).docx)
+- [NBC TSP 17 (R1) – Demonstrações Contábeis Consolidadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP17(R1)&arquivo=NBCTSP17(R1).docx)
+- [NBC TSP 18 (R1) – Investimento em Coligada e em Empreendimento Controlado em Conjunto](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP18(R1)&arquivo=NBCTSP18(R1).docx)
+- [NBC TSP 19 (R1) – Acordos em Conjunto](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP19(R1)&arquivo=NBCTSP19(R1).docx)
+- [NBC TSP 20 (R1) – Divulgação de Participações em Outras Entidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP20(R1)&arquivo=NBCTSP20(R1).docx)
+- [NBC TSP 21 (R1) – Combinações no Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP21(R1)&arquivo=NBCTSP21(R1).docx)
+- [CPC 15 – Combinação de Negócios](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=46)
+- [CPC 18 – Investimento em Coligada e em Empreendimento Controlado em Conjunto](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49)
+- [CPC 19 – Negócios em Conjunto](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=50)
+- [CPC 35 – Demonstrações Separadas](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66)
+- [CPC 36 – Demonstrações Consolidadas](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67)
+- [CPC 44 – Demonstrações Combinadas](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=76)
+- [CPC 45 – Divulgação de Participações em outras Entidades](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75)
+- [ICPC 09 – Demonstrações Contábeis Individuais, Demonstrações Separadas, Demonstrações Consolidadas e Aplicação do Método da Equivalência Patrimonial.](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=18)
+<!-- fontes:fim -->

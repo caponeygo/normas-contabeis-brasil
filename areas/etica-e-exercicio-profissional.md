@@ -26,3 +26,22 @@
 | **NBC PA 400** – Independência para Trabalho de Auditoria e Revisão | Independência em auditoria e revisão: serviços proibidos, rodízio, honorários, relações financeiras e familiares. | Independência | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPA400&arquivo=NBCPA400_Rev28.doc) |
 | **NBC PO 900** – Independência para Trabalho de Asseguração Diferente de Auditoria e Revisão | Independência em trabalhos de asseguração que não são auditoria nem revisão. | Independência | — | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPO900&arquivo=NBCPO900.doc) |
 | **Res. CFC 1.495/15** – Cadastro Nacional de Auditores Independentes (CNAI) | Cadastro Nacional de Auditores Independentes (CNAI): registro e manutenção. | Exercício profissional | — | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/001495) |
+
+<!-- fontes:inicio -->
+## Fontes
+
+Textos oficiais citados nesta página (os resumos e explicações foram elaborados para este índice a partir deles; confira sempre a versão vigente):
+
+- [NBC PG 01 – Código de Ética Profissional do Contador](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG01&arquivo=NBCPG01.doc)
+- [NBC PG 12 (R5) – Educação Profissional Continuada](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPG12(R5)&arquivo=NBCPG12(R5).docx)
+- [NBC PG 100 (R1) – Cumprimento do Código, Princípios Fundamentais e Estrutura Conceitual](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG100(R1)&arquivo=NBCPG100(R1).doc)
+- [NBC PG 200 (R1) – Contadores que Prestam Serviços (Contadores Internos)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG200(R1)&arquivo=NBCPG200(R1).doc)
+- [NBC PG 300 (R1) – Contadores que Prestam Serviços (Contadores Externos)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG300(R1)&arquivo=NBCPG300(R1).doc)
+- [NBC PA 01 – Gestão de Qualidade para Firmas de Auditores Independentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA01&arquivo=NBCPA01.doc)
+- [NBC PA 02 – Revisão de Qualidade do Trabalho](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA02&arquivo=NBCPA02.doc)
+- [NBC PA 11 – Revisão Externa de Qualidade pelos Pares](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCPA11&arquivo=NBCPA11.doc)
+- [NBC PA 13 (R4) – Exame de Qualificação Técnica](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPA13(R4)&arquivo=NBCPA13(R4).docx)
+- [NBC PA 400 – Independência para Trabalho de Auditoria e Revisão](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPA400&arquivo=NBCPA400_Rev28.doc)
+- [NBC PO 900 – Independência para Trabalho de Asseguração Diferente de Auditoria e Revisão](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPO900&arquivo=NBCPO900.doc)
+- [Res. CFC 1.495/15 – Cadastro Nacional de Auditores Independentes (CNAI)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/001495)
+<!-- fontes:fim -->
