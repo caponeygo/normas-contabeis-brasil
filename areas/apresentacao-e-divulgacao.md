@@ -2,13 +2,13 @@
 
 **Use esta área para:** balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos.
 
-48 normas. Índice de todas as áreas: [areas/README.md](README.md).
+49 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
 | Tema | Também chamado de | Normas |
 |---|---|---|
-| Demonstrações contábeis e divulgação | balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18 | NBC TG 03 (R3), NBC TG 05 (R3), NBC TG 09 (R1), NBC TG 21 (R4), NBC TG 22 (R2), NBC TG 24 (R2), NBC TG 26 (R5), NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 45 (R3), NBC TG 51, ITG 17, CTG 06, CTG 07 (R1), NBC TSP 11 (R1), NBC TSP 12 (R1), NBC TSP 13 (R1), NBC TSP 20 (R1), NBC TSP 22 (R1), NBC TSP 25 (R1), NBC TSP 27 (R1), NBC TSP 28 (R1), NBC TSP 30 (R1), NBC TSP 33 (R1), CTSP 02, NBC TDS 01, NBC TDS 02, IFRS 7, IFRS 8, IFRS 12, IFRS 18, IFRS 19, IAS 1, IAS 7, IAS 10, IAS 24, IAS 32, IAS 34, IFRS S1, IFRS S2, SIC 29 |
+| Demonstrações contábeis e divulgação | balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18 | NBC TG 03 (R3), NBC TG 05 (R3), NBC TG 09 (R1), NBC TG 21 (R4), NBC TG 22 (R2), NBC TG 24 (R2), NBC TG 26 (R5), NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 45 (R3), NBC TG 51, ITG 17, CTG 06, CTG 07 (R1), NBC TSP 11 (R1), NBC TSP 12 (R1), NBC TSP 13 (R1), NBC TSP 20 (R1), NBC TSP 22 (R1), NBC TSP 25 (R1), NBC TSP 27 (R1), NBC TSP 28 (R1), NBC TSP 30 (R1), NBC TSP 33 (R1), CTSP 02, NBC TDS 01, NBC TDS 02, IFRS 7, IFRS 8, IFRS 12, IFRS 18, IFRS 19, IAS 1, IAS 7, IAS 10, IAS 24, IAS 32, IAS 34, IFRS S1, IFRS S2, SIC 29, PCAOB AT 401 |
 | Políticas contábeis e erros | mudança de estimativa, retificação de erro, IAS 8 | NBC TG 23 (R2), NBC TSP 23 (R1), IAS 8 |
 | Demonstração do resultado (DRE) | DRE, lucro, resultado operacional, EBITDA, MPM, IFRS 18, lucro por ação | NBC TG 26 (R5), NBC TG 31 (R4), NBC TG 41 (R2), NBC TG 51, IFRS 5, IFRS 18, IAS 1, IAS 33 |
 | Fluxo de caixa (DFC) | DFC, método direto, método indireto, caixa e equivalentes, IAS 7 | NBC TG 03 (R3), NBC TSP 12 (R1), IAS 7 |
@@ -66,6 +66,7 @@
 | **IFRS S1** – Requisitos Gerais de Divulgação de Sustentabilidade | Requisitos gerais de divulgação de sustentabilidade do ISSB; no Brasil, NBC TDS 01 / CBPS 01. | Relatório de sustentabilidade | CBPS 01 · NBC TDS 01 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRS S2** – Divulgações Relacionadas ao Clima | Divulgações relacionadas ao clima do ISSB; no Brasil, NBC TDS 02 / CBPS 02. | Relatório de sustentabilidade | CBPS 02 · NBC TDS 02 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **SIC 29** – Contratos de Concessão de Serviços: Divulgação | Divulgações exigidas sobre contratos de concessão de serviço (prazo, direitos, obrigações, mudanças), tanto do concessionário quanto do concedente. | NE | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) · ITG 17 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **PCAOB AT 401** – Reporting on Pro Forma Financial Information | Relatório sobre informações financeiras pro forma. | Atestação (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/attestation-standards/details/AT401) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -99,6 +100,7 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CTSP 02 – Notas Explicativas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc)
 - [NBC TDS 01 – Requisitos Gerais para Divulgação de Informações Financeiras Relacionadas à Sustentabilidade (IFRS S1)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS01&arquivo=NBCTDS_01.doc)
 - [NBC TDS 02 – Divulgações Relacionadas ao Clima (IFRS S2)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc)
+- [PCAOB AT 401 – Reporting on Pro Forma Financial Information](https://pcaobus.org/oversight/standards/attestation-standards/details/AT401)
 - [NBC TG 23 (R2) – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG23(R2)&arquivo=NBCTG23(R2).doc)
 - [NBC TSP 23 (R1) – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP23(R1)&arquivo=NBCTSP23(R1).docx)
 - [NBC TG 31 (R4) – Ativo Não Circulante Mantido para Venda e Operação Descontinuada](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG31(R4)&arquivo=NBCTG31(R4).doc)

@@ -98,6 +98,8 @@ def main():
     d = json.loads((ROOT / "normas.json").read_text(encoding="utf-8"))
     alvos, vistos = [], set()
     for r in d["normas"]:
+        if "pcaobus.org" in (r.get("url") or ""):
+            continue                                  # o site do PCAOB responde 403 a robôs: conferir à mão
         if r.get("url") and r["url"] not in vistos:
             vistos.add(r["url"]); alvos.append(r)
         if r.get("url_cpc") and r["url_cpc"] not in vistos:     # página oficial do CPC equivalente

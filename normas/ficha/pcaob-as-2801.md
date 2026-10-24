@@ -1,0 +1,21 @@
+---
+codigo: "PCAOB AS 2801"
+titulo: "Subsequent Events"
+serie: "PCAOB"
+status: vigente
+url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801
+---
+
+# PCAOB AS 2801 – Subsequent Events
+
+**O que trata:** Eventos subsequentes.
+
+**O que afeta:** Auditoria (padrão PCAOB)
+
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md)
+
+## Fonte
+
+- [Texto oficial (CFC)](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801)
+
+[← Todas as normas](../README.md) · [Página inicial](../../README.md)

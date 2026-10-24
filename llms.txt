@@ -1,6 +1,6 @@
 # Normas Contábeis Brasileiras
 
-> Índice (não o texto) das normas contábeis e de auditoria do Brasil (CFC/CPC) e das internacionais (IFRS/IAS/ISA): resumo, o que afeta, equivalências, trechos por setor e link oficial. Não hospeda o texto integral das normas.
+> Índice (não o texto) das normas contábeis e de auditoria do Brasil (CFC/CPC) e das internacionais (IFRS/IAS/ISA) e dos padrões do PCAOB (EUA): resumo, o que afeta, equivalências, trechos por setor e link oficial. Não hospeda o texto integral das normas.
 
 Regras: leia `AGENTS.md` antes de responder; cite sempre o código da norma e o link oficial; não afirme item/parágrafo que não esteja nestes arquivos; normas com status=revogada têm substituta em `substituida_por`; trechos com ⚠ na coluna Conferência devem ser confirmados no texto oficial; se algo não está aqui, diga que não está.
 

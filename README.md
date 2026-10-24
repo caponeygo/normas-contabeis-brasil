@@ -2,10 +2,10 @@
 
 # 📚 Normas Contábeis Brasileiras
 
-**Índice navegável das normas do CFC e do CPC e das internacionais (IFRS, IAS, ISA)**
+**Índice navegável das normas do CFC e do CPC, das internacionais (IFRS, IAS, ISA) e dos padrões do PCAOB (EUA)**
 o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lançamentos e o link para o texto oficial.
 
-![Normas](https://img.shields.io/badge/normas-270-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-24-8250df) ![Setores](https://img.shields.io/badge/setores-7-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
+![Normas](https://img.shields.io/badge/normas-338-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-25-8250df) ![Setores](https://img.shields.io/badge/setores-7-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
 
 [🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/manutencao/graphify-out/graph.html)
 
@@ -15,7 +15,7 @@ o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lanç
 
 | Você tem… | Vá para |
 |---|---|
-| 🔎 **o código** da norma (ex.: NBC TG 27, CPC 47, IAS 16, NBC TA 700) | [**normas/**](normas/README.md): lista A–Z com 270 normas e um arquivo por série |
+| 🔎 **o código** da norma (ex.: NBC TG 27, CPC 47, IAS 16, NBC TA 700) | [**normas/**](normas/README.md): lista A–Z com 338 normas e um arquivo por série |
 | 🧭 **o assunto** (ex.: imobilizado, leasing, receita, IR diferido) | [**areas/**](areas/README.md): normas por área, busca por tema com sinônimos e por demonstração (DRE, DFC…) |
 | 🏭 **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
 | 🧾 **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
@@ -39,7 +39,7 @@ Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pe
 ## 🧭 Por área
 
 <details>
-<summary><b>Ver as 24 áreas</b></summary>
+<summary><b>Ver as 25 áreas</b></summary>
 
 | Área | Use para |
 |---|---|
@@ -53,6 +53,7 @@ Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pe
 | [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada |
 | [Mensuração](areas/mensuracao.md) | valor justo, ajuste a valor presente |
 | [Moeda e Câmbio](areas/moeda-e-cambio.md) | variação cambial, moeda funcional, conversão, hiperinflação |
+| [Padrões PCAOB (EUA)](areas/padroes-pcaob-eua.md) | auditoria de companhias abertas nos EUA (SEC), AS, AT, ET, QC e EI do PCAOB, controle interno SOX 404 |
 | [Participações Societárias](areas/participacoes-societarias.md) | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio |
 | [Passivos](areas/passivos.md) | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos |
 | [Patrimônio Líquido](areas/patrimonio-liquido.md) | dividendos, JCP, ações, stock options, lucro por ação |

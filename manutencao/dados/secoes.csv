@@ -18,3 +18,5 @@ tasp;NBC TASP – Auditoria do setor público;simples;NBC TASP;As NBC TA aplicad
 tpe;NBC TPE – Contabilidade eleitoral;simples;NBC TPE;
 ot-cfc;Orientações Técnicas do CFC;simples;OT CFC;Não vinculantes: apoiam o julgamento profissional sem alterar as NBC.
 ifrs;Normas internacionais – IFRS e IAS (IASB);ifrs;IFRS/IAS;Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <https://www.ifrs.org/issued-standards/list-of-standards/>. A coluna CPC / NBC TG indica a norma brasileira convergida.
+
+pcaob;PCAOB – Padrões dos EUA (auditoria, atestação, ética e controle de qualidade);simples;PCAOB;"Padrões do Public Company Accounting Oversight Board (EUA), que valem para auditorias de companhias abertas registradas na SEC e de corretoras. Não são normas brasileiras: use NBC TA para auditoria no Brasil. Os resumos são curtos e seguem o título oficial; leia o texto no site do PCAOB. O site do PCAOB bloqueia verificação automática, então estes links não são checados pelo robô. Vários padrões mudam em 15/12/2026 (QC 1000, EI 1000, nova AS 2901)."

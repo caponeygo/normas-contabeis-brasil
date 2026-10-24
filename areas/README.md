@@ -6,16 +6,17 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 
 | Área | Use para | Normas | Arquivo |
 |---|---|---|---|
-| **Apresentação e Divulgação** | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 48 | [apresentacao-e-divulgacao.md](apresentacao-e-divulgacao.md) |
+| **Apresentação e Divulgação** | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 49 | [apresentacao-e-divulgacao.md](apresentacao-e-divulgacao.md) |
 | **Asseguração** | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 12 | [asseguracao.md](asseguracao.md) |
 | **Ativos** | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 25 | [ativos.md](ativos.md) |
-| **Auditoria Independente** | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 39 | [auditoria-independente.md](auditoria-independente.md) |
+| **Auditoria Independente** | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 56 | [auditoria-independente.md](auditoria-independente.md) |
 | **Auditoria Interna** | auditor interno | 1 | [auditoria-interna.md](auditoria-interna.md) |
 | **Contabilidade Eleitoral** | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral | 2 | [contabilidade-eleitoral.md](contabilidade-eleitoral.md) |
 | **Fundamentos** | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 | [fundamentos.md](fundamentos.md) |
 | **Instrumentos Financeiros** | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 13 | [instrumentos-financeiros.md](instrumentos-financeiros.md) |
 | **Mensuração** | valor justo, ajuste a valor presente | 5 | [mensuracao.md](mensuracao.md) |
 | **Moeda e Câmbio** | variação cambial, moeda funcional, conversão, hiperinflação | 9 | [moeda-e-cambio.md](moeda-e-cambio.md) |
+| **Padrões PCAOB (EUA)** | auditoria de companhias abertas nos EUA (SEC), AS, AT, ET, QC e EI do PCAOB, controle interno SOX 404 | 68 | [padroes-pcaob-eua.md](padroes-pcaob-eua.md) |
 | **Participações Societárias** | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio | 20 | [participacoes-societarias.md](participacoes-societarias.md) |
 | **Passivos** | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 16 | [passivos.md](passivos.md) |
 | **Patrimônio Líquido** | dividendos, JCP, ações, stock options, lucro por ação | 10 | [patrimonio-liquido.md](patrimonio-liquido.md) |
@@ -28,7 +29,7 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 | **Setores Específicos** | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 28 | [setores-especificos.md](setores-especificos.md) |
 | **Sustentabilidade** | ESG, clima, IFRS S1/S2, carbono, relato integrado | 8 | [sustentabilidade.md](sustentabilidade.md) |
 | **Tributos** | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS) | 7 | [tributos.md](tributos.md) |
-| **Ética e Exercício Profissional** | código de ética, independência, educação continuada, CNAI, qualidade de firmas | 12 | [etica-e-exercicio-profissional.md](etica-e-exercicio-profissional.md) |
+| **Ética e Exercício Profissional** | código de ética, independência, educação continuada, CNAI, qualidade de firmas | 21 | [etica-e-exercicio-profissional.md](etica-e-exercicio-profissional.md) |
 | **Normas Internacionais** | IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC | 60 | [normas-internacionais.md](normas-internacionais.md) |
 
 ## Por setor
@@ -78,7 +79,7 @@ Trechos das normas que importam para cada tipo de empresa, com itens, checklist 
 | **Patrimônio, dividendos e ações** | stock options, lucro por ação, JCP | [Patrimônio Líquido](patrimonio-liquido.md) | NBC TG 10 (R3), NBC TG 41 (R2), ITG 07 (R1), ITG 08, ITG 16 (R2), IFRS 2, IAS 33, IFRIC 2, IFRIC 17, IFRIC 19 |
 | **Câmbio e inflação** | conversão, moeda funcional, IAS 21, IAS 29 | [Moeda e Câmbio](moeda-e-cambio.md) | NBC TG 02 (R3), NBC TG 42, ITG 21, ITG 23, NBC TSP 24 (R1), IAS 21, IAS 29, IFRIC 7, IFRIC 22 |
 | **Consolidação e participações** | MEP, controladas, coligadas, joint venture, fusão e aquisição, IFRS 3, IFRS 10 | [Participações Societárias](participacoes-societarias.md) | NBC TG 15 (R4), NBC TG 18 (R4), NBC TG 19 (R2), NBC TG 35 (R2), NBC TG 36 (R3), NBC TG 44, NBC TG 45 (R3), ITG 09 (R2), NBC TA 600 (R2), NBC TSP 16 (R1), NBC TSP 17 (R1), NBC TSP 18 (R1), NBC TSP 19 (R1), NBC TSP 20 (R1), NBC TSP 21 (R1), IFRS 3, IFRS 10, IFRS 11, IFRS 12, IAS 27, IAS 28 |
-| **Demonstrações contábeis e divulgação** | balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18 | [Apresentação e Divulgação](apresentacao-e-divulgacao.md) | NBC TG 03 (R3), NBC TG 05 (R3), NBC TG 09 (R1), NBC TG 21 (R4), NBC TG 22 (R2), NBC TG 24 (R2), NBC TG 26 (R5), NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 45 (R3), NBC TG 51, ITG 17, CTG 06, CTG 07 (R1), NBC TA 540 (R2), NBC TA 550, NBC TA 560 (R1), NBC TA 710 (R1), NBC TA 805, NBC TA 810, NBC TSP 11 (R1), NBC TSP 12 (R1), NBC TSP 13 (R1), NBC TSP 20 (R1), NBC TSP 22 (R1), NBC TSP 25 (R1), NBC TSP 27 (R1), NBC TSP 28 (R1), NBC TSP 30 (R1), NBC TSP 33 (R1), CTSP 02, NBC TDS 01, NBC TDS 02, NBC TR 2410, NBC TO 3420 (R1), CTO 02, IFRS 7, IFRS 8, IFRS 12, IFRS 18, IFRS 19, IAS 1, IAS 7, IAS 10, IAS 24, IAS 32, IAS 34, IFRS S1, IFRS S2, SIC 29 |
+| **Demonstrações contábeis e divulgação** | balanço, DRE, DFC, DVA, DMPL, notas explicativas, IAS 1, IFRS 18 | [Apresentação e Divulgação](apresentacao-e-divulgacao.md) | NBC TG 03 (R3), NBC TG 05 (R3), NBC TG 09 (R1), NBC TG 21 (R4), NBC TG 22 (R2), NBC TG 24 (R2), NBC TG 26 (R5), NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 45 (R3), NBC TG 51, ITG 17, CTG 06, CTG 07 (R1), NBC TA 540 (R2), NBC TA 550, NBC TA 560 (R1), NBC TA 710 (R1), NBC TA 805, NBC TA 810, NBC TSP 11 (R1), NBC TSP 12 (R1), NBC TSP 13 (R1), NBC TSP 20 (R1), NBC TSP 22 (R1), NBC TSP 25 (R1), NBC TSP 27 (R1), NBC TSP 28 (R1), NBC TSP 30 (R1), NBC TSP 33 (R1), CTSP 02, NBC TDS 01, NBC TDS 02, NBC TR 2410, NBC TO 3420 (R1), CTO 02, IFRS 7, IFRS 8, IFRS 12, IFRS 18, IFRS 19, IAS 1, IAS 7, IAS 10, IAS 24, IAS 32, IAS 34, IFRS S1, IFRS S2, SIC 29, PCAOB AT 401 |
 | **Políticas contábeis e erros** | mudança de estimativa, retificação de erro, IAS 8 | [Apresentação e Divulgação](apresentacao-e-divulgacao.md) | NBC TG 23 (R2), NBC TA 540 (R2), NBC TSP 23 (R1), IAS 8 |
 | **Estrutura conceitual** | princípios, framework, características qualitativas | [Fundamentos](fundamentos.md) | NBC TG Estrutura Conceitual, CTG 09, NBC TA Estrutura Conceitual, NBC TSP Estrutura Conceitual (R1), NBC PG 100 (R1) |
 | **Adoção inicial** | first-time adoption, Lei 11.638, IFRS 1 | [Fundamentos](fundamentos.md) | NBC TG 37 (R5), NBC TG 43, ITG 10, CTG 1000, CTG 2000, IFRS 1 |
@@ -90,11 +91,11 @@ Trechos das normas que importam para cada tipo de empresa, com itens, checklist 
 | **Entidades específicas** | terceiro setor, ONG, cooperativas, clubes, fundos de pensão | [Setores Específicos](setores-especificos.md) | NBC TG 900, OTG 2003 (R1), ITG 2001, ITG 2002 (R1), ITG 2003 (R2), ITG 2004, IFRIC 2 |
 | **Sustentabilidade e clima** | ESG, ISSB, IFRS S1, IFRS S2, créditos de carbono | [Sustentabilidade](sustentabilidade.md) | CTG 09, CTG 10, NBC T 15, NBC TDS 01, NBC TDS 02, NBC TAS 5000, NBC TO 3410, CTO 01, CTO 07, IFRS S1, IFRS S2 |
 | **Custos no setor público** | custos governamentais | [Setor Público](setor-publico.md) | NBC TSP 34 |
-| **Fraude** | erro, distorção intencional, ISA 240 | [Auditoria Independente](auditoria-independente.md) | NBC TA 240 (R2) |
-| **Riscos, materialidade e planejamento** | avaliação de risco, materialidade, planejamento de auditoria | [Auditoria Independente](auditoria-independente.md) | NBC TA 210 (R1), NBC TA 250, NBC TA 265, NBC TA 300 (R1), NBC TA 315 (R2), NBC TA 320 (R1), NBC TA 330 (R1), NBC TA 450 (R1), CTSC 04 |
-| **Evidência de auditoria** | procedimentos de auditoria, circularização, amostragem | [Auditoria Independente](auditoria-independente.md) | NBC TA 230 (R1), NBC TA 500 (R1), NBC TA 501, NBC TA 505, NBC TA 510 (R1), NBC TA 520, NBC TA 530, NBC TA 540 (R2), NBC TA 570 (R1), NBC TA 580 (R1) |
-| **Relatório do auditor** | parecer, opinião modificada, PAA, ressalva | [Auditoria Independente](auditoria-independente.md) | NBC TA 700, NBC TA 701, NBC TA 705, NBC TA 706, NBC TA 720, NBC TA 810, NBC TAS 5000, CTR 01 (R1), CTR 02, CTR 03, CTR 04, NBC TO 3402, CTO 01, CTO 03, CTO 05 (R2) |
-| **Qualidade e independência** | ética profissional, EPC, CNAI, revisão pelos pares | [Ética e Exercício Profissional](etica-e-exercicio-profissional.md) | NBC TA 220 (R3), NBC PG 01, NBC PG 12 (R5), NBC PG 100 (R1), NBC PG 200 (R1), NBC PG 300 (R1), NBC PA 01, NBC PA 02, NBC PA 11, NBC PA 13 (R4), NBC PA 400, NBC PO 900, Res. CFC 1.495/15, NBC PP 02 (R1) |
+| **Fraude** | erro, distorção intencional, ISA 240 | [Auditoria Independente](auditoria-independente.md) | NBC TA 240 (R2), PCAOB AS 2401 |
+| **Riscos, materialidade e planejamento** | avaliação de risco, materialidade, planejamento de auditoria | [Auditoria Independente](auditoria-independente.md) | NBC TA 210 (R1), NBC TA 250, NBC TA 265, NBC TA 300 (R1), NBC TA 315 (R2), NBC TA 320 (R1), NBC TA 330 (R1), NBC TA 450 (R1), CTSC 04, PCAOB AS 1101, PCAOB AS 2101, PCAOB AS 2105, PCAOB AS 2110, PCAOB AS 2201, PCAOB AS 2301 |
+| **Evidência de auditoria** | procedimentos de auditoria, circularização, amostragem | [Auditoria Independente](auditoria-independente.md) | NBC TA 230 (R1), NBC TA 500 (R1), NBC TA 501, NBC TA 505, NBC TA 510 (R1), NBC TA 520, NBC TA 530, NBC TA 540 (R2), NBC TA 570 (R1), NBC TA 580 (R1), PCAOB AS 1105, PCAOB AS 1215, PCAOB AS 2305, PCAOB AS 2310, PCAOB AS 2315, PCAOB AS 2501, PCAOB AS 2805 |
+| **Relatório do auditor** | parecer, opinião modificada, PAA, ressalva | [Auditoria Independente](auditoria-independente.md) | NBC TA 700, NBC TA 701, NBC TA 705, NBC TA 706, NBC TA 720, NBC TA 810, NBC TAS 5000, CTR 01 (R1), CTR 02, CTR 03, CTR 04, NBC TO 3402, CTO 01, CTO 03, CTO 05 (R2), PCAOB AS 3101, PCAOB AS 3105, PCAOB AS 3110 |
+| **Qualidade e independência** | ética profissional, EPC, CNAI, revisão pelos pares | [Ética e Exercício Profissional](etica-e-exercicio-profissional.md) | NBC TA 220 (R3), NBC PG 01, NBC PG 12 (R5), NBC PG 100 (R1), NBC PG 200 (R1), NBC PG 300 (R1), NBC PA 01, NBC PA 02, NBC PA 11, NBC PA 13 (R4), NBC PA 400, NBC PO 900, Res. CFC 1.495/15, NBC PP 02 (R1), PCAOB AS 1220, PCAOB ET 101, PCAOB ET 102, PCAOB ET 191, PCAOB EI 1000, PCAOB QC 20, PCAOB QC 30, PCAOB QC 40, PCAOB QC 1000 |
 | **Perícia contábil** | laudo pericial, perito judicial, apuração de haveres | [Perícia Contábil](pericia-contabil.md) | NBC TP 01 (R2), ITP 01, NBC PP 01 (R2), NBC PP 02 (R1) |
 | **Uso do trabalho de terceiros** | especialistas, auditoria interna, organização prestadora de serviços | [Auditoria Independente](auditoria-independente.md) | NBC TA 260 (R2), NBC TA 402, NBC TA 600 (R2), NBC TA 610, NBC TA 620, NBC TO 3402, NBC TI 01 |
 | **Procedimentos previamente acordados e compilação** | PPA, compilação, ISRS 4400, ISRS 4410 | [Serviços Correlatos](servicos-correlatos.md) | NBC TO 3420 (R1), NBC TSC 4400, NBC TSC 4410, CTSC 02, CTSC 03, CTSC 04, CTSC 05, CTSC 06 |
@@ -233,6 +234,7 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TR 2410 – Revisão de Informações Intermediárias Executada pelo Auditor da Entidade](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001274)
 - [NBC TO 3420 (R1) – Asseguração sobre a Compilação de Informações Financeiras Pro Forma Incluídas em Prospecto](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTO3420(R1))
 - [CTO 02 – Asseguração Razoável sobre Informações Financeiras Pro Forma (Instrução CVM 565)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/CTO02)
+- [PCAOB AT 401 – Reporting on Pro Forma Financial Information](https://pcaobus.org/oversight/standards/attestation-standards/details/AT401)
 - [NBC TG 23 (R2) – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG23(R2)&arquivo=NBCTG23(R2).doc)
 - [NBC TSP 23 (R1) – Políticas Contábeis, Mudança de Estimativa e Retificação de Erro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP23(R1)&arquivo=NBCTSP23(R1).docx)
 - [NBC TG Estrutura Conceitual – Estrutura Conceitual para Relatório Financeiro](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTGEC&arquivo=NBCTGEC.doc)
@@ -283,6 +285,7 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TSP 34 – Custos no Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSP34&arquivo=NBCTSP34.doc)
 - [ISA (IAASB) – Normas internacionais de auditoria e asseguração](https://www.iaasb.org/)
 - [NBC TA 240 (R2) – Responsabilidade do Auditor em Relação a Fraude](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA240(R2)&arquivo=NBCTA240(R2).docx)
+- [PCAOB AS 2401 – Consideration of Fraud in a Financial Statement Audit](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2401)
 - [NBC TA 210 (R1) – Concordância com os Termos do Trabalho de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA210(R1))
 - [NBC TA 250 – Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA250)
 - [NBC TA 265 – Comunicação de Deficiências de Controle Interno](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001210)
@@ -291,6 +294,12 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TA 320 (R1) – Materialidade no Planejamento e na Execução da Auditoria](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA320(R1))
 - [NBC TA 330 (R1) – Resposta do Auditor aos Riscos Avaliados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA330(R1))
 - [NBC TA 450 (R1) – Avaliação das Distorções Identificadas durante a Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA450(R1))
+- [PCAOB AS 1101 – Audit Risk](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1101)
+- [PCAOB AS 2101 – Audit Planning](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2101-audit-planning-2022)
+- [PCAOB AS 2105 – Consideration of Materiality in Planning and Performing an Audit](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2105)
+- [PCAOB AS 2110 – Identifying and Assessing Risks of Material Misstatement](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2110)
+- [PCAOB AS 2201 – An Audit of Internal Control Over Financial Reporting That Is Integrated with An Audit of Financial Statements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201)
+- [PCAOB AS 2301 – The Auditor's Responses to the Risks of Material Misstatement](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301)
 - [NBC TA 230 (R1) – Documentação de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA230(R1))
 - [NBC TA 500 (R1) – Evidência de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA500(R1))
 - [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
@@ -300,6 +309,13 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TA 530 – Amostragem em Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001222)
 - [NBC TA 570 (R1) – Continuidade Operacional](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA570(R1)&arquivo=NBCTA570(R1).docx)
 - [NBC TA 580 (R1) – Representações Formais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA580(R1))
+- [PCAOB AS 1105 – Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105)
+- [PCAOB AS 1215 – Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215)
+- [PCAOB AS 2305 – Substantive Analytical Procedures](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2305)
+- [PCAOB AS 2310 – The Auditor’s Use of Confirmation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2310)
+- [PCAOB AS 2315 – Audit Sampling](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2315)
+- [PCAOB AS 2501 – Auditing Accounting Estimates, Including Fair Value Measurements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501)
+- [PCAOB AS 2805 – Management Representations](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2805)
 - [NBC TA 700 – Formação da Opinião e Emissão do Relatório do Auditor Independente](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf)
 - [NBC TA 701 – Comunicação dos Principais Assuntos de Auditoria (PAA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA701)
 - [NBC TA 705 – Modificações na Opinião do Auditor Independente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA705)
@@ -309,6 +325,9 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CTR 02 – Relatório de Revisão das ITR e IFT de Instituições Autorizadas pelo Banco Central](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001353)
 - [NBC TO 3402 – Relatórios de Asseguração sobre Controles em Organização Prestadora de Serviços](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001354&arquivo=Res_1354.doc)
 - [CTO 05 (R2) – Asseguração Razoável sobre o Relatório de Dados Anuais (RDA)](https://cfc.org.br/wp-content/uploads/2023/09/CTO-05-R2.final_.docx)
+- [PCAOB AS 3101 – The Auditor's Report on an Audit of Financial Statements When the Auditor Expresses an Unqualified Opinion](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3101)
+- [PCAOB AS 3105 – Departures from Unqualified Opinions and Other Reporting Circumstances](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105)
+- [PCAOB AS 3110 – Dating of the Independent Auditor's Report](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3110)
 - [NBC TA 220 (R3) – Gestão de Qualidade da Auditoria de Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA220(R3)&arquivo=NBCTA220%20(R3).doc)
 - [NBC PG 01 – Código de Ética Profissional do Contador](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG01&arquivo=NBCPG01.doc)
 - [NBC PG 12 (R5) – Educação Profissional Continuada](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPG12(R5)&arquivo=NBCPG12(R5).docx)
@@ -322,6 +341,15 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC PO 900 – Independência para Trabalho de Asseguração Diferente de Auditoria e Revisão](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPO900&arquivo=NBCPO900.doc)
 - [Res. CFC 1.495/15 – Cadastro Nacional de Auditores Independentes (CNAI)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/001495)
 - [NBC PP 02 (R1) – Exame de Qualificação Técnica para Perito Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP02(R1)&arquivo=NBCPP02(R1).doc)
+- [PCAOB AS 1220 – Engagement Quality Review](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1220)
+- [PCAOB ET 101 – Independence](https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ET101)
+- [PCAOB ET 102 – Integrity and Objectivity](https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ET102)
+- [PCAOB ET 191 – Ethics Rulings on Independence, Integrity, and Objectivity](https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ET191)
+- [PCAOB EI 1000 – Integrity and Objectivity](https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ei-1000--integrity-and-objectivity-(effective-on-12-15-26))
+- [PCAOB QC 20 – System of Quality Control for a CPA Firm's Accounting and Auditing Practice](https://pcaobus.org/oversight/standards/qc-standards/details/QC20)
+- [PCAOB QC 30 – Monitoring a CPA Firm's Accounting and Auditing Practice](https://pcaobus.org/oversight/standards/qc-standards/details/QC30)
+- [PCAOB QC 40 – The Personnel Management Element of a Firm's System of Quality Control-Competencies Required by a Practitioner-in-Charge of an Attest Engagement](https://pcaobus.org/oversight/standards/qc-standards/details/QC40)
+- [PCAOB QC 1000 – A Firm's System of Quality Control](https://pcaobus.org/oversight/standards/qc-standards/details/qc-1000--a-firms-system-of-quality-control)
 - [NBC TP 01 (R2) – Perícia Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTP01(R2)&arquivo=NBCTP01(R2).doc)
 - [ITP 01 – Apuração de Haveres](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/ITP01&arquivo=ITP_01_Apuracao%20de%20Haveres.docx)
 - [NBC PP 01 (R2) – Perito Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP01(R2)&arquivo=NBCPP01(R2).doc)
