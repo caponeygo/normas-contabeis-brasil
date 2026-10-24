@@ -12,13 +12,14 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **O que afeta:** Auditoria (padrão PCAOB)
 
-**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Revisão](../../areas/revisao.md)
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Revisão](../../areas/revisao.md), [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md)
 
 ## Mesmo assunto em outras normas
 
 Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [NBC TR 2410](nbc-tr-2410.md)
+- [NBC TG 21 (R4)](nbc-tg-21-r4.md)
 
 ## Fonte
 

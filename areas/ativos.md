@@ -2,7 +2,7 @@
 
 **Use esta área para:** imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda.
 
-25 normas. Índice de todas as áreas: [areas/README.md](README.md).
+26 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -46,6 +46,7 @@
 | **IAS 38** – Ativo Intangível | Ativo intangível (software, marcas, licenças, desenvolvimento): critérios para reconhecer (pesquisa é sempre despesa; desenvolvimento só com requisitos), custo inicial, amortização pela vida útil, vida indefinida sem amortização e com teste anual. Ágio de combinação fica na NBC TG 15. | BP, DRE (amortização), NE | [CPC 04](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35) · NBC TG 04 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 40** – Propriedade para Investimento | Propriedade para investimento (imóvel para renda ou valorização): escolha entre custo e valor justo; no valor justo, a variação vai para o resultado. Imóvel de uso próprio segue a NBC TG 27. | BP, DRE, NE | [CPC 28](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=59) · NBC TG 28 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 41** – Agricultura (Ativo Biológico e Produto Agrícola) | Ativo biológico (gado, lavoura, florestas) e produto agrícola no ponto da colheita a valor justo menos despesa de venda, com variação no resultado. Planta portadora (ex.: pé de café) segue o imobilizado. | BP, DRE, NE | [CPC 29](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60) · NBC TG 29 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **PCAOB AS 2510** – Auditing Inventories | Auditoria de estoques. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2510) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -81,4 +82,5 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CPC 29 – Ativo Biológico e Produto Agrícola](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60)
 - [CPC 31 – Ativo Não Circulante Mantido para Venda e Operação Descontinuada](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=62)
 - [ICPC 10 – Interpretação sobre a Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento dos Pronunciamentos Técnicos CPCs 27, 28, 37 e 43](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=19)
+- [PCAOB AS 2510 – Auditing Inventories](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2510)
 <!-- fontes:fim -->

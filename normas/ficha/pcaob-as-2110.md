@@ -14,6 +14,8 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md)
 
+**Setores (por assunto, via normas relacionadas):** Indústria
+
 **Temas:** Riscos, materialidade e planejamento
 
 ## Mesmo assunto em outras normas

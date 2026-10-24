@@ -222,6 +222,10 @@ for rel in ler("relacoes.csv"):
 # ---------- pastas por setor (dados/setores*.csv) ----------
 import gerar_setores
 SETORES_GER = gerar_setores.gerar_todos(ROOT, REC, sem_rev)   # [(nome, pasta, use_para, [(arq, titulo)])]
+# padrões do PCAOB não têm trechos por setor: herdam, "por assunto", os setores das normas relacionadas
+for r in REC:
+    proprios = {x["setor"] for x in r["setores"]}
+    r["setores_assunto"] = sorted({x["setor"] for c in r["relacionadas"] for x in _por_cod[sem_rev(c)]["setores"]} - proprios) if r["serie"] == "PCAOB" else []
 
 (ROOT / "normas.json").write_text(json.dumps({
     "descricao": "Índice das normas contábeis e de auditoria brasileiras (CFC/CPC) e internacionais (IFRS/IAS), por área e tema.",
@@ -361,6 +365,8 @@ for r in REC:
     if eq:
         md.append("**Equivalentes:** " + " · ".join(eq) + "\n")
     md.append("**Áreas:** " + ", ".join(f"[{a}](../../areas/{slug(a)}.md)" for a in r["areas"]) + "\n")
+    if r["setores_assunto"]:
+        md.append("**Setores (por assunto, via normas relacionadas):** " + ", ".join(r["setores_assunto"]) + chr(10))
     if r["temas"]:
         md.append("**Temas:** " + ", ".join(r["temas"]) + "\n")
     if r["setores"]:

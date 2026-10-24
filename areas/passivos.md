@@ -2,7 +2,7 @@
 
 **Use esta área para:** provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos.
 
-16 normas. Índice de todas as áreas: [areas/README.md](README.md).
+17 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -32,6 +32,7 @@
 | **IAS 26** – Planos de Benefícios de Aposentadoria | Demonstrações dos próprios planos de aposentadoria (fundos de pensão): ativos líquidos disponíveis para benefícios e valor atuarial dos benefícios prometidos. Não é a contabilidade do patrocinador (essa é a NBC TG 33). | Demonstrações do plano | [CPC 49](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111) · NBC TG 49 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IAS 37** – Provisões, Passivos Contingentes e Ativos Contingentes | Provisões (processos, garantias, reestruturação, desmontagem): reconhece quando a saída de recursos é provável e mensurável; contingência possível só em nota; ativo contingente só quando praticamente certo. | BP (passivo), DRE, NE | [CPC 25](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56) · NBC TG 25 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRIC 14** – Limite de Ativo de Benefício Definido e Custeio Mínimo | Planos de benefício definido: limita o ativo de plano superavitário ao benefício econômico disponível e trata exigências de contribuição mínima. | BP, DRA | [ICPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98) · ITG 20 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **PCAOB AS 2505** – Inquiry of a Client's Lawyer Concerning Litigation, Claims, and Assessments | Consulta ao advogado do cliente sobre litígios, reclamações e avaliações. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2505) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -55,4 +56,5 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CPC 33 – Benefícios a Empregados](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=64)
 - [CPC 49 – Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111)
 - [ICPC 20 – Limite de Ativo de Benefício Definido, Requisitos de Custeio (Funding) Mínimo e sua Interação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98)
+- [PCAOB AS 2505 – Inquiry of a Client's Lawyer Concerning Litigation, Claims, and Assessments](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2505)
 <!-- fontes:fim -->

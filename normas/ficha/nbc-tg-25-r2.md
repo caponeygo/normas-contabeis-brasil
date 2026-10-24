@@ -33,6 +33,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Construção e Incorporação | [Construtoras e empreiteiras](../../setores/construcao/02-contratos-de-construcao.md) | 66–69 | ✅ conferido |
 | Construção e Incorporação | [Garantias, equipamentos e tributos](../../setores/construcao/03-garantias-imobilizado-e-tributos.md) | 14, 24, 39 | ✅ conferido |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2505](pcaob-as-2505.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc)

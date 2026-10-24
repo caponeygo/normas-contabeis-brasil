@@ -37,8 +37,7 @@ label.opt input{accent-color:var(--acc);margin-top:3px}
 .forms svg{display:block}
 button.act{margin-top:16px;width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(160deg,rgba(138,180,255,.16),rgba(138,180,255,.04));color:var(--txt);cursor:pointer;font:inherit;transition:all .15s}
 button.act:hover{border-color:var(--acc)}
-#stage{position:relative;min-width:0;background:radial-gradient(1200px 800px at 55% 45%,var(--bg2) 0%,var(--bg) 70%)}
-#stage::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(148,163,184,.16) 1px,transparent 1px);background-size:28px 28px;opacity:.55;pointer-events:none;mask-image:radial-gradient(circle at 55% 45%,#000 20%,transparent 78%)}
+#stage{position:relative;min-width:0;background:radial-gradient(1200px 800px at 50% 50%,var(--bg2) 0%,var(--bg) 70%)}
 canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none}
 canvas.drag{cursor:grabbing}
 #zoom{position:absolute;right:16px;top:16px;display:flex;flex-direction:column;gap:6px}
@@ -61,7 +60,7 @@ canvas.drag{cursor:grabbing}
 <div id="app">
 <aside id="side">
   <h1>Mapa de normas por setor e área</h1>
-  <p class="sub">Cada norma fica perto do setor e da área que ela atende. As que servem a vários ficam no meio e ligam os grupos.</p>
+  <p class="sub">No centro, os setores. No anel do meio, as áreas. Na borda, cada norma, na fatia da sua área. As linhas mostram o que se liga a quê.</p>
   <div class="stats" id="stats"></div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -70,15 +69,17 @@ canvas.drag{cursor:grabbing}
   <h2>Setor</h2>
   <div id="chipsS" class="chips"></div>
   <h2>Mostrar</h2>
-  <label class="opt"><input type="checkbox" id="oNor" checked> as normas (desmarque para ver só setores e áreas)</label>
   <label class="opt"><input type="checkbox" id="oRel" checked> ligações de mesmo assunto (ex.: PCAOB AS 2401 ↔ NBC TA 240)</label>
+  <label class="opt"><input type="checkbox" id="oSA" checked> ligações entre setores e áreas</label>
   <label class="opt"><input type="checkbox" id="oEq"> equivalentes (NBC TG ↔ IFRS/IAS)</label>
   <label class="opt"><input type="checkbox" id="oVig"> destacar revogadas e ainda não vigentes</label>
   <h2>Legenda</h2>
   <div class="forms">
-    <svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#a855f7"/></svg><span>Setor (círculo cheio, grande)</span>
-    <svg width="22" height="22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#98a3b8" stroke-width="2.5"/></svg><span>Área (anel; a cor é a série que mais aparece)</span>
-    <svg width="22" height="22"><circle cx="11" cy="11" r="3.5" fill="#9d8cff"/></svg><span>Norma (a cor é a série)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#c084fc"/></svg><span>Setor (centro)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#98a3b8" stroke-width="2.5"/></svg><span>Área (anel do meio; a cor é a série que mais aparece)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="3.5" fill="#a594ff"/></svg><span>Norma (borda; a cor é a série)</span>
+    <svg width="22" height="22"><path d="M2 11h18" stroke="#22d3ee" stroke-width="2"/></svg><span>Mesmo assunto</span>
+    <svg width="22" height="22"><path d="M2 11h18" stroke="#98a3b8" stroke-width="2" stroke-dasharray="5 3"/></svg><span>Áreas relacionadas</span>
   </div>
   <div class="leg" id="leg" style="margin-top:10px"></div>
   <button class="act" id="fit">Ver tudo</button>
@@ -86,7 +87,7 @@ canvas.drag{cursor:grabbing}
 <main id="stage">
   <canvas id="cv"></canvas>
   <div id="zoom"><button id="zi" aria-label="Aproximar">+</button><button id="zo" aria-label="Afastar">−</button><button id="zf" aria-label="Ver tudo" style="font-size:15px">⤢</button></div>
-  <div id="hint">Passe o mouse para ver as ligações · clique para abrir · arraste para mover · roda do mouse para o zoom</div>
+  <div id="hint">Passe o mouse para ver as ligações · clique para abrir · arraste o fundo para mover · roda do mouse para o zoom</div>
   <div id="card"><button id="close" aria-label="Fechar">×</button><div id="cardBody"></div></div>
 </main>
 </div>
@@ -112,205 +113,216 @@ const GRUPOS = [
 const corNorma = s => GRUPOS.find(g => g[2](s))[1];
 document.getElementById('leg').innerHTML = GRUPOS.map(g => `<i style="background:${g[1]};color:${g[1]}"></i><span>${g[0]}</span>`).join('');
 
-// ---------- nós e ligações ----------
-const nodes = [], links = [];
-D.setores.forEach((s,i) => nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:27, q:22, deg:0, url:s.url, uso:s.uso}));
-D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#98a3b8', r:16, q:15, deg:0, url:a.url, uso:a.uso}));
+// ---------- lugar de cada coisa (layout fixo em círculo) ----------
+// Ordem das áreas no anel: contabilidade, depois setor público e sustentabilidade, internacionais e a família da auditoria.
+const ORDEM = ['Fundamentos','Apresentação e Divulgação','Ativos','Passivos','Receitas','Tributos','Patrimônio Líquido','Instrumentos Financeiros',
+  'Mensuração','Moeda e Câmbio','Participações Societárias','Setores Específicos','Pequenas e Médias Empresas','Setor Público','Contabilidade Eleitoral',
+  'Sustentabilidade','Normas Internacionais','Auditoria Independente','Padrões PCAOB (EUA)','Revisão','Asseguração','Serviços Correlatos',
+  'Auditoria Interna','Perícia Contábil','Ética e Exercício Profissional'];
+const R_SET = 120, R_AREA = 300, R_IN = 372, ESP = 12, GAP = .035;
 const nS = D.setores.length, nA = D.areas.length;
-D.normas.forEach((n,i) => nodes.push({type:'norma', i, label:n.c, n, color:corNorma(n.s), r:4.2, q:1, deg:0}));
+const nodes = [];
+D.setores.forEach((s,i) => { const t = -Math.PI/2 + i/nS*Math.PI*2;
+  nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:24, tx:Math.cos(t)*R_SET, ty:Math.sin(t)*R_SET, url:s.url, uso:s.uso}); });
+D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#98a3b8', r:13, url:a.url, uso:a.uso}));
+D.normas.forEach((n,i) => nodes.push({type:'norma', i, label:n.c, n, color:corNorma(n.s), r:4.3}));
 const setorN = i => nodes[i], areaN = i => nodes[nS+i], normaN = i => nodes[nS+nA+i];
-const par = {};
+
+const natural = (a,b) => a.localeCompare(b, 'pt', {numeric:true});
+const filhos = D.areas.map(() => []);
+D.normas.forEach((n,i) => filhos[n.a[0]].push(i));
+const ordemSerie = s => GRUPOS.findIndex(g => g[2](s));
+filhos.forEach(l => l.sort((x,y) => ordemSerie(D.normas[x].s)-ordemSerie(D.normas[y].s) || natural(D.normas[x].c, D.normas[y].c)));
+const pos = n => { const i = ORDEM.indexOf(n); return i < 0 ? 99 : i; };
+const anel = D.areas.map((a,i) => i).sort((x,y) => pos(D.areas[x].nome)-pos(D.areas[y].nome) || natural(D.areas[x].nome, D.areas[y].nome));
+const peso = i => filhos[i].length + 5;
+const total = anel.reduce((s,i) => s + peso(i), 0), livre = Math.PI*2 - GAP*nA;
+const fatia = []; let ang = -Math.PI/2;
+anel.forEach(ai => {
+  const w = peso(ai)/total*livre, a0 = ang + GAP/2, a1 = a0 + w; ang += w + GAP;
+  fatia[ai] = {a0, a1, mid:(a0+a1)/2, rmax:R_IN};
+  const hub = areaN(ai); hub.tx = Math.cos(fatia[ai].mid)*R_AREA; hub.ty = Math.sin(fatia[ai].mid)*R_AREA; hub.ang = fatia[ai].mid;
+  // normas em fileiras dentro da fatia, de dentro para fora, centralizadas
+  let k = 0, fila = 0;
+  while (k < filhos[ai].length){
+    const r = R_IN + fila*ESP, cab = Math.max(1, Math.floor((a1-a0)*r/ESP)), q = Math.min(cab, filhos[ai].length-k), passo = (a1-a0)/cab;
+    for (let j=0;j<q;j++){ const t = a0 + passo*((cab-q)/2 + j + .5), m = normaN(filhos[ai][k+j]); m.tx = Math.cos(t)*r; m.ty = Math.sin(t)*r; m.ang = t; }
+    k += q; fila++; fatia[ai].rmax = r;
+  }
+});
+const R_MAX = Math.max(...fatia.filter(Boolean).map(f => f.rmax));
+
+// ---------- ligações ----------
+const links = [], par = {};
 D.normas.forEach((n,i) => {
   const me = normaN(i);
-  n.a.forEach(a => links.push({a:me, b:areaN(a), len:34, k:.10, kind:'na'}));
-  n.x.forEach(s => {
-    links.push({a:me, b:setorN(s), len:60, k:.05, kind:'ns'});
-    n.a.forEach(a => { const key = s+'-'+a; par[key] = (par[key]||0)+1; });
-  });
-  n.rl.forEach(j => { if (j > i) links.push({a:me, b:normaN(j), len:46, k:.045, kind:'rel'}); });
-  n.e.forEach(j => { if (j > i || !D.normas[j].e.includes(i)) links.push({a:me, b:normaN(j), len:26, k:.03, kind:'eq'}); });
+  n.a.forEach((a,j) => links.push({a:me, b:areaN(a), kind:'na', sec:j>0}));
+  n.x.forEach(s => { links.push({a:me, b:setorN(s), kind:'ns'}); n.a.forEach(a => { const key = s+'-'+a; par[key] = (par[key]||0)+1; }); });
+  n.xa.forEach(s => links.push({a:me, b:setorN(s), kind:'nsa'}));
+  n.rl.forEach(j => { if (j > i) links.push({a:me, b:normaN(j), kind:'rel'}); });
+  n.e.forEach(j => { if (j > i || !D.normas[j].e.includes(i)) links.push({a:me, b:normaN(j), kind:'eq'}); });
 });
-Object.entries(par).forEach(([key,w]) => { const [s,a] = key.split('-').map(Number);
-  links.push({a:setorN(s), b:areaN(a), len:210, k:Math.min(.004*w,.03), kind:'sa', w}); });
-D.areas.forEach((a,i) => a.rel.forEach(j => { if (!links.some(l => l.kind==='aa' && ((l.a===areaN(i)&&l.b===areaN(j))||(l.a===areaN(j)&&l.b===areaN(i))))) links.push({a:areaN(i), b:areaN(j), len:120, k:.02, kind:'aa'}); }));
+Object.entries(par).forEach(([key,w]) => { const [s,a] = key.split('-').map(Number); links.push({a:setorN(s), b:areaN(a), kind:'sa', w}); });
+D.areas.forEach((a,i) => a.rel.forEach(j => { if (!links.some(l => l.kind==='aa' && ((l.a===areaN(i)&&l.b===areaN(j))||(l.a===areaN(j)&&l.b===areaN(i))))) links.push({a:areaN(i), b:areaN(j), kind:'aa'}); }));
 const adj = new Map(nodes.map(n => [n, new Set()]));
-links.forEach(l => { adj.get(l.a).add(l.b); adj.get(l.b).add(l.a); l.a.deg++; l.b.deg++; });
-nodes.forEach(n => { if (n.type==='norma') n.r = 3.6 + Math.min(n.deg,5)*.45; });
-// a cor da área é a série que mais aparece nas normas dela
-D.areas.forEach((a,i) => { const c = {}; adj.get(areaN(i)).forEach(m => { if (m.type==='norma') c[m.color] = (c[m.color]||0)+1; });
+links.forEach(l => { adj.get(l.a).add(l.b); adj.get(l.b).add(l.a); });
+D.areas.forEach((a,i) => { const c = {}; filhos[i].forEach(j => { const m = normaN(j); c[m.color] = (c[m.color]||0)+1; });
   const top = Object.entries(c).sort((x,y) => y[1]-x[1])[0]; if (top) areaN(i).color = top[0]; });
-
-const R0 = 330;
-D.setores.forEach((s,i) => { const t = i/nS*Math.PI*2; Object.assign(setorN(i), {x:Math.cos(t)*R0, y:Math.sin(t)*R0, vx:0, vy:0}); });
-D.areas.forEach((a,i) => {
-  let sx=0, sy=0, w=0;
-  for (let s=0;s<nS;s++){ const k = par[s+'-'+i]||0; sx += setorN(s).x*k; sy += setorN(s).y*k; w += k; }
-  const n = areaN(i); n.x = (w? sx/w : (Math.random()-.5)*200) + (Math.random()-.5)*40; n.y = (w? sy/w : (Math.random()-.5)*200) + (Math.random()-.5)*40; n.vx=n.vy=0;
-});
-D.normas.forEach((n,i) => {
-  const hubs = [...n.x.map(setorN), ...n.a.map(areaN)];
-  const m = normaN(i); let x=0,y=0; hubs.forEach(h => { x+=h.x; y+=h.y; });
-  m.x = x/hubs.length + (Math.random()-.5)*50; m.y = y/hubs.length + (Math.random()-.5)*50; m.vx=m.vy=0;
-});
-
-// ---------- física ----------
-let alpha = 1;
-function tick(){
-  const N = nodes.length;
-  for (let i=0;i<N;i++){ const a = nodes[i];
-    for (let j=i+1;j<N;j++){ const b = nodes[j];
-      let dx = b.x-a.x, dy = b.y-a.y, d2 = dx*dx+dy*dy;
-      if (d2 > 400000) continue;
-      if (d2 < 1) { dx = Math.random()-.5; dy = Math.random()-.5; d2 = .5; }
-      const d = Math.sqrt(d2), f = 340*a.q*b.q/Math.max(d2, 64)*alpha, fx = dx/d*f, fy = dy/d*f;
-      a.vx -= fx; a.vy -= fy; b.vx += fx; b.vy += fy;
-      const rr = a.r+b.r+2;
-      if (d < rr) { const p = (rr-d)/d*.5; a.vx -= dx*p; a.vy -= dy*p; b.vx += dx*p; b.vy += dy*p; }
-    }
-  }
-  for (const l of links){ const a=l.a, b=l.b; const dx=b.x-a.x, dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||1;
-    const f = (d-l.len)*l.k*alpha, fx = dx/d*f, fy = dy/d*f;
-    const wa = a.type==='norma'?1:.3, wb = b.type==='norma'?1:.3;
-    a.vx += fx*wa; a.vy += fy*wa; b.vx -= fx*wb; b.vy -= fy*wb; }
-  for (const n of nodes){
-    n.vx -= n.x*.003*alpha*(n.type==='norma'?.4:1); n.vy -= n.y*.003*alpha*(n.type==='norma'?.4:1);
-    if (n.fixed) { n.vx = n.vy = 0; continue; }
-    n.vx *= .6; n.vy *= .6; n.x += n.vx; n.y += n.vy;
-  }
-  alpha = Math.max(alpha*.985, .0);
-}
-for (let i=0;i<420;i++) tick();
-alpha = .02;
+nodes.forEach(n => { n.x = 0; n.y = 0; });
 
 // ---------- vista ----------
 const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
 let W=0,H=0,dpr=1, view = {x:0,y:0,k:1};
-function resize(){ dpr = window.devicePixelRatio||1; const r = cv.getBoundingClientRect(); W=r.width; H=r.height; cv.width=W*dpr; cv.height=H*dpr; draw(); }
-function fit(){
-  const vis = nodes.filter(n => visivel(n)); if (!vis.length) return;
-  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; vis.forEach(n => { x0=Math.min(x0,n.x-n.r); y0=Math.min(y0,n.y-n.r); x1=Math.max(x1,n.x+n.r); y1=Math.max(y1,n.y+n.r); });
-  const k = Math.min(W/(x1-x0+170), H/(y1-y0+170)); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
-}
+function resize(){ dpr = window.devicePixelRatio||1; const r = cv.getBoundingClientRect(); W=r.width; H=r.height; cv.width=W*dpr; cv.height=H*dpr; fit(); draw(); }
+function fit(){ const k = Math.max(.2, (Math.min(W, H)/2 - 170)/(R_MAX + 20)); view = {k, x:W/2, y:H/2}; }   // 170 px de folga para os nomes das áreas
 const sx = x => x*view.k+view.x, sy = y => y*view.k+view.y;
 const wx = x => (x-view.x)/view.k, wy = y => (y-view.y)/view.k;
 
 // ---------- filtros ----------
-let hover=null, sel=null, filtroSetor=null, busca='', achados=null;
-const oNor=document.getElementById('oNor'), oEq=document.getElementById('oEq'), oVig=document.getElementById('oVig'), oRel=document.getElementById('oRel');
-function visivel(n){ return n.type!=='norma' || oNor.checked; }
+let hover=null, sel=null, filtroSetor=null, achados=null;
+const oEq=document.getElementById('oEq'), oVig=document.getElementById('oVig'), oRel=document.getElementById('oRel'), oSA=document.getElementById('oSA');
 function noFiltro(n){
   if (filtroSetor===null) return true;
   if (n.type==='setor') return n.i===filtroSetor;
-  if (n.type==='norma') return n.n.x.includes(filtroSetor);
-  return [...adj.get(n)].some(m => m.type==='norma' && m.n.x.includes(filtroSetor)) || adj.get(n).has(setorN(filtroSetor));
+  if (n.type==='norma') return n.n.x.includes(filtroSetor) || n.n.xa.includes(filtroSetor);
+  return filhos[n.i].some(j => D.normas[j].x.includes(filtroSetor)) || [...adj.get(n)].some(m => m.type==='norma' && (m.n.x.includes(filtroSetor)));
 }
-function normaliza(s){ return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
+const normaliza = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 function atualizaBusca(){
-  busca = normaliza(document.getElementById('q').value.trim());
-  achados = busca ? new Set(nodes.filter(n => n.type==='norma' && normaliza(n.n.c+' '+n.n.t+' '+n.n.r).includes(busca)).concat(
-              nodes.filter(n => n.type!=='norma' && normaliza(n.label+' '+(n.uso||'')).includes(busca)))) : null;
+  const q = normaliza(document.getElementById('q').value.trim());
+  achados = q ? new Set(nodes.filter(n => normaliza(n.type==='norma' ? n.n.c+' '+n.n.t+' '+n.n.r : n.label+' '+(n.uso||'')).includes(q))) : null;
 }
-function foco(){ const f = sel||hover; return f ? new Set([f, ...adj.get(f)]) : null; }
+function foco(){                     // foco de um setor/área inclui também onde as normas dele se ligam (outras áreas, setores, normas)
+  const f = sel||hover; if (!f) return null;
+  const S = new Set([f, ...adj.get(f)]);
+  if (f.type!=='norma') adj.get(f).forEach(m => { if (m.type==='norma') adj.get(m).forEach(x => S.add(x)); });
+  return S;
+}
 function opac(n, F){
-  if (!noFiltro(n)) return .06;
-  if (F && !F.has(n)) return .1;
-  if (achados && !F) return achados.has(n) ? 1 : .09;
+  if (!noFiltro(n)) return .07;
+  if (F && !F.has(n)) return .12;
+  if (achados && !F) return achados.has(n) ? 1 : .1;
   return 1;
+}
+function mostraLigacao(l, F){
+  const f = sel||hover, viz = f && adj.get(f);
+  const ambos = !!F && F.has(l.a) && F.has(l.b) && (l.a===f || l.b===f || l.kind==='sa' || l.kind==='aa'
+                || (l.a.type==='norma' && viz.has(l.a)) || (l.b.type==='norma' && viz.has(l.b)));
+  if (l.kind==='eq') return oEq.checked || ambos;
+  if (l.kind==='rel') return oRel.checked || ambos;
+  if (l.kind==='sa') return oSA.checked || ambos;
+  if (l.kind==='aa') return true;
+  if (l.kind==='na') return !l.sec || ambos;
+  if (l.kind==='ns') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
+  if (l.kind==='nsa') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
+  return false;
 }
 
 // ---------- desenho ----------
 const t0 = performance.now(); let intro = 0;
 function rgba(hex,a){ const h = hex.replace('#',''); return `rgba(${parseInt(h.slice(0,2),16)},${parseInt(h.slice(2,4),16)},${parseInt(h.slice(4,6),16)},${a})`; }
-function aresta(l, o, F){
-  const a=l.a, b=l.b, x1=sx(a.x), y1=sy(a.y), x2=sx(b.x), y2=sy(b.y);
-  const forte = F && F.has(a) && F.has(b);
-  let al = l.kind==='sa' ? .16 + Math.min(l.w,12)*.02 : l.kind==='eq' ? .5 : l.kind==='rel' ? .55 : l.kind==='aa' ? .4 : .26;
-  if (forte) al = .85;
-  ctx.globalAlpha = Math.min(1, al*o*intro);
-  const cor = l.kind==='eq' ? '#f5b85a' : l.kind==='rel' ? '#22d3ee' : (l.kind==='sa'||l.kind==='aa') ? '#94a3b8' : (a.type==='norma'?b:a).color;
-  ctx.strokeStyle = cor;
-  ctx.lineWidth = (l.kind==='sa' ? Math.min(.8+l.w*.18, 4) : l.kind==='aa' ? 1.8 : l.kind==='rel' ? 1.3 : l.kind==='eq' ? 1 : .7) * (forte?1.5:1);
-  ctx.setLineDash(l.kind==='eq' ? [3,3] : l.kind==='aa' ? [7,4] : []);
-  ctx.beginPath(); ctx.moveTo(x1,y1);
-  if (l.kind==='sa' || l.kind==='aa'){ const mx=(x1+x2)/2, my=(y1+y2)/2, dx=x2-x1, dy=y2-y1; ctx.quadraticCurveTo(mx-dy*.12, my+dx*.12, x2, y2); }
-  else ctx.lineTo(x2,y2);
-  ctx.stroke();
+function curva(a, b, puxa){        // curva que passa por dentro do círculo (puxa: 0 = reta, 1 = pelo centro)
+  const x1=sx(a.x), y1=sy(a.y), x2=sx(b.x), y2=sy(b.y), mx=(a.x+b.x)/2*(1-puxa), my=(a.y+b.y)/2*(1-puxa);
+  ctx.beginPath(); ctx.moveTo(x1,y1); ctx.quadraticCurveTo(sx(mx), sy(my), x2, y2); ctx.stroke();
 }
 function draw(){
-  intro = Math.min(1, (performance.now()-t0)/900); const ease = 1-Math.pow(1-intro,3);
+  intro = Math.min(1, (performance.now()-t0)/1100); const e = 1-Math.pow(1-intro,3);
+  nodes.forEach(n => { n.x = n.tx*e; n.y = n.ty*e; });
   ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
-  const F = foco(), hubCor = css('--hub'), txt = css('--txt'), fill = css('--hubfill'), halo = css('--halo');
-  const I = ease;
+  const F = foco(), hubCor = css('--hub'), txt = css('--txt'), fill = css('--hubfill'), halo = css('--halo'), mut = css('--mut');
+  // guias: anéis e fatias de cada área
+  ctx.globalAlpha = .5*e; ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(148,163,184,.14)'; ctx.setLineDash([2,5]);
+  [R_SET, R_AREA].forEach(r => { ctx.beginPath(); ctx.arc(view.x, view.y, r*view.k*e, 0, 7); ctx.stroke(); });
+  ctx.setLineDash([]);
+  anel.forEach(ai => { const f = fatia[ai], n = areaN(ai), o = opac(n,F)*e;
+    ctx.globalAlpha = o; ctx.beginPath(); ctx.arc(view.x, view.y, (f.rmax+9)*view.k*e, f.a0, f.a1); ctx.arc(view.x, view.y, (R_IN-9)*view.k*e, f.a1, f.a0, true); ctx.closePath();
+    ctx.fillStyle = rgba(n.color, F && F.has(n) ? .14 : .06); ctx.fill(); ctx.strokeStyle = rgba(n.color, .22); ctx.lineWidth = 1; ctx.stroke(); });
+  // ligações
   for (const l of links){
-    if (!visivel(l.a)||!visivel(l.b)) continue;
-    if (l.kind==='eq' && !oEq.checked) continue;
-    if (l.kind==='rel' && !oRel.checked) continue;
-    aresta(l, Math.min(opac(l.a,F),opac(l.b,F)), F);
+    if (!mostraLigacao(l, F)) continue;
+    const forte = F && F.has(l.a) && F.has(l.b), o = Math.min(opac(l.a,F), opac(l.b,F));
+    let al, cor, lw = 1, puxa = 0, dash = [];
+    if (l.kind==='na'){ al = l.sec ? .55 : .13; cor = l.b.color; lw = .8; puxa = l.sec ? .35 : 0; }
+    else if (l.kind==='ns'){ al = .45; cor = l.b.color; puxa = .25; }
+    else if (l.kind==='nsa'){ al = .45; cor = l.b.color; puxa = .25; dash = [4,3]; }
+    else if (l.kind==='sa'){ al = .10 + Math.min(l.w,12)*.02; cor = l.a.color; lw = Math.min(.8+l.w*.2, 4.5); puxa = .15; }
+    else if (l.kind==='aa'){ al = .45; cor = '#98a3b8'; lw = 1.6; puxa = .45; dash = [7,4]; }
+    else if (l.kind==='rel'){ al = .5; cor = '#22d3ee'; lw = 1.2; puxa = .55; }
+    else { al = .5; cor = '#f5b85a'; puxa = .6; dash = [3,3]; }
+    if (forte) { al = Math.max(al, .85); lw *= 1.4; }
+    ctx.globalAlpha = Math.min(1, al*o*e); ctx.strokeStyle = cor; ctx.lineWidth = lw*Math.max(.7, Math.min(view.k,1.6)); ctx.setLineDash(dash);
+    curva(l.a, l.b, puxa);
   }
-  ctx.setLineDash([]); ctx.shadowBlur = 0;
-  const ordem = nodes.filter(visivel).sort((a,b) => (a.type==='norma'?0:a.type==='area'?1:2) - (b.type==='norma'?0:b.type==='area'?1:2));
-  for (const n of ordem){
-    const o = opac(n,F)*I; ctx.globalAlpha = o;
-    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.5), foc = (n===hover||n===sel), r=n.r*z*(foc?1.22:1);
+  ctx.setLineDash([]);
+  // nós
+  for (const n of nodes){
+    const o = opac(n,F)*e; ctx.globalAlpha = o;
+    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.45), foc = (n===hover||n===sel), r=n.r*z*(foc?1.25:1);
     if (n.type==='norma'){
-      if (foc || (F&&F.has(n)) ){ ctx.shadowColor = n.color; ctx.shadowBlur = 12; }
+      if (foc || (F&&F.has(n))){ ctx.shadowColor = n.color; ctx.shadowBlur = 12; }
       const g = ctx.createRadialGradient(x-r*.3,y-r*.3,r*.1,x,y,r); g.addColorStop(0,'#ffffff'); g.addColorStop(.35,n.color); g.addColorStop(1,n.color);
       ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
       if (oVig.checked && n.n.st!=='vigente'){ ctx.beginPath(); ctx.arc(x,y,r+2.2,0,7); ctx.lineWidth=2; ctx.strokeStyle = n.n.st==='revogada'?'#f87171':'#fbbf24'; ctx.stroke(); }
     } else if (n.type==='setor'){
-      ctx.beginPath(); ctx.arc(x,y,r*1.65,0,7); ctx.fillStyle = rgba(n.color,.10*o/(o||1)); ctx.fill();
-      ctx.shadowColor = n.color; ctx.shadowBlur = 24;
-      const g = ctx.createRadialGradient(x-r*.35,y-r*.4,r*.1,x,y,r); g.addColorStop(0,'#ffffff55'); g.addColorStop(.25,n.color); g.addColorStop(1,rgba(n.color,.82));
+      ctx.beginPath(); ctx.arc(x,y,r*1.6,0,7); ctx.fillStyle = rgba(n.color,.12); ctx.fill();
+      ctx.shadowColor = n.color; ctx.shadowBlur = 22;
+      const g = ctx.createRadialGradient(x-r*.35,y-r*.4,r*.1,x,y,r); g.addColorStop(0,'#ffffff66'); g.addColorStop(.25,n.color); g.addColorStop(1,rgba(n.color,.85));
       ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
       ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(255,255,255,.55)'; ctx.stroke();
     } else {
-      ctx.beginPath(); ctx.arc(x,y,r*1.35,0,7); ctx.fillStyle = rgba(n.color,.10); ctx.fill();
       ctx.shadowColor = n.color; ctx.shadowBlur = foc?18:8;
       ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = fill; ctx.fill(); ctx.lineWidth = 2.6; ctx.strokeStyle = n.color; ctx.stroke(); ctx.shadowBlur = 0;
-      ctx.beginPath(); ctx.arc(x,y,r*.32,0,7); ctx.fillStyle = n.color; ctx.fill();
+      ctx.beginPath(); ctx.arc(x,y,r*.34,0,7); ctx.fillStyle = n.color; ctx.fill();
     }
     if (n===sel){ ctx.beginPath(); ctx.arc(x,y,r+4,0,7); ctx.lineWidth=2; ctx.strokeStyle=hubCor; ctx.stroke(); }
   }
-  ctx.globalAlpha = 1; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.lineJoin='round';
-  const rotulo = (t, x, y, tam, peso, cor, o) => {
-    ctx.globalAlpha = o; ctx.font = `${peso} ${tam}px Inter,system-ui,sans-serif`;
-    ctx.lineWidth = 4; ctx.strokeStyle = `rgba(${halo},.82)`; ctx.strokeText(t, x, y); ctx.fillStyle = cor; ctx.fillText(t, x, y); };
-  for (const n of ordem){
-    const o = opac(n,F)*I; if (o < .2) continue;
-    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.5);
-    if (n.type==='setor'){ ctx.globalAlpha=o; ctx.font = `700 ${Math.max(12,13*view.k)}px Inter,system-ui,sans-serif`; ctx.fillStyle='#fff'; ctx.shadowColor='rgba(0,0,0,.55)'; ctx.shadowBlur=4; ctx.fillText(n.label, x, y); ctx.shadowBlur=0; }
-    else if (n.type==='area'){ rotulo(n.label.length>26?n.label.slice(0,25)+'…':n.label, x, y + n.r*z*1.35 + 11, Math.max(10.5,11.5*view.k), 600, txt, o); }
-    else if ((F && F.has(n) && F.size<=30) || (achados && achados.has(n)) || view.k>2.4 || n===hover){
-      rotulo(n.label.replace(/ \(R\d+\)/,''), x, y - n.r*z - 9, Math.max(10,10.5*Math.min(view.k,1.6)), 500, txt, o); }
+  // rótulos
+  ctx.textBaseline='middle'; ctx.lineJoin='round';
+  const comHalo = (t, x, y, cor) => { ctx.lineWidth = 4; ctx.strokeStyle = `rgba(${halo},.85)`; ctx.strokeText(t, x, y); ctx.fillStyle = cor; ctx.fillText(t, x, y); };
+  for (const n of nodes){
+    const o = opac(n,F)*e; if (o < .2) continue;
+    const x=sx(n.x), y=sy(n.y);
+    ctx.globalAlpha = o;
+    if (n.type==='setor'){
+      const a = Math.atan2(n.ty, n.tx), d = (n.r*Math.max(view.k,.45)) + 8, lx = x + Math.cos(a)*d, ly = y + Math.sin(a)*d;
+      ctx.textAlign = Math.abs(Math.cos(a)) < .3 ? 'center' : (Math.cos(a) > 0 ? 'left' : 'right');
+      ctx.font = `700 ${Math.max(11,12*view.k)}px Inter,system-ui,sans-serif`;
+      comHalo(n.label, lx, ly + (Math.abs(Math.cos(a)) < .3 ? Math.sign(Math.sin(a))*6 : 0), n.color);
+    } else if (n.type==='area'){            // nome da área por fora do círculo, no raio da fatia
+      const f = fatia[n.i], rr = (f.rmax + 22)*view.k*e, a = n.ang, esq = Math.cos(a) < 0;
+      ctx.save(); ctx.translate(view.x + Math.cos(a)*rr, view.y + Math.sin(a)*rr); ctx.rotate(esq ? a+Math.PI : a);
+      ctx.textAlign = esq ? 'right' : 'left'; ctx.font = `600 ${Math.max(10.5,12*view.k)}px Inter,system-ui,sans-serif`;
+      comHalo(`${n.label} · ${filhos[n.i].length}`, 0, 0, F&&F.has(n) ? txt : mut); ctx.restore();
+    } else if ((F && F.has(n) && F.size<=34) || (achados && achados.has(n) && achados.size<=40) || view.k>2.6 || n===hover){
+      ctx.textAlign='center'; ctx.font = `500 ${Math.max(10,10.5*Math.min(view.k,1.6))}px Inter,system-ui,sans-serif`;
+      comHalo(n.label.replace(/ \(R\d+\)/,''), x, y - n.r*Math.max(view.k,.45) - 9, txt);
+    }
   }
   ctx.globalAlpha = 1;
 }
 
-// ---------- laço de animação ----------
-let rodando = false, drag = null, pan = null, moved = 0;
-function loop(){ if (alpha > .004) tick(); draw(); rodando = alpha > .004 || !!drag || intro < 1; if (rodando) requestAnimationFrame(loop); }
-function acorda(a){ alpha = Math.max(alpha, a); if (!rodando){ rodando = true; requestAnimationFrame(loop); } }
-
-// ---------- interação ----------
+// ---------- animação e interação ----------
+let rodando = false;
+function loop(){ draw(); rodando = intro < 1; if (rodando) requestAnimationFrame(loop); }
+function acorda(){ if (!rodando){ rodando = true; requestAnimationFrame(loop); } }
+let pan = null, moved = 0;
 function pick(px,py){
   const x = wx(px), y = wy(py); let best=null, bd=1e9;
-  for (const n of nodes){ if (!visivel(n) || !noFiltro(n)) continue;
-    const d = Math.hypot(n.x-x, n.y-y), r = n.r+4/view.k; if (d<r && d<bd){ best=n; bd=d; } }
+  for (const n of nodes){ if (!noFiltro(n)) continue;
+    const d = Math.hypot(n.x-x, n.y-y), r = n.r+5/view.k; if (d<r && d<bd){ best=n; bd=d; } }
   return best;
 }
-const pos = e => { const r = cv.getBoundingClientRect(); return [e.clientX-r.left, e.clientY-r.top]; };
-cv.addEventListener('pointerdown', e => { cv.setPointerCapture(e.pointerId); const [px,py] = pos(e); const n = pick(px,py); moved = 0;
-  if (n){ drag = n; n.fixed = true; cv.classList.add('drag'); acorda(.3); } else { pan = {px,py,vx:view.x,vy:view.y}; cv.classList.add('drag'); } });
-cv.addEventListener('pointermove', e => { const [px,py] = pos(e);
-  if (drag){ moved++; drag.x = wx(px); drag.y = wy(py); acorda(.3); return; }
-  if (pan){ moved++; view.x = pan.vx+px-pan.px; view.y = pan.vy+py-pan.py; draw(); return; }
-  const n = pick(px,py); if (n!==hover){ hover = n; cv.style.cursor = n?'pointer':'grab'; if(!rodando) draw(); } });
-cv.addEventListener('pointerup', e => {
-  if (drag){ drag.fixed = false; if (moved<4){ seleciona(drag); } drag = null; }
-  else if (pan){ if (moved<4){ seleciona(null); } pan = null; }
-  cv.classList.remove('drag'); draw(); });
-function zoomEm(px,py,f){ const k = Math.min(Math.max(view.k*f,.25),8); view.x = px-(px-view.x)*k/view.k; view.y = py-(py-view.y)*k/view.k; view.k = k; draw(); }
-cv.addEventListener('wheel', e => { e.preventDefault(); const [px,py] = pos(e); zoomEm(px,py,Math.exp(-e.deltaY*.0015)); }, {passive:false});
+const pt = e => { const r = cv.getBoundingClientRect(); return [e.clientX-r.left, e.clientY-r.top]; };
+cv.addEventListener('pointerdown', e => { cv.setPointerCapture(e.pointerId); const [px,py] = pt(e); moved = 0; pan = {px,py,vx:view.x,vy:view.y}; });
+cv.addEventListener('pointermove', e => { const [px,py] = pt(e);
+  if (pan){ const dx = px-pan.px, dy = py-pan.py; if (Math.abs(dx)+Math.abs(dy) > 3){ moved++; cv.classList.add('drag'); view.x = pan.vx+dx; view.y = pan.vy+dy; draw(); } return; }
+  const n = pick(px,py); if (n!==hover){ hover = n; cv.style.cursor = n?'pointer':'grab'; draw(); } });
+cv.addEventListener('pointerup', e => { const [px,py] = pt(e);
+  if (pan && !moved) seleciona(pick(px,py));
+  pan = null; cv.classList.remove('drag'); draw(); });
+cv.addEventListener('pointerleave', () => { if (!pan && hover){ hover = null; draw(); } });
+function zoomEm(px,py,f){ const k = Math.min(Math.max(view.k*f,.2),8); view.x = px-(px-view.x)*k/view.k; view.y = py-(py-view.y)*k/view.k; view.k = k; draw(); }
+cv.addEventListener('wheel', e => { e.preventDefault(); const [px,py] = pt(e); zoomEm(px,py,Math.exp(-e.deltaY*.0015)); }, {passive:false});
 cv.addEventListener('dblclick', () => { fit(); draw(); });
 document.getElementById('zi').onclick = () => zoomEm(W/2,H/2,1.35);
 document.getElementById('zo').onclick = () => zoomEm(W/2,H/2,1/1.35);
@@ -328,7 +340,7 @@ function seleciona(n){
     const m = n.n, st = m.st==='revogada' ? '<span class="badge b-rev">revogada</span>' : m.st==='futura' ? '<span class="badge b-fut">ainda não vigente</span>' : '<span class="badge b-vig">vigente</span>';
     h = `<h3>${esc(m.c)}</h3><p class="t">${esc(m.t)}</p><p>${st}<span class="badge b-ser">${esc(m.s)}</span></p>
       <p class="r">${esc(m.r)}${m.r.length>=320?'…':''}</p>
-      <p class="t">Áreas: ${m.a.map(i=>esc(D.areas[i].nome)).join(', ')||'—'}<br>Setores: ${m.x.map(i=>esc(D.setores[i].nome)).join(', ')||'—'}</p>
+      <p class="t">Áreas: ${m.a.map(i=>esc(D.areas[i].nome)).join(', ')||'—'}<br>Setores: ${m.x.map(i=>esc(D.setores[i].nome)).join(', ')||'—'}${m.xa.length?`<br>Setores por assunto: ${m.xa.map(i=>esc(D.setores[i].nome)).join(', ')}`:''}</p>
       ${m.rl.length?`<p class="t">Mesmo assunto: ${m.rl.map(i=>esc(D.normas[i].c)).join(', ')}</p>`:''}<a href="${D.repo+m.f}" target="_blank" rel="noopener">Ficha</a><a href="${esc(m.u)}" target="_blank" rel="noopener">Texto oficial</a>`;
   } else {
     const viz = [...adj.get(n)].filter(x => x.type==='norma').length;
@@ -342,22 +354,17 @@ document.getElementById('close').onclick = () => seleciona(null);
 // ---------- controles ----------
 document.getElementById('stats').innerHTML = [[D.normas.length,'normas'],[nA,'áreas'],[nS,'setores']].map(([v,t]) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`).join('');
 const chipsS = document.getElementById('chipsS');
-chipsS.innerHTML = D.setores.map((s,i) => `<button class="chip" data-i="${i}" aria-pressed="false" style="--c:${SETOR_COR[i%SETOR_COR.length]}"><i></i>${esc(s.nome)} <small>${[...adj.get(setorN(i))].filter(x=>x.type==='norma').length}</small></button>`).join('');
+chipsS.innerHTML = D.setores.map((s,i) => `<button class="chip" data-i="${i}" aria-pressed="false" style="--c:${SETOR_COR[i%SETOR_COR.length]}"><i></i>${esc(s.nome)} <small>${D.normas.filter(n=>n.x.includes(i)).length}</small></button>`).join('');
 chipsS.addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; const i = +b.dataset.i;
   filtroSetor = filtroSetor===i ? null : i;
-  chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(+c.dataset.i===filtroSetor)));
-  if (filtroSetor===null) fit(); else fitSubset(nodes.filter(n => visivel(n) && noFiltro(n))); draw(); });
-function fitSubset(vis){
-  if (!vis.length) return; let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; vis.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y); x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); });
-  const k = Math.min(W/(x1-x0+200), H/(y1-y0+200), 3); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
-}
+  chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(+c.dataset.i===filtroSetor))); draw(); });
 document.getElementById('q').addEventListener('input', () => { atualizaBusca(); draw(); });
-document.getElementById('q').addEventListener('keydown', e => { if (e.key==='Enter' && achados && achados.size){ const n = [...achados][0]; fitSubset([n, ...adj.get(n)].filter(visivel)); seleciona(n); } });
-[oNor,oEq,oVig,oRel].forEach(o => o.addEventListener('change', () => { if (o===oNor) fit(); draw(); }));
+document.getElementById('q').addEventListener('keydown', e => { if (e.key==='Enter' && achados && achados.size) seleciona([...achados][0]); });
+[oEq,oVig,oRel,oSA].forEach(o => o.addEventListener('change', draw));
 document.getElementById('fit').onclick = () => { filtroSetor=null; chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed','false')); document.getElementById('q').value=''; atualizaBusca(); seleciona(null); fit(); draw(); };
-window.addEventListener('resize', () => { resize(); });
+new ResizeObserver(resize).observe(cv);
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
-resize(); fit(); acorda(.02);
+resize(); acorda();
 })();
 </script>
 </body>

@@ -20,6 +20,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Temas:** Políticas contábeis e erros
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2820](pcaob-as-2820.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG23(R2)&arquivo=NBCTG23(R2).doc)

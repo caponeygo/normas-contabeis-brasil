@@ -2,7 +2,7 @@
 
 **Use esta área para:** balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos.
 
-49 normas. Índice de todas as áreas: [areas/README.md](README.md).
+55 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -66,6 +66,12 @@
 | **IFRS S1** – Requisitos Gerais de Divulgação de Sustentabilidade | Requisitos gerais de divulgação de sustentabilidade do ISSB; no Brasil, NBC TDS 01 / CBPS 01. | Relatório de sustentabilidade | CBPS 01 · NBC TDS 01 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **IFRS S2** – Divulgações Relacionadas ao Clima | Divulgações relacionadas ao clima do ISSB; no Brasil, NBC TDS 02 / CBPS 02. | Relatório de sustentabilidade | CBPS 02 · NBC TDS 02 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 | **SIC 29** – Contratos de Concessão de Serviços: Divulgação | Divulgações exigidas sobre contratos de concessão de serviço (prazo, direitos, obrigações, mudanças), tanto do concessionário quanto do concedente. | NE | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) · ITG 17 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **PCAOB AS 2410** – Related Parties | Partes relacionadas. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2410) |
+| **PCAOB AS 2415** – Consideration of an Entity's Ability to Continue as a Going Concern | Consideração da capacidade da entidade de continuar em operação (going concern). | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2415) |
+| **PCAOB AS 2801** – Subsequent Events | Eventos subsequentes. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801) |
+| **PCAOB AS 2820** – Evaluating Consistency of Financial Statements | Avaliação da consistência das demonstrações financeiras. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2820) |
+| **PCAOB AS 3315** – Reporting on Condensed Financial Statements and Selected Financial Data | Relatório sobre demonstrações financeiras condensadas e dados financeiros selecionados. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3315) |
+| **PCAOB AS 4105** – Reviews of Interim Financial Information | Revisões de informações financeiras intermediárias. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS4105) |
 | **PCAOB AT 401** – Reporting on Pro Forma Financial Information | Relatório sobre informações financeiras pro forma. | Atestação (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/attestation-standards/details/AT401) |
 
 <!-- fontes:inicio -->
@@ -125,4 +131,10 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [OCPC 07 – Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=95)
 - [Res. CVM 193/2023 – Relatório de sustentabilidade com base no ISSB](https://conteudo.cvm.gov.br/legislacao/resolucoes/resol193.html)
 - [CPC 52 – Divulgações Para Controladas Sem Obrigações De Prestação Pública De Contas](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=164)
+- [PCAOB AS 2410 – Related Parties](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2410)
+- [PCAOB AS 2415 – Consideration of an Entity's Ability to Continue as a Going Concern](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2415)
+- [PCAOB AS 2801 – Subsequent Events](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801)
+- [PCAOB AS 2820 – Evaluating Consistency of Financial Statements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2820)
+- [PCAOB AS 3315 – Reporting on Condensed Financial Statements and Selected Financial Data](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3315)
+- [PCAOB AS 4105 – Reviews of Interim Financial Information](https://pcaobus.org/oversight/standards/auditing-standards/details/AS4105)
 <!-- fontes:fim -->

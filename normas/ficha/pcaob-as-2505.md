@@ -12,13 +12,16 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **O que afeta:** Auditoria (padrão PCAOB)
 
-**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md)
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md), [Passivos](../../areas/passivos.md)
+
+**Setores (por assunto, via normas relacionadas):** Agronegócio, Construção e Incorporação, Indústria, Serviços, Varejo
 
 ## Mesmo assunto em outras normas
 
 Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [NBC TA 501](nbc-ta-501.md)
+- [NBC TG 25 (R2)](nbc-tg-25-r2.md)
 
 ## Fonte
 

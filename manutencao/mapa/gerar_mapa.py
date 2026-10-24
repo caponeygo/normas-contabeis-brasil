@@ -48,6 +48,7 @@ for i, n in enumerate(NORMAS):
         "x": sorted({s_idx[s["setor"]] for s in n["setores"] if s["setor"] in s_idx}),
         "e": eq,
         "rl": sorted(por_base[base(c)] for c in n.get("relacionadas", [])),
+        "xa": sorted({s_idx[x] for x in n.get("setores_assunto", []) if x in s_idx}),
         "r": (n["resumo"] or "")[:320], "u": n["url"], "f": "normas/ficha/" + slug(n["codigo"]) + ".md",
         "sp": n.get("substituida_por"),
     })

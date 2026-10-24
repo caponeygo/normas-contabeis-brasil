@@ -6,19 +6,19 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 
 | Área | Use para | Normas | Arquivo |
 |---|---|---|---|
-| **Apresentação e Divulgação** | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 49 | [apresentacao-e-divulgacao.md](apresentacao-e-divulgacao.md) |
+| **Apresentação e Divulgação** | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 55 | [apresentacao-e-divulgacao.md](apresentacao-e-divulgacao.md) |
 | **Asseguração** | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 14 | [asseguracao.md](asseguracao.md) |
-| **Ativos** | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 25 | [ativos.md](ativos.md) |
+| **Ativos** | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 26 | [ativos.md](ativos.md) |
 | **Auditoria Independente** | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 71 | [auditoria-independente.md](auditoria-independente.md) |
 | **Auditoria Interna** | auditor interno | 1 | [auditoria-interna.md](auditoria-interna.md) |
 | **Contabilidade Eleitoral** | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral | 2 | [contabilidade-eleitoral.md](contabilidade-eleitoral.md) |
 | **Fundamentos** | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 | [fundamentos.md](fundamentos.md) |
 | **Instrumentos Financeiros** | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 13 | [instrumentos-financeiros.md](instrumentos-financeiros.md) |
-| **Mensuração** | valor justo, ajuste a valor presente | 5 | [mensuracao.md](mensuracao.md) |
+| **Mensuração** | valor justo, ajuste a valor presente | 6 | [mensuracao.md](mensuracao.md) |
 | **Moeda e Câmbio** | variação cambial, moeda funcional, conversão, hiperinflação | 9 | [moeda-e-cambio.md](moeda-e-cambio.md) |
 | **Padrões PCAOB (EUA)** | auditoria de companhias abertas nos EUA (SEC), AS, AT, ET, QC e EI do PCAOB, controle interno SOX 404 | 68 | [padroes-pcaob-eua.md](padroes-pcaob-eua.md) |
 | **Participações Societárias** | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio | 20 | [participacoes-societarias.md](participacoes-societarias.md) |
-| **Passivos** | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 16 | [passivos.md](passivos.md) |
+| **Passivos** | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 17 | [passivos.md](passivos.md) |
 | **Patrimônio Líquido** | dividendos, JCP, ações, stock options, lucro por ação | 10 | [patrimonio-liquido.md](patrimonio-liquido.md) |
 | **Pequenas e Médias Empresas** | PME, pequena empresa, microentidade, NBC TG 1000 | 6 | [pequenas-e-medias-empresas.md](pequenas-e-medias-empresas.md) |
 | **Perícia Contábil** | perícia judicial, laudo pericial, apuração de haveres | 4 | [pericia-contabil.md](pericia-contabil.md) |

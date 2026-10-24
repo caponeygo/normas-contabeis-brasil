@@ -20,6 +20,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Temas:** Valor justo e mensuração
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2501](pcaob-as-2501.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG46(R2)&arquivo=NBCTG46(R2).doc)

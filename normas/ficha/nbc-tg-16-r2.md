@@ -50,6 +50,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Agronegócio | [Ativo biológico e produto colhido](../../setores/agronegocio/01-ativo-biologico-e-colheita.md) | 20 | ✅ conferido |
 | Agronegócio | [Ativo biológico e produto colhido](../../setores/agronegocio/01-ativo-biologico-e-colheita.md) | 3 | ✅ conferido |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2510](pcaob-as-2510.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc)

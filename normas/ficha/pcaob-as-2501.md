@@ -12,7 +12,9 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **O que afeta:** Auditoria (padrão PCAOB)
 
-**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md)
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md), [Mensuração](../../areas/mensuracao.md)
+
+**Setores (por assunto, via normas relacionadas):** Agronegócio, Indústria
 
 **Temas:** Evidência de auditoria
 
@@ -21,6 +23,7 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [NBC TA 540 (R2)](nbc-ta-540-r2.md)
+- [NBC TG 46 (R2)](nbc-tg-46-r2.md)
 
 ## Fonte
 

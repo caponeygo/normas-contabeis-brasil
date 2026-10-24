@@ -12,13 +12,14 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **O que afeta:** Auditoria (padrão PCAOB)
 
-**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md)
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Auditoria Independente](../../areas/auditoria-independente.md), [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md)
 
 ## Mesmo assunto em outras normas
 
 Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [NBC TA 550](nbc-ta-550.md)
+- [NBC TG 05 (R3)](nbc-tg-05-r3.md)
 
 ## Fonte
 

@@ -2,7 +2,7 @@
 
 **Use esta área para:** valor justo, ajuste a valor presente.
 
-5 normas. Índice de todas as áreas: [areas/README.md](README.md).
+6 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -20,6 +20,7 @@
 | **NBC TSP 31 (R1)** – Instrumentos Financeiros: Reconhecimento e Mensuração | Instrumentos financeiros – reconhecimento e mensuração no setor público (inclui perdas esperadas). | BP, DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx) |
 | **NBC TSP 38** – Mensuração | Mensuração no setor público: bases (custo histórico, valor corrente operacional, valor justo). | BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx) |
 | **IFRS 13** – Mensuração do Valor Justo | Valor justo: define como mensurar (preço de saída entre participantes do mercado), hierarquia de níveis 1, 2 e 3 e divulgações. Não diz quando usar valor justo, só como. | BP, NE | [CPC 46](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78) · NBC TG 46 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
+| **PCAOB AS 2501** – Auditing Accounting Estimates, Including Fair Value Measurements | Auditoria de estimativas contábeis, incluindo mensurações a valor justo. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -33,4 +34,5 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TG 12 (R1) – Ajuste a Valor Presente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))
 - [CPC 12 – Ajuste a Valor Presente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43)
 - [CPC 46 – Mensuração do Valor Justo](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78)
+- [PCAOB AS 2501 – Auditing Accounting Estimates, Including Fair Value Measurements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501)
 <!-- fontes:fim -->

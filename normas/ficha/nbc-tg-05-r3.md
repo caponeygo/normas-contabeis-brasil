@@ -20,6 +20,12 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NB
 
 **Temas:** Demonstrações contábeis e divulgação
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2410](pcaob-as-2410.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG05(R3))

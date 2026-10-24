@@ -31,6 +31,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 |---|---|---|---|
 | Indústria | [DRE, CPV e apresentação](../../setores/industrial/07-dre-e-apresentacao.md) | 99–105 | ✅ conferido |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2415](pcaob-as-2415.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc)
