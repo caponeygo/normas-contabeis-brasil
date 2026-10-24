@@ -5,60 +5,88 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mapa de normas por setor e área</title>
 <style>
-:root{--bg:#0d1017;--panel:#151a24;--line:#262d3b;--txt:#e6e9ef;--mut:#9aa4b5;--hub:#ffffff;--card:#1b2230;--acc:#7aa2ff}
-@media (prefers-color-scheme: light){:root{--bg:#f6f7fa;--panel:#ffffff;--line:#dde1ea;--txt:#1b2230;--mut:#5b6678;--hub:#111827;--card:#ffffff;--acc:#2f5bd8}}
+:root{--bg:#0a0e19;--bg2:#161e36;--panel:rgba(18,24,40,.92);--line:rgba(148,163,184,.18);--txt:#e8ecf5;--mut:#98a3b8;--hub:#ffffff;--card:rgba(22,29,48,.88);--acc:#8ab4ff;--hubfill:#0e1424;--halo:10,14,25}
+@media (prefers-color-scheme: light){:root{--bg:#f3f5fb;--bg2:#ffffff;--panel:rgba(255,255,255,.94);--line:rgba(30,41,59,.14);--txt:#172033;--mut:#5a6579;--hub:#0f172a;--card:rgba(255,255,255,.92);--acc:#2f5bd8;--hubfill:#ffffff;--halo:243,245,251}}
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-#app{display:grid;grid-template-columns:320px 1fr;height:100%}
-#side{background:var(--panel);border-right:1px solid var(--line);padding:16px;overflow:auto}
-h1{font-size:17px;margin:0 0 6px}
-p.sub{margin:0 0 12px;color:var(--mut);font-size:13px}
-input[type=search]{width:100%;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--txt);font:inherit}
-h2{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin:16px 0 6px}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{border:1px solid var(--line);background:transparent;color:var(--txt);padding:5px 10px;border-radius:999px;cursor:pointer;font:inherit;font-size:13px;display:inline-flex;align-items:center;gap:6px}
-.chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
-.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
-label.opt{display:flex;gap:8px;align-items:flex-start;margin:6px 0;color:var(--txt);font-size:13px;cursor:pointer}
-.leg{display:grid;grid-template-columns:auto 1fr;gap:4px 8px;font-size:12.5px;color:var(--mut)}
-.leg i{width:10px;height:10px;border-radius:50%;margin-top:4px}
-button.act{margin-top:10px;width:100%;padding:8px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--txt);cursor:pointer;font:inherit}
-#stage{position:relative;min-width:0}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--txt);font:14px/1.5 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+#app{display:grid;grid-template-columns:340px 1fr;height:100%}
+#side{background:var(--panel);backdrop-filter:blur(10px);border-right:1px solid var(--line);padding:22px 20px;overflow:auto;z-index:2}
+h1{font-size:19px;line-height:1.25;margin:0 0 6px;letter-spacing:-.01em}
+p.sub{margin:0 0 14px;color:var(--mut);font-size:13px}
+.stats{display:flex;gap:8px;margin:0 0 16px}
+.stat{flex:1;border:1px solid var(--line);border-radius:12px;padding:8px 10px;background:linear-gradient(160deg,rgba(138,180,255,.10),transparent)}
+.stat b{display:block;font-size:19px;letter-spacing:-.02em}
+.stat span{font-size:11.5px;color:var(--mut)}
+.search{position:relative}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);opacity:.55}
+input[type=search]{width:100%;padding:10px 12px 10px 34px;border-radius:12px;border:1px solid var(--line);background:rgba(127,140,170,.08);color:var(--txt);font:inherit;outline:none;transition:border-color .15s, box-shadow .15s}
+input[type=search]:focus{border-color:var(--acc);box-shadow:0 0 0 3px rgba(138,180,255,.18)}
+h2{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--mut);margin:20px 0 8px;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{border:1px solid var(--line);background:rgba(127,140,170,.06);color:var(--txt);padding:6px 11px;border-radius:999px;cursor:pointer;font:inherit;font-size:13px;display:inline-flex;align-items:center;gap:7px;transition:all .15s}
+.chip:hover{border-color:var(--c,var(--acc));transform:translateY(-1px)}
+.chip[aria-pressed=true]{background:var(--c,var(--acc));border-color:var(--c,var(--acc));color:#fff;box-shadow:0 4px 14px -4px var(--c,var(--acc))}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c);display:inline-block}
+.chip[aria-pressed=true] i{background:#fff}
+.chip small{opacity:.65;font-size:11.5px}
+label.opt{display:flex;gap:10px;align-items:flex-start;margin:8px 0;font-size:13px;cursor:pointer;color:var(--txt)}
+label.opt input{accent-color:var(--acc);margin-top:3px}
+.leg{display:grid;grid-template-columns:auto 1fr;gap:6px 10px;font-size:12.5px;color:var(--mut);align-items:center}
+.leg i{width:10px;height:10px;border-radius:50%;box-shadow:0 0 8px currentColor}
+.forms{display:grid;grid-template-columns:auto 1fr;gap:6px 10px;font-size:12.5px;color:var(--mut);align-items:center}
+.forms svg{display:block}
+button.act{margin-top:16px;width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(160deg,rgba(138,180,255,.16),rgba(138,180,255,.04));color:var(--txt);cursor:pointer;font:inherit;transition:all .15s}
+button.act:hover{border-color:var(--acc)}
+#stage{position:relative;min-width:0;background:radial-gradient(1200px 800px at 55% 45%,var(--bg2) 0%,var(--bg) 70%)}
+#stage::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(148,163,184,.16) 1px,transparent 1px);background-size:28px 28px;opacity:.55;pointer-events:none;mask-image:radial-gradient(circle at 55% 45%,#000 20%,transparent 78%)}
 canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none}
 canvas.drag{cursor:grabbing}
-#card{position:absolute;right:14px;bottom:14px;width:min(380px,calc(100% - 28px));background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:0 8px 28px rgba(0,0,0,.25);display:none;max-height:60%;overflow:auto}
-#card h3{margin:0 0 4px;font-size:15px}
-#card .t{color:var(--mut);margin:0 0 8px}
-#card .r{margin:0 0 10px}
-#card a{color:var(--acc);text-decoration:none;margin-right:12px}
+#zoom{position:absolute;right:16px;top:16px;display:flex;flex-direction:column;gap:6px}
+#zoom button{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--txt);font-size:18px;cursor:pointer;backdrop-filter:blur(8px);transition:all .15s}
+#zoom button:hover{border-color:var(--acc);color:var(--acc)}
+#card{position:absolute;right:16px;bottom:16px;width:min(390px,calc(100% - 32px));background:var(--card);backdrop-filter:blur(14px);border:1px solid var(--line);border-left:4px solid var(--cc,var(--acc));border-radius:16px;padding:16px 18px;box-shadow:0 18px 50px -12px rgba(0,0,0,.55);display:none;max-height:62%;overflow:auto}
+#card h3{margin:0 0 2px;font-size:16px;letter-spacing:-.01em}
+#card .t{color:var(--mut);margin:0 0 10px;font-size:13px}
+#card .r{margin:0 0 12px;font-size:13.5px}
+#card a{display:inline-block;color:var(--acc);text-decoration:none;margin:2px 14px 0 0;font-weight:600;font-size:13px}
 #card a:hover{text-decoration:underline}
-.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:999px;margin-right:6px;border:1px solid}
-.b-rev{color:#ef4444;border-color:#ef4444}.b-fut{color:#f59e0b;border-color:#f59e0b}.b-vig{color:#22c55e;border-color:#22c55e}
-#close{position:absolute;top:8px;right:10px;background:none;border:0;color:var(--mut);font-size:20px;cursor:pointer}
-#hint{position:absolute;left:14px;bottom:12px;color:var(--mut);font-size:12px;pointer-events:none}
-@media (max-width:760px){#app{grid-template-columns:1fr;grid-template-rows:auto 1fr}#side{max-height:44vh;border-right:0;border-bottom:1px solid var(--line)}}
+.badge{display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:999px;margin-right:6px;border:1px solid;font-weight:600}
+.b-rev{color:#f87171;border-color:#f87171;background:rgba(248,113,113,.1)}.b-fut{color:#fbbf24;border-color:#fbbf24;background:rgba(251,191,36,.1)}.b-vig{color:#4ade80;border-color:#4ade80;background:rgba(74,222,128,.1)}.b-ser{color:var(--mut);border-color:var(--line)}
+#close{position:absolute;top:8px;right:12px;background:none;border:0;color:var(--mut);font-size:22px;cursor:pointer}
+#hint{position:absolute;left:18px;bottom:14px;color:var(--mut);font-size:12px;pointer-events:none;background:var(--panel);padding:6px 12px;border-radius:999px;border:1px solid var(--line);backdrop-filter:blur(8px)}
+@media (max-width:760px){#app{grid-template-columns:1fr;grid-template-rows:auto 1fr}#side{max-height:46vh;border-right:0;border-bottom:1px solid var(--line)}#hint{display:none}}
 </style>
 </head>
 <body>
 <div id="app">
 <aside id="side">
   <h1>Mapa de normas por setor e área</h1>
-  <p class="sub">Os círculos grandes são os <b>setores</b> e as <b>áreas</b>. Cada bolinha é uma norma e fica perto do que ela atende; as que servem a mais de um ficam no meio e ligam os grupos.</p>
-  <input id="q" type="search" placeholder="Buscar norma, tema ou palavra (ex.: NBC TG 27, leasing)" autocomplete="off">
+  <p class="sub">Cada norma fica perto do setor e da área que ela atende. As que servem a vários ficam no meio e ligam os grupos.</p>
+  <div class="stats" id="stats"></div>
+  <div class="search">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Buscar norma, tema ou palavra" autocomplete="off">
+  </div>
   <h2>Setor</h2>
   <div id="chipsS" class="chips"></div>
   <h2>Mostrar</h2>
   <label class="opt"><input type="checkbox" id="oNor" checked> as normas (desmarque para ver só setores e áreas)</label>
-  <label class="opt"><input type="checkbox" id="oEq"> ligações entre normas equivalentes (NBC TG ↔ IFRS/IAS)</label>
   <label class="opt"><input type="checkbox" id="oRel" checked> ligações de mesmo assunto (ex.: PCAOB AS 2401 ↔ NBC TA 240)</label>
+  <label class="opt"><input type="checkbox" id="oEq"> equivalentes (NBC TG ↔ IFRS/IAS)</label>
   <label class="opt"><input type="checkbox" id="oVig"> destacar revogadas e ainda não vigentes</label>
-  <h2>Cores das normas</h2>
-  <div class="leg" id="leg"></div>
+  <h2>Legenda</h2>
+  <div class="forms">
+    <svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#a855f7"/></svg><span>Setor (círculo cheio, grande)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#98a3b8" stroke-width="2.5"/></svg><span>Área (anel; a cor é a série que mais aparece)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="3.5" fill="#9d8cff"/></svg><span>Norma (a cor é a série)</span>
+  </div>
+  <div class="leg" id="leg" style="margin-top:10px"></div>
   <button class="act" id="fit">Ver tudo</button>
 </aside>
 <main id="stage">
   <canvas id="cv"></canvas>
-  <div id="hint">Passe o mouse para ver as ligações · clique para abrir os detalhes · arraste para mover · roda do mouse para o zoom</div>
+  <div id="zoom"><button id="zi" aria-label="Aproximar">+</button><button id="zo" aria-label="Afastar">−</button><button id="zf" aria-label="Ver tudo" style="font-size:15px">⤢</button></div>
+  <div id="hint">Passe o mouse para ver as ligações · clique para abrir · arraste para mover · roda do mouse para o zoom</div>
   <div id="card"><button id="close" aria-label="Fechar">×</button><div id="cardBody"></div></div>
 </main>
 </div>
@@ -70,28 +98,28 @@ const D = JSON.parse(document.getElementById('dados').textContent);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 // ---------- cores ----------
-const SETOR_COR = ['#f97316','#22c55e','#38bdf8','#eab308','#ef4444','#a855f7','#14b8a6'];
+const SETOR_COR = ['#fb923c','#4ade80','#38bdf8','#facc15','#f87171','#c084fc','#2dd4bf'];
 const GRUPOS = [
-  ['Contabilidade (NBC TG, ITG, CTG)', '#9d8cff', s => ['NBC TG','ITG','CTG','OTG','Específicas'].includes(s)],
-  ['Pequenas e médias empresas', '#f28fb4', s => s === 'PME'],
-  ['Setor público', '#34d399', s => s === 'NBC TSP' || s === 'NBC TASP'],
-  ['Sustentabilidade', '#a3e635', s => s === 'NBC TDS'],
-  ['Auditoria (NBC TA)', '#5aa9f0', s => s === 'NBC TA'],
+  ['Contabilidade (NBC TG, ITG, CTG)', '#a594ff', s => ['NBC TG','ITG','CTG','OTG','Específicas'].includes(s)],
+  ['Pequenas e médias empresas', '#f48fb8', s => s === 'PME'],
+  ['Setor público', '#3ddc97', s => s === 'NBC TSP' || s === 'NBC TASP'],
+  ['Sustentabilidade', '#b5e61d', s => s === 'NBC TDS'],
+  ['Auditoria (NBC TA)', '#60a5fa', s => s === 'NBC TA'],
   ['PCAOB (EUA)', '#22d3ee', s => s === 'PCAOB'],
   ['IFRS / IAS', '#fb7185', s => s === 'IFRS/IAS'],
-  ['Revisão, asseguração, ética e outras', '#f0b464', s => true],
+  ['Revisão, asseguração, ética e outras', '#f5b85a', s => true],
 ];
 const corNorma = s => GRUPOS.find(g => g[2](s))[1];
-document.getElementById('leg').innerHTML = GRUPOS.map(g => `<i style="background:${g[1]}"></i><span>${g[0]}</span>`).join('');
+document.getElementById('leg').innerHTML = GRUPOS.map(g => `<i style="background:${g[1]};color:${g[1]}"></i><span>${g[0]}</span>`).join('');
 
 // ---------- nós e ligações ----------
 const nodes = [], links = [];
-D.setores.forEach((s,i) => nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:26, q:22, deg:0, url:s.url, uso:s.uso}));
-D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#8b95a7', r:17, q:15, deg:0, url:a.url, uso:a.uso}));
+D.setores.forEach((s,i) => nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:27, q:22, deg:0, url:s.url, uso:s.uso}));
+D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#98a3b8', r:16, q:15, deg:0, url:a.url, uso:a.uso}));
 const nS = D.setores.length, nA = D.areas.length;
 D.normas.forEach((n,i) => nodes.push({type:'norma', i, label:n.c, n, color:corNorma(n.s), r:4.2, q:1, deg:0}));
 const setorN = i => nodes[i], areaN = i => nodes[nS+i], normaN = i => nodes[nS+nA+i];
-const par = {};                                   // setor-área: quantas normas compartilham
+const par = {};
 D.normas.forEach((n,i) => {
   const me = normaN(i);
   n.a.forEach(a => links.push({a:me, b:areaN(a), len:34, k:.10, kind:'na'}));
@@ -108,10 +136,12 @@ D.areas.forEach((a,i) => a.rel.forEach(j => { if (!links.some(l => l.kind==='aa'
 const adj = new Map(nodes.map(n => [n, new Set()]));
 links.forEach(l => { adj.get(l.a).add(l.b); adj.get(l.b).add(l.a); l.a.deg++; l.b.deg++; });
 nodes.forEach(n => { if (n.type==='norma') n.r = 3.6 + Math.min(n.deg,5)*.45; });
+// a cor da área é a série que mais aparece nas normas dela
+D.areas.forEach((a,i) => { const c = {}; adj.get(areaN(i)).forEach(m => { if (m.type==='norma') c[m.color] = (c[m.color]||0)+1; });
+  const top = Object.entries(c).sort((x,y) => y[1]-x[1])[0]; if (top) areaN(i).color = top[0]; });
 
-// posição inicial: setores em anel, áreas perto dos setores que mais usam, normas perto dos seus centros
 const R0 = 330;
-setorN && D.setores.forEach((s,i) => { const t = i/nS*Math.PI*2; Object.assign(setorN(i), {x:Math.cos(t)*R0, y:Math.sin(t)*R0, vx:0, vy:0}); });
+D.setores.forEach((s,i) => { const t = i/nS*Math.PI*2; Object.assign(setorN(i), {x:Math.cos(t)*R0, y:Math.sin(t)*R0, vx:0, vy:0}); });
 D.areas.forEach((a,i) => {
   let sx=0, sy=0, w=0;
   for (let s=0;s<nS;s++){ const k = par[s+'-'+i]||0; sx += setorN(s).x*k; sy += setorN(s).y*k; w += k; }
@@ -149,7 +179,7 @@ function tick(){
   }
   alpha = Math.max(alpha*.985, .0);
 }
-for (let i=0;i<420;i++) tick();                    // já abre organizado
+for (let i=0;i<420;i++) tick();
 alpha = .02;
 
 // ---------- vista ----------
@@ -159,12 +189,12 @@ function resize(){ dpr = window.devicePixelRatio||1; const r = cv.getBoundingCli
 function fit(){
   const vis = nodes.filter(n => visivel(n)); if (!vis.length) return;
   let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; vis.forEach(n => { x0=Math.min(x0,n.x-n.r); y0=Math.min(y0,n.y-n.r); x1=Math.max(x1,n.x+n.r); y1=Math.max(y1,n.y+n.r); });
-  const k = Math.min(W/(x1-x0+160), H/(y1-y0+160)); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
+  const k = Math.min(W/(x1-x0+170), H/(y1-y0+170)); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
 }
 const sx = x => x*view.k+view.x, sy = y => y*view.k+view.y;
 const wx = x => (x-view.x)/view.k, wy = y => (y-view.y)/view.k;
 
-// ---------- estado de filtros ----------
+// ---------- filtros ----------
 let hover=null, sel=null, filtroSetor=null, busca='', achados=null;
 const oNor=document.getElementById('oNor'), oEq=document.getElementById('oEq'), oVig=document.getElementById('oVig'), oRel=document.getElementById('oRel');
 function visivel(n){ return n.type!=='norma' || oNor.checked; }
@@ -178,70 +208,90 @@ function normaliza(s){ return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerC
 function atualizaBusca(){
   busca = normaliza(document.getElementById('q').value.trim());
   achados = busca ? new Set(nodes.filter(n => n.type==='norma' && normaliza(n.n.c+' '+n.n.t+' '+n.n.r).includes(busca)).concat(
-              nodes.filter(n => n.type!=='norma' && normaliza(n.label+' '+(n.uso||'')).includes(busca))).map(n=>n)) : null;
+              nodes.filter(n => n.type!=='norma' && normaliza(n.label+' '+(n.uso||'')).includes(busca)))) : null;
 }
 function foco(){ const f = sel||hover; return f ? new Set([f, ...adj.get(f)]) : null; }
 function opac(n, F){
   if (!noFiltro(n)) return .06;
-  if (F && !F.has(n)) return .09;
-  if (achados && !F) return achados.has(n) ? 1 : .08;
+  if (F && !F.has(n)) return .1;
+  if (achados && !F) return achados.has(n) ? 1 : .09;
   return 1;
 }
 
 // ---------- desenho ----------
+const t0 = performance.now(); let intro = 0;
+function rgba(hex,a){ const h = hex.replace('#',''); return `rgba(${parseInt(h.slice(0,2),16)},${parseInt(h.slice(2,4),16)},${parseInt(h.slice(4,6),16)},${a})`; }
+function aresta(l, o, F){
+  const a=l.a, b=l.b, x1=sx(a.x), y1=sy(a.y), x2=sx(b.x), y2=sy(b.y);
+  const forte = F && F.has(a) && F.has(b);
+  let al = l.kind==='sa' ? .16 + Math.min(l.w,12)*.02 : l.kind==='eq' ? .5 : l.kind==='rel' ? .55 : l.kind==='aa' ? .4 : .26;
+  if (forte) al = .85;
+  ctx.globalAlpha = Math.min(1, al*o*intro);
+  const cor = l.kind==='eq' ? '#f5b85a' : l.kind==='rel' ? '#22d3ee' : (l.kind==='sa'||l.kind==='aa') ? '#94a3b8' : (a.type==='norma'?b:a).color;
+  ctx.strokeStyle = cor;
+  ctx.lineWidth = (l.kind==='sa' ? Math.min(.8+l.w*.18, 4) : l.kind==='aa' ? 1.8 : l.kind==='rel' ? 1.3 : l.kind==='eq' ? 1 : .7) * (forte?1.5:1);
+  ctx.setLineDash(l.kind==='eq' ? [3,3] : l.kind==='aa' ? [7,4] : []);
+  ctx.beginPath(); ctx.moveTo(x1,y1);
+  if (l.kind==='sa' || l.kind==='aa'){ const mx=(x1+x2)/2, my=(y1+y2)/2, dx=x2-x1, dy=y2-y1; ctx.quadraticCurveTo(mx-dy*.12, my+dx*.12, x2, y2); }
+  else ctx.lineTo(x2,y2);
+  ctx.stroke();
+}
 function draw(){
+  intro = Math.min(1, (performance.now()-t0)/900); const ease = 1-Math.pow(1-intro,3);
   ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
-  const F = foco(), hubCor = css('--hub'), txt = css('--txt'), bg = css('--bg');
+  const F = foco(), hubCor = css('--hub'), txt = css('--txt'), fill = css('--hubfill'), halo = css('--halo');
+  const I = ease;
   for (const l of links){
     if (!visivel(l.a)||!visivel(l.b)) continue;
     if (l.kind==='eq' && !oEq.checked) continue;
     if (l.kind==='rel' && !oRel.checked) continue;
-    const oa = opac(l.a,F), ob = opac(l.b,F), o = Math.min(oa,ob);
-    let base = l.kind==='sa' ? .18 + Math.min(l.w,12)*.025 : l.kind==='eq' ? .45 : l.kind==='rel' ? .5 : l.kind==='aa' ? .35 : .22;
-    if (F && F.has(l.a) && F.has(l.b)) base = .8;
-    ctx.globalAlpha = base*o;
-    ctx.strokeStyle = l.kind==='eq' ? '#f0b464' : l.kind==='rel' ? '#22d3ee' : (l.kind==='sa'||l.kind==='aa') ? '#94a3b8' : (l.a.type==='norma'?l.b:l.a).color;
-    ctx.lineWidth = l.kind==='sa' ? Math.min(.8+l.w*.18, 4) : l.kind==='aa' ? 2 : l.kind==='eq' ? 1 : l.kind==='rel' ? 1.2 : .7;
-    if (l.kind==='eq' || l.kind==='aa') ctx.setLineDash([l.kind==='aa'?6:3,3]); else ctx.setLineDash([]);
-    ctx.beginPath(); ctx.moveTo(sx(l.a.x),sy(l.a.y)); ctx.lineTo(sx(l.b.x),sy(l.b.y)); ctx.stroke();
+    aresta(l, Math.min(opac(l.a,F),opac(l.b,F)), F);
   }
-  ctx.setLineDash([]);
-  for (const n of nodes){
-    if (!visivel(n)) continue;
-    const o = opac(n,F); ctx.globalAlpha = o;
-    const x=sx(n.x), y=sy(n.y), r=n.r*Math.max(view.k,.5)*(n===hover||n===sel?1.25:1);
-    ctx.beginPath(); ctx.arc(x,y,r,0,7);
+  ctx.setLineDash([]); ctx.shadowBlur = 0;
+  const ordem = nodes.filter(visivel).sort((a,b) => (a.type==='norma'?0:a.type==='area'?1:2) - (b.type==='norma'?0:b.type==='area'?1:2));
+  for (const n of ordem){
+    const o = opac(n,F)*I; ctx.globalAlpha = o;
+    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.5), foc = (n===hover||n===sel), r=n.r*z*(foc?1.22:1);
     if (n.type==='norma'){
-      ctx.fillStyle = n.color; ctx.fill();
-      if (oVig.checked && n.n.st!=='vigente'){ ctx.lineWidth=2; ctx.strokeStyle = n.n.st==='revogada'?'#ef4444':'#f59e0b'; ctx.stroke(); }
+      if (foc || (F&&F.has(n)) ){ ctx.shadowColor = n.color; ctx.shadowBlur = 12; }
+      const g = ctx.createRadialGradient(x-r*.3,y-r*.3,r*.1,x,y,r); g.addColorStop(0,'#ffffff'); g.addColorStop(.35,n.color); g.addColorStop(1,n.color);
+      ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
+      if (oVig.checked && n.n.st!=='vigente'){ ctx.beginPath(); ctx.arc(x,y,r+2.2,0,7); ctx.lineWidth=2; ctx.strokeStyle = n.n.st==='revogada'?'#f87171':'#fbbf24'; ctx.stroke(); }
+    } else if (n.type==='setor'){
+      ctx.beginPath(); ctx.arc(x,y,r*1.65,0,7); ctx.fillStyle = rgba(n.color,.10*o/(o||1)); ctx.fill();
+      ctx.shadowColor = n.color; ctx.shadowBlur = 24;
+      const g = ctx.createRadialGradient(x-r*.35,y-r*.4,r*.1,x,y,r); g.addColorStop(0,'#ffffff55'); g.addColorStop(.25,n.color); g.addColorStop(1,rgba(n.color,.82));
+      ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
+      ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(255,255,255,.55)'; ctx.stroke();
     } else {
-      ctx.fillStyle = n.type==='setor' ? n.color : bg; ctx.fill();
-      ctx.lineWidth = n.type==='setor'?0:2; ctx.strokeStyle = n.color; if (n.type==='area') ctx.stroke();
+      ctx.beginPath(); ctx.arc(x,y,r*1.35,0,7); ctx.fillStyle = rgba(n.color,.10); ctx.fill();
+      ctx.shadowColor = n.color; ctx.shadowBlur = foc?18:8;
+      ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = fill; ctx.fill(); ctx.lineWidth = 2.6; ctx.strokeStyle = n.color; ctx.stroke(); ctx.shadowBlur = 0;
+      ctx.beginPath(); ctx.arc(x,y,r*.32,0,7); ctx.fillStyle = n.color; ctx.fill();
     }
-    if (n===sel){ ctx.lineWidth=2; ctx.strokeStyle=hubCor; ctx.stroke(); }
+    if (n===sel){ ctx.beginPath(); ctx.arc(x,y,r+4,0,7); ctx.lineWidth=2; ctx.strokeStyle=hubCor; ctx.stroke(); }
   }
-  ctx.globalAlpha = 1; ctx.textAlign='center'; ctx.textBaseline='middle';
-  for (const n of nodes){
-    if (!visivel(n)) continue;
-    const o = opac(n,F); if (o < .2) continue;
-    const x=sx(n.x), y=sy(n.y);
-    if (n.type==='setor'){ ctx.globalAlpha=o; ctx.font = `700 ${Math.max(12,13*view.k)}px system-ui`; ctx.fillStyle='#fff'; ctx.fillText(n.label, x, y); }
-    else if (n.type==='area'){ ctx.globalAlpha=o; ctx.font = `600 ${Math.max(10,11*view.k)}px system-ui`; ctx.fillStyle=txt; ctx.fillText(rotulo(n.label), x, y + n.r*Math.max(view.k,.5)+9); }
-    else if ((F && F.has(n)) || (achados && achados.has(n)) || view.k>2.4 || n===hover){
-      ctx.globalAlpha=o; ctx.font = `${Math.max(10,10.5*Math.min(view.k,1.6))}px system-ui`; ctx.fillStyle=txt; ctx.fillText(n.label.replace(/ \(R\d+\)/,''), x, y - n.r*Math.max(view.k,.5) - 7);
-    }
+  ctx.globalAlpha = 1; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.lineJoin='round';
+  const rotulo = (t, x, y, tam, peso, cor, o) => {
+    ctx.globalAlpha = o; ctx.font = `${peso} ${tam}px Inter,system-ui,sans-serif`;
+    ctx.lineWidth = 4; ctx.strokeStyle = `rgba(${halo},.82)`; ctx.strokeText(t, x, y); ctx.fillStyle = cor; ctx.fillText(t, x, y); };
+  for (const n of ordem){
+    const o = opac(n,F)*I; if (o < .2) continue;
+    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.5);
+    if (n.type==='setor'){ ctx.globalAlpha=o; ctx.font = `700 ${Math.max(12,13*view.k)}px Inter,system-ui,sans-serif`; ctx.fillStyle='#fff'; ctx.shadowColor='rgba(0,0,0,.55)'; ctx.shadowBlur=4; ctx.fillText(n.label, x, y); ctx.shadowBlur=0; }
+    else if (n.type==='area'){ rotulo(n.label.length>26?n.label.slice(0,25)+'…':n.label, x, y + n.r*z*1.35 + 11, Math.max(10.5,11.5*view.k), 600, txt, o); }
+    else if ((F && F.has(n) && F.size<=30) || (achados && achados.has(n)) || view.k>2.4 || n===hover){
+      rotulo(n.label.replace(/ \(R\d+\)/,''), x, y - n.r*z - 9, Math.max(10,10.5*Math.min(view.k,1.6)), 500, txt, o); }
   }
   ctx.globalAlpha = 1;
 }
-const rotulo = s => s.length>26 ? s.slice(0,25)+'…' : s;
 
 // ---------- laço de animação ----------
-let rodando = false;
-function loop(){ if (alpha > .004) tick(); draw(); rodando = alpha > .004 || !!drag; if (rodando) requestAnimationFrame(loop); }
+let rodando = false, drag = null, pan = null, moved = 0;
+function loop(){ if (alpha > .004) tick(); draw(); rodando = alpha > .004 || !!drag || intro < 1; if (rodando) requestAnimationFrame(loop); }
 function acorda(a){ alpha = Math.max(alpha, a); if (!rodando){ rodando = true; requestAnimationFrame(loop); } }
 
 // ---------- interação ----------
-let drag = null, pan = null, moved = 0;
 function pick(px,py){
   const x = wx(px), y = wy(py); let best=null, bd=1e9;
   for (const n of nodes){ if (!visivel(n) || !noFiltro(n)) continue;
@@ -255,30 +305,34 @@ cv.addEventListener('pointermove', e => { const [px,py] = pos(e);
   if (drag){ moved++; drag.x = wx(px); drag.y = wy(py); acorda(.3); return; }
   if (pan){ moved++; view.x = pan.vx+px-pan.px; view.y = pan.vy+py-pan.py; draw(); return; }
   const n = pick(px,py); if (n!==hover){ hover = n; cv.style.cursor = n?'pointer':'grab'; if(!rodando) draw(); } });
-cv.addEventListener('pointerup', e => { const [px,py] = pos(e);
+cv.addEventListener('pointerup', e => {
   if (drag){ drag.fixed = false; if (moved<4){ seleciona(drag); } drag = null; }
   else if (pan){ if (moved<4){ seleciona(null); } pan = null; }
   cv.classList.remove('drag'); draw(); });
-cv.addEventListener('wheel', e => { e.preventDefault(); const [px,py] = pos(e); const f = Math.exp(-e.deltaY*.0015), k = Math.min(Math.max(view.k*f,.25),8);
-  view.x = px-(px-view.x)*k/view.k; view.y = py-(py-view.y)*k/view.k; view.k = k; draw(); }, {passive:false});
+function zoomEm(px,py,f){ const k = Math.min(Math.max(view.k*f,.25),8); view.x = px-(px-view.x)*k/view.k; view.y = py-(py-view.y)*k/view.k; view.k = k; draw(); }
+cv.addEventListener('wheel', e => { e.preventDefault(); const [px,py] = pos(e); zoomEm(px,py,Math.exp(-e.deltaY*.0015)); }, {passive:false});
 cv.addEventListener('dblclick', () => { fit(); draw(); });
+document.getElementById('zi').onclick = () => zoomEm(W/2,H/2,1.35);
+document.getElementById('zo').onclick = () => zoomEm(W/2,H/2,1/1.35);
+document.getElementById('zf').onclick = () => { fit(); draw(); };
 
-// ---------- cartão de detalhes ----------
+// ---------- cartão ----------
 const card = document.getElementById('card'), cardBody = document.getElementById('cardBody');
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function seleciona(n){
   sel = n;
   if (!n){ card.style.display='none'; draw(); return; }
+  card.style.setProperty('--cc', n.color);
   let h = '';
   if (n.type==='norma'){
     const m = n.n, st = m.st==='revogada' ? '<span class="badge b-rev">revogada</span>' : m.st==='futura' ? '<span class="badge b-fut">ainda não vigente</span>' : '<span class="badge b-vig">vigente</span>';
-    h = `<h3>${esc(m.c)}</h3><p class="t">${esc(m.t)}</p><p>${st}<span class="badge" style="color:var(--mut);border-color:var(--line)">${esc(m.s)}</span></p>
+    h = `<h3>${esc(m.c)}</h3><p class="t">${esc(m.t)}</p><p>${st}<span class="badge b-ser">${esc(m.s)}</span></p>
       <p class="r">${esc(m.r)}${m.r.length>=320?'…':''}</p>
       <p class="t">Áreas: ${m.a.map(i=>esc(D.areas[i].nome)).join(', ')||'—'}<br>Setores: ${m.x.map(i=>esc(D.setores[i].nome)).join(', ')||'—'}</p>
       ${m.rl.length?`<p class="t">Mesmo assunto: ${m.rl.map(i=>esc(D.normas[i].c)).join(', ')}</p>`:''}<a href="${D.repo+m.f}" target="_blank" rel="noopener">Ficha</a><a href="${esc(m.u)}" target="_blank" rel="noopener">Texto oficial</a>`;
   } else {
-    const vizinhas = [...adj.get(n)].filter(x => x.type==='norma').length;
-    h = `<h3>${esc(n.label)}</h3><p class="t">${n.type==='setor'?'Setor':'Área'} · ${vizinhas} normas ligadas</p><p class="r">${esc(n.uso||'')}</p>
+    const viz = [...adj.get(n)].filter(x => x.type==='norma').length;
+    h = `<h3>${esc(n.label)}</h3><p class="t">${n.type==='setor'?'Setor':'Área'} · ${viz} normas ligadas</p><p class="r">${esc(n.uso||'')}</p>
       <a href="${esc(n.url)}" target="_blank" rel="noopener">Abrir a página</a>`;
   }
   cardBody.innerHTML = h; card.style.display = 'block'; draw();
@@ -286,12 +340,13 @@ function seleciona(n){
 document.getElementById('close').onclick = () => seleciona(null);
 
 // ---------- controles ----------
+document.getElementById('stats').innerHTML = [[D.normas.length,'normas'],[nA,'áreas'],[nS,'setores']].map(([v,t]) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`).join('');
 const chipsS = document.getElementById('chipsS');
-chipsS.innerHTML = D.setores.map((s,i) => `<button class="chip" data-i="${i}" aria-pressed="false"><i style="background:${SETOR_COR[i%SETOR_COR.length]}"></i>${esc(s.nome)}</button>`).join('');
+chipsS.innerHTML = D.setores.map((s,i) => `<button class="chip" data-i="${i}" aria-pressed="false" style="--c:${SETOR_COR[i%SETOR_COR.length]}"><i></i>${esc(s.nome)} <small>${[...adj.get(setorN(i))].filter(x=>x.type==='norma').length}</small></button>`).join('');
 chipsS.addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; const i = +b.dataset.i;
   filtroSetor = filtroSetor===i ? null : i;
   chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(+c.dataset.i===filtroSetor)));
-  const vis = nodes.filter(n => visivel(n) && noFiltro(n)); fitSubset(vis); draw(); });
+  if (filtroSetor===null) fit(); else fitSubset(nodes.filter(n => visivel(n) && noFiltro(n))); draw(); });
 function fitSubset(vis){
   if (!vis.length) return; let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; vis.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y); x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); });
   const k = Math.min(W/(x1-x0+200), H/(y1-y0+200), 3); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
@@ -302,7 +357,7 @@ document.getElementById('q').addEventListener('keydown', e => { if (e.key==='Ent
 document.getElementById('fit').onclick = () => { filtroSetor=null; chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed','false')); document.getElementById('q').value=''; atualizaBusca(); seleciona(null); fit(); draw(); };
 window.addEventListener('resize', () => { resize(); });
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
-resize(); fit(); draw(); acorda(.02);
+resize(); fit(); acorda(.02);
 })();
 </script>
 </body>
