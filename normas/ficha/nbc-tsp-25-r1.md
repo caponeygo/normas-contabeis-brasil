@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Demonstrações contábeis e divulgação
 
+**Texto integral:** [textos/nbc-tsp-25-r1.md](../../textos/nbc-tsp-25-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP25(R1)&arquivo=NBCTSP25(R1).docx)

@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/00
 
 **Temas:** Adoção inicial
 
+**Texto integral:** [textos/nbc-tg-43.md](../../textos/nbc-tg-43.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001315)

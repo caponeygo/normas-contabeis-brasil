@@ -21,7 +21,7 @@ erros = []
 mds = [p for p in ROOT.rglob("*.md") if not IGNORAR & set(p.relative_to(ROOT).parts)]
 for md in mds:
     txt = re.sub(r"```.*?```", "", md.read_text(encoding="utf-8"), flags=re.S)
-    for alvo in re.findall(r"\]\(([^)\s]+)\)", txt):
+    for alvo in re.findall(r"(?<!\\)\]\(([^)\s]+)\)", txt):     # "\](" é texto escapado, não link
         if re.match(r"(https?:|mailto:)", alvo):
             continue
         caminho, _, frag = alvo.partition("#")

@@ -22,6 +22,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AT 201](pcaob-at-201.md)
 
+**Texto integral:** [textos/nbc-tsc-4400.md](../../textos/nbc-tsc-4400.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSC4400&arquivo=NBC-TSC_4400.doc)

@@ -21,6 +21,7 @@ Gerado por `manutencao/scripts/extrair_textos.py`. 208 normas extraídas dos PDF
 | NBC TG 32 (R4) | 1 | 92% | 92% |
 | CTG 09 | 1 | 97% | 97% |
 | ITG 2001 | 1 | 99% | 99% |
+| CTG 2001 (R3) | 1 | 98% | 98% |
 | NBC TDS 02 | 3 | 100% | 100% |
 
 ## Normas sem PDF extraído

@@ -30,6 +30,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Agronegócio | [Crédito rural, hedge e CPR](../../setores/agronegocio/03-credito-rural-hedge-e-cpr.md) | 10A | ✅ conferido |
 | Terceiro Setor | [Doações, subvenções, convênios e gratuidades](../../setores/terceiro-setor/01-receitas-doacoes-e-subvencoes.md) | 12 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-07-r2.md](../../textos/nbc-tg-07-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc)

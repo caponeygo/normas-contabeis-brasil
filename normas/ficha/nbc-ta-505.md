@@ -31,6 +31,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AS 2310](pcaob-as-2310.md)
 
+**Texto integral:** [textos/nbc-ta-505.md](../../textos/nbc-ta-505.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001219)

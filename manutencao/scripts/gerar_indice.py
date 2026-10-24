@@ -41,9 +41,9 @@ HEAD = """# Normas Contábeis Brasileiras: CPC, NBC TG, ITG e NBC TA
 pronunciamentos do **CPC** (Comitê de Pronunciamentos Contábeis), **NBC TG / ITG / CTG** (contabilidade)
 e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilidade).
 
-> **Aviso:** este repositório não hospeda o texto das normas. Os documentos têm direitos autorais
-> (parte deriva das IFRS © IFRS Foundation e das ISA © IFAC) e são revisados com frequência.
-> Os links levam ao texto no site do CFC. Confira sempre a versão vigente. Este índice não é aconselhamento profissional.
+> **Aviso:** o texto integral das normas do CFC está em `textos/`, extraído automaticamente dos PDFs oficiais
+> (parte deriva das IFRS © IFRS Foundation e das ISA © IFAC). As normas são revisadas com frequência:
+> confira sempre a versão vigente no link oficial. Este índice não é aconselhamento profissional.
 
 ## Sumário
 - [Fontes oficiais](#fontes-oficiais)
@@ -379,6 +379,8 @@ for r in REC:
         md.append("## Mesmo assunto em outras normas" + NL + NL + "Tratam do mesmo tema, mas não são equivalentes: leia as duas." + NL)
         md += [f"- [{x}]({FICHA[x]}.md)" for x in r["relacionadas"]]
         md.append("")
+    if (ROOT / "textos" / f"{FICHA[r['codigo']]}.md").exists():
+        md.append(f"**Texto integral:** [textos/{FICHA[r['codigo']]}.md](../../textos/{FICHA[r['codigo']]}.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)" + chr(10))
     md.append(f"## Fonte\n\n- [Texto oficial (CFC)]({r['url']})")
     if r.get("url_cpc"):
         md.append(f"- [Pronunciamento do CPC]({r['url_cpc']})")
@@ -445,7 +447,7 @@ mf.append("\n## Como esta lista é mantida\n\n"
     "# Normas Contábeis Brasileiras",
     "",
     "> Índice (não o texto) das normas contábeis e de auditoria do Brasil (CFC/CPC) e das internacionais (IFRS/IAS/ISA) e dos padrões do PCAOB (EUA): "
-    "resumo, o que afeta, equivalências, trechos por setor e link oficial. Não hospeda o texto integral das normas.",
+    "resumo, o que afeta, equivalências, trechos por setor e link oficial; texto integral das normas do CFC em textos/ (extraído dos PDFs oficiais, com âncora por item).",
     "",
     "Regras: leia `AGENTS.md` antes de responder; cite sempre o código da norma e o link oficial; "
     "não afirme item/parágrafo que não esteja nestes arquivos; normas com status=revogada têm substituta em `substituida_por`; "
@@ -453,6 +455,7 @@ mf.append("\n## Como esta lista é mantida\n\n"
     "",
     "## Entradas",
     "- [AGENTS.md](AGENTS.md): como usar este repositório e seus limites",
+    "- textos/<código>.md: texto integral da norma, com âncora por item (ex.: textos/nbc-tg-27-r4.md#item-16)",
     "- [normas.json](normas.json): todos os dados estruturados (status, vigência, equivalências, trechos por setor)",
     "- [normas/README.md](normas/README.md): lista A–Z; cada norma tem ficha em normas/ficha/<código>.md",
     "- [normas/mudancas-futuras.md](normas/mudancas-futuras.md): normas que serão revogadas ou ainda não valem, com datas",
@@ -517,6 +520,7 @@ normas-contabeis-brasil/
 ├── areas/         uma página por área de assunto, com resumo de cada norma
 ├── setores/       uma pasta por setor: itens das normas, checklist e perguntas frequentes
 ├── lancamentos/   exemplos de lançamentos contábeis
+├── textos/        texto integral das normas do CFC (um arquivo por norma, com âncora em cada item)
 ├── GLOSSARIO.md   siglas e termos
 ├── normas.json    todos os dados em JSON (para sistemas e IA)
 ├── llms.txt       mapa curto do repositório para assistentes de IA

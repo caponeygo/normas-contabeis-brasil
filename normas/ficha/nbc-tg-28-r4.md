@@ -20,6 +20,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Temas:** Propriedade para investimento
 
+**Texto integral:** [textos/nbc-tg-28-r4.md](../../textos/nbc-tg-28-r4.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG28(R4)&arquivo=NBCTG28(R4).doc)

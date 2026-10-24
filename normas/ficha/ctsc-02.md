@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/00
 
 **Temas:** Concessões e infraestrutura, Procedimentos previamente acordados e compilação
 
+**Texto integral:** [textos/ctsc-02.md](../../textos/ctsc-02.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001400)

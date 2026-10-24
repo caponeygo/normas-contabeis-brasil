@@ -16,6 +16,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NB
 
 **Temas:** Qualidade e independência
 
+**Texto integral:** [textos/nbc-po-900.md](../../textos/nbc-po-900.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPO900&arquivo=NBCPO900.doc)

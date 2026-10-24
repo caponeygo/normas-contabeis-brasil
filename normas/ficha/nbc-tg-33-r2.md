@@ -29,6 +29,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NB
 | Serviços | [Pessoal, férias, PLR e stock options](../../setores/servicos/03-pessoal-e-beneficios.md) | 19–24 | ✅ conferido |
 | Serviços | [Pessoal, férias, PLR e stock options](../../setores/servicos/03-pessoal-e-beneficios.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-33-r2.md](../../textos/nbc-tg-33-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG33(R2))

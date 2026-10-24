@@ -33,6 +33,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Serviços | [SaaS, software e licenças](../../setores/servicos/02-saas-software-e-licencas.md) | 57 | ✅ conferido |
 | Serviços | [SaaS, software e licenças](../../setores/servicos/02-saas-software-e-licencas.md) | 54–56 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-04-r4.md](../../textos/nbc-tg-04-r4.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)

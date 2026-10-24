@@ -28,6 +28,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 | Indústria | [DRE, CPV e apresentação](../../setores/industrial/07-dre-e-apresentacao.md) | 78–83 | ✅ conferido |
 | Indústria | [DRE, CPV e apresentação](../../setores/industrial/07-dre-e-apresentacao.md) | 117–125 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-51.md](../../textos/nbc-tg-51.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx)

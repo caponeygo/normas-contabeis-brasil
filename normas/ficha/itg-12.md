@@ -26,6 +26,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 | Indústria | [Máquinas, fábrica e imobilizado](../../setores/industrial/02-maquinas-e-fabrica.md) | — | ✅ conferido |
 | Indústria | [Meio ambiente, resíduos e clima](../../setores/industrial/08-meio-ambiente-e-clima.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/itg-12.md](../../textos/itg-12.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265)

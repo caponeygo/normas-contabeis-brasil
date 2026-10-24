@@ -25,6 +25,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AS 1305](pcaob-as-1305.md)
 
+**Texto integral:** [textos/nbc-ta-265.md](../../textos/nbc-ta-265.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001210)

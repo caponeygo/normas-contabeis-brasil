@@ -28,6 +28,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Indústria | [Máquinas, fábrica e imobilizado](../../setores/industrial/02-maquinas-e-fabrica.md) | 66–73 | ✅ conferido |
 | Varejo | [Lojas, aluguéis e impairment](../../setores/varejo/04-lojas-e-arrendamentos.md) | 66–73 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-01-r4.md](../../textos/nbc-tg-01-r4.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc)

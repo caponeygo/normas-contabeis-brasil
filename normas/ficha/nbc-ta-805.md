@@ -19,6 +19,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Temas:** Demonstrações contábeis e divulgação
 
+**Texto integral:** [textos/nbc-ta-805.md](../../textos/nbc-ta-805.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc)

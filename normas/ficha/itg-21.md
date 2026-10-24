@@ -25,6 +25,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/IT
 |---|---|---|---|
 | Indústria | [Commodities, câmbio e hedge](../../setores/industrial/06-commodities-cambio-e-hedge.md) | — | ✅👤 revisado por pessoa |
 
+**Texto integral:** [textos/itg-21.md](../../textos/itg-21.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG21&arquivo=ITG21.doc)

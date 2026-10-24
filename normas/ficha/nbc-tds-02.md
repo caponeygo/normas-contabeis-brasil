@@ -22,6 +22,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NB
 |---|---|---|---|
 | Indústria | [Meio ambiente, resíduos e clima](../../setores/industrial/08-meio-ambiente-e-clima.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tds-02.md](../../textos/nbc-tds-02.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc)

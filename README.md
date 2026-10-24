@@ -81,6 +81,7 @@ normas-contabeis-brasil/
 ├── areas/         uma página por área de assunto, com resumo de cada norma
 ├── setores/       uma pasta por setor: itens das normas, checklist e perguntas frequentes
 ├── lancamentos/   exemplos de lançamentos contábeis
+├── textos/        texto integral das normas do CFC (um arquivo por norma, com âncora em cada item)
 ├── GLOSSARIO.md   siglas e termos
 ├── normas.json    todos os dados em JSON (para sistemas e IA)
 ├── llms.txt       mapa curto do repositório para assistentes de IA

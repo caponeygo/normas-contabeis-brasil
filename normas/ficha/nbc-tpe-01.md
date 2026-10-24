@@ -22,6 +22,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NB
 |---|---|---|---|
 | Terceiro Setor | [Partidos políticos e eleições](../../setores/terceiro-setor/04-partidos-e-eleicoes.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tpe-01.md](../../textos/nbc-tpe-01.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTPE01&arquivo=NBCTPE01.doc)

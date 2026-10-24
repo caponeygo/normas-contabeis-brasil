@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/00
 
 **Temas:** Demonstrações contábeis e divulgação, Concessões e infraestrutura
 
+**Texto integral:** [textos/itg-17.md](../../textos/itg-17.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001375)

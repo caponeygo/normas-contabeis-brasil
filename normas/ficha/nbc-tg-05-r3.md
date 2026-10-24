@@ -26,6 +26,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AS 2410](pcaob-as-2410.md)
 
+**Texto integral:** [textos/nbc-tg-05-r3.md](../../textos/nbc-tg-05-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG05(R3))

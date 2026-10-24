@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/00
 
 **Temas:** Relatório do auditor
 
+**Texto integral:** [textos/ctr-02.md](../../textos/ctr-02.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001353)

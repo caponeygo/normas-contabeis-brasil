@@ -1,8 +1,9 @@
 # Instruções para agentes de IA (GitHub Copilot, Claude, ChatGPT etc.)
 
 Este repositório é um **índice das normas contábeis e de auditoria do Brasil** (CFC e CPC) e das
-internacionais (IFRS, IAS, ISA), com trechos por setor, glossário e exemplos de lançamentos. O texto
-integral das normas não está aqui: cada norma tem um resumo do que trata, as demonstrações que afeta e o link oficial.
+internacionais (IFRS, IAS, ISA), com trechos por setor, glossário e exemplos de lançamentos. Cada norma
+tem um resumo do que trata, as demonstrações que afeta e o link oficial; o texto integral das normas do CFC está em
+[`textos/`](textos/), extraído dos PDFs oficiais, com âncora em cada item (ex.: `textos/nbc-tg-27-r4.md#item-16`).
 
 ## Como responder a um pedido
 
@@ -65,6 +66,8 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 ## Regras para não errar (leia antes de responder)
 
 1. **Só afirme o que está aqui.** Não cite número de item, parágrafo, prazo, alíquota ou valor que não apareça nestes arquivos ou no link oficial.
+   **Antes de citar um item, abra o texto integral** em `textos/<código>.md` (o nome é o da ficha) e confirme o item pela âncora `#item-N`.
+   O texto foi extraído automaticamente: se algo parecer truncado ou estranho, cite o link oficial.
    Se a informação não estiver no repositório, diga isso e indique o link oficial. Não complete de memória.
 2. **Vigência primeiro.** Em [`normas.json`](normas.json) cada norma tem `status` (`vigente`, `revogada` ou `futura`), `substituida_por`, `vigente_a_partir_de`, `observacao_vigencia`,
    `revogada_em` e `substituta_vale_a_partir_de`. Norma revogada: indique a substituta. Se `substituta_vale_a_partir_de` existir

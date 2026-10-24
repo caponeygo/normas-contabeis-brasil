@@ -25,6 +25,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NB
 |---|---|---|---|
 | Indústria | [DRE, CPV e apresentação](../../setores/industrial/07-dre-e-apresentacao.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-09-r1.md](../../textos/nbc-tg-09-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc)

@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/IT
 
 **Temas:** Perícia contábil
 
+**Texto integral:** [textos/itp-01.md](../../textos/itp-01.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/ITP01&arquivo=ITP_01_Apuracao%20de%20Haveres.docx)

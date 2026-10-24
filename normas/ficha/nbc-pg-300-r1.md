@@ -16,6 +16,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NB
 
 **Temas:** Qualidade e independência
 
+**Texto integral:** [textos/nbc-pg-300-r1.md](../../textos/nbc-pg-300-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG300(R1)&arquivo=NBCPG300(R1).doc)

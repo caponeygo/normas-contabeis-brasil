@@ -14,6 +14,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NB
 
 **Áreas:** [Revisão](../../areas/revisao.md)
 
+**Texto integral:** [textos/nbc-tr-2400.md](../../textos/nbc-tr-2400.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTR2400)

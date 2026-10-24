@@ -27,6 +27,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 | Construção e Incorporação | [Incorporação imobiliária](../../setores/construcao/01-incorporacao-imobiliaria.md) | 6–8 | ✅ conferido |
 | Construção e Incorporação | [Incorporação imobiliária](../../setores/construcao/01-incorporacao-imobiliaria.md) | 20–22 | ✅ conferido |
 
+**Texto integral:** [textos/ctg-01.md](../../textos/ctg-01.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001154)

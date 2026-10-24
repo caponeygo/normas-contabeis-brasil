@@ -23,6 +23,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AS 3305](pcaob-as-3305.md)
 
+**Texto integral:** [textos/nbc-ta-800.md](../../textos/nbc-ta-800.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA800&arquivo=NBCTA800.doc)

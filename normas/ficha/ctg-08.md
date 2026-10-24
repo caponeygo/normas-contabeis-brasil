@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/CT
 
 **Temas:** Concessões e infraestrutura
 
+**Texto integral:** [textos/ctg-08.md](../../textos/ctg-08.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/CTG08)

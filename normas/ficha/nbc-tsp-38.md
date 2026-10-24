@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NB
 
 **Temas:** Valor justo e mensuração
 
+**Texto integral:** [textos/nbc-tsp-38.md](../../textos/nbc-tsp-38.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx)

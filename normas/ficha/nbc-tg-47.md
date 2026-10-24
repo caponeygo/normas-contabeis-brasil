@@ -61,6 +61,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NB
 | Construção e Incorporação | [Construtoras e empreiteiras](../../setores/construcao/02-contratos-de-construcao.md) | 18–21 | ✅ conferido |
 | Construção e Incorporação | [Construtoras e empreiteiras](../../setores/construcao/02-contratos-de-construcao.md) | 50–59 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-47.md](../../textos/nbc-tg-47.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)

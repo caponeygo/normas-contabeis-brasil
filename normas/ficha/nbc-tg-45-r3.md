@@ -20,6 +20,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Temas:** Consolidação e participações, Demonstrações contábeis e divulgação
 
+**Texto integral:** [textos/nbc-tg-45-r3.md](../../textos/nbc-tg-45-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG45(R3)&arquivo=NBCTG45(R3).doc)

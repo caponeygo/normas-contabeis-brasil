@@ -29,6 +29,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Agronegócio | [Crédito rural, hedge e CPR](../../setores/agronegocio/03-credito-rural-hedge-e-cpr.md) | 31–42 | ✅ conferido |
 | Financeiro | [Instrumentos financeiros nas empresas em geral](../../setores/financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md) | 31–42 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-40-r3.md](../../textos/nbc-tg-40-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)

@@ -20,6 +20,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NB
 
 **Temas:** Consolidação e participações
 
+**Texto integral:** [textos/nbc-tg-19-r2.md](../../textos/nbc-tg-19-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG19(R2))

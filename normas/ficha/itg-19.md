@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/IT
 
 **Temas:** Outros tributos e taxas
 
+**Texto integral:** [textos/itg-19.md](../../textos/itg-19.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG19)

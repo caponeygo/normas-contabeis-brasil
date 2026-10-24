@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Benefícios a empregados
 
+**Texto integral:** [textos/nbc-tsp-29-r1.md](../../textos/nbc-tsp-29-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP29(R1)&arquivo=NBCTSP29(R1).docx)

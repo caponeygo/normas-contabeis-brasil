@@ -26,6 +26,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CT
 | Indústria | [Meio ambiente, resíduos e clima](../../setores/industrial/08-meio-ambiente-e-clima.md) | — | ✅ conferido |
 | Agronegócio | [Usinas, CBIO e auditoria no agro](../../setores/agronegocio/04-usinas-carbono-e-auditoria.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/ctg-10.md](../../textos/ctg-10.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc)

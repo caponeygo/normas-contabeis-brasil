@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20
 
 **Temas:** Sustentabilidade e clima
 
+**Texto integral:** [textos/cto-07.md](../../textos/cto-07.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2007&arquivo=CTO%2007%20.doc)

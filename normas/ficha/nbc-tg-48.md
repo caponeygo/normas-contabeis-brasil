@@ -36,6 +36,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NB
 | Financeiro | [Instrumentos financeiros nas empresas em geral](../../setores/financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md) | 5.5.15 | ✅ conferido |
 | Financeiro | [Instrumentos financeiros nas empresas em geral](../../setores/financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md) | 3.2.3–3.2.6 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-48.md](../../textos/nbc-tg-48.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)

@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NB
 
 **Temas:** Arrendamentos
 
+**Texto integral:** [textos/nbc-tsp-35.md](../../textos/nbc-tsp-35.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP35&arquivo=NBCTSP35.docx)

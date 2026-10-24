@@ -27,6 +27,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/00
 | Indústria | [Meio ambiente, resíduos e clima](../../setores/industrial/08-meio-ambiente-e-clima.md) | — | ✅ conferido |
 | Indústria | [Particularidades por tipo de indústria](../../setores/industrial/09-setores-industriais.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/itg-15.md](../../textos/itg-15.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)

@@ -31,6 +31,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AS 2110](pcaob-as-2110.md)
 
+**Texto integral:** [textos/nbc-ta-315-r2.md](../../textos/nbc-ta-315-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA315(R2)&arquivo=NBCTA315(R2).doc)

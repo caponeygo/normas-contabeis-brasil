@@ -16,6 +16,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/00
 
 **Temas:** Relatório do auditor, Uso do trabalho de terceiros
 
+**Texto integral:** [textos/nbc-to-3402.md](../../textos/nbc-to-3402.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001354&arquivo=Res_1354.doc)

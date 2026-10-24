@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/00
 
 **Temas:** Concessões e infraestrutura
 
+**Texto integral:** [textos/ctg-05.md](../../textos/ctg-05.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001318)

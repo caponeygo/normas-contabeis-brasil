@@ -19,6 +19,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NB
 
 **Temas:** Qualidade e independência
 
+**Texto integral:** [textos/nbc-ta-220-r3.md](../../textos/nbc-ta-220-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA220(R3)&arquivo=NBCTA220%20(R3).doc)

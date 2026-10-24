@@ -19,6 +19,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NB
 
 **Temas:** Entidades específicas
 
+**Texto integral:** [textos/nbc-tg-900.md](../../textos/nbc-tg-900.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG900&arquivo=NBCTG900..doc)

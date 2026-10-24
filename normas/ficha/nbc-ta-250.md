@@ -25,6 +25,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AS 2405](pcaob-as-2405.md)
 
+**Texto integral:** [textos/nbc-ta-250.md](../../textos/nbc-ta-250.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA250)

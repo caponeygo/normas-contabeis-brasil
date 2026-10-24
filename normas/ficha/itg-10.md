@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 
 **Temas:** Imobilizado, Propriedade para investimento, Adoção inicial
 
+**Texto integral:** [textos/itg-10.md](../../textos/itg-10.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001263)

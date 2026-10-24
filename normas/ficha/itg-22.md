@@ -25,6 +25,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/IT
 |---|---|---|---|
 | Indústria | [Tributos e incentivos fiscais](../../setores/industrial/04-tributos-e-incentivos.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/itg-22.md](../../textos/itg-22.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG22&arquivo=ITG22.doc)

@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2003/00
 
 **Temas:** Uso do trabalho de terceiros
 
+**Texto integral:** [textos/nbc-ti-01.md](../../textos/nbc-ti-01.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2003/000986)

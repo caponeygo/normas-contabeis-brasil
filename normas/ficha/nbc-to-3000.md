@@ -20,6 +20,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB AT 101](pcaob-at-101.md)
 
+**Texto integral:** [textos/nbc-to-3000.md](../../textos/nbc-to-3000.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTO3000)

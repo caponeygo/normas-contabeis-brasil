@@ -26,6 +26,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NB
 |---|---|---|---|
 | Financeiro | [Seguradoras e previdência complementar](../../setores/financeiro/05-seguradoras-e-previdencia.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-50.md](../../textos/nbc-tg-50.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG50&arquivo=NBCTG50.doc)

@@ -27,6 +27,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Indústria | [Tributos e incentivos fiscais](../../setores/industrial/04-tributos-e-incentivos.md) | 15–24 | ✅ conferido |
 | Indústria | [Tributos e incentivos fiscais](../../setores/industrial/04-tributos-e-incentivos.md) | 24–31, 34–36 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-32-r4.md](../../textos/nbc-tg-32-r4.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc)

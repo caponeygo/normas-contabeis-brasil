@@ -36,6 +36,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Agronegócio | [Terras, plantas portadoras e arrendamentos](../../setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md) | 27, 38, B42 | ✅ conferido |
 | Construção e Incorporação | [Garantias, equipamentos e tributos](../../setores/construcao/03-garantias-imobilizado-e-tributos.md) | 22–24 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-06-r3.md](../../textos/nbc-tg-06-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc)

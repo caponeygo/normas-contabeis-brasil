@@ -22,6 +22,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 
 - [PCAOB QC 1000](pcaob-qc-1000.md)
 
+**Texto integral:** [textos/nbc-pa-01.md](../../textos/nbc-pa-01.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA01&arquivo=NBCPA01.doc)

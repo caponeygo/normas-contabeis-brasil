@@ -20,6 +20,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NB
 
 **Temas:** Sustentabilidade e clima
 
+**Texto integral:** [textos/nbc-to-3410.md](../../textos/nbc-to-3410.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTO%203410&arquivo=NBC%20TO%203410.doc)

@@ -22,6 +22,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NB
 |---|---|---|---|
 | Serviços | [Escritórios, tributos e pequenas empresas](../../setores/servicos/04-escritorios-tributos-e-pequenas.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-1002.md](../../textos/nbc-tg-1002.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)

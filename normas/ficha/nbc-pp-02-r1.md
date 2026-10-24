@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Qualidade e independência, Perícia contábil
 
+**Texto integral:** [textos/nbc-pp-02-r1.md](../../textos/nbc-pp-02-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP02(R1)&arquivo=NBCPP02(R1).doc)

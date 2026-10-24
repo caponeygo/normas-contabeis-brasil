@@ -20,6 +20,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Temas:** Ativo mantido para venda, Demonstração do resultado (DRE)
 
+**Texto integral:** [textos/nbc-tg-31-r4.md](../../textos/nbc-tg-31-r4.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG31(R4)&arquivo=NBCTG31(R4).doc)

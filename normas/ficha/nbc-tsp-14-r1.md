@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Custos de empréstimos, Custos e despesas
 
+**Texto integral:** [textos/nbc-tsp-14-r1.md](../../textos/nbc-tsp-14-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP14(R1)&arquivo=NBCTSP14(R1).docx)

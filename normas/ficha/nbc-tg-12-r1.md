@@ -26,6 +26,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NB
 | Indústria | [Estoques e custo de produção](../../setores/industrial/01-estoques-e-custo-de-producao.md) | — | ✅ conferido |
 | Varejo | [Vendas, marketplace e fidelidade](../../setores/varejo/02-vendas-e-receita.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-12-r1.md](../../textos/nbc-tg-12-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1))

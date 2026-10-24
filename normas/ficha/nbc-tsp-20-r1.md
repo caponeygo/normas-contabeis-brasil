@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Consolidação e participações, Demonstrações contábeis e divulgação
 
+**Texto integral:** [textos/nbc-tsp-20-r1.md](../../textos/nbc-tsp-20-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP20(R1)&arquivo=NBCTSP20(R1).docx)

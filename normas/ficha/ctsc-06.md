@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CT
 
 **Temas:** Seguros, Procedimentos previamente acordados e compilação
 
+**Texto integral:** [textos/ctsc-06.md](../../textos/ctsc-06.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC06&arquivo=NBCCTSC06.doc)

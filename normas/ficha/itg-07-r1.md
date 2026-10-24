@@ -19,6 +19,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/IT
 
 **Temas:** Patrimônio, dividendos e ações
 
+**Texto integral:** [textos/itg-07-r1.md](../../textos/itg-07-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG07(R1))

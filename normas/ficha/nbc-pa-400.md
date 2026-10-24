@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NB
 
 **Temas:** Qualidade e independência
 
+**Texto integral:** [textos/nbc-pa-400.md](../../textos/nbc-pa-400.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPA400&arquivo=NBCPA400_Rev28.doc)

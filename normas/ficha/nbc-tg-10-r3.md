@@ -26,6 +26,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 |---|---|---|---|
 | Serviços | [Pessoal, férias, PLR e stock options](../../setores/servicos/03-pessoal-e-beneficios.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-10-r3.md](../../textos/nbc-tg-10-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG10(R3)&arquivo=NBCTG10(R3).doc)

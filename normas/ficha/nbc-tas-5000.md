@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Sustentabilidade e clima, Relatório do auditor
 
+**Texto integral:** [textos/nbc-tas-5000.md](../../textos/nbc-tas-5000.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx)

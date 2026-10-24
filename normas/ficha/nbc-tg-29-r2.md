@@ -34,6 +34,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NB
 | Agronegócio | [Terras, plantas portadoras e arrendamentos](../../setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md) | 2 | ✅👤 revisado por pessoa |
 | Agronegócio | [Crédito rural, hedge e CPR](../../setores/agronegocio/03-credito-rural-hedge-e-cpr.md) | 34–35 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-29-r2.md](../../textos/nbc-tg-29-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))

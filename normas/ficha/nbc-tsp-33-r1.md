@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Temas:** Instrumentos financeiros, Demonstrações contábeis e divulgação
 
+**Texto integral:** [textos/nbc-tsp-33-r1.md](../../textos/nbc-tsp-33-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP33(R1)&arquivo=NBCTSP33(R1).docx)

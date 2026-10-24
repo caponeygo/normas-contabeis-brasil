@@ -22,6 +22,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NB
 |---|---|---|---|
 | Terceiro Setor | [Demonstrações, superávit e patrimônio social](../../setores/terceiro-setor/02-demonstracoes-e-patrimonio-social.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-1000-r1.md](../../textos/nbc-tg-1000-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc)

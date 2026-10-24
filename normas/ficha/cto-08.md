@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20
 
 **Temas:** Concessões e infraestrutura
 
+**Texto integral:** [textos/cto-08.md](../../textos/cto-08.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2008&arquivo=CTO08.doc)

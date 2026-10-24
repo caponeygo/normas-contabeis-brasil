@@ -19,6 +19,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/IT
 
 **Temas:** Concessões e infraestrutura
 
+**Texto integral:** [textos/itg-01-r1.md](../../textos/itg-01-r1.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG01(R1)&arquivo=ITG01(R1).doc)

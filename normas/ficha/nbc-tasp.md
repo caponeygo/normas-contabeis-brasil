@@ -14,6 +14,8 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/00
 
 **Áreas:** [Setor Público](../../areas/setor-publico.md)
 
+**Texto integral:** [textos/nbc-tasp.md](../../textos/nbc-tasp.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601)

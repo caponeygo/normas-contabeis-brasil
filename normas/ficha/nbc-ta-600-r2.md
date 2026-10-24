@@ -19,6 +19,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NB
 
 **Temas:** Consolidação e participações, Uso do trabalho de terceiros
 
+**Texto integral:** [textos/nbc-ta-600-r2.md](../../textos/nbc-ta-600-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTA600(R2)&arquivo=NBC%20TA%20600%20(R2).doc)

@@ -19,6 +19,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CT
 
 **Temas:** Estrutura conceitual, Sustentabilidade e clima
 
+**Texto integral:** [textos/ctg-09.md](../../textos/ctg-09.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTG09&arquivo=CTG09.doc)

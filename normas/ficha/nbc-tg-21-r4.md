@@ -27,6 +27,8 @@ Tratam do mesmo tema, mas não são equivalentes: leia as duas.
 - [PCAOB AS 3315](pcaob-as-3315.md)
 - [PCAOB AS 4105](pcaob-as-4105.md)
 
+**Texto integral:** [textos/nbc-tg-21-r4.md](../../textos/nbc-tg-21-r4.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG21(R4)&arquivo=NBCTG21(R4).doc)

@@ -16,6 +16,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2004/00
 
 **Temas:** Mineração e meio ambiente, Sustentabilidade e clima
 
+**Texto integral:** [textos/nbc-t-15.md](../../textos/nbc-t-15.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2004/001003&arquivo=Res_1003.doc)

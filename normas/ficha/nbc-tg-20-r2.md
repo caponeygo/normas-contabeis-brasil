@@ -27,6 +27,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Indústria | [Máquinas, fábrica e imobilizado](../../setores/industrial/02-maquinas-e-fabrica.md) | 4–8 | ✅ conferido |
 | Indústria | [Máquinas, fábrica e imobilizado](../../setores/industrial/02-maquinas-e-fabrica.md) | 14, 17–22 | ✅ conferido |
 
+**Texto integral:** [textos/nbc-tg-20-r2.md](../../textos/nbc-tg-20-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG20(R2)&arquivo=NBCTG20(R2).doc)

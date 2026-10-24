@@ -25,6 +25,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/IT
 |---|---|---|---|
 | Indústria | [Meio ambiente, resíduos e clima](../../setores/industrial/08-meio-ambiente-e-clima.md) | — | ✅ conferido |
 
+**Texto integral:** [textos/itg-13-r2.md](../../textos/itg-13-r2.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG13(R2)&arquivo=ITG13(R2).doc)

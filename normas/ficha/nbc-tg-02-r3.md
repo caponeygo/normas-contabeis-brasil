@@ -27,6 +27,8 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Indústria | [Commodities, câmbio e hedge](../../setores/industrial/06-commodities-cambio-e-hedge.md) | 21–23 | ✅ conferido |
 | Indústria | [Commodities, câmbio e hedge](../../setores/industrial/06-commodities-cambio-e-hedge.md) | 28 | ✅👤 revisado por pessoa |
 
+**Texto integral:** [textos/nbc-tg-02-r3.md](../../textos/nbc-tg-02-r3.md) (extraído do documento oficial; cada item tem âncora, ex.: `#item-27`)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc)
