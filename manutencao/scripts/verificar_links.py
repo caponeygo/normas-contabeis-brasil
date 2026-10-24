@@ -7,7 +7,7 @@ import html, json, re, sys, time, unicodedata, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (verificador normas-contabeis-brasil)"}
 CACHE = ROOT / ".cache" / "normas"
 
@@ -103,7 +103,7 @@ def main():
         if r.get("url_cpc") and r["url_cpc"] not in vistos:     # página oficial do CPC equivalente
             vistos.add(r["url_cpc"]); alvos.append({"codigo": r["cpc"], "titulo": r["titulo"], "url": r["url_cpc"]})
     # regras de fora do CFC citadas nas pastas de setor (BCB, CVM, SUSEP, leis)
-    sys.path.insert(0, str(ROOT / "scripts"))
+    sys.path.insert(0, str(ROOT / "manutencao" / "scripts"))
     from dados import ler
     for e in ler("setores_externas.csv") + ler("fontes_externas.csv"):
         if e["url"] not in vistos:
@@ -119,7 +119,7 @@ def main():
         if not x.get("arquivo") and x.get("pdf") and arq.exists():
             x["arquivo"] = arq.relative_to(ROOT).as_posix()
 
-    saida = ROOT / "verificacao"; saida.mkdir(exist_ok=True)
+    saida = ROOT / "manutencao" / "verificacao"; saida.mkdir(exist_ok=True)
     (saida / "links.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
     cont = {}
     for x in res:

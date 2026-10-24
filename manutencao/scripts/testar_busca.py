@@ -6,8 +6,8 @@ import json, math, re, sys, unicodedata
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-PASTAS = ["areas", "lancamentos", "normas"] + [f"setores/{x}" for x in ["Industrial", "Varejo", "Servicos", "Agronegocio", "Construcao", "TerceiroSetor", "Financeiro"]]
+ROOT = Path(__file__).resolve().parent.parent.parent
+PASTAS = ["areas", "lancamentos", "normas"] + [f"setores/{x}" for x in ["industrial", "varejo", "servicos", "agronegocio", "construcao", "terceiro-setor", "financeiro"]]
 PARADAS = set("""de da do das dos a o as os e em no na nos nas um uma uns umas para por com sem que qual quais
 como quando onde ou ao aos se sua seu suas seus ser sao foi esta este isso essa esse pelo pela pelos pelas
 mais menos ja so nao sim deve devo pode posso vira entra fica sobre entre ate apos the""".split())
@@ -41,7 +41,7 @@ def main():
             notas[d] = s
         return sorted(notas, key=notas.get, reverse=True)
 
-    perguntas = json.loads((ROOT / "testes" / "perguntas.json").read_text(encoding="utf-8"))
+    perguntas = json.loads((ROOT / "manutencao" / "testes" / "perguntas.json").read_text(encoding="utf-8"))
     linhas, acertos = [], 0
     for p in perguntas:
         top = bm25(p["pergunta"])[:3]
@@ -57,8 +57,8 @@ def main():
           "entre os 3 primeiros e cita as normas esperadas.\n",
           f"**Acerto: {acertos}/{len(perguntas)} ({taxa:.0%})**\n",
           "| | Pergunta | 3 primeiros arquivos | Arquivo esperado encontrado |\n|---|---|---|---|"] + linhas
-    (ROOT / "verificacao").mkdir(exist_ok=True)
-    (ROOT / "verificacao" / "BUSCA.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    (ROOT / "manutencao" / "verificacao").mkdir(exist_ok=True)
+    (ROOT / "manutencao" / "verificacao" / "BUSCA.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"acerto {acertos}/{len(perguntas)} ({taxa:.0%})")
     for l in linhas:
         if l.startswith("| ❌"):

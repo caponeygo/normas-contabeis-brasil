@@ -3,7 +3,7 @@
 import re, sys, unicodedata
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 IGNORAR = {".cache", ".git", "graphify-out", "node_modules", "conteudo"}  # scripts/conteudo: originais copiados para areas/
 
 

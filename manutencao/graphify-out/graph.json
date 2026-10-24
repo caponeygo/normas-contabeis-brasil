@@ -169,7 +169,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "id": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "label": "Ind\u00fastria: DRE, CPV e apresenta\u00e7\u00e3o",
       "author": null,
       "captured_at": null,
@@ -1204,7 +1204,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Agronegocio_ativo_biologico_e_produto_colhido",
+      "id": "topico_setores/agronegocio_ativo_biologico_e_produto_colhido",
       "label": "Agroneg\u00f3cio: Ativo biol\u00f3gico e produto colhido",
       "author": null,
       "captured_at": null,
@@ -1219,7 +1219,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Agronegocio_credito_rural_hedge_e_cpr",
+      "id": "topico_setores/agronegocio_credito_rural_hedge_e_cpr",
       "label": "Agroneg\u00f3cio: Cr\u00e9dito rural, hedge e CPR",
       "author": null,
       "captured_at": null,
@@ -1234,7 +1234,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Agronegocio_terras_plantas_portadoras_e_arrendamentos",
+      "id": "topico_setores/agronegocio_terras_plantas_portadoras_e_arrendamentos",
       "label": "Agroneg\u00f3cio: Terras, plantas portadoras e arrendamentos",
       "author": null,
       "captured_at": null,
@@ -1249,7 +1249,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_estoques_e_custo_de_producao",
+      "id": "topico_setores/industrial_estoques_e_custo_de_producao",
       "label": "Ind\u00fastria: Estoques e custo de produ\u00e7\u00e3o",
       "author": null,
       "captured_at": null,
@@ -1264,7 +1264,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Varejo_cartoes_recebiveis_e_antecipacao",
+      "id": "topico_setores/varejo_cartoes_recebiveis_e_antecipacao",
       "label": "Varejo: Cart\u00f5es, receb\u00edveis e antecipa\u00e7\u00e3o",
       "author": null,
       "captured_at": null,
@@ -1279,7 +1279,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Varejo_lojas_alugueis_e_impairment",
+      "id": "topico_setores/varejo_lojas_alugueis_e_impairment",
       "label": "Varejo: Lojas, alugu\u00e9is e impairment",
       "author": null,
       "captured_at": null,
@@ -1294,7 +1294,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Varejo_tributos_no_varejo",
+      "id": "topico_setores/varejo_tributos_no_varejo",
       "label": "Varejo: Tributos no varejo",
       "author": null,
       "captured_at": null,
@@ -1309,7 +1309,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Varejo_vendas_marketplace_e_fidelidade",
+      "id": "topico_setores/varejo_vendas_marketplace_e_fidelidade",
       "label": "Varejo: Vendas, marketplace e fidelidade",
       "author": null,
       "captured_at": null,
@@ -2764,7 +2764,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "id": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "label": "Ind\u00fastria: Tributos e incentivos fiscais",
       "author": null,
       "captured_at": null,
@@ -2989,7 +2989,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Servicos_pessoal_ferias_plr_e_stock_options",
+      "id": "topico_setores/servicos_pessoal_ferias_plr_e_stock_options",
       "label": "Servi\u00e7os: Pessoal, f\u00e9rias, PLR e stock options",
       "author": null,
       "captured_at": null,
@@ -3004,7 +3004,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Servicos_receita_de_servicos_e_contratos",
+      "id": "topico_setores/servicos_receita_de_servicos_e_contratos",
       "label": "Servi\u00e7os: Receita de servi\u00e7os e contratos",
       "author": null,
       "captured_at": null,
@@ -3019,7 +3019,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Servicos_saas_software_e_licencas",
+      "id": "topico_setores/servicos_saas_software_e_licencas",
       "label": "Servi\u00e7os: SaaS, software e licen\u00e7as",
       "author": null,
       "captured_at": null,
@@ -3574,7 +3574,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Agronegocio_usinas_cbio_e_auditoria_no_agro",
+      "id": "topico_setores/agronegocio_usinas_cbio_e_auditoria_no_agro",
       "label": "Agroneg\u00f3cio: Usinas, CBIO e auditoria no agro",
       "author": null,
       "captured_at": null,
@@ -3589,7 +3589,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_auditoria_na_industria",
+      "id": "topico_setores/industrial_auditoria_na_industria",
       "label": "Ind\u00fastria: Auditoria na ind\u00fastria",
       "author": null,
       "captured_at": null,
@@ -3604,7 +3604,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Varejo_mercadorias_cmv_e_perdas",
+      "id": "topico_setores/varejo_mercadorias_cmv_e_perdas",
       "label": "Varejo: Mercadorias, CMV e perdas",
       "author": null,
       "captured_at": null,
@@ -3979,7 +3979,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/TerceiroSetor_partidos_politicos_e_eleicoes",
+      "id": "topico_setores/terceiro-setor_partidos_politicos_e_eleicoes",
       "label": "Terceiro Setor: Partidos pol\u00edticos e elei\u00e7\u00f5es",
       "author": null,
       "captured_at": null,
@@ -4144,7 +4144,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Construcao_incorporacao_imobiliaria",
+      "id": "topico_setores/construcao_incorporacao_imobiliaria",
       "label": "Constru\u00e7\u00e3o e Incorpora\u00e7\u00e3o: Incorpora\u00e7\u00e3o imobili\u00e1ria",
       "author": null,
       "captured_at": null,
@@ -4159,7 +4159,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/TerceiroSetor_cooperativas",
+      "id": "topico_setores/terceiro-setor_cooperativas",
       "label": "Terceiro Setor: Cooperativas",
       "author": null,
       "captured_at": null,
@@ -4174,7 +4174,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/TerceiroSetor_demonstracoes_superavit_e_patrimonio_social",
+      "id": "topico_setores/terceiro-setor_demonstracoes_superavit_e_patrimonio_social",
       "label": "Terceiro Setor: Demonstra\u00e7\u00f5es, super\u00e1vit e patrim\u00f4nio social",
       "author": null,
       "captured_at": null,
@@ -4189,7 +4189,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/TerceiroSetor_doacoes_subvencoes_convenios_e_gratuidades",
+      "id": "topico_setores/terceiro-setor_doacoes_subvencoes_convenios_e_gratuidades",
       "label": "Terceiro Setor: Doa\u00e7\u00f5es, subven\u00e7\u00f5es, conv\u00eanios e gratuidades",
       "author": null,
       "captured_at": null,
@@ -4744,7 +4744,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_commodities_cambio_e_hedge",
+      "id": "topico_setores/industrial_commodities_cambio_e_hedge",
       "label": "Ind\u00fastria: Commodities, c\u00e2mbio e hedge",
       "author": null,
       "captured_at": null,
@@ -4759,7 +4759,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "id": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "label": "Ind\u00fastria: M\u00e1quinas, f\u00e1brica e imobilizado",
       "author": null,
       "captured_at": null,
@@ -4774,7 +4774,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "id": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "label": "Ind\u00fastria: Particularidades por tipo de ind\u00fastria",
       "author": null,
       "captured_at": null,
@@ -4789,7 +4789,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_pesquisa_e_desenvolvimento_de_produtos",
+      "id": "topico_setores/industrial_pesquisa_e_desenvolvimento_de_produtos",
       "label": "Ind\u00fastria: Pesquisa e desenvolvimento de produtos",
       "author": null,
       "captured_at": null,
@@ -4804,7 +4804,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_vendas_garantia_e_pos_venda",
+      "id": "topico_setores/industrial_vendas_garantia_e_pos_venda",
       "label": "Ind\u00fastria: Vendas, garantia e p\u00f3s-venda",
       "author": null,
       "captured_at": null,
@@ -5329,7 +5329,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "id": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "label": "Servi\u00e7os: Escrit\u00f3rios, tributos e pequenas empresas",
       "author": null,
       "captured_at": null,
@@ -5734,7 +5734,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Construcao_construtoras_e_empreiteiras",
+      "id": "topico_setores/construcao_construtoras_e_empreiteiras",
       "label": "Constru\u00e7\u00e3o e Incorpora\u00e7\u00e3o: Construtoras e empreiteiras",
       "author": null,
       "captured_at": null,
@@ -5749,7 +5749,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Construcao_garantias_equipamentos_e_tributos",
+      "id": "topico_setores/construcao_garantias_equipamentos_e_tributos",
       "label": "Constru\u00e7\u00e3o e Incorpora\u00e7\u00e3o: Garantias, equipamentos e tributos",
       "author": null,
       "captured_at": null,
@@ -5764,7 +5764,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Financeiro_seguradoras_e_previdencia_complementar",
+      "id": "topico_setores/financeiro_seguradoras_e_previdencia_complementar",
       "label": "Financeiro: Seguradoras e previd\u00eancia complementar",
       "author": null,
       "captured_at": null,
@@ -6109,7 +6109,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "id": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "label": "Ind\u00fastria: Meio ambiente, res\u00edduos e clima",
       "author": null,
       "captured_at": null,
@@ -6529,7 +6529,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Financeiro_classificacao_e_mensuracao_res_cmn_4_966",
+      "id": "topico_setores/financeiro_classificacao_e_mensuracao_res_cmn_4_966",
       "label": "Financeiro: Classifica\u00e7\u00e3o e mensura\u00e7\u00e3o (Res. CMN 4.966)",
       "author": null,
       "captured_at": null,
@@ -6544,7 +6544,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Financeiro_hedge_transicao_e_divulgacao",
+      "id": "topico_setores/financeiro_hedge_transicao_e_divulgacao",
       "label": "Financeiro: Hedge, transi\u00e7\u00e3o e divulga\u00e7\u00e3o",
       "author": null,
       "captured_at": null,
@@ -6559,7 +6559,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Financeiro_instrumentos_financeiros_nas_empresas_em_geral",
+      "id": "topico_setores/financeiro_instrumentos_financeiros_nas_empresas_em_geral",
       "label": "Financeiro: Instrumentos financeiros nas empresas em geral",
       "author": null,
       "captured_at": null,
@@ -6574,7 +6574,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Financeiro_perda_esperada_estagios_e_ativo_problematico",
+      "id": "topico_setores/financeiro_perda_esperada_estagios_e_ativo_problematico",
       "label": "Financeiro: Perda esperada, est\u00e1gios e ativo problem\u00e1tico",
       "author": null,
       "captured_at": null,
@@ -6589,7 +6589,7 @@
       "source_url": null
     },
     {
-      "id": "topico_setores/Financeiro_renegociacao_reestruturacao_e_baixa",
+      "id": "topico_setores/financeiro_renegociacao_reestruturacao_e_baixa",
       "label": "Financeiro: Renegocia\u00e7\u00e3o, reestrutura\u00e7\u00e3o e baixa",
       "author": null,
       "captured_at": null,
@@ -9767,7 +9767,7 @@
     },
     {
       "source": "norma_ctg_01",
-      "target": "topico_setores/Construcao_incorporacao_imobiliaria",
+      "target": "topico_setores/construcao_incorporacao_imobiliaria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9777,7 +9777,7 @@
     },
     {
       "source": "norma_ctg_04",
-      "target": "topico_setores/Construcao_incorporacao_imobiliaria",
+      "target": "topico_setores/construcao_incorporacao_imobiliaria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9787,7 +9787,7 @@
     },
     {
       "source": "norma_ctg_10",
-      "target": "topico_setores/Agronegocio_usinas_cbio_e_auditoria_no_agro",
+      "target": "topico_setores/agronegocio_usinas_cbio_e_auditoria_no_agro",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9797,7 +9797,7 @@
     },
     {
       "source": "norma_ctg_10",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9807,7 +9807,7 @@
     },
     {
       "source": "norma_ifric_2",
-      "target": "topico_setores/TerceiroSetor_cooperativas",
+      "target": "topico_setores/terceiro-setor_cooperativas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9817,7 +9817,7 @@
     },
     {
       "source": "norma_ifrs_6",
-      "target": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "target": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9827,7 +9827,7 @@
     },
     {
       "source": "norma_itg_12",
-      "target": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "target": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9837,7 +9837,7 @@
     },
     {
       "source": "norma_itg_12",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9847,7 +9847,7 @@
     },
     {
       "source": "norma_itg_13",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9857,7 +9857,7 @@
     },
     {
       "source": "norma_itg_15",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9867,7 +9867,7 @@
     },
     {
       "source": "norma_itg_15",
-      "target": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "target": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9877,7 +9877,7 @@
     },
     {
       "source": "norma_itg_15",
-      "target": "topico_setores/Industrial_vendas_garantia_e_pos_venda",
+      "target": "topico_setores/industrial_vendas_garantia_e_pos_venda",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9887,7 +9887,7 @@
     },
     {
       "source": "norma_itg_18",
-      "target": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "target": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9897,7 +9897,7 @@
     },
     {
       "source": "norma_itg_2000",
-      "target": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "target": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9907,7 +9907,7 @@
     },
     {
       "source": "norma_itg_2001",
-      "target": "topico_setores/Financeiro_seguradoras_e_previdencia_complementar",
+      "target": "topico_setores/financeiro_seguradoras_e_previdencia_complementar",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9917,7 +9917,7 @@
     },
     {
       "source": "norma_itg_2002",
-      "target": "topico_setores/TerceiroSetor_demonstracoes_superavit_e_patrimonio_social",
+      "target": "topico_setores/terceiro-setor_demonstracoes_superavit_e_patrimonio_social",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9927,7 +9927,7 @@
     },
     {
       "source": "norma_itg_2002",
-      "target": "topico_setores/TerceiroSetor_doacoes_subvencoes_convenios_e_gratuidades",
+      "target": "topico_setores/terceiro-setor_doacoes_subvencoes_convenios_e_gratuidades",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9937,7 +9937,7 @@
     },
     {
       "source": "norma_itg_2004",
-      "target": "topico_setores/TerceiroSetor_cooperativas",
+      "target": "topico_setores/terceiro-setor_cooperativas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9947,7 +9947,7 @@
     },
     {
       "source": "norma_itg_21",
-      "target": "topico_setores/Industrial_commodities_cambio_e_hedge",
+      "target": "topico_setores/industrial_commodities_cambio_e_hedge",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9957,7 +9957,7 @@
     },
     {
       "source": "norma_itg_22",
-      "target": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "target": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9967,7 +9967,7 @@
     },
     {
       "source": "norma_nbc_ta_315",
-      "target": "topico_setores/Industrial_auditoria_na_industria",
+      "target": "topico_setores/industrial_auditoria_na_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9977,7 +9977,7 @@
     },
     {
       "source": "norma_nbc_ta_501",
-      "target": "topico_setores/Agronegocio_usinas_cbio_e_auditoria_no_agro",
+      "target": "topico_setores/agronegocio_usinas_cbio_e_auditoria_no_agro",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9987,7 +9987,7 @@
     },
     {
       "source": "norma_nbc_ta_501",
-      "target": "topico_setores/Industrial_auditoria_na_industria",
+      "target": "topico_setores/industrial_auditoria_na_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9997,7 +9997,7 @@
     },
     {
       "source": "norma_nbc_ta_501",
-      "target": "topico_setores/Varejo_mercadorias_cmv_e_perdas",
+      "target": "topico_setores/varejo_mercadorias_cmv_e_perdas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10007,7 +10007,7 @@
     },
     {
       "source": "norma_nbc_ta_505",
-      "target": "topico_setores/Industrial_auditoria_na_industria",
+      "target": "topico_setores/industrial_auditoria_na_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10017,7 +10017,7 @@
     },
     {
       "source": "norma_nbc_ta_520",
-      "target": "topico_setores/Industrial_auditoria_na_industria",
+      "target": "topico_setores/industrial_auditoria_na_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10027,7 +10027,7 @@
     },
     {
       "source": "norma_nbc_ta_540",
-      "target": "topico_setores/Agronegocio_usinas_cbio_e_auditoria_no_agro",
+      "target": "topico_setores/agronegocio_usinas_cbio_e_auditoria_no_agro",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10037,7 +10037,7 @@
     },
     {
       "source": "norma_nbc_ta_540",
-      "target": "topico_setores/Industrial_auditoria_na_industria",
+      "target": "topico_setores/industrial_auditoria_na_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10047,7 +10047,7 @@
     },
     {
       "source": "norma_nbc_ta_620",
-      "target": "topico_setores/Agronegocio_usinas_cbio_e_auditoria_no_agro",
+      "target": "topico_setores/agronegocio_usinas_cbio_e_auditoria_no_agro",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10057,7 +10057,7 @@
     },
     {
       "source": "norma_nbc_ta_620",
-      "target": "topico_setores/Industrial_auditoria_na_industria",
+      "target": "topico_setores/industrial_auditoria_na_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10067,7 +10067,7 @@
     },
     {
       "source": "norma_nbc_tds_02",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10077,7 +10077,7 @@
     },
     {
       "source": "norma_nbc_tg_01",
-      "target": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "target": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10087,7 +10087,7 @@
     },
     {
       "source": "norma_nbc_tg_01",
-      "target": "topico_setores/Varejo_lojas_alugueis_e_impairment",
+      "target": "topico_setores/varejo_lojas_alugueis_e_impairment",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10097,7 +10097,7 @@
     },
     {
       "source": "norma_nbc_tg_02",
-      "target": "topico_setores/Industrial_commodities_cambio_e_hedge",
+      "target": "topico_setores/industrial_commodities_cambio_e_hedge",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10107,7 +10107,7 @@
     },
     {
       "source": "norma_nbc_tg_04",
-      "target": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "target": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10117,7 +10117,7 @@
     },
     {
       "source": "norma_nbc_tg_04",
-      "target": "topico_setores/Industrial_pesquisa_e_desenvolvimento_de_produtos",
+      "target": "topico_setores/industrial_pesquisa_e_desenvolvimento_de_produtos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10127,7 +10127,7 @@
     },
     {
       "source": "norma_nbc_tg_04",
-      "target": "topico_setores/Servicos_saas_software_e_licencas",
+      "target": "topico_setores/servicos_saas_software_e_licencas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10137,7 +10137,7 @@
     },
     {
       "source": "norma_nbc_tg_06",
-      "target": "topico_setores/Agronegocio_terras_plantas_portadoras_e_arrendamentos",
+      "target": "topico_setores/agronegocio_terras_plantas_portadoras_e_arrendamentos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10147,7 +10147,7 @@
     },
     {
       "source": "norma_nbc_tg_06",
-      "target": "topico_setores/Construcao_garantias_equipamentos_e_tributos",
+      "target": "topico_setores/construcao_garantias_equipamentos_e_tributos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10157,7 +10157,7 @@
     },
     {
       "source": "norma_nbc_tg_06",
-      "target": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "target": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10167,7 +10167,7 @@
     },
     {
       "source": "norma_nbc_tg_06",
-      "target": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "target": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10177,7 +10177,7 @@
     },
     {
       "source": "norma_nbc_tg_06",
-      "target": "topico_setores/Varejo_lojas_alugueis_e_impairment",
+      "target": "topico_setores/varejo_lojas_alugueis_e_impairment",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10187,7 +10187,7 @@
     },
     {
       "source": "norma_nbc_tg_07",
-      "target": "topico_setores/Agronegocio_credito_rural_hedge_e_cpr",
+      "target": "topico_setores/agronegocio_credito_rural_hedge_e_cpr",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10197,7 +10197,7 @@
     },
     {
       "source": "norma_nbc_tg_07",
-      "target": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "target": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10207,7 +10207,7 @@
     },
     {
       "source": "norma_nbc_tg_07",
-      "target": "topico_setores/TerceiroSetor_doacoes_subvencoes_convenios_e_gratuidades",
+      "target": "topico_setores/terceiro-setor_doacoes_subvencoes_convenios_e_gratuidades",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10217,7 +10217,7 @@
     },
     {
       "source": "norma_nbc_tg_09",
-      "target": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "target": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10227,7 +10227,7 @@
     },
     {
       "source": "norma_nbc_tg_10",
-      "target": "topico_setores/Servicos_pessoal_ferias_plr_e_stock_options",
+      "target": "topico_setores/servicos_pessoal_ferias_plr_e_stock_options",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10237,7 +10237,7 @@
     },
     {
       "source": "norma_nbc_tg_1000",
-      "target": "topico_setores/TerceiroSetor_demonstracoes_superavit_e_patrimonio_social",
+      "target": "topico_setores/terceiro-setor_demonstracoes_superavit_e_patrimonio_social",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10247,7 +10247,7 @@
     },
     {
       "source": "norma_nbc_tg_1001",
-      "target": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "target": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10257,7 +10257,7 @@
     },
     {
       "source": "norma_nbc_tg_1002",
-      "target": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "target": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10267,7 +10267,7 @@
     },
     {
       "source": "norma_nbc_tg_12",
-      "target": "topico_setores/Industrial_estoques_e_custo_de_producao",
+      "target": "topico_setores/industrial_estoques_e_custo_de_producao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10277,7 +10277,7 @@
     },
     {
       "source": "norma_nbc_tg_12",
-      "target": "topico_setores/Varejo_vendas_marketplace_e_fidelidade",
+      "target": "topico_setores/varejo_vendas_marketplace_e_fidelidade",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10287,7 +10287,7 @@
     },
     {
       "source": "norma_nbc_tg_16",
-      "target": "topico_setores/Agronegocio_ativo_biologico_e_produto_colhido",
+      "target": "topico_setores/agronegocio_ativo_biologico_e_produto_colhido",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10297,7 +10297,7 @@
     },
     {
       "source": "norma_nbc_tg_16",
-      "target": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "target": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10307,7 +10307,7 @@
     },
     {
       "source": "norma_nbc_tg_16",
-      "target": "topico_setores/Industrial_estoques_e_custo_de_producao",
+      "target": "topico_setores/industrial_estoques_e_custo_de_producao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10317,7 +10317,7 @@
     },
     {
       "source": "norma_nbc_tg_16",
-      "target": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "target": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10327,7 +10327,7 @@
     },
     {
       "source": "norma_nbc_tg_16",
-      "target": "topico_setores/Varejo_mercadorias_cmv_e_perdas",
+      "target": "topico_setores/varejo_mercadorias_cmv_e_perdas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10337,7 +10337,7 @@
     },
     {
       "source": "norma_nbc_tg_16",
-      "target": "topico_setores/Varejo_tributos_no_varejo",
+      "target": "topico_setores/varejo_tributos_no_varejo",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10347,7 +10347,7 @@
     },
     {
       "source": "norma_nbc_tg_20",
-      "target": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "target": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10357,7 +10357,7 @@
     },
     {
       "source": "norma_nbc_tg_22",
-      "target": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "target": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10367,7 +10367,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Construcao_construtoras_e_empreiteiras",
+      "target": "topico_setores/construcao_construtoras_e_empreiteiras",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10377,7 +10377,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Construcao_garantias_equipamentos_e_tributos",
+      "target": "topico_setores/construcao_garantias_equipamentos_e_tributos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10387,7 +10387,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10397,7 +10397,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "target": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10407,7 +10407,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Industrial_vendas_garantia_e_pos_venda",
+      "target": "topico_setores/industrial_vendas_garantia_e_pos_venda",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10417,7 +10417,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Servicos_pessoal_ferias_plr_e_stock_options",
+      "target": "topico_setores/servicos_pessoal_ferias_plr_e_stock_options",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10427,7 +10427,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Varejo_lojas_alugueis_e_impairment",
+      "target": "topico_setores/varejo_lojas_alugueis_e_impairment",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10437,7 +10437,7 @@
     },
     {
       "source": "norma_nbc_tg_25",
-      "target": "topico_setores/Varejo_tributos_no_varejo",
+      "target": "topico_setores/varejo_tributos_no_varejo",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10447,7 +10447,7 @@
     },
     {
       "source": "norma_nbc_tg_26",
-      "target": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "target": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10457,7 +10457,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Agronegocio_terras_plantas_portadoras_e_arrendamentos",
+      "target": "topico_setores/agronegocio_terras_plantas_portadoras_e_arrendamentos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10467,7 +10467,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Construcao_garantias_equipamentos_e_tributos",
+      "target": "topico_setores/construcao_garantias_equipamentos_e_tributos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10477,7 +10477,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Industrial_estoques_e_custo_de_producao",
+      "target": "topico_setores/industrial_estoques_e_custo_de_producao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10487,7 +10487,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "target": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10497,7 +10497,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "target": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10507,7 +10507,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Industrial_pesquisa_e_desenvolvimento_de_produtos",
+      "target": "topico_setores/industrial_pesquisa_e_desenvolvimento_de_produtos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10517,7 +10517,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "target": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10527,7 +10527,7 @@
     },
     {
       "source": "norma_nbc_tg_27",
-      "target": "topico_setores/Varejo_lojas_alugueis_e_impairment",
+      "target": "topico_setores/varejo_lojas_alugueis_e_impairment",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10537,7 +10537,7 @@
     },
     {
       "source": "norma_nbc_tg_29",
-      "target": "topico_setores/Agronegocio_ativo_biologico_e_produto_colhido",
+      "target": "topico_setores/agronegocio_ativo_biologico_e_produto_colhido",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10547,7 +10547,7 @@
     },
     {
       "source": "norma_nbc_tg_29",
-      "target": "topico_setores/Agronegocio_credito_rural_hedge_e_cpr",
+      "target": "topico_setores/agronegocio_credito_rural_hedge_e_cpr",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10557,7 +10557,7 @@
     },
     {
       "source": "norma_nbc_tg_29",
-      "target": "topico_setores/Agronegocio_terras_plantas_portadoras_e_arrendamentos",
+      "target": "topico_setores/agronegocio_terras_plantas_portadoras_e_arrendamentos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10567,7 +10567,7 @@
     },
     {
       "source": "norma_nbc_tg_29",
-      "target": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "target": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10577,7 +10577,7 @@
     },
     {
       "source": "norma_nbc_tg_32",
-      "target": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "target": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10587,7 +10587,7 @@
     },
     {
       "source": "norma_nbc_tg_33",
-      "target": "topico_setores/Servicos_pessoal_ferias_plr_e_stock_options",
+      "target": "topico_setores/servicos_pessoal_ferias_plr_e_stock_options",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10597,7 +10597,7 @@
     },
     {
       "source": "norma_nbc_tg_39",
-      "target": "topico_setores/Financeiro_instrumentos_financeiros_nas_empresas_em_geral",
+      "target": "topico_setores/financeiro_instrumentos_financeiros_nas_empresas_em_geral",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10607,7 +10607,7 @@
     },
     {
       "source": "norma_nbc_tg_40",
-      "target": "topico_setores/Agronegocio_credito_rural_hedge_e_cpr",
+      "target": "topico_setores/agronegocio_credito_rural_hedge_e_cpr",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10617,7 +10617,7 @@
     },
     {
       "source": "norma_nbc_tg_40",
-      "target": "topico_setores/Financeiro_instrumentos_financeiros_nas_empresas_em_geral",
+      "target": "topico_setores/financeiro_instrumentos_financeiros_nas_empresas_em_geral",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10627,7 +10627,7 @@
     },
     {
       "source": "norma_nbc_tg_40",
-      "target": "topico_setores/Industrial_commodities_cambio_e_hedge",
+      "target": "topico_setores/industrial_commodities_cambio_e_hedge",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10637,7 +10637,7 @@
     },
     {
       "source": "norma_nbc_tg_40",
-      "target": "topico_setores/Varejo_cartoes_recebiveis_e_antecipacao",
+      "target": "topico_setores/varejo_cartoes_recebiveis_e_antecipacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10647,7 +10647,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Construcao_construtoras_e_empreiteiras",
+      "target": "topico_setores/construcao_construtoras_e_empreiteiras",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10657,7 +10657,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Construcao_incorporacao_imobiliaria",
+      "target": "topico_setores/construcao_incorporacao_imobiliaria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10667,7 +10667,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "target": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10677,7 +10677,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Industrial_vendas_garantia_e_pos_venda",
+      "target": "topico_setores/industrial_vendas_garantia_e_pos_venda",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10687,7 +10687,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "target": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10697,7 +10697,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Servicos_receita_de_servicos_e_contratos",
+      "target": "topico_setores/servicos_receita_de_servicos_e_contratos",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10707,7 +10707,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Servicos_saas_software_e_licencas",
+      "target": "topico_setores/servicos_saas_software_e_licencas",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10717,7 +10717,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Varejo_tributos_no_varejo",
+      "target": "topico_setores/varejo_tributos_no_varejo",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10727,7 +10727,7 @@
     },
     {
       "source": "norma_nbc_tg_47",
-      "target": "topico_setores/Varejo_vendas_marketplace_e_fidelidade",
+      "target": "topico_setores/varejo_vendas_marketplace_e_fidelidade",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10737,7 +10737,7 @@
     },
     {
       "source": "norma_nbc_tg_48",
-      "target": "topico_setores/Agronegocio_credito_rural_hedge_e_cpr",
+      "target": "topico_setores/agronegocio_credito_rural_hedge_e_cpr",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10747,7 +10747,7 @@
     },
     {
       "source": "norma_nbc_tg_48",
-      "target": "topico_setores/Financeiro_classificacao_e_mensuracao_res_cmn_4_966",
+      "target": "topico_setores/financeiro_classificacao_e_mensuracao_res_cmn_4_966",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10757,7 +10757,7 @@
     },
     {
       "source": "norma_nbc_tg_48",
-      "target": "topico_setores/Financeiro_instrumentos_financeiros_nas_empresas_em_geral",
+      "target": "topico_setores/financeiro_instrumentos_financeiros_nas_empresas_em_geral",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10767,7 +10767,7 @@
     },
     {
       "source": "norma_nbc_tg_48",
-      "target": "topico_setores/Industrial_commodities_cambio_e_hedge",
+      "target": "topico_setores/industrial_commodities_cambio_e_hedge",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10777,7 +10777,7 @@
     },
     {
       "source": "norma_nbc_tg_48",
-      "target": "topico_setores/Varejo_cartoes_recebiveis_e_antecipacao",
+      "target": "topico_setores/varejo_cartoes_recebiveis_e_antecipacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10787,7 +10787,7 @@
     },
     {
       "source": "norma_nbc_tg_49",
-      "target": "topico_setores/Financeiro_seguradoras_e_previdencia_complementar",
+      "target": "topico_setores/financeiro_seguradoras_e_previdencia_complementar",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10797,7 +10797,7 @@
     },
     {
       "source": "norma_nbc_tg_50",
-      "target": "topico_setores/Financeiro_seguradoras_e_previdencia_complementar",
+      "target": "topico_setores/financeiro_seguradoras_e_previdencia_complementar",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10807,7 +10807,7 @@
     },
     {
       "source": "norma_nbc_tg_51",
-      "target": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "target": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10817,7 +10817,7 @@
     },
     {
       "source": "norma_nbc_tpe_01",
-      "target": "topico_setores/TerceiroSetor_partidos_politicos_e_eleicoes",
+      "target": "topico_setores/terceiro-setor_partidos_politicos_e_eleicoes",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10827,7 +10827,7 @@
     },
     {
       "source": "norma_ot_cfc_01_2026",
-      "target": "topico_setores/Varejo_tributos_no_varejo",
+      "target": "topico_setores/varejo_tributos_no_varejo",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -10837,7 +10837,7 @@
     },
     {
       "source": "norma_ot_cfc_02_2026",
-      "target": "topico_setores/TerceiroSetor_partidos_politicos_e_eleicoes",
+      "target": "topico_setores/terceiro-setor_partidos_politicos_e_eleicoes",
       "relation": "aplica_no_setor",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -13506,7 +13506,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Agronegocio_ativo_biologico_e_produto_colhido",
+      "source": "topico_setores/agronegocio_ativo_biologico_e_produto_colhido",
       "target": "setor_agronegocio",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13516,7 +13516,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Agronegocio_credito_rural_hedge_e_cpr",
+      "source": "topico_setores/agronegocio_credito_rural_hedge_e_cpr",
       "target": "setor_agronegocio",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13526,7 +13526,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Agronegocio_terras_plantas_portadoras_e_arrendamentos",
+      "source": "topico_setores/agronegocio_terras_plantas_portadoras_e_arrendamentos",
       "target": "setor_agronegocio",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13536,7 +13536,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Agronegocio_usinas_cbio_e_auditoria_no_agro",
+      "source": "topico_setores/agronegocio_usinas_cbio_e_auditoria_no_agro",
       "target": "setor_agronegocio",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13546,7 +13546,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Construcao_construtoras_e_empreiteiras",
+      "source": "topico_setores/construcao_construtoras_e_empreiteiras",
       "target": "setor_construcao_e_incorporacao",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13556,7 +13556,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Construcao_garantias_equipamentos_e_tributos",
+      "source": "topico_setores/construcao_garantias_equipamentos_e_tributos",
       "target": "setor_construcao_e_incorporacao",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13566,7 +13566,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Construcao_incorporacao_imobiliaria",
+      "source": "topico_setores/construcao_incorporacao_imobiliaria",
       "target": "setor_construcao_e_incorporacao",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13576,7 +13576,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Financeiro_classificacao_e_mensuracao_res_cmn_4_966",
+      "source": "topico_setores/financeiro_classificacao_e_mensuracao_res_cmn_4_966",
       "target": "setor_financeiro",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13586,7 +13586,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Financeiro_hedge_transicao_e_divulgacao",
+      "source": "topico_setores/financeiro_hedge_transicao_e_divulgacao",
       "target": "setor_financeiro",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13596,7 +13596,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Financeiro_instrumentos_financeiros_nas_empresas_em_geral",
+      "source": "topico_setores/financeiro_instrumentos_financeiros_nas_empresas_em_geral",
       "target": "setor_financeiro",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13606,7 +13606,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Financeiro_perda_esperada_estagios_e_ativo_problematico",
+      "source": "topico_setores/financeiro_perda_esperada_estagios_e_ativo_problematico",
       "target": "setor_financeiro",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13616,7 +13616,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Financeiro_renegociacao_reestruturacao_e_baixa",
+      "source": "topico_setores/financeiro_renegociacao_reestruturacao_e_baixa",
       "target": "setor_financeiro",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13626,7 +13626,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Financeiro_seguradoras_e_previdencia_complementar",
+      "source": "topico_setores/financeiro_seguradoras_e_previdencia_complementar",
       "target": "setor_financeiro",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13636,7 +13636,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_auditoria_na_industria",
+      "source": "topico_setores/industrial_auditoria_na_industria",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13646,7 +13646,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_commodities_cambio_e_hedge",
+      "source": "topico_setores/industrial_commodities_cambio_e_hedge",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13656,7 +13656,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_dre_cpv_e_apresentacao",
+      "source": "topico_setores/industrial_dre_cpv_e_apresentacao",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13666,7 +13666,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_estoques_e_custo_de_producao",
+      "source": "topico_setores/industrial_estoques_e_custo_de_producao",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13676,7 +13676,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_maquinas_fabrica_e_imobilizado",
+      "source": "topico_setores/industrial_maquinas_fabrica_e_imobilizado",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13686,7 +13686,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_meio_ambiente_residuos_e_clima",
+      "source": "topico_setores/industrial_meio_ambiente_residuos_e_clima",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13696,7 +13696,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_particularidades_por_tipo_de_industria",
+      "source": "topico_setores/industrial_particularidades_por_tipo_de_industria",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13706,7 +13706,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_pesquisa_e_desenvolvimento_de_produtos",
+      "source": "topico_setores/industrial_pesquisa_e_desenvolvimento_de_produtos",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13716,7 +13716,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_tributos_e_incentivos_fiscais",
+      "source": "topico_setores/industrial_tributos_e_incentivos_fiscais",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13726,7 +13726,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Industrial_vendas_garantia_e_pos_venda",
+      "source": "topico_setores/industrial_vendas_garantia_e_pos_venda",
       "target": "setor_industria",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13736,7 +13736,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Servicos_escritorios_tributos_e_pequenas_empresas",
+      "source": "topico_setores/servicos_escritorios_tributos_e_pequenas_empresas",
       "target": "setor_servicos",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13746,7 +13746,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Servicos_pessoal_ferias_plr_e_stock_options",
+      "source": "topico_setores/servicos_pessoal_ferias_plr_e_stock_options",
       "target": "setor_servicos",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13756,7 +13756,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Servicos_receita_de_servicos_e_contratos",
+      "source": "topico_setores/servicos_receita_de_servicos_e_contratos",
       "target": "setor_servicos",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13766,7 +13766,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Servicos_saas_software_e_licencas",
+      "source": "topico_setores/servicos_saas_software_e_licencas",
       "target": "setor_servicos",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13776,7 +13776,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/TerceiroSetor_cooperativas",
+      "source": "topico_setores/terceiro-setor_cooperativas",
       "target": "setor_terceiro_setor",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13786,7 +13786,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/TerceiroSetor_demonstracoes_superavit_e_patrimonio_social",
+      "source": "topico_setores/terceiro-setor_demonstracoes_superavit_e_patrimonio_social",
       "target": "setor_terceiro_setor",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13796,7 +13796,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/TerceiroSetor_doacoes_subvencoes_convenios_e_gratuidades",
+      "source": "topico_setores/terceiro-setor_doacoes_subvencoes_convenios_e_gratuidades",
       "target": "setor_terceiro_setor",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13806,7 +13806,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/TerceiroSetor_partidos_politicos_e_eleicoes",
+      "source": "topico_setores/terceiro-setor_partidos_politicos_e_eleicoes",
       "target": "setor_terceiro_setor",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13816,7 +13816,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Varejo_cartoes_recebiveis_e_antecipacao",
+      "source": "topico_setores/varejo_cartoes_recebiveis_e_antecipacao",
       "target": "setor_varejo",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13826,7 +13826,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Varejo_lojas_alugueis_e_impairment",
+      "source": "topico_setores/varejo_lojas_alugueis_e_impairment",
       "target": "setor_varejo",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13836,7 +13836,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Varejo_mercadorias_cmv_e_perdas",
+      "source": "topico_setores/varejo_mercadorias_cmv_e_perdas",
       "target": "setor_varejo",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13846,7 +13846,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Varejo_tributos_no_varejo",
+      "source": "topico_setores/varejo_tributos_no_varejo",
       "target": "setor_varejo",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -13856,7 +13856,7 @@
       "weight": 1.0
     },
     {
-      "source": "topico_setores/Varejo_vendas_marketplace_e_fidelidade",
+      "source": "topico_setores/varejo_vendas_marketplace_e_fidelidade",
       "target": "setor_varejo",
       "relation": "parte_do_setor",
       "confidence": "EXTRACTED",
@@ -21027,5 +21027,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dee1d27ce6d95422d16ed3954c418461f65aa244"
+  "built_at_commit": "6da56d83a750e77c48329e6d0940b806cdee2829"
 }

@@ -33,7 +33,7 @@ def chave(c):                       # "NBC TG 27 (R4)" e "NBC TG 27" são a mesm
     return re.sub(r'\s*\(R\d+\)', '', c).strip()
 
 import sys, unicodedata
-sys.path.insert(0, 'scripts')
+sys.path.insert(0, 'manutencao/scripts')
 from dados import ler
 SETORES = [s['nome'] for s in ler('setores.csv')]
 REPO = 'https://github.com/caponeygo/normas-contabeis-brasil/blob/main/'
@@ -168,6 +168,6 @@ dados = {
     'cats': [{'key': k, 'name': n, 'color': c} for k, n, c in CATS],
     'setores': SETORES,
 }
-html = Path('graphify-out/template.html').read_text(encoding='utf-8').replace('__DATA__', json.dumps(dados, ensure_ascii=False))
-Path('graphify-out/graph.html').write_text(html, encoding='utf-8')
+html = Path('manutencao/graphify-out/template.html').read_text(encoding='utf-8').replace('__DATA__', json.dumps(dados, ensure_ascii=False))
+Path('manutencao/graphify-out/graph.html').write_text(html, encoding='utf-8')
 print(len(saida), 'bolinhas,', len(pesos), 'ligações, raio', R)

@@ -8,14 +8,14 @@
 import json, re, subprocess, sys, unicodedata
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 PARADAS = set("""quando sobre entre pelos pelas outros outras sempre antes depois tambem mesmo mesma podem
 pode devem deve ficam fica para como partir norma normas item itens exemplo exemplos valor valores entidade
 qualquer cada todos todas seguinte seguintes desta deste dessa desse essas esses nesta neste onde ainda
 apenas parte partes forma modo caso casos ponto pontos inclusive conforme vigor""".split())
 # trechos com pouca sobreposição de palavras que foram lidos no texto oficial e estão corretos
 # (dados/revisao_manual.csv: norma, itens, data da revisão)
-sys.path.insert(0, str(ROOT / "scripts"))
+sys.path.insert(0, str(ROOT / "manutencao" / "scripts"))
 from dados import ler  # noqa: E402
 REVISADOS = {(x["norma"], x["itens"]): x["data"] for x in ler("revisao_manual.csv")}
 ITEM_RX = r"(?m)^\s*{}\.?\s+\S"
@@ -80,7 +80,7 @@ def trecho_item(txt, item):
 def main():
     detalhe = "--detalhe" in sys.argv
     normas = json.loads((ROOT / "normas.json").read_text(encoding="utf-8"))["normas"]
-    links = {x["codigo"]: x for x in json.loads((ROOT / "verificacao" / "links.json").read_text(encoding="utf-8"))}
+    links = {x["codigo"]: x for x in json.loads((ROOT / "manutencao" / "verificacao" / "links.json").read_text(encoding="utf-8"))}
     arq_de = {c: x.get("arquivo") for c, x in links.items() if x.get("arquivo")}
     if not arq_de:
         sys.exit("Nenhum PDF em cache: rode antes  python scripts/verificar_links.py --baixar")
@@ -136,7 +136,7 @@ def main():
     md += [f"| {c} | {s:.0%} |" for s, c in baixos] or ["| — | — |"]
     if sem_pdf:
         md.append("\nSem PDF oficial para conferir: " + ", ".join(sorted(set(sem_pdf))))
-    (ROOT / "verificacao" / "CONTEUDO.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    (ROOT / "manutencao" / "verificacao" / "CONTEUDO.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(cont, "| resumos abaixo de 50%:", len(baixos), "de", len(linhas_res))
     sys.exit(1 if cont["conferir"] or cont["item não encontrado"] or baixos else 0)
 

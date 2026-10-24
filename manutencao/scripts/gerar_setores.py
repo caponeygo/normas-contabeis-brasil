@@ -1,4 +1,4 @@
-# Gera uma pasta por setor (Industrial/, Varejo/, Servicos/...) com os trechos das normas que importam
+# Gera uma pasta por setor (industrial/, varejo/, servicos/...) com os trechos das normas que importam
 # para aquele tipo de empresa, e anota cada norma em normas.json (campo "setores").
 # Dados nas planilhas de dados/: setores.csv (setores), setores_topicos.csv (um arquivo .md por tópico),
 # setores_pontos.csv (norma, itens e o que dizem), setores_faq.csv e setores_externas.csv (regras de fora do CFC:

@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from verificar_links import baixar, texto  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 BASE = "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/"
 PAGINAS = ["normas-completas", "normas-simplificadas-para-pmes", "normas-especificas", "nbc-tsp-do-setor-publico",
            "nbc-ta-de-auditoria-independente", "nbc-tr-de-revisao", "nbc-to-de-asseguracao",
@@ -59,8 +59,8 @@ def main():
     md += [f"- {b}{' (' + achados[b][0] + ')' if achados[b][0] else ''} — página `{achados[b][1]}`" for b in novas] or ["Nenhuma."]
     md.append("\n## Revisões mais novas no CFC\n")
     md += [f"- {b}: índice tem ({nosso[b] or 'sem R'}), CFC lista ({achados[b][0]})" for b in revis] or ["Nenhuma."]
-    (ROOT / "verificacao").mkdir(exist_ok=True)
-    (ROOT / "verificacao" / "MONITOR.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    (ROOT / "manutencao" / "verificacao").mkdir(exist_ok=True)
+    (ROOT / "manutencao" / "verificacao" / "MONITOR.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("novas:", novas, "| revisões:", revis, "| falhas:", falhas)
     sys.exit(1 if novas or revis else 0)
 

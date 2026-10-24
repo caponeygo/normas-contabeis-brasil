@@ -1,4 +1,4 @@
-graphify-out/.graphify_*
-graphify-out/cache/
+manutencao/graphify-out/.graphify_*
+manutencao/graphify-out/cache/
 __pycache__/
 .cache/

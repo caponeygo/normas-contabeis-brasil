@@ -5,13 +5,13 @@
 import json, re, sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / "scripts"))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "manutencao" / "scripts"))
 from dados import ler  # noqa: E402
 
 INI, FIM = "<!-- fontes:inicio -->", "<!-- fontes:fim -->"
 ALVOS = ["GLOSSARIO.md", "lancamentos/*.md", "areas/*.md", "setores/*/*.md"]
-FORA = {"README.md", "AGENTS.md", "CLAUDE.md", "CONTRIBUTING.md", "dados/README.md", "verificacao", "testes"}
+FORA = {"README.md", "AGENTS.md", "CLAUDE.md", "CONTRIBUTING.md", "manutencao"}
 
 
 def sem_rev(c):
@@ -24,7 +24,7 @@ for n in json.loads((ROOT / "normas.json").read_text(encoding="utf-8"))["normas"
     if n["serie"] == "IFRS/IAS" and not n["codigo"].startswith(("IFRS", "IAS", "IFRIC", "SIC")):
         continue
     fontes.append((re.escape(sem_rev(n["codigo"])), f"{n['codigo']} – {n['titulo']}", n["url"]))
-for c in json.loads((ROOT / "scripts" / "cpc.json").read_text(encoding="utf-8")):
+for c in json.loads((ROOT / "manutencao" / "scripts" / "cpc.json").read_text(encoding="utf-8")):
     fontes.append((re.escape(sem_rev(c["codigo"])), f"{c['codigo']} – {c['titulo']}", c["url"]))
 for e in ler("fontes_externas.csv"):
     fontes.append((e["padrao"], f"{e['codigo']} – {e['titulo']}", e["url"]))
@@ -50,7 +50,7 @@ for padrao in ALVOS:
 total = 0
 for p in sorted(set(arquivos)):
     rel = p.relative_to(ROOT).as_posix()
-    if rel in FORA or rel.split("/")[0] in FORA or rel.startswith((".", "scripts/", "graphify-out/")):
+    if rel in FORA or rel.split("/")[0] in FORA or rel.startswith((".", "manutencao/")):
         continue
     txt = p.read_text(encoding="utf-8")
     base = re.sub(r"\n?" + re.escape(INI) + r".*?" + re.escape(FIM) + r"\n?", "", txt, flags=re.S).rstrip("\n") + "\n"

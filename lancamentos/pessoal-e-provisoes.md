@@ -1,6 +1,6 @@
 # Lançamentos: pessoal e provisões
 
-Normas: NBC TG 33 (benefícios a empregados), NBC TG 25 (provisões). Ver [Servicos/03-pessoal-e-beneficios.md](../setores/Servicos/03-pessoal-e-beneficios.md).
+Normas: NBC TG 33 (benefícios a empregados), NBC TG 25 (provisões). Ver [Servicos/03-pessoal-e-beneficios.md](../setores/servicos/03-pessoal-e-beneficios.md).
 
 ## 1. Provisão mensal de férias
 

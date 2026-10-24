@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["normas.json", "scripts/**", "testes/**", "GLOSSARIO.md", "lancamentos/**", "AGENTS.md"]
+    paths: ["normas.json", "manutencao/scripts/**", "manutencao/testes/**", "GLOSSARIO.md", "lancamentos/**", "AGENTS.md"]
 
 permissions:
   contents: read
@@ -35,34 +35,34 @@ jobs:
       - name: Verificar links oficiais
         id: links
         continue-on-error: true
-        run: python scripts/verificar_links.py ${{ steps.plano.outputs.conteudo == 'sim' && '--baixar' || '' }}
+        run: python manutencao/scripts/verificar_links.py ${{ steps.plano.outputs.conteudo == 'sim' && '--baixar' || '' }}
 
       - name: Monitorar normas novas no CFC
         id: monitor
         continue-on-error: true
-        run: python scripts/monitorar_cfc.py
+        run: python manutencao/scripts/monitorar_cfc.py
 
       - name: Links internos entre os arquivos
         id: internos
         continue-on-error: true
-        run: python scripts/verificar_links_internos.py
+        run: python manutencao/scripts/verificar_links_internos.py
 
       - name: Testar se a busca acha o arquivo certo
         id: busca
         continue-on-error: true
-        run: python scripts/testar_busca.py
+        run: python manutencao/scripts/testar_busca.py
 
       - name: Conferir itens e resumos contra o texto oficial
         id: itens
         if: steps.plano.outputs.conteudo == 'sim'
         continue-on-error: true
-        run: python scripts/verificar_itens.py
+        run: python manutencao/scripts/verificar_itens.py
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: relatorios-verificacao
-          path: verificacao/*.md
+          path: manutencao/verificacao/*.md
 
       - name: Falhar se houver algo a conferir (o GitHub avisa o dono por e-mail)
         if: steps.links.outcome == 'failure' || steps.monitor.outcome == 'failure' || steps.itens.outcome == 'failure' || steps.busca.outcome == 'failure' || steps.internos.outcome == 'failure'
