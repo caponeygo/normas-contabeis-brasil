@@ -78,6 +78,7 @@ canvas.drag{cursor:grabbing}
     <svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#c084fc"/></svg><span>Setor (centro; o número é quantas normas ele usa)</span>
     <svg width="22" height="22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#98a3b8" stroke-width="2.5"/></svg><span>Área (bolha; a cor é a série que mais aparece)</span>
     <svg width="22" height="22"><circle cx="11" cy="11" r="3.5" fill="#a594ff"/></svg><span>Norma (dentro da bolha da sua área; a cor é a série)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="4" fill="rgba(165,148,255,.25)" stroke="#a594ff" stroke-width="1.6"/></svg><span>Cópia da norma numa área secundária (ex.: Custos e Despesas)</span>
     <svg width="22" height="22"><path d="M2 11h18" stroke="#22d3ee" stroke-width="2"/></svg><span>Mesmo assunto</span>
     <svg width="22" height="22"><path d="M2 11h18" stroke="#98a3b8" stroke-width="2" stroke-dasharray="5 3"/></svg><span>Áreas relacionadas</span>
   </div>
@@ -134,7 +135,9 @@ const ordemSerie = s => GRUPOS.findIndex(g => g[2](s));
 filhos.forEach(l => l.sort((x,y) => ordemSerie(D.normas[x].s)-ordemSerie(D.normas[y].s) || natural(D.normas[x].c, D.normas[y].c)));
 const pos = n => { const i = ORDEM.indexOf(n); return i < 0 ? 99 : i; };
 const anel = D.areas.map((a,i) => i).sort((x,y) => pos(D.areas[x].nome)-pos(D.areas[y].nome) || natural(D.areas[x].nome, D.areas[y].nome));
-const raio = i => ESP*.62*Math.sqrt(Math.max(filhos[i].length, 1)) + 15;
+const membros = D.areas.map((a,i) => filhos[i].length ? filhos[i] :                      // área só secundária: cópias das normas ligadas
+  D.normas.map((n,j) => j).filter(j => D.normas[j].a.includes(i)).sort((x,y) => ordemSerie(D.normas[x].s)-ordemSerie(D.normas[y].s) || natural(D.normas[x].c, D.normas[y].c)));
+const raio = i => ESP*.62*Math.sqrt(Math.max(membros[i].length, 1)) + 15;
 const qtd = i => filhos[i].length || D.normas.filter(n => n.a.includes(i)).length;   // área secundária: conta as normas ligadas      // bolha do tamanho exato das normas
 const perim = anel.reduce((s,i) => s + 2*raio(i) + GAP, 0);
 const R_AREA = Math.max(380, perim/(2*Math.PI)), R_SET = R_AREA*.42;
@@ -143,7 +146,9 @@ let corrido = 0;
 anel.forEach(ai => {
   const rb = raio(ai), t = -Math.PI/2 + (corrido + rb + GAP/2)/perim*Math.PI*2; corrido += 2*rb + GAP;
   const hub = areaN(ai); Object.assign(hub, {tx:Math.cos(t)*R_AREA, ty:Math.sin(t)*R_AREA, ang:t, rb});
-  filhos[ai].forEach((j,k) => { const rr = ESP*.62*Math.sqrt(k+.5), a = k*GIRO + t, m = normaN(j);   // girassol dentro da bolha
+  const copia = !filhos[ai].length;
+  membros[ai].forEach((j,k) => { const rr = ESP*.62*Math.sqrt(k+.5), a = k*GIRO + t;   // girassol dentro da bolha
+    const m = copia ? (nodes.push({type:'copia', i:j, orig:normaN(j), label:D.normas[j].c, color:normaN(j).color, r:4.3}), nodes[nodes.length-1]) : normaN(j);
     m.tx = hub.tx + Math.cos(a)*rr; m.ty = hub.ty + Math.sin(a)*rr; });
 });
 const R_MAX = R_AREA + Math.max(...anel.map(raio));
@@ -162,7 +167,7 @@ Object.entries(par).forEach(([key,w]) => { const [s,a] = key.split('-').map(Numb
 D.areas.forEach((a,i) => a.rel.forEach(j => { if (!links.some(l => l.kind==='aa' && ((l.a===areaN(i)&&l.b===areaN(j))||(l.a===areaN(j)&&l.b===areaN(i))))) links.push({a:areaN(i), b:areaN(j), kind:'aa'}); }));
 const adj = new Map(nodes.map(n => [n, new Set()]));
 links.forEach(l => { adj.get(l.a).add(l.b); adj.get(l.b).add(l.a); });
-D.areas.forEach((a,i) => { const c = {}; filhos[i].forEach(j => { const m = normaN(j); c[m.color] = (c[m.color]||0)+1; });
+D.areas.forEach((a,i) => { const c = {}; membros[i].forEach(j => { const m = normaN(j); c[m.color] = (c[m.color]||0)+1; });
   const top = Object.entries(c).sort((x,y) => y[1]-x[1])[0]; if (top) areaN(i).color = top[0]; });
 nodes.forEach(n => { n.x = 0; n.y = 0; });
 
@@ -178,6 +183,7 @@ const wx = x => (x-view.x)/view.k, wy = y => (y-view.y)/view.k;
 let hover=null, sel=null, filtroSetor=null, achados=null;
 const oEq=document.getElementById('oEq'), oVig=document.getElementById('oVig'), oRel=document.getElementById('oRel'), oSA=document.getElementById('oSA');
 function noFiltro(n){
+  if (n.type==='copia') n = n.orig;
   if (filtroSetor===null) return true;
   if (n.type==='setor') return n.i===filtroSetor;
   if (n.type==='norma') return n.n.x.includes(filtroSetor) || n.n.xa.includes(filtroSetor);
@@ -195,6 +201,7 @@ function foco(){                     // foco de um setor/área inclui também on
   return S;
 }
 function opac(n, F){
+  if (n.type==='copia') n = n.orig;
   if (!noFiltro(n)) return .07;
   if (F && !F.has(n)) return .12;
   if (achados && !F) return achados.has(n) ? 1 : .1;
@@ -208,7 +215,7 @@ function mostraLigacao(l, F){
   if (l.kind==='rel') return oRel.checked || ambos;
   if (l.kind==='sa') return oSA.checked || ambos;
   if (l.kind==='aa') return true;
-  if (l.kind==='na') return (l.sec && ambos) || (l.sec && !filhos[l.b.i].length);   // área só secundária: mostra sempre as ligações            // a área principal já é a bolha onde a norma está
+  if (l.kind==='na') return l.sec && ambos;            // a área principal já é a bolha onde a norma está
   if (l.kind==='ns') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
   if (l.kind==='nsa') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
   return false;
@@ -264,7 +271,10 @@ function draw(){
     if (n.type==='area') continue;
     const o = opac(n,F)*e; ctx.globalAlpha = o;
     const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.45), foc = (n===hover||n===sel), r=n.r*z*(foc?1.3:1);
-    if (n.type==='norma'){
+    if (n.type==='copia'){
+      const fc = n.orig===hover || n.orig===sel, rc = n.r*z*(fc?1.3:1);
+      ctx.beginPath(); ctx.arc(x,y,rc,0,7); ctx.fillStyle = rgba(n.color,.25); ctx.fill(); ctx.lineWidth = 1.6; ctx.strokeStyle = n.color; ctx.stroke();
+    } else if (n.type==='norma'){
       if (foc || (F&&F.has(n))){ ctx.shadowColor = n.color; ctx.shadowBlur = 12; }
       const g = ctx.createRadialGradient(x-r*.3,y-r*.3,r*.1,x,y,r); g.addColorStop(0,'#ffffff'); g.addColorStop(.35,n.color); g.addColorStop(1,n.color);
       ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
@@ -312,10 +322,10 @@ function acorda(){ if (!rodando){ rodando = true; requestAnimationFrame(loop); }
 let pan = null, moved = 0;
 function pick(px,py){
   const x = wx(px), y = wy(py); let best=null, bd=1e9;
-  for (const n of nodes){ if (n.type!=='norma' || !noFiltro(n)) continue;          // normas primeiro, depois setores e bolhas
+  for (const n of nodes){ if ((n.type!=='norma' && n.type!=='copia') || !noFiltro(n)) continue;   // normas (e cópias) primeiro
     const d = Math.hypot(n.x-x, n.y-y), r = n.r+5/view.k; if (d<r && d<bd){ best=n; bd=d; } }
-  if (best) return best;
-  for (const n of nodes){ if (n.type==='norma' || !noFiltro(n)) continue;
+  if (best) return best.type==='copia' ? best.orig : best;
+  for (const n of nodes){ if (n.type==='norma' || n.type==='copia' || !noFiltro(n)) continue;
     const d = Math.hypot(n.x-x, n.y-y), r = (n.type==='area' ? n.rb : n.r) + 4/view.k; if (d<r && d<bd){ best=n; bd=d; } }
   return best;
 }
