@@ -21,7 +21,7 @@ Cooperativas seguem a ITG 2004, com resultado segregado entre atos com cooperado
 
 | Item | O que diz para o setor | Conferência |
 |---|---|---|
-| — | Referência internacional (ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate. | ⚠ não conferido |
+| — | Referência internacional (IFRIC 2 / ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate. No Brasil, o CFC não tornou a ICPC 14 obrigatória para cooperativas e trata delas na ITG 2004 (informação de fontes públicas, não do texto da ITG 2004: confirme no CFC). | ⚠ não conferido |
 
 ## Checklist na prática
 

@@ -1,7 +1,7 @@
-# Graph Report - normas-contabeis-brasil  (2026-10-24)
+# Graph Report - normas-contabeis-brasil  (2026-10-23)
 
 ## Corpus Check
-- 470 files · ~190,738 words
+- 473 files · ~196,183 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 13 file(s) not represented in the graph (top: .csv 11, (none) 2)
 

@@ -626,9 +626,9 @@
      "pasta": "setores/agronegocio",
      "topico": "Terras, plantas portadoras e arrendamentos",
      "arquivo": "setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
-     "itens": "38",
+     "itens": "27, 38, B42",
      "ponto": "Pagamentos variáveis que dependem da produção ou do preço da commodity (ex.: sacas por hectare a preço de mercado) não entram no passivo, salvo se fixos em substância.",
-     "conferencia": "manual"
+     "conferencia": "nao_conferido"
     },
     {
      "setor": "Construção e Incorporação",
@@ -2488,7 +2488,7 @@
      "topico": "Escritórios, tributos e pequenas empresas",
      "arquivo": "setores/servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "47",
-     "ponto": "ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita.",
+     "ponto": "ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita. Na DRE, a dedução vem da Lei 6.404/76, art. 187, I, e o item 47 da NBC TG 47 só exclui da receita os valores cobrados em nome de terceiros.",
      "conferencia": "manual"
     },
     {
@@ -2640,7 +2640,7 @@
      "topico": "Crédito rural, hedge e CPR",
      "arquivo": "setores/agronegocio/03-credito-rural-hedge-e-cpr.md",
      "itens": "cap. 6",
-     "ponto": "Hedge de preço de commodities agrícolas ou de câmbio de exportação: contabilidade de hedge exige documentação formal; a parte eficaz do hedge de fluxo de caixa fica no ORA até a venda.",
+     "ponto": "Hedge de preço de commodities agrícolas ou de câmbio de exportação: contabilidade de hedge exige documentação formal; a parte eficaz do hedge de fluxo de caixa fica no ORA e vai para o resultado quando o item protegido afeta o resultado; se a operação protegida gerar um ativo não financeiro (ex.: estoque), o valor sai do ORA e entra direto no custo inicial do ativo (item 6.5.11(d)).",
      "conferencia": "manual"
     },
     {
@@ -2648,9 +2648,9 @@
      "pasta": "setores/financeiro",
      "topico": "Classificação e mensuração (Res. CMN 4.966)",
      "arquivo": "setores/financeiro/01-classificacao-e-mensuracao.md",
-     "itens": "4.1",
+     "itens": "—",
      "ponto": "Referência IFRS 9 para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro.",
-     "conferencia": "manual"
+     "conferencia": "nao_conferido"
     },
     {
      "setor": "Financeiro",
@@ -8741,7 +8741,7 @@
      "topico": "Cooperativas",
      "arquivo": "setores/terceiro-setor/03-cooperativas.md",
      "itens": "—",
-     "ponto": "Referência internacional (ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate.",
+     "ponto": "Referência internacional (IFRIC 2 / ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate. No Brasil, o CFC não tornou a ICPC 14 obrigatória para cooperativas e trata delas na ITG 2004 (informação de fontes públicas, não do texto da ITG 2004: confirme no CFC).",
      "conferencia": "nao_conferido"
     }
    ]

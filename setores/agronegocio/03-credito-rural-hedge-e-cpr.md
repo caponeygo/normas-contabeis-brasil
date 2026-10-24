@@ -26,7 +26,7 @@ O agro se financia com crédito subsidiado e protege preço com contratos futuro
 | Item | O que diz para o setor | Conferência |
 |---|---|---|
 | 2.4 | Contrato de venda futura com entrega física da própria produção (uso próprio) fica fora do tratamento de derivativo; contratos liquidados pelo líquido ou para especulação são derivativos a valor justo. | ✅ |
-| cap. 6 | Hedge de preço de commodities agrícolas ou de câmbio de exportação: contabilidade de hedge exige documentação formal; a parte eficaz do hedge de fluxo de caixa fica no ORA até a venda. | ✅👤 |
+| cap. 6 | Hedge de preço de commodities agrícolas ou de câmbio de exportação: contabilidade de hedge exige documentação formal; a parte eficaz do hedge de fluxo de caixa fica no ORA e vai para o resultado quando o item protegido afeta o resultado; se a operação protegida gerar um ativo não financeiro (ex.: estoque), o valor sai do ORA e entra direto no custo inicial do ativo (item 6.5.11(d)). | ✅👤 |
 
 ### NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação ([CPC 40 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71) · IFRS 7) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
 

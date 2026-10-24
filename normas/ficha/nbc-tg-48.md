@@ -31,7 +31,7 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NB
 | Varejo | [Cartões, recebíveis e antecipação](../../setores/varejo/03-cartoes-e-recebiveis.md) | 3.2.3–3.2.6 | ✅ conferido |
 | Agronegócio | [Crédito rural, hedge e CPR](../../setores/agronegocio/03-credito-rural-hedge-e-cpr.md) | 2.4 | ✅ conferido |
 | Agronegócio | [Crédito rural, hedge e CPR](../../setores/agronegocio/03-credito-rural-hedge-e-cpr.md) | cap. 6 | ✅👤 revisado por pessoa |
-| Financeiro | [Classificação e mensuração (Res. CMN 4.966)](../../setores/financeiro/01-classificacao-e-mensuracao.md) | 4.1 | ✅👤 revisado por pessoa |
+| Financeiro | [Classificação e mensuração (Res. CMN 4.966)](../../setores/financeiro/01-classificacao-e-mensuracao.md) | — | ⚠ não conferido |
 | Financeiro | [Instrumentos financeiros nas empresas em geral](../../setores/financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md) | 4.1 | ✅👤 revisado por pessoa |
 | Financeiro | [Instrumentos financeiros nas empresas em geral](../../setores/financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md) | 5.5.15 | ✅ conferido |
 | Financeiro | [Instrumentos financeiros nas empresas em geral](../../setores/financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md) | 3.2.3–3.2.6 | ✅ conferido |

@@ -20,7 +20,7 @@ Muitos prestadores de serviço são pequenos e podem usar as normas simplificada
 
 | Item | O que diz para o setor | Conferência |
 |---|---|---|
-| 47 | ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita. | ✅👤 |
+| 47 | ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita. Na DRE, a dedução vem da Lei 6.404/76, art. 187, I, e o item 47 da NBC TG 47 só exclui da receita os valores cobrados em nome de terceiros. | ✅👤 |
 
 ### NBC TG 1002 – Contabilidade para Microentidades · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)
 
@@ -59,6 +59,7 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TG 47 – Receita de Contrato com Cliente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
 - [CPC 47 – Receita de Contrato com Cliente](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105)
 - [IFRS 15 – Receita de Contrato com Cliente](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [Lei 6.404/1976 – Lei das Sociedades por Ações](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm)
 - [NBC TG 1002 – Contabilidade para Microentidades](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)
 - [ITG 2000 (R1) – Escrituração Contábil](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG2000(R1)&arquivo=ITG2000(R1).doc)
 <!-- fontes:fim -->

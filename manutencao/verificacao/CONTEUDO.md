@@ -6,27 +6,25 @@ Gerado por `scripts/verificar_itens.py` a partir dos PDFs oficiais do CFC (não 
 
 | Situação | Quantidade |
 |---|---|
-| item ok | 191 |
-| ok (revisado manualmente) | 15 |
+| item ok | 194 |
+| ok (revisado manualmente) | 12 |
 | sem PDF | 2 |
 
 | Situação | Norma | Itens | Aderência | Tópico | Itens não encontrados |
 |---|---|---|---|---|---|
-| ok (revisado manualmente) | NBC TG 47 | 47 | 0% | Serviços: Escritórios, tributos e pequenas empresas |  |
 | ok (revisado manualmente) | NBC TG 48 | 4.1 | 12% | Financeiro: Instrumentos financeiros nas empresas em geral |  |
-| ok (revisado manualmente) | NBC TG 48 | 4.1 | 17% | Financeiro: Classificação e mensuração (Res. CMN 4.966) |  |
 | ok (revisado manualmente) | NBC TG 25 (R2) | 33–35 | 20% | Varejo: Tributos no varejo |  |
-| ok (revisado manualmente) | NBC TG 48 | cap. 6 | 21% | Agronegócio: Crédito rural, hedge e CPR |  |
 | ok (revisado manualmente) | NBC TG 06 (R3) | 38 | 22% | Varejo: Lojas, aluguéis e impairment |  |
 | ok (revisado manualmente) | NBC TG 29 (R2) | 2 | 23% | Agronegócio: Terras, plantas portadoras e arrendamentos |  |
+| ok (revisado manualmente) | NBC TG 48 | cap. 6 | 24% | Agronegócio: Crédito rural, hedge e CPR |  |
 | ok (revisado manualmente) | NBC TG 01 (R4) | 9, 12 | 25% | Indústria: Máquinas, fábrica e imobilizado |  |
 | ok (revisado manualmente) | NBC TG 02 (R3) | 28 | 25% | Indústria: Commodities, câmbio e hedge |  |
 | ok (revisado manualmente) | NBC TG 06 (R3) | 5–8 | 25% | Serviços: Escritórios, tributos e pequenas empresas |  |
 | ok (revisado manualmente) | NBC TG 29 (R2) | 26–29 | 25% | Agronegócio: Ativo biológico e produto colhido |  |
-| ok (revisado manualmente) | NBC TG 06 (R3) | 38 | 29% | Agronegócio: Terras, plantas portadoras e arrendamentos |  |
 | ok (revisado manualmente) | NBC TG 47 | 47 | 29% | Varejo: Tributos no varejo |  |
 | item ok | NBC TG 04 (R4) | 57 | 30% | Indústria: Particularidades por tipo de indústria |  |
 | item ok | NBC TG 47 | B48–B51 | 30% | Serviços: SaaS, software e licenças |  |
+| item ok | NBC TG 47 | 47 | 30% | Serviços: Escritórios, tributos e pequenas empresas |  |
 | item ok | NBC TG 06 (R3) | 9–11 | 31% | Agronegócio: Terras, plantas portadoras e arrendamentos |  |
 | item ok | NBC TG 16 (R2) | 34, 36 | 33% | Indústria: DRE, CPV e apresentação |  |
 | item ok | NBC TG 25 (R2) | 14, 24, 39 | 33% | Construção e Incorporação: Garantias, equipamentos e tributos |  |
@@ -68,6 +66,7 @@ Gerado por `scripts/verificar_itens.py` a partir dos PDFs oficiais do CFC (não 
 | item ok | NBC TG 48 | 3.2.3–3.2.6 | 47% | Varejo: Cartões, recebíveis e antecipação |  |
 | item ok | NBC TG 01 (R4) | 66–73 | 50% | Varejo: Lojas, aluguéis e impairment |  |
 | item ok | NBC TG 04 (R4) | 71 | 50% | Indústria: Pesquisa e desenvolvimento de produtos |  |
+| item ok | NBC TG 06 (R3) | 27, 38, B42 | 50% | Agronegócio: Terras, plantas portadoras e arrendamentos |  |
 | item ok | NBC TG 16 (R2) | 21 | 50% | Varejo: Mercadorias, CMV e perdas |  |
 | item ok | NBC TG 16 (R2) | 36 | 50% | Varejo: Mercadorias, CMV e perdas |  |
 | item ok | NBC TG 32 (R4) | 15–24 | 50% | Indústria: Tributos e incentivos fiscais |  |
@@ -207,6 +206,7 @@ Gerado por `scripts/verificar_itens.py` a partir dos PDFs oficiais do CFC (não 
 | item ok | NBC TG 33 (R2) | — | 100% | Serviços: Pessoal, férias, PLR e stock options |  |
 | item ok | NBC TG 40 (R3) | 31–42 | 100% | Financeiro: Instrumentos financeiros nas empresas em geral |  |
 | item ok | NBC TG 48 | 5.1.3 | 100% | Varejo: Cartões, recebíveis e antecipação |  |
+| item ok | NBC TG 48 | — | 100% | Financeiro: Classificação e mensuração (Res. CMN 4.966) |  |
 | item ok | NBC TG 49 | — | 100% | Financeiro: Seguradoras e previdência complementar |  |
 | item ok | CTG 01 | 2 | 100% | Construção e Incorporação: Incorporação imobiliária |  |
 | item ok | CTG 10 | — | 100% | Indústria: Meio ambiente, resíduos e clima |  |

@@ -37,7 +37,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ❌ | Prefeitura: como registrar o imobilizado de uma escola? | normas/ficha/nbc-tsp-09-r1.md, setores/construcao/01-incorporacao-imobiliaria.md, normas/ficha/ctg-01.md | — |
 | ✅ | Teste de impairment do ágio goodwill | normas/ficha/ias-36.md, normas/ficha/nbc-tg-01-r4.md, normas/ficha/ifrs-3.md | normas/ficha/ias-36.md |
 | ✅ | Imposto de renda diferido sobre prejuízo fiscal | normas/ficha/ias-12.md, normas/ficha/nbc-tg-32-r4.md, areas/tributos.md | normas/ficha/ias-12.md |
-| ✅ | Microempresa deve usar qual norma contábil? | normas/nbc-tg-pequenas-e-medias-empresas-e-microentidades.md, setores/servicos/04-escritorios-tributos-e-pequenas.md, areas/pequenas-e-medias-empresas.md | setores/servicos/04-escritorios-tributos-e-pequenas.md |
+| ✅ | Microempresa deve usar qual norma contábil? | normas/nbc-tg-pequenas-e-medias-empresas-e-microentidades.md, areas/pequenas-e-medias-empresas.md, setores/servicos/04-escritorios-tributos-e-pequenas.md | areas/pequenas-e-medias-empresas.md |
 | ✅ | Contabilização de créditos de carbono e CBIO | normas/ficha/ctg-10.md, setores/agronegocio/04-usinas-carbono-e-auditoria.md, areas/sustentabilidade.md | normas/ficha/ctg-10.md |
 | ✅ | Perícia contábil: laudo de apuração de haveres | areas/pericia-contabil.md, normas/ficha/itp-01.md, normas/nbc-tp-pericia.md | areas/pericia-contabil.md |
 | ✅ | Código de ética profissional do contador | normas/ficha/nbc-pg-01.md, normas/ficha/nbc-pg-200-r1.md, normas/ficha/nbc-pg-300-r1.md | normas/ficha/nbc-pg-01.md |
