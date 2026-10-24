@@ -2,7 +2,9 @@
 
 Instituições financeiras, seguradoras e fundos de pensão seguem, nas demonstrações individuais, as regras do seu regulador (Banco Central, SUSEP, PREVIC), que convergem parcialmente com os CPCs. Esta pasta aponta onde cada regra está e o que muda em relação às NBC TG. Artigos conferidos no texto oficial da Res. CMN 4.966/2021 (versão 5) e da Res. BCB 352/2023 (versão 6), obtidos no site do Banco Central em 23/10/2026; normas do BCB não passam pela checagem automática de itens.
 
-> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+>
+> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · ⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.
 
 ## Tópicos
 

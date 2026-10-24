@@ -1,0 +1,23 @@
+---
+codigo: "NBC TSC 4400"
+titulo: "Trabalhos de Procedimentos Previamente Acordados sobre Informações Contábeis (ISRS 4400)"
+serie: "NBC TSC"
+status: vigente
+url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSC4400&arquivo=NBC-TSC_4400.doc
+---
+
+# NBC TSC 4400 – Trabalhos de Procedimentos Previamente Acordados sobre Informações Contábeis (ISRS 4400)
+
+**O que trata:** Procedimentos previamente acordados: o contador executa os testes combinados e relata os achados, sem opinião nem asseguração.
+
+**O que afeta:** Relatório de constatações
+
+**Áreas:** [Serviços Correlatos](../../areas/servicos-correlatos.md)
+
+**Temas:** Procedimentos previamente acordados e compilação
+
+## Fonte
+
+- [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSC4400&arquivo=NBC-TSC_4400.doc)
+
+[← Todas as normas](../README.md) · [Página inicial](../../README.md)

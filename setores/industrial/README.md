@@ -2,7 +2,9 @@
 
 Trechos das normas contábeis e de auditoria que importam para empresas industriais, organizados pelo ciclo da fábrica: compra de insumos → produção → estoque → venda → pós-venda. Cada arquivo traz, por norma, os itens relevantes e o que eles dizem na prática, mais um checklist.
 
-> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+>
+> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · ⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.
 
 ## Tópicos
 

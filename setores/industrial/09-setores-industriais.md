@@ -4,44 +4,46 @@
 
 Normas que só aparecem em alguns segmentos industriais.
 
-> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+>
+> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · ⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.
 
 
 ### NBC TG 29 (R2) – Ativo Biológico e Produto Agrícola ([CPC 29](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60) · IAS 41) · [texto oficial](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2))
 
-| Item | O que diz para o setor |
-|---|---|
-| — | Agroindústria (usinas, celulose, frigoríficos com criação própria): ativo biológico e produto agrícola a valor justo até a colheita; daí em diante o produto segue a NBC TG 16. Plantas portadoras (cana-de-açúcar, café, laranjais) são imobilizado. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| — | Agroindústria (usinas, celulose, frigoríficos com criação própria): ativo biológico e produto agrícola a valor justo até a colheita; daí em diante o produto segue a NBC TG 16. Plantas portadoras (cana-de-açúcar, café, laranjais) são imobilizado. | ✅ |
 
 ### ITG 18 – Custos de Remoção de Estéril de Mina de Superfície – Fase de Produção ([ICPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84)) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG18)
 
-| Item | O que diz para o setor |
-|---|---|
-| — | Mineração a céu aberto: remoção de estéril na fase de produção vira ativo quando melhora o acesso ao minério. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| — | Mineração a céu aberto: remoção de estéril na fase de produção vira ativo quando melhora o acesso ao minério. | ✅ |
 
 ### IFRS 6 – Exploração e Avaliação de Recursos Minerais · [texto oficial](https://www.ifrs.org/issued-standards/list-of-standards/)
 
-| Item | O que diz para o setor |
-|---|---|
-| — | Exploração e avaliação de recursos minerais: sem CPC equivalente; empresas brasileiras costumam seguir a política anterior com teste de impairment. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| — | Exploração e avaliação de recursos minerais: sem CPC equivalente; empresas brasileiras costumam seguir a política anterior com teste de impairment. | ⚠ não conferido |
 
 ### NBC TG 47 – Receita de Contrato com Cliente ([CPC 47](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105) · IFRS 15) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| 35 | Bens de capital sob encomenda (máquinas especiais, estruturas): receita ao longo do tempo quando não há uso alternativo e existe direito de receber pelo que foi executado. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| 35 | Bens de capital sob encomenda (máquinas especiais, estruturas): receita ao longo do tempo quando não há uso alternativo e existe direito de receber pelo que foi executado. | ✅ |
 
 ### NBC TG 04 (R4) – Ativo Intangível ([CPC 04 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35) · IAS 38) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| 57 | Química e farmacêutica: desenvolvimento de produto só é ativo com os 6 critérios (na prática, raramente antes da aprovação regulatória). |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| 57 | Química e farmacêutica: desenvolvimento de produto só é ativo com os 6 critérios (na prática, raramente antes da aprovação regulatória). | ✅ |
 
 ### ITG 15 – Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos ([ICPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24)) · [texto oficial](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289)
 
-| Item | O que diz para o setor |
-|---|---|
-| — | Eletroeletrônicos: obrigação de logística reversa de resíduos. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| — | Eletroeletrônicos: obrigação de logística reversa de resíduos. | ✅ |
 
 ## Checklist na prática
 

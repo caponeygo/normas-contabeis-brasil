@@ -3,14 +3,32 @@
 # Dados nas planilhas de dados/: setores.csv (setores), setores_topicos.csv (um arquivo .md por tópico),
 # setores_pontos.csv (norma, itens e o que dizem), setores_faq.csv e setores_externas.csv (regras de fora do CFC:
 # BCB, CVM, SUSEP, leis). Os itens seguem a numeração do CPC/NBC; scripts/verificar_itens.py confere cada um no PDF oficial.
-import re, shutil
+import json, re, shutil
 from types import SimpleNamespace
 
 from dados import ler
 
 AVISO = ("> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. "
          "Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente "
-         "contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.")
+         "contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.\n>\n"
+         "> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · "
+         "⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.")
+
+CONF = {"item ok": ("✅", "auto"), "ok (revisado manualmente)": ("✅👤", "manual"),
+        "conferir": ("⚠ revisar", "pendente"), "item não encontrado": ("⚠ revisar", "pendente")}
+
+
+_CONF_CACHE = {}
+
+
+def conferencia(root, r, itens, nome, titulo):
+    """(rótulo, código) do selo de confiança de um trecho, lido de verificacao/confianca.json."""
+    if not _CONF_CACHE:
+        arq = root / "manutencao" / "verificacao" / "confianca.json"
+        _CONF_CACHE.update(json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else {})
+    dados = _CONF_CACHE
+    sit = dados.get(f"{r['codigo']}|{itens}|{nome}: {titulo}") if r else None
+    return CONF.get(sit, ("⚠ não conferido", "nao_conferido"))
 
 
 def carregar():
@@ -72,13 +90,15 @@ def gerar_setor(root, por_cod, m):
             if c not in ordem:
                 ordem.append(c)
         for c in ordem:
-            md.append("\n" + cab(c) + "\n\n| Item | O que diz para o setor |\n|---|---|")
+            md.append("\n" + cab(c) + "\n\n| Item | O que diz para o setor | Conferência |\n|---|---|---|")
             for c2, itens, txt in pontos:
                 if c2 == c:
-                    md.append(f"| {itens} | {txt} |")
+                    rot, cod = conferencia(root, por_cod.get(c2), itens, m.NOME, titulo)
+                    md.append(f"| {itens} | {txt} | {rot} |")
                     if c in por_cod:
                         por_cod[c]["setores"].append({"setor": m.NOME, "pasta": m.PASTA, "topico": titulo,
-                                                      "arquivo": f"{m.PASTA}/{arq}.md", "itens": itens, "ponto": txt})
+                                                      "arquivo": f"{m.PASTA}/{arq}.md", "itens": itens, "ponto": txt,
+                                                      "conferencia": cod})
         md.append("\n## Checklist na prática\n")
         md += [f"- [ ] {x}" for x in check]
         md.append(f"\n[← {m.NOME}: índice](README.md) · [Todas as áreas]({raiz}areas/README.md) · [Página inicial]({raiz}README.md)")

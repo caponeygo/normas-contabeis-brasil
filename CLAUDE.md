@@ -61,6 +61,21 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 - "Prefeitura, como registrar uma escola?" → **Setor Público** → NBC TSP 37.
 - "Quando o auditor emite opinião com ressalva?" → **Auditoria Independente** → NBC TA 705.
 
+## Regras para não errar (leia antes de responder)
+
+1. **Só afirme o que está aqui.** Não cite número de item, parágrafo, prazo, alíquota ou valor que não apareça nestes arquivos ou no link oficial.
+   Se a informação não estiver no repositório, diga isso e indique o link oficial. Não complete de memória.
+2. **Vigência primeiro.** Em [`normas.json`](normas.json) cada norma tem `status` (`vigente` ou `revogada`), `substituida_por`,
+   `revogada_em` e `substituta_vale_a_partir_de`. Norma revogada: indique a substituta. Se `substituta_vale_a_partir_de` existir
+   (ex.: NBC TG 26 → NBC TG 51, a partir de 2027-01-01), a revogada ainda vale para exercícios anteriores a essa data: pergunte o exercício ou explique os dois casos.
+3. **Olhe a coluna Conferência** nas pastas de setor: ✅ = item achado no texto oficial e assunto confere; ✅👤 = revisado por pessoa;
+   ⚠ = não conferido ou a revisar (inclui regras de fora do CFC: BCB, CVM, SUSEP, leis). Em ⚠, diga ao usuário que confirme no link oficial antes de aplicar.
+4. **Cada norma tem uma ficha** em `normas/ficha/<codigo>.md` (ex.: `normas/ficha/nbc-tg-27-r4.md`) com status, equivalentes, trechos por setor e link oficial. Prefira a ficha a ler a série inteira.
+5. **Fora do escopo:** o repositório indexa normas do CFC/CPC/IASB/IAASB e trechos por setor. Não cobre legislação fiscal detalhada (alíquotas, obrigações acessórias),
+   jurisprudência, normas de outros países nem casos concretos de empresa. Nesses casos, diga que não cobre.
+6. **Código parecido não é o mesmo:** NBC TG ≠ NBC TA ≠ NBC TSP; CPC ≠ ICPC ≠ OCPC; ITG ≠ CTG ≠ OTG. Confira a série pelo código completo e pela revisão `(Rn)`.
+7. **Não dê aconselhamento profissional.** O resumo orienta; a decisão contábil depende do texto oficial e do caso.
+
 ## Arquivos
 
 | Arquivo | Uso |
@@ -69,6 +84,8 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 | `areas/<area>.md` | Normas de uma área: resumo, o que afeta, CPC/IFRS equivalente e link |
 | [`normas/`](normas/README.md) | Todas as normas: lista A–Z de códigos (com área e link oficial) e um arquivo por série |
 | [`setores/`](setores/README.md) (`setores/industrial/`, `setores/varejo/`…) | Trechos das normas por setor, com itens conferidos no texto oficial |
+| [`llms.txt`](llms.txt) | Mapa curto do repositório para assistentes de IA |
+| [`normas/ficha/`](normas/README.md) | Uma ficha por norma: status, equivalentes, trechos por setor e link oficial |
 | [`GLOSSARIO.md`](GLOSSARIO.md) | Siglas e termos (CPV, CIF, VRL, MEP, ORA, PCLD, UGC, MPM, IBS/CBS…) |
 | [`lancamentos/`](lancamentos/README.md) | Exemplos de lançamentos contábeis por tema |
 | [`normas.json`](normas.json) | Dados em JSON: `codigo`, `titulo`, `serie`, `situacao`, `areas`, `temas`, `resumo`, `afeta`, `cpc`, `url_cpc`, `internacional`, `url` e `setores` (trechos por setor: setor, tópico, itens, ponto) |

@@ -1,0 +1,14 @@
+# Normas Contábeis Brasileiras
+
+> Índice (não o texto) das normas contábeis e de auditoria do Brasil (CFC/CPC) e das internacionais (IFRS/IAS/ISA): resumo, o que afeta, equivalências, trechos por setor e link oficial. Não hospeda o texto integral das normas.
+
+Regras: leia `AGENTS.md` antes de responder; cite sempre o código da norma e o link oficial; não afirme item/parágrafo que não esteja nestes arquivos; normas com status=revogada têm substituta em `substituida_por`; trechos com ⚠ na coluna Conferência devem ser confirmados no texto oficial; se algo não está aqui, diga que não está.
+
+## Entradas
+- [AGENTS.md](AGENTS.md): como usar este repositório e seus limites
+- [normas.json](normas.json): todos os dados estruturados (status, vigência, equivalências, trechos por setor)
+- [normas/README.md](normas/README.md): lista A–Z; cada norma tem ficha em normas/ficha/<código>.md
+- [areas/README.md](areas/README.md): busca por assunto, sinônimo e demonstração afetada
+- [setores/README.md](setores/README.md): trechos por setor com selo de conferência
+- [lancamentos/README.md](lancamentos/README.md): exemplos de lançamentos
+- [GLOSSARIO.md](GLOSSARIO.md): siglas

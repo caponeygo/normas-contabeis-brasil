@@ -136,6 +136,8 @@ def main():
     md += [f"| {c} | {s:.0%} |" for s, c in baixos] or ["| — | — |"]
     if sem_pdf:
         md.append("\nSem PDF oficial para conferir: " + ", ".join(sorted(set(sem_pdf))))
+    (ROOT / "manutencao" / "verificacao" / "confianca.json").write_text(json.dumps(
+        {f"{c}|{i}|{t}": sit for sit, c, i, _, t, _ in linhas_it}, ensure_ascii=False, indent=1), encoding="utf-8")
     (ROOT / "manutencao" / "verificacao" / "CONTEUDO.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(cont, "| resumos abaixo de 50%:", len(baixos), "de", len(linhas_res))
     sys.exit(1 if cont["conferir"] or cont["item não encontrado"] or baixos else 0)

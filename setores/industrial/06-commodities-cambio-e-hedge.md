@@ -4,34 +4,36 @@
 
 Indústrias expostas a insumos cotados em dólar ou em bolsa precisam separar a variação cambial do custo e decidir se aplicam contabilidade de hedge.
 
-> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+>
+> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · ⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.
 
 
 ### NBC TG 02 (R3) – Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis ([CPC 02 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9) · IAS 21) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| 21–23 | Insumo ou máquina importada entra pela taxa de câmbio à vista da data da transação (quando a compra se qualifica para reconhecimento, normalmente na transferência do controle). Por praticidade, aceita-se taxa média semanal ou mensal, salvo se o câmbio oscilar muito (item 22). |
-| 28 | A variação cambial do fornecedor estrangeiro a pagar depois da compra vai para o resultado financeiro; não altera o custo do estoque nem da máquina. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| 21–23 | Insumo ou máquina importada entra pela taxa de câmbio à vista da data da transação (quando a compra se qualifica para reconhecimento, normalmente na transferência do controle). Por praticidade, aceita-se taxa média semanal ou mensal, salvo se o câmbio oscilar muito (item 22). | ✅ |
+| 28 | A variação cambial do fornecedor estrangeiro a pagar depois da compra vai para o resultado financeiro; não altera o custo do estoque nem da máquina. | ✅👤 |
 
 ### ITG 21 – Transação em Moeda Estrangeira e Adiantamento ([ICPC 21](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108)) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG21&arquivo=ITG21.doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| — | Adiantamento a fornecedor estrangeiro: o item comprado fica pela taxa do dia do adiantamento (não é atualizado depois). |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| — | Adiantamento a fornecedor estrangeiro: o item comprado fica pela taxa do dia do adiantamento (não é atualizado depois). | ✅👤 |
 
 ### NBC TG 48 – Instrumentos Financeiros ([CPC 48](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106) · IFRS 9) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| 2.4 | Contratos de compra de commodity para uso na própria produção (own use), liquidados com entrega física, ficam fora do tratamento de derivativo. |
-| cap. 6 | Hedge de fluxo de caixa de compras futuras de insumo ou de câmbio: a parte eficaz do derivativo fica no ORA e depois entra no custo do estoque comprado; a parte ineficaz vai para o resultado. Exige documentação formal na contratação. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| 2.4 | Contratos de compra de commodity para uso na própria produção (own use), liquidados com entrega física, ficam fora do tratamento de derivativo. | ✅ |
+| cap. 6 | Hedge de fluxo de caixa de compras futuras de insumo ou de câmbio: a parte eficaz do derivativo fica no ORA e depois entra no custo do estoque comprado; a parte ineficaz vai para o resultado. Exige documentação formal na contratação. | ✅ |
 
 ### NBC TG 40 (R3) – Instrumentos Financeiros: Evidenciação ([CPC 40 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71) · IFRS 7) · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| 31–42 | Divulgar riscos de mercado (câmbio, commodities), análise de sensibilidade, liquidez e os hedges contratados. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| 31–42 | Divulgar riscos de mercado (câmbio, commodities), análise de sensibilidade, liquidez e os hedges contratados. | ✅ |
 
 ## Checklist na prática
 
