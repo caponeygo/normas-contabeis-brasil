@@ -8,6 +8,7 @@ Regras: leia `AGENTS.md` antes de responder; cite sempre o código da norma e o 
 - [AGENTS.md](AGENTS.md): como usar este repositório e seus limites
 - [normas.json](normas.json): todos os dados estruturados (status, vigência, equivalências, trechos por setor)
 - [normas/README.md](normas/README.md): lista A–Z; cada norma tem ficha em normas/ficha/<código>.md
+- [normas/mudancas-futuras.md](normas/mudancas-futuras.md): normas que serão revogadas ou ainda não valem, com datas
 - [areas/README.md](areas/README.md): busca por assunto, sinônimo e demonstração afetada
 - [setores/README.md](setores/README.md): trechos por setor com selo de conferência
 - [lancamentos/README.md](lancamentos/README.md): exemplos de lançamentos

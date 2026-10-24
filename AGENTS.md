@@ -69,6 +69,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 2. **Vigência primeiro.** Em [`normas.json`](normas.json) cada norma tem `status` (`vigente`, `revogada` ou `futura`), `substituida_por`, `vigente_a_partir_de`, `observacao_vigencia`,
    `revogada_em` e `substituta_vale_a_partir_de`. Norma revogada: indique a substituta. Se `substituta_vale_a_partir_de` existir
    (ex.: NBC TG 26 → NBC TG 51, a partir de 2027-01-01), a revogada ainda vale para exercícios anteriores a essa data: pergunte o exercício ou explique os dois casos.
+   As normas com mudança de vigência marcada estão listadas em [`normas/mudancas-futuras.md`](normas/mudancas-futuras.md): consulte antes de afirmar que uma norma vale ou deixa de valer.
 3. **Olhe a coluna Conferência** nas pastas de setor: ✅ = item achado no texto oficial e assunto confere; ✅👤 = revisado por pessoa;
    ⚠ = não conferido ou a revisar (inclui regras de fora do CFC: BCB, CVM, SUSEP, leis). Em ⚠, diga ao usuário que confirme no link oficial antes de aplicar.
 4. **Cada norma tem uma ficha** em `normas/ficha/<codigo>.md` (ex.: `normas/ficha/nbc-tg-27-r4.md`) com status, equivalentes, trechos por setor e link oficial. Prefira a ficha a ler a série inteira.
