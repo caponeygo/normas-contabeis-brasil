@@ -60,7 +60,7 @@ canvas.drag{cursor:grabbing}
 <div id="app">
 <aside id="side">
   <h1>Mapa de normas por setor e área</h1>
-  <p class="sub">No centro, os setores. No anel do meio, as áreas. Na borda, cada norma, na fatia da sua área. As linhas mostram o que se liga a quê.</p>
+  <p class="sub">No centro, os setores. Em volta, uma bolha por área, com as suas normas dentro. As linhas mostram como setores, áreas e normas se ligam.</p>
   <div class="stats" id="stats"></div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -75,9 +75,9 @@ canvas.drag{cursor:grabbing}
   <label class="opt"><input type="checkbox" id="oVig"> destacar revogadas e ainda não vigentes</label>
   <h2>Legenda</h2>
   <div class="forms">
-    <svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#c084fc"/></svg><span>Setor (centro)</span>
-    <svg width="22" height="22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#98a3b8" stroke-width="2.5"/></svg><span>Área (anel do meio; a cor é a série que mais aparece)</span>
-    <svg width="22" height="22"><circle cx="11" cy="11" r="3.5" fill="#a594ff"/></svg><span>Norma (borda; a cor é a série)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="9" fill="#c084fc"/></svg><span>Setor (centro; o número é quantas normas ele usa)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#98a3b8" stroke-width="2.5"/></svg><span>Área (bolha; a cor é a série que mais aparece)</span>
+    <svg width="22" height="22"><circle cx="11" cy="11" r="3.5" fill="#a594ff"/></svg><span>Norma (dentro da bolha da sua área; a cor é a série)</span>
     <svg width="22" height="22"><path d="M2 11h18" stroke="#22d3ee" stroke-width="2"/></svg><span>Mesmo assunto</span>
     <svg width="22" height="22"><path d="M2 11h18" stroke="#98a3b8" stroke-width="2" stroke-dasharray="5 3"/></svg><span>Áreas relacionadas</span>
   </div>
@@ -113,18 +113,17 @@ const GRUPOS = [
 const corNorma = s => GRUPOS.find(g => g[2](s))[1];
 document.getElementById('leg').innerHTML = GRUPOS.map(g => `<i style="background:${g[1]};color:${g[1]}"></i><span>${g[0]}</span>`).join('');
 
-// ---------- lugar de cada coisa (layout fixo em círculo) ----------
+// ---------- lugar de cada coisa (layout fixo: setores no centro, uma bolha por área em volta) ----------
 // Ordem das áreas no anel: contabilidade, depois setor público e sustentabilidade, internacionais e a família da auditoria.
 const ORDEM = ['Fundamentos','Apresentação e Divulgação','Ativos','Passivos','Receitas','Tributos','Patrimônio Líquido','Instrumentos Financeiros',
   'Mensuração','Moeda e Câmbio','Participações Societárias','Setores Específicos','Pequenas e Médias Empresas','Setor Público','Contabilidade Eleitoral',
   'Sustentabilidade','Normas Internacionais','Auditoria Independente','Padrões PCAOB (EUA)','Revisão','Asseguração','Serviços Correlatos',
   'Auditoria Interna','Perícia Contábil','Ética e Exercício Profissional'];
-const R_SET = 120, R_AREA = 300, R_IN = 372, ESP = 12, GAP = .035;
+const ESP = 11.5, GAP = 46, GIRO = Math.PI*(3-Math.sqrt(5));   // espaço entre normas; folga entre bolhas; ângulo de ouro
 const nS = D.setores.length, nA = D.areas.length;
 const nodes = [];
-D.setores.forEach((s,i) => { const t = -Math.PI/2 + i/nS*Math.PI*2;
-  nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:24, tx:Math.cos(t)*R_SET, ty:Math.sin(t)*R_SET, url:s.url, uso:s.uso}); });
-D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#98a3b8', r:13, url:a.url, uso:a.uso}));
+D.setores.forEach((s,i) => nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:26, url:s.url, uso:s.uso}));
+D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#98a3b8', r:14, url:a.url, uso:a.uso}));
 D.normas.forEach((n,i) => nodes.push({type:'norma', i, label:n.c, n, color:corNorma(n.s), r:4.3}));
 const setorN = i => nodes[i], areaN = i => nodes[nS+i], normaN = i => nodes[nS+nA+i];
 
@@ -135,22 +134,18 @@ const ordemSerie = s => GRUPOS.findIndex(g => g[2](s));
 filhos.forEach(l => l.sort((x,y) => ordemSerie(D.normas[x].s)-ordemSerie(D.normas[y].s) || natural(D.normas[x].c, D.normas[y].c)));
 const pos = n => { const i = ORDEM.indexOf(n); return i < 0 ? 99 : i; };
 const anel = D.areas.map((a,i) => i).sort((x,y) => pos(D.areas[x].nome)-pos(D.areas[y].nome) || natural(D.areas[x].nome, D.areas[y].nome));
-const peso = i => filhos[i].length + 5;
-const total = anel.reduce((s,i) => s + peso(i), 0), livre = Math.PI*2 - GAP*nA;
-const fatia = []; let ang = -Math.PI/2;
+const raio = i => ESP*.62*Math.sqrt(Math.max(filhos[i].length, 1)) + 15;      // bolha do tamanho exato das normas
+const perim = anel.reduce((s,i) => s + 2*raio(i) + GAP, 0);
+const R_AREA = Math.max(380, perim/(2*Math.PI)), R_SET = R_AREA*.42;
+D.setores.forEach((s,i) => { const t = -Math.PI/2 + i/nS*Math.PI*2; Object.assign(setorN(i), {tx:Math.cos(t)*R_SET, ty:Math.sin(t)*R_SET}); });
+let corrido = 0;
 anel.forEach(ai => {
-  const w = peso(ai)/total*livre, a0 = ang + GAP/2, a1 = a0 + w; ang += w + GAP;
-  fatia[ai] = {a0, a1, mid:(a0+a1)/2, rmax:R_IN};
-  const hub = areaN(ai); hub.tx = Math.cos(fatia[ai].mid)*R_AREA; hub.ty = Math.sin(fatia[ai].mid)*R_AREA; hub.ang = fatia[ai].mid;
-  // normas em fileiras dentro da fatia, de dentro para fora, centralizadas
-  let k = 0, fila = 0;
-  while (k < filhos[ai].length){
-    const r = R_IN + fila*ESP, cab = Math.max(1, Math.floor((a1-a0)*r/ESP)), q = Math.min(cab, filhos[ai].length-k), passo = (a1-a0)/cab;
-    for (let j=0;j<q;j++){ const t = a0 + passo*((cab-q)/2 + j + .5), m = normaN(filhos[ai][k+j]); m.tx = Math.cos(t)*r; m.ty = Math.sin(t)*r; m.ang = t; }
-    k += q; fila++; fatia[ai].rmax = r;
-  }
+  const rb = raio(ai), t = -Math.PI/2 + (corrido + rb + GAP/2)/perim*Math.PI*2; corrido += 2*rb + GAP;
+  const hub = areaN(ai); Object.assign(hub, {tx:Math.cos(t)*R_AREA, ty:Math.sin(t)*R_AREA, ang:t, rb});
+  filhos[ai].forEach((j,k) => { const rr = ESP*.62*Math.sqrt(k+.5), a = k*GIRO + t, m = normaN(j);   // girassol dentro da bolha
+    m.tx = hub.tx + Math.cos(a)*rr; m.ty = hub.ty + Math.sin(a)*rr; });
 });
-const R_MAX = Math.max(...fatia.filter(Boolean).map(f => f.rmax));
+const R_MAX = R_AREA + Math.max(...anel.map(raio));
 
 // ---------- ligações ----------
 const links = [], par = {};
@@ -212,7 +207,7 @@ function mostraLigacao(l, F){
   if (l.kind==='rel') return oRel.checked || ambos;
   if (l.kind==='sa') return oSA.checked || ambos;
   if (l.kind==='aa') return true;
-  if (l.kind==='na') return !l.sec || ambos;
+  if (l.kind==='na') return l.sec && ambos;            // a área principal já é a bolha onde a norma está
   if (l.kind==='ns') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
   if (l.kind==='nsa') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
   return false;
@@ -221,58 +216,65 @@ function mostraLigacao(l, F){
 // ---------- desenho ----------
 const t0 = performance.now(); let intro = 0;
 function rgba(hex,a){ const h = hex.replace('#',''); return `rgba(${parseInt(h.slice(0,2),16)},${parseInt(h.slice(2,4),16)},${parseInt(h.slice(4,6),16)},${a})`; }
+function borda(n, px, py){          // ponto na borda da bolha da área, na direção (px,py); para os outros, o próprio centro
+  if (n.type!=='area') return [n.x, n.y];
+  const dx = px-n.x, dy = py-n.y, d = Math.hypot(dx,dy)||1, r = n.rb*(intro<1 ? 1-Math.pow(1-intro,3) : 1);
+  return [n.x + dx/d*r, n.y + dy/d*r];
+}
 function curva(a, b, puxa){        // curva que passa por dentro do círculo (puxa: 0 = reta, 1 = pelo centro)
-  const x1=sx(a.x), y1=sy(a.y), x2=sx(b.x), y2=sy(b.y), mx=(a.x+b.x)/2*(1-puxa), my=(a.y+b.y)/2*(1-puxa);
-  ctx.beginPath(); ctx.moveTo(x1,y1); ctx.quadraticCurveTo(sx(mx), sy(my), x2, y2); ctx.stroke();
+  const mx=(a.x+b.x)/2*(1-puxa), my=(a.y+b.y)/2*(1-puxa);
+  const [x1,y1] = borda(a, mx, my), [x2,y2] = borda(b, mx, my);
+  ctx.beginPath(); ctx.moveTo(sx(x1),sy(y1)); ctx.quadraticCurveTo(sx(mx), sy(my), sx(x2), sy(y2)); ctx.stroke();
 }
 function draw(){
   intro = Math.min(1, (performance.now()-t0)/1100); const e = 1-Math.pow(1-intro,3);
   nodes.forEach(n => { n.x = n.tx*e; n.y = n.ty*e; });
   ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
   const F = foco(), hubCor = css('--hub'), txt = css('--txt'), fill = css('--hubfill'), halo = css('--halo'), mut = css('--mut');
-  // guias: anéis e fatias de cada área
-  ctx.globalAlpha = .5*e; ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(148,163,184,.14)'; ctx.setLineDash([2,5]);
+  // guias
+  ctx.globalAlpha = .5*e; ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(148,163,184,.14)'; ctx.setLineDash([2,6]);
   [R_SET, R_AREA].forEach(r => { ctx.beginPath(); ctx.arc(view.x, view.y, r*view.k*e, 0, 7); ctx.stroke(); });
   ctx.setLineDash([]);
-  anel.forEach(ai => { const f = fatia[ai], n = areaN(ai), o = opac(n,F)*e;
-    ctx.globalAlpha = o; ctx.beginPath(); ctx.arc(view.x, view.y, (f.rmax+9)*view.k*e, f.a0, f.a1); ctx.arc(view.x, view.y, (R_IN-9)*view.k*e, f.a1, f.a0, true); ctx.closePath();
-    ctx.fillStyle = rgba(n.color, F && F.has(n) ? .14 : .06); ctx.fill(); ctx.strokeStyle = rgba(n.color, .22); ctx.lineWidth = 1; ctx.stroke(); });
+  // bolhas das áreas (fundo)
+  anel.forEach(ai => { const n = areaN(ai), o = opac(n,F)*e, x = sx(n.x), y = sy(n.y), r = n.rb*view.k*e;
+    ctx.globalAlpha = o; ctx.beginPath(); ctx.arc(x, y, r, 0, 7);
+    const g = ctx.createRadialGradient(x, y, r*.2, x, y, r); g.addColorStop(0, rgba(n.color, F&&F.has(n) ? .16 : .07)); g.addColorStop(1, rgba(n.color, F&&F.has(n) ? .26 : .13));
+    ctx.fillStyle = g; ctx.fill(); ctx.lineWidth = (n===sel||n===hover) ? 2.6 : 1.6; ctx.strokeStyle = rgba(n.color, .75); ctx.stroke(); });
   // ligações
   for (const l of links){
     if (!mostraLigacao(l, F)) continue;
     const forte = F && F.has(l.a) && F.has(l.b), o = Math.min(opac(l.a,F), opac(l.b,F));
     let al, cor, lw = 1, puxa = 0, dash = [];
-    if (l.kind==='na'){ al = l.sec ? .55 : .13; cor = l.b.color; lw = .8; puxa = l.sec ? .35 : 0; }
-    else if (l.kind==='ns'){ al = .45; cor = l.b.color; puxa = .25; }
-    else if (l.kind==='nsa'){ al = .45; cor = l.b.color; puxa = .25; dash = [4,3]; }
-    else if (l.kind==='sa'){ al = .10 + Math.min(l.w,12)*.02; cor = l.a.color; lw = Math.min(.8+l.w*.2, 4.5); puxa = .15; }
-    else if (l.kind==='aa'){ al = .45; cor = '#98a3b8'; lw = 1.6; puxa = .45; dash = [7,4]; }
-    else if (l.kind==='rel'){ al = .5; cor = '#22d3ee'; lw = 1.2; puxa = .55; }
-    else { al = .5; cor = '#f5b85a'; puxa = .6; dash = [3,3]; }
+    if (l.kind==='na'){ al = .6; cor = l.b.color; lw = .9; puxa = .3; }
+    else if (l.kind==='ns'){ al = .45; cor = l.b.color; puxa = .2; }
+    else if (l.kind==='nsa'){ al = .45; cor = l.b.color; puxa = .2; dash = [4,3]; }
+    else if (l.kind==='sa'){ al = .12 + Math.min(l.w,12)*.025; cor = l.a.color; lw = Math.min(1+l.w*.25, 5); puxa = .12; }
+    else if (l.kind==='aa'){ al = .5; cor = '#98a3b8'; lw = 1.8; puxa = .4; dash = [7,4]; }
+    else if (l.kind==='rel'){ al = .5; cor = '#22d3ee'; lw = 1.2; puxa = .5; }
+    else { al = .5; cor = '#f5b85a'; puxa = .55; dash = [3,3]; }
     if (forte) { al = Math.max(al, .85); lw *= 1.4; }
     ctx.globalAlpha = Math.min(1, al*o*e); ctx.strokeStyle = cor; ctx.lineWidth = lw*Math.max(.7, Math.min(view.k,1.6)); ctx.setLineDash(dash);
     curva(l.a, l.b, puxa);
   }
   ctx.setLineDash([]);
-  // nós
+  // normas e setores (as áreas já são as bolhas)
   for (const n of nodes){
+    if (n.type==='area') continue;
     const o = opac(n,F)*e; ctx.globalAlpha = o;
-    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.45), foc = (n===hover||n===sel), r=n.r*z*(foc?1.25:1);
+    const x=sx(n.x), y=sy(n.y), z = Math.max(view.k,.45), foc = (n===hover||n===sel), r=n.r*z*(foc?1.3:1);
     if (n.type==='norma'){
       if (foc || (F&&F.has(n))){ ctx.shadowColor = n.color; ctx.shadowBlur = 12; }
       const g = ctx.createRadialGradient(x-r*.3,y-r*.3,r*.1,x,y,r); g.addColorStop(0,'#ffffff'); g.addColorStop(.35,n.color); g.addColorStop(1,n.color);
       ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
       if (oVig.checked && n.n.st!=='vigente'){ ctx.beginPath(); ctx.arc(x,y,r+2.2,0,7); ctx.lineWidth=2; ctx.strokeStyle = n.n.st==='revogada'?'#f87171':'#fbbf24'; ctx.stroke(); }
-    } else if (n.type==='setor'){
+    } else {
       ctx.beginPath(); ctx.arc(x,y,r*1.6,0,7); ctx.fillStyle = rgba(n.color,.12); ctx.fill();
       ctx.shadowColor = n.color; ctx.shadowBlur = 22;
       const g = ctx.createRadialGradient(x-r*.35,y-r*.4,r*.1,x,y,r); g.addColorStop(0,'#ffffff66'); g.addColorStop(.25,n.color); g.addColorStop(1,rgba(n.color,.85));
       ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = g; ctx.fill(); ctx.shadowBlur = 0;
       ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(255,255,255,.55)'; ctx.stroke();
-    } else {
-      ctx.shadowColor = n.color; ctx.shadowBlur = foc?18:8;
-      ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle = fill; ctx.fill(); ctx.lineWidth = 2.6; ctx.strokeStyle = n.color; ctx.stroke(); ctx.shadowBlur = 0;
-      ctx.beginPath(); ctx.arc(x,y,r*.34,0,7); ctx.fillStyle = n.color; ctx.fill();
+      ctx.font = `700 ${Math.max(10,12*view.k)}px Inter,system-ui,sans-serif`; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle = '#fff';
+      ctx.fillText(String(D.normas.filter(m => m.x.includes(n.i)).length), x, y);
     }
     if (n===sel){ ctx.beginPath(); ctx.arc(x,y,r+4,0,7); ctx.lineWidth=2; ctx.strokeStyle=hubCor; ctx.stroke(); }
   }
@@ -281,21 +283,21 @@ function draw(){
   const comHalo = (t, x, y, cor) => { ctx.lineWidth = 4; ctx.strokeStyle = `rgba(${halo},.85)`; ctx.strokeText(t, x, y); ctx.fillStyle = cor; ctx.fillText(t, x, y); };
   for (const n of nodes){
     const o = opac(n,F)*e; if (o < .2) continue;
-    const x=sx(n.x), y=sy(n.y);
     ctx.globalAlpha = o;
-    if (n.type==='setor'){
-      const a = Math.atan2(n.ty, n.tx), d = (n.r*Math.max(view.k,.45)) + 8, lx = x + Math.cos(a)*d, ly = y + Math.sin(a)*d;
-      ctx.textAlign = Math.abs(Math.cos(a)) < .3 ? 'center' : (Math.cos(a) > 0 ? 'left' : 'right');
-      ctx.font = `700 ${Math.max(11,12*view.k)}px Inter,system-ui,sans-serif`;
-      comHalo(n.label, lx, ly + (Math.abs(Math.cos(a)) < .3 ? Math.sign(Math.sin(a))*6 : 0), n.color);
-    } else if (n.type==='area'){            // nome da área por fora do círculo, no raio da fatia
-      const f = fatia[n.i], rr = (f.rmax + 22)*view.k*e, a = n.ang, esq = Math.cos(a) < 0;
-      ctx.save(); ctx.translate(view.x + Math.cos(a)*rr, view.y + Math.sin(a)*rr); ctx.rotate(esq ? a+Math.PI : a);
-      ctx.textAlign = esq ? 'right' : 'left'; ctx.font = `600 ${Math.max(10.5,12*view.k)}px Inter,system-ui,sans-serif`;
-      comHalo(`${n.label} · ${filhos[n.i].length}`, 0, 0, F&&F.has(n) ? txt : mut); ctx.restore();
+    if (n.type==='setor'){                                          // nome logo abaixo do setor
+      const a = Math.atan2(n.ty, n.tx), c = Math.cos(a), si = Math.sin(a), d = n.r*Math.max(view.k,.45) + 8;   // para fora, na direção do raio
+      ctx.textAlign = Math.abs(c) < .35 ? 'center' : (c > 0 ? 'left' : 'right'); ctx.font = `700 ${Math.max(10.5,11.5*view.k)}px Inter,system-ui,sans-serif`;
+      comHalo(n.label.split(' e ')[0], sx(n.x) + c*d, sy(n.y) + si*d + (Math.abs(c) < .35 ? Math.sign(si)*7 : 0), n.color);   // nome curto; o completo está no cartão
+    } else if (n.type==='area'){                                    // nome para fora, na direção do raio
+      const a = Math.atan2(n.ty, n.tx), c = Math.cos(a), s = Math.sin(a);
+      const d = (n.type==='area' ? n.rb*view.k*e : n.r*Math.max(view.k,.45)) + 9, lx = sx(n.x) + c*d, ly = sy(n.y) + s*d;
+      ctx.textAlign = Math.abs(c) < .35 ? 'center' : (c > 0 ? 'left' : 'right');
+      const dy = Math.abs(c) < .35 ? Math.sign(s)*8 : 0;
+      if (n.type==='setor'){ ctx.font = `700 ${Math.max(11,12*view.k)}px Inter,system-ui,sans-serif`; comHalo(n.label, lx, ly+dy, n.color); }
+      else { ctx.font = `600 ${Math.max(10.5,12*view.k)}px Inter,system-ui,sans-serif`; comHalo(`${n.label} · ${filhos[n.i].length}`, lx, ly+dy, F&&F.has(n) ? txt : mut); }
     } else if ((F && F.has(n) && F.size<=34) || (achados && achados.has(n) && achados.size<=40) || view.k>2.6 || n===hover){
       ctx.textAlign='center'; ctx.font = `500 ${Math.max(10,10.5*Math.min(view.k,1.6))}px Inter,system-ui,sans-serif`;
-      comHalo(n.label.replace(/ \(R\d+\)/,''), x, y - n.r*Math.max(view.k,.45) - 9, txt);
+      comHalo(n.label.replace(/ \(R\d+\)/,''), sx(n.x), sy(n.y) - n.r*Math.max(view.k,.45) - 9, txt);
     }
   }
   ctx.globalAlpha = 1;
@@ -308,8 +310,11 @@ function acorda(){ if (!rodando){ rodando = true; requestAnimationFrame(loop); }
 let pan = null, moved = 0;
 function pick(px,py){
   const x = wx(px), y = wy(py); let best=null, bd=1e9;
-  for (const n of nodes){ if (!noFiltro(n)) continue;
+  for (const n of nodes){ if (n.type!=='norma' || !noFiltro(n)) continue;          // normas primeiro, depois setores e bolhas
     const d = Math.hypot(n.x-x, n.y-y), r = n.r+5/view.k; if (d<r && d<bd){ best=n; bd=d; } }
+  if (best) return best;
+  for (const n of nodes){ if (n.type==='norma' || !noFiltro(n)) continue;
+    const d = Math.hypot(n.x-x, n.y-y), r = (n.type==='area' ? n.rb : n.r) + 4/view.k; if (d<r && d<bd){ best=n; bd=d; } }
   return best;
 }
 const pt = e => { const r = cv.getBoundingClientRect(); return [e.clientX-r.left, e.clientY-r.top]; };
