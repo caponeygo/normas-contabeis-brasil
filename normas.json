@@ -283,25 +283,25 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "9, 12",
      "ponto": "Indícios de impairment comuns na indústria: ociosidade relevante, obsolescência tecnológica, dano físico, queda de demanda ou de margem, plano de fechar ou reestruturar uma planta."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "66–73",
      "ponto": "A unidade geradora de caixa costuma ser a planta ou a linha de produção que gera entradas de caixa independentes; o teste é feito no nível da UGC."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "66–73",
      "ponto": "Cada loja que gera entradas de caixa independentes costuma ser uma unidade geradora de caixa: testar impairment da loja (direito de uso + benfeitorias) quando houver indício, como prejuízo recorrente."
     }
@@ -327,17 +327,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Commodities, câmbio e hedge",
-     "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
+     "arquivo": "setores/Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "21–23",
      "ponto": "Insumo ou máquina importada entra pela taxa de câmbio à vista da data da transação (quando a compra se qualifica para reconhecimento, normalmente na transferência do controle). Por praticidade, aceita-se taxa média semanal ou mensal, salvo se o câmbio oscilar muito (item 22)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Commodities, câmbio e hedge",
-     "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
+     "arquivo": "setores/Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "28",
      "ponto": "A variação cambial do fornecedor estrangeiro a pagar depois da compra vai para o resultado financeiro; não altera o custo do estoque nem da máquina."
     }
@@ -383,65 +383,65 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Pesquisa e desenvolvimento de produtos",
-     "arquivo": "Industrial/05-pesquisa-e-desenvolvimento.md",
+     "arquivo": "setores/Industrial/05-pesquisa-e-desenvolvimento.md",
      "itens": "54–56",
      "ponto": "Fase de pesquisa (buscar conhecimento, avaliar alternativas de materiais e processos): sempre despesa."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Pesquisa e desenvolvimento de produtos",
-     "arquivo": "Industrial/05-pesquisa-e-desenvolvimento.md",
+     "arquivo": "setores/Industrial/05-pesquisa-e-desenvolvimento.md",
      "itens": "57",
      "ponto": "Fase de desenvolvimento vira intangível só se a empresa demonstrar TODOS: viabilidade técnica, intenção de concluir, capacidade de usar ou vender, geração de benefícios (mercado), recursos para terminar e mensuração confiável dos gastos."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Pesquisa e desenvolvimento de produtos",
-     "arquivo": "Industrial/05-pesquisa-e-desenvolvimento.md",
+     "arquivo": "setores/Industrial/05-pesquisa-e-desenvolvimento.md",
      "itens": "59",
      "ponto": "Exemplos de desenvolvimento: projeto, construção e teste de protótipos e modelos; projeto de ferramentas, moldes e matrizes com nova tecnologia; planta-piloto."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Pesquisa e desenvolvimento de produtos",
-     "arquivo": "Industrial/05-pesquisa-e-desenvolvimento.md",
+     "arquivo": "setores/Industrial/05-pesquisa-e-desenvolvimento.md",
      "itens": "71",
      "ponto": "O que já foi lançado como despesa não volta a ser ativo depois."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Pesquisa e desenvolvimento de produtos",
-     "arquivo": "Industrial/05-pesquisa-e-desenvolvimento.md",
+     "arquivo": "setores/Industrial/05-pesquisa-e-desenvolvimento.md",
      "itens": "97–106",
      "ponto": "Desenvolvimento capitalizado é amortizado pela vida útil do produto ou processo, a partir de quando estiver disponível para uso."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Particularidades por tipo de indústria",
-     "arquivo": "Industrial/09-setores-industriais.md",
+     "arquivo": "setores/Industrial/09-setores-industriais.md",
      "itens": "57",
      "ponto": "Química e farmacêutica: desenvolvimento de produto só é ativo com os 6 critérios (na prática, raramente antes da aprovação regulatória)."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "SaaS, software e licenças",
-     "arquivo": "Servicos/02-saas-software-e-licencas.md",
+     "arquivo": "setores/Servicos/02-saas-software-e-licencas.md",
      "itens": "57",
      "ponto": "Software desenvolvido internamente: só a fase de desenvolvimento vira intangível, e só se cumprir os 6 critérios (viabilidade técnica, intenção, capacidade de usar/vender, benefícios, recursos e mensuração)."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "SaaS, software e licenças",
-     "arquivo": "Servicos/02-saas-software-e-licencas.md",
+     "arquivo": "setores/Servicos/02-saas-software-e-licencas.md",
      "itens": "54–56",
      "ponto": "Pesquisa, prova de conceito e avaliação de alternativas tecnológicas são despesa."
     }
@@ -486,89 +486,89 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "9–11, B9–B31",
      "ponto": "Verificar arrendamento embutido em contratos de fornecimento ou serviço com ativo dedicado (ex.: tanque, gerador ou equipamento exclusivo instalado pelo fornecedor). Empilhadeiras, galpões e máquinas alugadas viram direito de uso + passivo."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "5–8",
      "ponto": "Isenções: contratos de até 12 meses e ativos de baixo valor podem ficar como despesa de aluguel."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "22–24",
      "ponto": "Aluguel de loja: ativo de direito de uso e passivo de arrendamento. O direito de uso inclui pagamentos feitos antes do início (ex.: luvas/res sperata pagas ao locador), custos diretos iniciais e estimativa de restaurar o imóvel."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "27–28",
      "ponto": "Entram no passivo os pagamentos fixos e os variáveis que dependem de índice ou taxa (ex.: aluguel corrigido pelo IGP-M ou IPCA)."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "38",
      "ponto": "Aluguel percentual sobre o faturamento da loja não entra no passivo: é despesa no período em que a venda acontece."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "5–8",
      "ponto": "Contratos de até 12 meses e ativos de baixo valor podem ficar como despesa de aluguel."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Escritórios, tributos e pequenas empresas",
-     "arquivo": "Servicos/04-escritorios-tributos-e-pequenas.md",
+     "arquivo": "setores/Servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "22–24",
      "ponto": "Escritórios e equipamentos alugados por mais de 12 meses: direito de uso + passivo de arrendamento."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Escritórios, tributos e pequenas empresas",
-     "arquivo": "Servicos/04-escritorios-tributos-e-pequenas.md",
+     "arquivo": "setores/Servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "5–8",
      "ponto": "Isenção para contratos curtos (até 12 meses) e ativos de baixo valor (notebooks, celulares)."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Terras, plantas portadoras e arrendamentos",
-     "arquivo": "Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
+     "arquivo": "setores/Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
      "itens": "9–11",
      "ponto": "Arrendamento rural de terra por prazo determinado: em regra arrendamento (direito de uso + passivo). Parceria agrícola com divisão de risco da produção: avaliar se transfere o direito de controlar o uso da terra."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Terras, plantas portadoras e arrendamentos",
-     "arquivo": "Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
+     "arquivo": "setores/Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
      "itens": "38",
      "ponto": "Pagamentos variáveis que dependem da produção ou do preço da commodity (ex.: sacas por hectare a preço de mercado) não entram no passivo, salvo se fixos em substância."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Garantias, equipamentos e tributos",
-     "arquivo": "Construcao/03-garantias-imobilizado-e-tributos.md",
+     "arquivo": "setores/Construcao/03-garantias-imobilizado-e-tributos.md",
      "itens": "22–24",
      "ponto": "Equipamentos alugados por mais de 12 meses: direito de uso + passivo."
     }
@@ -594,41 +594,41 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "12, 17",
      "ponto": "Incentivos fiscais (crédito presumido e redução de base de ICMS, isenções) são subvenção governamental: reconhecidos no resultado à medida que compensam os custos a que se referem; os ligados a ativos (ex.: para comprar máquinas), ao longo da vida útil do ativo."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "10A",
      "ponto": "Empréstimo subsidiado (juros abaixo do mercado, ex.: linhas BNDES/FINEP): a diferença entre o valor recebido e o valor justo do empréstimo é subvenção."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "—",
      "ponto": "No Brasil, o valor da subvenção pode ser destinado à reserva de incentivos fiscais no PL (Lei 6.404, art. 195-A). O tratamento fiscal federal mudou com a Lei 14.789/2023 (crédito fiscal de subvenção para investimento): conferir com o tributário."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Crédito rural, hedge e CPR",
-     "arquivo": "Agronegocio/03-credito-rural-hedge-e-cpr.md",
+     "arquivo": "setores/Agronegocio/03-credito-rural-hedge-e-cpr.md",
      "itens": "10A",
      "ponto": "Crédito rural com juros abaixo do mercado: o benefício (diferença para o valor justo do empréstimo) é subvenção governamental."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Doações, subvenções, convênios e gratuidades",
-     "arquivo": "TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
+     "arquivo": "setores/TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
      "itens": "12",
      "ponto": "Subvenção governamental vai para o resultado ao longo do período em que a entidade incorre nas despesas que ela compensa."
     }
@@ -655,9 +655,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "—",
      "ponto": "DVA: insumos adquiridos de terceiros (matéria-prima, energia, serviços), retenções (depreciação) e distribuição do valor adicionado (pessoal, impostos, juros, acionistas)."
     }
@@ -683,9 +683,9 @@
    "setores": [
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Pessoal, férias, PLR e stock options",
-     "arquivo": "Servicos/03-pessoal-e-beneficios.md",
+     "arquivo": "setores/Servicos/03-pessoal-e-beneficios.md",
      "itens": "—",
      "ponto": "Stock options e ações restritas: despesa pelo valor justo na outorga ao longo do período de aquisição; phantom shares pagas em dinheiro geram passivo remensurado."
     }
@@ -711,17 +711,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "—",
      "ponto": "Compras e vendas a prazo relevantes: ajuste a valor presente; o juro embutido sai do custo do insumo e da receita e vai para o resultado financeiro."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "—",
      "ponto": "Vendas e compras a prazo relevantes: ajuste a valor presente; os juros vão para o resultado financeiro."
     }
@@ -766,201 +766,201 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "9",
      "ponto": "Estoque fica pelo menor valor entre custo e valor realizável líquido (VRL)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "10–11",
      "ponto": "Custo de aquisição de insumos: preço + impostos de importação e outros tributos, exceto os recuperáveis perante o fisco + frete, seguro e manuseio na compra, menos descontos e abatimentos. ICMS, IPI, PIS/COFINS com direito a crédito ficam fora do custo (vão para tributos a recuperar)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "12",
      "ponto": "Custo de transformação = mão de obra direta + rateio sistemático dos CIF fixos (depreciação e manutenção da fábrica, gestão da fábrica) e variáveis (materiais indiretos, energia de produção)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "13",
      "ponto": "CIF fixos são alocados pela capacidade NORMAL de produção. Quando a fábrica produz abaixo do normal, a parcela não alocada (ociosidade) vai direto para despesa do período, sem inflar o estoque. Com produção anormalmente alta, o custo fixo por unidade diminui."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "14",
      "ponto": "Produtos conjuntos: rateio do custo comum por base racional e consistente (ex.: valor de venda relativo). Subprodutos irrelevantes podem ser medidos pelo VRL e abatidos do custo do produto principal."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "16",
      "ponto": "Ficam FORA do custo e vão para despesa: desperdício anormal de material, mão de obra ou outros; armazenagem (salvo se necessária entre fases da produção); despesas administrativas que não contribuem para a produção; despesas de venda (inclusive frete na venda)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "18",
      "ponto": "Compra a prazo com financiamento embutido: a diferença entre o preço a prazo e o à vista é despesa financeira ao longo do prazo, não custo do estoque."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "21",
      "ponto": "Custo-padrão é aceito se o resultado se aproximar do custo real; os padrões devem ser revistos regularmente e as variações tratadas para que o estoque fique a custo real."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "25",
      "ponto": "Fórmulas de custo permitidas: PEPS ou custo médio ponderado, a mesma para estoques de natureza e uso semelhantes. UEPS não é aceito."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "28–33",
      "ponto": "Redução ao VRL por obsolescência, dano ou queda de preço, normalmente item a item. Matéria-prima não é baixada se o produto acabado em que será usada for vendido pelo custo ou acima (item 32)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "34–35",
      "ponto": "Na venda, o custo do estoque vira CPV. Perdas e ajustes ao VRL são despesa do período; reversões reduzem o CPV. Peças fabricadas para uso no próprio imobilizado vão para o ativo, não para o resultado."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "36",
      "ponto": "Divulgar: política e fórmula de custo, saldo por classe (matéria-prima, em elaboração, acabados, almoxarifado), CPV, ajustes ao VRL e reversões, estoques dados em garantia."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "11",
      "ponto": "Tributos recuperáveis (créditos de ICMS, IPI, PIS e COFINS) não compõem o custo do estoque; ficam como tributos a recuperar."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "34, 36",
      "ponto": "Ociosidade (item 13) e perdas anormais são despesas do período: apresentar de forma que a margem bruta não fique distorcida e divulgar quando relevantes."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "9",
      "ponto": "Mercadoria fica pelo menor valor entre custo e valor realizável líquido (VRL)."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "11",
      "ponto": "Custo de compra = preço + tributos não recuperáveis (ex.: ICMS-ST quando não há crédito) + frete, seguro e manuseio até o depósito. Descontos comerciais, abatimentos e bonificações recebidas de fornecedores reduzem o custo."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "16",
      "ponto": "Armazenagem de mercadoria pronta, despesas administrativas e de venda (frete na entrega ao cliente, comissões) não entram no custo."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "21",
      "ponto": "Método de varejo (preço de venda menos margem) é aceito por conveniência se o resultado se aproximar do custo; a margem usada deve considerar remarcações."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "25",
      "ponto": "Fórmulas aceitas: PEPS ou custo médio ponderado; UEPS não."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "28–33",
      "ponto": "Coleção passada, itens parados, avariados ou com preço de venda em queda: reduzir ao VRL, em geral item a item ou por grupo semelhante."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "34",
      "ponto": "Na venda, o custo vira CMV. Perdas de estoque (quebras, furtos, vencimentos) e ajustes ao VRL são despesa do período em que ocorrem."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "36",
      "ponto": "Divulgar política de custo, saldos, CMV, ajustes ao VRL e reversões."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Varejo/05-tributos-no-varejo.md",
+     "arquivo": "setores/Varejo/05-tributos-no-varejo.md",
      "itens": "11",
      "ponto": "Tributos sem direito a crédito (ICMS-ST pago na compra, PIS/COFINS monofásico) compõem o custo da mercadoria; os recuperáveis não."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "20",
      "ponto": "Estoque de produto agrícola colhido: custo inicial = valor justo menos despesa de venda na colheita (NBC TG 29)."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "3",
      "ponto": "Produtores e tradings que mensuram estoques de produtos agrícolas pelo valor realizável líquido ou valor justo, conforme prática do setor, ficam fora das regras de mensuração da NBC TG 16."
     }
@@ -1024,17 +1024,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "4–8",
      "ponto": "Juros de empréstimos para construir uma fábrica ou instalar uma linha que leva tempo para ficar pronta são capitalizados no ativo. Estoques fabricados em grande quantidade de forma repetitiva estão dispensados da norma."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "14, 17–22",
      "ponto": "Com dívida geral, usar a taxa média ponderada; capitalizar só durante a construção ativa, suspender em paralisações longas e parar quando o ativo estiver pronto."
     }
@@ -1079,9 +1079,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "—",
      "ponto": "Companhias abertas: segmentos costumam ser linhas de produto ou plantas, conforme a gestão interna."
     }
@@ -1145,65 +1145,65 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "14, 24, 39",
      "ponto": "Provisão de garantia: reconhecida na venda quando houver histórico de reparos, estimada para o conjunto de produtos (valor esperado pelo histórico de defeitos)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "33–35",
      "ponto": "Teses de outros tributos (PIS/COFINS, ICMS, IPI): crédito a recuperar por ação judicial é ativo contingente e só é reconhecido quando praticamente certo (em geral, após trânsito em julgado e com valor mensurável)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "14, 19",
      "ponto": "Provisão ambiental quando há obrigação presente por evento passado, legal ou não formalizada (ex.: recuperar área já contaminada, multas). Gastos futuros para continuar operando (ex.: instalar filtros) não são provisão: a empresa pode evitá-los mudando a operação."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "66–69",
      "ponto": "Loja fechada com contrato ainda em vigor: avaliar contrato oneroso (custos inevitáveis maiores que os benefícios), além do impairment do direito de uso."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Varejo/05-tributos-no-varejo.md",
+     "arquivo": "setores/Varejo/05-tributos-no-varejo.md",
      "itens": "33–35",
      "ponto": "Créditos tributários discutidos na Justiça (ex.: teses de PIS/COFINS) só viram ativo quando praticamente certos."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Pessoal, férias, PLR e stock options",
-     "arquivo": "Servicos/03-pessoal-e-beneficios.md",
+     "arquivo": "setores/Servicos/03-pessoal-e-beneficios.md",
      "itens": "14",
      "ponto": "Processos trabalhistas: provisão quando a perda for provável e estimável; possíveis só em nota."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Construtoras e empreiteiras",
-     "arquivo": "Construcao/02-contratos-de-construcao.md",
+     "arquivo": "setores/Construcao/02-contratos-de-construcao.md",
      "itens": "66–69",
      "ponto": "Contrato oneroso (custo inevitável maior que a receita): reconhecer a perda inteira como provisão assim que identificada."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Garantias, equipamentos e tributos",
-     "arquivo": "Construcao/03-garantias-imobilizado-e-tributos.md",
+     "arquivo": "setores/Construcao/03-garantias-imobilizado-e-tributos.md",
      "itens": "14, 24, 39",
      "ponto": "Provisão para garantia de obra (vícios construtivos), estimada pelo histórico do conjunto de obras entregues."
     }
@@ -1230,9 +1230,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "99–105",
      "ponto": "Exercícios até 2026 (a NBC TG 26 foi revogada pela NBC TG 51 a partir de 2027): despesas por função (CPV, vendas, administrativas: padrão da indústria e exigido pela Lei 6.404, art. 187) ou por natureza. Quem apresenta por função divulga em nota a natureza, incluindo depreciação, amortização e benefícios a empregados (item 104)."
     }
@@ -1258,129 +1258,129 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Estoques e custo de produção",
-     "arquivo": "Industrial/01-estoques-e-custo-de-producao.md",
+     "arquivo": "setores/Industrial/01-estoques-e-custo-de-producao.md",
      "itens": "49",
      "ponto": "Depreciação das máquinas da produção é CIF: entra no custo do estoque, não vai direto para a despesa."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "7–8",
      "ponto": "Peças de reposição, sobressalentes e equipamentos de manutenção são imobilizado quando usados por mais de um período (ex.: peças estratégicas de uma linha); caso contrário, ficam em estoque (almoxarifado)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "12–14",
      "ponto": "Manutenção do dia a dia vai para o resultado (ou para o CIF). Grandes paradas, revisões gerais e inspeções relevantes podem ser capitalizadas como componente, baixando o valor da parada anterior."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "16–17",
      "ponto": "Custo da máquina: preço + impostos não recuperáveis + frete, instalação, montagem, preparação do local, testes de funcionamento e honorários técnicos + estimativa de desmontagem e restauração do local."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "20A",
      "ponto": "Produtos fabricados durante os testes, antes de a máquina ficar pronta para uso: a receita da venda e o custo deles vão para o resultado, sem reduzir o custo da máquina; o custo desses itens é medido pela NBC TG 16 (incluído pela Revisão NBC 12)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "22",
      "ponto": "Máquina ou fábrica construída pela própria empresa segue a mesma lógica; desperdícios anormais na construção não entram no custo."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "43–47",
      "ponto": "Componentização: partes com custo relevante e vida útil diferente (ex.: forno e seu revestimento refratário, motor de uma prensa) são depreciadas separadamente."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "50–51",
      "ponto": "Vida útil e valor residual revistos pelo menos uma vez ao ano; a mudança é estimativa (efeito prospectivo, NBC TG 23). Vida útil econômica, não a taxa fiscal."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "55",
      "ponto": "A depreciação começa quando a máquina está disponível para uso e não para por ociosidade (exceto no método de unidades produzidas)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "60–62A",
      "ponto": "O método deve refletir o consumo dos benefícios: linear, saldos decrescentes ou unidades produzidas (comum em máquinas cujo desgaste depende do uso). Depreciação baseada em receita não é aceita."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "16",
      "ponto": "O mesmo vale para máquinas: só entram no custo os impostos não recuperáveis (ex.: crédito de ICMS sobre ativo apropriado em parcelas fica a recuperar)."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Pesquisa e desenvolvimento de produtos",
-     "arquivo": "Industrial/05-pesquisa-e-desenvolvimento.md",
+     "arquivo": "setores/Industrial/05-pesquisa-e-desenvolvimento.md",
      "itens": "—",
      "ponto": "Moldes, ferramentas e matrizes físicos usados na produção por mais de um período são imobilizado, não intangível."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "16(c)",
      "ponto": "A estimativa de desmontagem da planta e de restauração do local entra no custo do ativo, em contrapartida à provisão."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Lojas, aluguéis e impairment",
-     "arquivo": "Varejo/04-lojas-e-arrendamentos.md",
+     "arquivo": "setores/Varejo/04-lojas-e-arrendamentos.md",
      "itens": "—",
      "ponto": "Benfeitorias em imóvel alugado são imobilizado, depreciadas pela vida útil limitada ao prazo esperado do contrato."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Terras, plantas portadoras e arrendamentos",
-     "arquivo": "Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
+     "arquivo": "setores/Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
      "itens": "58",
      "ponto": "Terrenos e edifícios são contabilizados separadamente; a terra em geral tem vida ilimitada e não é depreciada."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Garantias, equipamentos e tributos",
-     "arquivo": "Construcao/03-garantias-imobilizado-e-tributos.md",
+     "arquivo": "setores/Construcao/03-garantias-imobilizado-e-tributos.md",
      "itens": "43–47",
      "ponto": "Equipamentos de construção (gruas, formas, andaimes) com componentes de vida útil diferente: componentizar e depreciar pela vida útil econômica."
     }
@@ -1425,73 +1425,73 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Particularidades por tipo de indústria",
-     "arquivo": "Industrial/09-setores-industriais.md",
+     "arquivo": "setores/Industrial/09-setores-industriais.md",
      "itens": "—",
      "ponto": "Agroindústria (usinas, celulose, frigoríficos com criação própria): ativo biológico e produto agrícola a valor justo até a colheita; daí em diante o produto segue a NBC TG 16. Plantas portadoras (cana-de-açúcar, café, laranjais) são imobilizado."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "1–2",
      "ponto": "Alcance: ativos biológicos (exceto plantas portadoras), produto agrícola no ponto de colheita e subvenções ligadas a eles. Terras e plantas portadoras ficam fora (vão para a NBC TG 27)."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "5A",
      "ponto": "Não são plantas portadoras as plantas cultivadas para serem colhidas como produto (ex.: árvores para madeira) nem culturas anuais (milho, trigo): seguem a NBC TG 29."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "12",
      "ponto": "Ativo biológico mensurado ao valor justo menos a despesa de venda no reconhecimento inicial e em cada fechamento."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "13",
      "ponto": "Produto agrícola colhido mensurado ao valor justo menos a despesa de venda no momento da colheita; esse valor é o custo para a NBC TG 16."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "26–29",
      "ponto": "Ganhos e perdas na variação do valor justo (crescimento do rebanho, engorda, desenvolvimento da lavoura, preço) vão para o resultado do período."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Ativo biológico e produto colhido",
-     "arquivo": "Agronegocio/01-ativo-biologico-e-colheita.md",
+     "arquivo": "setores/Agronegocio/01-ativo-biologico-e-colheita.md",
      "itens": "30–33",
      "ponto": "Se o valor justo não puder ser mensurado de forma confiável no reconhecimento inicial, usar custo menos depreciação e perdas, até que se torne mensurável."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Terras, plantas portadoras e arrendamentos",
-     "arquivo": "Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
+     "arquivo": "setores/Agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
      "itens": "2",
      "ponto": "Plantas portadoras (que produzem por vários períodos e não são vendidas como produto, ex.: cana em soqueira, café, laranjais) seguem a NBC TG 27; o produto que crescer nelas segue a NBC TG 29."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Crédito rural, hedge e CPR",
-     "arquivo": "Agronegocio/03-credito-rural-hedge-e-cpr.md",
+     "arquivo": "setores/Agronegocio/03-credito-rural-hedge-e-cpr.md",
      "itens": "34–35",
      "ponto": "Subvenção incondicional ligada a ativo biológico a valor justo vai para o resultado quando se torna recebível; se condicional, quando as condições forem cumpridas."
     }
@@ -1538,17 +1538,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "15–24",
      "ponto": "Diferenças temporárias típicas da indústria: depreciação contábil x fiscal, provisão para obsolescência de estoques, provisão de garantias, ajuste a valor presente e subvenções. Geram IR/CS diferido."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "24–31, 34–36",
      "ponto": "Ativo fiscal diferido sobre prejuízo fiscal e diferenças só se houver lucro tributável futuro provável (projeção da planta)."
     }
@@ -1574,33 +1574,33 @@
    "setores": [
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Pessoal, férias, PLR e stock options",
-     "arquivo": "Servicos/03-pessoal-e-beneficios.md",
+     "arquivo": "setores/Servicos/03-pessoal-e-beneficios.md",
      "itens": "11",
      "ponto": "Benefícios de curto prazo (salários, encargos, 13º) reconhecidos como despesa ou custo à medida que o serviço é prestado, com passivo do que ainda não foi pago."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Pessoal, férias, PLR e stock options",
-     "arquivo": "Servicos/03-pessoal-e-beneficios.md",
+     "arquivo": "setores/Servicos/03-pessoal-e-beneficios.md",
      "itens": "13–15",
      "ponto": "Férias (ausências remuneradas acumuláveis): provisionar mês a mês, com encargos, conforme o empregado adquire o direito."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Pessoal, férias, PLR e stock options",
-     "arquivo": "Servicos/03-pessoal-e-beneficios.md",
+     "arquivo": "setores/Servicos/03-pessoal-e-beneficios.md",
      "itens": "19–24",
      "ponto": "PLR e bônus: provisionar quando houver obrigação presente (legal, por acordo/convenção ou prática) e o valor puder ser estimado."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Pessoal, férias, PLR e stock options",
-     "arquivo": "Servicos/03-pessoal-e-beneficios.md",
+     "arquivo": "setores/Servicos/03-pessoal-e-beneficios.md",
      "itens": "—",
      "ponto": "Planos de saúde pós-emprego e previdência com benefício definido exigem cálculo atuarial; contribuição definida é despesa do período."
     }
@@ -1685,9 +1685,9 @@
    "setores": [
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "setores/Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "—",
      "ponto": "Separar passivo de patrimônio (ações resgatáveis, conversíveis) e regras de compensação."
     }
@@ -1715,33 +1715,33 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Commodities, câmbio e hedge",
-     "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
+     "arquivo": "setores/Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "31–42",
      "ponto": "Divulgar riscos de mercado (câmbio, commodities), análise de sensibilidade, liquidez e os hedges contratados."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
+     "arquivo": "setores/Varejo/03-cartoes-e-recebiveis.md",
      "itens": "31–42",
      "ponto": "Divulgar risco de crédito, de liquidez e as operações de antecipação."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Crédito rural, hedge e CPR",
-     "arquivo": "Agronegocio/03-credito-rural-hedge-e-cpr.md",
+     "arquivo": "setores/Agronegocio/03-credito-rural-hedge-e-cpr.md",
      "itens": "31–42",
      "ponto": "Divulgar riscos de preço, câmbio, crédito e liquidez e os hedges contratados."
     },
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "setores/Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "31–42",
      "ponto": "Divulgar riscos de crédito, liquidez e mercado, com análise de sensibilidade."
     }
@@ -1885,289 +1885,289 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "31–38",
      "ponto": "Receita quando o CONTROLE do produto passa ao cliente. Os Incoterms ajudam: em FOB o controle passa na origem; em CIF/entrega no destino normalmente só na entrega. Frete e seguro prestados depois da transferência do controle podem ser uma obrigação separada."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "35",
      "ponto": "Produção sob encomenda (bens de capital, moldes, equipamentos específicos) sem uso alternativo e com direito a receber pelo que já foi feito: receita ao longo da produção, pelo avanço."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "50–59",
      "ponto": "Descontos, bonificações, rebates por volume, verbas comerciais e multas contratuais são contraprestação variável: reduzem a receita pela melhor estimativa, sem risco de reversão relevante."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "60–65",
      "ponto": "Venda a prazo com juros embutidos: separar o componente de financiamento significativo. Atenção: no Brasil o item 63 (dispensa para prazos de até 1 ano, existente na IFRS 15) foi eliminado; avaliar junto com o AVP da NBC TG 12."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "B20–B27",
      "ponto": "Direito de devolução: receita só pelo que se espera não voltar, com passivo de reembolso e ativo pelo produto a recuperar."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "B28–B33",
      "ponto": "Garantia que só assegura que o produto funciona conforme especificado → provisão (NBC TG 25). Garantia estendida vendida à parte ou serviço adicional → obrigação de desempenho separada, com receita diferida."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "B77–B78",
      "ponto": "Remessa em consignação: sem receita enquanto o consignatário não vender ou não obtiver o controle."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "B79–B82",
      "ponto": "Bill-and-hold (fatura e o produto fica na fábrica a pedido do cliente): só é receita se o produto estiver identificado, pronto, separado e não puder ser usado para outro cliente."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Particularidades por tipo de indústria",
-     "arquivo": "Industrial/09-setores-industriais.md",
+     "arquivo": "setores/Industrial/09-setores-industriais.md",
      "itens": "35",
      "ponto": "Bens de capital sob encomenda (máquinas especiais, estruturas): receita ao longo do tempo quando não há uso alternativo e existe direito de receber pelo que foi executado."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "47",
      "ponto": "A receita exclui valores cobrados em nome de terceiros (ex.: tributos sobre a venda). A DRE brasileira parte da receita bruta e deduz os tributos sobre vendas para chegar à receita líquida."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "B34–B38",
      "ponto": "Marketplace e intermediação: se a empresa não controla a mercadoria antes de ela chegar ao cliente, é agente e reconhece como receita só a comissão (receita líquida), não o valor total da venda."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "B20–B27",
      "ponto": "Direito de devolução ou troca: reconhecer receita só pelo que se espera não voltar; passivo de reembolso e ativo pelo direito de recuperar a mercadoria."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "B39–B43",
      "ponto": "Programa de pontos e cashback que dá direito material ao cliente: parte do preço vai para receita diferida e só vira receita quando os pontos são usados ou expiram."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "B44–B47",
      "ponto": "Vale-presente e créditos pré-pagos: passivo no recebimento; a parte que se espera nunca ser usada (breakage) vira receita na proporção do uso dos demais, se não houver obrigação de repassar a terceiros."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "B28–B33",
      "ponto": "Garantia estendida vendida no caixa é serviço separado; se a loja apenas intermedeia a garantia de uma seguradora, avaliar se é agente (receita = comissão)."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Vendas, marketplace e fidelidade",
-     "arquivo": "Varejo/02-vendas-e-receita.md",
+     "arquivo": "setores/Varejo/02-vendas-e-receita.md",
      "itens": "60–65",
      "ponto": "Venda parcelada com juros embutidos: separar o componente financeiro; avaliar junto com o AVP da NBC TG 12 (no Brasil não existe a dispensa de até 1 ano do item 63 da IFRS 15)."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Varejo/05-tributos-no-varejo.md",
+     "arquivo": "setores/Varejo/05-tributos-no-varejo.md",
      "itens": "47",
      "ponto": "Tributos cobrados do cliente em nome do fisco não são receita: deduções da receita bruta na DRE."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "22–30",
      "ponto": "Separar o contrato em obrigações de desempenho: implantação, suporte e treinamento podem ser obrigações distintas, cada uma com sua receita."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "35",
      "ponto": "Receita ao longo do tempo quando o cliente recebe e consome o serviço enquanto é prestado (ex.: suporte mensal, limpeza, vigilância) ou quando não há uso alternativo e há direito de receber pelo que foi feito (ex.: projeto sob medida)."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "39–45",
      "ponto": "Medir o progresso por método de produto (entregas, marcos) ou de insumo (horas, custos incorridos), o que melhor representar a transferência do serviço."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "B16",
      "ponto": "Expediente prático: se o direito a receber corresponde ao valor do serviço prestado até a data (ex.: horas faturáveis), reconhecer receita pelo valor faturável."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "50–59",
      "ponto": "Bônus de desempenho, multas por SLA e descontos por volume são contraprestação variável: estimar e só reconhecer o que não tiver risco relevante de reversão."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "18–21",
      "ponto": "Aditivos de escopo ou preço: modificação de contrato; pode virar contrato separado ou ajuste do contrato existente."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Receita de serviços e contratos",
-     "arquivo": "Servicos/01-receita-de-servicos.md",
+     "arquivo": "setores/Servicos/01-receita-de-servicos.md",
      "itens": "B34–B38",
      "ponto": "Agências e intermediadores (viagens, mídia, mão de obra terceirizada): se não controlam o serviço antes da entrega ao cliente, são agentes e a receita é a comissão."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "SaaS, software e licenças",
-     "arquivo": "Servicos/02-saas-software-e-licencas.md",
+     "arquivo": "setores/Servicos/02-saas-software-e-licencas.md",
      "itens": "B52–B63",
      "ponto": "Licença de propriedade intelectual: direito de acessar (receita ao longo do tempo, típico de SaaS) ou direito de usar como está (receita no momento da entrega da licença)."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "SaaS, software e licenças",
-     "arquivo": "Servicos/02-saas-software-e-licencas.md",
+     "arquivo": "setores/Servicos/02-saas-software-e-licencas.md",
      "itens": "B48–B51",
      "ponto": "Taxa de implantação ou adesão não reembolsável: se não transfere um serviço distinto, é adiantamento e vira receita ao longo da assinatura."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "SaaS, software e licenças",
-     "arquivo": "Servicos/02-saas-software-e-licencas.md",
+     "arquivo": "setores/Servicos/02-saas-software-e-licencas.md",
      "itens": "91–94",
      "ponto": "Comissão de venda paga só quando o contrato é fechado (custo incremental) vira ativo e é amortizada pelo prazo esperado do cliente; pode ir direto para despesa se a amortização for de até 1 ano (item 94)."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "SaaS, software e licenças",
-     "arquivo": "Servicos/02-saas-software-e-licencas.md",
+     "arquivo": "setores/Servicos/02-saas-software-e-licencas.md",
      "itens": "95–98",
      "ponto": "Custos para cumprir o contrato (ex.: preparação de ambiente) viram ativo só se não estiverem no alcance de outra norma, gerarem recursos para cumprir o contrato e forem recuperáveis."
     },
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Escritórios, tributos e pequenas empresas",
-     "arquivo": "Servicos/04-escritorios-tributos-e-pequenas.md",
+     "arquivo": "setores/Servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "47",
      "ponto": "ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "35",
      "ponto": "Receita ao longo do tempo quando a unidade não tem uso alternativo para a incorporadora e ela tem direito executável a receber pelo que já construiu (item 35(c))."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "39–45",
      "ponto": "Medição do progresso da obra, em geral pelo custo incorrido sobre o custo total orçado (POC), excluindo custos que não refletem o avanço (ex.: terreno)."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "B20–B27",
      "ponto": "Distratos e devoluções esperadas: estimar cancelamentos e não reconhecer receita do que se espera reverter (Lei 13.786/2018 define multas e retenções)."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Construtoras e empreiteiras",
-     "arquivo": "Construcao/02-contratos-de-construcao.md",
+     "arquivo": "setores/Construcao/02-contratos-de-construcao.md",
      "itens": "35",
      "ponto": "Obra no terreno do cliente: o cliente controla o ativo à medida que ele é construído, logo receita ao longo do tempo."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Construtoras e empreiteiras",
-     "arquivo": "Construcao/02-contratos-de-construcao.md",
+     "arquivo": "setores/Construcao/02-contratos-de-construcao.md",
      "itens": "39–45",
      "ponto": "Medir o progresso por custo incorrido, medição física ou marcos, o que melhor refletir a execução."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Construtoras e empreiteiras",
-     "arquivo": "Construcao/02-contratos-de-construcao.md",
+     "arquivo": "setores/Construcao/02-contratos-de-construcao.md",
      "itens": "18–21",
      "ponto": "Aditivos de escopo e preço são modificações de contrato: contabilizar quando aprovados pelas partes."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Construtoras e empreiteiras",
-     "arquivo": "Construcao/02-contratos-de-construcao.md",
+     "arquivo": "setores/Construcao/02-contratos-de-construcao.md",
      "itens": "50–59",
      "ponto": "Pleitos (claims), multas por atraso e bônus de desempenho são contraprestação variável: só reconhecer o que for altamente provável de não reverter."
     }
@@ -2193,89 +2193,89 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Commodities, câmbio e hedge",
-     "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
+     "arquivo": "setores/Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "2.4",
      "ponto": "Contratos de compra de commodity para uso na própria produção (own use), liquidados com entrega física, ficam fora do tratamento de derivativo."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Commodities, câmbio e hedge",
-     "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
+     "arquivo": "setores/Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "cap. 6",
      "ponto": "Hedge de fluxo de caixa de compras futuras de insumo ou de câmbio: a parte eficaz do derivativo fica no ORA e depois entra no custo do estoque comprado; a parte ineficaz vai para o resultado. Exige documentação formal na contratação."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
+     "arquivo": "setores/Varejo/03-cartoes-e-recebiveis.md",
      "itens": "5.1.3",
      "ponto": "Contas a receber de clientes sem componente de financiamento significativo são reconhecidas pelo preço da transação."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
+     "arquivo": "setores/Varejo/03-cartoes-e-recebiveis.md",
      "itens": "5.5.15",
      "ponto": "Perda de crédito esperada pela abordagem simplificada (vida inteira) para contas a receber de clientes; matriz de provisão por faixa de atraso é aceita."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Cartões, recebíveis e antecipação",
-     "arquivo": "Varejo/03-cartoes-e-recebiveis.md",
+     "arquivo": "setores/Varejo/03-cartoes-e-recebiveis.md",
      "itens": "3.2.3–3.2.6",
      "ponto": "Antecipação de recebíveis (banco, adquirente, FIDC): só baixa o recebível se transferir substancialmente todos os riscos e benefícios; se a loja continua com o risco de inadimplência ou chargeback, mantém o recebível e registra um passivo (empréstimo)."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Crédito rural, hedge e CPR",
-     "arquivo": "Agronegocio/03-credito-rural-hedge-e-cpr.md",
+     "arquivo": "setores/Agronegocio/03-credito-rural-hedge-e-cpr.md",
      "itens": "2.4",
      "ponto": "Contrato de venda futura com entrega física da própria produção (uso próprio) fica fora do tratamento de derivativo; contratos liquidados pelo líquido ou para especulação são derivativos a valor justo."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Crédito rural, hedge e CPR",
-     "arquivo": "Agronegocio/03-credito-rural-hedge-e-cpr.md",
+     "arquivo": "setores/Agronegocio/03-credito-rural-hedge-e-cpr.md",
      "itens": "cap. 6",
      "ponto": "Hedge de preço de commodities agrícolas ou de câmbio de exportação: contabilidade de hedge exige documentação formal; a parte eficaz do hedge de fluxo de caixa fica no ORA até a venda."
     },
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Classificação e mensuração (Res. CMN 4.966)",
-     "arquivo": "Financeiro/01-classificacao-e-mensuracao.md",
+     "arquivo": "setores/Financeiro/01-classificacao-e-mensuracao.md",
      "itens": "4.1",
      "ponto": "Referência IFRS 9 para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro."
     },
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "setores/Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "4.1",
      "ponto": "Classificar aplicações e recebíveis pelo modelo de negócios e pelos fluxos de caixa contratuais."
     },
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "setores/Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "5.5.15",
      "ponto": "Clientes e ativos contratuais: abordagem simplificada de perda esperada pela vida inteira."
     },
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Instrumentos financeiros nas empresas em geral",
-     "arquivo": "Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
+     "arquivo": "setores/Financeiro/06-instrumentos-financeiros-fora-do-sistema-financeiro.md",
      "itens": "3.2.3–3.2.6",
      "ponto": "Venda ou cessão de recebíveis só baixa o ativo se transferir substancialmente riscos e benefícios."
     }
@@ -2301,9 +2301,9 @@
    "setores": [
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Seguradoras e previdência complementar",
-     "arquivo": "Financeiro/05-seguradoras-e-previdencia.md",
+     "arquivo": "setores/Financeiro/05-seguradoras-e-previdencia.md",
      "itens": "—",
      "ponto": "Demonstrações dos próprios planos de benefícios de aposentadoria."
     }
@@ -2329,9 +2329,9 @@
    "setores": [
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Seguradoras e previdência complementar",
-     "arquivo": "Financeiro/05-seguradoras-e-previdencia.md",
+     "arquivo": "setores/Financeiro/05-seguradoras-e-previdencia.md",
      "itens": "—",
      "ponto": "Contratos de seguro (IFRS 17): fluxos de caixa de cumprimento + margem contratual de serviço; obrigatório para companhias abertas desde 2023."
     }
@@ -2358,25 +2358,25 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "69–74",
      "ponto": "A partir de 1/1/2027 (IFRS 18): o CPV fica na categoria operacional e a DRE passa a ter os subtotais obrigatórios 'resultado operacional' e 'resultado antes de financiamentos e tributos sobre o lucro'."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "78–83",
      "ponto": "Despesas operacionais agregadas por natureza ou por função (o custo das vendas é rubrica funcional que junta matéria-prima, pessoal, depreciação e amortização). Quem apresenta por função passa a divulgar em nota valores por natureza de despesas específicas."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "DRE, CPV e apresentação",
-     "arquivo": "Industrial/07-dre-e-apresentacao.md",
+     "arquivo": "setores/Industrial/07-dre-e-apresentacao.md",
      "itens": "117–125",
      "ponto": "Indicadores ajustados usados em comunicados ao mercado (EBITDA ajustado, margem ou lucro ajustado) são medidas de desempenho definidas pela administração (MPMs), com conciliação e explicação em nota. Não são MPM o lucro bruto e o resultado operacional antes de depreciação, amortização e impairment, o 'EBITDA' simples (item 118)."
     }
@@ -2519,17 +2519,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Máquinas, fábrica e imobilizado",
-     "arquivo": "Industrial/02-maquinas-e-fabrica.md",
+     "arquivo": "setores/Industrial/02-maquinas-e-fabrica.md",
      "itens": "—",
      "ponto": "Se mudar a estimativa da provisão de desmontagem ou restauração do local da fábrica, o ajuste vai para o custo do ativo e afeta a depreciação futura, não o resultado de uma vez."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "—",
      "ponto": "Revisões da estimativa de desmontagem/restauração ajustam o ativo e a provisão; a atualização pelo tempo é despesa financeira."
     }
@@ -2555,9 +2555,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "—",
      "ponto": "Participação em fundos de desativação ou recuperação ambiental fica separada da provisão, sem compensação."
     }
@@ -2583,25 +2583,25 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Vendas, garantia e pós-venda",
-     "arquivo": "Industrial/03-vendas-e-pos-venda.md",
+     "arquivo": "setores/Industrial/03-vendas-e-pos-venda.md",
      "itens": "—",
      "ponto": "Fabricantes de eletroeletrônicos: obrigação de custear o descarte (logística reversa) conforme a participação no mercado no período de mensuração."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "—",
      "ponto": "Resíduos de equipamentos eletroeletrônicos: obrigação de custear a destinação conforme a participação de mercado."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Particularidades por tipo de indústria",
-     "arquivo": "Industrial/09-setores-industriais.md",
+     "arquivo": "setores/Industrial/09-setores-industriais.md",
      "itens": "—",
      "ponto": "Eletroeletrônicos: obrigação de logística reversa de resíduos."
     }
@@ -2669,9 +2669,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Particularidades por tipo de indústria",
-     "arquivo": "Industrial/09-setores-industriais.md",
+     "arquivo": "setores/Industrial/09-setores-industriais.md",
      "itens": "—",
      "ponto": "Mineração a céu aberto: remoção de estéril na fase de produção vira ativo quando melhora o acesso ao minério."
     }
@@ -2735,9 +2735,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Commodities, câmbio e hedge",
-     "arquivo": "Industrial/06-commodities-cambio-e-hedge.md",
+     "arquivo": "setores/Industrial/06-commodities-cambio-e-hedge.md",
      "itens": "—",
      "ponto": "Adiantamento a fornecedor estrangeiro: o item comprado fica pela taxa do dia do adiantamento (não é atualizado depois)."
     }
@@ -2763,9 +2763,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Tributos e incentivos fiscais",
-     "arquivo": "Industrial/04-tributos-e-incentivos.md",
+     "arquivo": "setores/Industrial/04-tributos-e-incentivos.md",
      "itens": "—",
      "ponto": "Teses de IR/CS com tratamento incerto: registrar o efeito se for provável que o fisco não aceite a posição."
     }
@@ -2810,25 +2810,25 @@
    "setores": [
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "2",
      "ponto": "Custo do imóvel: terreno (com gastos de aquisição e regularização), projetos, custos de construção e encargos financeiros do financiamento da obra."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "6–8",
      "ponto": "Encargos financeiros dos financiamentos diretamente associados à construção e à compra de terrenos do empreendimento são registrados no estoque de imóveis a comercializar; o valor capitalizado no período não pode exceder os encargos incorridos e é calculado por taxa de capitalização sobre os custos incorridos com o imóvel."
     },
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "20–22",
      "ponto": "Permuta entre itens de mesma natureza e valor não gera ganho (item 20). Permuta de terreno por unidades a construir tem substância comercial: o terreno entra no estoque pelo valor justo, em contrapartida a adiantamento de clientes no passivo, na assinatura do contrato (itens 21 e 22)."
     }
@@ -2854,9 +2854,9 @@
    "setores": [
     {
      "setor": "Construção e Incorporação",
-     "pasta": "Construcao",
+     "pasta": "setores/Construcao",
      "topico": "Incorporação imobiliária",
-     "arquivo": "Construcao/01-incorporacao-imobiliaria.md",
+     "arquivo": "setores/Construcao/01-incorporacao-imobiliaria.md",
      "itens": "—",
      "ponto": "Orientação brasileira original sobre receita de unidades em construção (escrita para a antiga ITG 02/NBC TG 30, hoje revogadas): usar como histórico; a base atual é a NBC TG 47."
     }
@@ -2979,17 +2979,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "—",
      "ponto": "Créditos de carbono, permissões de emissão e CBIO: classificação conforme o uso (estoque, intangível ou instrumento financeiro) e passivo pela obrigação de emissão."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Usinas, CBIO e auditoria no agro",
-     "arquivo": "Agronegocio/04-usinas-carbono-e-auditoria.md",
+     "arquivo": "setores/Agronegocio/04-usinas-carbono-e-auditoria.md",
      "itens": "—",
      "ponto": "CBIO emitido por produtor de biocombustível e créditos de carbono: classificação conforme o uso (estoque, intangível ou instrumento financeiro); obrigação de emissão gera passivo."
     }
@@ -3222,9 +3222,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "—",
      "ponto": "Entender o sistema de custeio, o ERP, os critérios de rateio e os controles de produção para avaliar riscos."
     }
@@ -3345,33 +3345,33 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "4–7",
      "ponto": "Estoque relevante: o auditor acompanha a contagem física (observa procedimentos, faz contagens de teste, verifica itens obsoletos e o corte), inclusive quando a contagem não é na data do balanço."
     },
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "8",
      "ponto": "Estoque em poder de terceiros (armazém geral, industrialização por encomenda, consignação): confirmação com o terceiro ou inspeção."
     },
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Mercadorias, CMV e perdas",
-     "arquivo": "Varejo/01-mercadorias-e-cmv.md",
+     "arquivo": "setores/Varejo/01-mercadorias-e-cmv.md",
      "itens": "4–7",
      "ponto": "Auditor acompanha a contagem física das lojas e centros de distribuição relevantes, inclusive quando o inventário é rotativo ou em outra data."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Usinas, CBIO e auditoria no agro",
-     "arquivo": "Agronegocio/04-usinas-carbono-e-auditoria.md",
+     "arquivo": "setores/Agronegocio/04-usinas-carbono-e-auditoria.md",
      "itens": "4–7",
      "ponto": "Contagem física de estoques de grãos e insumos e verificação de existência de rebanho."
     }
@@ -3397,9 +3397,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "—",
      "ponto": "Confirmações externas de saldos com fornecedores, clientes e estoques de terceiros."
     }
@@ -3444,9 +3444,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "—",
      "ponto": "Procedimentos analíticos: margem por produto, giro de estoque, custo unitário x histórico, ociosidade."
     }
@@ -3494,17 +3494,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "—",
      "ponto": "Estimativas mais auditadas: provisão para obsolescência e VRL, vida útil das máquinas, provisão de garantias, impairment da planta e provisões ambientais."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Usinas, CBIO e auditoria no agro",
-     "arquivo": "Agronegocio/04-usinas-carbono-e-auditoria.md",
+     "arquivo": "setores/Agronegocio/04-usinas-carbono-e-auditoria.md",
      "itens": "—",
      "ponto": "Valor justo de ativos biológicos é estimativa: o auditor avalia premissas (preço, produtividade, taxa de desconto) e o viés da administração."
     }
@@ -3645,17 +3645,17 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Auditoria na indústria",
-     "arquivo": "Industrial/10-auditoria-na-industria.md",
+     "arquivo": "setores/Industrial/10-auditoria-na-industria.md",
      "itens": "—",
      "ponto": "Uso de especialistas: avaliadores de máquinas, engenheiros (vida útil, estágio de obras), atuários, especialistas ambientais."
     },
     {
      "setor": "Agronegócio",
-     "pasta": "Agronegocio",
+     "pasta": "setores/Agronegocio",
      "topico": "Usinas, CBIO e auditoria no agro",
-     "arquivo": "Agronegocio/04-usinas-carbono-e-auditoria.md",
+     "arquivo": "setores/Agronegocio/04-usinas-carbono-e-auditoria.md",
      "itens": "—",
      "ponto": "Uso de especialistas (agrônomos, avaliadores) para laudos de ativos biológicos e terras."
     }
@@ -3851,9 +3851,9 @@
    "setores": [
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Demonstrações, superávit e patrimônio social",
-     "arquivo": "TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
+     "arquivo": "setores/TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
      "itens": "—",
      "ponto": "Entidades menores podem aplicar a NBC TG 1000 (PME) com as adaptações da ITG 2002."
     }
@@ -3879,9 +3879,9 @@
    "setores": [
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Escritórios, tributos e pequenas empresas",
-     "arquivo": "Servicos/04-escritorios-tributos-e-pequenas.md",
+     "arquivo": "setores/Servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "—",
      "ponto": "Pequena empresa (receita bruta acima de R$ 4,8 milhões até R$ 78 milhões/ano): contabilidade simplificada."
     }
@@ -3907,9 +3907,9 @@
    "setores": [
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Escritórios, tributos e pequenas empresas",
-     "arquivo": "Servicos/04-escritorios-tributos-e-pequenas.md",
+     "arquivo": "setores/Servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "—",
      "ponto": "Microentidade (receita bruta até R$ 4,8 milhões/ano): conjunto mínimo de demonstrações e regras simplificadas."
     }
@@ -3976,9 +3976,9 @@
    "setores": [
     {
      "setor": "Serviços",
-     "pasta": "Servicos",
+     "pasta": "setores/Servicos",
      "topico": "Escritórios, tributos e pequenas empresas",
-     "arquivo": "Servicos/04-escritorios-tributos-e-pequenas.md",
+     "arquivo": "setores/Servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "—",
      "ponto": "Escrituração contábil regular é obrigatória mesmo no Simples Nacional (livro Diário, documentação, guarda)."
     }
@@ -4006,9 +4006,9 @@
    "setores": [
     {
      "setor": "Financeiro",
-     "pasta": "Financeiro",
+     "pasta": "setores/Financeiro",
      "topico": "Seguradoras e previdência complementar",
-     "arquivo": "Financeiro/05-seguradoras-e-previdencia.md",
+     "arquivo": "setores/Financeiro/05-seguradoras-e-previdencia.md",
      "itens": "—",
      "ponto": "Entidades fechadas de previdência complementar (fundos de pensão): demonstrações específicas por plano e gestão previdencial, assistencial e administrativa."
     }
@@ -4034,81 +4034,81 @@
    "setores": [
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Doações, subvenções, convênios e gratuidades",
-     "arquivo": "TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
+     "arquivo": "setores/TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
      "itens": "9",
      "ponto": "Doações e subvenções recebidas para custeio e investimento são reconhecidas no resultado, observada a NBC TG 07 (confronto com as despesas que compensam)."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Doações, subvenções, convênios e gratuidades",
-     "arquivo": "TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
+     "arquivo": "setores/TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
      "itens": "9A–9B",
      "ponto": "Só subvenções concedidas em caráter particular entram na NBC TG 07. Imunidades tributárias não são subvenção e não viram receita."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Doações, subvenções, convênios e gratuidades",
-     "arquivo": "TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
+     "arquivo": "setores/TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
      "itens": "11–12",
      "ponto": "Enquanto não cumpridos os requisitos para ir ao resultado, a subvenção, contribuição ou incentivo registrado no ativo tem contrapartida em conta específica do passivo; receitas de convênios, parcerias e termos de fomento seguem esse controle."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Doações, subvenções, convênios e gratuidades",
-     "arquivo": "TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
+     "arquivo": "setores/TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
      "itens": "10, 13, 16",
      "ponto": "Receitas e despesas com e sem gratuidade são segregadas por atividade (educação, saúde, assistência social...); gratuidade concedida por prestação de serviço é registrada pelo valor efetivamente praticado."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Doações, subvenções, convênios e gratuidades",
-     "arquivo": "TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
+     "arquivo": "setores/TerceiroSetor/01-receitas-doacoes-e-subvencoes.md",
      "itens": "19",
      "ponto": "Trabalho voluntário é reconhecido pelo valor justo do serviço, como se tivesse havido o desembolso (receita e despesa)."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Demonstrações, superávit e patrimônio social",
-     "arquivo": "TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
+     "arquivo": "setores/TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
      "itens": "15",
      "ponto": "Superávit ou déficit incorporado ao patrimônio social; a parte com restrição de aplicação fica em conta específica do patrimônio líquido."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Demonstrações, superávit e patrimônio social",
-     "arquivo": "TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
+     "arquivo": "setores/TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
      "itens": "18",
      "ponto": "Doação patrimonial do instituidor (fundações) vai direto para o patrimônio social."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Demonstrações, superávit e patrimônio social",
-     "arquivo": "TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
+     "arquivo": "setores/TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
      "itens": "23",
      "ponto": "No balanço, 'Capital' passa a ser 'Patrimônio Social'; nas demonstrações, 'lucro ou prejuízo' passa a ser 'superávit ou déficit'."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Demonstrações, superávit e patrimônio social",
-     "arquivo": "TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
+     "arquivo": "setores/TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
      "itens": "24",
      "ponto": "Na demonstração do resultado, destacar as gratuidades concedidas e os serviços voluntários obtidos, com divulgação por atividade."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Demonstrações, superávit e patrimônio social",
-     "arquivo": "TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
+     "arquivo": "setores/TerceiroSetor/02-demonstracoes-e-patrimonio-social.md",
      "itens": "27",
      "ponto": "Notas: contexto operacional, critérios de receitas e despesas (gratuidades, doações, subvenções), renúncia fiscal, subvenções recebidas e sua aplicação, recursos com restrição, entre outros."
     }
@@ -4153,25 +4153,25 @@
    "setores": [
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Cooperativas",
-     "arquivo": "TerceiroSetor/03-cooperativas.md",
+     "arquivo": "setores/TerceiroSetor/03-cooperativas.md",
      "itens": "5–7",
      "ponto": "Escrituração segregada em ato cooperativo e não cooperativo; a Demonstração de Sobras ou Perdas evidencia separadamente cada um, por atividade, produto ou serviço."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Cooperativas",
-     "arquivo": "TerceiroSetor/03-cooperativas.md",
+     "arquivo": "setores/TerceiroSetor/03-cooperativas.md",
      "itens": "18–19",
      "ponto": "Capital formado por quotas-partes; quotas de cooperados demitidos, eliminados ou excluídos vão para passivo (capital a restituir) assim que recebido o pedido ou deliberada a saída."
     },
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Cooperativas",
-     "arquivo": "TerceiroSetor/03-cooperativas.md",
+     "arquivo": "setores/TerceiroSetor/03-cooperativas.md",
      "itens": "20–21",
      "ponto": "Sobras à disposição da assembleia são conta de trânsito; distribuição prevista no estatuto é registrada no passivo no encerramento."
     }
@@ -5086,9 +5086,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Meio ambiente, resíduos e clima",
-     "arquivo": "Industrial/08-meio-ambiente-e-clima.md",
+     "arquivo": "setores/Industrial/08-meio-ambiente-e-clima.md",
      "itens": "—",
      "ponto": "IFRS S2 (companhias abertas desde 2026): emissões de escopo 1 (combustão e processos da fábrica), 2 (energia comprada) e 3, riscos físicos e de transição, metas e análise de cenários."
     }
@@ -5957,9 +5957,9 @@
    "setores": [
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Partidos políticos e eleições",
-     "arquivo": "TerceiroSetor/04-partidos-e-eleicoes.md",
+     "arquivo": "setores/TerceiroSetor/04-partidos-e-eleicoes.md",
      "itens": "—",
      "ponto": "Contabilidade aplicada a partidos políticos e eleições: escrituração, demonstrações e prestação de contas."
     }
@@ -5985,9 +5985,9 @@
    "setores": [
     {
      "setor": "Varejo",
-     "pasta": "Varejo",
+     "pasta": "setores/Varejo",
      "topico": "Tributos no varejo",
-     "arquivo": "Varejo/05-tributos-no-varejo.md",
+     "arquivo": "setores/Varejo/05-tributos-no-varejo.md",
      "itens": "12",
      "ponto": "Reforma tributária: créditos de IBS e CBS recuperáveis também ficam fora do custo da mercadoria."
     }
@@ -6013,9 +6013,9 @@
    "setores": [
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Partidos políticos e eleições",
-     "arquivo": "TerceiroSetor/04-partidos-e-eleicoes.md",
+     "arquivo": "setores/TerceiroSetor/04-partidos-e-eleicoes.md",
      "itens": "—",
      "ponto": "Confirma a obrigatoriedade da NBC TPE 01 nos processos eleitorais a partir de 2026."
     }
@@ -6124,9 +6124,9 @@
    "setores": [
     {
      "setor": "Indústria",
-     "pasta": "Industrial",
+     "pasta": "setores/Industrial",
      "topico": "Particularidades por tipo de indústria",
-     "arquivo": "Industrial/09-setores-industriais.md",
+     "arquivo": "setores/Industrial/09-setores-industriais.md",
      "itens": "—",
      "ponto": "Exploração e avaliação de recursos minerais: sem CPC equivalente; empresas brasileiras costumam seguir a política anterior com teste de impairment."
     }
@@ -6987,9 +6987,9 @@
    "setores": [
     {
      "setor": "Terceiro Setor",
-     "pasta": "TerceiroSetor",
+     "pasta": "setores/TerceiroSetor",
      "topico": "Cooperativas",
-     "arquivo": "TerceiroSetor/03-cooperativas.md",
+     "arquivo": "setores/TerceiroSetor/03-cooperativas.md",
      "itens": "—",
      "ponto": "Referência internacional (ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate."
     }

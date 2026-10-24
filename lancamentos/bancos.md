@@ -1,6 +1,6 @@
 # Lançamentos: instituições financeiras (Res. CMN 4.966)
 
-Normas: Res. CMN 4.966/2021 e Res. BCB 352/2023, nas demonstrações individuais pelo COSIF. Ver [Financeiro/02-perda-esperada-e-ativo-problematico.md](../Financeiro/02-perda-esperada-e-ativo-problematico.md). Os nomes de conta são genéricos: use as contas do COSIF.
+Normas: Res. CMN 4.966/2021 e Res. BCB 352/2023, nas demonstrações individuais pelo COSIF. Ver [Financeiro/02-perda-esperada-e-ativo-problematico.md](../setores/Financeiro/02-perda-esperada-e-ativo-problematico.md). Os nomes de conta são genéricos: use as contas do COSIF.
 
 ## 1. Concessão de empréstimo com provisão no estágio 1
 

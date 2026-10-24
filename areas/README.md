@@ -37,13 +37,13 @@ Trechos das normas que importam para cada tipo de empresa, com itens, checklist 
 
 | Setor | Use para | Pasta |
 |---|---|---|
-| **Indústria** | custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, meio ambiente, auditoria de estoques | [Industrial/README.md](../Industrial/README.md) |
-| **Varejo** | estoque de mercadorias, CMV, perdas e quebras, vendas, marketplace, fidelidade, vale-presente, devoluções, cartões e antecipação de recebíveis, aluguel de lojas, ICMS-ST | [Varejo/README.md](../Varejo/README.md) |
-| **Serviços** | receita de serviços e contratos, SaaS e licenças, comissões de venda, projetos, pessoal (férias, 13º, PLR), stock options, software, escritórios alugados, ISS, pequenas empresas de serviço | [Servicos/README.md](../Servicos/README.md) |
-| **Agronegócio** | rebanho, lavouras, florestas, cana, café, ativo biológico a valor justo, colheita, terras, plantas portadoras, arrendamento e parceria rural, crédito rural subsidiado, hedge de commodities, CPR, CBIO | [Agronegocio/README.md](../Agronegocio/README.md) |
-| **Construção e Incorporação** | incorporação imobiliária, venda na planta, POC, permuta de terreno, juros na obra, distratos, empreiteiras, contratos de construção, medição de obra, aditivos e pleitos, contrato oneroso, garantia de obra | [Construcao/README.md](../Construcao/README.md) |
-| **Terceiro Setor** | associações, fundações, ONGs, OSCIPs, entidades beneficentes, doações, subvenções e convênios, gratuidades, trabalho voluntário, superávit, patrimônio social, cooperativas, partidos políticos | [TerceiroSetor/README.md](../TerceiroSetor/README.md) |
-| **Financeiro** | bancos, cooperativas de crédito, fintechs, seguradoras, previdência complementar, Banco Central (COSIF, Res. CMN 4.966, Res. BCB 352), ativo problemático, estágios de perda esperada, renegociação, SUSEP, CVM | [Financeiro/README.md](../Financeiro/README.md) |
+| **Indústria** | custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, meio ambiente, auditoria de estoques | [setores/Industrial/README.md](../setores/Industrial/README.md) |
+| **Varejo** | estoque de mercadorias, CMV, perdas e quebras, vendas, marketplace, fidelidade, vale-presente, devoluções, cartões e antecipação de recebíveis, aluguel de lojas, ICMS-ST | [setores/Varejo/README.md](../setores/Varejo/README.md) |
+| **Serviços** | receita de serviços e contratos, SaaS e licenças, comissões de venda, projetos, pessoal (férias, 13º, PLR), stock options, software, escritórios alugados, ISS, pequenas empresas de serviço | [setores/Servicos/README.md](../setores/Servicos/README.md) |
+| **Agronegócio** | rebanho, lavouras, florestas, cana, café, ativo biológico a valor justo, colheita, terras, plantas portadoras, arrendamento e parceria rural, crédito rural subsidiado, hedge de commodities, CPR, CBIO | [setores/Agronegocio/README.md](../setores/Agronegocio/README.md) |
+| **Construção e Incorporação** | incorporação imobiliária, venda na planta, POC, permuta de terreno, juros na obra, distratos, empreiteiras, contratos de construção, medição de obra, aditivos e pleitos, contrato oneroso, garantia de obra | [setores/Construcao/README.md](../setores/Construcao/README.md) |
+| **Terceiro Setor** | associações, fundações, ONGs, OSCIPs, entidades beneficentes, doações, subvenções e convênios, gratuidades, trabalho voluntário, superávit, patrimônio social, cooperativas, partidos políticos | [setores/TerceiroSetor/README.md](../setores/TerceiroSetor/README.md) |
+| **Financeiro** | bancos, cooperativas de crédito, fintechs, seguradoras, previdência complementar, Banco Central (COSIF, Res. CMN 4.966, Res. BCB 352), ativo problemático, estágios de perda esperada, renegociação, SUSEP, CVM | [setores/Financeiro/README.md](../setores/Financeiro/README.md) |
 
 ## Apoio
 

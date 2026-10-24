@@ -9,7 +9,7 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 | CFC | Conselho Federal de Contabilidade | Edita as NBC, obrigatórias para os contadores. |
 | CPC | Comitê de Pronunciamentos Contábeis (e de Sustentabilidade) | Emite os pronunciamentos CPC, ICPC e OCPC, base das NBC TG. |
 | CVM | Comissão de Valores Mobiliários | Torna os CPCs obrigatórios para companhias abertas. |
-| BCB / CMN | Banco Central / Conselho Monetário Nacional | Normas contábeis das instituições financeiras (COSIF, Res. CMN 4.966). Ver [Financeiro](Financeiro/README.md). |
+| BCB / CMN | Banco Central / Conselho Monetário Nacional | Normas contábeis das instituições financeiras (COSIF, Res. CMN 4.966). Ver [Financeiro](setores/Financeiro/README.md). |
 | SUSEP | Superintendência de Seguros Privados | Normas das seguradoras e entidades abertas de previdência. |
 | PREVIC | Superintendência Nacional de Previdência Complementar | Regula fundos de pensão (EFPC). |
 | IASB / IFRS | International Accounting Standards Board / International Financial Reporting Standards | Normas internacionais; as IAS são as normas antigas ainda vigentes. |
@@ -67,7 +67,7 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 | Sigla / termo | Significado | Norma |
 |---|---|---|
 | Obrigação de desempenho (de performance) | Promessa de entregar bem ou serviço distinto ao cliente | NBC TG 47, itens 22–30 |
-| POC | Percentage of completion: receita pelo avanço da obra | NBC TG 47, itens 35 e 39–45; [Construção](Construcao/README.md) |
+| POC | Percentage of completion: receita pelo avanço da obra | NBC TG 47, itens 35 e 39–45; [Construção](setores/Construcao/README.md) |
 | Principal x agente | Quem controla o bem antes da venda (principal: receita bruta; agente: comissão) | NBC TG 47, itens B34–B38 |
 | Breakage | Parte de vales e créditos pré-pagos que o cliente nunca usará | NBC TG 47, itens B44–B47 |
 | Bill-and-hold | Faturar e manter o produto com o vendedor | NBC TG 47, itens B79–B82 |
@@ -89,7 +89,7 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 |---|---|---|
 | IRPJ / CSLL | Imposto de renda e contribuição social sobre o lucro | NBC TG 32 |
 | IR diferido | Tributo sobre diferenças temporárias e prejuízos fiscais | NBC TG 32 |
-| ICMS / ICMS-ST | Imposto estadual sobre circulação de mercadorias / substituição tributária | NBC TG 16 item 11; [Comércio](Varejo/README.md) |
+| ICMS / ICMS-ST | Imposto estadual sobre circulação de mercadorias / substituição tributária | NBC TG 16 item 11; [Comércio](setores/Varejo/README.md) |
 | IPI, PIS, COFINS, ISS | Tributos sobre produção, faturamento e serviços (em extinção com a reforma) | NBC TG 16; NBC TG 47 item 47 |
 | IBS / CBS / IS | Imposto e contribuição sobre bens e serviços / Imposto Seletivo (reforma tributária) | [areas/reforma-tributaria.md](areas/reforma-tributaria.md) |
 | Split payment | Recolhimento automático do IBS/CBS pelo banco na liquidação do pagamento | OT CFC 01/2026, item 22 |
@@ -115,13 +115,13 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 | PME | Pequena e média empresa | NBC TG 1000; NBC TG 1001 e 1002 |
 | ME / EPP | Microempresa / empresa de pequeno porte (classificação legal) | NBC TG 1002 / 1001 (limites contábeis próprios) |
 | EFPC | Entidade fechada de previdência complementar (fundo de pensão) | ITG 2001 |
-| COSIF | Plano contábil das instituições financeiras | [Financeiro](Financeiro/README.md) |
-| CEBAS | Certificação de entidade beneficente de assistência social | LC 187/2021; [Terceiro Setor](TerceiroSetor/README.md) |
-| RET | Regime especial de tributação da incorporação | Lei 10.931/2004; [Construção](Construcao/README.md) |
-| CPR | Cédula de produto rural | [Agronegócio](Agronegocio/README.md) |
+| COSIF | Plano contábil das instituições financeiras | [Financeiro](setores/Financeiro/README.md) |
+| CEBAS | Certificação de entidade beneficente de assistência social | LC 187/2021; [Terceiro Setor](setores/TerceiroSetor/README.md) |
+| RET | Regime especial de tributação da incorporação | Lei 10.931/2004; [Construção](setores/Construcao/README.md) |
+| CPR | Cédula de produto rural | [Agronegócio](setores/Agronegocio/README.md) |
 | CBIO | Crédito de descarbonização (RenovaBio) | CTG 10 |
 | FIDC | Fundo de investimento em direitos creditórios | NBC TG 48, itens 3.2.3–3.2.6 |
-| MDR | Taxa de desconto cobrada pelas credenciadoras de cartão | [Comércio](Varejo/README.md) |
+| MDR | Taxa de desconto cobrada pelas credenciadoras de cartão | [Comércio](setores/Varejo/README.md) |
 
 <!-- fontes:inicio -->
 ## Fontes

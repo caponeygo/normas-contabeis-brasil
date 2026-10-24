@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from dados import ler  # noqa: E402
 
 INI, FIM = "<!-- fontes:inicio -->", "<!-- fontes:fim -->"
-ALVOS = ["GLOSSARIO.md", "lancamentos/*.md", "areas/*.md", "*/0*.md", "*/README.md"]
+ALVOS = ["GLOSSARIO.md", "lancamentos/*.md", "areas/*.md", "setores/*/*.md"]
 FORA = {"README.md", "AGENTS.md", "CLAUDE.md", "CONTRIBUTING.md", "dados/README.md", "verificacao", "testes"}
 
 

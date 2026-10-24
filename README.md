@@ -1,447 +1,90 @@
-# Normas Contábeis Brasileiras: CPC, NBC TG, ITG e NBC TA
+# Normas Contábeis Brasileiras
 
-Índice das normas contábeis e de auditoria do Brasil, com links para os textos oficiais:
-pronunciamentos do **CPC** (Comitê de Pronunciamentos Contábeis), **NBC TG / ITG / CTG** (contabilidade)
-e **NBC TA** (auditoria independente) do **CFC** (Conselho Federal de Contabilidade).
+Índice das normas contábeis e de auditoria do Brasil (**CFC** e **CPC**) e das internacionais (**IFRS**, **IAS**, **ISA**):
+o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lançamentos e o link para o texto oficial.
 
-> **Aviso:** este repositório não hospeda o texto das normas. Os documentos têm direitos autorais
-> (parte deriva das IFRS © IFRS Foundation e das ISA © IFAC) e são revisados com frequência.
-> Os links levam ao texto no site do CFC. Confira sempre a versão vigente. Este índice não é aconselhamento profissional.
+> O texto integral das normas não está aqui (direitos autorais): cada norma tem um resumo e o link oficial.
+> Confira sempre a versão vigente. Este índice não é aconselhamento profissional.
 
-## Sumário
-- [Fontes oficiais](#fontes-oficiais)
-- [Como ler a numeração](#como-ler-a-numeração)
-- [NBC TG (correlação CPC / IFRS)](#nbc-tg--normas-técnicas-gerais)
-- [ITG / CTG / OTG (ICPC / OCPC)](#itg--ctg--otg--interpretações-e-comunicados)
-- [NBC TA (auditoria independente)](#nbc-ta--auditoria-independente)
-- PMEs (NBC TG 1000), normas específicas (ITG 2000), NBC TSP, NBC TDS, NBC TR, NBC TO, NBC TSC, NBC TI, NBC TP, NBC PG, NBC PA e NBC PP: logo após as NBC TA
-- [IFRS e IAS (IASB)](#normas-internacionais--ifrs-e-ias-iasb)
+## Como achar o que você precisa
+
+| Você tem… | Vá para |
+|---|---|
+| **o código** da norma (ex.: NBC TG 27, CPC 47, IAS 16, NBC TA 700) | [**normas/**](normas/README.md): lista A–Z com 270 normas e um arquivo por série |
+| **o assunto** (ex.: imobilizado, leasing, receita, IR diferido) | [**areas/**](areas/README.md): normas por área, busca por tema com sinônimos e por demonstração (DRE, DFC…) |
+| **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
+| **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
+| **uma sigla** que não conhece | [**GLOSSARIO.md**](GLOSSARIO.md) |
+| **reforma tributária** (IBS e CBS) | [**areas/reforma-tributaria.md**](areas/reforma-tributaria.md) |
+
+Também dá para usar a busca do GitHub (tecla **/** ou **t** para procurar arquivos) ou o
+[**mapa interativo**](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html).
+
+## Por setor
+
+| Setor | Use para |
+|---|---|
+| [Indústria](setores/Industrial/README.md) | custo de produção, estoques, máquinas, vendas e garantia, incentivos de ICMS, P&D, commodities, meio ambiente, auditoria de estoques |
+| [Varejo](setores/Varejo/README.md) | estoque de mercadorias, CMV, perdas e quebras, vendas, marketplace, fidelidade, vale-presente, devoluções, cartões e antecipação de recebíveis, aluguel de lojas, ICMS-ST |
+| [Serviços](setores/Servicos/README.md) | receita de serviços e contratos, SaaS e licenças, comissões de venda, projetos, pessoal (férias, 13º, PLR), stock options, software, escritórios alugados, ISS, pequenas empresas de serviço |
+| [Agronegócio](setores/Agronegocio/README.md) | rebanho, lavouras, florestas, cana, café, ativo biológico a valor justo, colheita, terras, plantas portadoras, arrendamento e parceria rural, crédito rural subsidiado, hedge de commodities, CPR, CBIO |
+| [Construção e Incorporação](setores/Construcao/README.md) | incorporação imobiliária, venda na planta, POC, permuta de terreno, juros na obra, distratos, empreiteiras, contratos de construção, medição de obra, aditivos e pleitos, contrato oneroso, garantia de obra |
+| [Terceiro Setor](setores/TerceiroSetor/README.md) | associações, fundações, ONGs, OSCIPs, entidades beneficentes, doações, subvenções e convênios, gratuidades, trabalho voluntário, superávit, patrimônio social, cooperativas, partidos políticos |
+| [Financeiro](setores/Financeiro/README.md) | bancos, cooperativas de crédito, fintechs, seguradoras, previdência complementar, Banco Central (COSIF, Res. CMN 4.966, Res. BCB 352), ativo problemático, estágios de perda esperada, renegociação, SUSEP, CVM |
+
+## Por área
+
+| Área | Use para |
+|---|---|
+| [Apresentação e Divulgação](areas/apresentacao-e-divulgacao.md) | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos |
+| [Asseguração](areas/asseguracao.md) | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios |
+| [Ativos](areas/ativos.md) | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda |
+| [Auditoria Independente](areas/auditoria-independente.md) | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência |
+| [Auditoria Interna](areas/auditoria-interna.md) | auditor interno |
+| [Contabilidade Eleitoral](areas/contabilidade-eleitoral.md) | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral |
+| [Fundamentos](areas/fundamentos.md) | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação |
+| [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada |
+| [Mensuração](areas/mensuracao.md) | valor justo, ajuste a valor presente |
+| [Moeda e Câmbio](areas/moeda-e-cambio.md) | variação cambial, moeda funcional, conversão, hiperinflação |
+| [Participações Societárias](areas/participacoes-societarias.md) | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio |
+| [Passivos](areas/passivos.md) | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos |
+| [Patrimônio Líquido](areas/patrimonio-liquido.md) | dividendos, JCP, ações, stock options, lucro por ação |
+| [Pequenas e Médias Empresas](areas/pequenas-e-medias-empresas.md) | PME, pequena empresa, microentidade, NBC TG 1000 |
+| [Perícia Contábil](areas/pericia-contabil.md) | perícia judicial, laudo pericial, apuração de haveres |
+| [Receitas](areas/receitas.md) | reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais |
+| [Revisão](areas/revisao.md) | revisão de ITR e demonstrações (segurança limitada) |
+| [Serviços Correlatos](areas/servicos-correlatos.md) | procedimentos previamente acordados, compilação |
+| [Setor Público](areas/setor-publico.md) | governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP) |
+| [Setores Específicos](areas/setores-especificos.md) | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes |
+| [Sustentabilidade](areas/sustentabilidade.md) | ESG, clima, IFRS S1/S2, carbono, relato integrado |
+| [Tributos](areas/tributos.md) | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS) |
+| [Ética e Exercício Profissional](areas/etica-e-exercicio-profissional.md) | código de ética, independência, educação continuada, CNAI, qualidade de firmas |
+| [Normas Internacionais](areas/normas-internacionais.md) | IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC |
+
+## O que tem em cada pasta
+
+| Pasta / arquivo | Conteúdo |
+|---|---|
+| `normas/` | Índice de todas as normas, por série e em ordem alfabética |
+| `areas/` | Uma página por área de assunto, com resumo de cada norma |
+| `setores/` | Uma pasta por setor, com os itens das normas, checklist e perguntas frequentes |
+| `lancamentos/` | Exemplos de lançamentos contábeis |
+| `GLOSSARIO.md` | Siglas e termos |
+| `normas.json` | Todos os dados em JSON (para sistemas e IA) |
+| `AGENTS.md` | Instruções para assistentes de IA (Copilot, Claude etc.) |
+| `dados/` | Planilhas que geram tudo (manutenção) |
+| `scripts/`, `testes/`, `verificacao/`, `graphify-out/` | Geradores, testes e relatórios automáticos (manutenção) |
 
 ## Fontes oficiais
 - CFC, Normas Brasileiras de Contabilidade: <https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/>
-- CFC, normas completas (NBC TG, ITG, CTG): <https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/normas-completas/>
-- CFC, NBC TA: <https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-ta-de-auditoria-independente/>
 - CPC: <https://www.cpc.org.br>
 - CVM: <https://www.gov.br/cvm>
+- Banco Central (normas contábeis): <https://www3.bcb.gov.br/aplica/cosif>
+- IFRS Foundation: <https://www.ifrs.org/issued-standards/list-of-standards/>
+- IAASB: <https://www.iaasb.org/>
 
-- IFRS Foundation (IFRS, IAS, IFRS S): <https://www.ifrs.org/issued-standards/list-of-standards/>
-- IAASB (ISA): <https://www.iaasb.org/>
-
-## Como ler a numeração
-`CPC 26 (R1)` é o pronunciamento do CPC. O CFC o torna obrigatório para os contadores como `NBC TG 26 (R5)`.
-`(Rn)` indica a revisão. As interpretações `ICPC` correspondem às `ITG`, e as orientações `OCPC` correspondem aos `CTG`.
-
-## Encontrar por área
-
-Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. Mapa interativo: **[graph.html](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.
-
-**Por setor:** [Indústria](Industrial/README.md) · [Varejo](Varejo/README.md) · [Serviços](Servicos/README.md) · [Agronegócio](Agronegocio/README.md) · [Construção e Incorporação](Construcao/README.md) · [Terceiro Setor](TerceiroSetor/README.md) · [Financeiro](Financeiro/README.md). **Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · [Reforma tributária](areas/reforma-tributaria.md).
-
-| Área | Use para | Normas |
-|---|---|---|
-| [Apresentação e Divulgação](areas/apresentacao-e-divulgacao.md) | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 48 |
-| [Asseguração](areas/asseguracao.md) | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 12 |
-| [Ativos](areas/ativos.md) | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 25 |
-| [Auditoria Independente](areas/auditoria-independente.md) | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 39 |
-| [Auditoria Interna](areas/auditoria-interna.md) | auditor interno | 1 |
-| [Contabilidade Eleitoral](areas/contabilidade-eleitoral.md) | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral | 2 |
-| [Fundamentos](areas/fundamentos.md) | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 |
-| [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 13 |
-| [Mensuração](areas/mensuracao.md) | valor justo, ajuste a valor presente | 5 |
-| [Moeda e Câmbio](areas/moeda-e-cambio.md) | variação cambial, moeda funcional, conversão, hiperinflação | 9 |
-| [Participações Societárias](areas/participacoes-societarias.md) | consolidação, equivalência patrimonial, coligadas, joint venture, combinação de negócios, ágio | 20 |
-| [Passivos](areas/passivos.md) | provisões, contingências, processos, benefícios a empregados, previdência, custos de empréstimos | 16 |
-| [Patrimônio Líquido](areas/patrimonio-liquido.md) | dividendos, JCP, ações, stock options, lucro por ação | 10 |
-| [Pequenas e Médias Empresas](areas/pequenas-e-medias-empresas.md) | PME, pequena empresa, microentidade, NBC TG 1000 | 6 |
-| [Perícia Contábil](areas/pericia-contabil.md) | perícia judicial, laudo pericial, apuração de haveres | 4 |
-| [Receitas](areas/receitas.md) | reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais | 6 |
-| [Revisão](areas/revisao.md) | revisão de ITR e demonstrações (segurança limitada) | 6 |
-| [Serviços Correlatos](areas/servicos-correlatos.md) | procedimentos previamente acordados, compilação | 7 |
-| [Setor Público](areas/setor-publico.md) | governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP) | 40 |
-| [Setores Específicos](areas/setores-especificos.md) | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 28 |
-| [Sustentabilidade](areas/sustentabilidade.md) | ESG, clima, IFRS S1/S2, carbono, relato integrado | 8 |
-| [Tributos](areas/tributos.md) | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS) | 7 |
-| [Ética e Exercício Profissional](areas/etica-e-exercicio-profissional.md) | código de ética, independência, educação continuada, CNAI, qualidade de firmas | 12 |
-| [Normas Internacionais](areas/normas-internacionais.md) | IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC | 60 |
-
-## NBC TG – Normas técnicas gerais
-
-| NBC TG | Título | CPC | IFRS/IAS | Texto |
-|---|---|---|---|---|
-| NBC TG Estrutura Conceitual | Estrutura Conceitual para Relatório Financeiro | [CPC 00 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=80) | Framework | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTGEC&arquivo=NBCTGEC.doc) |
-| NBC TG 01 (R4) | Redução ao Valor Recuperável de Ativos | [CPC 01 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=2) | IAS 36 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG01(R4)&arquivo=NBCTG01(R4).doc) |
-| NBC TG 02 (R3) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | [CPC 02 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9) | IAS 21 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG02(R3)&arquivo=NBCTG02(R3).doc) |
-| NBC TG 03 (R3) | Demonstração dos Fluxos de Caixa | [CPC 03 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=34) | IAS 7 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG03(R3)&arquivo=NBCTG03(R3).doc) |
-| NBC TG 04 (R4) | Ativo Intangível | [CPC 04 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35) | IAS 38 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG04(R4)&arquivo=NBCTG04(R4).doc) |
-| NBC TG 05 (R3) | Divulgação sobre Partes Relacionadas | [CPC 05 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36) | IAS 24 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG05(R3)) |
-| NBC TG 06 (R3) | Arrendamentos | [CPC 06 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37) | IFRS 16 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG06(R3)&arquivo=NBCTG06(R3).doc) |
-| NBC TG 07 (R2) | Subvenção e Assistência Governamentais | [CPC 07 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38) | IAS 20 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG07(R2)&arquivo=NBCTG07(R2).doc) |
-| NBC TG 09 (R1) | Demonstração do Valor Adicionado (DVA) | [CPC 09 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=40) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG09(R1)&arquivo=NBCTG09(R1).doc) |
-| NBC TG 10 (R3) | Pagamento Baseado em Ações | [CPC 10 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=41) | IFRS 2 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG10(R3)&arquivo=NBCTG10(R3).doc) |
-| NBC TG 12 (R1) | Ajuste a Valor Presente | [CPC 12 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTG12(R1)) |
-| NBC TG 15 (R4) | Combinação de Negócios | [CPC 15 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=46) | IFRS 3 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG15(R4)&arquivo=NBCTG15(R4).doc) |
-| NBC TG 16 (R2) | Estoques | [CPC 16 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47) | IAS 2 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG16(R2)&arquivo=NBCTG16(R2).doc) |
-| NBC TG 18 (R4) | Investimento em Coligada e em Empreendimento Controlado em Conjunto | [CPC 18 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49) | IAS 28 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTG18(R4)&arquivo=NBCTG18(R4).doc) |
-| NBC TG 19 (R2) | Negócios em Conjunto | [CPC 19 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=50) | IFRS 11 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG19(R2)) |
-| NBC TG 20 (R2) | Custos de Empréstimos | [CPC 20 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51) | IAS 23 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG20(R2)&arquivo=NBCTG20(R2).doc) |
-| NBC TG 21 (R4) | Demonstração Intermediária | [CPC 21 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=52) | IAS 34 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG21(R4)&arquivo=NBCTG21(R4).doc) |
-| NBC TG 22 (R2) | Informações por Segmento | [CPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53) | IFRS 8 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG22(R2)) |
-| NBC TG 23 (R2) | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [CPC 23](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=54) | IAS 8 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG23(R2)&arquivo=NBCTG23(R2).doc) |
-| NBC TG 24 (R2) | Evento Subsequente | [CPC 24](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=55) | IAS 10 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG24(R2)&arquivo=NBCTG24(R2).doc) |
-| NBC TG 25 (R2) | Provisões, Passivos Contingentes e Ativos Contingentes | [CPC 25](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56) | IAS 37 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG25(R2)&arquivo=NBCTG25(R2).doc) |
-| NBC TG 26 (R5) | Apresentação das Demonstrações Contábeis | [CPC 26 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57) | IAS 1 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG26(R5)&arquivo=NBCTG26(R5)%20_rev19.doc) |
-| NBC TG 27 (R4) | Ativo Imobilizado | [CPC 27](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58) | IAS 16 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc) |
-| NBC TG 28 (R4) | Propriedade para Investimento | [CPC 28](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=59) | IAS 40 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG28(R4)&arquivo=NBCTG28(R4).doc) |
-| NBC TG 29 (R2) | Ativo Biológico e Produto Agrícola | [CPC 29](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60) | IAS 41 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG29(R2)) |
-| NBC TG 31 (R4) | Ativo Não Circulante Mantido para Venda e Operação Descontinuada | [CPC 31](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=62) | IFRS 5 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG31(R4)&arquivo=NBCTG31(R4).doc) |
-| NBC TG 32 (R4) | Tributos sobre o Lucro | [CPC 32](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63) | IAS 12 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG32(R4)&arquivo=NBCTG32(R4).doc) |
-| NBC TG 33 (R2) | Benefícios a Empregados | [CPC 33 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=64) | IAS 19 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG33(R2)) |
-| NBC TG 35 (R2) | Demonstrações Separadas | [CPC 35 (R2)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66) | IAS 27 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTG35(R2)) |
-| NBC TG 36 (R3) | Demonstrações Consolidadas | [CPC 36 (R3)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67) | IFRS 10 | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTG36(R3)) |
-| NBC TG 37 (R5) | Adoção Inicial das Normas Internacionais de Contabilidade | [CPC 37 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=68) | IFRS 1 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG37(R5)&arquivo=NBCTG37(R5).doc) |
-| NBC TG 39 (R5) | Instrumentos Financeiros: Apresentação | [CPC 39](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=70) | IAS 32 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG39(R5)&arquivo=NBCTG39(R5).doc) |
-| NBC TG 40 (R3) | Instrumentos Financeiros: Evidenciação | [CPC 40 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71) | IFRS 7 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG40(R3)&arquivo=NBCTG40(R3).doc) |
-| NBC TG 41 (R2) | Resultado por Ação | [CPC 41](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=72) | IAS 33 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG41(R2)) |
-| NBC TG 42 | Contabilidade em Economia Hiperinflacionária | [CPC 42](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=73) | IAS 29 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCTG42&arquivo=NBCTG42.doc) |
-| NBC TG 43 | Adoção Inicial das NBC Ts Convergidas em 2009 | [CPC 43 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=74) | — | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001315) |
-| NBC TG 44 | Demonstrações Combinadas | [CPC 44](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=76) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTG44) |
-| NBC TG 45 (R3) | Divulgação de Participações em Outras Entidades | [CPC 45](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75) | IFRS 12 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG45(R3)&arquivo=NBCTG45(R3).doc) |
-| NBC TG 46 (R2) | Mensuração do Valor Justo | [CPC 46](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78) | IFRS 13 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG46(R2)&arquivo=NBCTG46(R2).doc) |
-| NBC TG 47 | Receita de Contrato com Cliente | [CPC 47](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105) | IFRS 15 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG47&arquivo=NBCTG47.doc) |
-| NBC TG 48 | Instrumentos Financeiros | [CPC 48](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106) | IFRS 9 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG48&arquivo=NBCTG48.doc) |
-| NBC TG 49 | Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria | [CPC 49](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111) | IAS 26 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCTG49&arquivo=NBCTG49.doc) |
-| NBC TG 50 | Contratos de Seguro | [CPC 50](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127) | IFRS 17 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG50&arquivo=NBCTG50.doc) |
-| NBC TG 51 | Apresentação e Divulgação nas Demonstrações Contábeis | [CPC 51](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162) | IFRS 18 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTG51&arquivo=NBCTG51.docx) |
-| NBC TG 900 | Entidades em Liquidação | [CPC Liquidação](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=125) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG900&arquivo=NBCTG900..doc) |
-
-## ITG / CTG / OTG – Interpretações e comunicados
-
-| Norma | Título | CPC equivalente | Texto |
-|---|---|---|---|
-| ITG 01 (R1) | Contratos de Concessão | [ICPC 01 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG01(R1)&arquivo=ITG01(R1).doc) |
-| ITG 07 (R1) | Distribuição de Lucros in Natura | [ICPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG07(R1)) |
-| ITG 08 | Contabilização da Proposta de Pagamento de Dividendos | [ICPC 08 (R1)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=17) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001398) |
-| ITG 09 (R2) | Demonstrações Individuais, Separadas, Consolidadas e Método de Equivalência Patrimonial | [ICPC 09 (R3)](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=18) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/ITG09(R2)&arquivo=ITG09(R2).doc) |
-| ITG 10 | Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento | [ICPC 10](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=19) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001263) |
-| ITG 12 | Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares | [ICPC 12](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001265) |
-| ITG 13 (R2) | Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental | [ICPC 13](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG13(R2)&arquivo=ITG13(R2).doc) |
-| ITG 15 | Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos | [ICPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001289) |
-| ITG 16 (R2) | Extinção de Passivos Financeiros com Instrumentos Patrimoniais | [ICPC 16](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG16(R2)&arquivo=ITG16(R2).doc) |
-| ITG 17 | Contratos de Concessão: Evidenciação | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001375) |
-| ITG 18 | Custos de Remoção de Estéril de Mina de Superfície – Fase de Produção | [ICPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/ITG18) |
-| ITG 19 | Tributos | [ICPC 19](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG19) |
-| ITG 20 | Limite de Ativo de Benefício Definido, Requisitos de Custeio Mínimo e sua Interação | [ICPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG20) |
-| ITG 21 | Transação em Moeda Estrangeira e Adiantamento | [ICPC 21](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG21&arquivo=ITG21.doc) |
-| ITG 22 | Incerteza sobre Tratamento de Tributos sobre o Lucro | [ICPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG22&arquivo=ITG22.doc) |
-| ITG 23 | Aplicação da Abordagem de Atualização Monetária Prevista na NBC TG 42 | [ICPC 23](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=115) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/ITG23&arquivo=ITG23.doc) |
-| CTG 01 | Entidades de Incorporação Imobiliária | [OCPC 01](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=28) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001154) |
-| CTG 04 | Aplicação da ITG 02 – Contrato de Construção do Setor Imobiliário | [OCPC 04](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=31) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001317) |
-| CTG 05 | Contratos de Concessão | [OCPC 05](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=32) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001318) |
-| CTG 06 | Apresentação de Informações Financeiras Pro Forma | [OCPC 06](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=33) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/CTG06) |
-| CTG 07 (R1) | Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral | [OCPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=95) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTG07R1) |
-| CTG 08 | Reconhecimento de Determinados Ativos e Passivos – Distribuidoras de Energia Elétrica | [OCPC 08](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=99) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/CTG08) |
-| CTG 09 | Correlação à Estrutura Conceitual Básica do Relato Integrado | [OCPC 09](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=122) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTG09&arquivo=CTG09.doc) |
-| CTG 10 | Créditos de Carbono (tCO2e), Permissões de Emissão (allowances) e CBIO | [OCPC 10](https://www.cpc.org.br/CPC/Documentos-Emitidos/Orientacoes/Orientacao?Id=161) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTG10&arquivo=CTG10.doc) |
-| OTG 2003 (R1) | Orientações sobre a Aplicação da ITG 2003 (R1) – Entidade Desportiva | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/OTG2003(R1)&arquivo=OTG2003(R1).doc) |
-
-## NBC TA – Auditoria independente
-
-Normas convergidas com as ISA (IAASB/IFAC).
-
-| NBC TA | Título | Texto |
-|---|---|---|
-| NBC TA Estrutura Conceitual | Estrutura Conceitual para Trabalhos de Asseguração | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTAESTRUTURACONCEITUAL) |
-| NBC TA 200 (R1) | Objetivos Gerais do Auditor Independente e a Condução da Auditoria em Conformidade com Normas de Auditoria | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA200(R1)) |
-| NBC TA 210 (R1) | Concordância com os Termos do Trabalho de Auditoria | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA210(R1)) |
-| NBC TA 220 (R3) | Gestão de Qualidade da Auditoria de Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA220(R3)&arquivo=NBCTA220%20(R3).doc) |
-| NBC TA 230 (R1) | Documentação de Auditoria | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA230(R1)) |
-| NBC TA 240 (R2) | Responsabilidade do Auditor em Relação a Fraude | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA240(R2)&arquivo=NBCTA240(R2).docx) |
-| NBC TA 250 | Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA250) |
-| NBC TA 260 (R2) | Comunicação com os Responsáveis pela Governança | [abrir](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf) |
-| NBC TA 265 | Comunicação de Deficiências de Controle Interno | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001210) |
-| NBC TA 300 (R1) | Planejamento da Auditoria de Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA300(R1)) |
-| NBC TA 315 (R2) | Identificação e Avaliação dos Riscos de Distorção Relevante | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTA315(R2)&arquivo=NBCTA315(R2).doc) |
-| NBC TA 320 (R1) | Materialidade no Planejamento e na Execução da Auditoria | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA320(R1)) |
-| NBC TA 330 (R1) | Resposta do Auditor aos Riscos Avaliados | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA330(R1)) |
-| NBC TA 402 | Considerações de Auditoria para Entidade que Utiliza Organização Prestadora de Serviços | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001215) |
-| NBC TA 450 (R1) | Avaliação das Distorções Identificadas durante a Auditoria | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA450(R1)) |
-| NBC TA 500 (R1) | Evidência de Auditoria | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA500(R1)) |
-| NBC TA 501 | Evidência de Auditoria – Considerações Específicas para Itens Selecionados | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218) |
-| NBC TA 505 | Confirmações Externas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001219) |
-| NBC TA 510 (R1) | Trabalhos Iniciais – Saldos Iniciais | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA510(R1)) |
-| NBC TA 520 | Procedimentos Analíticos | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001221) |
-| NBC TA 530 | Amostragem em Auditoria | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001222) |
-| NBC TA 540 (R2) | Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc) |
-| NBC TA 550 | Partes Relacionadas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001224) |
-| NBC TA 560 (R1) | Eventos Subsequentes | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA560(R1)) |
-| NBC TA 570 (R1) | Continuidade Operacional | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA570(R1)&arquivo=NBCTA570(R1).docx) |
-| NBC TA 580 (R1) | Representações Formais | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA580(R1)) |
-| NBC TA 600 (R2) | Auditorias de Demonstrações Contábeis de Grupos, Incluindo o Trabalho dos Auditores dos Componentes | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTA600(R2)&arquivo=NBC%20TA%20600%20(R2).doc) |
-| NBC TA 610 | Utilização do Trabalho de Auditoria Interna | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/NBCTA610) |
-| NBC TA 620 | Utilização do Trabalho de Especialistas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001230) |
-| NBC TA 700 | Formação da Opinião e Emissão do Relatório do Auditor Independente | [abrir](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf) |
-| NBC TA 701 | Comunicação dos Principais Assuntos de Auditoria (PAA) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA701) |
-| NBC TA 705 | Modificações na Opinião do Auditor Independente | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA705) |
-| NBC TA 706 | Parágrafos de Ênfase e Parágrafos de Outros Assuntos | [abrir](https://cfc.org.br/wp-content/uploads/2026/06/NBC-TA-706.pdf) |
-| NBC TA 710 (R1) | Informações Comparativas – Valores Correspondentes e Demonstrações Contábeis Comparativas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA710(R1)) |
-| NBC TA 720 | Responsabilidade do Auditor em Relação a Outras Informações | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA720) |
-| NBC TA 800 | Auditorias de Demonstrações Elaboradas de Acordo com Estruturas Conceituais para Propósitos Especiais | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA800&arquivo=NBCTA800.doc) |
-| NBC TA 805 | Auditoria de Quadros Isolados e de Elementos, Contas ou Itens Específicos das Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc) |
-| NBC TA 810 | Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA810&arquivo=NBCTA810.doc) |
-
-## NBC TG – Pequenas e médias empresas e microentidades
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TG 1000 (R1) | Contabilidade para Pequenas e Médias Empresas (CPC PME) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTG1000(R1)&arquivo=NBCTG1000(R1).doc) |
-| NBC TG 1001 | Contabilidade para Pequenas Empresas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1001&arquivo=NBCTG1001.doc) |
-| NBC TG 1002 | Contabilidade para Microentidades | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc) |
-| ITG 1000 | Modelo Contábil para Microentidade e Pequena Empresa | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG1000&arquivo=ITG%201000.doc) |
-| CTG 1000 | Adoção Plena da NBC TG 1000 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/CTG1000) |
-
-## Normas específicas (ITG 2000 e outras)
-
-| Norma | Título | Texto |
-|---|---|---|
-| ITG 2000 (R1) | Escrituração Contábil | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2014/ITG2000(R1)&arquivo=ITG2000(R1).doc) |
-| ITG 2001 | Entidade Fechada de Previdência Complementar | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022/ITG2001&arquivo=ITG%202001.doc) |
-| ITG 2002 (R1) | Entidade sem Finalidade de Lucros | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/ITG2002(R1)&arquivo=ITG2002(R1).doc) |
-| ITG 2003 (R2) | Entidade Desportiva | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/ITG2003(R2)&arquivo=ITG2003_R2.doc) |
-| ITG 2004 | Entidade Cooperativa | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG2004&arquivo=ITG2004.doc) |
-| CTG 2000 | Ajustes das Novas Práticas Contábeis da Lei 11.638/07 e MP 449/08 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001159&arquivo=Res_1159.doc) |
-| CTG 2001 (R3) | Formalidades da Escrituração Contábil em Forma Digital para o SPED | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/CTG2001(R3)) |
-| CTG 2002 | Laudo de Avaliação Emitido por Contador | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/CTG2002&arquivo=CTG2002.doc) |
-| NBC T 15 | Informações de Natureza Social e Ambiental | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2004/001003&arquivo=Res_1003.doc) |
-
-## NBC TSP – Setor público
-
-Convergidas com as IPSAS (IPSASB).
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TSP Estrutura Conceitual (R1) | Estrutura Conceitual para Informação Contábil de Propósito Geral pelas Entidades do Setor Público | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSPEC(R1)&arquivo=NBCTSP_Estrutura(R1).docx) |
-| NBC TSP 01 | Receita de Transação sem Contraprestação | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc) |
-| NBC TSP 02 | Receita de Transação com Contraprestação | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc) |
-| NBC TSP 03 (R1) | Provisões, Passivos Contingentes e Ativos Contingentes | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP03(R1)&arquivo=NBCTSP03(R1).docx) |
-| NBC TSP 04 (R1) | Estoques | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP04(R1)&arquivo=NBCTSP04(R1).docx) |
-| NBC TSP 05 (R1) | Contratos de Concessão de Serviços Públicos: Concedente | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx) |
-| NBC TSP 06 (R1) | Propriedade para Investimento | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP06(R1)&arquivo=NBCTSP06(R1).docx) |
-| NBC TSP 08 (R1) | Ativo Intangível | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP08(R1)&arquivo=NBCTSP08(R1).docx) |
-| NBC TSP 09 (R1) | Redução ao Valor Recuperável de Ativo Não Gerador de Caixa | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP09(R1)&arquivo=NBCTSP09(R1).docx) |
-| NBC TSP 10 (R1) | Redução ao Valor Recuperável de Ativo Gerador de Caixa | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP10(R1)&arquivo=NBCTSP10(R1).docx) |
-| NBC TSP 11 (R1) | Apresentação das Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP11(R1)&arquivo=NBCTSP11(R1).docx) |
-| NBC TSP 12 (R1) | Demonstração dos Fluxos de Caixa | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP12(R1)&arquivo=NBCTSP12(R1).docx) |
-| NBC TSP 13 (R1) | Apresentação de Informação Orçamentária nas Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP13(R1)&arquivo=NBCTSP13(R1).docx) |
-| NBC TSP 14 (R1) | Custos de Empréstimos | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP14(R1)&arquivo=NBCTSP14(R1).docx) |
-| NBC TSP 15 (R1) | Benefícios a Empregados | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP15(R1)&arquivo=NBCTSP15(R1).docx) |
-| NBC TSP 16 (R1) | Demonstrações Contábeis Separadas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP16(R1)&arquivo=NBCTSP16(R1).docx) |
-| NBC TSP 17 (R1) | Demonstrações Contábeis Consolidadas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP17(R1)&arquivo=NBCTSP17(R1).docx) |
-| NBC TSP 18 (R1) | Investimento em Coligada e em Empreendimento Controlado em Conjunto | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP18(R1)&arquivo=NBCTSP18(R1).docx) |
-| NBC TSP 19 (R1) | Acordos em Conjunto | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP19(R1)&arquivo=NBCTSP19(R1).docx) |
-| NBC TSP 20 (R1) | Divulgação de Participações em Outras Entidades | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP20(R1)&arquivo=NBCTSP20(R1).docx) |
-| NBC TSP 21 (R1) | Combinações no Setor Público | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP21(R1)&arquivo=NBCTSP21(R1).docx) |
-| NBC TSP 22 (R1) | Divulgação sobre Partes Relacionadas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP22(R1)&arquivo=NBCTSP22(R1).docx) |
-| NBC TSP 23 (R1) | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP23(R1)&arquivo=NBCTSP23(R1).docx) |
-| NBC TSP 24 (R1) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP24(R1)&arquivo=NBCTSP24(R1).docx) |
-| NBC TSP 25 (R1) | Evento Subsequente | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP25(R1)&arquivo=NBCTSP25(R1).docx) |
-| NBC TSP 26 (R1) | Ativo Biológico e Produto Agrícola | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP26(R1)&arquivo=NBCTSP26(R1).docx) |
-| NBC TSP 27 (R1) | Informações por Segmento | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP27(R1)&arquivo=NBCTSP27(R1).docx) |
-| NBC TSP 28 (R1) | Divulgação de Informação Financeira do Setor Governo Geral | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP28(R1)&arquivo=NBCTSP28(R1).docx) |
-| NBC TSP 29 (R1) | Benefícios Sociais | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP29(R1)&arquivo=NBCTSP29(R1).docx) |
-| NBC TSP 30 (R1) | Instrumentos Financeiros: Apresentação | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP30(R1)&arquivo=NBCTSP30(R1).docx) |
-| NBC TSP 31 (R1) | Instrumentos Financeiros: Reconhecimento e Mensuração | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP31(R1)&arquivo=NBCTSP31(R1).docx) |
-| NBC TSP 32 (R1) | Instrumentos Financeiros: Contabilidade de Hedge (Aplicação Residual) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP32(R1)&arquivo=NBCTSP32(R1).docx) |
-| NBC TSP 33 (R1) | Instrumentos Financeiros: Divulgações | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP33(R1)&arquivo=NBCTSP33(R1).docx) |
-| NBC TSP 34 | Custos no Setor Público | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSP34&arquivo=NBCTSP34.doc) |
-| NBC TSP 35 | Arrendamentos | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP35&arquivo=NBCTSP35.docx) |
-| NBC TSP 37 | Ativo Imobilizado | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP37&arquivo=NBC_TSP_37.docx) |
-| NBC TSP 38 | Mensuração | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx) |
-| CTSP 01 | Provisões, Passivos Contingentes e Ativos Contingentes | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc) |
-| CTSP 02 | Notas Explicativas | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc) |
-
-## NBC TDS – Sustentabilidade
-
-Correlatas às IFRS S1 e S2 (ISSB) e aos CBPS 01 e 02.
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TDS 01 | Requisitos Gerais para Divulgação de Informações Financeiras Relacionadas à Sustentabilidade (IFRS S1) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS01&arquivo=NBCTDS_01.doc) |
-| NBC TDS 02 | Divulgações Relacionadas ao Clima (IFRS S2) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTDS02&arquivo=NBCTDS_02.doc) |
-| NBC TAS 5000 | Asseguração de Relatórios de Sustentabilidade (ISSA 5000) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx) |
-
-## NBC TR – Revisão
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TR 2400 | Trabalhos de Revisão de Demonstrações Contábeis | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTR2400) |
-| NBC TR 2410 | Revisão de Informações Intermediárias Executada pelo Auditor da Entidade | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2010/001274) |
-| CTR 01 (R1) | Relatório de Revisão sobre as Informações Trimestrais (ITR) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/CTR01(R1)) |
-| CTR 02 | Relatório de Revisão das ITR e IFT de Instituições Autorizadas pelo Banco Central | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001353) |
-| CTR 03 | Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCCTR03&arquivo=NBCCTR03.doc) |
-| CTR 04 | Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCCTR04) |
-
-## NBC TO – Asseguração
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TO 3000 | Trabalhos de Asseguração Diferente de Auditoria e Revisão | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTO3000) |
-| NBC TO 3402 | Relatórios de Asseguração sobre Controles em Organização Prestadora de Serviços | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001354&arquivo=Res_1354.doc) |
-| NBC TO 3410 | Trabalhos de Asseguração sobre Declarações de Gases de Efeito Estufa | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTO%203410&arquivo=NBC%20TO%203410.doc) |
-| NBC TO 3420 (R1) | Asseguração sobre a Compilação de Informações Financeiras Pro Forma Incluídas em Prospecto | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NBCTO3420(R1)) |
-| CTO 01 | Relatório de Asseguração sobre Sustentabilidade e Responsabilidade Social | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001407) |
-| CTO 02 | Asseguração Razoável sobre Informações Financeiras Pro Forma (Instrução CVM 565) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/CTO02) |
-| CTO 03 | Relatórios sobre Serviços de Depósito Centralizado, Custódia, Escrituração e Emissão de Certificados | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/CTO03&arquivo=CTO03.doc) |
-| CTO 04 (R1) | Orientação aos Auditores (alteração da CTO 04) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTO04(R1)&arquivo=CTO04%20(R1).doc) |
-| CTO 05 (R2) | Asseguração Razoável sobre o Relatório de Dados Anuais (RDA) | [abrir](https://cfc.org.br/wp-content/uploads/2023/09/CTO-05-R2.final_.docx) |
-| CTO 06 | Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/CTO06) |
-| CTO 07 | Asseguração Limitada sobre Informações Não Financeiras do Relato Integrado | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2007&arquivo=CTO%2007%20.doc) |
-| CTO 08 | Asseguração Razoável na Relicitação de Contratos de Parceria Rodoviária | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2008&arquivo=CTO08.doc) |
-
-## NBC TSC – Serviços correlatos
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TSC 4400 | Trabalhos de Procedimentos Previamente Acordados sobre Informações Contábeis (ISRS 4400) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSC4400&arquivo=NBC-TSC_4400.doc) |
-| NBC TSC 4410 | Trabalhos de Compilação de Demonstrações Contábeis (ISRS 4410) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/NBCTSC4410) |
-| CTSC 02 | Procedimentos Previamente Acordados – Despacho ANEEL 514/12 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2012/001400) |
-| CTSC 03 | Procedimentos Previamente Acordados – Termo de Verificação para Substituição da ECD | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/CTSC03&arquivo=CTSC03.doc) |
-| CTSC 04 | Procedimentos Previamente Acordados – Questionário de Riscos Susep | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/CTSC04&arquivo=CTSC04.doc) |
-| CTSC 05 | Procedimentos Previamente Acordados – Art. 242 da Circular Susep 517 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC05&arquivo=NBCCTSC05.doc) |
-| CTSC 06 | Procedimentos Previamente Acordados – Circular Susep 574 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC06&arquivo=NBCCTSC06.doc) |
-
-## NBC TI – Auditoria interna
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TI 01 | Da Auditoria Interna (Res. CFC 986/03) | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2003/000986) |
-
-## NBC TP – Perícia
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TP 01 (R2) | Perícia Contábil | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTP01(R2)&arquivo=NBCTP01(R2).doc) |
-| ITP 01 | Apuração de Haveres | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/ITP01&arquivo=ITP_01_Apuracao%20de%20Haveres.docx) |
-
-## NBC PG – Profissionais gerais (ética)
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC PG 01 | Código de Ética Profissional do Contador | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG01&arquivo=NBCPG01.doc) |
-| NBC PG 12 (R5) | Educação Profissional Continuada | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPG12(R5)&arquivo=NBCPG12(R5).docx) |
-| NBC PG 100 (R1) | Cumprimento do Código, Princípios Fundamentais e Estrutura Conceitual | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG100(R1)&arquivo=NBCPG100(R1).doc) |
-| NBC PG 200 (R1) | Contadores que Prestam Serviços (Contadores Internos) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG200(R1)&arquivo=NBCPG200(R1).doc) |
-| NBC PG 300 (R1) | Contadores que Prestam Serviços (Contadores Externos) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPG300(R1)&arquivo=NBCPG300(R1).doc) |
-
-## NBC PA – Auditor independente
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC PA 01 | Gestão de Qualidade para Firmas de Auditores Independentes | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA01&arquivo=NBCPA01.doc) |
-| NBC PA 02 | Revisão de Qualidade do Trabalho | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCPA02&arquivo=NBCPA02.doc) |
-| NBC PA 11 | Revisão Externa de Qualidade pelos Pares | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCPA11&arquivo=NBCPA11.doc) |
-| NBC PA 13 (R4) | Exame de Qualificação Técnica | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPA13(R4)&arquivo=NBCPA13(R4).docx) |
-| NBC PA 400 | Independência para Trabalho de Auditoria e Revisão | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPA400&arquivo=NBCPA400_Rev28.doc) |
-| NBC PO 900 | Independência para Trabalho de Asseguração Diferente de Auditoria e Revisão | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCPO900&arquivo=NBCPO900.doc) |
-| Res. CFC 1.495/15 | Cadastro Nacional de Auditores Independentes (CNAI) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/001495) |
-
-## NBC PP – Perito contábil
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC PP 01 (R2) | Perito Contábil | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP01(R2)&arquivo=NBCPP01(R2).doc) |
-| NBC PP 02 (R1) | Exame de Qualificação Técnica para Perito Contábil | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCPP02(R1)&arquivo=NBCPP02(R1).doc) |
-
-## NBC TASP – Auditoria do setor público
-
-As NBC TA aplicadas à auditoria de informação contábil histórica no setor público (obrigatórias desde 1/1/2026).
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TASP | Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601) |
-
-## NBC TPE – Contabilidade eleitoral
-
-| Norma | Título | Texto |
-|---|---|---|
-| NBC TPE 01 | A Contabilidade Aplicada a Partidos e Eleições | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/NBCTPE01&arquivo=NBCTPE01.doc) |
-
-## Orientações Técnicas do CFC
-
-Não vinculantes: apoiam o julgamento profissional sem alterar as NBC.
-
-| Norma | Título | Texto |
-|---|---|---|
-| OT CFC 01/2026 | Aspectos Contábeis do IBS, da CBS e do Período de Teste de 2026 (Reforma Tributária) | [abrir](https://cfc.org.br/wp-content/uploads/2026/07/CFC_Orientacao_Tecnica.pdf) |
-| OT CFC 02/2026 | Obrigatoriedade da NBC TPE 01 nos Processos Eleitorais a partir de 2026 | [abrir](https://cfc.org.br/wp-content/uploads/2026/08/CFC_Orientacao_Tecnica_2.pdf) |
-
-## Normas internacionais – IFRS e IAS (IASB)
-
-Textos oficiais (em inglês, cadastro gratuito no site da IFRS Foundation): <https://www.ifrs.org/issued-standards/list-of-standards/>. A coluna CPC / NBC TG indica a norma brasileira convergida.
-
-| Norma | Título | CPC | NBC TG |
-|---|---|---|---|
-| IFRS 1 | Adoção Inicial das IFRS | [CPC 37](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=68) | NBC TG 37 |
-| IFRS 2 | Pagamento Baseado em Ações | [CPC 10](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=41) | NBC TG 10 |
-| IFRS 3 | Combinação de Negócios | [CPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=46) | NBC TG 15 |
-| IFRS 5 | Ativo Não Circulante Mantido para Venda e Operação Descontinuada | [CPC 31](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=62) | NBC TG 31 |
-| IFRS 6 | Exploração e Avaliação de Recursos Minerais | — | — |
-| IFRS 7 | Instrumentos Financeiros: Evidenciação | [CPC 40](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=71) | NBC TG 40 |
-| IFRS 8 | Segmentos Operacionais | [CPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=53) | NBC TG 22 |
-| IFRS 9 | Instrumentos Financeiros | [CPC 48](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=106) | NBC TG 48 |
-| IFRS 10 | Demonstrações Consolidadas | [CPC 36](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67) | NBC TG 36 |
-| IFRS 11 | Negócios em Conjunto | [CPC 19](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=50) | NBC TG 19 |
-| IFRS 12 | Divulgação de Participações em Outras Entidades | [CPC 45](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=75) | NBC TG 45 |
-| IFRS 13 | Mensuração do Valor Justo | [CPC 46](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=78) | NBC TG 46 |
-| IFRS 14 | Contas Regulatórias Diferidas | — | — |
-| IFRS 15 | Receita de Contrato com Cliente | [CPC 47](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=105) | NBC TG 47 |
-| IFRS 16 | Arrendamentos | [CPC 06](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=37) | NBC TG 06 |
-| IFRS 17 | Contratos de Seguro | [CPC 50](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=127) | NBC TG 50 |
-| IFRS 18 | Apresentação e Divulgação nas Demonstrações Financeiras | [CPC 51](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=162) | NBC TG 51 |
-| IFRS 19 | Controladas sem Responsabilidade Pública: Divulgações | [CPC 52](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=164) | — |
-| IAS 1 | Apresentação das Demonstrações Contábeis (substituída pela IFRS 18 a partir de 2027) | [CPC 26](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57) | NBC TG 26 |
-| IAS 2 | Estoques | [CPC 16](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=47) | NBC TG 16 |
-| IAS 7 | Demonstração dos Fluxos de Caixa | [CPC 03](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=34) | NBC TG 03 |
-| IAS 8 | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [CPC 23](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=54) | NBC TG 23 |
-| IAS 10 | Evento Subsequente | [CPC 24](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=55) | NBC TG 24 |
-| IAS 12 | Tributos sobre o Lucro | [CPC 32](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=63) | NBC TG 32 |
-| IAS 16 | Ativo Imobilizado | [CPC 27](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58) | NBC TG 27 |
-| IAS 19 | Benefícios a Empregados | [CPC 33](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=64) | NBC TG 33 |
-| IAS 20 | Subvenção e Assistência Governamentais | [CPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=38) | NBC TG 07 |
-| IAS 21 | Efeitos das Mudanças nas Taxas de Câmbio | [CPC 02](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9) | NBC TG 02 |
-| IAS 23 | Custos de Empréstimos | [CPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=51) | NBC TG 20 |
-| IAS 24 | Divulgação sobre Partes Relacionadas | [CPC 05](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36) | NBC TG 05 |
-| IAS 26 | Planos de Benefícios de Aposentadoria | [CPC 49](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=111) | NBC TG 49 |
-| IAS 27 | Demonstrações Separadas | [CPC 35](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=66) | NBC TG 35 |
-| IAS 28 | Investimento em Coligada e Empreendimento Controlado em Conjunto | [CPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=49) | NBC TG 18 |
-| IAS 29 | Contabilidade em Economia Hiperinflacionária | [CPC 42](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=73) | NBC TG 42 |
-| IAS 32 | Instrumentos Financeiros: Apresentação | [CPC 39](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=70) | NBC TG 39 |
-| IAS 33 | Resultado por Ação | [CPC 41](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=72) | NBC TG 41 |
-| IAS 34 | Demonstração Intermediária | [CPC 21](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=52) | NBC TG 21 |
-| IAS 36 | Redução ao Valor Recuperável de Ativos | [CPC 01](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=2) | NBC TG 01 |
-| IAS 37 | Provisões, Passivos Contingentes e Ativos Contingentes | [CPC 25](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56) | NBC TG 25 |
-| IAS 38 | Ativo Intangível | [CPC 04](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=35) | NBC TG 04 |
-| IAS 40 | Propriedade para Investimento | [CPC 28](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=59) | NBC TG 28 |
-| IAS 41 | Agricultura (Ativo Biológico e Produto Agrícola) | [CPC 29](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=60) | NBC TG 29 |
-| IFRS for SMEs | IFRS para Pequenas e Médias Empresas | [CPC PME](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=79) | NBC TG 1000 |
-| IFRS S1 | Requisitos Gerais de Divulgação de Sustentabilidade | CBPS 01 | NBC TDS 01 |
-| IFRS S2 | Divulgações Relacionadas ao Clima | CBPS 02 | NBC TDS 02 |
-| IFRIC 1 | Mudanças em Passivos por Desativação, Restauração e Similares | [ICPC 12](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=21) | ITG 12 |
-| IFRIC 2 | Cotas de Cooperados em Entidades Cooperativas | [ICPC 14](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23) | — |
-| IFRIC 5 | Direitos a Participações em Fundos de Desativação e Restauração Ambiental | [ICPC 13](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=22) | ITG 13 |
-| IFRIC 6 | Passivos de Participação em Mercado Específico – Resíduos Eletroeletrônicos | [ICPC 15](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=24) | ITG 15 |
-| IFRIC 7 | Abordagem de Atualização Monetária em Economia Hiperinflacionária | [ICPC 23](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=115) | ITG 23 |
-| IFRIC 12 | Contratos de Concessão de Serviços | [ICPC 01](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=10) | ITG 01 |
-| IFRIC 14 | Limite de Ativo de Benefício Definido e Custeio Mínimo | [ICPC 20](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=98) | ITG 20 |
-| IFRIC 16 | Hedge de Investimento Líquido em Operação no Exterior | — | — |
-| IFRIC 17 | Distribuição de Ativos Não Monetários aos Sócios | [ICPC 07](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=16) | ITG 07 |
-| IFRIC 19 | Extinção de Passivos Financeiros com Instrumentos Patrimoniais | [ICPC 16](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=25) | ITG 16 |
-| IFRIC 20 | Custos de Remoção de Estéril em Mina de Superfície | [ICPC 18](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=84) | ITG 18 |
-| IFRIC 21 | Tributos (Levies) | [ICPC 19](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=97) | ITG 19 |
-| IFRIC 22 | Transação em Moeda Estrangeira e Adiantamento | [ICPC 21](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=108) | ITG 21 |
-| IFRIC 23 | Incerteza sobre Tratamento de Tributos sobre o Lucro | [ICPC 22](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=114) | ITG 22 |
-| SIC 29 | Contratos de Concessão de Serviços: Divulgação | [ICPC 17](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=26) | ITG 17 |
-
-As **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700). Textos das ISA: <https://www.iaasb.org/>.
+`CPC 26 (R1)` é o pronunciamento do CPC; o CFC o torna obrigatório como `NBC TG 26 (R5)`. `(Rn)` indica a revisão.
+As `ICPC` correspondem às `ITG` e as `OCPC` aos `CTG`.
 
 ## Manutenção
 Repositório mantido exclusivamente pelo autor; não são aceitas contribuições externas (issues desativadas e pull requests e comentários restritos ao autor).

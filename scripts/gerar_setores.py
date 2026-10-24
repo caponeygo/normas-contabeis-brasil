@@ -62,6 +62,7 @@ def gerar_setor(root, por_cod, m):
         return por_cod[c]["codigo"], por_cod[c]["url"]
 
     pasta = root / m.PASTA
+    raiz = "../" * (m.PASTA.count("/") + 1)          # caminho da página do setor até a raiz
     shutil.rmtree(pasta, ignore_errors=True)
     pasta.mkdir()
     for arq, titulo, usar, intro, pontos, check in m.TOPICOS:
@@ -80,7 +81,7 @@ def gerar_setor(root, por_cod, m):
                                                       "arquivo": f"{m.PASTA}/{arq}.md", "itens": itens, "ponto": txt})
         md.append("\n## Checklist na prática\n")
         md += [f"- [ ] {x}" for x in check]
-        md.append(f"\n[← {m.NOME}: índice](README.md) · [Todas as áreas](../areas/README.md)")
+        md.append(f"\n[← {m.NOME}: índice](README.md) · [Todas as áreas]({raiz}areas/README.md) · [Página inicial]({raiz}README.md)")
         (pasta / f"{arq}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
     idx = [f"# {m.NOME}: normas que importam\n", m.INTRO + "\n", AVISO + "\n",
@@ -97,6 +98,6 @@ def gerar_setor(root, por_cod, m):
         n, u = nome_url(c)
         rot = "" if it in ("—", "") else (" (itens " if re.search(r"[–,]| e ", it) else " (item ") + it + ")"
         idx.append(f"| {p} | {resp} | [{n}]({u}){rot} |")
-    idx.append("\n[Todas as áreas](../areas/README.md) · [Índice geral](../README.md)")
+    idx.append(f"\n[Todas as áreas]({raiz}areas/README.md) · [Página inicial]({raiz}README.md)")
     (pasta / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
     return m.NOME, m.PASTA, m.USE_PARA, [(arq, titulo) for arq, titulo, *_ in m.TOPICOS]

@@ -1,6 +1,6 @@
 # Lançamentos: receitas
 
-Norma principal: NBC TG 47 (CPC 47, IFRS 15). Ver [areas/receitas.md](../areas/receitas.md) e [Varejo/02-vendas-e-receita.md](../Varejo/02-vendas-e-receita.md).
+Norma principal: NBC TG 47 (CPC 47, IFRS 15). Ver [areas/receitas.md](../areas/receitas.md) e [Varejo/02-vendas-e-receita.md](../setores/Varejo/02-vendas-e-receita.md).
 
 ## 1. Venda com direito de devolução
 

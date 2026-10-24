@@ -239,17 +239,118 @@ for sig, nome in DEMOS:
 for extra in (Path(__file__).resolve().parent / "conteudo").glob("*.md"):
     (pasta / extra.name).write_text(extra.read_text(encoding="utf-8"), encoding="utf-8")
 
-i = out.index(next(x for x in out if x.startswith("## NBC TG – Normas técnicas gerais")))
-out.insert(i, "## Encontrar por área\n\n"
-           "Índice completo, busca por tema e por demonstração: **[areas/README.md](areas/README.md)**. "
-           "Mapa interativo: **[graph.html](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html)**. "
-           "Dados: **[normas.json](normas.json)**. Instruções para IA (Copilot, Claude etc.): **[AGENTS.md](AGENTS.md)**.\n\n"
-           "**Por setor:** " + " · ".join(f"[{nome}]({pst}/README.md)" for nome, pst, _, _ in SETORES_GER) + ". "
-           "**Apoio:** [Glossário](GLOSSARIO.md) · [Lançamentos contábeis](lancamentos/README.md) · "
-           "[Reforma tributária](areas/reforma-tributaria.md).\n\n"
-           "| Área | Use para | Normas |\n|---|---|---|\n" +
-           "\n".join(f"| [{a}](areas/{slug(a)}.md) | {QUANDO.get(a, '')} | {len(por_area[a])} |" for a in ordem) + "\n")
-(ROOT / "README.md").write_text("\n".join(out), encoding="utf-8")
+# ---------- normas/: um arquivo por série + lista A–Z ----------
+PASTA_NORMAS = ROOT / "normas"
+shutil.rmtree(PASTA_NORMAS, ignore_errors=True); PASTA_NORMAS.mkdir()
+area_de = {r["codigo"]: r["areas"][0] for r in REC}
+sit_de = {r["codigo"]: r["situacao"] for r in REC}
+arq_secao = {}
+for s in SECOES:
+    arq = slug(s["titulo"]) + ".md"
+    arq_secao[s["secao"]] = arq
+    cab, linha_norma = FORMATOS[s["formato"]]
+    itens = [n for n in NORMAS if n["secao"] == s["secao"]]
+    md = [f"# {s['titulo']}\n", (s["intro"] + "\n") if s["intro"] else "",
+          f"{len(itens)} normas. [← Todas as normas](README.md) · [Página inicial](../README.md)\n", cab]
+    md += [linha_norma(n) for n in itens]
+    if s["formato"] == "ta":
+        md.append("\nAs **NBC TA** seguem a mesma numeração das **ISA** do IAASB (ex.: NBC TA 700 = ISA 700).")
+    (PASTA_NORMAS / arq).write_text("\n".join(x for x in md if x != "") + "\n", encoding="utf-8")
+
+az = ["# Todas as normas\n",
+      "Procure pelo código (no navegador, **Ctrl+F**). Cada norma aponta para a área onde está explicada e para o texto oficial. "
+      "⚠ = revogada.\n",
+      "## Por série\n\n| Série | Normas | Arquivo |\n|---|---|---|"]
+for s in SECOES:
+    k = sum(1 for n in NORMAS if n["secao"] == s["secao"])
+    az.append(f"| {s['titulo']} | {k} | [{arq_secao[s['secao']]}]({arq_secao[s['secao']]}) |")
+az.append("\n## Lista A–Z\n\n| Código | Título | Área | Texto oficial |\n|---|---|---|---|")
+def _ordem(n):
+    return [int(x) if x.isdigit() else x for x in re.findall(r"\d+|\D+", n["codigo"])]
+for n in sorted(NORMAS, key=_ordem):
+    a = area_de[n["codigo"]]
+    aviso = "⚠ " if sit_de[n["codigo"]] != "vigente" else ""
+    az.append(f"| {aviso}**{n['codigo']}** | {n['titulo']} | [{a}](../areas/{slug(a)}.md) | [abrir]({n['url']}) |")
+(PASTA_NORMAS / "README.md").write_text("\n".join(az) + "\n", encoding="utf-8")
+
+# ---------- README.md: página inicial curta ----------
+setores_md = "\n".join(f"| [{nome}]({pst}/README.md) | {usar} |" for nome, pst, usar, _ in SETORES_GER)
+areas_md = "\n".join(f"| [{a}](areas/{slug(a)}.md) | {QUANDO.get(a, '')} |" for a in ordem)
+README = f"""# Normas Contábeis Brasileiras
+
+Índice das normas contábeis e de auditoria do Brasil (**CFC** e **CPC**) e das internacionais (**IFRS**, **IAS**, **ISA**):
+o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lançamentos e o link para o texto oficial.
+
+> O texto integral das normas não está aqui (direitos autorais): cada norma tem um resumo e o link oficial.
+> Confira sempre a versão vigente. Este índice não é aconselhamento profissional.
+
+## Como achar o que você precisa
+
+| Você tem… | Vá para |
+|---|---|
+| **o código** da norma (ex.: NBC TG 27, CPC 47, IAS 16, NBC TA 700) | [**normas/**](normas/README.md): lista A–Z com {len(NORMAS)} normas e um arquivo por série |
+| **o assunto** (ex.: imobilizado, leasing, receita, IR diferido) | [**areas/**](areas/README.md): normas por área, busca por tema com sinônimos e por demonstração (DRE, DFC…) |
+| **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
+| **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
+| **uma sigla** que não conhece | [**GLOSSARIO.md**](GLOSSARIO.md) |
+| **reforma tributária** (IBS e CBS) | [**areas/reforma-tributaria.md**](areas/reforma-tributaria.md) |
+
+Também dá para usar a busca do GitHub (tecla **/** ou **t** para procurar arquivos) ou o
+[**mapa interativo**](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html).
+
+## Por setor
+
+| Setor | Use para |
+|---|---|
+{setores_md}
+
+## Por área
+
+| Área | Use para |
+|---|---|
+{areas_md}
+
+## O que tem em cada pasta
+
+| Pasta / arquivo | Conteúdo |
+|---|---|
+| `normas/` | Índice de todas as normas, por série e em ordem alfabética |
+| `areas/` | Uma página por área de assunto, com resumo de cada norma |
+| `setores/` | Uma pasta por setor, com os itens das normas, checklist e perguntas frequentes |
+| `lancamentos/` | Exemplos de lançamentos contábeis |
+| `GLOSSARIO.md` | Siglas e termos |
+| `normas.json` | Todos os dados em JSON (para sistemas e IA) |
+| `AGENTS.md` | Instruções para assistentes de IA (Copilot, Claude etc.) |
+| `dados/` | Planilhas que geram tudo (manutenção) |
+| `scripts/`, `testes/`, `verificacao/`, `graphify-out/` | Geradores, testes e relatórios automáticos (manutenção) |
+
+## Fontes oficiais
+- CFC, Normas Brasileiras de Contabilidade: <https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/>
+- CPC: <https://www.cpc.org.br>
+- CVM: <https://www.gov.br/cvm>
+- Banco Central (normas contábeis): <https://www3.bcb.gov.br/aplica/cosif>
+- IFRS Foundation: <https://www.ifrs.org/issued-standards/list-of-standards/>
+- IAASB: <https://www.iaasb.org/>
+
+`CPC 26 (R1)` é o pronunciamento do CPC; o CFC o torna obrigatório como `NBC TG 26 (R5)`. `(Rn)` indica a revisão.
+As `ICPC` correspondem às `ITG` e as `OCPC` aos `CTG`.
+
+## Manutenção
+Repositório mantido exclusivamente pelo autor; não são aceitas contribuições externas (issues desativadas e pull requests e comentários restritos ao autor).
+Última conferência do índice: 2026-10-23.
+
+## Licença
+O índice (organização e metadados) está em domínio público sob [CC0 1.0](LICENSE).
+Os textos das normas pertencem aos respectivos titulares.
+"""
+(ROOT / "README.md").write_text(README, encoding="utf-8")
+_set = ["# Normas por setor\n",
+        "Cada pasta traz os trechos das normas que importam para o setor, com os itens, um checklist e perguntas frequentes.\n",
+        "| Setor | Use para |\n|---|---|"]
+_set += [f"| [{nome}]({pst.split('/', 1)[1]}/README.md) | {usar} |" for nome, pst, usar, _ in SETORES_GER]
+_set.append("\n[Página inicial](../README.md) · [Todas as áreas](../areas/README.md) · [Todas as normas](../normas/README.md)")
+(ROOT / "setores" / "README.md").write_text("\n".join(_set) + "\n", encoding="utf-8")
+
 
 # instruções para IA: mesmo texto para Copilot, Claude e outros agentes
 ag = (ROOT / "AGENTS.md").read_text(encoding="utf-8")

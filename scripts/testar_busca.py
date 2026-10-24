@@ -7,7 +7,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PASTAS = ["areas", "lancamentos", "Industrial", "Varejo", "Servicos", "Agronegocio", "Construcao", "TerceiroSetor", "Financeiro"]
+PASTAS = ["areas", "lancamentos", "normas"] + [f"setores/{x}" for x in ["Industrial", "Varejo", "Servicos", "Agronegocio", "Construcao", "TerceiroSetor", "Financeiro"]]
 PARADAS = set("""de da do das dos a o as os e em no na nos nas um uma uns umas para por com sem que qual quais
 como quando onde ou ao aos se sua seu suas seus ser sao foi esta este isso essa esse pelo pela pelos pelas
 mais menos ja so nao sim deve devo pode posso vira entra fica sobre entre ate apos the""".split())

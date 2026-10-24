@@ -1,6 +1,6 @@
 # Lançamentos: agronegócio
 
-Normas: NBC TG 29 (ativo biológico e produto agrícola), NBC TG 16 (estoques). Ver [Agronegocio/01-ativo-biologico-e-colheita.md](../Agronegocio/01-ativo-biologico-e-colheita.md).
+Normas: NBC TG 29 (ativo biológico e produto agrícola), NBC TG 16 (estoques). Ver [Agronegocio/01-ativo-biologico-e-colheita.md](../setores/Agronegocio/01-ativo-biologico-e-colheita.md).
 
 ## 1. Valorização do rebanho
 

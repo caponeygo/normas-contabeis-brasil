@@ -1,6 +1,6 @@
 # Lançamentos: estoques e custos
 
-Norma principal: NBC TG 16 (CPC 16, IAS 2). Ver [Industrial/01-estoques-e-custo-de-producao.md](../Industrial/01-estoques-e-custo-de-producao.md).
+Norma principal: NBC TG 16 (CPC 16, IAS 2). Ver [Industrial/01-estoques-e-custo-de-producao.md](../setores/Industrial/01-estoques-e-custo-de-producao.md).
 
 ## 1. Compra de matéria-prima com ICMS e IPI recuperáveis
 
