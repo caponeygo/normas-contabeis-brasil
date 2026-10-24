@@ -26,7 +26,7 @@ Terra, máquinas e plantas que só servem para produzir frutos ficam no imobiliz
 | Item | O que diz para o setor | Conferência |
 |---|---|---|
 | 9–11 | Arrendamento rural de terra por prazo determinado: em regra arrendamento (direito de uso + passivo). Parceria agrícola com divisão de risco da produção: avaliar se transfere o direito de controlar o uso da terra. | ✅ |
-| 27, 38, B42 | Pagamentos variáveis que dependem da produção ou do preço da commodity (ex.: sacas por hectare a preço de mercado) não entram no passivo, salvo se fixos em substância. | ⚠ não conferido |
+| 27, 38, B42 | Pagamentos variáveis que dependem da produção ou do preço da commodity (ex.: sacas por hectare a preço de mercado) não entram no passivo, salvo se fixos em substância. | ✅ |
 
 ## Checklist na prática
 

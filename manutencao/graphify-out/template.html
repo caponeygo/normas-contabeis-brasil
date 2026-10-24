@@ -3,315 +3,303 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Normas Contábeis · Mapa por área</title>
+<title>Mapa de normas por setor e área</title>
 <style>
-  :root { --bg:#101116; --panel:#16171d; --line:#262832; --text:#e2e4ea; --dim:#8b8f9c; --roxo:#a855f7; }
-  * { box-sizing: border-box; }
-  body { margin:0; height:100vh; display:flex; background:var(--bg); color:var(--text); font:14px/1.4 system-ui, sans-serif; overflow:hidden; }
-  #side { width:310px; background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; flex:none; }
-  #side h1 { font-size:16px; margin:0; padding:16px 16px 4px; }
-  .sub { color:var(--dim); font-size:12px; padding:0 16px 10px; line-height:1.45; }
-  #setor { margin:0 16px 10px; padding:8px 10px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); font:inherit; font-size:13px; }
-  #search { margin:0 16px 10px; padding:9px 12px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); }
-  #legenda { padding:0 12px 6px; }
-  .cat { display:flex; align-items:center; gap:10px; padding:7px 8px; border-radius:8px; cursor:pointer; font-size:13px; }
-  .cat:hover { background:#1e2028; }
-  .cat.off { opacity:.35; }
-  .cat i { width:10px; height:10px; border-radius:50%; background:var(--c); flex:none; }
-  .cat span { margin-left:auto; color:var(--dim); font-size:12px; }
-  .opt { display:flex; align-items:center; gap:8px; margin:6px 16px; color:var(--dim); font-size:12px; cursor:pointer; }
-  .opt input { accent-color:var(--roxo); }
-  #reset { margin:8px 16px 4px; padding:7px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); cursor:pointer; font-size:12px; }
-  #reset:hover { border-color:#6b6f7c; }
-  #info { border-top:1px solid var(--line); padding:12px 16px; margin-top:auto; font-size:12px; color:var(--dim); min-height:150px; overflow:auto; max-height:44vh; }
-  #info b { color:var(--text); font-size:14px; }
-  #info .tag { display:inline-block; padding:1px 8px; border-radius:99px; font-size:11px; margin-left:6px; color:#101116; font-weight:600; }
-  #info .fn { color:var(--text); font-size:11px; line-height:1.7; }
-  #stage { flex:1; position:relative; min-width:0; }
-  svg { width:100%; height:100%; display:block; cursor:grab; touch-action:none; user-select:none; }
-  svg.pan { cursor:grabbing; }
-  .edge { fill:none; stroke:#a0a5b9; stroke-opacity:.14; transition:stroke-opacity .18s; }
-  .edge.on { stroke-opacity:.9; }
-  .edge.dim { stroke-opacity:.02; }
-  .edge.comum { display:none; }
-  body.comuns .edge.comum { display:inline; stroke-opacity:.06; }
-  .node { cursor:pointer; transition:opacity .18s; }
-  .node circle { stroke:#101116; stroke-width:1.2; }
-  .node.arq circle { stroke:rgba(255,255,255,.55); stroke-width:1.6; }
-  .node text { fill:#c9ccd6; pointer-events:none; }
-  .node.arq text { fill:#eef0f6; font-weight:600; }
-  .node.lbl0 text { display:none; }
-  .node.vz text, .node.on text { display:inline; }
-  .node.dim { opacity:.16; }
-  .node.on circle { stroke:#fff; stroke-width:2.2; }
-  .node.on text { fill:#fff; font-weight:700; }
-  .node.off { opacity:.07; }
-  #dica { position:absolute; left:14px; bottom:12px; color:var(--dim); font-size:11px; pointer-events:none; }
-  @media (max-width:760px){ body{flex-direction:column} #side{width:100%;max-height:46vh;overflow:auto} .sub{display:none} #info{min-height:0} }
+:root{--bg:#0d1017;--panel:#151a24;--line:#262d3b;--txt:#e6e9ef;--mut:#9aa4b5;--hub:#ffffff;--card:#1b2230;--acc:#7aa2ff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f7fa;--panel:#ffffff;--line:#dde1ea;--txt:#1b2230;--mut:#5b6678;--hub:#111827;--card:#ffffff;--acc:#2f5bd8}}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+#app{display:grid;grid-template-columns:320px 1fr;height:100%}
+#side{background:var(--panel);border-right:1px solid var(--line);padding:16px;overflow:auto}
+h1{font-size:17px;margin:0 0 6px}
+p.sub{margin:0 0 12px;color:var(--mut);font-size:13px}
+input[type=search]{width:100%;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--txt);font:inherit}
+h2{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin:16px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--txt);padding:5px 10px;border-radius:999px;cursor:pointer;font:inherit;font-size:13px;display:inline-flex;align-items:center;gap:6px}
+.chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+label.opt{display:flex;gap:8px;align-items:flex-start;margin:6px 0;color:var(--txt);font-size:13px;cursor:pointer}
+.leg{display:grid;grid-template-columns:auto 1fr;gap:4px 8px;font-size:12.5px;color:var(--mut)}
+.leg i{width:10px;height:10px;border-radius:50%;margin-top:4px}
+button.act{margin-top:10px;width:100%;padding:8px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--txt);cursor:pointer;font:inherit}
+#stage{position:relative;min-width:0}
+canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+canvas.drag{cursor:grabbing}
+#card{position:absolute;right:14px;bottom:14px;width:min(380px,calc(100% - 28px));background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:0 8px 28px rgba(0,0,0,.25);display:none;max-height:60%;overflow:auto}
+#card h3{margin:0 0 4px;font-size:15px}
+#card .t{color:var(--mut);margin:0 0 8px}
+#card .r{margin:0 0 10px}
+#card a{color:var(--acc);text-decoration:none;margin-right:12px}
+#card a:hover{text-decoration:underline}
+.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:999px;margin-right:6px;border:1px solid}
+.b-rev{color:#ef4444;border-color:#ef4444}.b-fut{color:#f59e0b;border-color:#f59e0b}.b-vig{color:#22c55e;border-color:#22c55e}
+#close{position:absolute;top:8px;right:10px;background:none;border:0;color:var(--mut);font-size:20px;cursor:pointer}
+#hint{position:absolute;left:14px;bottom:12px;color:var(--mut);font-size:12px;pointer-events:none}
+@media (max-width:760px){#app{grid-template-columns:1fr;grid-template-rows:auto 1fr}#side{max-height:44vh;border-right:0;border-bottom:1px solid var(--line)}}
 </style>
 </head>
 <body>
-<div id="side">
-  <h1>Normas Contábeis · Mapa por área</h1>
-  <div class="sub">Cada bolinha é uma norma (as maiores, com contorno, são as áreas), todas num círculo só, agrupadas por área. As cores separam as séries: NBC TG/CPC, setor público, auditoria, IFRS etc. Passe o mouse para ver as ligações, clique para fixar, arraste uma bolinha para puxá-la pelo círculo e use a roda do mouse para o zoom: quanto mais perto, mais nomes aparecem.</div>
-  <input id="search" placeholder="Buscar norma, tema ou sinônimo (ex.: imobilizado, leasing, ISA 700)...">
-  <select id="setor" aria-label="Filtrar por setor"><option value="">Todos os setores</option></select>
-  <div id="legenda"></div>
-  <label class="opt"><input type="checkbox" id="comuns"> Mostrar ligações por tema (normas que tratam do mesmo assunto)</label>
-  <button id="reset">Mostrar tudo</button>
-  <div id="info">Passe o mouse em uma bolinha para ver o que ela é e com quem se liga.</div>
+<div id="app">
+<aside id="side">
+  <h1>Mapa de normas por setor e área</h1>
+  <p class="sub">Os círculos grandes são os <b>setores</b> e as <b>áreas</b>. Cada bolinha é uma norma e fica perto do que ela atende; as que servem a mais de um ficam no meio e ligam os grupos.</p>
+  <input id="q" type="search" placeholder="Buscar norma, tema ou palavra (ex.: NBC TG 27, leasing)" autocomplete="off">
+  <h2>Setor</h2>
+  <div id="chipsS" class="chips"></div>
+  <h2>Mostrar</h2>
+  <label class="opt"><input type="checkbox" id="oNor" checked> as normas (desmarque para ver só setores e áreas)</label>
+  <label class="opt"><input type="checkbox" id="oEq"> ligações entre normas equivalentes (NBC TG ↔ IFRS/IAS)</label>
+  <label class="opt"><input type="checkbox" id="oVig"> destacar revogadas e ainda não vigentes</label>
+  <h2>Cores das normas</h2>
+  <div class="leg" id="leg"></div>
+  <button class="act" id="fit">Ver tudo</button>
+</aside>
+<main id="stage">
+  <canvas id="cv"></canvas>
+  <div id="hint">Passe o mouse para ver as ligações · clique para abrir os detalhes · arraste para mover · roda do mouse para o zoom</div>
+  <div id="card"><button id="close" aria-label="Fechar">×</button><div id="cardBody"></div></div>
+</main>
 </div>
-<div id="stage">
-  <svg id="svg"></svg>
-  <div id="dica">roda do mouse ou pinça com dois dedos: zoom · arrastar o fundo: mover</div>
-</div>
+<script id="dados" type="application/json">__DATA__</script>
 <script>
-const D = __DATA__;
-const NS = 'http://www.w3.org/2000/svg';
-const svg = document.getElementById('svg');
-const R = D.R;
-const MEIO = R + 520;                       // metade do quadro inicial (inclui o comprimento dos nomes)
-const cor = Object.fromEntries(D.cats.map(c => [c.key, c.color]));
-const nomeCat = Object.fromEntries(D.cats.map(c => [c.key, c.name]));
-const idx = Object.fromEntries(D.ents.map((e, i) => [e.id, i]));
-const N = D.ents.length;
-const base = D.ents.map(e => e.ang);         // posição de origem de cada bolinha no círculo
-const ang = base.slice();
-const viz = D.ents.map(() => new Set());
-D.edges.forEach(e => { viz[idx[e.a]].add(idx[e.b]); viz[idx[e.b]].add(idx[e.a]); });
-const PASSO = 2 * Math.PI * R / D.T;         // distância entre bolinhas vizinhas (unidades do desenho)
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById('dados').textContent);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
-svg.setAttribute('viewBox', `${-MEIO} ${-MEIO} ${2 * MEIO} ${2 * MEIO}`);
-svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
-const g = document.createElementNS(NS, 'g'); svg.appendChild(g);
-const gEdges = document.createElementNS(NS, 'g'); g.appendChild(gEdges);
-const gNodes = document.createElementNS(NS, 'g'); g.appendChild(gNodes);
+// ---------- cores ----------
+const SETOR_COR = ['#f97316','#22c55e','#38bdf8','#eab308','#ef4444','#a855f7','#14b8a6'];
+const GRUPOS = [
+  ['Contabilidade (NBC TG, ITG, CTG)', '#9d8cff', s => ['NBC TG','ITG','CTG','OTG','Específicas'].includes(s)],
+  ['Pequenas e médias empresas', '#f28fb4', s => s === 'PME'],
+  ['Setor público', '#34d399', s => s === 'NBC TSP' || s === 'NBC TASP'],
+  ['Sustentabilidade', '#a3e635', s => s === 'NBC TDS'],
+  ['Auditoria (NBC TA)', '#5aa9f0', s => s === 'NBC TA'],
+  ['PCAOB (EUA)', '#22d3ee', s => s === 'PCAOB'],
+  ['IFRS / IAS', '#fb7185', s => s === 'IFRS/IAS'],
+  ['Revisão, asseguração, ética e outras', '#f0b464', s => true],
+];
+const corNorma = s => GRUPOS.find(g => g[2](s))[1];
+document.getElementById('leg').innerHTML = GRUPOS.map(g => `<i style="background:${g[1]}"></i><span>${g[0]}</span>`).join('');
 
-const pos = i => [R * Math.cos(ang[i]), R * Math.sin(ang[i])];
-function caminho(a, b) {
-  const [x1, y1] = pos(a), [x2, y2] = pos(b);
-  // vizinhos: a curva acompanha o círculo; opostos: mergulha pelo centro
-  let dif = Math.abs(ang[a] - ang[b]) % (2 * Math.PI); if (dif > Math.PI) dif = 2 * Math.PI - dif;
-  const f = 1 - 0.9 * Math.pow(dif / Math.PI, 0.8);
-  return `M${x1.toFixed(1)},${y1.toFixed(1)} Q${((x1 + x2) / 2 * f).toFixed(1)},${((y1 + y2) / 2 * f).toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`;
-}
+// ---------- nós e ligações ----------
+const nodes = [], links = [];
+D.setores.forEach((s,i) => nodes.push({type:'setor', i, label:s.nome, color:SETOR_COR[i%SETOR_COR.length], r:26, q:22, deg:0, url:s.url, uso:s.uso}));
+D.areas.forEach((a,i) => nodes.push({type:'area', i, label:a.nome, color:'#8b95a7', r:17, q:15, deg:0, url:a.url, uso:a.uso}));
+const nS = D.setores.length, nA = D.areas.length;
+D.normas.forEach((n,i) => nodes.push({type:'norma', i, label:n.c, n, color:corNorma(n.s), r:4.2, q:1, deg:0}));
+const setorN = i => nodes[i], areaN = i => nodes[nS+i], normaN = i => nodes[nS+nA+i];
+const par = {};                                   // setor-área: quantas normas compartilham
+D.normas.forEach((n,i) => {
+  const me = normaN(i);
+  n.a.forEach(a => links.push({a:me, b:areaN(a), len:34, k:.10, kind:'na'}));
+  n.x.forEach(s => {
+    links.push({a:me, b:setorN(s), len:60, k:.05, kind:'ns'});
+    n.a.forEach(a => { const key = s+'-'+a; par[key] = (par[key]||0)+1; });
+  });
+  n.e.forEach(j => { if (j > i || !D.normas[j].e.includes(i)) links.push({a:me, b:normaN(j), len:26, k:.03, kind:'eq'}); });
+});
+Object.entries(par).forEach(([key,w]) => { const [s,a] = key.split('-').map(Number);
+  links.push({a:setorN(s), b:areaN(a), len:210, k:Math.min(.004*w,.03), kind:'sa', w}); });
+const adj = new Map(nodes.map(n => [n, new Set()]));
+links.forEach(l => { adj.get(l.a).add(l.b); adj.get(l.b).add(l.a); l.a.deg++; l.b.deg++; });
+nodes.forEach(n => { if (n.type==='norma') n.r = 3.6 + Math.min(n.deg,5)*.45; });
 
-// ligações
-const edgeEls = D.edges.map(e => {
-  const p = document.createElementNS(NS, 'path');
-  p.setAttribute('class', 'edge' + (e.c ? ' comum' : ''));
-  p._a = idx[e.a]; p._b = idx[e.b]; p._w = e.w;
-  gEdges.appendChild(p);
-  return p;
+// posição inicial: setores em anel, áreas perto dos setores que mais usam, normas perto dos seus centros
+const R0 = 330;
+setorN && D.setores.forEach((s,i) => { const t = i/nS*Math.PI*2; Object.assign(setorN(i), {x:Math.cos(t)*R0, y:Math.sin(t)*R0, vx:0, vy:0}); });
+D.areas.forEach((a,i) => {
+  let sx=0, sy=0, w=0;
+  for (let s=0;s<nS;s++){ const k = par[s+'-'+i]||0; sx += setorN(s).x*k; sy += setorN(s).y*k; w += k; }
+  const n = areaN(i); n.x = (w? sx/w : (Math.random()-.5)*200) + (Math.random()-.5)*40; n.y = (w? sy/w : (Math.random()-.5)*200) + (Math.random()-.5)*40; n.vx=n.vy=0;
+});
+D.normas.forEach((n,i) => {
+  const hubs = [...n.x.map(setorN), ...n.a.map(areaN)];
+  const m = normaN(i); let x=0,y=0; hubs.forEach(h => { x+=h.x; y+=h.y; });
+  m.x = x/hubs.length + (Math.random()-.5)*50; m.y = y/hubs.length + (Math.random()-.5)*50; m.vx=m.vy=0;
 });
 
-// bolinhas + nomes radiais
-const nodeEls = D.ents.map((e, i) => {
-  const grp = document.createElementNS(NS, 'g');
-  grp.setAttribute('class', 'node' + (e.kind === 'área' ? ' arq' : ''));
-  const c = document.createElementNS(NS, 'circle');
-  c.setAttribute('r', e.r);
-  c.setAttribute('fill', cor[e.cat]);
-  const t = document.createElementNS(NS, 'text');
-  t.textContent = e.label;
-  t.setAttribute('dominant-baseline', 'middle');
-  grp.appendChild(c); grp.appendChild(t);
-  gNodes.appendChild(grp);
-  grp._i = i; grp._c = c; grp._t = t;
-  return grp;
-});
-
-function posicionar(i) {
-  const [x, y] = pos(i), a = ang[i], deg = a * 180 / Math.PI;
-  const el = nodeEls[i];
-  el._c.setAttribute('cx', x.toFixed(1)); el._c.setAttribute('cy', y.toFixed(1));
-  const direita = Math.cos(a) >= 0;
-  const r = R + 12 + D.ents[i].r;
-  el._t.setAttribute('x', 0); el._t.setAttribute('y', 0);
-  el._t.setAttribute('text-anchor', direita ? 'start' : 'end');
-  el._t.setAttribute('transform', `translate(${(Math.cos(a) * r).toFixed(1)},${(Math.sin(a) * r).toFixed(1)}) rotate(${(direita ? deg : deg + 180).toFixed(2)})`);
-}
-function atualizarTudo() {
-  D.ents.forEach((_, i) => posicionar(i));
-  edgeEls.forEach(p => p.setAttribute('d', caminho(p._a, p._b)));
-}
-
-// ---------- zoom adaptativo: texto sempre legível; mais nomes quanto mais perto ----------
-function escalaPx() { return Math.min(svg.clientWidth, svg.clientHeight) / svg.viewBox.baseVal.width; }   // pixels por unidade
-function adaptar() {
-  const s = escalaPx();
-  const fs = Math.max(3.5, Math.min(50, 11 / s));                                  // ~11px na tela
-  const todos = PASSO * s >= 11;                                                    // já dá espaço para todos os nomes
-  nodeEls.forEach((el, i) => {
-    el._t.setAttribute('font-size', fs.toFixed(2));
-    el.classList.toggle('lbl0', !todos && !D.ents[i].rot);
-    // de longe a bolinha cresce um pouco para continuar visível; de perto volta ao tamanho normal
-    el._c.setAttribute('r', Math.max(D.ents[i].r, Math.min(PASSO * 0.46, 1.5 / s)).toFixed(2));
-  });
-  const w = Math.max(0.5, 1.15 / Math.max(s, 0.25)) * 0.9;
-  edgeEls.forEach(p => p.setAttribute('stroke-width', (w * (0.8 + Math.min(p._w, 3) * 0.12)).toFixed(2)));
-}
-
-// ---------- destaque ----------
-let fixo = null, sobre = null, catOculta = new Set(), busca = '', setor = '';
-// área fica visível no filtro de setor se alguma norma dela pertence ao setor
-const grupoTem = new Set();
-D.ents.forEach(e => (e.set || []).forEach(s => grupoTem.add(e.grupo + '|' + s)));
-const info = document.getElementById('info');
-
-function aplicar() {
-  const foco = fixo !== null ? fixo : sobre;
-  const vz = foco !== null ? viz[foco] : null;
-  nodeEls.forEach((el, i) => {
-    const e = D.ents[i];
-    const foraSetor = setor && (e.kind === 'área' ? !grupoTem.has(e.id + '|' + setor) : !(e.set || []).includes(setor));
-    const off = catOculta.has(e.cat) || foraSetor || (busca && !e.label.toLowerCase().includes(busca) && !(e.path || '').toLowerCase().includes(busca));
-    el.classList.toggle('off', !!off);
-    el.classList.toggle('on', foco === i);
-    el.classList.toggle('vz', foco !== null && foco !== i && vz.has(i));
-    el.classList.toggle('dim', !off && foco !== null && foco !== i && !vz.has(i));
-  });
-  edgeEls.forEach(p => {
-    const liga = foco !== null && (p._a === foco || p._b === foco);
-    p.classList.toggle('on', liga);
-    p.classList.toggle('dim', foco !== null && !liga);
-    p.style.display = liga ? 'inline' : '';
-    p.style.stroke = liga ? cor[D.ents[p._a === foco ? p._b : p._a].cat] : '';
-  });
-  mostrar(foco);
-}
-function mostrar(i) {
-  if (i === null) { info.innerHTML = 'Passe o mouse em uma bolinha para ver o que ela é e com quem se liga.'; return; }
-  const e = D.ents[i];
-  const lig = [...viz[i]].map(j => D.ents[j]);
-  const lista = lig.slice(0, 16).map(x => x.label).join(', ') + (lig.length > 16 ? ` … +${lig.length - 16}` : '');
-  info.innerHTML = `<b>${e.label}</b><span class="tag" style="background:${cor[e.cat]}">${e.kind || nomeCat[e.cat]}</span>`
-    + (e.path ? `<br>${e.path}` : '')
-    + (e.url ? `<br><a href="${e.url}" target="_blank" rel="noopener" style="color:#a855f7">${e.rotulo || 'Abrir texto oficial'} ↗</a>` : '')
-    + `<br>${lig.length} ${lig.length === 1 ? 'ligação' : 'ligações'}: <span class="fn">${lista || '—'}</span>`
-    + (e.fn.length ? `<br><br>Normas (${e.fn.length}): <span class="fn">${e.fn.join(', ')}</span>` : '')
-    + (fixo === i ? '<br><br>(fixado — clique no fundo para soltar)' : '');
-}
-
-// ---------- legenda, busca e opções ----------
-const leg = document.getElementById('legenda');
-D.cats.forEach(c => {
-  const n = D.ents.filter(e => e.cat === c.key).length;
-  if (!n) return;
-  const el = document.createElement('div');
-  el.className = 'cat'; el.style.setProperty('--c', c.color);
-  el.innerHTML = `<i></i>${c.name}<span>${n}</span>`;
-  el.onclick = () => { catOculta.has(c.key) ? catOculta.delete(c.key) : catOculta.add(c.key); el.classList.toggle('off'); aplicar(); };
-  leg.appendChild(el);
-});
-document.getElementById('search').oninput = e => { busca = e.target.value.trim().toLowerCase(); aplicar(); };
-const selSetor = document.getElementById('setor');
-(D.setores || []).forEach(s => { const o = document.createElement('option'); o.value = o.textContent = s; selSetor.appendChild(o); });
-selSetor.onchange = e => { setor = e.target.value; aplicar(); };
-document.getElementById('comuns').onchange = e => { document.body.classList.toggle('comuns', e.target.checked); aplicar(); };
-document.getElementById('reset').onclick = () => {
-  fixo = null; sobre = null; busca = ''; setor = ''; catOculta.clear(); document.getElementById('search').value = ''; selSetor.value = '';
-  document.querySelectorAll('.cat').forEach(x => x.classList.remove('off'));
-  const vb = svg.viewBox.baseVal; vb.x = vb.y = -MEIO; vb.width = vb.height = 2 * MEIO;
-  adaptar(); aplicar();
-};
-
-// ---------- interação: passar o mouse, clicar, puxar pelo círculo ----------
-function ponto(ev) {
-  const pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
-  return pt.matrixTransform(g.getScreenCTM().inverse());
-}
-let drag = null, pan = null, animando = 0;
-nodeEls.forEach(el => {
-  el.addEventListener('pointerenter', () => { if (!drag) { sobre = el._i; aplicar(); } });
-  el.addEventListener('pointerleave', () => { if (!drag) { sobre = null; aplicar(); } });
-  el.addEventListener('pointerdown', ev => {
-    ev.stopPropagation();
-    drag = { i: el._i, moveu: false, x0: ev.clientX, y0: ev.clientY, ang0: ang.slice() };
-    el.setPointerCapture(ev.pointerId);
-    cancelAnimationFrame(animando);
-  });
-  el.addEventListener('pointermove', ev => {
-    if (!drag || drag.i !== el._i) return;
-    if (Math.hypot(ev.clientX - drag.x0, ev.clientY - drag.y0) > 4) drag.moveu = true;
-    if (!drag.moveu) return;
-    const p = ponto(ev);
-    const novo = Math.atan2(p.y, p.x);
-    const delta = Math.atan2(Math.sin(novo - drag.ang0[drag.i]), Math.cos(novo - drag.ang0[drag.i]));
-    ang[drag.i] = drag.ang0[drag.i] + delta;
-    viz[drag.i].forEach(j => { ang[j] = drag.ang0[j] + delta * 0.14; });   // os vizinhos acompanham um pouco, como elástico
-    atualizarTudo();
-  });
-  const soltar = () => {
-    if (!drag || drag.i !== el._i) return;
-    const d = drag; drag = null;
-    if (!d.moveu) {
-      fixo = fixo === d.i ? null : d.i; aplicar();
-      if (fixo !== null && innerWidth < 760) info.scrollIntoView({ block: 'nearest', behavior: 'smooth' });   // celular: mostra o painel
-      return;
+// ---------- física ----------
+let alpha = 1;
+function tick(){
+  const N = nodes.length;
+  for (let i=0;i<N;i++){ const a = nodes[i];
+    for (let j=i+1;j<N;j++){ const b = nodes[j];
+      let dx = b.x-a.x, dy = b.y-a.y, d2 = dx*dx+dy*dy;
+      if (d2 > 400000) continue;
+      if (d2 < 1) { dx = Math.random()-.5; dy = Math.random()-.5; d2 = .5; }
+      const d = Math.sqrt(d2), f = 340*a.q*b.q/Math.max(d2, 64)*alpha, fx = dx/d*f, fy = dy/d*f;
+      a.vx -= fx; a.vy -= fy; b.vx += fx; b.vy += fy;
+      const rr = a.r+b.r+2;
+      if (d < rr) { const p = (rr-d)/d*.5; a.vx -= dx*p; a.vy -= dy*p; b.vx += dx*p; b.vy += dy*p; }
     }
-    const de = ang.slice(), t0 = performance.now();
-    const passo = t => {                                                    // volta ao lugar com suavidade
-      const k = Math.min(1, (t - t0) / 520), e = 1 - Math.pow(1 - k, 3);
-      for (let j = 0; j < N; j++) ang[j] = de[j] + (base[j] - de[j]) * e;
-      atualizarTudo();
-      if (k < 1) animando = requestAnimationFrame(passo);
-    };
-    animando = requestAnimationFrame(passo);
-  };
-  el.addEventListener('pointerup', soltar);
-  el.addEventListener('pointercancel', soltar);
-});
-
-// pinça com dois dedos (celular): acompanha os toques na fase de captura, antes das bolinhas
-const toques = new Map();
-let pinca = 0;
-const distancia = () => { const [a, b] = [...toques.values()]; return Math.hypot(a.x - b.x, a.y - b.y); };
-const meio = () => { const [a, b] = [...toques.values()]; return { clientX: (a.x + b.x) / 2, clientY: (a.y + b.y) / 2 }; };
-svg.addEventListener('pointerdown', ev => {
-  toques.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
-  if (toques.size === 2) { pinca = distancia(); pan = null; drag = null; }
-}, true);
-svg.addEventListener('pointermove', ev => {
-  if (!toques.has(ev.pointerId)) return;
-  toques.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
-  if (toques.size === 2 && pinca) { const d = distancia(); if (d > 0) { zoomEm(meio(), pinca / d); pinca = d; } }
-}, true);
-const fimToque = ev => { toques.delete(ev.pointerId); if (toques.size < 2) pinca = 0; };
-svg.addEventListener('pointerup', fimToque, true);
-svg.addEventListener('pointercancel', fimToque, true);
-
-svg.addEventListener('pointerdown', ev => {
-  if (toques.size > 1) return;
-  pan = { x: ev.clientX, y: ev.clientY, moveu: false };
-  svg.setPointerCapture(ev.pointerId);
-  svg.classList.add('pan');
-});
-svg.addEventListener('pointermove', ev => {
-  if (!pan) return;
-  const dx = ev.clientX - pan.x, dy = ev.clientY - pan.y;
-  if (Math.hypot(dx, dy) > 3) pan.moveu = true;
-  if (!pan.moveu) return;
-  const vb = svg.viewBox.baseVal, k = 1 / escalaPx();
-  vb.x -= dx * k; vb.y -= dy * k;
-  pan.x = ev.clientX; pan.y = ev.clientY;
-});
-svg.addEventListener('pointerup', () => {
-  if (pan && !pan.moveu) { fixo = null; aplicar(); }
-  pan = null; svg.classList.remove('pan');
-});
-function zoomEm(ev, f) {          // f > 1 afasta, f < 1 aproxima, mantendo o ponto sob o cursor/dedos
-  const vb = svg.viewBox.baseVal;
-  const nw = Math.max(160, Math.min(2 * MEIO * 1.5, vb.width * f)), nk = nw / vb.width;
-  const p = ponto(ev);
-  vb.x = p.x - (p.x - vb.x) * nk; vb.y = p.y - (p.y - vb.y) * nk;
-  vb.width = nw; vb.height = nw;
-  adaptar();
+  }
+  for (const l of links){ const a=l.a, b=l.b; const dx=b.x-a.x, dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||1;
+    const f = (d-l.len)*l.k*alpha, fx = dx/d*f, fy = dy/d*f;
+    const wa = a.type==='norma'?1:.3, wb = b.type==='norma'?1:.3;
+    a.vx += fx*wa; a.vy += fy*wa; b.vx -= fx*wb; b.vy -= fy*wb; }
+  for (const n of nodes){
+    n.vx -= n.x*.003*alpha*(n.type==='norma'?.4:1); n.vy -= n.y*.003*alpha*(n.type==='norma'?.4:1);
+    if (n.fixed) { n.vx = n.vy = 0; continue; }
+    n.vx *= .6; n.vy *= .6; n.x += n.vx; n.y += n.vy;
+  }
+  alpha = Math.max(alpha*.985, .0);
 }
-svg.addEventListener('wheel', ev => { ev.preventDefault(); zoomEm(ev, ev.deltaY > 0 ? 1.14 : 1 / 1.14); }, { passive: false });
-window.addEventListener('resize', adaptar);
+for (let i=0;i<420;i++) tick();                    // já abre organizado
+alpha = .02;
 
-atualizarTudo(); adaptar(); aplicar();
+// ---------- vista ----------
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+let W=0,H=0,dpr=1, view = {x:0,y:0,k:1};
+function resize(){ dpr = window.devicePixelRatio||1; const r = cv.getBoundingClientRect(); W=r.width; H=r.height; cv.width=W*dpr; cv.height=H*dpr; draw(); }
+function fit(){
+  const vis = nodes.filter(n => visivel(n)); if (!vis.length) return;
+  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; vis.forEach(n => { x0=Math.min(x0,n.x-n.r); y0=Math.min(y0,n.y-n.r); x1=Math.max(x1,n.x+n.r); y1=Math.max(y1,n.y+n.r); });
+  const k = Math.min(W/(x1-x0+160), H/(y1-y0+160)); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
+}
+const sx = x => x*view.k+view.x, sy = y => y*view.k+view.y;
+const wx = x => (x-view.x)/view.k, wy = y => (y-view.y)/view.k;
+
+// ---------- estado de filtros ----------
+let hover=null, sel=null, filtroSetor=null, busca='', achados=null;
+const oNor=document.getElementById('oNor'), oEq=document.getElementById('oEq'), oVig=document.getElementById('oVig');
+function visivel(n){ return n.type!=='norma' || oNor.checked; }
+function noFiltro(n){
+  if (filtroSetor===null) return true;
+  if (n.type==='setor') return n.i===filtroSetor;
+  if (n.type==='norma') return n.n.x.includes(filtroSetor);
+  return [...adj.get(n)].some(m => m.type==='norma' && m.n.x.includes(filtroSetor)) || adj.get(n).has(setorN(filtroSetor));
+}
+function normaliza(s){ return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
+function atualizaBusca(){
+  busca = normaliza(document.getElementById('q').value.trim());
+  achados = busca ? new Set(nodes.filter(n => n.type==='norma' && normaliza(n.n.c+' '+n.n.t+' '+n.n.r).includes(busca)).concat(
+              nodes.filter(n => n.type!=='norma' && normaliza(n.label+' '+(n.uso||'')).includes(busca))).map(n=>n)) : null;
+}
+function foco(){ const f = sel||hover; return f ? new Set([f, ...adj.get(f)]) : null; }
+function opac(n, F){
+  if (!noFiltro(n)) return .06;
+  if (F && !F.has(n)) return .09;
+  if (achados && !F) return achados.has(n) ? 1 : .08;
+  return 1;
+}
+
+// ---------- desenho ----------
+function draw(){
+  ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
+  const F = foco(), hubCor = css('--hub'), txt = css('--txt'), bg = css('--bg');
+  for (const l of links){
+    if (!visivel(l.a)||!visivel(l.b)) continue;
+    if (l.kind==='eq' && !oEq.checked) continue;
+    const oa = opac(l.a,F), ob = opac(l.b,F), o = Math.min(oa,ob);
+    let base = l.kind==='sa' ? .18 + Math.min(l.w,12)*.025 : l.kind==='eq' ? .45 : .22;
+    if (F && F.has(l.a) && F.has(l.b)) base = .8;
+    ctx.globalAlpha = base*o;
+    ctx.strokeStyle = l.kind==='eq' ? '#f0b464' : l.kind==='sa' ? '#94a3b8' : (l.a.type==='norma'?l.b:l.a).color;
+    ctx.lineWidth = l.kind==='sa' ? Math.min(.8+l.w*.18, 4) : l.kind==='eq' ? 1 : .7;
+    if (l.kind==='eq') ctx.setLineDash([3,3]); else ctx.setLineDash([]);
+    ctx.beginPath(); ctx.moveTo(sx(l.a.x),sy(l.a.y)); ctx.lineTo(sx(l.b.x),sy(l.b.y)); ctx.stroke();
+  }
+  ctx.setLineDash([]);
+  for (const n of nodes){
+    if (!visivel(n)) continue;
+    const o = opac(n,F); ctx.globalAlpha = o;
+    const x=sx(n.x), y=sy(n.y), r=n.r*Math.max(view.k,.5)*(n===hover||n===sel?1.25:1);
+    ctx.beginPath(); ctx.arc(x,y,r,0,7);
+    if (n.type==='norma'){
+      ctx.fillStyle = n.color; ctx.fill();
+      if (oVig.checked && n.n.st!=='vigente'){ ctx.lineWidth=2; ctx.strokeStyle = n.n.st==='revogada'?'#ef4444':'#f59e0b'; ctx.stroke(); }
+    } else {
+      ctx.fillStyle = n.type==='setor' ? n.color : bg; ctx.fill();
+      ctx.lineWidth = n.type==='setor'?0:2; ctx.strokeStyle = n.color; if (n.type==='area') ctx.stroke();
+    }
+    if (n===sel){ ctx.lineWidth=2; ctx.strokeStyle=hubCor; ctx.stroke(); }
+  }
+  ctx.globalAlpha = 1; ctx.textAlign='center'; ctx.textBaseline='middle';
+  for (const n of nodes){
+    if (!visivel(n)) continue;
+    const o = opac(n,F); if (o < .2) continue;
+    const x=sx(n.x), y=sy(n.y);
+    if (n.type==='setor'){ ctx.globalAlpha=o; ctx.font = `700 ${Math.max(12,13*view.k)}px system-ui`; ctx.fillStyle='#fff'; ctx.fillText(n.label, x, y); }
+    else if (n.type==='area'){ ctx.globalAlpha=o; ctx.font = `600 ${Math.max(10,11*view.k)}px system-ui`; ctx.fillStyle=txt; ctx.fillText(rotulo(n.label), x, y + n.r*Math.max(view.k,.5)+9); }
+    else if ((F && F.has(n)) || (achados && achados.has(n)) || view.k>2.4 || n===hover){
+      ctx.globalAlpha=o; ctx.font = `${Math.max(10,10.5*Math.min(view.k,1.6))}px system-ui`; ctx.fillStyle=txt; ctx.fillText(n.label.replace(/ \(R\d+\)/,''), x, y - n.r*Math.max(view.k,.5) - 7);
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+const rotulo = s => s.length>26 ? s.slice(0,25)+'…' : s;
+
+// ---------- laço de animação ----------
+let rodando = false;
+function loop(){ if (alpha > .004) tick(); draw(); rodando = alpha > .004 || !!drag; if (rodando) requestAnimationFrame(loop); }
+function acorda(a){ alpha = Math.max(alpha, a); if (!rodando){ rodando = true; requestAnimationFrame(loop); } }
+
+// ---------- interação ----------
+let drag = null, pan = null, moved = 0;
+function pick(px,py){
+  const x = wx(px), y = wy(py); let best=null, bd=1e9;
+  for (const n of nodes){ if (!visivel(n) || !noFiltro(n)) continue;
+    const d = Math.hypot(n.x-x, n.y-y), r = n.r+4/view.k; if (d<r && d<bd){ best=n; bd=d; } }
+  return best;
+}
+const pos = e => { const r = cv.getBoundingClientRect(); return [e.clientX-r.left, e.clientY-r.top]; };
+cv.addEventListener('pointerdown', e => { cv.setPointerCapture(e.pointerId); const [px,py] = pos(e); const n = pick(px,py); moved = 0;
+  if (n){ drag = n; n.fixed = true; cv.classList.add('drag'); acorda(.3); } else { pan = {px,py,vx:view.x,vy:view.y}; cv.classList.add('drag'); } });
+cv.addEventListener('pointermove', e => { const [px,py] = pos(e);
+  if (drag){ moved++; drag.x = wx(px); drag.y = wy(py); acorda(.3); return; }
+  if (pan){ moved++; view.x = pan.vx+px-pan.px; view.y = pan.vy+py-pan.py; draw(); return; }
+  const n = pick(px,py); if (n!==hover){ hover = n; cv.style.cursor = n?'pointer':'grab'; if(!rodando) draw(); } });
+cv.addEventListener('pointerup', e => { const [px,py] = pos(e);
+  if (drag){ drag.fixed = false; if (moved<4){ seleciona(drag); } drag = null; }
+  else if (pan){ if (moved<4){ seleciona(null); } pan = null; }
+  cv.classList.remove('drag'); draw(); });
+cv.addEventListener('wheel', e => { e.preventDefault(); const [px,py] = pos(e); const f = Math.exp(-e.deltaY*.0015), k = Math.min(Math.max(view.k*f,.25),8);
+  view.x = px-(px-view.x)*k/view.k; view.y = py-(py-view.y)*k/view.k; view.k = k; draw(); }, {passive:false});
+cv.addEventListener('dblclick', () => { fit(); draw(); });
+
+// ---------- cartão de detalhes ----------
+const card = document.getElementById('card'), cardBody = document.getElementById('cardBody');
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function seleciona(n){
+  sel = n;
+  if (!n){ card.style.display='none'; draw(); return; }
+  let h = '';
+  if (n.type==='norma'){
+    const m = n.n, st = m.st==='revogada' ? '<span class="badge b-rev">revogada</span>' : m.st==='futura' ? '<span class="badge b-fut">ainda não vigente</span>' : '<span class="badge b-vig">vigente</span>';
+    h = `<h3>${esc(m.c)}</h3><p class="t">${esc(m.t)}</p><p>${st}<span class="badge" style="color:var(--mut);border-color:var(--line)">${esc(m.s)}</span></p>
+      <p class="r">${esc(m.r)}${m.r.length>=320?'…':''}</p>
+      <p class="t">Áreas: ${m.a.map(i=>esc(D.areas[i].nome)).join(', ')||'—'}<br>Setores: ${m.x.map(i=>esc(D.setores[i].nome)).join(', ')||'—'}</p>
+      <a href="${D.repo+m.f}" target="_blank" rel="noopener">Ficha</a><a href="${esc(m.u)}" target="_blank" rel="noopener">Texto oficial</a>`;
+  } else {
+    const vizinhas = [...adj.get(n)].filter(x => x.type==='norma').length;
+    h = `<h3>${esc(n.label)}</h3><p class="t">${n.type==='setor'?'Setor':'Área'} · ${vizinhas} normas ligadas</p><p class="r">${esc(n.uso||'')}</p>
+      <a href="${esc(n.url)}" target="_blank" rel="noopener">Abrir a página</a>`;
+  }
+  cardBody.innerHTML = h; card.style.display = 'block'; draw();
+}
+document.getElementById('close').onclick = () => seleciona(null);
+
+// ---------- controles ----------
+const chipsS = document.getElementById('chipsS');
+chipsS.innerHTML = D.setores.map((s,i) => `<button class="chip" data-i="${i}" aria-pressed="false"><i style="background:${SETOR_COR[i%SETOR_COR.length]}"></i>${esc(s.nome)}</button>`).join('');
+chipsS.addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; const i = +b.dataset.i;
+  filtroSetor = filtroSetor===i ? null : i;
+  chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(+c.dataset.i===filtroSetor)));
+  const vis = nodes.filter(n => visivel(n) && noFiltro(n)); fitSubset(vis); draw(); });
+function fitSubset(vis){
+  if (!vis.length) return; let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; vis.forEach(n => { x0=Math.min(x0,n.x); y0=Math.min(y0,n.y); x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); });
+  const k = Math.min(W/(x1-x0+200), H/(y1-y0+200), 3); view = {k, x:W/2-(x0+x1)/2*k, y:H/2-(y0+y1)/2*k};
+}
+document.getElementById('q').addEventListener('input', () => { atualizaBusca(); draw(); });
+document.getElementById('q').addEventListener('keydown', e => { if (e.key==='Enter' && achados && achados.size){ const n = [...achados][0]; fitSubset([n, ...adj.get(n)].filter(visivel)); seleciona(n); } });
+[oNor,oEq,oVig].forEach(o => o.addEventListener('change', () => { if (o===oNor) fit(); draw(); }));
+document.getElementById('fit').onclick = () => { filtroSetor=null; chipsS.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed','false')); document.getElementById('q').value=''; atualizaBusca(); seleciona(null); fit(); draw(); };
+window.addEventListener('resize', () => { resize(); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+resize(); fit(); draw(); acorda(.02);
+})();
 </script>
 </body>
 </html>
