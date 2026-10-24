@@ -16,6 +16,12 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **Temas:** Evidência de auditoria
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC TA 505](nbc-ta-505.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2310)

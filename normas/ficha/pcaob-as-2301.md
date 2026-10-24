@@ -16,6 +16,12 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **Temas:** Riscos, materialidade e planejamento
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC TA 330 (R1)](nbc-ta-330-r1.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301)

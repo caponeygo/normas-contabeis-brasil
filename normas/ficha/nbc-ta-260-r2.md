@@ -19,6 +19,12 @@ url_oficial: https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf
 
 **Temas:** Uso do trabalho de terceiros
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 1301](pcaob-as-1301.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf)

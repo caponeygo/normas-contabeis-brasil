@@ -2,7 +2,7 @@
 
 **Use esta área para:** revisão de ITR e demonstrações (segurança limitada).
 
-6 normas. Índice de todas as áreas: [areas/README.md](README.md).
+7 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 
 ## Normas
@@ -15,6 +15,7 @@
 | **CTR 02** – Relatório de Revisão das ITR e IFT de Instituições Autorizadas pelo Banco Central | Relatório de revisão das ITR/IFT de instituições do Banco Central. | Relatório de revisão | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001353) |
 | **CTR 03** – Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária | ⚠ Revogada pela CTR 04 (2019). Relatório de revisão das ITR de incorporadoras imobiliárias. | Relatório de revisão | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCCTR03&arquivo=NBCCTR03.doc) |
 | **CTR 04** – Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária | Relatório de revisão das ITR de incorporadoras imobiliárias (versão atualizada). | Relatório de revisão | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCCTR04) |
+| **PCAOB AS 4105** – Reviews of Interim Financial Information | Revisões de informações financeiras intermediárias. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS4105) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -27,4 +28,5 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CTR 02 – Relatório de Revisão das ITR e IFT de Instituições Autorizadas pelo Banco Central](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2011/001353)
 - [CTR 03 – Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/NBCCTR03&arquivo=NBCCTR03.doc)
 - [CTR 04 – Relatório de Revisão sobre ITR de Entidade de Incorporação Imobiliária](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCCTR04)
+- [PCAOB AS 4105 – Reviews of Interim Financial Information](https://pcaobus.org/oversight/standards/auditing-standards/details/AS4105)
 <!-- fontes:fim -->

@@ -2,7 +2,7 @@
 
 **Use esta área para:** procedimentos previamente acordados, compilação.
 
-7 normas. Índice de todas as áreas: [areas/README.md](README.md).
+8 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -21,6 +21,7 @@
 | **CTSC 04** – Procedimentos Previamente Acordados – Questionário de Riscos Susep | Procedimentos acordados para o questionário de riscos da Susep. | Relatório de constatações | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/CTSC04&arquivo=CTSC04.doc) |
 | **CTSC 05** – Procedimentos Previamente Acordados – Art. 242 da Circular Susep 517 | Procedimentos acordados para o art. 242 da Circular Susep 517. | Relatório de constatações | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC05&arquivo=NBCCTSC05.doc) |
 | **CTSC 06** – Procedimentos Previamente Acordados – Circular Susep 574 | Procedimentos acordados para a Circular Susep 574. | Relatório de constatações | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC06&arquivo=NBCCTSC06.doc) |
+| **PCAOB AT 201** – Agreed-Upon Procedures Engagements | Trabalhos de procedimentos previamente acordados. | Atestação (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/attestation-standards/details/AT201) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -34,4 +35,5 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CTSC 04 – Procedimentos Previamente Acordados – Questionário de Riscos Susep](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2018/CTSC04&arquivo=CTSC04.doc)
 - [CTSC 05 – Procedimentos Previamente Acordados – Art. 242 da Circular Susep 517](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC05&arquivo=NBCCTSC05.doc)
 - [CTSC 06 – Procedimentos Previamente Acordados – Circular Susep 574](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/CTSC06&arquivo=NBCCTSC06.doc)
+- [PCAOB AT 201 – Agreed-Upon Procedures Engagements](https://pcaobus.org/oversight/standards/attestation-standards/details/AT201)
 <!-- fontes:fim -->

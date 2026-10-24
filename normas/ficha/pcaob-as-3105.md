@@ -16,6 +16,13 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **Temas:** Relatório do auditor
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC TA 705](nbc-ta-705.md)
+- [NBC TA 706](nbc-ta-706.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105)

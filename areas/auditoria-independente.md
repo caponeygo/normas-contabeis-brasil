@@ -2,7 +2,7 @@
 
 **Use esta área para:** auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência.
 
-56 normas. Índice de todas as áreas: [areas/README.md](README.md).
+71 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
@@ -59,7 +59,10 @@
 | **NBC TAS 5000** – Asseguração de Relatórios de Sustentabilidade (ISSA 5000) | ISSA 5000: asseguração (limitada ou razoável) de relatórios de sustentabilidade, por auditor ou outro profissional. | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx) |
 | **PCAOB AS 1101** – Audit Risk | Risco de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1101) |
 | **PCAOB AS 1105** – Audit Evidence | Evidência de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) |
+| **PCAOB AS 1210** – Using the Work of an Auditor-Engaged Specialist | Uso do trabalho de especialista contratado pelo auditor. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1210) |
 | **PCAOB AS 1215** – Audit Documentation | Documentação de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) |
+| **PCAOB AS 1301** – Communications with Audit Committees | Comunicações do auditor com os comitês de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1301) |
+| **PCAOB AS 1305** – Communications About Control Deficiencies in an Audit of Financial Statements | Comunicação sobre deficiências de controle em uma auditoria de demonstrações financeiras. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1305) |
 | **PCAOB AS 2101** – Audit Planning | Planejamento da auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2101-audit-planning-2022) |
 | **PCAOB AS 2105** – Consideration of Materiality in Planning and Performing an Audit | Consideração da materialidade no planejamento e na execução de uma auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2105) |
 | **PCAOB AS 2110** – Identifying and Assessing Risks of Material Misstatement | Identificação e avaliação dos riscos de distorção relevante. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2110) |
@@ -69,11 +72,23 @@
 | **PCAOB AS 2310** – The Auditor’s Use of Confirmation | Uso de confirmações (circularização) pelo auditor. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2310) |
 | **PCAOB AS 2315** – Audit Sampling | Amostragem de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2315) |
 | **PCAOB AS 2401** – Consideration of Fraud in a Financial Statement Audit | Consideração de fraude na auditoria de demonstrações financeiras. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2401) |
+| **PCAOB AS 2405** – Illegal Acts by Clients | Atos ilegais cometidos por clientes. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2405) |
+| **PCAOB AS 2410** – Related Parties | Partes relacionadas. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2410) |
+| **PCAOB AS 2415** – Consideration of an Entity's Ability to Continue as a Going Concern | Consideração da capacidade da entidade de continuar em operação (going concern). | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2415) |
 | **PCAOB AS 2501** – Auditing Accounting Estimates, Including Fair Value Measurements | Auditoria de estimativas contábeis, incluindo mensurações a valor justo. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501) |
+| **PCAOB AS 2505** – Inquiry of a Client's Lawyer Concerning Litigation, Claims, and Assessments | Consulta ao advogado do cliente sobre litígios, reclamações e avaliações. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2505) |
+| **PCAOB AS 2510** – Auditing Inventories | Auditoria de estoques. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2510) |
+| **PCAOB AS 2601** – Consideration of an Entity's Use of a Service Organization | Consideração do uso de uma organização prestadora de serviços pela entidade. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2601) |
+| **PCAOB AS 2605** – Consideration of the Internal Audit Function | Consideração da função de auditoria interna. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2605-consideration-of-the-internal-audit-function_1528) |
+| **PCAOB AS 2610** – Initial Audits—Communications Between Predecessor and Successor Auditors | Auditorias iniciais: comunicações entre o auditor antecessor e o sucessor. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2610) |
+| **PCAOB AS 2710** – Other Information in Documents Containing Audited Financial Statements | Outras informações em documentos que contêm demonstrações financeiras auditadas. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2710) |
+| **PCAOB AS 2801** – Subsequent Events | Eventos subsequentes. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801) |
 | **PCAOB AS 2805** – Management Representations | Representações da administração. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2805) |
+| **PCAOB AS 2810** – Evaluating Audit Results | Avaliação dos resultados da auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2810) |
 | **PCAOB AS 3101** – The Auditor's Report on an Audit of Financial Statements When the Auditor Expresses an Unqualified Opinion | Relatório do auditor sobre uma auditoria de demonstrações financeiras quando expressa opinião sem ressalva. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3101) |
 | **PCAOB AS 3105** – Departures from Unqualified Opinions and Other Reporting Circumstances | Desvios da opinião sem ressalva e outras circunstâncias de emissão do relatório. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) |
 | **PCAOB AS 3110** – Dating of the Independent Auditor's Report | Datação do relatório do auditor independente. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3110) |
+| **PCAOB AS 3305** – Special Reports | Relatórios especiais. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3305) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -137,4 +152,19 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TA 710 (R1) – Informações Comparativas – Valores Correspondentes e Demonstrações Contábeis Comparativas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA710(R1))
 - [NBC TA 800 – Auditorias de Demonstrações Elaboradas de Acordo com Estruturas Conceituais para Propósitos Especiais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA800&arquivo=NBCTA800.doc)
 - [NBC TA 805 – Auditoria de Quadros Isolados e de Elementos, Contas ou Itens Específicos das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc)
+- [PCAOB AS 1210 – Using the Work of an Auditor-Engaged Specialist](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1210)
+- [PCAOB AS 1301 – Communications with Audit Committees](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1301)
+- [PCAOB AS 1305 – Communications About Control Deficiencies in an Audit of Financial Statements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1305)
+- [PCAOB AS 2405 – Illegal Acts by Clients](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2405)
+- [PCAOB AS 2410 – Related Parties](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2410)
+- [PCAOB AS 2415 – Consideration of an Entity's Ability to Continue as a Going Concern](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2415)
+- [PCAOB AS 2505 – Inquiry of a Client's Lawyer Concerning Litigation, Claims, and Assessments](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2505)
+- [PCAOB AS 2510 – Auditing Inventories](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2510)
+- [PCAOB AS 2601 – Consideration of an Entity's Use of a Service Organization](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2601)
+- [PCAOB AS 2605 – Consideration of the Internal Audit Function](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2605-consideration-of-the-internal-audit-function_1528)
+- [PCAOB AS 2610 – Initial Audits—Communications Between Predecessor and Successor Auditors](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2610)
+- [PCAOB AS 2710 – Other Information in Documents Containing Audited Financial Statements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2710)
+- [PCAOB AS 2801 – Subsequent Events](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801)
+- [PCAOB AS 2810 – Evaluating Audit Results](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2810)
+- [PCAOB AS 3305 – Special Reports](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3305)
 <!-- fontes:fim -->

@@ -33,6 +33,7 @@ for n in NORMAS:
 AREAS.sort()
 a_idx = {a: i for i, a in enumerate(AREAS)}
 uso = {a["area"]: a["use_para"] for a in ler("areas.csv")}
+rel_area = {a["area"]: [x.strip() for x in a["relacionadas"].split(",") if x.strip()] for a in ler("areas.csv")}
 
 por_base = {base(n["codigo"]): i for i, n in enumerate(NORMAS)}
 padroes = {k: re.compile(r"(?<![\w.])" + re.escape(k) + r"(?![\w.])") for k in por_base}
@@ -46,14 +47,16 @@ for i, n in enumerate(NORMAS):
         "a": [a_idx[a] for a in n["areas"]],
         "x": sorted({s_idx[s["setor"]] for s in n["setores"] if s["setor"] in s_idx}),
         "e": eq,
+        "rl": sorted(por_base[base(c)] for c in n.get("relacionadas", [])),
         "r": (n["resumo"] or "")[:320], "u": n["url"], "f": "normas/ficha/" + slug(n["codigo"]) + ".md",
         "sp": n.get("substituida_por"),
     })
 
-dados = {"setores": SETORES, "areas": [{"nome": a, "uso": uso.get(a, ""), "url": REPO + "areas/" + slug(a) + ".md"} for a in AREAS],
+dados = {"setores": SETORES, "areas": [{"nome": a, "uso": uso.get(a, ""), "url": REPO + "areas/" + slug(a) + ".md",
+                                       "rel": [a_idx[x] for x in rel_area.get(a, []) if x in a_idx]} for a in AREAS],
          "normas": nos, "repo": REPO}
 tpl = (Path(__file__).resolve().parent / "template.html").read_text(encoding="utf-8")
 saida = tpl.replace("__DATA__", json.dumps(dados, ensure_ascii=False, separators=(",", ":")))
 (ROOT / "mapa.html").write_text(saida, encoding="utf-8")
 print(f"{len(SETORES)} setores, {len(AREAS)} áreas, {len(nos)} normas, "
-      f"{sum(len(n['e']) for n in nos)} equivalências")
+      f"{sum(len(n['e']) for n in nos)} equivalências, {sum(len(n['rl']) for n in nos)//2} relações de mesmo assunto")

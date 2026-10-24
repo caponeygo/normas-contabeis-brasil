@@ -16,6 +16,12 @@ url_oficial: https://pcaobus.org/oversight/standards/auditing-standards/details/
 
 **Temas:** Riscos, materialidade e planejamento
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC TA 300 (R1)](nbc-ta-300-r1.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2101-audit-planning-2022)

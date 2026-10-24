@@ -12,9 +12,15 @@ url_oficial: https://pcaobus.org/oversight/standards/attestation-standards/detai
 
 **O que afeta:** Atestação (padrão PCAOB)
 
-**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md)
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md), [Asseguração](../../areas/asseguracao.md)
 
 **Temas:** Demonstrações contábeis e divulgação
+
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC TO 3420 (R1)](nbc-to-3420-r1.md)
 
 ## Fonte
 

@@ -2,7 +2,7 @@
 
 **Use esta área para:** asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios.
 
-12 normas. Índice de todas as áreas: [areas/README.md](README.md).
+14 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 
 ## Normas
@@ -21,6 +21,8 @@
 | **CTO 06** – Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária | Asseguração na relicitação de concessões aeroportuárias (cálculo de indenização). | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/CTO06) |
 | **CTO 07** – Asseguração Limitada sobre Informações Não Financeiras do Relato Integrado | Asseguração limitada de informações não financeiras do Relato Integrado. | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2007&arquivo=CTO%2007%20.doc) |
 | **CTO 08** – Asseguração Razoável na Relicitação de Contratos de Parceria Rodoviária | Asseguração na relicitação de concessões rodoviárias. | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2008&arquivo=CTO08.doc) |
+| **PCAOB AT 101** – Attest Engagements | Trabalhos de atestação (attest engagements). | Atestação (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/attestation-standards/details/AT101) |
+| **PCAOB AT 401** – Reporting on Pro Forma Financial Information | Relatório sobre informações financeiras pro forma. | Atestação (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/attestation-standards/details/AT401) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -40,4 +42,6 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [CTO 05 (R2) – Asseguração Razoável sobre o Relatório de Dados Anuais (RDA)](https://cfc.org.br/wp-content/uploads/2023/09/CTO-05-R2.final_.docx)
 - [CTO 06 – Asseguração Razoável na Relicitação de Contratos de Parceria Aeroportuária](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/CTO06)
 - [CTO 08 – Asseguração Razoável na Relicitação de Contratos de Parceria Rodoviária](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2022%20CTO%2008&arquivo=CTO08.doc)
+- [PCAOB AT 101 – Attest Engagements](https://pcaobus.org/oversight/standards/attestation-standards/details/AT101)
+- [PCAOB AT 401 – Reporting on Pro Forma Financial Information](https://pcaobus.org/oversight/standards/attestation-standards/details/AT401)
 <!-- fontes:fim -->

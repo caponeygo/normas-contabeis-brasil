@@ -25,6 +25,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 |---|---|---|---|
 | Indústria | [Auditoria na indústria](../../setores/industrial/10-auditoria-na-industria.md) | — | ✅ conferido |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2305](pcaob-as-2305.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001221)

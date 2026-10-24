@@ -268,6 +268,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -293,6 +294,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -346,6 +348,7 @@
    "areas": [
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -391,6 +394,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -416,6 +420,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -514,6 +519,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -539,6 +545,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -664,6 +671,7 @@
    "areas": [
     "Receitas"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -736,6 +744,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -771,6 +780,7 @@
    "areas": [
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Serviços",
@@ -806,6 +816,7 @@
    "areas": [
     "Mensuração"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -850,6 +861,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -875,6 +887,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1126,6 +1139,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1151,6 +1165,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1176,6 +1191,7 @@
    "areas": [
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1220,6 +1236,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1245,6 +1262,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1280,6 +1298,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1305,6 +1324,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1330,6 +1350,7 @@
    "areas": [
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1429,6 +1450,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1464,6 +1486,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1634,6 +1657,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1659,6 +1683,7 @@
    "areas": [
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1768,6 +1793,7 @@
     "Ativos",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1793,6 +1819,7 @@
    "areas": [
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -1837,6 +1864,7 @@
    "areas": [
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Serviços",
@@ -1899,6 +1927,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1924,6 +1953,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1949,6 +1979,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -1976,6 +2007,7 @@
     "Instrumentos Financeiros",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Financeiro",
@@ -2013,6 +2045,7 @@
     "Instrumentos Financeiros",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -2077,6 +2110,7 @@
     "Patrimônio Líquido",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2102,6 +2136,7 @@
    "areas": [
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2127,6 +2162,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2152,6 +2188,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2179,6 +2216,7 @@
     "Participações Societárias",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2204,6 +2242,7 @@
    "areas": [
     "Mensuração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2229,6 +2268,7 @@
    "areas": [
     "Receitas"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -2579,6 +2619,7 @@
    "areas": [
     "Instrumentos Financeiros"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -2704,6 +2745,7 @@
    "areas": [
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Financeiro",
@@ -2739,6 +2781,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Financeiro",
@@ -2775,6 +2818,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -2828,6 +2872,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2853,6 +2898,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2878,6 +2924,7 @@
    "areas": [
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2903,6 +2950,7 @@
    "areas": [
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2928,6 +2976,7 @@
    "areas": [
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2956,6 +3005,7 @@
     "Ativos",
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -2981,6 +3031,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3025,6 +3076,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3060,6 +3112,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3115,6 +3168,7 @@
     "Instrumentos Financeiros",
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3142,6 +3196,7 @@
     "Apresentação e Divulgação",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3167,6 +3222,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3202,6 +3258,7 @@
    "areas": [
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3227,6 +3284,7 @@
    "areas": [
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3252,6 +3310,7 @@
    "areas": [
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3287,6 +3346,7 @@
    "areas": [
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3322,6 +3382,7 @@
    "areas": [
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3347,6 +3408,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Construção e Incorporação",
@@ -3400,6 +3462,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Construção e Incorporação",
@@ -3435,6 +3498,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3460,6 +3524,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3485,6 +3550,7 @@
    "areas": [
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3510,6 +3576,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3537,6 +3604,7 @@
     "Fundamentos",
     "Sustentabilidade"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3562,6 +3630,7 @@
    "areas": [
     "Sustentabilidade"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -3606,6 +3675,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3631,6 +3701,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3654,6 +3725,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3679,6 +3751,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3704,6 +3777,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -3728,6 +3802,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 1215"
    ],
    "setores": []
   },
@@ -3754,6 +3831,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2401"
+   ],
    "setores": []
   },
   {
@@ -3778,6 +3858,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2405"
    ],
    "setores": []
   },
@@ -3804,6 +3887,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 1301"
+   ],
    "setores": []
   },
   {
@@ -3828,6 +3914,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 1305"
    ],
    "setores": []
   },
@@ -3854,6 +3943,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2101"
+   ],
    "setores": []
   },
   {
@@ -3878,6 +3970,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2110"
    ],
    "setores": [
     {
@@ -3914,6 +4009,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2105"
+   ],
    "setores": []
   },
   {
@@ -3938,6 +4036,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2301"
    ],
    "setores": []
   },
@@ -3964,6 +4065,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2601"
+   ],
    "setores": []
   },
   {
@@ -3988,6 +4092,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2810"
    ],
    "setores": []
   },
@@ -4014,6 +4121,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 1105"
+   ],
    "setores": []
   },
   {
@@ -4038,6 +4148,10 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2505",
+    "PCAOB AS 2510"
    ],
    "setores": [
     {
@@ -4101,6 +4215,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2310"
+   ],
    "setores": [
     {
      "setor": "Indústria",
@@ -4136,6 +4253,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2610"
+   ],
    "setores": []
   },
   {
@@ -4160,6 +4280,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2305"
    ],
    "setores": [
     {
@@ -4196,6 +4319,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2315"
+   ],
    "setores": []
   },
   {
@@ -4223,6 +4349,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2501"
    ],
    "setores": [
     {
@@ -4268,6 +4397,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2410"
+   ],
    "setores": []
   },
   {
@@ -4292,6 +4424,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2801"
    ],
    "setores": []
   },
@@ -4318,6 +4453,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2415"
+   ],
    "setores": []
   },
   {
@@ -4342,6 +4480,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 2805"
    ],
    "setores": []
   },
@@ -4369,6 +4510,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4394,6 +4536,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2605"
+   ],
    "setores": []
   },
   {
@@ -4418,6 +4563,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 1210"
    ],
    "setores": [
     {
@@ -4463,6 +4611,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 3101"
+   ],
    "setores": []
   },
   {
@@ -4488,6 +4639,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4512,6 +4664,9 @@
    ],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 3105"
    ],
    "setores": []
   },
@@ -4538,6 +4693,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 3105"
+   ],
    "setores": []
   },
   {
@@ -4563,6 +4721,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4588,6 +4747,9 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "PCAOB AS 2710"
+   ],
    "setores": []
   },
   {
@@ -4610,6 +4772,9 @@
    "temas": [],
    "areas": [
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "PCAOB AS 3305"
    ],
    "setores": []
   },
@@ -4636,6 +4801,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4662,6 +4828,7 @@
    "areas": [
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4687,6 +4854,7 @@
    "areas": [
     "Pequenas e Médias Empresas"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Terceiro Setor",
@@ -4722,6 +4890,7 @@
    "areas": [
     "Pequenas e Médias Empresas"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Serviços",
@@ -4757,6 +4926,7 @@
    "areas": [
     "Pequenas e Médias Empresas"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Serviços",
@@ -4794,6 +4964,7 @@
     "Pequenas e Médias Empresas",
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4820,6 +4991,7 @@
     "Pequenas e Médias Empresas",
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -4845,6 +5017,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Serviços",
@@ -4882,6 +5055,7 @@
     "Passivos",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Financeiro",
@@ -4917,6 +5091,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Terceiro Setor",
@@ -5033,6 +5208,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5058,6 +5234,7 @@
    "areas": [
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Terceiro Setor",
@@ -5111,6 +5288,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5136,6 +5314,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5161,6 +5340,7 @@
    "areas": [
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5188,6 +5368,7 @@
     "Setores Específicos",
     "Sustentabilidade"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5214,6 +5395,7 @@
     "Setor Público",
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5240,6 +5422,7 @@
     "Setor Público",
     "Receitas"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5266,6 +5449,7 @@
     "Setor Público",
     "Receitas"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5292,6 +5476,7 @@
     "Setor Público",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5318,6 +5503,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5344,6 +5530,7 @@
     "Setor Público",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5370,6 +5557,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5396,6 +5584,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5422,6 +5611,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5448,6 +5638,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5474,6 +5665,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5501,6 +5693,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5527,6 +5720,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5553,6 +5747,7 @@
     "Setor Público",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5579,6 +5774,7 @@
     "Setor Público",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5605,6 +5801,7 @@
     "Setor Público",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5631,6 +5828,7 @@
     "Setor Público",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5657,6 +5855,7 @@
     "Setor Público",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5683,6 +5882,7 @@
     "Setor Público",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5711,6 +5911,7 @@
     "Participações Societárias",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5737,6 +5938,7 @@
     "Setor Público",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5763,6 +5965,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5789,6 +5992,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5815,6 +6019,7 @@
     "Setor Público",
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5841,6 +6046,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5867,6 +6073,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5893,6 +6100,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5919,6 +6127,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5945,6 +6154,7 @@
     "Setor Público",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -5973,6 +6183,7 @@
     "Instrumentos Financeiros",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6001,6 +6212,7 @@
     "Instrumentos Financeiros",
     "Mensuração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6027,6 +6239,7 @@
     "Setor Público",
     "Instrumentos Financeiros"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6055,6 +6268,7 @@
     "Instrumentos Financeiros",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6080,6 +6294,7 @@
    "areas": [
     "Setor Público"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6106,6 +6321,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6132,6 +6348,7 @@
     "Setor Público",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6158,6 +6375,7 @@
     "Setor Público",
     "Mensuração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6184,6 +6402,7 @@
     "Setor Público",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6210,6 +6429,7 @@
     "Setor Público",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6237,6 +6457,7 @@
     "Sustentabilidade",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6264,6 +6485,7 @@
     "Sustentabilidade",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -6301,6 +6523,7 @@
     "Sustentabilidade",
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6324,6 +6547,7 @@
    "areas": [
     "Revisão"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6348,6 +6572,9 @@
    ],
    "areas": [
     "Revisão"
+   ],
+   "relacionadas": [
+    "PCAOB AS 4105"
    ],
    "setores": []
   },
@@ -6374,6 +6601,7 @@
    "areas": [
     "Revisão"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6399,6 +6627,7 @@
    "areas": [
     "Revisão"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6425,6 +6654,7 @@
    "areas": [
     "Revisão"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6451,6 +6681,7 @@
    "areas": [
     "Revisão"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6473,6 +6704,9 @@
    "temas": [],
    "areas": [
     "Asseguração"
+   ],
+   "relacionadas": [
+    "PCAOB AT 101"
    ],
    "setores": []
   },
@@ -6500,6 +6734,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6525,6 +6760,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6550,6 +6786,9 @@
    ],
    "areas": [
     "Asseguração"
+   ],
+   "relacionadas": [
+    "PCAOB AT 401"
    ],
    "setores": []
   },
@@ -6577,6 +6816,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6602,6 +6842,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6628,6 +6869,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6651,6 +6893,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6676,6 +6919,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6701,6 +6945,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6726,6 +6971,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6751,6 +6997,7 @@
    "areas": [
     "Asseguração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6775,6 +7022,9 @@
    ],
    "areas": [
     "Serviços Correlatos"
+   ],
+   "relacionadas": [
+    "PCAOB AT 201"
    ],
    "setores": []
   },
@@ -6801,6 +7051,7 @@
    "areas": [
     "Serviços Correlatos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6827,6 +7078,7 @@
    "areas": [
     "Serviços Correlatos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6852,6 +7104,7 @@
    "areas": [
     "Serviços Correlatos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6879,6 +7132,7 @@
    "areas": [
     "Serviços Correlatos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6905,6 +7159,7 @@
    "areas": [
     "Serviços Correlatos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6931,6 +7186,7 @@
    "areas": [
     "Serviços Correlatos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6956,6 +7212,7 @@
    "areas": [
     "Auditoria Interna"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -6981,6 +7238,7 @@
    "areas": [
     "Perícia Contábil"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7006,6 +7264,7 @@
    "areas": [
     "Perícia Contábil"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7031,6 +7290,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7056,6 +7316,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7082,6 +7343,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7107,6 +7369,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7132,6 +7395,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7156,6 +7420,9 @@
    ],
    "areas": [
     "Ética e Exercício Profissional"
+   ],
+   "relacionadas": [
+    "PCAOB QC 1000"
    ],
    "setores": []
   },
@@ -7182,6 +7449,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7207,6 +7475,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7232,6 +7501,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7257,6 +7527,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7282,6 +7553,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7307,6 +7579,7 @@
    "areas": [
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7332,6 +7605,7 @@
    "areas": [
     "Perícia Contábil"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7358,6 +7632,7 @@
    "areas": [
     "Perícia Contábil"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7381,6 +7656,7 @@
    "areas": [
     "Setor Público"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7406,6 +7682,7 @@
    "areas": [
     "Contabilidade Eleitoral"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Terceiro Setor",
@@ -7441,6 +7718,7 @@
    "areas": [
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Varejo",
@@ -7476,6 +7754,7 @@
    "areas": [
     "Contabilidade Eleitoral"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Terceiro Setor",
@@ -7512,6 +7791,7 @@
     "Normas Internacionais",
     "Fundamentos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7538,6 +7818,7 @@
     "Normas Internacionais",
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7564,6 +7845,7 @@
     "Normas Internacionais",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7592,6 +7874,7 @@
     "Ativos",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7618,6 +7901,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Indústria",
@@ -7656,6 +7940,7 @@
     "Instrumentos Financeiros",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7682,6 +7967,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7708,6 +7994,7 @@
     "Normas Internacionais",
     "Instrumentos Financeiros"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7734,6 +8021,7 @@
     "Normas Internacionais",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7760,6 +8048,7 @@
     "Normas Internacionais",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7788,6 +8077,7 @@
     "Participações Societárias",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7814,6 +8104,7 @@
     "Normas Internacionais",
     "Mensuração"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7837,6 +8128,7 @@
    "areas": [
     "Normas Internacionais"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7863,6 +8155,7 @@
     "Normas Internacionais",
     "Receitas"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7889,6 +8182,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7915,6 +8209,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7942,6 +8237,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7968,6 +8264,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -7995,6 +8292,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8021,6 +8319,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8048,6 +8347,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8074,6 +8374,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8100,6 +8401,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8126,6 +8428,7 @@
     "Normas Internacionais",
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8152,6 +8455,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8178,6 +8482,7 @@
     "Normas Internacionais",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8204,6 +8509,7 @@
     "Normas Internacionais",
     "Receitas"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8230,6 +8536,7 @@
     "Normas Internacionais",
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8256,6 +8563,7 @@
     "Normas Internacionais",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8282,6 +8590,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8308,6 +8617,7 @@
     "Normas Internacionais",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8334,6 +8644,7 @@
     "Normas Internacionais",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8360,6 +8671,7 @@
     "Normas Internacionais",
     "Participações Societárias"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8386,6 +8698,7 @@
     "Normas Internacionais",
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8414,6 +8727,7 @@
     "Instrumentos Financeiros",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8442,6 +8756,7 @@
     "Patrimônio Líquido",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8468,6 +8783,7 @@
     "Normas Internacionais",
     "Apresentação e Divulgação"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8494,6 +8810,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8520,6 +8837,7 @@
     "Normas Internacionais",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8546,6 +8864,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8572,6 +8891,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8598,6 +8918,7 @@
     "Normas Internacionais",
     "Ativos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8624,6 +8945,7 @@
     "Normas Internacionais",
     "Pequenas e Médias Empresas"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8652,6 +8974,7 @@
     "Apresentação e Divulgação",
     "Sustentabilidade"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8680,6 +9003,7 @@
     "Apresentação e Divulgação",
     "Sustentabilidade"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8706,6 +9030,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8734,6 +9059,7 @@
     "Patrimônio Líquido",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": [
     {
      "setor": "Terceiro Setor",
@@ -8770,6 +9096,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8796,6 +9123,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8822,6 +9150,7 @@
     "Normas Internacionais",
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8848,6 +9177,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8874,6 +9204,7 @@
     "Normas Internacionais",
     "Passivos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8900,6 +9231,7 @@
     "Normas Internacionais",
     "Instrumentos Financeiros"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8926,6 +9258,7 @@
     "Normas Internacionais",
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8954,6 +9287,7 @@
     "Instrumentos Financeiros",
     "Patrimônio Líquido"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -8980,6 +9314,7 @@
     "Normas Internacionais",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9006,6 +9341,7 @@
     "Normas Internacionais",
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9032,6 +9368,7 @@
     "Normas Internacionais",
     "Moeda e Câmbio"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9058,6 +9395,7 @@
     "Normas Internacionais",
     "Tributos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9086,6 +9424,7 @@
     "Apresentação e Divulgação",
     "Setores Específicos"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9109,6 +9448,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9135,6 +9475,7 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9161,6 +9502,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 500 (R1)"
+   ],
    "setores": []
   },
   {
@@ -9184,6 +9528,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9207,6 +9552,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9230,6 +9576,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9251,7 +9598,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 620"
    ],
    "setores": []
   },
@@ -9279,6 +9630,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 230 (R1)"
+   ],
    "setores": []
   },
   {
@@ -9305,6 +9659,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9326,7 +9681,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 260 (R2)"
    ],
    "setores": []
   },
@@ -9349,7 +9708,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 265"
    ],
    "setores": []
   },
@@ -9377,6 +9740,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 300 (R1)"
+   ],
    "setores": []
   },
   {
@@ -9402,6 +9768,9 @@
    "areas": [
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 320 (R1)"
    ],
    "setores": []
   },
@@ -9429,6 +9798,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 315 (R2)"
+   ],
    "setores": []
   },
   {
@@ -9455,6 +9827,7 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9480,6 +9853,9 @@
    "areas": [
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 330 (R1)"
    ],
    "setores": []
   },
@@ -9507,6 +9883,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 520"
+   ],
    "setores": []
   },
   {
@@ -9532,6 +9911,9 @@
    "areas": [
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 505"
    ],
    "setores": []
   },
@@ -9559,6 +9941,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 530"
+   ],
    "setores": []
   },
   {
@@ -9585,6 +9970,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 240 (R2)"
+   ],
    "setores": []
   },
   {
@@ -9606,7 +9994,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 250"
    ],
    "setores": []
   },
@@ -9629,7 +10021,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 550"
    ],
    "setores": []
   },
@@ -9652,7 +10048,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 570 (R1)"
    ],
    "setores": []
   },
@@ -9680,6 +10080,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 540 (R2)"
+   ],
    "setores": []
   },
   {
@@ -9701,7 +10104,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 501"
    ],
    "setores": []
   },
@@ -9724,7 +10131,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 501"
    ],
    "setores": []
   },
@@ -9747,7 +10158,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 402"
    ],
    "setores": []
   },
@@ -9770,7 +10185,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 610"
    ],
    "setores": []
   },
@@ -9793,7 +10212,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 510 (R1)"
    ],
    "setores": []
   },
@@ -9818,6 +10241,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9841,6 +10265,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9862,7 +10287,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 720"
    ],
    "setores": []
   },
@@ -9885,7 +10314,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 560 (R1)"
    ],
    "setores": []
   },
@@ -9913,6 +10346,9 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 580 (R1)"
+   ],
    "setores": []
   },
   {
@@ -9934,7 +10370,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 450 (R1)"
    ],
    "setores": []
   },
@@ -9959,6 +10399,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -9982,6 +10423,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10007,6 +10449,9 @@
    "areas": [
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 700"
    ],
    "setores": []
   },
@@ -10034,6 +10479,10 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [
+    "NBC TA 705",
+    "NBC TA 706"
+   ],
    "setores": []
   },
   {
@@ -10060,6 +10509,7 @@
     "Padrões PCAOB (EUA)",
     "Auditoria Independente"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10081,7 +10531,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "relacionadas": [
+    "NBC TA 800"
    ],
    "setores": []
   },
@@ -10106,6 +10560,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10129,6 +10584,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10152,6 +10608,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10175,6 +10632,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10196,7 +10654,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Revisão"
+   ],
+   "relacionadas": [
+    "NBC TR 2410"
    ],
    "setores": []
   },
@@ -10221,6 +10683,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10244,6 +10707,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10267,6 +10731,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10290,6 +10755,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10313,6 +10779,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10336,6 +10803,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10359,6 +10827,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10382,6 +10851,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10403,7 +10873,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Asseguração"
+   ],
+   "relacionadas": [
+    "NBC TO 3000"
    ],
    "setores": []
   },
@@ -10426,7 +10900,11 @@
    "observacao_vigencia": null,
    "temas": [],
    "areas": [
-    "Padrões PCAOB (EUA)"
+    "Padrões PCAOB (EUA)",
+    "Serviços Correlatos"
+   ],
+   "relacionadas": [
+    "NBC TSC 4400"
    ],
    "setores": []
   },
@@ -10451,6 +10929,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10475,7 +10954,11 @@
    ],
    "areas": [
     "Padrões PCAOB (EUA)",
-    "Apresentação e Divulgação"
+    "Apresentação e Divulgação",
+    "Asseguração"
+   ],
+   "relacionadas": [
+    "NBC TO 3420 (R1)"
    ],
    "setores": []
   },
@@ -10500,6 +10983,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10523,6 +11007,7 @@
    "areas": [
     "Padrões PCAOB (EUA)"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10549,6 +11034,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10575,6 +11061,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10601,6 +11088,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10627,6 +11115,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10653,6 +11142,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10679,6 +11169,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10705,6 +11196,7 @@
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
    ],
+   "relacionadas": [],
    "setores": []
   },
   {
@@ -10730,6 +11222,9 @@
    "areas": [
     "Padrões PCAOB (EUA)",
     "Ética e Exercício Profissional"
+   ],
+   "relacionadas": [
+    "NBC PA 01"
    ],
    "setores": []
   }

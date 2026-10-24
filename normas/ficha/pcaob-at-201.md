@@ -12,7 +12,13 @@ url_oficial: https://pcaobus.org/oversight/standards/attestation-standards/detai
 
 **O que afeta:** Atestação (padrão PCAOB)
 
-**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md)
+**Áreas:** [Padrões PCAOB (EUA)](../../areas/padroes-pcaob-eua.md), [Serviços Correlatos](../../areas/servicos-correlatos.md)
+
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC TSC 4400](nbc-tsc-4400.md)
 
 ## Fonte
 

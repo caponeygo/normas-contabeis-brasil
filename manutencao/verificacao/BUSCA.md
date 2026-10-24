@@ -33,7 +33,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | O que é MPM medida de desempenho? | setores/servicos/01-receita-de-servicos.md, normas/ficha/ifrs-18.md, normas/ficha/nbc-tg-51.md | normas/ficha/ifrs-18.md |
 | ✅ | Lançamento da provisão para garantia de produtos | lancamentos/receitas.md, setores/industrial/03-vendas-e-pos-venda.md, lancamentos/README.md | lancamentos/receitas.md |
 | ✅ | Lançamento do direito de uso e passivo de arrendamento | lancamentos/imobilizado-e-arrendamentos.md, setores/varejo/04-lojas-e-arrendamentos.md, normas/ficha/ifrs-16.md | lancamentos/imobilizado-e-arrendamentos.md |
-| ✅ | Quando o auditor emite opinião com ressalva? | normas/ficha/nbc-ta-705.md, normas/ficha/pcaob-as-3105.md, normas/ficha/pcaob-as-3101.md | normas/ficha/nbc-ta-705.md |
+| ✅ | Quando o auditor emite opinião com ressalva? | normas/ficha/nbc-ta-705.md, normas/ficha/pcaob-as-3101.md, normas/ficha/pcaob-as-3105.md | normas/ficha/nbc-ta-705.md |
 | ❌ | Prefeitura: como registrar o imobilizado de uma escola? | normas/ficha/nbc-tsp-09-r1.md, setores/construcao/01-incorporacao-imobiliaria.md, normas/ficha/ctg-01.md | — |
 | ✅ | Teste de impairment do ágio goodwill | normas/ficha/ias-36.md, normas/ficha/nbc-tg-01-r4.md, normas/ficha/ifrs-3.md | normas/ficha/ias-36.md |
 | ✅ | Imposto de renda diferido sobre prejuízo fiscal | normas/ficha/ias-12.md, normas/ficha/nbc-tg-32-r4.md, areas/tributos.md | normas/ficha/ias-12.md |
@@ -54,8 +54,8 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | NBC TO 3410 gases de efeito estufa está em vigor? | normas/ficha/nbc-to-3410.md, areas/asseguracao.md, normas/nbc-to-asseguracao.md | normas/ficha/nbc-to-3410.md |
 | ✅ | Qual a norma de arrendamento mercantil, o direito de uso? | lancamentos/imobilizado-e-arrendamentos.md, normas/ficha/nbc-tsp-35.md, normas/ficha/ifrs-16.md | lancamentos/imobilizado-e-arrendamentos.md |
 | ❌ | Como contabilizar perda esperada de crédito em contas a receber? | setores/varejo/03-cartoes-e-recebiveis.md, lancamentos/bancos.md, lancamentos/README.md | — |
-| ✅ | Quando o auditor emite opinião com ressalva? | normas/ficha/nbc-ta-705.md, normas/ficha/pcaob-as-3105.md, normas/ficha/pcaob-as-3101.md | normas/ficha/nbc-ta-705.md |
-| ✅ | Qual norma trata de eventos subsequentes ao período? | normas/ficha/nbc-ta-560-r1.md, normas/ficha/nbc-tsp-25-r1.md, normas/ficha/ias-10.md | normas/ficha/ias-10.md |
+| ✅ | Quando o auditor emite opinião com ressalva? | normas/ficha/nbc-ta-705.md, normas/ficha/pcaob-as-3101.md, normas/ficha/pcaob-as-3105.md | normas/ficha/nbc-ta-705.md |
+| ✅ | Qual norma trata de eventos subsequentes ao período? | normas/ficha/nbc-tsp-25-r1.md, normas/ficha/nbc-ta-560-r1.md, normas/ficha/ias-10.md | normas/ficha/ias-10.md |
 | ✅ | Como tratar ativo biológico na colheita de cana? | normas/ficha/nbc-tg-29-r2.md, lancamentos/agro.md, setores/agronegocio/01-ativo-biologico-e-colheita.md | normas/ficha/nbc-tg-29-r2.md |
 | ✅ | Plantas portadoras como laranjeiras e cafezais são imobilizado? | setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md, normas/ficha/nbc-tg-06-r3.md, setores/agronegocio/README.md | setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md |
 | ✅ | CPR financeira e hedge de commodities no agro | normas/ficha/nbc-tg-48.md, normas/ficha/nbc-tg-40-r3.md, setores/agronegocio/03-credito-rural-hedge-e-cpr.md | normas/ficha/nbc-tg-48.md |
@@ -77,7 +77,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Gastos com pesquisa e desenvolvimento, capitalizar ou despesa? | setores/industrial/05-pesquisa-e-desenvolvimento.md, normas/ficha/nbc-tg-04-r4.md, normas/ficha/ias-38.md | setores/industrial/05-pesquisa-e-desenvolvimento.md |
 | ✅ | Provisão de garantia de produto vendido | lancamentos/receitas.md, setores/industrial/03-vendas-e-pos-venda.md, setores/varejo/02-vendas-e-receita.md | setores/industrial/03-vendas-e-pos-venda.md |
 | ✅ | Variação cambial e moeda funcional | normas/ficha/ias-21.md, normas/ficha/nbc-tg-02-r3.md, areas/moeda-e-cambio.md | normas/ficha/ias-21.md |
-| ✅ | Equivalência patrimonial em coligada | normas/ficha/ias-28.md, normas/ficha/nbc-tg-18-r4.md, normas/ficha/nbc-tsp-18-r1.md | normas/ficha/ias-28.md |
+| ✅ | Equivalência patrimonial em coligada | normas/ficha/ias-28.md, normas/ficha/nbc-tsp-18-r1.md, normas/ficha/nbc-tg-18-r4.md | normas/ficha/ias-28.md |
 | ✅ | Consolidação de demonstrações e controle | areas/participacoes-societarias.md, normas/ficha/ifrs-10.md, normas/ficha/nbc-tg-36-r3.md | areas/participacoes-societarias.md |
 | ✅ | Imposto de renda diferido sobre prejuízo fiscal | normas/ficha/ias-12.md, normas/ficha/nbc-tg-32-r4.md, areas/tributos.md | normas/ficha/ias-12.md |
 | ✅ | IBS e CBS da reforma tributária em 2026 | normas/ficha/ot-cfc-01-2026.md, lancamentos/tributos-e-subvencoes.md, areas/reforma-tributaria.md | normas/ficha/ot-cfc-01-2026.md |
@@ -87,7 +87,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Pequena empresa usa qual norma contábil? | areas/pequenas-e-medias-empresas.md, normas/ficha/nbc-tg-1000-r1.md, normas/nbc-tg-pequenas-e-medias-empresas-e-microentidades.md | areas/pequenas-e-medias-empresas.md |
 | ✅ | Revisão de informações trimestrais ITR | normas/ficha/ctr-01-r1.md, areas/revisao.md, normas/nbc-tr-revisao.md | areas/revisao.md |
 | ✅ | Fraude na auditoria responsabilidade do auditor | normas/ficha/nbc-ta-240-r2.md, normas/ficha/pcaob-as-2401.md, areas/auditoria-independente.md | normas/ficha/nbc-ta-240-r2.md |
-| ✅ | Qual padrão do PCAOB trata de fraude na auditoria? | normas/ficha/pcaob-as-2401.md, areas/auditoria-independente.md, normas/ficha/nbc-ta-240-r2.md | normas/ficha/pcaob-as-2401.md |
+| ✅ | Qual padrão do PCAOB trata de fraude na auditoria? | normas/ficha/pcaob-as-2401.md, normas/ficha/nbc-ta-240-r2.md, areas/auditoria-independente.md | normas/ficha/pcaob-as-2401.md |
 | ✅ | O que é a QC 1000 do PCAOB e quando começa a valer? | normas/mudancas-futuras.md, normas/ficha/pcaob-qc-1000.md, normas/ficha/pcaob-qc-30.md | normas/ficha/pcaob-qc-1000.md |
 | ✅ | PCAOB AS 2201 auditoria do controle interno sobre relatórios financeiros | normas/ficha/pcaob-as-2201.md, areas/padroes-pcaob-eua.md, areas/auditoria-independente.md | normas/ficha/pcaob-as-2201.md |
 | ✅ | A AS 2901 do PCAOB vai mudar em dezembro de 2026? | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md, normas/ficha/pcaob-as-2901-nova-a-partir-de-15-12-2026.md, normas/mudancas-futuras.md | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md |

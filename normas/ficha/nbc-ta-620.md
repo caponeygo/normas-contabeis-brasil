@@ -26,6 +26,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 | Indústria | [Auditoria na indústria](../../setores/industrial/10-auditoria-na-industria.md) | — | ✅ conferido |
 | Agronegócio | [Usinas, CBIO e auditoria no agro](../../setores/agronegocio/04-usinas-carbono-e-auditoria.md) | — | ✅👤 revisado por pessoa |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 1210](pcaob-as-1210.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001230)

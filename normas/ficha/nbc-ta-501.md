@@ -28,6 +28,13 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 | Varejo | [Mercadorias, CMV e perdas](../../setores/varejo/01-mercadorias-e-cmv.md) | 4–7 | ✅ conferido |
 | Agronegócio | [Usinas, CBIO e auditoria no agro](../../setores/agronegocio/04-usinas-carbono-e-auditoria.md) | 4–7 | ✅ conferido |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2505](pcaob-as-2505.md)
+- [PCAOB AS 2510](pcaob-as-2510.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)

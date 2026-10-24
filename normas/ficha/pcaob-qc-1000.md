@@ -19,6 +19,12 @@ url_oficial: https://pcaobus.org/oversight/standards/qc-standards/details/qc-100
 
 **Temas:** Qualidade e independência
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [NBC PA 01](nbc-pa-01.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://pcaobus.org/oversight/standards/qc-standards/details/qc-1000--a-firms-system-of-quality-control)

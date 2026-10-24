@@ -26,6 +26,12 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NB
 | Indústria | [Auditoria na indústria](../../setores/industrial/10-auditoria-na-industria.md) | — | ✅ conferido |
 | Agronegócio | [Usinas, CBIO e auditoria no agro](../../setores/agronegocio/04-usinas-carbono-e-auditoria.md) | — | ✅ conferido |
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 2501](pcaob-as-2501.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc)

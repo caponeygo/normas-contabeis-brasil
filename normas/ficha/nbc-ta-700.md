@@ -19,6 +19,12 @@ url_oficial: https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf
 
 **Temas:** Relatório do auditor
 
+## Mesmo assunto em outras normas
+
+Tratam do mesmo tema, mas não são equivalentes: leia as duas.
+
+- [PCAOB AS 3101](pcaob-as-3101.md)
+
 ## Fonte
 
 - [Texto oficial (CFC)](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf)

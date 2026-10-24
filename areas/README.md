@@ -7,9 +7,9 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 | Área | Use para | Normas | Arquivo |
 |---|---|---|---|
 | **Apresentação e Divulgação** | balanço, DRE, DFC, DVA, notas explicativas, IFRS 18, políticas e erros, eventos subsequentes, segmentos | 49 | [apresentacao-e-divulgacao.md](apresentacao-e-divulgacao.md) |
-| **Asseguração** | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 12 | [asseguracao.md](asseguracao.md) |
+| **Asseguração** | asseguração de controles, sustentabilidade, pro forma, relatórios regulatórios | 14 | [asseguracao.md](asseguracao.md) |
 | **Ativos** | imobilizado, intangível, estoques, arrendamento, impairment, ativo biológico, propriedade para investimento, ativo à venda | 25 | [ativos.md](ativos.md) |
-| **Auditoria Independente** | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 56 | [auditoria-independente.md](auditoria-independente.md) |
+| **Auditoria Independente** | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 71 | [auditoria-independente.md](auditoria-independente.md) |
 | **Auditoria Interna** | auditor interno | 1 | [auditoria-interna.md](auditoria-interna.md) |
 | **Contabilidade Eleitoral** | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral | 2 | [contabilidade-eleitoral.md](contabilidade-eleitoral.md) |
 | **Fundamentos** | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 | [fundamentos.md](fundamentos.md) |
@@ -23,8 +23,8 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 | **Pequenas e Médias Empresas** | PME, pequena empresa, microentidade, NBC TG 1000 | 6 | [pequenas-e-medias-empresas.md](pequenas-e-medias-empresas.md) |
 | **Perícia Contábil** | perícia judicial, laudo pericial, apuração de haveres | 4 | [pericia-contabil.md](pericia-contabil.md) |
 | **Receitas** | reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais | 6 | [receitas.md](receitas.md) |
-| **Revisão** | revisão de ITR e demonstrações (segurança limitada) | 6 | [revisao.md](revisao.md) |
-| **Serviços Correlatos** | procedimentos previamente acordados, compilação | 7 | [servicos-correlatos.md](servicos-correlatos.md) |
+| **Revisão** | revisão de ITR e demonstrações (segurança limitada) | 7 | [revisao.md](revisao.md) |
+| **Serviços Correlatos** | procedimentos previamente acordados, compilação | 8 | [servicos-correlatos.md](servicos-correlatos.md) |
 | **Setor Público** | governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP) | 40 | [setor-publico.md](setor-publico.md) |
 | **Setores Específicos** | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 28 | [setores-especificos.md](setores-especificos.md) |
 | **Sustentabilidade** | ESG, clima, IFRS S1/S2, carbono, relato integrado | 8 | [sustentabilidade.md](sustentabilidade.md) |

@@ -204,6 +204,21 @@ for r in REC:
 SINONIMOS = {nome: sin for nome, _, _, sin in TEMAS}
 AREA_DO_TEMA = {nome: area for nome, area, _, _ in TEMAS}
 
+# ---------- relações "mesmo assunto" (dados/relacoes.csv, ex.: PCAOB AS 2401 e NBC TA 240) ----------
+# Não são equivalências: tratam do mesmo assunto e podem diferir. A norma herda também as áreas da norma relacionada.
+_por_cod = {sem_rev(r["codigo"]): r for r in REC}
+for r in REC:
+    r["relacionadas"] = []
+for rel in ler("relacoes.csv"):
+    a, b = _por_cod[sem_rev(rel["de"])], _por_cod[sem_rev(rel["para"])]
+    if b["codigo"] not in a["relacionadas"]:
+        a["relacionadas"].append(b["codigo"])
+    if a["codigo"] not in b["relacionadas"]:
+        b["relacionadas"].append(a["codigo"])
+    for area in b["areas"]:
+        if area not in a["areas"]:
+            a["areas"].append(area)
+
 # ---------- pastas por setor (dados/setores*.csv) ----------
 import gerar_setores
 SETORES_GER = gerar_setores.gerar_todos(ROOT, REC, sem_rev)   # [(nome, pasta, use_para, [(arq, titulo)])]
@@ -352,6 +367,11 @@ for r in REC:
         md.append("## Trechos por setor\n\n| Setor | Tópico | Itens | Conferência |\n|---|---|---|---|")
         for x in r["setores"]:
             md.append(f"| {x['setor']} | [{x['topico']}](../../{x['arquivo']}) | {x['itens']} | {_CONF_TXT[x['conferencia']]} |")
+        md.append("")
+    if r["relacionadas"]:
+        NL = chr(10)
+        md.append("## Mesmo assunto em outras normas" + NL + NL + "Tratam do mesmo tema, mas não são equivalentes: leia as duas." + NL)
+        md += [f"- [{x}]({FICHA[x]}.md)" for x in r["relacionadas"]]
         md.append("")
     md.append(f"## Fonte\n\n- [Texto oficial (CFC)]({r['url']})")
     if r.get("url_cpc"):
