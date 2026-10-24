@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 06 · NBC TG 06
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Arrendamentos
+**Temas:** Arrendamentos, Custos e despesas
 
 ## Fonte
 

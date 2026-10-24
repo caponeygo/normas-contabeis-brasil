@@ -215,7 +215,7 @@ for rel in ler("relacoes.csv"):
         a["relacionadas"].append(b["codigo"])
     if a["codigo"] not in b["relacionadas"]:
         b["relacionadas"].append(a["codigo"])
-    for area in b["areas"]:
+    for area in b["areas"][:1]:                      # só a área principal da norma relacionada
         if area not in a["areas"]:
             a["areas"].append(area)
 

@@ -115,7 +115,7 @@ document.getElementById('leg').innerHTML = GRUPOS.map(g => `<i style="background
 
 // ---------- lugar de cada coisa (layout fixo: setores no centro, uma bolha por área em volta) ----------
 // Ordem das áreas no anel: contabilidade, depois setor público e sustentabilidade, internacionais e a família da auditoria.
-const ORDEM = ['Fundamentos','Apresentação e Divulgação','Ativos','Passivos','Receitas','Tributos','Patrimônio Líquido','Instrumentos Financeiros',
+const ORDEM = ['Fundamentos','Apresentação e Divulgação','Ativos','Passivos','Custos e Despesas','Receitas','Tributos','Patrimônio Líquido','Instrumentos Financeiros',
   'Mensuração','Moeda e Câmbio','Participações Societárias','Setores Específicos','Pequenas e Médias Empresas','Setor Público','Contabilidade Eleitoral',
   'Sustentabilidade','Normas Internacionais','Auditoria Independente','Padrões PCAOB (EUA)','Revisão','Asseguração','Serviços Correlatos',
   'Auditoria Interna','Perícia Contábil','Ética e Exercício Profissional'];
@@ -134,7 +134,8 @@ const ordemSerie = s => GRUPOS.findIndex(g => g[2](s));
 filhos.forEach(l => l.sort((x,y) => ordemSerie(D.normas[x].s)-ordemSerie(D.normas[y].s) || natural(D.normas[x].c, D.normas[y].c)));
 const pos = n => { const i = ORDEM.indexOf(n); return i < 0 ? 99 : i; };
 const anel = D.areas.map((a,i) => i).sort((x,y) => pos(D.areas[x].nome)-pos(D.areas[y].nome) || natural(D.areas[x].nome, D.areas[y].nome));
-const raio = i => ESP*.62*Math.sqrt(Math.max(filhos[i].length, 1)) + 15;      // bolha do tamanho exato das normas
+const raio = i => ESP*.62*Math.sqrt(Math.max(filhos[i].length, 1)) + 15;
+const qtd = i => filhos[i].length || D.normas.filter(n => n.a.includes(i)).length;   // área secundária: conta as normas ligadas      // bolha do tamanho exato das normas
 const perim = anel.reduce((s,i) => s + 2*raio(i) + GAP, 0);
 const R_AREA = Math.max(380, perim/(2*Math.PI)), R_SET = R_AREA*.42;
 D.setores.forEach((s,i) => { const t = -Math.PI/2 + i/nS*Math.PI*2; Object.assign(setorN(i), {tx:Math.cos(t)*R_SET, ty:Math.sin(t)*R_SET}); });
@@ -207,7 +208,7 @@ function mostraLigacao(l, F){
   if (l.kind==='rel') return oRel.checked || ambos;
   if (l.kind==='sa') return oSA.checked || ambos;
   if (l.kind==='aa') return true;
-  if (l.kind==='na') return l.sec && ambos;            // a área principal já é a bolha onde a norma está
+  if (l.kind==='na') return (l.sec && ambos) || (l.sec && !filhos[l.b.i].length);   // área só secundária: mostra sempre as ligações            // a área principal já é a bolha onde a norma está
   if (l.kind==='ns') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
   if (l.kind==='nsa') return ambos || (filtroSetor!==null && l.b.i===filtroSetor);
   return false;
@@ -239,7 +240,8 @@ function draw(){
   anel.forEach(ai => { const n = areaN(ai), o = opac(n,F)*e, x = sx(n.x), y = sy(n.y), r = n.rb*view.k*e;
     ctx.globalAlpha = o; ctx.beginPath(); ctx.arc(x, y, r, 0, 7);
     const g = ctx.createRadialGradient(x, y, r*.2, x, y, r); g.addColorStop(0, rgba(n.color, F&&F.has(n) ? .16 : .07)); g.addColorStop(1, rgba(n.color, F&&F.has(n) ? .26 : .13));
-    ctx.fillStyle = g; ctx.fill(); ctx.lineWidth = (n===sel||n===hover) ? 2.6 : 1.6; ctx.strokeStyle = rgba(n.color, .75); ctx.stroke(); });
+    ctx.fillStyle = g; ctx.fill(); ctx.lineWidth = (n===sel||n===hover) ? 2.6 : 1.6; ctx.strokeStyle = rgba(n.color, .75);
+    ctx.setLineDash(filhos[ai].length ? [] : [4,3]); ctx.stroke(); ctx.setLineDash([]); });
   // ligações
   for (const l of links){
     if (!mostraLigacao(l, F)) continue;
@@ -294,7 +296,7 @@ function draw(){
       ctx.textAlign = Math.abs(c) < .35 ? 'center' : (c > 0 ? 'left' : 'right');
       const dy = Math.abs(c) < .35 ? Math.sign(s)*8 : 0;
       if (n.type==='setor'){ ctx.font = `700 ${Math.max(11,12*view.k)}px Inter,system-ui,sans-serif`; comHalo(n.label, lx, ly+dy, n.color); }
-      else { ctx.font = `600 ${Math.max(10.5,12*view.k)}px Inter,system-ui,sans-serif`; comHalo(`${n.label} · ${filhos[n.i].length}`, lx, ly+dy, F&&F.has(n) ? txt : mut); }
+      else { ctx.font = `600 ${Math.max(10.5,12*view.k)}px Inter,system-ui,sans-serif`; comHalo(`${n.label} · ${qtd(n.i)}`, lx, ly+dy, F&&F.has(n) ? txt : mut); }
     } else if ((F && F.has(n) && F.size<=34) || (achados && achados.has(n) && achados.size<=40) || view.k>2.6 || n===hover){
       ctx.textAlign='center'; ctx.font = `500 ${Math.max(10,10.5*Math.min(view.k,1.6))}px Inter,system-ui,sans-serif`;
       comHalo(n.label.replace(/ \(R\d+\)/,''), sx(n.x), sy(n.y) - n.r*Math.max(view.k,.45) - 9, txt);

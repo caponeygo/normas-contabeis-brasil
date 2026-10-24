@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 01 · NBC TG 01
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Redução ao valor recuperável (impairment)
+**Temas:** Redução ao valor recuperável (impairment), Custos e despesas
 
 ## Fonte
 

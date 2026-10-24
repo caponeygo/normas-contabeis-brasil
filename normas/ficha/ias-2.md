@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 16 · NBC TG 16
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Estoques
+**Temas:** Estoques, Custos e despesas
 
 ## Fonte
 

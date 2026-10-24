@@ -5,7 +5,7 @@
 **Índice navegável das normas do CFC e do CPC, das internacionais (IFRS, IAS, ISA) e dos padrões do PCAOB (EUA)**
 o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lançamentos e o link para o texto oficial.
 
-![Normas](https://img.shields.io/badge/normas-338-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-25-8250df) ![Setores](https://img.shields.io/badge/setores-7-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
+![Normas](https://img.shields.io/badge/normas-338-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-26-8250df) ![Setores](https://img.shields.io/badge/setores-7-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
 
 [🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/mapa.html)
 
@@ -40,7 +40,7 @@ Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pe
 ## 🧭 Por área
 
 <details>
-<summary><b>Ver as 25 áreas</b></summary>
+<summary><b>Ver as 26 áreas</b></summary>
 
 | Área | Use para |
 |---|---|
@@ -50,6 +50,7 @@ Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pe
 | [Auditoria Independente](areas/auditoria-independente.md) | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência |
 | [Auditoria Interna](areas/auditoria-interna.md) | auditor interno |
 | [Contabilidade Eleitoral](areas/contabilidade-eleitoral.md) | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral |
+| [Custos e Despesas](areas/custos-e-despesas.md) | custo de produção, CMV/CPV, custos de empréstimos, depreciação, amortização, impairment, despesas com pessoal e arrendamento, classificação das despesas na DRE (área secundária: as normas continuam nas suas áreas) |
 | [Fundamentos](areas/fundamentos.md) | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação |
 | [Instrumentos Financeiros](areas/instrumentos-financeiros.md) | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada |
 | [Mensuração](areas/mensuracao.md) | valor justo, ajuste a valor presente |

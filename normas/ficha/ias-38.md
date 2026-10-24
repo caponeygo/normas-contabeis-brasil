@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 04 · NBC TG 04
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Intangível
+**Temas:** Intangível, Custos e despesas
 
 ## Fonte
 

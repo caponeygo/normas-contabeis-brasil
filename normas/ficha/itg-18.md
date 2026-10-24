@@ -15,9 +15,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2013/IT
 
 **Equivalentes:** ICPC 18
 
-**Áreas:** [Setores Específicos](../../areas/setores-especificos.md)
+**Áreas:** [Setores Específicos](../../areas/setores-especificos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Mineração e meio ambiente
+**Temas:** Mineração e meio ambiente, Custos e despesas
 
 ## Trechos por setor
 

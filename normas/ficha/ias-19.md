@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 33 · NBC TG 33
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Passivos](../../areas/passivos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Passivos](../../areas/passivos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Benefícios a empregados
+**Temas:** Benefícios a empregados, Custos e despesas
 
 ## Fonte
 

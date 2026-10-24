@@ -16,9 +16,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 27 · IAS 16
 
-**Áreas:** [Ativos](../../areas/ativos.md)
+**Áreas:** [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Imobilizado
+**Temas:** Imobilizado, Custos e despesas
 
 ## Trechos por setor
 

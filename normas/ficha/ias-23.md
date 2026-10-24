@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 20 · NBC TG 20
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Passivos](../../areas/passivos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Passivos](../../areas/passivos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Custos de empréstimos
+**Temas:** Custos de empréstimos, Custos e despesas
 
 ## Fonte
 

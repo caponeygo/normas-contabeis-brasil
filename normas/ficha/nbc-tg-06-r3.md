@@ -16,9 +16,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 06 (R2) · IFRS 16
 
-**Áreas:** [Ativos](../../areas/ativos.md)
+**Áreas:** [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Arrendamentos
+**Temas:** Arrendamentos, Custos e despesas
 
 ## Trechos por setor
 

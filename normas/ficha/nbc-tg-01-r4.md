@@ -16,9 +16,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 01 (R1) · IAS 36
 
-**Áreas:** [Ativos](../../areas/ativos.md)
+**Áreas:** [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Redução ao valor recuperável (impairment)
+**Temas:** Redução ao valor recuperável (impairment), Custos e despesas
 
 ## Trechos por setor
 

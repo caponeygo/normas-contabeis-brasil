@@ -242,6 +242,11 @@
    "tema": "Pequenas e médias empresas",
    "area": "Pequenas e Médias Empresas",
    "sinonimos": "PME, ME, EPP, pequena empresa, microentidade, IFRS for SMEs, CPC PME"
+  },
+  {
+   "tema": "Custos e despesas",
+   "area": "Custos e Despesas",
+   "sinonimos": "CMV, CPV, custo de produção, despesas operacionais, depreciação, amortização, DRE por natureza e por função"
   }
  ],
  "normas": [
@@ -290,10 +295,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Redução ao valor recuperável (impairment)"
+    "Redução ao valor recuperável (impairment)",
+    "Custos e despesas"
    ],
    "areas": [
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -419,10 +426,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Intangível"
+    "Intangível",
+    "Custos e despesas"
    ],
    "areas": [
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -548,10 +557,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Arrendamentos"
+    "Arrendamentos",
+    "Custos e despesas"
    ],
    "areas": [
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -896,10 +907,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Estoques"
+    "Estoques",
+    "Custos e despesas"
    ],
    "areas": [
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [
     "PCAOB AS 2510"
@@ -1205,10 +1218,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Custos de empréstimos"
+    "Custos de empréstimos",
+    "Custos e despesas"
    ],
    "areas": [
-    "Passivos"
+    "Passivos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -1479,10 +1494,12 @@
    "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
-    "Demonstração do resultado (DRE)"
+    "Demonstração do resultado (DRE)",
+    "Custos e despesas"
    ],
    "areas": [
-    "Apresentação e Divulgação"
+    "Apresentação e Divulgação",
+    "Custos e Despesas"
    ],
    "relacionadas": [
     "PCAOB AS 2415"
@@ -1518,10 +1535,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Imobilizado"
+    "Imobilizado",
+    "Custos e despesas"
    ],
    "areas": [
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -1901,10 +1920,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Benefícios a empregados"
+    "Benefícios a empregados",
+    "Custos e despesas"
    ],
    "areas": [
-    "Passivos"
+    "Passivos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -2873,10 +2894,12 @@
    "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
-    "Demonstração do resultado (DRE)"
+    "Demonstração do resultado (DRE)",
+    "Custos e despesas"
    ],
    "areas": [
-    "Apresentação e Divulgação"
+    "Apresentação e Divulgação",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -3289,10 +3312,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Mineração e meio ambiente"
+    "Mineração e meio ambiente",
+    "Custos e despesas"
    ],
    "areas": [
-    "Setores Específicos"
+    "Setores Específicos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [
@@ -5893,11 +5918,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Custos de empréstimos"
+    "Custos de empréstimos",
+    "Custos e despesas"
    ],
    "areas": [
     "Setor Público",
-    "Passivos"
+    "Passivos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -6461,10 +6488,12 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Custos no setor público"
+    "Custos no setor público",
+    "Custos e despesas"
    ],
    "areas": [
-    "Setor Público"
+    "Setor Público",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8417,11 +8446,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Arrendamentos"
+    "Arrendamentos",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8474,11 +8505,13 @@
    "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
-    "Demonstração do resultado (DRE)"
+    "Demonstração do resultado (DRE)",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Apresentação e Divulgação"
+    "Apresentação e Divulgação",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8531,11 +8564,13 @@
    "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
-    "Demonstração do resultado (DRE)"
+    "Demonstração do resultado (DRE)",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Apresentação e Divulgação"
+    "Apresentação e Divulgação",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8559,11 +8594,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Estoques"
+    "Estoques",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8700,11 +8737,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Imobilizado"
+    "Imobilizado",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8728,11 +8767,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Benefícios a empregados"
+    "Benefícios a empregados",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Passivos"
+    "Passivos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -8812,11 +8853,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Custos de empréstimos"
+    "Custos de empréstimos",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Passivos"
+    "Passivos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -9068,11 +9111,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Redução ao valor recuperável (impairment)"
+    "Redução ao valor recuperável (impairment)",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -9124,11 +9169,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Intangível"
+    "Intangível",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Ativos"
+    "Ativos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],
@@ -9590,11 +9637,13 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Mineração e meio ambiente"
+    "Mineração e meio ambiente",
+    "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
-    "Setores Específicos"
+    "Setores Específicos",
+    "Custos e Despesas"
    ],
    "relacionadas": [],
    "setores": [],

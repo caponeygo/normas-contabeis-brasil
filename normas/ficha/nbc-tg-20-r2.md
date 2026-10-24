@@ -16,9 +16,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 20 (R1) · IAS 23
 
-**Áreas:** [Passivos](../../areas/passivos.md)
+**Áreas:** [Passivos](../../areas/passivos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Custos de empréstimos
+**Temas:** Custos de empréstimos, Custos e despesas
 
 ## Trechos por setor
 

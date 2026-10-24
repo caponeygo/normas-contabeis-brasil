@@ -16,9 +16,9 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2015/NB
 
 **Equivalentes:** CPC 33 (R1) · IAS 19
 
-**Áreas:** [Passivos](../../areas/passivos.md)
+**Áreas:** [Passivos](../../areas/passivos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Benefícios a empregados
+**Temas:** Benefícios a empregados, Custos e despesas
 
 ## Trechos por setor
 

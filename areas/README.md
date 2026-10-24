@@ -12,6 +12,7 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 | **Auditoria Independente** | auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência | 71 | [auditoria-independente.md](auditoria-independente.md) |
 | **Auditoria Interna** | auditor interno | 1 | [auditoria-interna.md](auditoria-interna.md) |
 | **Contabilidade Eleitoral** | partidos políticos, campanhas eleitorais, prestação de contas à Justiça Eleitoral | 2 | [contabilidade-eleitoral.md](contabilidade-eleitoral.md) |
+| **Custos e Despesas** | custo de produção, CMV/CPV, custos de empréstimos, depreciação, amortização, impairment, despesas com pessoal e arrendamento, classificação das despesas na DRE (área secundária: as normas continuam nas suas áreas) | 22 | [custos-e-despesas.md](custos-e-despesas.md) |
 | **Fundamentos** | estrutura conceitual, adoção inicial, escrituração, SPED, laudo de avaliação | 13 | [fundamentos.md](fundamentos.md) |
 | **Instrumentos Financeiros** | aplicações, empréstimos, derivativos, hedge, PCLD/perda esperada | 13 | [instrumentos-financeiros.md](instrumentos-financeiros.md) |
 | **Mensuração** | valor justo, ajuste a valor presente | 6 | [mensuracao.md](mensuracao.md) |
@@ -106,6 +107,7 @@ Trechos das normas que importam para cada tipo de empresa, com itens, checklist 
 | **Reforma tributária (IBS e CBS)** | IBS, CBS, Imposto Seletivo, split payment, EC 132/2023, LC 214/2025, tributos sobre consumo, período de teste 2026 | [Tributos](tributos.md) | OT CFC 01/2026 |
 | **Contabilidade eleitoral** | partidos políticos, campanhas, candidatos, prestação de contas eleitoral, TSE | [Contabilidade Eleitoral](contabilidade-eleitoral.md) | NBC TPE 01, OT CFC 02/2026 |
 | **Pequenas e médias empresas** | PME, ME, EPP, pequena empresa, microentidade, IFRS for SMEs, CPC PME | [Pequenas e Médias Empresas](pequenas-e-medias-empresas.md) | NBC TG 1000 (R1), NBC TG 1001, NBC TG 1002, ITG 1000, IFRS for SMEs |
+| **Custos e despesas** | CMV, CPV, custo de produção, despesas operacionais, depreciação, amortização, DRE por natureza e por função | [Custos e Despesas](custos-e-despesas.md) | NBC TG 01 (R4), NBC TG 04 (R4), NBC TG 06 (R3), NBC TG 16 (R2), NBC TG 20 (R2), NBC TG 26 (R5), NBC TG 27 (R4), NBC TG 33 (R2), NBC TG 51, ITG 18, NBC TSP 14 (R1), NBC TSP 34, IFRS 16, IFRS 18, IAS 1, IAS 2, IAS 16, IAS 19, IAS 23, IAS 36, IAS 38, IFRIC 20 |
 
 ## Busca por demonstração afetada
 

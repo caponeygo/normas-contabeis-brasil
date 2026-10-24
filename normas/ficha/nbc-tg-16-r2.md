@@ -16,9 +16,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 16 (R1) · IAS 2
 
-**Áreas:** [Ativos](../../areas/ativos.md)
+**Áreas:** [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Estoques
+**Temas:** Estoques, Custos e despesas
 
 ## Trechos por setor
 

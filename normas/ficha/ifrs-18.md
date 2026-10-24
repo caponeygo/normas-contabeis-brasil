@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 51 · NBC TG 51
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Demonstrações contábeis e divulgação, Demonstração do resultado (DRE)
+**Temas:** Demonstrações contábeis e divulgação, Demonstração do resultado (DRE), Custos e despesas
 
 ## Fonte
 

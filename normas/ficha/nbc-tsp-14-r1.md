@@ -12,9 +12,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **O que afeta:** BP, DVP
 
-**Áreas:** [Setor Público](../../areas/setor-publico.md), [Passivos](../../areas/passivos.md)
+**Áreas:** [Setor Público](../../areas/setor-publico.md), [Passivos](../../areas/passivos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Custos de empréstimos
+**Temas:** Custos de empréstimos, Custos e despesas
 
 ## Fonte
 

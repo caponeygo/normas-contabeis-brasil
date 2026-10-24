@@ -12,9 +12,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NB
 
 **O que afeta:** Informação de custos
 
-**Áreas:** [Setor Público](../../areas/setor-publico.md)
+**Áreas:** [Setor Público](../../areas/setor-publico.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Custos no setor público
+**Temas:** Custos no setor público, Custos e despesas
 
 ## Fonte
 

@@ -26,7 +26,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Prestação de contas de partido político nas eleições | areas/contabilidade-eleitoral.md, normas/ficha/nbc-tpe-01.md, setores/terceiro-setor/04-partidos-e-eleicoes.md | areas/contabilidade-eleitoral.md |
 | ✅ | Banco: perda esperada pela Resolução CMN 4.966 | setores/financeiro/README.md, lancamentos/bancos.md, setores/financeiro/02-perda-esperada-e-ativo-problematico.md | setores/financeiro/README.md |
 | ✅ | Seguradora aplica IFRS 17 ou regra da SUSEP? | setores/financeiro/05-seguradoras-e-previdencia.md, setores/financeiro/README.md, normas/ficha/nbc-tg-50.md | setores/financeiro/05-seguradoras-e-previdencia.md |
-| ✅ | O que muda com a IFRS 18 na DRE? | normas/ficha/ifrs-18.md, normas/ficha/nbc-tg-51.md, setores/industrial/07-dre-e-apresentacao.md | normas/ficha/ifrs-18.md |
+| ✅ | O que muda com a IFRS 18 na DRE? | normas/ficha/ifrs-18.md, normas/ficha/nbc-tg-51.md, areas/custos-e-despesas.md | normas/ficha/ifrs-18.md |
 | ✅ | IBS e CBS em 2026: devo reconhecer o passivo no período de teste? | normas/ficha/ot-cfc-01-2026.md, areas/reforma-tributaria.md, areas/tributos.md | normas/ficha/ot-cfc-01-2026.md |
 | ✅ | Lançamento contábil do split payment | lancamentos/README.md, lancamentos/tributos-e-subvencoes.md, areas/reforma-tributaria.md | lancamentos/tributos-e-subvencoes.md |
 | ✅ | O que significa VRL? | setores/varejo/01-mercadorias-e-cmv.md, setores/industrial/01-estoques-e-custo-de-producao.md, lancamentos/estoques-e-custos.md | setores/varejo/01-mercadorias-e-cmv.md |
@@ -42,7 +42,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Perícia contábil: laudo de apuração de haveres | areas/pericia-contabil.md, normas/ficha/itp-01.md, normas/nbc-tp-pericia.md | areas/pericia-contabil.md |
 | ✅ | Código de ética profissional do contador | normas/ficha/nbc-pg-01.md, normas/ficha/nbc-pg-200-r1.md, normas/ficha/nbc-pg-300-r1.md | normas/ficha/nbc-pg-01.md |
 | ✅ | Hedge de preço de commodities agrícolas | setores/agronegocio/03-credito-rural-hedge-e-cpr.md, normas/ficha/nbc-tg-48.md, normas/ficha/nbc-tg-02-r3.md | setores/agronegocio/03-credito-rural-hedge-e-cpr.md |
-| ✅ | Incentivo fiscal de ICMS crédito presumido e reserva de incentivos fiscais | lancamentos/tributos-e-subvencoes.md, setores/industrial/04-tributos-e-incentivos.md, normas/ficha/nbc-tg-07-r2.md | lancamentos/tributos-e-subvencoes.md |
+| ✅ | Incentivo fiscal de ICMS crédito presumido e reserva de incentivos fiscais | lancamentos/tributos-e-subvencoes.md, setores/industrial/04-tributos-e-incentivos.md, lancamentos/README.md | lancamentos/tributos-e-subvencoes.md |
 | ✅ | Variação cambial de fornecedor estrangeiro na importação | lancamentos/instrumentos-financeiros-e-cambio.md, setores/industrial/06-commodities-cambio-e-hedge.md, normas/ficha/ias-21.md | lancamentos/instrumentos-financeiros-e-cambio.md |
 | ✅ | Auditor acompanha o inventário físico dos estoques | setores/industrial/10-auditoria-na-industria.md, setores/varejo/01-mercadorias-e-cmv.md, normas/ficha/pcaob-as-2510.md | setores/industrial/10-auditoria-na-industria.md |
 | ✅ | Consolidação de controladas e equivalência patrimonial | normas/ficha/itg-09-r2.md, areas/participacoes-societarias.md, normas/ficha/ias-28.md | areas/participacoes-societarias.md |
@@ -68,13 +68,13 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Programa de fidelidade com pontos, como reconhecer a receita? | lancamentos/receitas.md, setores/varejo/02-vendas-e-receita.md, normas/ficha/nbc-tg-47.md | setores/varejo/02-vendas-e-receita.md |
 | ✅ | CMV e perdas e quebras de estoque no varejo | normas/ficha/nbc-tg-16-r2.md, setores/varejo/01-mercadorias-e-cmv.md, normas/ficha/nbc-ta-501.md | normas/ficha/nbc-tg-16-r2.md |
 | ✅ | ICMS-ST no varejo, substituição tributária | setores/varejo/05-tributos-no-varejo.md, setores/varejo/01-mercadorias-e-cmv.md, setores/varejo/README.md | setores/varejo/05-tributos-no-varejo.md |
-| ✅ | SaaS: receita ao longo do tempo ou em um momento? | setores/servicos/02-saas-software-e-licencas.md, normas/ficha/nbc-tg-47.md, normas/ficha/ifrs-15.md | setores/servicos/02-saas-software-e-licencas.md |
+| ✅ | SaaS: receita ao longo do tempo ou em um momento? | setores/servicos/02-saas-software-e-licencas.md, normas/ficha/nbc-tg-47.md, setores/servicos/README.md | setores/servicos/02-saas-software-e-licencas.md |
 | ✅ | Férias e 13º salário, provisão na folha | setores/servicos/03-pessoal-e-beneficios.md, lancamentos/pessoal-e-provisoes.md, setores/servicos/README.md | setores/servicos/03-pessoal-e-beneficios.md |
 | ✅ | Stock options pagamento baseado em ações | normas/ficha/nbc-tg-10-r3.md, normas/ficha/ifrs-2.md, setores/servicos/03-pessoal-e-beneficios.md | normas/ficha/nbc-tg-10-r3.md |
 | ✅ | Estágios de perda esperada na Resolução CMN 4.966 | lancamentos/bancos.md, setores/financeiro/02-perda-esperada-e-ativo-problematico.md, setores/financeiro/README.md | setores/financeiro/02-perda-esperada-e-ativo-problematico.md |
 | ✅ | Seguradora, contrato de seguro e SUSEP | setores/financeiro/05-seguradoras-e-previdencia.md, setores/financeiro/README.md, normas/ficha/nbc-tg-50.md | setores/financeiro/05-seguradoras-e-previdencia.md |
 | ✅ | Incentivos de ICMS na indústria são subvenção? | setores/industrial/04-tributos-e-incentivos.md, normas/ficha/nbc-tg-07-r2.md, lancamentos/tributos-e-subvencoes.md | setores/industrial/04-tributos-e-incentivos.md |
-| ✅ | Gastos com pesquisa e desenvolvimento, capitalizar ou despesa? | setores/industrial/05-pesquisa-e-desenvolvimento.md, normas/ficha/nbc-tg-04-r4.md, normas/ficha/ias-38.md | setores/industrial/05-pesquisa-e-desenvolvimento.md |
+| ✅ | Gastos com pesquisa e desenvolvimento, capitalizar ou despesa? | setores/industrial/05-pesquisa-e-desenvolvimento.md, normas/ficha/nbc-tg-04-r4.md, normas/ficha/nbc-tg-27-r4.md | setores/industrial/05-pesquisa-e-desenvolvimento.md |
 | ✅ | Provisão de garantia de produto vendido | lancamentos/receitas.md, setores/industrial/03-vendas-e-pos-venda.md, setores/varejo/02-vendas-e-receita.md | setores/industrial/03-vendas-e-pos-venda.md |
 | ✅ | Variação cambial e moeda funcional | normas/ficha/ias-21.md, normas/ficha/nbc-tg-02-r3.md, areas/moeda-e-cambio.md | normas/ficha/ias-21.md |
 | ✅ | Equivalência patrimonial em coligada | normas/ficha/ias-28.md, normas/ficha/nbc-tsp-18-r1.md, normas/ficha/nbc-tg-18-r4.md | normas/ficha/ias-28.md |

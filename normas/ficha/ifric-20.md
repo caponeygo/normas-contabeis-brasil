@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** ICPC 18 · ITG 18
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Setores Específicos](../../areas/setores-especificos.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Setores Específicos](../../areas/setores-especificos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Mineração e meio ambiente
+**Temas:** Mineração e meio ambiente, Custos e despesas
 
 ## Fonte
 

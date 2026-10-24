@@ -21,9 +21,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 26 (R1) · IAS 1
 
-**Áreas:** [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md)
+**Áreas:** [Apresentação e Divulgação](../../areas/apresentacao-e-divulgacao.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Demonstrações contábeis e divulgação, Demonstração do resultado (DRE)
+**Temas:** Demonstrações contábeis e divulgação, Demonstração do resultado (DRE), Custos e despesas
 
 ## Trechos por setor
 
