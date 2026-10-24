@@ -4,22 +4,24 @@
 
 Cooperativas seguem a ITG 2004, com resultado segregado entre atos com cooperados e com terceiros.
 
-> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+>
+> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · ⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.
 
 
 ### ITG 2004 – Entidade Cooperativa · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/ITG2004&arquivo=ITG2004.doc)
 
-| Item | O que diz para o setor |
-|---|---|
-| 5–7 | Escrituração segregada em ato cooperativo e não cooperativo; a Demonstração de Sobras ou Perdas evidencia separadamente cada um, por atividade, produto ou serviço. |
-| 18–19 | Capital formado por quotas-partes; quotas de cooperados demitidos, eliminados ou excluídos vão para passivo (capital a restituir) assim que recebido o pedido ou deliberada a saída. |
-| 20–21 | Sobras à disposição da assembleia são conta de trânsito; distribuição prevista no estatuto é registrada no passivo no encerramento. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| 5–7 | Escrituração segregada em ato cooperativo e não cooperativo; a Demonstração de Sobras ou Perdas evidencia separadamente cada um, por atividade, produto ou serviço. | ✅ |
+| 18–19 | Capital formado por quotas-partes; quotas de cooperados demitidos, eliminados ou excluídos vão para passivo (capital a restituir) assim que recebido o pedido ou deliberada a saída. | ✅ |
+| 20–21 | Sobras à disposição da assembleia são conta de trânsito; distribuição prevista no estatuto é registrada no passivo no encerramento. | ✅ |
 
 ### IFRIC 2 – Cotas de Cooperados em Entidades Cooperativas ([ICPC 14](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=23)) · [texto oficial](https://www.ifrs.org/issued-standards/list-of-standards/)
 
-| Item | O que diz para o setor |
-|---|---|
-| — | Referência internacional (ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate. |
+| Item | O que diz para o setor | Conferência |
+|---|---|---|
+| — | Referência internacional (ICPC 14): cotas são patrimônio só se a cooperativa puder recusar o resgate. | ⚠ não conferido |
 
 ## Checklist na prática
 

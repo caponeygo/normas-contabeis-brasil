@@ -7,7 +7,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-PASTAS = ["areas", "lancamentos", "normas"] + [f"setores/{x}" for x in ["industrial", "varejo", "servicos", "agronegocio", "construcao", "terceiro-setor", "financeiro"]]
+PASTAS = ["areas", "lancamentos", "normas", "normas/ficha"] + [f"setores/{x}" for x in ["industrial", "varejo", "servicos", "agronegocio", "construcao", "terceiro-setor", "financeiro"]]
 PARADAS = set("""de da do das dos a o as os e em no na nos nas um uma uns umas para por com sem que qual quais
 como quando onde ou ao aos se sua seu suas seus ser sao foi esta este isso essa esse pelo pela pelos pelas
 mais menos ja so nao sim deve devo pode posso vira entra fica sobre entre ate apos the""".split())
@@ -45,7 +45,10 @@ def main():
     linhas, acertos = [], 0
     for p in perguntas:
         top = bm25(p["pergunta"])[:3]
-        achou = next((d for d in top if d in p["arquivos"]), None)
+        normas = [nm.lower() for nm in p.get("normas", [])]
+        # a ficha de uma norma esperada também é resposta certa (ela cita a norma pedida)
+        achou = next((d for d in top if d in p["arquivos"]
+                      or (d.startswith("normas/ficha/") and normas and all(nm in docs[d].lower() for nm in normas))), None)
         cita = achou and all(nm.lower() in docs[achou].lower() for nm in p.get("normas", []))
         ok = bool(achou and cita)
         acertos += ok

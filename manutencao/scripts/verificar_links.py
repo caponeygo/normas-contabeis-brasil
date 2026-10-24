@@ -3,7 +3,7 @@
 # então conferimos se a norma aparece, se está em vigor e se não foi revogada.
 # Saída: verificacao/LINKS.md e verificacao/links.json. Sai com código 1 se houver link quebrado.
 # Uso: python scripts/verificar_links.py [--baixar]   (--baixar salva os PDFs em .cache/normas/)
-import html, json, re, sys, time, unicodedata, urllib.request
+import hashlib, html, json, re, sys, time, unicodedata, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -120,6 +120,14 @@ def main():
             x["arquivo"] = arq.relative_to(ROOT).as_posix()
 
     saida = ROOT / "manutencao" / "verificacao"; saida.mkdir(exist_ok=True)
+    # impressão digital dos PDFs: se o CFC alterar o texto de uma norma, o hash muda e o resumo deve ser revisado
+    arq_hash = saida / "hashes.json"
+    antigos = json.loads(arq_hash.read_text(encoding="utf-8")) if arq_hash.exists() else {}
+    novos = {x["codigo"]: hashlib.sha256((ROOT / x["arquivo"]).read_bytes()).hexdigest()
+             for x in res if x.get("arquivo") and (ROOT / x["arquivo"]).exists()}
+    mudou = sorted(c for c, h in novos.items() if c in antigos and antigos[c] != h)
+    if "--atualizar-hashes" in sys.argv:
+        arq_hash.write_text(json.dumps({**antigos, **novos}, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     (saida / "links.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
     cont = {}
     for x in res:
@@ -137,9 +145,14 @@ def main():
             md.append(f"| {x['codigo']} | {x['situacao']} | {det} | [abrir]({x['url']}) |")
     else:
         md.append("Nenhum problema encontrado.")
+    if novos and not antigos:
+        md.append("\n## PDFs alterados\n\nSem linha de base: rode com `--atualizar-hashes` para registrar o estado atual.")
+    elif mudou:
+        md.append("\n## PDFs alterados desde a última conferência\n\nO texto oficial mudou: revise o resumo e os trechos por setor destas normas.\n")
+        md += [f"- {c}" for c in mudou]
     (saida / "LINKS.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(cont)
-    sys.exit(1 if cont.get("quebrado") else 0)
+    sys.exit(1 if cont.get("quebrado") or mudou else 0)
 
 
 if __name__ == "__main__":

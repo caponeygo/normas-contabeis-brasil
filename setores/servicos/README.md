@@ -2,7 +2,9 @@
 
 Trechos das normas que importam para prestadores de serviço: consultorias, escritórios, tecnologia e SaaS, saúde, educação, agências, logística e serviços em geral. O centro é a receita (NBC TG 47) e as pessoas (NBC TG 33).
 
-> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+> Resumo orientativo dos trechos das normas aplicáveis ao setor; não substitui o texto oficial. Os números de item seguem o CPC/NBC (mesma numeração da IAS/IFRS) e são conferidos automaticamente contra os PDFs oficiais (`manutencao/verificacao/CONTEUDO.md`). Confira sempre pelo link oficial.
+>
+> **Conferência:** ✅ item achado no texto oficial e assunto confere (automático) · ✅👤 revisado por pessoa · ⚠ pedir revisão ou não conferido (inclui regras de fora do CFC): confirme no link oficial antes de afirmar.
 
 ## Tópicos
 

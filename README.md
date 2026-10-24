@@ -1,26 +1,34 @@
-# Normas Contábeis Brasileiras
+<div align="center">
 
-Índice das normas contábeis e de auditoria do Brasil (**CFC** e **CPC**) e das internacionais (**IFRS**, **IAS**, **ISA**):
+# 📚 Normas Contábeis Brasileiras
+
+**Índice navegável das normas do CFC e do CPC e das internacionais (IFRS, IAS, ISA)**
 o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lançamentos e o link para o texto oficial.
 
+![Normas](https://img.shields.io/badge/normas-270-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-24-8250df) ![Setores](https://img.shields.io/badge/setores-7-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
+
+[🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/manutencao/graphify-out/graph.html)
+
+</div>
+
+> [!NOTE]
 > O texto integral das normas não está aqui (direitos autorais): cada norma tem um resumo e o link oficial.
 > Confira sempre a versão vigente. Este índice não é aconselhamento profissional.
 
-## Como achar o que você precisa
+## 🚀 Por onde começar
 
 | Você tem… | Vá para |
 |---|---|
-| **o código** da norma (ex.: NBC TG 27, CPC 47, IAS 16, NBC TA 700) | [**normas/**](normas/README.md): lista A–Z com 270 normas e um arquivo por série |
-| **o assunto** (ex.: imobilizado, leasing, receita, IR diferido) | [**areas/**](areas/README.md): normas por área, busca por tema com sinônimos e por demonstração (DRE, DFC…) |
-| **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
-| **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
-| **uma sigla** que não conhece | [**GLOSSARIO.md**](GLOSSARIO.md) |
-| **reforma tributária** (IBS e CBS) | [**areas/reforma-tributaria.md**](areas/reforma-tributaria.md) |
+| 🔎 **o código** da norma (ex.: NBC TG 27, CPC 47, IAS 16, NBC TA 700) | [**normas/**](normas/README.md): lista A–Z com 270 normas e um arquivo por série |
+| 🧭 **o assunto** (ex.: imobilizado, leasing, receita, IR diferido) | [**areas/**](areas/README.md): normas por área, busca por tema com sinônimos e por demonstração (DRE, DFC…) |
+| 🏭 **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
+| 🧾 **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
+| 🔤 **uma sigla** que não conhece | [**GLOSSARIO.md**](GLOSSARIO.md) |
+| 🏛️ **reforma tributária** (IBS e CBS) | [**areas/reforma-tributaria.md**](areas/reforma-tributaria.md) |
 
-Também dá para usar a busca do GitHub (tecla **/** ou **t** para procurar arquivos) ou o
-[**mapa interativo**](https://caponeygo.github.io/normas-contabeis-brasil/graphify-out/graph.html).
+Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pelo nome.
 
-## Por setor
+## 🏭 Por setor
 
 | Setor | Use para |
 |---|---|
@@ -32,7 +40,10 @@ Também dá para usar a busca do GitHub (tecla **/** ou **t** para procurar arqu
 | [Terceiro Setor](setores/terceiro-setor/README.md) | associações, fundações, ONGs, OSCIPs, entidades beneficentes, doações, subvenções e convênios, gratuidades, trabalho voluntário, superávit, patrimônio social, cooperativas, partidos políticos |
 | [Financeiro](setores/financeiro/README.md) | bancos, cooperativas de crédito, fintechs, seguradoras, previdência complementar, Banco Central (COSIF, Res. CMN 4.966, Res. BCB 352), ativo problemático, estágios de perda esperada, renegociação, SUSEP, CVM |
 
-## Por área
+## 🧭 Por área
+
+<details>
+<summary><b>Ver as 24 áreas</b></summary>
 
 | Área | Use para |
 |---|---|
@@ -61,19 +72,22 @@ Também dá para usar a busca do GitHub (tecla **/** ou **t** para procurar arqu
 | [Ética e Exercício Profissional](areas/etica-e-exercicio-profissional.md) | código de ética, independência, educação continuada, CNAI, qualidade de firmas |
 | [Normas Internacionais](areas/normas-internacionais.md) | IFRS, IAS, IFRIC/SIC, IFRS for SMEs, IFRS S1/S2 e correlação com CPC |
 
-## O que tem em cada pasta
+</details>
 
-| Pasta / arquivo | Conteúdo |
-|---|---|
-| `normas/` | Índice de todas as normas, por série e em ordem alfabética |
-| `areas/` | Uma página por área de assunto, com resumo de cada norma |
-| `setores/` | Uma pasta por setor, com os itens das normas, checklist e perguntas frequentes |
-| `lancamentos/` | Exemplos de lançamentos contábeis |
-| `GLOSSARIO.md` | Siglas e termos |
-| `normas.json` | Todos os dados em JSON (para sistemas e IA) |
-| `AGENTS.md` | Instruções para assistentes de IA (Copilot, Claude etc.) |
-| `dados/` | Planilhas que geram tudo (manutenção) |
-| `scripts/`, `testes/`, `verificacao/`, `graphify-out/` | Geradores, testes e relatórios automáticos (manutenção) |
+## 🗂️ O que tem em cada pasta
+
+```text
+normas-contabeis-brasil/
+├── normas/        índice de todas as normas, por série, em ordem alfabética e uma ficha por norma (normas/ficha/)
+├── areas/         uma página por área de assunto, com resumo de cada norma
+├── setores/       uma pasta por setor: itens das normas, checklist e perguntas frequentes
+├── lancamentos/   exemplos de lançamentos contábeis
+├── GLOSSARIO.md   siglas e termos
+├── normas.json    todos os dados em JSON (para sistemas e IA)
+├── llms.txt       mapa curto do repositório para assistentes de IA
+├── AGENTS.md      instruções para assistentes de IA (Copilot, Claude etc.)
+└── manutencao/    planilhas, scripts, testes, relatórios e mapa (geram tudo; não precisa abrir)
+```
 
 ## Fontes oficiais
 - CFC, Normas Brasileiras de Contabilidade: <https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/>
