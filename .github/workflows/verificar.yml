@@ -34,7 +34,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date +%d)" -le 7 -a "${{ github.event_name }}" = "schedule" ]; then
             echo "conteudo=sim" >> "$GITHUB_OUTPUT"
-            sudo apt-get install -y -qq poppler-utils
+            sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
           fi
 
       - name: Verificar links oficiais
