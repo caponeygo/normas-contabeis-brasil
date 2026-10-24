@@ -93,8 +93,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 | [`normas.json`](../normas.json) | Dados em JSON: `codigo`, `titulo`, `serie`, `situacao`, `areas`, `temas`, `resumo`, `afeta`, `cpc`, `url_cpc`, `internacional`, `url` e `setores` (trechos por setor: setor, tópico, itens, ponto) |
 | [`README.md`](../README.md) | Página inicial: como achar norma, assunto, setor, lançamento ou sigla |
 | [`manutencao/verificacao/`](../manutencao/verificacao/) | Relatórios automáticos: links, conteúdo contra o texto oficial, normas novas no CFC, teste de busca |
-| `manutencao/graphify-out/graph.json` | Grafo: norma ↔ tema ↔ área ↔ setor ↔ demonstração ↔ CPC/IFRS (`graphify query "imobilizado"`) |
-| `manutencao/graphify-out/graph.html` | Mapa interativo para pessoas |
+| [`mapa.html`](../mapa.html) | Mapa interativo por setor e área, para pessoas |
 
 ## Atualizar (para quem mantém o repositório)
 
@@ -108,7 +107,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 Depois de editar, rode da raiz:
 
 ```bash
-python manutencao/graphify-out/rebuild_graph.py
+python manutencao/scripts/reconstruir.py
 ```
 
 Verificações (também rodam no GitHub Actions toda segunda):

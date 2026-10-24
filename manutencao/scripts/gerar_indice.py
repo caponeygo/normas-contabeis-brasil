@@ -1,6 +1,6 @@
 # Gera README.md, areas/, as pastas por setor, normas.json e a extração do grafo a partir das planilhas em dados/.
 # As planilhas (CSV separado por ";", abrem no Excel) são a fonte dos dados: edite lá e rode
-#     python manutencao/graphify-out/rebuild_graph.py
+#     python manutencao/scripts/reconstruir.py
 import json, re, sys, unicodedata
 from pathlib import Path
 
@@ -448,7 +448,7 @@ o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lanç
 
 ![Normas](https://img.shields.io/badge/normas-{len(NORMAS)}-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-{len(ordem)}-8250df) ![Setores](https://img.shields.io/badge/setores-{len(SETORES_GER)}-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
 
-[🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/manutencao/graphify-out/graph.html)
+[🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/mapa.html)
 
 </div>
 
@@ -534,52 +534,6 @@ ag = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
 ag_github = re.sub(r"\]\((?!https?:|#|\.\./)([^)]+)\)", r"](../\1)", ag)
 (ROOT / ".github" / "copilot-instructions.md").write_text(ag_github, encoding="utf-8")
 
-# ---------- extração para o graphify (determinística, sem LLM) ----------
-SRC = "normas.json"
-def nid(prefix, s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
-    return prefix + "_" + re.sub(r"[^a-z0-9]+", "_", s).strip("_")
-nodes, edges, seen = [], [], set()
-def node(i, label, kind):
-    if i not in seen:
-        seen.add(i)
-        nodes.append({"id": i, "label": label, "file_type": "concept" if kind != "norma" else "document",
-                      "source_file": SRC, "source_location": None, "source_url": None, "captured_at": None,
-                      "author": None, "contributor": None, "kind": kind})
-    return i
-def edge(a, b, rel, conf="EXTRACTED", score=1.0):
-    edges.append({"source": a, "target": b, "relation": rel, "confidence": conf,
-                  "confidence_score": score, "source_file": SRC, "source_location": None, "weight": 1.0})
-def code_id(c):
-    return nid("norma", re.sub(r"\s*\(R\d+\)", "", c))
-for a in ordem:
-    node(nid("area", a), f"Área: {a}", "area")
-for nome, area, _, sin in TEMAS:
-    t = node(nid("tema", nome), f"{nome} ({sin})", "tema")
-    edge(t, node(nid("area", area), f"Área: {area}", "area"), "parte_da_area")
-for r in REC:
-    n = node(code_id(r["codigo"]), f"{r['codigo']} – {r['titulo']}", "norma")
-    for a in r["areas"]:
-        edge(n, nid("area", a), "pertence_a_area")
-    for t in r["temas"]:
-        edge(n, nid("tema", t), "trata_de")
-    for ref in (r["cpc"], r["internacional"]):
-        if ref:
-            edge(n, node(code_id(ref), ref, "norma"), "equivale_a")
-    if r["serie"] != "IFRS/IAS":
-        for sig, nome in DEMOS:
-            if re.search(rf"\b{sig}\b", r["afeta"]):
-                edge(n, node(nid("demo", sig), f"Demonstração: {sig} ({nome})", "demonstracao"), "afeta")
-for nome, pst, usar, tops in SETORES_GER:
-    setor = node(nid("setor", nome), f"Setor: {nome} ({usar})", "setor")
-    for arq, titulo in tops:
-        edge(node(nid("topico_" + pst, titulo), f"{nome}: {titulo}", "topico_setor"), setor, "parte_do_setor")
-for r in REC:
-    for x in {(x["pasta"], x["topico"]) for x in r["setores"]}:
-        edge(code_id(r["codigo"]), nid("topico_" + x[0], x[1]), "aplica_no_setor")
-(ROOT / "manutencao" / "graphify-out").mkdir(exist_ok=True)
-(ROOT / "manutencao" / "graphify-out" / ".graphify_extract.json").write_text(json.dumps(
-    {"nodes": nodes, "edges": edges, "hyperedges": [], "input_tokens": 0, "output_tokens": 0}, ensure_ascii=False), encoding="utf-8")
-print(f"{len(REC)} normas, {len(TEMAS)} temas, {len(ordem)} áreas; grafo: {len(nodes)} nós, {len(edges)} arestas")
+print(f"{len(REC)} normas, {len(TEMAS)} temas, {len(ordem)} áreas")
 sem = [r["codigo"] for r in REC if not r["temas"]]
 print("sem tema:", sem)

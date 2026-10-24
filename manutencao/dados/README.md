@@ -11,7 +11,7 @@ destas planilhas. **Para corrigir ou acrescentar algo, edite aqui** e não nos a
    Se o Excel salvar com vírgula, confira em *Configurações regionais* que o separador de lista é `;`.
 3. Envie a alteração para o GitHub (pelo site: abra o arquivo → ícone de lápis, ou *Add file → Upload files*).
 4. O GitHub Actions regenera tudo sozinho em 1 ou 2 minutos (workflow **Gerar índice**). Para gerar no seu computador:
-   `python graphify-out/rebuild_graph.py`.
+   `python manutencao/scripts/reconstruir.py`.
 
 Uma célula pode ter várias linhas (ex.: `checklist`): no Excel use **Alt+Enter** para quebrar a linha.
 
