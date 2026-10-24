@@ -7,7 +7,7 @@ o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lanç
 
 ![Normas](https://img.shields.io/badge/normas-338-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-25-8250df) ![Setores](https://img.shields.io/badge/setores-7-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)
 
-[🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/manutencao/graphify-out/graph.html)
+[🔎 Por código](normas/README.md) · [🧭 Por assunto](areas/README.md) · [🏭 Por setor](setores/README.md) · [🧾 Lançamentos](lancamentos/README.md) · [📖 Glossário](GLOSSARIO.md) · [🕸️ Mapa interativo](https://caponeygo.github.io/normas-contabeis-brasil/mapa.html)
 
 </div>
 

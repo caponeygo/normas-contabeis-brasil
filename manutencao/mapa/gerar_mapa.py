@@ -1,7 +1,7 @@
 # Gera graph.html: rede interativa em que SETORES e ÁREAS são os centros e as normas ficam presas aos centros
 # a que pertencem (uma norma que serve a vários setores/áreas fica entre eles, ligando-os naturalmente).
 # Dados: normas.json (gerado por gerar_indice.py) e dados/setores.csv. Sem bibliotecas externas.
-# Rodar da raiz do projeto: python manutencao/graphify-out/build_html.py
+# Rodar da raiz do projeto: python manutencao/mapa/gerar_mapa.py (ou python manutencao/scripts/reconstruir.py, que faz tudo)
 import json, re, sys, unicodedata
 from pathlib import Path
 
@@ -54,6 +54,6 @@ dados = {"setores": SETORES, "areas": [{"nome": a, "uso": uso.get(a, ""), "url":
          "normas": nos, "repo": REPO}
 tpl = (Path(__file__).resolve().parent / "template.html").read_text(encoding="utf-8")
 saida = tpl.replace("__DATA__", json.dumps(dados, ensure_ascii=False, separators=(",", ":")))
-(Path(__file__).resolve().parent / "graph.html").write_text(saida, encoding="utf-8")
+(ROOT / "mapa.html").write_text(saida, encoding="utf-8")
 print(f"{len(SETORES)} setores, {len(AREAS)} áreas, {len(nos)} normas, "
       f"{sum(len(n['e']) for n in nos)} equivalências")
