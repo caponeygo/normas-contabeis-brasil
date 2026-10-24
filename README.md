@@ -11,10 +11,6 @@ o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lanç
 
 </div>
 
-> [!NOTE]
-> O texto integral das normas não está aqui (direitos autorais): cada norma tem um resumo e o link oficial.
-> Confira sempre a versão vigente. Este índice não é aconselhamento profissional.
-
 ## 🚀 Por onde começar
 
 | Você tem… | Vá para |
