@@ -33,7 +33,7 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 | Serviços | [Escritórios, tributos e pequenas empresas](../../setores/servicos/04-escritorios-tributos-e-pequenas.md) | 22–24 | ✅ conferido |
 | Serviços | [Escritórios, tributos e pequenas empresas](../../setores/servicos/04-escritorios-tributos-e-pequenas.md) | 5–8 | ✅👤 revisado por pessoa |
 | Agronegócio | [Terras, plantas portadoras e arrendamentos](../../setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md) | 9–11 | ✅ conferido |
-| Agronegócio | [Terras, plantas portadoras e arrendamentos](../../setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md) | 27, 38, B42 | ⚠ não conferido |
+| Agronegócio | [Terras, plantas portadoras e arrendamentos](../../setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md) | 27, 38, B42 | ✅ conferido |
 | Construção e Incorporação | [Garantias, equipamentos e tributos](../../setores/construcao/03-garantias-imobilizado-e-tributos.md) | 22–24 | ✅ conferido |
 
 ## Fonte

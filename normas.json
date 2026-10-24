@@ -628,7 +628,7 @@
      "arquivo": "setores/agronegocio/02-terras-plantas-portadoras-e-arrendamentos.md",
      "itens": "27, 38, B42",
      "ponto": "Pagamentos variáveis que dependem da produção ou do preço da commodity (ex.: sacas por hectare a preço de mercado) não entram no passivo, salvo se fixos em substância.",
-     "conferencia": "nao_conferido"
+     "conferencia": "auto"
     },
     {
      "setor": "Construção e Incorporação",
@@ -2489,7 +2489,7 @@
      "arquivo": "setores/servicos/04-escritorios-tributos-e-pequenas.md",
      "itens": "47",
      "ponto": "ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita. Na DRE, a dedução vem da Lei 6.404/76, art. 187, I, e o item 47 da NBC TG 47 só exclui da receita os valores cobrados em nome de terceiros.",
-     "conferencia": "manual"
+     "conferencia": "auto"
     },
     {
      "setor": "Construção e Incorporação",
@@ -2650,7 +2650,7 @@
      "arquivo": "setores/financeiro/01-classificacao-e-mensuracao.md",
      "itens": "—",
      "ponto": "Referência IFRS 9 para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro.",
-     "conferencia": "nao_conferido"
+     "conferencia": "auto"
     },
     {
      "setor": "Financeiro",

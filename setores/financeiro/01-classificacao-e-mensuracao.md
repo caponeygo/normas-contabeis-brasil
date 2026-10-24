@@ -37,7 +37,7 @@ Em vigor desde 1/1/2025 (contabilidade de hedge a partir de 1/1/2027, art. 81). 
 
 | Item | O que diz para o setor | Conferência |
 |---|---|---|
-| — | Referência IFRS 9 para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro. | ⚠ não conferido |
+| — | Referência IFRS 9 para as demonstrações consolidadas em IFRS e para empresas fora do sistema financeiro. | ✅ |
 
 ## Checklist na prática
 

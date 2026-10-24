@@ -52,7 +52,7 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NB
 | Serviços | [SaaS, software e licenças](../../setores/servicos/02-saas-software-e-licencas.md) | B48–B51 | ✅ conferido |
 | Serviços | [SaaS, software e licenças](../../setores/servicos/02-saas-software-e-licencas.md) | 91–94 | ✅ conferido |
 | Serviços | [SaaS, software e licenças](../../setores/servicos/02-saas-software-e-licencas.md) | 95–98 | ✅ conferido |
-| Serviços | [Escritórios, tributos e pequenas empresas](../../setores/servicos/04-escritorios-tributos-e-pequenas.md) | 47 | ✅👤 revisado por pessoa |
+| Serviços | [Escritórios, tributos e pequenas empresas](../../setores/servicos/04-escritorios-tributos-e-pequenas.md) | 47 | ✅ conferido |
 | Construção e Incorporação | [Incorporação imobiliária](../../setores/construcao/01-incorporacao-imobiliaria.md) | 35 | ✅ conferido |
 | Construção e Incorporação | [Incorporação imobiliária](../../setores/construcao/01-incorporacao-imobiliaria.md) | 39–45 | ✅ conferido |
 | Construção e Incorporação | [Incorporação imobiliária](../../setores/construcao/01-incorporacao-imobiliaria.md) | B20–B27 | ✅ conferido |

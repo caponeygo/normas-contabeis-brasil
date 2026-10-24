@@ -20,7 +20,7 @@ Muitos prestadores de serviço são pequenos e podem usar as normas simplificada
 
 | Item | O que diz para o setor | Conferência |
 |---|---|---|
-| 47 | ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita. Na DRE, a dedução vem da Lei 6.404/76, art. 187, I, e o item 47 da NBC TG 47 só exclui da receita os valores cobrados em nome de terceiros. | ✅👤 |
+| 47 | ISS e demais tributos sobre o faturamento são deduções da receita bruta, não receita. Na DRE, a dedução vem da Lei 6.404/76, art. 187, I, e o item 47 da NBC TG 47 só exclui da receita os valores cobrados em nome de terceiros. | ✅ |
 
 ### NBC TG 1002 – Contabilidade para Microentidades · [texto oficial](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTG1002&arquivo=NBCTG1002.doc)
 
