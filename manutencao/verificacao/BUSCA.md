@@ -49,8 +49,8 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Quando um crédito de banco vira ativo problemático e para de reconhecer juros? | lancamentos/bancos.md, setores/financeiro/02-perda-esperada-e-ativo-problematico.md, setores/financeiro/README.md | lancamentos/bancos.md |
 | ✅ | Banco: renegociação ou reestruturação de operação de crédito | setores/financeiro/03-renegociacao-reestruturacao-e-baixa.md, lancamentos/bancos.md, setores/financeiro/README.md | setores/financeiro/03-renegociacao-reestruturacao-e-baixa.md |
 | ✅ | Lançamento de baixa a prejuízo em banco | lancamentos/bancos.md, lancamentos/README.md, setores/financeiro/02-perda-esperada-e-ativo-problematico.md | lancamentos/bancos.md |
-| ✅ | A NBC TG 26 ainda vale ou foi substituída? | normas/ficha/pcaob-ei-1000.md, normas/ficha/nbc-tg-26-r5.md, normas/ficha/pcaob-qc-1000.md | normas/ficha/nbc-tg-26-r5.md |
-| ✅ | Qual norma substitui a NBC TG 26 a partir de 2027? | normas/ficha/ias-1.md, normas/ficha/nbc-tg-26-r5.md, setores/industrial/07-dre-e-apresentacao.md | normas/ficha/nbc-tg-26-r5.md |
+| ✅ | A NBC TG 26 ainda vale ou foi substituída? | normas/mudancas-futuras.md, normas/ficha/pcaob-ei-1000.md, normas/ficha/nbc-tg-26-r5.md | normas/ficha/nbc-tg-26-r5.md |
+| ✅ | Qual norma substitui a NBC TG 26 a partir de 2027? | normas/ficha/ias-1.md, normas/ficha/nbc-tg-26-r5.md, normas/mudancas-futuras.md | normas/ficha/nbc-tg-26-r5.md |
 | ✅ | NBC TO 3410 gases de efeito estufa está em vigor? | normas/ficha/nbc-to-3410.md, areas/asseguracao.md, normas/nbc-to-asseguracao.md | normas/ficha/nbc-to-3410.md |
 | ✅ | Qual a norma de arrendamento mercantil, o direito de uso? | lancamentos/imobilizado-e-arrendamentos.md, normas/ficha/nbc-tsp-35.md, normas/ficha/ifrs-16.md | lancamentos/imobilizado-e-arrendamentos.md |
 | ❌ | Como contabilizar perda esperada de crédito em contas a receber? | setores/varejo/03-cartoes-e-recebiveis.md, lancamentos/bancos.md, lancamentos/README.md | — |
@@ -88,6 +88,6 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Revisão de informações trimestrais ITR | normas/ficha/ctr-01-r1.md, areas/revisao.md, normas/nbc-tr-revisao.md | areas/revisao.md |
 | ✅ | Fraude na auditoria responsabilidade do auditor | normas/ficha/nbc-ta-240-r2.md, normas/ficha/pcaob-as-2401.md, areas/auditoria-independente.md | normas/ficha/nbc-ta-240-r2.md |
 | ✅ | Qual padrão do PCAOB trata de fraude na auditoria? | normas/ficha/pcaob-as-2401.md, areas/auditoria-independente.md, normas/ficha/nbc-ta-240-r2.md | normas/ficha/pcaob-as-2401.md |
-| ✅ | O que é a QC 1000 do PCAOB e quando começa a valer? | normas/ficha/pcaob-qc-1000.md, normas/ficha/pcaob-qc-30.md, normas/ficha/pcaob-qc-20.md | normas/ficha/pcaob-qc-1000.md |
+| ✅ | O que é a QC 1000 do PCAOB e quando começa a valer? | normas/mudancas-futuras.md, normas/ficha/pcaob-qc-1000.md, normas/ficha/pcaob-qc-30.md | normas/ficha/pcaob-qc-1000.md |
 | ✅ | PCAOB AS 2201 auditoria do controle interno sobre relatórios financeiros | normas/ficha/pcaob-as-2201.md, areas/padroes-pcaob-eua.md, areas/auditoria-independente.md | normas/ficha/pcaob-as-2201.md |
-| ✅ | A AS 2901 do PCAOB vai mudar em dezembro de 2026? | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md, normas/ficha/pcaob-as-2901-nova-a-partir-de-15-12-2026.md, areas/padroes-pcaob-eua.md | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md |
+| ✅ | A AS 2901 do PCAOB vai mudar em dezembro de 2026? | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md, normas/mudancas-futuras.md, normas/ficha/pcaob-as-2901-nova-a-partir-de-15-12-2026.md | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md |

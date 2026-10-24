@@ -359,6 +359,61 @@ for r in REC:
     md.append("\n[← Todas as normas](../README.md) · [Página inicial](../../README.md)")
     (PASTA_NORMAS / "ficha" / (FICHA[r["codigo"]] + ".md")).write_text("\n".join(md) + "\n", encoding="utf-8")
 
+# ---------- normas/mudancas-futuras.md: o que será revogado ou ainda não vale ----------
+ATUAL = "2026-10-23"          # mesma data de "atualizado_em" em normas.json
+
+
+def _br(d):
+    p = (d or "").split("-")
+    return f"{p[2]}/{p[1]}/{p[0]}" if len(p) == 3 else (d or "")
+
+
+def _lnk(cod, de="ficha/"):
+    return f"[{cod}]({de}{FICHA[cod]}.md)" if cod in FICHA else (cod or "—")
+
+
+_futuro = lambda d: bool(d) and len(d) == 10 and d > ATUAL
+_serao = sorted((r for r in REC if r["status"] == "vigente" and _futuro(r.get("revogada_em"))), key=lambda r: (r["revogada_em"], r["codigo"]))
+_novas = sorted((r for r in REC if r["status"] == "futura"), key=lambda r: (r.get("vigente_a_partir_de") or "", r["codigo"]))
+_trans = [r for r in REC if r["status"] == "revogada" and _futuro(r.get("substituta_vale_a_partir_de"))]
+_obs = [r for r in REC if r.get("observacao_vigencia")]
+mf = ["# Normas que serão revogadas ou ainda não valem\n",
+      f"Situação em {_br(ATUAL)}. Esta página é gerada das planilhas e lista só o que já está registrado nelas. "
+      "Antes de aplicar uma norma, confira a data e o texto no link oficial.\n",
+      "[← Todas as normas](README.md) · [Página inicial](../README.md)\n",
+      "## Em vigor hoje, mas serão revogadas\n"]
+if _serao:
+    mf.append("| Norma | Título | Deixa de valer em | Substituída por |\n|---|---|---|---|")
+    mf += [f"| {_lnk(r['codigo'])} | {r['titulo']} | {_br(r['revogada_em'])} | {_lnk(r['substituida_por'])} |" for r in _serao]
+else:
+    mf.append("Nenhuma registrada.")
+mf.append("\n## Ainda não vigentes (já aprovadas)\n")
+if _novas:
+    mf.append("| Norma | Título | Vale a partir de | Observação |\n|---|---|---|---|")
+    mf += [f"| {_lnk(r['codigo'])} | {r['titulo']} | {_br(r['vigente_a_partir_de'])} | {r['situacao']} |" for r in _novas]
+else:
+    mf.append("Nenhuma registrada.")
+mf.append("\n## Já revogadas, com substituta que só vale mais tarde\n")
+if _trans:
+    mf.append("| Norma revogada | Substituída por | A substituta vale a partir de |\n|---|---|---|")
+    mf += [f"| {_lnk(r['codigo'])} | {_lnk(r['substituida_por'])} | {_br(r['substituta_vale_a_partir_de'])} |" for r in _trans]
+    mf.append("\nA norma revogada continua válida para os exercícios anteriores a essa data.")
+else:
+    mf.append("Nenhuma registrada.")
+mf.append("\n## Vigentes, com trecho que muda\n")
+if _obs:
+    mf.append("| Norma | Título | O que muda |\n|---|---|---|")
+    mf += [f"| {_lnk(r['codigo'])} | {r['titulo']} | {r['observacao_vigencia']} |" for r in _obs]
+else:
+    mf.append("Nenhuma registrada.")
+mf.append("\n## Como esta lista é mantida\n\n"
+          "- Os dados vêm da coluna `situacao` de `manutencao/dados/normas.csv`: `Será revogada em DD/MM/AAAA e substituída por: CÓDIGO.`, "
+          "`Ainda não vigente: vale a partir de DD/MM/AAAA.` ou `Vigente; <observação>`.\n"
+          "- Hoje estão registradas aqui as mudanças dos padrões do PCAOB e a transição da NBC TG 26 para a NBC TG 51. O robô do CFC avisa de normas novas e de revogações já publicadas, "
+          "mas não de revogações futuras: quem mantém o índice precisa registrá-las nas planilhas.\n"
+          "- Os links do PCAOB não são verificados automaticamente (o site bloqueia robôs).")
+(PASTA_NORMAS / "mudancas-futuras.md").write_text("\n".join(mf) + "\n", encoding="utf-8")
+
 # ---------- llms.txt: mapa curto para assistentes de IA ----------
 (ROOT / "llms.txt").write_text("\n".join([
     "# Normas Contábeis Brasileiras",
@@ -374,6 +429,7 @@ for r in REC:
     "- [AGENTS.md](AGENTS.md): como usar este repositório e seus limites",
     "- [normas.json](normas.json): todos os dados estruturados (status, vigência, equivalências, trechos por setor)",
     "- [normas/README.md](normas/README.md): lista A–Z; cada norma tem ficha em normas/ficha/<código>.md",
+    "- [normas/mudancas-futuras.md](normas/mudancas-futuras.md): normas que serão revogadas ou ainda não valem, com datas",
     "- [areas/README.md](areas/README.md): busca por assunto, sinônimo e demonstração afetada",
     "- [setores/README.md](setores/README.md): trechos por setor com selo de conferência",
     "- [lancamentos/README.md](lancamentos/README.md): exemplos de lançamentos",
@@ -405,6 +461,7 @@ o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lanç
 | 🏭 **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
 | 🧾 **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
 | 🔤 **uma sigla** que não conhece | [**GLOSSARIO.md**](GLOSSARIO.md) |
+| 📅 **o que vai mudar** (normas que serão revogadas ou ainda não valem) | [**normas/mudancas-futuras.md**](normas/mudancas-futuras.md) |
 | 🏛️ **reforma tributária** (IBS e CBS) | [**areas/reforma-tributaria.md**](areas/reforma-tributaria.md) |
 
 Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pelo nome.

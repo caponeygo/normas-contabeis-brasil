@@ -20,6 +20,7 @@ o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lanç
 | 🏭 **o tipo de empresa** (indústria, varejo, banco…) | [**setores/**](setores/README.md): trechos das normas que importam para cada setor |
 | 🧾 **um lançamento** para fazer | [**lancamentos/**](lancamentos/README.md): débito e crédito com a norma de cada um |
 | 🔤 **uma sigla** que não conhece | [**GLOSSARIO.md**](GLOSSARIO.md) |
+| 📅 **o que vai mudar** (normas que serão revogadas ou ainda não valem) | [**normas/mudancas-futuras.md**](normas/mudancas-futuras.md) |
 | 🏛️ **reforma tributária** (IBS e CBS) | [**areas/reforma-tributaria.md**](areas/reforma-tributaria.md) |
 
 Dica: no GitHub, a tecla **/** busca no repositório e **t** procura arquivos pelo nome.
