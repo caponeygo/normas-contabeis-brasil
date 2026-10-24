@@ -42,6 +42,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
    | Instituição financeira autorizada pelo BC | COSIF / Res. CMN 4.966 | [`setores/financeiro/`](setores/financeiro/README.md) |
    | Auditoria das demonstrações | NBC TA ≡ ISA (mesma numeração) | Auditoria Independente |
    | Revisão de ITR | NBC TR | Revisão |
+   | Auditoria de companhia aberta registrada na SEC (EUA) ou de corretora | PCAOB AS, AT, ET, QC, EI (não são normas brasileiras; as de 15/12/2026 estão em `status` futura) | Padrões PCAOB (EUA) |
    | Perícia judicial | NBC TP, NBC PP | Perícia Contábil |
    | Ética e exercício profissional | NBC PG, NBC PA | Ética e Exercício Profissional |
    | ESG e clima | NBC TDS ≡ IFRS S1/S2 | Sustentabilidade |
@@ -65,7 +66,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 
 1. **Só afirme o que está aqui.** Não cite número de item, parágrafo, prazo, alíquota ou valor que não apareça nestes arquivos ou no link oficial.
    Se a informação não estiver no repositório, diga isso e indique o link oficial. Não complete de memória.
-2. **Vigência primeiro.** Em [`normas.json`](normas.json) cada norma tem `status` (`vigente` ou `revogada`), `substituida_por`,
+2. **Vigência primeiro.** Em [`normas.json`](normas.json) cada norma tem `status` (`vigente`, `revogada` ou `futura`), `substituida_por`, `vigente_a_partir_de`, `observacao_vigencia`,
    `revogada_em` e `substituta_vale_a_partir_de`. Norma revogada: indique a substituta. Se `substituta_vale_a_partir_de` existir
    (ex.: NBC TG 26 → NBC TG 51, a partir de 2027-01-01), a revogada ainda vale para exercícios anteriores a essa data: pergunte o exercício ou explique os dois casos.
 3. **Olhe a coluna Conferência** nas pastas de setor: ✅ = item achado no texto oficial e assunto confere; ✅👤 = revisado por pessoa;
@@ -73,7 +74,7 @@ integral das normas não está aqui: cada norma tem um resumo do que trata, as d
 4. **Cada norma tem uma ficha** em `normas/ficha/<codigo>.md` (ex.: `normas/ficha/nbc-tg-27-r4.md`) com status, equivalentes, trechos por setor e link oficial. Prefira a ficha a ler a série inteira.
 5. **Fora do escopo:** o repositório indexa normas do CFC/CPC/IASB/IAASB e trechos por setor. Não cobre legislação fiscal detalhada (alíquotas, obrigações acessórias),
    jurisprudência, normas de outros países nem casos concretos de empresa. Nesses casos, diga que não cobre.
-6. **Código parecido não é o mesmo:** NBC TG ≠ NBC TA ≠ NBC TSP; CPC ≠ ICPC ≠ OCPC; ITG ≠ CTG ≠ OTG. Confira a série pelo código completo e pela revisão `(Rn)`.
+6. **Código parecido não é o mesmo:** NBC TA (Brasil) ≠ PCAOB AS (EUA); NBC TG ≠ NBC TA ≠ NBC TSP; CPC ≠ ICPC ≠ OCPC; ITG ≠ CTG ≠ OTG. Confira a série pelo código completo e pela revisão `(Rn)`.
 7. **Não dê aconselhamento profissional.** O resumo orienta; a decisão contábil depende do texto oficial e do caso.
 
 ## Arquivos

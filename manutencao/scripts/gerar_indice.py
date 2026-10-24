@@ -130,8 +130,24 @@ def _iso(d):
 def vigencia(sit):
     """Campos estruturados a partir do texto de 'situacao' (datas em ISO, vazio = não informado)."""
     v = {"status": "vigente" if sit == "vigente" else "revogada", "substituida_por": None,
-         "revogada_em": None, "substituta_vale_a_partir_de": None}
+         "revogada_em": None, "substituta_vale_a_partir_de": None, "vigente_a_partir_de": None,
+         "observacao_vigencia": None}
     if sit == "vigente":
+        return v
+    d = re.search(r"(\d{2}/\d{2}/\d{4})", sit)
+    if sit.startswith("Ainda não vigente"):        # ex.: "Ainda não vigente: vale a partir de 15/12/2026."
+        v["status"] = "futura"
+        v["vigente_a_partir_de"] = _iso(d.group(1)) if d else None
+        return v
+    if sit.startswith("Será revogada"):            # ex.: "Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000."
+        v["status"] = "vigente"
+        v["revogada_em"] = _iso(d.group(1)) if d else None
+        m = re.search(r"substituída por: (.+?)\.?$", sit)
+        v["substituida_por"] = m.group(1).strip() if m else None
+        return v
+    if sit.startswith("Vigente;"):                 # vigente, com observação (ex.: parágrafo que muda numa data)
+        v["status"] = "vigente"
+        v["observacao_vigencia"] = sit
         return v
     m = re.match(r"Revogada pela? (.+?)(?: \(|\.|,|$)", sit)
     v["substituida_por"] = m.group(1).strip() if m else None
@@ -195,7 +211,7 @@ SETORES_GER = gerar_setores.gerar_todos(ROOT, REC, sem_rev)   # [(nome, pasta, u
 (ROOT / "normas.json").write_text(json.dumps({
     "descricao": "Índice das normas contábeis e de auditoria brasileiras (CFC/CPC) e internacionais (IFRS/IAS), por área e tema.",
     "atualizado_em": "2026-10-23",
-    "regra_vigencia": "status=revogada: não use a norma para exercícios atuais, use substituida_por. Se substituta_vale_a_partir_de existir, a norma revogada continua válida para exercícios anteriores a essa data. revogada_em pode ter só o ano.",
+    "regra_vigencia": "status=revogada: não use a norma para exercícios atuais, use substituida_por. status=futura: ainda não vale, só a partir de vigente_a_partir_de. status=vigente com revogada_em: vale até essa data (se for futura), depois use substituida_por. Se substituta_vale_a_partir_de existir, a norma revogada continua válida para exercícios anteriores a essa data. revogada_em pode ter só o ano.",
     "temas": [{"tema": n, "area": a, "sinonimos": s} for n, a, _, s in TEMAS],
     "normas": REC,
 }, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -308,11 +324,11 @@ for n in sorted(NORMAS, key=_ordem):
 _CONF_TXT = {"auto": "✅ conferido", "manual": "✅👤 revisado por pessoa", "pendente": "⚠ revisar", "nao_conferido": "⚠ não conferido"}
 for r in REC:
     resumo = r["resumo"]
-    if r["status"] != "vigente":
+    if r["situacao"] != "vigente":
         resumo = resumo.removeprefix("⚠ " + r["situacao"] + " ")
     fm = ["---", f"codigo: {json.dumps(r['codigo'], ensure_ascii=False)}", f"titulo: {json.dumps(r['titulo'], ensure_ascii=False)}",
           f"serie: {json.dumps(r['serie'], ensure_ascii=False)}", f"status: {r['status']}"]
-    for k in ("substituida_por", "revogada_em", "substituta_vale_a_partir_de"):
+    for k in ("substituida_por", "revogada_em", "substituta_vale_a_partir_de", "vigente_a_partir_de", "observacao_vigencia"):
         if r.get(k):
             fm.append(f"{k}: {json.dumps(r[k], ensure_ascii=False)}")
     if r["cpc"]:
@@ -321,8 +337,9 @@ for r in REC:
         fm.append(f"internacional: {json.dumps(r['internacional'], ensure_ascii=False)}")
     fm += [f"url_oficial: {r['url']}", "---", ""]
     md = fm + [f"# {r['codigo']} – {r['titulo']}\n"]
-    if r["status"] != "vigente":
-        md.append(f"> ⚠ **REVOGADA.** {r['situacao']}\n")
+    if r["situacao"] != "vigente":
+        rotulo = {"revogada": "REVOGADA.", "futura": "AINDA NÃO VIGENTE."}.get(r["status"], "ATENÇÃO À VIGÊNCIA.")
+        md.append(f"> ⚠ **{rotulo}** {r['situacao']}\n")
     md.append(f"**O que trata:** {resumo}\n")
     md.append(f"**O que afeta:** {r['afeta']}\n")
     eq = [x for x in (r["cpc"], r["internacional"]) if x]
@@ -346,7 +363,7 @@ for r in REC:
 (ROOT / "llms.txt").write_text("\n".join([
     "# Normas Contábeis Brasileiras",
     "",
-    "> Índice (não o texto) das normas contábeis e de auditoria do Brasil (CFC/CPC) e das internacionais (IFRS/IAS/ISA): "
+    "> Índice (não o texto) das normas contábeis e de auditoria do Brasil (CFC/CPC) e das internacionais (IFRS/IAS/ISA) e dos padrões do PCAOB (EUA): "
     "resumo, o que afeta, equivalências, trechos por setor e link oficial. Não hospeda o texto integral das normas.",
     "",
     "Regras: leia `AGENTS.md` antes de responder; cite sempre o código da norma e o link oficial; "
@@ -370,7 +387,7 @@ README = f"""<div align="center">
 
 # 📚 Normas Contábeis Brasileiras
 
-**Índice navegável das normas do CFC e do CPC e das internacionais (IFRS, IAS, ISA)**
+**Índice navegável das normas do CFC e do CPC, das internacionais (IFRS, IAS, ISA) e dos padrões do PCAOB (EUA)**
 o que cada norma trata, o que ela afeta, os trechos por setor, exemplos de lançamentos e o link para o texto oficial.
 
 ![Normas](https://img.shields.io/badge/normas-{len(NORMAS)}-1f6feb) ![Áreas](https://img.shields.io/badge/áreas-{len(ordem)}-8250df) ![Setores](https://img.shields.io/badge/setores-{len(SETORES_GER)}-2da44e) ![Licença](https://img.shields.io/badge/índice-CC0%201.0-lightgrey)

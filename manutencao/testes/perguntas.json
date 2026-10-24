@@ -814,5 +814,46 @@
   "normas": [
    "NBC TA 240"
   ]
+ },
+ {
+  "pergunta": "Qual padrão do PCAOB trata de fraude na auditoria?",
+  "arquivos": [
+   "areas/padroes-pcaob-eua.md",
+   "normas/ficha/pcaob-as-2401.md"
+  ],
+  "normas": [
+   "PCAOB AS 2401"
+  ]
+ },
+ {
+  "pergunta": "O que é a QC 1000 do PCAOB e quando começa a valer?",
+  "arquivos": [
+   "areas/padroes-pcaob-eua.md",
+   "normas/ficha/pcaob-qc-1000.md"
+  ],
+  "normas": [
+   "PCAOB QC 1000"
+  ]
+ },
+ {
+  "pergunta": "PCAOB AS 2201 auditoria do controle interno sobre relatórios financeiros",
+  "arquivos": [
+   "areas/padroes-pcaob-eua.md",
+   "normas/ficha/pcaob-as-2201.md"
+  ],
+  "normas": [
+   "PCAOB AS 2201"
+  ]
+ },
+ {
+  "pergunta": "A AS 2901 do PCAOB vai mudar em dezembro de 2026?",
+  "arquivos": [
+   "areas/padroes-pcaob-eua.md",
+   "normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md",
+   "normas/ficha/pcaob-as-2901-nova-a-partir-de-15-12-2026.md"
+  ],
+  "normas": [
+   "PCAOB AS 2901"
+  ]
  }
 ]

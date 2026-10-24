@@ -1,7 +1,7 @@
 {
  "descricao": "Índice das normas contábeis e de auditoria brasileiras (CFC/CPC) e internacionais (IFRS/IAS), por área e tema.",
  "atualizado_em": "2026-10-23",
- "regra_vigencia": "status=revogada: não use a norma para exercícios atuais, use substituida_por. Se substituta_vale_a_partir_de existir, a norma revogada continua válida para exercícios anteriores a essa data. revogada_em pode ter só o ano.",
+ "regra_vigencia": "status=revogada: não use a norma para exercícios atuais, use substituida_por. status=futura: ainda não vale, só a partir de vigente_a_partir_de. status=vigente com revogada_em: vale até essa data (se for futura), depois use substituida_por. Se substituta_vale_a_partir_de existir, a norma revogada continua válida para exercícios anteriores a essa data. revogada_em pode ter só o ano.",
  "temas": [
   {
    "tema": "Imobilizado",
@@ -260,6 +260,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estrutura conceitual"
    ],
@@ -283,6 +285,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -334,6 +338,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -376,6 +382,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Fluxo de caixa (DFC)"
@@ -400,6 +408,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Intangível"
    ],
@@ -496,6 +506,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -519,6 +531,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Arrendamentos"
    ],
@@ -642,6 +656,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Subvenção governamental"
    ],
@@ -711,6 +727,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Valor adicionado (DVA)"
@@ -745,6 +763,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -778,6 +798,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Ajuste a valor presente"
    ],
@@ -820,6 +842,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -843,6 +867,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estoques"
    ],
@@ -1092,6 +1118,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -1115,6 +1143,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -1138,6 +1168,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Custos de empréstimos"
    ],
@@ -1180,6 +1212,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -1203,6 +1237,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -1236,6 +1272,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Políticas contábeis e erros"
    ],
@@ -1259,6 +1297,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -1282,6 +1322,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Provisões e contingências"
    ],
@@ -1378,6 +1420,8 @@
    "substituida_por": "NBC TG 51",
    "revogada_em": "2026-02-25",
    "substituta_vale_a_partir_de": "2027-01-01",
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -1412,6 +1456,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Imobilizado"
    ],
@@ -1580,6 +1626,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Propriedade para investimento"
    ],
@@ -1603,6 +1651,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Ativo biológico"
    ],
@@ -1708,6 +1758,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Ativo mantido para venda",
     "Demonstração do resultado (DRE)"
@@ -1733,6 +1785,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -1775,6 +1829,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -1835,6 +1891,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -1858,6 +1916,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -1881,6 +1941,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Adoção inicial"
    ],
@@ -1904,6 +1966,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -1939,6 +2003,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -2001,6 +2067,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações",
     "Demonstração do resultado (DRE)"
@@ -2026,6 +2094,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -2049,6 +2119,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Adoção inicial"
    ],
@@ -2072,6 +2144,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -2095,6 +2169,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações",
     "Demonstrações contábeis e divulgação"
@@ -2120,6 +2196,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Valor justo e mensuração"
    ],
@@ -2143,6 +2221,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Receita"
    ],
@@ -2491,6 +2571,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -2614,6 +2696,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -2647,6 +2731,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Seguros"
    ],
@@ -2680,6 +2766,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -2732,6 +2820,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Entidades específicas"
    ],
@@ -2755,6 +2845,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -2778,6 +2870,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -2801,6 +2895,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -2824,6 +2920,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -2847,6 +2945,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Imobilizado",
     "Propriedade para investimento",
@@ -2873,6 +2973,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -2915,6 +3017,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -2948,6 +3052,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -2999,6 +3105,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Patrimônio, dividendos e ações"
@@ -3024,6 +3132,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Concessões e infraestrutura"
@@ -3049,6 +3159,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -3082,6 +3194,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Outros tributos e taxas"
    ],
@@ -3105,6 +3219,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -3128,6 +3244,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -3161,6 +3279,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -3194,6 +3314,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -3217,6 +3339,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Incorporação imobiliária"
    ],
@@ -3268,6 +3392,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Incorporação imobiliária"
    ],
@@ -3301,6 +3427,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -3324,6 +3452,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3347,6 +3477,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -3370,6 +3502,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -3393,6 +3527,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estrutura conceitual",
     "Sustentabilidade e clima"
@@ -3418,6 +3554,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Sustentabilidade e clima"
    ],
@@ -3460,6 +3598,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Entidades específicas"
    ],
@@ -3483,6 +3623,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estrutura conceitual"
    ],
@@ -3506,6 +3648,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Auditoria Independente"
@@ -3527,6 +3671,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3550,6 +3696,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -3573,6 +3721,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -3596,6 +3746,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Fraude"
    ],
@@ -3619,6 +3771,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3642,6 +3796,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -3665,6 +3821,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3688,6 +3846,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3711,6 +3871,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3744,6 +3906,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3767,6 +3931,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3790,6 +3956,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -3813,6 +3981,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Riscos, materialidade e planejamento"
    ],
@@ -3836,6 +4006,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -3859,6 +4031,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -3919,6 +4093,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -3952,6 +4128,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -3975,6 +4153,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -4008,6 +4188,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -4031,6 +4213,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Valor justo e mensuração",
     "Demonstrações contábeis e divulgação",
@@ -4076,6 +4260,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4099,6 +4285,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4122,6 +4310,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -4145,6 +4335,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Evidência de auditoria"
    ],
@@ -4168,6 +4360,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações",
     "Uso do trabalho de terceiros"
@@ -4192,6 +4386,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -4215,6 +4411,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -4257,6 +4455,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -4280,6 +4480,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -4303,6 +4505,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -4326,6 +4530,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -4349,6 +4555,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4372,6 +4580,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -4395,6 +4605,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Auditoria Independente"
@@ -4416,6 +4628,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -4439,6 +4653,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Relatório do auditor"
@@ -4463,6 +4679,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -4496,6 +4714,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -4529,6 +4749,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -4562,6 +4784,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Escrituração contábil",
     "Pequenas e médias empresas"
@@ -4587,6 +4811,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Adoção inicial"
    ],
@@ -4611,6 +4837,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Escrituração contábil"
    ],
@@ -4644,6 +4872,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados",
     "Entidades específicas"
@@ -4679,6 +4909,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Entidades específicas"
    ],
@@ -4793,6 +5025,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Entidades específicas"
    ],
@@ -4816,6 +5050,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Entidades específicas"
    ],
@@ -4867,6 +5103,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Adoção inicial"
    ],
@@ -4890,6 +5128,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Escrituração contábil"
    ],
@@ -4913,6 +5153,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Laudo de avaliação"
    ],
@@ -4936,6 +5178,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente",
     "Sustentabilidade e clima"
@@ -4961,6 +5205,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estrutura conceitual"
    ],
@@ -4985,6 +5231,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Receita"
    ],
@@ -5009,6 +5257,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Receita"
    ],
@@ -5033,6 +5283,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Provisões e contingências"
    ],
@@ -5057,6 +5309,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estoques"
    ],
@@ -5081,6 +5335,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -5105,6 +5361,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Propriedade para investimento"
    ],
@@ -5129,6 +5387,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Intangível"
    ],
@@ -5153,6 +5413,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -5177,6 +5439,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -5201,6 +5465,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5225,6 +5491,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Fluxo de caixa (DFC)"
@@ -5250,6 +5518,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5274,6 +5544,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Custos de empréstimos"
    ],
@@ -5298,6 +5570,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -5322,6 +5596,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -5346,6 +5622,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -5370,6 +5648,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -5394,6 +5674,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -5418,6 +5700,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações",
     "Demonstrações contábeis e divulgação"
@@ -5444,6 +5728,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -5468,6 +5754,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5492,6 +5780,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Políticas contábeis e erros"
    ],
@@ -5516,6 +5806,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -5540,6 +5832,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5564,6 +5858,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Ativo biológico"
    ],
@@ -5588,6 +5884,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5612,6 +5910,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5636,6 +5936,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -5660,6 +5962,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -5686,6 +5990,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Valor justo e mensuração"
@@ -5712,6 +6018,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -5736,6 +6044,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -5762,6 +6072,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Custos no setor público"
    ],
@@ -5785,6 +6097,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Arrendamentos"
    ],
@@ -5809,6 +6123,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Imobilizado"
    ],
@@ -5833,6 +6149,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Valor justo e mensuração"
    ],
@@ -5857,6 +6175,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Provisões e contingências"
    ],
@@ -5881,6 +6201,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -5905,6 +6227,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -5930,6 +6254,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -5965,6 +6291,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Sustentabilidade e clima",
     "Relatório do auditor"
@@ -5990,6 +6318,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Revisão"
@@ -6011,6 +6341,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -6034,6 +6366,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -6057,6 +6391,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -6080,6 +6416,8 @@
    "substituida_por": "CTR 04",
    "revogada_em": "2019",
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Incorporação imobiliária",
     "Relatório do auditor"
@@ -6104,6 +6442,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Incorporação imobiliária",
     "Relatório do auditor"
@@ -6128,6 +6468,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Asseguração"
@@ -6149,6 +6491,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor",
     "Uso do trabalho de terceiros"
@@ -6173,6 +6517,8 @@
    "substituida_por": "NBC TAS 5000",
    "revogada_em": "2025-12-18",
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Sustentabilidade e clima"
    ],
@@ -6196,6 +6542,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Procedimentos previamente acordados e compilação"
@@ -6220,6 +6568,8 @@
    "substituida_por": "CTO 07",
    "revogada_em": "2022",
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Sustentabilidade e clima",
     "Relatório do auditor"
@@ -6244,6 +6594,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -6267,6 +6619,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Escrituração contábil",
     "Relatório do auditor"
@@ -6291,6 +6645,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Asseguração"
@@ -6312,6 +6668,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Relatório do auditor"
    ],
@@ -6335,6 +6693,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -6358,6 +6718,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Sustentabilidade e clima"
    ],
@@ -6381,6 +6743,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -6404,6 +6768,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Procedimentos previamente acordados e compilação"
    ],
@@ -6427,6 +6793,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Procedimentos previamente acordados e compilação"
    ],
@@ -6450,6 +6818,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura",
     "Procedimentos previamente acordados e compilação"
@@ -6474,6 +6844,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Procedimentos previamente acordados e compilação"
    ],
@@ -6497,6 +6869,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Seguros",
     "Riscos, materialidade e planejamento",
@@ -6522,6 +6896,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Seguros",
     "Procedimentos previamente acordados e compilação"
@@ -6546,6 +6922,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Seguros",
     "Procedimentos previamente acordados e compilação"
@@ -6570,6 +6948,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Uso do trabalho de terceiros"
    ],
@@ -6593,6 +6973,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Perícia contábil"
    ],
@@ -6616,6 +6998,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Perícia contábil"
    ],
@@ -6639,6 +7023,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6662,6 +7048,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6685,6 +7073,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estrutura conceitual",
     "Qualidade e independência"
@@ -6709,6 +7099,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6732,6 +7124,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6755,6 +7149,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6778,6 +7174,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6801,6 +7199,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6824,6 +7224,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6847,6 +7249,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6870,6 +7274,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6893,6 +7299,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência"
    ],
@@ -6916,6 +7324,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Perícia contábil"
    ],
@@ -6939,6 +7349,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Qualidade e independência",
     "Perícia contábil"
@@ -6963,6 +7375,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Setor Público"
@@ -6984,6 +7398,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Contabilidade eleitoral"
    ],
@@ -7017,6 +7433,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Reforma tributária (IBS e CBS)"
    ],
@@ -7050,6 +7468,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Contabilidade eleitoral"
    ],
@@ -7083,6 +7503,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Adoção inicial"
    ],
@@ -7107,6 +7529,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -7131,6 +7555,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -7155,6 +7581,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Ativo mantido para venda",
     "Demonstração do resultado (DRE)"
@@ -7181,6 +7609,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -7215,6 +7645,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -7241,6 +7673,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -7265,6 +7699,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -7289,6 +7725,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -7313,6 +7751,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -7337,6 +7777,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações",
     "Demonstrações contábeis e divulgação"
@@ -7363,6 +7805,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Valor justo e mensuração"
    ],
@@ -7387,6 +7831,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [],
    "areas": [
     "Normas Internacionais"
@@ -7408,6 +7854,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Receita"
    ],
@@ -7432,6 +7880,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Arrendamentos"
    ],
@@ -7456,6 +7906,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Seguros"
    ],
@@ -7480,6 +7932,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -7505,6 +7959,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -7529,6 +7985,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Demonstração do resultado (DRE)"
@@ -7554,6 +8012,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Estoques"
    ],
@@ -7578,6 +8038,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Fluxo de caixa (DFC)"
@@ -7603,6 +8065,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Políticas contábeis e erros"
    ],
@@ -7627,6 +8091,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -7651,6 +8117,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -7675,6 +8143,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Imobilizado"
    ],
@@ -7699,6 +8169,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -7723,6 +8195,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Subvenção governamental"
    ],
@@ -7747,6 +8221,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -7771,6 +8247,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Custos de empréstimos"
    ],
@@ -7795,6 +8273,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -7819,6 +8299,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -7843,6 +8325,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -7867,6 +8351,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Consolidação e participações"
    ],
@@ -7891,6 +8377,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -7915,6 +8403,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Demonstrações contábeis e divulgação"
@@ -7941,6 +8431,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações",
     "Demonstração do resultado (DRE)"
@@ -7967,6 +8459,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação"
    ],
@@ -7991,6 +8485,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Redução ao valor recuperável (impairment)"
    ],
@@ -8015,6 +8511,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Provisões e contingências"
    ],
@@ -8039,6 +8537,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Intangível"
    ],
@@ -8063,6 +8563,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Propriedade para investimento"
    ],
@@ -8087,6 +8589,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Ativo biológico"
    ],
@@ -8111,6 +8615,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Pequenas e médias empresas"
    ],
@@ -8135,6 +8641,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -8161,6 +8669,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Sustentabilidade e clima"
@@ -8187,6 +8697,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -8211,6 +8723,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações",
     "Entidades específicas"
@@ -8247,6 +8761,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -8271,6 +8787,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -8295,6 +8813,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -8319,6 +8839,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Concessões e infraestrutura"
    ],
@@ -8343,6 +8865,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Benefícios a empregados"
    ],
@@ -8367,6 +8891,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros"
    ],
@@ -8391,6 +8917,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Patrimônio, dividendos e ações"
    ],
@@ -8415,6 +8943,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Instrumentos financeiros",
     "Patrimônio, dividendos e ações"
@@ -8441,6 +8971,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Mineração e meio ambiente"
    ],
@@ -8465,6 +8997,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Outros tributos e taxas"
    ],
@@ -8489,6 +9023,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Câmbio e inflação"
    ],
@@ -8513,6 +9049,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Tributos sobre o lucro"
    ],
@@ -8537,6 +9075,8 @@
    "substituida_por": null,
    "revogada_em": null,
    "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
    "temas": [
     "Demonstrações contábeis e divulgação",
     "Concessões e infraestrutura"
@@ -8545,6 +9085,1651 @@
     "Normas Internacionais",
     "Apresentação e Divulgação",
     "Setores Específicos"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1000",
+   "titulo": "General Responsibilities of the Auditor in Conducting an Audit",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/as-1000--general-responsibilities-of-the-auditor-in-conducting-an-audit",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Responsabilidades gerais do auditor na condução de uma auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1101",
+   "titulo": "Audit Risk",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1101",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Risco de auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1105",
+   "titulo": "Audit Evidence",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Evidência de auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1110",
+   "titulo": "Relationship of Auditing Standards to Quality Control Standards",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1110",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Será revogada em 15/12/2026. Relação entre os padrões de auditoria e os padrões de controle de qualidade.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Será revogada em 15/12/2026.",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": "2026-12-15",
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1201",
+   "titulo": "Supervision of the Audit Engagement",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1201",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Supervisão do trabalho de auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1206",
+   "titulo": "Dividing Responsibility for the Audit with Another Accounting Firm",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/as-1206-dividing-responsibility-for-the-audit-with-another-accounting-firm",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Divisão da responsabilidade pela auditoria com outra firma de contabilidade.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1210",
+   "titulo": "Using the Work of an Auditor-Engaged Specialist",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1210",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Uso do trabalho de especialista contratado pelo auditor.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1215",
+   "titulo": "Audit Documentation",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Documentação de auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1220",
+   "titulo": "Engagement Quality Review",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1220",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Revisão de qualidade do trabalho de auditoria (engagement quality review).",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1301",
+   "titulo": "Communications with Audit Committees",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1301",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Comunicações do auditor com os comitês de auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 1305",
+   "titulo": "Communications About Control Deficiencies in an Audit of Financial Statements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1305",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Comunicação sobre deficiências de controle em uma auditoria de demonstrações financeiras.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2101",
+   "titulo": "Audit Planning",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/as-2101-audit-planning-2022",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Planejamento da auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2105",
+   "titulo": "Consideration of Materiality in Planning and Performing an Audit",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2105",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Consideração da materialidade no planejamento e na execução de uma auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2110",
+   "titulo": "Identifying and Assessing Risks of Material Misstatement",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2110",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Identificação e avaliação dos riscos de distorção relevante.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2201",
+   "titulo": "An Audit of Internal Control Over Financial Reporting That Is Integrated with An Audit of Financial Statements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Auditoria do controle interno sobre relatórios financeiros, integrada com a auditoria das demonstrações financeiras.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2301",
+   "titulo": "The Auditor's Responses to the Risks of Material Misstatement",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Respostas do auditor aos riscos de distorção relevante.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Riscos, materialidade e planejamento"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2305",
+   "titulo": "Substantive Analytical Procedures",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2305",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Procedimentos analíticos substantivos.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2310",
+   "titulo": "The Auditor’s Use of Confirmation",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2310",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Uso de confirmações (circularização) pelo auditor.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2315",
+   "titulo": "Audit Sampling",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2315",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Amostragem de auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2401",
+   "titulo": "Consideration of Fraud in a Financial Statement Audit",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2401",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Consideração de fraude na auditoria de demonstrações financeiras.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Fraude"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2405",
+   "titulo": "Illegal Acts by Clients",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2405",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Atos ilegais cometidos por clientes.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2410",
+   "titulo": "Related Parties",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2410",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Partes relacionadas.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2415",
+   "titulo": "Consideration of an Entity's Ability to Continue as a Going Concern",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2415",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Consideração da capacidade da entidade de continuar em operação (going concern).",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2501",
+   "titulo": "Auditing Accounting Estimates, Including Fair Value Measurements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Auditoria de estimativas contábeis, incluindo mensurações a valor justo.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2505",
+   "titulo": "Inquiry of a Client's Lawyer Concerning Litigation, Claims, and Assessments",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2505",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Consulta ao advogado do cliente sobre litígios, reclamações e avaliações.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2510",
+   "titulo": "Auditing Inventories",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2510",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Auditoria de estoques.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2601",
+   "titulo": "Consideration of an Entity's Use of a Service Organization",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2601",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Consideração do uso de uma organização prestadora de serviços pela entidade.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2605",
+   "titulo": "Consideration of the Internal Audit Function",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/as-2605-consideration-of-the-internal-audit-function_1528",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Consideração da função de auditoria interna.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2610",
+   "titulo": "Initial Audits—Communications Between Predecessor and Successor Auditors",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2610",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Auditorias iniciais: comunicações entre o auditor antecessor e o sucessor.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2701",
+   "titulo": "Auditing Supplemental Information Accompanying Audited Financial Statements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2701",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Auditoria de informações suplementares que acompanham demonstrações financeiras auditadas.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2705",
+   "titulo": "Required Supplementary Information",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2705",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Informações suplementares requeridas.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2710",
+   "titulo": "Other Information in Documents Containing Audited Financial Statements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2710",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Outras informações em documentos que contêm demonstrações financeiras auditadas.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2801",
+   "titulo": "Subsequent Events",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2801",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Eventos subsequentes.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2805",
+   "titulo": "Management Representations",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2805",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Representações da administração.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Evidência de auditoria"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2810",
+   "titulo": "Evaluating Audit Results",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2810",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Avaliação dos resultados da auditoria.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2820",
+   "titulo": "Evaluating Consistency of Financial Statements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2820",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Avaliação da consistência das demonstrações financeiras.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2905",
+   "titulo": "Subsequent Discovery of Facts Existing at the Date of the Auditor's Report",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2905",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Descoberta posterior de fatos existentes na data do relatório do auditor.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3101",
+   "titulo": "The Auditor's Report on an Audit of Financial Statements When the Auditor Expresses an Unqualified Opinion",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3101",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatório do auditor sobre uma auditoria de demonstrações financeiras quando expressa opinião sem ressalva.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3105",
+   "titulo": "Departures from Unqualified Opinions and Other Reporting Circumstances",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Desvios da opinião sem ressalva e outras circunstâncias de emissão do relatório.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3110",
+   "titulo": "Dating of the Independent Auditor's Report",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3110",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Datação do relatório do auditor independente.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Relatório do auditor"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Auditoria Independente"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3305",
+   "titulo": "Special Reports",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3305",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatórios especiais.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3310",
+   "titulo": "Special Reports on Regulated Companies",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3310",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatórios especiais sobre empresas reguladas.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3315",
+   "titulo": "Reporting on Condensed Financial Statements and Selected Financial Data",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3315",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatório sobre demonstrações financeiras condensadas e dados financeiros selecionados.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 3320",
+   "titulo": "Association with Financial Statements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3320",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Associação do auditor com demonstrações financeiras.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 4101",
+   "titulo": "Responsibilities Regarding Filings Under Federal Securities Statutes",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS4101",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Responsabilidades do auditor em registros (filings) sob as leis federais de valores mobiliários dos EUA.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 4105",
+   "titulo": "Reviews of Interim Financial Information",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS4105",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Revisões de informações financeiras intermediárias.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 6101",
+   "titulo": "Letters for Underwriters and Certain Other Requesting Parties",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS6101",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Cartas para underwriters e outros solicitantes.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 6105",
+   "titulo": "Reports on the Application of Accounting Principles",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS6105",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatórios sobre a aplicação de princípios contábeis.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 6110",
+   "titulo": "Compliance Auditing Considerations in Audits of Recipients of Governmental Financial Assistance",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS6110",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Considerações de auditoria de conformidade em auditorias de beneficiários de assistência financeira governamental.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 6115",
+   "titulo": "Reporting on Whether a Previously Reported Material Weakness Continues to Exist",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS6115",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatório sobre se uma fraqueza material reportada anteriormente continua a existir.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2901 (versão até 14/12/2026)",
+   "titulo": "Consideration of Omitted Procedures After the Report Date",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2901",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Será revogada em 15/12/2026 e substituída por: PCAOB AS 2901 (nova, a partir de 15/12/2026). Consideração de procedimentos de auditoria omitidos após a data do relatório.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Será revogada em 15/12/2026 e substituída por: PCAOB AS 2901 (nova, a partir de 15/12/2026).",
+   "status": "vigente",
+   "substituida_por": "PCAOB AS 2901 (nova, a partir de 15/12/2026)",
+   "revogada_em": "2026-12-15",
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AS 2901 (nova, a partir de 15/12/2026)",
+   "titulo": "Responding to Engagement Deficiencies After Issuance of the Auditor's Report",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/as-2901--responding-to-engagement-deficiencies-after-issuance-of-the-auditor-s-report-(effective-on-12-15-2025)",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Ainda não vigente: vale a partir de 15/12/2026. Substitui por inteiro a AS 2901 atual. Resposta a deficiências do trabalho de auditoria identificadas após a emissão do relatório do auditor.",
+   "afeta": "Auditoria (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Ainda não vigente: vale a partir de 15/12/2026. Substitui por inteiro a AS 2901 atual.",
+   "status": "futura",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": "2026-12-15",
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 1",
+   "titulo": "Examination Engagements Regarding Compliance Reports of Brokers and Dealers",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT1",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Trabalhos de exame sobre relatórios de conformidade de corretoras e dealers (brokers and dealers).",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 2",
+   "titulo": "Review Engagements Regarding Exemption Reports of Brokers and Dealers",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/attestation-standard-no_-2",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Trabalhos de revisão sobre relatórios de isenção de corretoras e dealers (brokers and dealers).",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 101",
+   "titulo": "Attest Engagements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT101",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Trabalhos de atestação (attest engagements).",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 201",
+   "titulo": "Agreed-Upon Procedures Engagements",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT201",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Trabalhos de procedimentos previamente acordados.",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 301",
+   "titulo": "Financial Forecasts and Projections",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT301",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Previsões e projeções financeiras.",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 401",
+   "titulo": "Reporting on Pro Forma Financial Information",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT401",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Relatório sobre informações financeiras pro forma.",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Demonstrações contábeis e divulgação"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Apresentação e Divulgação"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 601",
+   "titulo": "Compliance Attestation",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT601",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Atestação de conformidade.",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB AT 701",
+   "titulo": "Management's Discussion and Analysis",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/attestation-standards/details/AT701",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Discussão e análise da administração (MD&A).",
+   "afeta": "Atestação (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [],
+   "areas": [
+    "Padrões PCAOB (EUA)"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB ET 101",
+   "titulo": "Independence",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ET101",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Vigente; o parágrafo .01 (Rule 101) muda em 15/12/2026: ver o texto vigente a partir dessa data no site do PCAOB. Independência: Rule 101 e suas interpretações.",
+   "afeta": "Ética e independência (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Vigente; o parágrafo .01 (Rule 101) muda em 15/12/2026: ver o texto vigente a partir dessa data no site do PCAOB.",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": "Vigente; o parágrafo .01 (Rule 101) muda em 15/12/2026: ver o texto vigente a partir dessa data no site do PCAOB.",
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB ET 102",
+   "titulo": "Integrity and Objectivity",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ET102",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Será revogada em 15/12/2026 e substituída por: PCAOB EI 1000. Integridade e objetividade: Rule 102 e suas interpretações.",
+   "afeta": "Ética e independência (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Será revogada em 15/12/2026 e substituída por: PCAOB EI 1000.",
+   "status": "vigente",
+   "substituida_por": "PCAOB EI 1000",
+   "revogada_em": "2026-12-15",
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB ET 191",
+   "titulo": "Ethics Rulings on Independence, Integrity, and Objectivity",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ET191",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "Pareceres de ética (ethics rulings) sobre independência, integridade e objetividade.",
+   "afeta": "Ética e independência (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "vigente",
+   "status": "vigente",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB EI 1000",
+   "titulo": "Integrity and Objectivity",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/ethics-independence-rules/details/ei-1000--integrity-and-objectivity-(effective-on-12-15-26)",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Ainda não vigente: vale a partir de 15/12/2026. Substitui a PCAOB ET 102. Integridade e objetividade.",
+   "afeta": "Ética e independência (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Ainda não vigente: vale a partir de 15/12/2026. Substitui a PCAOB ET 102.",
+   "status": "futura",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": "2026-12-15",
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB QC 20",
+   "titulo": "System of Quality Control for a CPA Firm's Accounting and Auditing Practice",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/qc-standards/details/QC20",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000. Sistema de controle de qualidade de uma firma de contabilidade para sua prática de contabilidade e auditoria.",
+   "afeta": "Controle de qualidade da firma (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000.",
+   "status": "vigente",
+   "substituida_por": "PCAOB QC 1000",
+   "revogada_em": "2026-12-15",
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB QC 30",
+   "titulo": "Monitoring a CPA Firm's Accounting and Auditing Practice",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/qc-standards/details/QC30",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000. Monitoramento da prática de contabilidade e auditoria de uma firma.",
+   "afeta": "Controle de qualidade da firma (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000.",
+   "status": "vigente",
+   "substituida_por": "PCAOB QC 1000",
+   "revogada_em": "2026-12-15",
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB QC 40",
+   "titulo": "The Personnel Management Element of a Firm's System of Quality Control-Competencies Required by a Practitioner-in-Charge of an Attest Engagement",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/qc-standards/details/QC40",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000. Elemento de gestão de pessoal do sistema de controle de qualidade: competências exigidas do responsável por um trabalho de atestação.",
+   "afeta": "Controle de qualidade da firma (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Será revogada em 15/12/2026 e substituída por: PCAOB QC 1000.",
+   "status": "vigente",
+   "substituida_por": "PCAOB QC 1000",
+   "revogada_em": "2026-12-15",
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": null,
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
+   ],
+   "setores": []
+  },
+  {
+   "codigo": "PCAOB QC 1000",
+   "titulo": "A Firm's System of Quality Control",
+   "serie": "PCAOB",
+   "url": "https://pcaobus.org/oversight/standards/qc-standards/details/qc-1000--a-firms-system-of-quality-control",
+   "cpc": null,
+   "internacional": null,
+   "resumo": "⚠ Ainda não vigente: vale a partir de 15/12/2026. Substitui a PCAOB QC 20, QC 30 e QC 40. Sistema de controle de qualidade da firma, com abordagem baseada em risco e oito componentes.",
+   "afeta": "Controle de qualidade da firma (padrão PCAOB)",
+   "url_cpc": null,
+   "situacao": "Ainda não vigente: vale a partir de 15/12/2026. Substitui a PCAOB QC 20, QC 30 e QC 40.",
+   "status": "futura",
+   "substituida_por": null,
+   "revogada_em": null,
+   "substituta_vale_a_partir_de": null,
+   "vigente_a_partir_de": "2026-12-15",
+   "observacao_vigencia": null,
+   "temas": [
+    "Qualidade e independência"
+   ],
+   "areas": [
+    "Padrões PCAOB (EUA)",
+    "Ética e Exercício Profissional"
    ],
    "setores": []
   }

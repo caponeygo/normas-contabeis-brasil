@@ -32,11 +32,11 @@ Mineração e meio ambiente;Setores Específicos;minera|estéril|desativação|a
 Entidades específicas;Setores Específicos;sem finalidade|cooperativa|desportiv|previdência complementar|liquidação;terceiro setor, ONG, cooperativas, clubes, fundos de pensão;;
 Sustentabilidade e clima;Sustentabilidade;sustentabilidade|clima|carbono|gases de efeito|relato integrado|social e ambiental|responsabilidade social;ESG, ISSB, IFRS S1, IFRS S2, créditos de carbono;;
 Custos no setor público;Setor Público;custos no setor;custos governamentais;;
-Fraude;Auditoria Independente;fraude;erro, distorção intencional, ISA 240;;sim
-Riscos, materialidade e planejamento;Auditoria Independente;risco|materialidade|planejamento|distorç|controle interno|termos do trabalho|leis e regulamentos;avaliação de risco, materialidade, planejamento de auditoria;;sim
-Evidência de auditoria;Auditoria Independente;\bevidência|confirmaç|amostragem|analític|saldos iniciais|representações|documentação|estimativas contábeis|continuidade;procedimentos de auditoria, circularização, amostragem;;sim
-Relatório do auditor;Auditoria Independente;relatório|opinião|ênfase|principais assuntos|outras informações;parecer, opinião modificada, PAA, ressalva;;sim
-Qualidade e independência;Ética e Exercício Profissional;qualidade|independência|ética|código|educação profissional|qualificação técnica|cadastro|contadores que;ética profissional, EPC, CNAI, revisão pelos pares;;sim
+Fraude;Auditoria Independente;fraude;erro, distorção intencional, ISA 240;PCAOB AS 2401;sim
+Riscos, materialidade e planejamento;Auditoria Independente;risco|materialidade|planejamento|distorç|controle interno|termos do trabalho|leis e regulamentos;avaliação de risco, materialidade, planejamento de auditoria;PCAOB AS 1101, PCAOB AS 2101, PCAOB AS 2105, PCAOB AS 2110, PCAOB AS 2301, PCAOB AS 2201;sim
+Evidência de auditoria;Auditoria Independente;\bevidência|confirmaç|amostragem|analític|saldos iniciais|representações|documentação|estimativas contábeis|continuidade;procedimentos de auditoria, circularização, amostragem;PCAOB AS 1105, PCAOB AS 1215, PCAOB AS 2305, PCAOB AS 2310, PCAOB AS 2315, PCAOB AS 2501, PCAOB AS 2805;sim
+Relatório do auditor;Auditoria Independente;relatório|opinião|ênfase|principais assuntos|outras informações;parecer, opinião modificada, PAA, ressalva;PCAOB AS 3101, PCAOB AS 3105, PCAOB AS 3110;sim
+Qualidade e independência;Ética e Exercício Profissional;qualidade|independência|ética|código|educação profissional|qualificação técnica|cadastro|contadores que;ética profissional, EPC, CNAI, revisão pelos pares;PCAOB AS 1220, PCAOB ET 101, PCAOB ET 102, PCAOB ET 191, PCAOB EI 1000, PCAOB QC 20, PCAOB QC 30, PCAOB QC 40, PCAOB QC 1000;sim
 Perícia contábil;Perícia Contábil;períci|perito|haveres;laudo pericial, perito judicial, apuração de haveres;;
 Uso do trabalho de terceiros;Auditoria Independente;especialistas|auditoria interna|prestadora de serviços|governança|auditores dos componentes;especialistas, auditoria interna, organização prestadora de serviços;;sim
 Procedimentos previamente acordados e compilação;Serviços Correlatos;previamente acordados|compilação;PPA, compilação, ISRS 4400, ISRS 4410;;sim

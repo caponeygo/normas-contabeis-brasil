@@ -16,6 +16,7 @@ Siglas usadas no repositório e no dia a dia contábil, com a norma onde o assun
 | IFRIC / SIC | Interpretações das IFRS (atuais / antigas) | No Brasil viram ICPC e ITG. |
 | ISSB | International Sustainability Standards Board | Emite IFRS S1 e S2 (no Brasil, NBC TDS 01 e 02). |
 | IAASB / ISA | Conselho internacional de auditoria / normas internacionais de auditoria | No Brasil, NBC TA (mesma numeração). |
+| PCAOB | Conselho de supervisão de auditoria de companhias abertas dos EUA (Public Company Accounting Oversight Board) | Seus padrões (AS, AT, ET, QC, EI) estão em [Padrões PCAOB (EUA)](areas/padroes-pcaob-eua.md); não são normas brasileiras. |
 | IPSAS | Normas internacionais do setor público | No Brasil, NBC TSP. |
 | NBC TG | Norma Brasileira de Contabilidade Técnica Geral | Equivale ao CPC. |
 | ITG / CTG / OTG | Interpretação / Comunicado / Orientação Técnica Geral | ITG ≈ ICPC; CTG ≈ OCPC. |

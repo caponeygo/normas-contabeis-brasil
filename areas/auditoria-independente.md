@@ -2,16 +2,16 @@
 
 **Use esta área para:** auditoria de demonstrações, NBC TA, ISA, relatório/parecer do auditor, riscos, evidência.
 
-39 normas. Índice de todas as áreas: [areas/README.md](README.md).
+56 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
 | Tema | Também chamado de | Normas |
 |---|---|---|
-| Fraude | erro, distorção intencional, ISA 240 | NBC TA 240 (R2) |
-| Riscos, materialidade e planejamento | avaliação de risco, materialidade, planejamento de auditoria | NBC TA 210 (R1), NBC TA 250, NBC TA 265, NBC TA 300 (R1), NBC TA 315 (R2), NBC TA 320 (R1), NBC TA 330 (R1), NBC TA 450 (R1) |
-| Evidência de auditoria | procedimentos de auditoria, circularização, amostragem | NBC TA 230 (R1), NBC TA 500 (R1), NBC TA 501, NBC TA 505, NBC TA 510 (R1), NBC TA 520, NBC TA 530, NBC TA 540 (R2), NBC TA 570 (R1), NBC TA 580 (R1) |
-| Relatório do auditor | parecer, opinião modificada, PAA, ressalva | NBC TA 700, NBC TA 701, NBC TA 705, NBC TA 706, NBC TA 720, NBC TA 810, NBC TAS 5000 |
+| Fraude | erro, distorção intencional, ISA 240 | NBC TA 240 (R2), PCAOB AS 2401 |
+| Riscos, materialidade e planejamento | avaliação de risco, materialidade, planejamento de auditoria | NBC TA 210 (R1), NBC TA 250, NBC TA 265, NBC TA 300 (R1), NBC TA 315 (R2), NBC TA 320 (R1), NBC TA 330 (R1), NBC TA 450 (R1), PCAOB AS 1101, PCAOB AS 2101, PCAOB AS 2105, PCAOB AS 2110, PCAOB AS 2201, PCAOB AS 2301 |
+| Evidência de auditoria | procedimentos de auditoria, circularização, amostragem | NBC TA 230 (R1), NBC TA 500 (R1), NBC TA 501, NBC TA 505, NBC TA 510 (R1), NBC TA 520, NBC TA 530, NBC TA 540 (R2), NBC TA 570 (R1), NBC TA 580 (R1), PCAOB AS 1105, PCAOB AS 1215, PCAOB AS 2305, PCAOB AS 2310, PCAOB AS 2315, PCAOB AS 2501, PCAOB AS 2805 |
+| Relatório do auditor | parecer, opinião modificada, PAA, ressalva | NBC TA 700, NBC TA 701, NBC TA 705, NBC TA 706, NBC TA 720, NBC TA 810, NBC TAS 5000, PCAOB AS 3101, PCAOB AS 3105, PCAOB AS 3110 |
 | Uso do trabalho de terceiros | especialistas, auditoria interna, organização prestadora de serviços | NBC TA 260 (R2), NBC TA 402, NBC TA 600 (R2), NBC TA 610, NBC TA 620 |
 
 ## Normas
@@ -57,6 +57,23 @@
 | **NBC TA 805** – Auditoria de Quadros Isolados e de Elementos, Contas ou Itens Específicos das Demonstrações Contábeis | Auditoria de uma única demonstração ou de conta/item específico (ex.: só o BP, só o saldo de receitas para royalties). | Relatório do auditor | ISA 805 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA805&arquivo=NBCTA805.doc) |
 | **NBC TA 810** – Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas | Relatório sobre demonstrações condensadas derivadas de demonstrações auditadas. | Relatório do auditor | ISA 810 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA810&arquivo=NBCTA810.doc) |
 | **NBC TAS 5000** – Asseguração de Relatórios de Sustentabilidade (ISSA 5000) | ISSA 5000: asseguração (limitada ou razoável) de relatórios de sustentabilidade, por auditor ou outro profissional. | Relatório de asseguração | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx) |
+| **PCAOB AS 1101** – Audit Risk | Risco de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1101) |
+| **PCAOB AS 1105** – Audit Evidence | Evidência de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) |
+| **PCAOB AS 1215** – Audit Documentation | Documentação de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) |
+| **PCAOB AS 2101** – Audit Planning | Planejamento da auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2101-audit-planning-2022) |
+| **PCAOB AS 2105** – Consideration of Materiality in Planning and Performing an Audit | Consideração da materialidade no planejamento e na execução de uma auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2105) |
+| **PCAOB AS 2110** – Identifying and Assessing Risks of Material Misstatement | Identificação e avaliação dos riscos de distorção relevante. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2110) |
+| **PCAOB AS 2201** – An Audit of Internal Control Over Financial Reporting That Is Integrated with An Audit of Financial Statements | Auditoria do controle interno sobre relatórios financeiros, integrada com a auditoria das demonstrações financeiras. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201) |
+| **PCAOB AS 2301** – The Auditor's Responses to the Risks of Material Misstatement | Respostas do auditor aos riscos de distorção relevante. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301) |
+| **PCAOB AS 2305** – Substantive Analytical Procedures | Procedimentos analíticos substantivos. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2305) |
+| **PCAOB AS 2310** – The Auditor’s Use of Confirmation | Uso de confirmações (circularização) pelo auditor. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2310) |
+| **PCAOB AS 2315** – Audit Sampling | Amostragem de auditoria. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2315) |
+| **PCAOB AS 2401** – Consideration of Fraud in a Financial Statement Audit | Consideração de fraude na auditoria de demonstrações financeiras. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2401) |
+| **PCAOB AS 2501** – Auditing Accounting Estimates, Including Fair Value Measurements | Auditoria de estimativas contábeis, incluindo mensurações a valor justo. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501) |
+| **PCAOB AS 2805** – Management Representations | Representações da administração. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2805) |
+| **PCAOB AS 3101** – The Auditor's Report on an Audit of Financial Statements When the Auditor Expresses an Unqualified Opinion | Relatório do auditor sobre uma auditoria de demonstrações financeiras quando expressa opinião sem ressalva. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3101) |
+| **PCAOB AS 3105** – Departures from Unqualified Opinions and Other Reporting Circumstances | Desvios da opinião sem ressalva e outras circunstâncias de emissão do relatório. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) |
+| **PCAOB AS 3110** – Dating of the Independent Auditor's Report | Datação do relatório do auditor independente. | Auditoria (padrão PCAOB) | — | [abrir](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3110) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -65,6 +82,7 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 
 - [ISA (IAASB) – Normas internacionais de auditoria e asseguração](https://www.iaasb.org/)
 - [NBC TA 240 (R2) – Responsabilidade do Auditor em Relação a Fraude](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA240(R2)&arquivo=NBCTA240(R2).docx)
+- [PCAOB AS 2401 – Consideration of Fraud in a Financial Statement Audit](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2401)
 - [NBC TA 210 (R1) – Concordância com os Termos do Trabalho de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA210(R1))
 - [NBC TA 250 – Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA250)
 - [NBC TA 265 – Comunicação de Deficiências de Controle Interno](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001210)
@@ -73,6 +91,12 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TA 320 (R1) – Materialidade no Planejamento e na Execução da Auditoria](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA320(R1))
 - [NBC TA 330 (R1) – Resposta do Auditor aos Riscos Avaliados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA330(R1))
 - [NBC TA 450 (R1) – Avaliação das Distorções Identificadas durante a Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA450(R1))
+- [PCAOB AS 1101 – Audit Risk](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1101)
+- [PCAOB AS 2101 – Audit Planning](https://pcaobus.org/oversight/standards/auditing-standards/details/as-2101-audit-planning-2022)
+- [PCAOB AS 2105 – Consideration of Materiality in Planning and Performing an Audit](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2105)
+- [PCAOB AS 2110 – Identifying and Assessing Risks of Material Misstatement](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2110)
+- [PCAOB AS 2201 – An Audit of Internal Control Over Financial Reporting That Is Integrated with An Audit of Financial Statements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201)
+- [PCAOB AS 2301 – The Auditor's Responses to the Risks of Material Misstatement](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301)
 - [NBC TA 230 (R1) – Documentação de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA230(R1))
 - [NBC TA 500 (R1) – Evidência de Auditoria](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA500(R1))
 - [NBC TA 501 – Evidência de Auditoria – Considerações Específicas para Itens Selecionados](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001218)
@@ -83,6 +107,13 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TA 540 (R2) – Auditoria de Estimativas Contábeis, Inclusive do Valor Justo, e Divulgações Relacionadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2019/NBCTA540(R2)&arquivo=NBCTA540(R2).doc)
 - [NBC TA 570 (R1) – Continuidade Operacional](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTA570(R1)&arquivo=NBCTA570(R1).docx)
 - [NBC TA 580 (R1) – Representações Formais](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA580(R1))
+- [PCAOB AS 1105 – Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105)
+- [PCAOB AS 1215 – Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215)
+- [PCAOB AS 2305 – Substantive Analytical Procedures](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2305)
+- [PCAOB AS 2310 – The Auditor’s Use of Confirmation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2310)
+- [PCAOB AS 2315 – Audit Sampling](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2315)
+- [PCAOB AS 2501 – Auditing Accounting Estimates, Including Fair Value Measurements](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2501)
+- [PCAOB AS 2805 – Management Representations](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2805)
 - [NBC TA 700 – Formação da Opinião e Emissão do Relatório do Auditor Independente](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA700.pdf)
 - [NBC TA 701 – Comunicação dos Principais Assuntos de Auditoria (PAA)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA701)
 - [NBC TA 705 – Modificações na Opinião do Auditor Independente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA705)
@@ -90,6 +121,9 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TA 720 – Responsabilidade do Auditor em Relação a Outras Informações](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTA720)
 - [NBC TA 810 – Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTA810&arquivo=NBCTA810.doc)
 - [NBC TAS 5000 – Asseguração de Relatórios de Sustentabilidade (ISSA 5000)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTAS5000&arquivo=NBCTAS5000.docx)
+- [PCAOB AS 3101 – The Auditor's Report on an Audit of Financial Statements When the Auditor Expresses an Unqualified Opinion](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3101)
+- [PCAOB AS 3105 – Departures from Unqualified Opinions and Other Reporting Circumstances](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105)
+- [PCAOB AS 3110 – Dating of the Independent Auditor's Report](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3110)
 - [NBC TA 260 (R2) – Comunicação com os Responsáveis pela Governança](https://cfc.org.br/wp-content/uploads/2026/06/NBCTA260-R2-2.pdf)
 - [NBC TA 402 – Considerações de Auditoria para Entidade que Utiliza Organização Prestadora de Serviços](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001215)
 - [NBC TA 600 (R2) – Auditorias de Demonstrações Contábeis de Grupos, Incluindo o Trabalho dos Auditores dos Componentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/NBCTA600(R2)&arquivo=NBC%20TA%20600%20(R2).doc)
