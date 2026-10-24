@@ -90,4 +90,4 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Qual padrão do PCAOB trata de fraude na auditoria? | normas/ficha/pcaob-as-2401.md, areas/auditoria-independente.md, normas/ficha/nbc-ta-240-r2.md | normas/ficha/pcaob-as-2401.md |
 | ✅ | O que é a QC 1000 do PCAOB e quando começa a valer? | normas/mudancas-futuras.md, normas/ficha/pcaob-qc-1000.md, normas/ficha/pcaob-qc-30.md | normas/ficha/pcaob-qc-1000.md |
 | ✅ | PCAOB AS 2201 auditoria do controle interno sobre relatórios financeiros | normas/ficha/pcaob-as-2201.md, areas/padroes-pcaob-eua.md, areas/auditoria-independente.md | normas/ficha/pcaob-as-2201.md |
-| ✅ | A AS 2901 do PCAOB vai mudar em dezembro de 2026? | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md, normas/mudancas-futuras.md, normas/ficha/pcaob-as-2901-nova-a-partir-de-15-12-2026.md | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md |
+| ✅ | A AS 2901 do PCAOB vai mudar em dezembro de 2026? | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md, normas/ficha/pcaob-as-2901-nova-a-partir-de-15-12-2026.md, normas/mudancas-futuras.md | normas/ficha/pcaob-as-2901-versao-ate-14-12-2026.md |
