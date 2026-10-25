@@ -9,6 +9,7 @@
 | Tema | Também chamado de | Normas |
 |---|---|---|
 | Instrumentos financeiros | derivativos, hedge, perda esperada, PCLD, aplicações, IFRS 9 | NBC TG 39 (R5), NBC TG 40 (R3), NBC TG 48, ITG 16 (R2), NBC TSP 30 (R1), NBC TSP 31 (R1), NBC TSP 32 (R1), NBC TSP 33 (R1), IFRS 7, IFRS 9, IAS 32, IFRIC 16, IFRIC 19 |
+| Perda esperada em contas a receber (PCLD) | perda esperada, PCLD, provisão para devedores duvidosos, inadimplência, crédito de liquidação duvidosa, duplicatas a receber, perda de crédito esperada, matriz de provisão, IFRS 9 | NBC TG 48 |
 
 ## Normas
 

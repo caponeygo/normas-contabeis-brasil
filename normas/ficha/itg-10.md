@@ -15,9 +15,9 @@ url_oficial: https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/00
 
 **Equivalentes:** ICPC 10
 
-**Áreas:** [Ativos](../../areas/ativos.md), [Fundamentos](../../areas/fundamentos.md)
+**Áreas:** [Ativos](../../areas/ativos.md), [Fundamentos](../../areas/fundamentos.md), [Setor Público](../../areas/setor-publico.md)
 
-**Temas:** Imobilizado, Propriedade para investimento, Adoção inicial
+**Temas:** Imobilizado, Propriedade para investimento, Adoção inicial, Ativos e patrimônio no setor público
 
 ## Fonte
 

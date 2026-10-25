@@ -16,9 +16,9 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NB
 
 **Equivalentes:** CPC 27 · IAS 16
 
-**Áreas:** [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
+**Áreas:** [Ativos](../../areas/ativos.md), [Setor Público](../../areas/setor-publico.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Imobilizado, Custos e despesas
+**Temas:** Imobilizado, Ativos e patrimônio no setor público, Custos e despesas
 
 ## Trechos por setor
 

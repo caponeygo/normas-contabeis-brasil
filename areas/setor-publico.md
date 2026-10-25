@@ -2,18 +2,21 @@
 
 **Use esta área para:** governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP).
 
-40 normas. Índice de todas as áreas: [areas/README.md](README.md).
+43 normas. Índice de todas as áreas: [areas/README.md](README.md).
 
 ## Temas desta área
 
 | Tema | Também chamado de | Normas |
 |---|---|---|
 | Custos no setor público | custos governamentais | NBC TSP 34 |
+| Ativos e patrimônio no setor público | prefeitura, município, estado, órgão público, escola, hospital público, imobilizado público, bens públicos, depreciação no setor público | NBC TG 27 (R4), ITG 10, NBC TSP 09 (R1), NBC TSP 37, IAS 16 |
 
 ## Normas
 
 | Norma | O que trata | Afeta | CPC / Internacional | Texto |
 |---|---|---|---|---|
+| **NBC TG 27 (R4)** – Ativo Imobilizado | Ativo imobilizado: o que entra no custo (inclusive desmontagem), depreciação pela vida útil e valor residual revisados anualmente, componentização, gastos subsequentes e baixa. Reavaliação existe na norma, mas é vedada no Brasil pela Lei 11.638. | BP, DRE (depreciação, ganho/perda na baixa), NE | [CPC 27](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58) · IAS 16 | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc) |
+| **ITG 10** – Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento | Aplicação inicial (2010) ao imobilizado e propriedade para investimento: permitiu o custo atribuído (deemed cost) a valor justo na adoção e exigiu revisar vida útil e valor residual. | BP, DMPL (ajuste de avaliação patrimonial) | [ICPC 10](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=19) | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001263) |
 | **NBC TSP Estrutura Conceitual (R1)** – Estrutura Conceitual para Informação Contábil de Propósito Geral pelas Entidades do Setor Público | Base conceitual do setor público: usuários, prestação de contas (accountability), elementos (ativo, passivo, receita, despesa) e mensuração no governo. | Todas (conceitos) | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSPEC(R1)&arquivo=NBCTSP_Estrutura(R1).docx) |
 | **NBC TSP 01** – Receita de Transação sem Contraprestação | Receita sem contraprestação: tributos e transferências; reconhece pelo fato gerador ou pela transferência, com passivo se houver condição. | DVP, BP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc) |
 | **NBC TSP 02** – Receita de Transação com Contraprestação | Receita com contraprestação (venda de bens e serviços pelo ente público). | DVP | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc) |
@@ -54,6 +57,7 @@
 | **CTSP 01** – Provisões, Passivos Contingentes e Ativos Contingentes | Orientação prática sobre provisões e contingências nos entes públicos. | BP, NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc) |
 | **CTSP 02** – Notas Explicativas | Orientação sobre notas explicativas no setor público. | NE | — | [abrir](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc) |
 | **NBC TASP** – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020) | Não é uma norma com texto próprio: a Res. CFC 1.601/2020 manda aplicar as NBC TA (inclusive a estrutura conceitual) à auditoria de informação contábil histórica no setor público, no que couber, em linha com as ISSAI/INTOSAI. Substituiu as antigas NBC TAG. Obrigatória desde 1/1/2026 (Res. CFC 1.753/2024). | Auditoria no setor público | — | [abrir](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601) |
+| **IAS 16** – Ativo Imobilizado | Ativo imobilizado: o que entra no custo (inclusive desmontagem), depreciação pela vida útil e valor residual revisados anualmente, componentização, gastos subsequentes e baixa. Reavaliação existe na norma, mas é vedada no Brasil pela Lei 11.638. | BP, DRE (depreciação, ganho/perda na baixa), NE | [CPC 27](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58) · NBC TG 27 | [abrir](https://www.ifrs.org/issued-standards/list-of-standards/) |
 
 <!-- fontes:inicio -->
 ## Fontes
@@ -62,6 +66,14 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 
 - [NBC TASP – Auditoria de Informação Contábil Histórica Aplicável ao Setor Público (Res. CFC 1.601/2020)](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2020/001601)
 - [NBC TSP 34 – Custos no Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2021/NBCTSP34&arquivo=NBCTSP34.doc)
+- [NBC TG 27 (R4) – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017/NBCTG27(R4)&arquivo=NBCTG27(R4)_rev18.doc)
+- [ITG 10 – Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2009/001263)
+- [NBC TSP 09 (R1) – Redução ao Valor Recuperável de Ativo Não Gerador de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP09(R1)&arquivo=NBCTSP09(R1).docx)
+- [NBC TSP 37 – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP37&arquivo=NBC_TSP_37.docx)
+- [IAS 16 – Ativo Imobilizado](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [Lei 11.638/2007 – Altera a Lei 6.404 (convergência às normas internacionais)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11638.htm)
+- [CPC 27 – Ativo Imobilizado](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58)
+- [ICPC 10 – Interpretação sobre a Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento dos Pronunciamentos Técnicos CPCs 27, 28, 37 e 43](https://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretacoes/Interpretacao?Id=19)
 - [NBC TSP Estrutura Conceitual (R1) – Estrutura Conceitual para Informação Contábil de Propósito Geral pelas Entidades do Setor Público](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSPEC(R1)&arquivo=NBCTSP_Estrutura(R1).docx)
 - [NBC TSP 01 – Receita de Transação sem Contraprestação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP01&arquivo=NBCTSP01.doc)
 - [NBC TSP 02 – Receita de Transação com Contraprestação](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSP02&arquivo=NBCTSP02.doc)
@@ -70,7 +82,6 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TSP 05 (R1) – Contratos de Concessão de Serviços Públicos: Concedente](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP05(R1)&arquivo=NBCTSP05(R1).docx)
 - [NBC TSP 06 (R1) – Propriedade para Investimento](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP06(R1)&arquivo=NBCTSP06(R1).docx)
 - [NBC TSP 08 (R1) – Ativo Intangível](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP08(R1)&arquivo=NBCTSP08(R1).docx)
-- [NBC TSP 09 (R1) – Redução ao Valor Recuperável de Ativo Não Gerador de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP09(R1)&arquivo=NBCTSP09(R1).docx)
 - [NBC TSP 10 (R1) – Redução ao Valor Recuperável de Ativo Gerador de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP10(R1)&arquivo=NBCTSP10(R1).docx)
 - [NBC TSP 11 (R1) – Apresentação das Demonstrações Contábeis](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP11(R1)&arquivo=NBCTSP11(R1).docx)
 - [NBC TSP 12 (R1) – Demonstração dos Fluxos de Caixa](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP12(R1)&arquivo=NBCTSP12(R1).docx)
@@ -96,7 +107,6 @@ Textos oficiais citados nesta página (os resumos e explicações foram elaborad
 - [NBC TSP 32 (R1) – Instrumentos Financeiros: Contabilidade de Hedge (Aplicação Residual)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP32(R1)&arquivo=NBCTSP32(R1).docx)
 - [NBC TSP 33 (R1) – Instrumentos Financeiros: Divulgações](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP33(R1)&arquivo=NBCTSP33(R1).docx)
 - [NBC TSP 35 – Arrendamentos](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP35&arquivo=NBCTSP35.docx)
-- [NBC TSP 37 – Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NBCTSP37&arquivo=NBC_TSP_37.docx)
 - [NBC TSP 38 – Mensuração](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2026/NBCTSP38&arquivo=NBCTSP38.docx)
 - [CTSP 01 – Provisões, Passivos Contingentes e Ativos Contingentes](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2023/CTSP01&arquivo=CTSP_01.doc)
 - [CTSP 02 – Notas Explicativas](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2024/CTSP02&arquivo=CTSP-02.doc)

@@ -14,7 +14,7 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Áreas:** [Setor Público](../../areas/setor-publico.md), [Ativos](../../areas/ativos.md)
 
-**Temas:** Redução ao valor recuperável (impairment)
+**Temas:** Redução ao valor recuperável (impairment), Ativos e patrimônio no setor público
 
 ## Fonte
 

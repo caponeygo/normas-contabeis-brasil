@@ -2,7 +2,7 @@
 
 Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.json`, uma busca por palavras-chave (BM25) ranqueia os arquivos do repositório. Passa quando um arquivo esperado aparece entre os 3 primeiros e cita as normas esperadas.
 
-**Acerto: 83/85 (98%)**
+**Acerto: 85/85 (100%)**
 
 | | Pergunta | 3 primeiros arquivos | Arquivo esperado encontrado |
 |---|---|---|---|
@@ -11,7 +11,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Aluguel de loja em shopping com aluguel percentual sobre vendas | setores/varejo/04-lojas-e-arrendamentos.md, setores/varejo/README.md, normas/ficha/nbc-tg-06-r3.md | setores/varejo/04-lojas-e-arrendamentos.md |
 | ✅ | No marketplace a receita é o valor total ou só a comissão? | setores/varejo/02-vendas-e-receita.md, lancamentos/receitas.md, setores/varejo/README.md | setores/varejo/02-vendas-e-receita.md |
 | ✅ | Vale-presente não utilizado vira receita? | setores/varejo/02-vendas-e-receita.md, setores/varejo/README.md, normas/ficha/nbc-tg-12-r1.md | setores/varejo/02-vendas-e-receita.md |
-| ✅ | Antecipação de recebíveis de cartão baixa o contas a receber? | setores/varejo/03-cartoes-e-recebiveis.md, setores/varejo/README.md, lancamentos/README.md | setores/varejo/03-cartoes-e-recebiveis.md |
+| ✅ | Antecipação de recebíveis de cartão baixa o contas a receber? | setores/varejo/03-cartoes-e-recebiveis.md, setores/varejo/README.md, normas/ficha/nbc-tg-48.md | setores/varejo/03-cartoes-e-recebiveis.md |
 | ✅ | Quando reconhecer a receita de assinatura SaaS? | setores/servicos/02-saas-software-e-licencas.md, setores/servicos/README.md, normas/ficha/nbc-tg-47.md | setores/servicos/02-saas-software-e-licencas.md |
 | ✅ | Comissão de vendas paga ao vendedor pode virar ativo? | lancamentos/receitas.md, setores/servicos/02-saas-software-e-licencas.md, setores/varejo/02-vendas-e-receita.md | setores/servicos/02-saas-software-e-licencas.md |
 | ✅ | Provisão mensal de férias e 13º salário | lancamentos/pessoal-e-provisoes.md, setores/servicos/03-pessoal-e-beneficios.md, setores/servicos/README.md | lancamentos/pessoal-e-provisoes.md |
@@ -34,14 +34,14 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Lançamento da provisão para garantia de produtos | lancamentos/receitas.md, setores/industrial/03-vendas-e-pos-venda.md, lancamentos/README.md | lancamentos/receitas.md |
 | ✅ | Lançamento do direito de uso e passivo de arrendamento | lancamentos/imobilizado-e-arrendamentos.md, setores/varejo/04-lojas-e-arrendamentos.md, normas/ficha/ifrs-16.md | lancamentos/imobilizado-e-arrendamentos.md |
 | ✅ | Quando o auditor emite opinião com ressalva? | normas/ficha/nbc-ta-705.md, normas/ficha/pcaob-as-3101.md, normas/ficha/pcaob-as-3105.md | normas/ficha/nbc-ta-705.md |
-| ❌ | Prefeitura: como registrar o imobilizado de uma escola? | normas/ficha/nbc-tsp-09-r1.md, setores/construcao/01-incorporacao-imobiliaria.md, normas/ficha/ctg-01.md | — |
+| ✅ | Prefeitura: como registrar o imobilizado de uma escola? | areas/setor-publico.md, normas/ficha/nbc-tsp-09-r1.md, setores/construcao/01-incorporacao-imobiliaria.md | areas/setor-publico.md |
 | ✅ | Teste de impairment do ágio goodwill | normas/ficha/ias-36.md, normas/ficha/nbc-tg-01-r4.md, normas/ficha/ifrs-3.md | normas/ficha/ias-36.md |
 | ✅ | Imposto de renda diferido sobre prejuízo fiscal | normas/ficha/ias-12.md, normas/ficha/nbc-tg-32-r4.md, areas/tributos.md | normas/ficha/ias-12.md |
 | ✅ | Microempresa deve usar qual norma contábil? | normas/nbc-tg-pequenas-e-medias-empresas-e-microentidades.md, areas/pequenas-e-medias-empresas.md, setores/servicos/04-escritorios-tributos-e-pequenas.md | areas/pequenas-e-medias-empresas.md |
 | ✅ | Contabilização de créditos de carbono e CBIO | normas/ficha/ctg-10.md, setores/agronegocio/04-usinas-carbono-e-auditoria.md, areas/sustentabilidade.md | normas/ficha/ctg-10.md |
 | ✅ | Perícia contábil: laudo de apuração de haveres | areas/pericia-contabil.md, normas/ficha/itp-01.md, normas/nbc-tp-pericia.md | areas/pericia-contabil.md |
 | ✅ | Código de ética profissional do contador | normas/ficha/nbc-pg-01.md, normas/ficha/nbc-pg-200-r1.md, normas/ficha/nbc-pg-300-r1.md | normas/ficha/nbc-pg-01.md |
-| ✅ | Hedge de preço de commodities agrícolas | setores/agronegocio/03-credito-rural-hedge-e-cpr.md, normas/ficha/nbc-tg-48.md, normas/ficha/nbc-tg-02-r3.md | setores/agronegocio/03-credito-rural-hedge-e-cpr.md |
+| ✅ | Hedge de preço de commodities agrícolas | setores/agronegocio/03-credito-rural-hedge-e-cpr.md, normas/ficha/nbc-tg-02-r3.md, normas/ficha/nbc-tg-48.md | setores/agronegocio/03-credito-rural-hedge-e-cpr.md |
 | ✅ | Incentivo fiscal de ICMS crédito presumido e reserva de incentivos fiscais | lancamentos/tributos-e-subvencoes.md, setores/industrial/04-tributos-e-incentivos.md, lancamentos/README.md | lancamentos/tributos-e-subvencoes.md |
 | ✅ | Variação cambial de fornecedor estrangeiro na importação | lancamentos/instrumentos-financeiros-e-cambio.md, setores/industrial/06-commodities-cambio-e-hedge.md, normas/ficha/ias-21.md | lancamentos/instrumentos-financeiros-e-cambio.md |
 | ✅ | Auditor acompanha o inventário físico dos estoques | setores/industrial/10-auditoria-na-industria.md, setores/varejo/01-mercadorias-e-cmv.md, normas/ficha/pcaob-as-2510.md | setores/industrial/10-auditoria-na-industria.md |
@@ -53,7 +53,7 @@ Gerado por `scripts/testar_busca.py`: para cada pergunta de `testes/perguntas.js
 | ✅ | Qual norma substitui a NBC TG 26 a partir de 2027? | normas/ficha/ias-1.md, normas/ficha/nbc-tg-26-r5.md, normas/mudancas-futuras.md | normas/ficha/nbc-tg-26-r5.md |
 | ✅ | NBC TO 3410 gases de efeito estufa está em vigor? | normas/ficha/nbc-to-3410.md, areas/asseguracao.md, normas/nbc-to-asseguracao.md | normas/ficha/nbc-to-3410.md |
 | ✅ | Qual a norma de arrendamento mercantil, o direito de uso? | lancamentos/imobilizado-e-arrendamentos.md, normas/ficha/nbc-tsp-35.md, normas/ficha/ifrs-16.md | lancamentos/imobilizado-e-arrendamentos.md |
-| ❌ | Como contabilizar perda esperada de crédito em contas a receber? | setores/varejo/03-cartoes-e-recebiveis.md, lancamentos/bancos.md, lancamentos/README.md | — |
+| ✅ | Como contabilizar perda esperada de crédito em contas a receber? | setores/varejo/03-cartoes-e-recebiveis.md, normas/ficha/nbc-tg-48.md, lancamentos/bancos.md | normas/ficha/nbc-tg-48.md |
 | ✅ | Quando o auditor emite opinião com ressalva? | normas/ficha/nbc-ta-705.md, normas/ficha/pcaob-as-3101.md, normas/ficha/pcaob-as-3105.md | normas/ficha/nbc-ta-705.md |
 | ✅ | Qual norma trata de eventos subsequentes ao período? | normas/ficha/nbc-tsp-25-r1.md, normas/ficha/nbc-ta-560-r1.md, normas/ficha/ias-10.md | normas/ficha/ias-10.md |
 | ✅ | Como tratar ativo biológico na colheita de cana? | normas/ficha/nbc-tg-29-r2.md, lancamentos/agro.md, setores/agronegocio/01-ativo-biologico-e-colheita.md | normas/ficha/nbc-tg-29-r2.md |

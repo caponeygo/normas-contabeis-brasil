@@ -26,7 +26,7 @@ Cada área tem um arquivo com o resumo de cada norma, o que ela afeta e o link o
 | **Receitas** | reconhecimento de receita, contrato com cliente, subvenções e incentivos fiscais | 6 | [receitas.md](receitas.md) |
 | **Revisão** | revisão de ITR e demonstrações (segurança limitada) | 7 | [revisao.md](revisao.md) |
 | **Serviços Correlatos** | procedimentos previamente acordados, compilação | 8 | [servicos-correlatos.md](servicos-correlatos.md) |
-| **Setor Público** | governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP) | 40 | [setor-publico.md](setor-publico.md) |
+| **Setor Público** | governo, prefeituras, autarquias, NBC TSP, IPSAS, auditoria do setor público (NBC TASP) | 43 | [setor-publico.md](setor-publico.md) |
 | **Setores Específicos** | seguros, concessões, energia, incorporação imobiliária, mineração, terceiro setor, cooperativas, clubes | 28 | [setores-especificos.md](setores-especificos.md) |
 | **Sustentabilidade** | ESG, clima, IFRS S1/S2, carbono, relato integrado | 8 | [sustentabilidade.md](sustentabilidade.md) |
 | **Tributos** | IR e CSLL, imposto diferido, incerteza fiscal, taxas e tributos, reforma tributária (IBS e CBS) | 7 | [tributos.md](tributos.md) |
@@ -92,6 +92,8 @@ Trechos das normas que importam para cada tipo de empresa, com itens, checklist 
 | **Entidades específicas** | terceiro setor, ONG, cooperativas, clubes, fundos de pensão | [Setores Específicos](setores-especificos.md) | NBC TG 900, OTG 2003 (R1), ITG 2001, ITG 2002 (R1), ITG 2003 (R2), ITG 2004, IFRIC 2 |
 | **Sustentabilidade e clima** | ESG, ISSB, IFRS S1, IFRS S2, créditos de carbono | [Sustentabilidade](sustentabilidade.md) | CTG 09, CTG 10, NBC T 15, NBC TDS 01, NBC TDS 02, NBC TAS 5000, NBC TO 3410, CTO 01, CTO 07, IFRS S1, IFRS S2 |
 | **Custos no setor público** | custos governamentais | [Setor Público](setor-publico.md) | NBC TSP 34 |
+| **Ativos e patrimônio no setor público** | prefeitura, município, estado, órgão público, escola, hospital público, imobilizado público, bens públicos, depreciação no setor público | [Setor Público](setor-publico.md) | NBC TG 27 (R4), ITG 10, NBC TSP 09 (R1), NBC TSP 37, IAS 16 |
+| **Perda esperada em contas a receber (PCLD)** | perda esperada, PCLD, provisão para devedores duvidosos, inadimplência, crédito de liquidação duvidosa, duplicatas a receber, perda de crédito esperada, matriz de provisão, IFRS 9 | [Instrumentos Financeiros](instrumentos-financeiros.md) | NBC TG 48 |
 | **Fraude** | erro, distorção intencional, ISA 240 | [Auditoria Independente](auditoria-independente.md) | NBC TA 240 (R2), PCAOB AS 2401 |
 | **Riscos, materialidade e planejamento** | avaliação de risco, materialidade, planejamento de auditoria | [Auditoria Independente](auditoria-independente.md) | NBC TA 210 (R1), NBC TA 250, NBC TA 265, NBC TA 300 (R1), NBC TA 315 (R2), NBC TA 320 (R1), NBC TA 330 (R1), NBC TA 450 (R1), CTSC 04, PCAOB AS 1101, PCAOB AS 2101, PCAOB AS 2105, PCAOB AS 2110, PCAOB AS 2201, PCAOB AS 2301 |
 | **Evidência de auditoria** | procedimentos de auditoria, circularização, amostragem | [Auditoria Independente](auditoria-independente.md) | NBC TA 230 (R1), NBC TA 500 (R1), NBC TA 501, NBC TA 505, NBC TA 510 (R1), NBC TA 520, NBC TA 530, NBC TA 540 (R2), NBC TA 570 (R1), NBC TA 580 (R1), PCAOB AS 1105, PCAOB AS 1215, PCAOB AS 2305, PCAOB AS 2310, PCAOB AS 2315, PCAOB AS 2501, PCAOB AS 2805 |

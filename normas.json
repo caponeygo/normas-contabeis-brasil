@@ -169,6 +169,16 @@
    "sinonimos": "custos governamentais"
   },
   {
+   "tema": "Ativos e patrimônio no setor público",
+   "area": "Setor Público",
+   "sinonimos": "prefeitura, município, estado, órgão público, escola, hospital público, imobilizado público, bens públicos, depreciação no setor público"
+  },
+  {
+   "tema": "Perda esperada em contas a receber (PCLD)",
+   "area": "Instrumentos Financeiros",
+   "sinonimos": "perda esperada, PCLD, provisão para devedores duvidosos, inadimplência, crédito de liquidação duvidosa, duplicatas a receber, perda de crédito esperada, matriz de provisão, IFRS 9"
+  },
+  {
    "tema": "Fraude",
    "area": "Auditoria Independente",
    "sinonimos": "erro, distorção intencional, ISA 240"
@@ -1536,10 +1546,12 @@
    "observacao_vigencia": null,
    "temas": [
     "Imobilizado",
+    "Ativos e patrimônio no setor público",
     "Custos e despesas"
    ],
    "areas": [
     "Ativos",
+    "Setor Público",
     "Custos e Despesas"
    ],
    "relacionadas": [],
@@ -2692,7 +2704,8 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Instrumentos financeiros"
+    "Instrumentos financeiros",
+    "Perda esperada em contas a receber (PCLD)"
    ],
    "areas": [
     "Instrumentos Financeiros"
@@ -3088,11 +3101,13 @@
    "temas": [
     "Imobilizado",
     "Propriedade para investimento",
-    "Adoção inicial"
+    "Adoção inicial",
+    "Ativos e patrimônio no setor público"
    ],
    "areas": [
     "Ativos",
-    "Fundamentos"
+    "Fundamentos",
+    "Setor Público"
    ],
    "relacionadas": [],
    "setores": [],
@@ -5777,7 +5792,8 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Redução ao valor recuperável (impairment)"
+    "Redução ao valor recuperável (impairment)",
+    "Ativos e patrimônio no setor público"
    ],
    "areas": [
     "Setor Público",
@@ -6545,7 +6561,8 @@
    "vigente_a_partir_de": null,
    "observacao_vigencia": null,
    "temas": [
-    "Imobilizado"
+    "Imobilizado",
+    "Ativos e patrimônio no setor público"
    ],
    "areas": [
     "Setor Público",
@@ -8738,11 +8755,13 @@
    "observacao_vigencia": null,
    "temas": [
     "Imobilizado",
+    "Ativos e patrimônio no setor público",
     "Custos e despesas"
    ],
    "areas": [
     "Normas Internacionais",
     "Ativos",
+    "Setor Público",
     "Custos e Despesas"
    ],
    "relacionadas": [],

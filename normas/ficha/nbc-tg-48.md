@@ -18,7 +18,7 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NB
 
 **Áreas:** [Instrumentos Financeiros](../../areas/instrumentos-financeiros.md)
 
-**Temas:** Instrumentos financeiros
+**Temas:** Instrumentos financeiros, Perda esperada em contas a receber (PCLD)
 
 ## Trechos por setor
 

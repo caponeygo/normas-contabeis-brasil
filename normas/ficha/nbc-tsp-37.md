@@ -14,7 +14,7 @@ url_oficial: https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025/NB
 
 **Áreas:** [Setor Público](../../areas/setor-publico.md), [Ativos](../../areas/ativos.md)
 
-**Temas:** Imobilizado
+**Temas:** Imobilizado, Ativos e patrimônio no setor público
 
 ## Fonte
 

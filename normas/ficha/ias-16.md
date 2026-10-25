@@ -16,9 +16,9 @@ url_oficial: https://www.ifrs.org/issued-standards/list-of-standards/
 
 **Equivalentes:** CPC 27 · NBC TG 27
 
-**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
+**Áreas:** [Normas Internacionais](../../areas/normas-internacionais.md), [Ativos](../../areas/ativos.md), [Setor Público](../../areas/setor-publico.md), [Custos e Despesas](../../areas/custos-e-despesas.md)
 
-**Temas:** Imobilizado, Custos e despesas
+**Temas:** Imobilizado, Ativos e patrimônio no setor público, Custos e despesas
 
 ## Fonte
 
